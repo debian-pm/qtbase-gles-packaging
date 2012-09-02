@@ -1,0 +1,7 @@
+#usr/bin/qdoc
+usr/bin/moc-qt5
+usr/bin/qdbuscpp2xml
+usr/bin/qdbusxml2cpp
+usr/bin/rcc
+usr/bin/syncqt
+usr/bin/uic-qt5

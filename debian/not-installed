@@ -1,0 +1,12 @@
+usr/lib/*/libQtConcurrent.la
+usr/lib/*/libQtCore.la
+usr/lib/*/libQtDBus.la
+usr/lib/*/libQtGui.la
+usr/lib/*/libQtNetwork.la
+usr/lib/*/libQtOpenGL.la
+usr/lib/*/libQtPlatformSupport.la
+usr/lib/*/libQtPrintSupport.la
+usr/lib/*/libQtSql.la
+usr/lib/*/libQtTest.la
+usr/lib/*/libQtWidgets.la
+usr/lib/*/libQtXml.la

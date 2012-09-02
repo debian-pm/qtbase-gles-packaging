@@ -1,0 +1,277 @@
+#!/usr/bin/make -f
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+DEB_HOST_MULTIARCH ?= $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
+
+export PATH := $(PATH):$(shell pwd)/bin
+export CFLAGS := $(shell dpkg-buildflags --get CFLAGS) $(shell dpkg-buildflags --get CPPFLAGS)
+export CXXFLAGS := $(shell dpkg-buildflags --get CXXFLAGS) $(shell dpkg-buildflags --get CPPFLAGS)
+export LDFLAGS := $(shell dpkg-buildflags --get LDFLAGS) -Wl,--as-needed
+
+# Packages with own debug package
+pkgs_dbg := $(shell dh_listpackages | grep dbg | sed -e '/qtbase5-dbg/d; s|-dbg||')
+# Packages whose debug symbols belong to qt4-bin-dbg
+pkgs_dbgbin := qtbase5-dev-bin $(filter-out %-dbg lib% $(pkgs_dbg),$(shell dh_listpackages))
+# Library package list for override_dh_makeshlibs, excludes -dev -dbg -bin
+pkgs_lib := $(filter-out %-dev %-dbg %-bin,$(filter lib%,$(shell dh_listpackages)))
+# Upstream changelog
+upstream_changes := $(wildcard dist/changes-*)
+# Current debian version (e.g.: 4:4.5.2-1)
+current_version := $(shell dpkg-parsechangelog | sed -n 's/^Version: //p')
+# Specific shlibs version (e.g.: 4:4.5.2)
+shlibs_version := $(shell dpkg-parsechangelog | sed -n 's/^Version: //p' | cut -f1 -d '-')
+# Distribution vendor
+vendor := $(shell dpkg-vendor --query Vendor)
+
+ifneq (,$(filter %-sql-ibase,$(shell dh_listpackages)))
+	extra_configure_opts += -plugin-sql-ibase
+else
+	extra_configure_opts += -no-sql-ibase
+endif
+
+ifneq (,$(filter %-sql-sqlite2,$(shell dh_listpackages)))
+	extra_configure_opts += -plugin-sql-sqlite2
+else
+	extra_configure_opts += -no-sql-sqlite2
+endif
+
+ifeq ($(DEB_HOST_ARCH),arm)
+	extra_configure_opts += -no-pch
+endif
+
+armv6_architectures := armhf
+ifeq ($(vendor),Ubuntu)
+	armv6_architectures += armel
+endif
+ifeq ($(DEB_HOST_ARCH),$(findstring $(DEB_HOST_ARCH), $(armv6_architectures)))
+	extra_configure_opts += -arch armv6
+endif
+
+ifeq ($(vendor),Ubuntu)
+gles2_architectures := armel armhf
+else
+gles2_architectures := none_for_now
+endif
+ifeq ($(DEB_HOST_ARCH),$(findstring $(DEB_HOST_ARCH), $(gles2_architectures)))
+	extra_configure_opts += -opengl es2
+else
+	extra_configure_opts += -opengl desktop \
+	                        -no-egl
+endif
+
+ifeq ($(DEB_HOST_ARCH_OS),linux)
+  ifneq (,$(filter $(DEB_HOST_ARCH),alpha ia64))
+	platform_arg = linux-g++
+  else ifeq ($(DEB_HOST_ARCH_BITS),64)
+	platform_arg = linux-g++-64
+  else
+	platform_arg = linux-g++
+  endif
+else
+  ifeq ($(DEB_HOST_ARCH_OS),hurd)
+	platform_arg = hurd-g++
+  else
+	platform_arg = glibc-g++
+  endif
+endif
+
+ifneq ($(DEB_HOST_ARCH),ia64)
+	extra_dh_opts += --parallel
+endif
+
+%:
+	dh $@ $(extra_dh_opts) --with pkgkde_symbolshelper
+
+override_dh_auto_configure:
+	# Test broken hppa kernel with glibc >= 2.5
+ifeq ($(DEB_HOST_ARCH),hppa)
+	mkdir -p debian/hppa-tmp
+	echo "Testing whether getdents kernel bug is present on this buildd - see #433768"
+	gcc -o debian/hppa-tmp/hppa-test-program debian/readdir-hppa-test.c
+	cd $(CURDIR)/doc/src/images && $(CURDIR)/debian/hppa-tmp/hppa-test-program | sort > $(CURDIR)/debian/hppa-tmp/readdir_r-out
+	cd $(CURDIR)/doc/src/images && ls -a | sort > $(CURDIR)/debian/hppa-tmp/ls-a-out
+	@if ! diff -q $(CURDIR)/debian/hppa-tmp/readdir_r-out $(CURDIR)/debian/hppa-tmp/ls-a-out ; \
+		then \
+		echo "Kernel bug present. This will misbuild qt4 if proceeding. Failing" ; \
+		echo "Please update kernel and test again" ; \
+		exit 5 ; \
+	fi
+endif
+
+	# Create mkspecs/glibc-g++ from mkspecs/linux-g++, needed by GNU/kFreeBSD
+	# we cannot use directly linux-g++ due to src/corelib/io/io.pri
+	rm -rf mkspecs/glibc-g++
+	cp -a mkspecs/linux-g++ mkspecs/glibc-g++
+
+	./configure -confirm-license \
+	            -prefix "/usr" \
+	            -bindir "/usr/bin" \
+	            -libdir "/usr/lib/$(DEB_HOST_MULTIARCH)" \
+	            -docdir "/usr/share/qt5/doc" \
+	            -headerdir "/usr/include/qt5" \
+	            -datadir "/usr/share/qt5" \
+	            -plugindir "/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/plugins" \
+	            -importdir "/usr/lib/qt5/imports" \
+	            -translationdir "/usr/share/qt5/translations" \
+	            -sysconfdir "/etc/xdg" \
+	            -examplesdir "/usr/lib/qt5/examples" \
+	            -opensource \
+	            -no-c++11 \
+	            -fast \
+	            -plugin-sql-mysql \
+	            -plugin-sql-odbc \
+	            -plugin-sql-psql \
+	            -plugin-sql-sqlite \
+	            -plugin-sql-tds \
+	            -system-sqlite \
+	            -platform $(platform_arg) \
+	            -system-zlib \
+	            -system-libpng \
+	            -system-libjpeg \
+	            -openssl \
+	            -no-rpath \
+	            -verbose \
+	            -optimized-qmake \
+	            -dbus-linked \
+	            -reduce-relocations \
+	            -no-separate-debug-info \
+	            -xcb \
+	            -glib \
+	            $(extra_configure_opts)
+
+override_dh_auto_clean:
+	[ ! -f Makefile ] || $(MAKE) confclean distclean
+
+	# Extra stuff missed by confclean/distclean
+
+	# Misc. files
+	rm -f \
+	  config.status \
+	  config.tests/.qmake.cache \
+	  examples/dbus/*/Makefile.* \
+	  mkspecs/qconfig.pri \
+	  src/corelib/global/qconfig.* \
+	;
+
+	# Misc. directories
+	rm -rf \
+	  doc-build/ \
+	  doc/html/ \
+	  doc/qch/ \
+	  examples/tools/plugandpaint/plugins/ \
+	  examples/tools/styleplugin/styles/ \
+	  include/ \
+	  lib/ \
+	  mkspecs/glibc-g++/ \
+	  plugins/ \
+	;
+
+	# hppa test directory
+	rm -rf debian/hppa-tmp
+
+	# Leftover dirs
+	find -depth -type d \( -false \
+	  -o -name debug-shared \
+	  -o -name debug-static \
+	  -o -name \*.gch \
+	  -o -name .moc\* \
+	  -o -name .obj\* \
+	  -o -name .pch \
+	  -o -name pkgconfig \
+	  -o -name .rcc \
+	  -o -name release-shared \
+	  -o -name release-static \
+	  -o -name .uic \
+	\) -print0 | xargs -0 rm -rf
+
+	# Leftover files and all symlinks
+	find \( -false \
+	  -o -name \*.a \
+	  -o -name Makefile.Debug \
+	  -o -name Makefile.Release \
+	  -o -name \*.o \
+	  -o -name \*.prl \
+	  -o -name \*.so \
+	  -o -name \*.so.debug \
+	  -o -type l \
+	\) -print0 | xargs -0 rm -rf
+
+	# Delete all Makefiles, excluding some from src/3rdparty
+	find $(CURDIR) -name Makefile \
+	  ! -path $(CURDIR)/src/3rdparty/Makefile \
+	  ! -path $(CURDIR)/src/3rdparty/freetype/\* \
+	  ! -path $(CURDIR)/src/3rdparty/zlib/\* \
+	  ! -path $(CURDIR)/src/3rdparty/ptmalloc/Makefile \
+	-print0 | xargs -0 rm -rf
+
+	# Any remaining executables
+	find $(CURDIR) -type f -perm /u+x,g+x,o+x -exec file -i '{}' \; \
+	| grep -e application/x-executable \
+	| cut -d ':' -f 1 | xargs rm -f
+
+	# Generated on build
+	rm -f debian/shlibs.local
+	rm -f debian/stamp-makefile-build-tools
+
+ifeq ($(vendor),Ubuntu)
+	rm -rf po
+endif
+
+override_dh_auto_install:
+	dh_auto_install -Smakefile -- INSTALL_ROOT=$(CURDIR)/debian/tmp/
+
+	# Fix wrong path in pkgconfig files
+	find $(CURDIR)/debian/tmp/usr/lib/*/pkgconfig -type f -name '*.pc' \
+		-exec perl -pi -e "s, -L$(CURDIR)/?\S+,,g" {} \;
+	# Fix wrong path in prl files
+	find $(CURDIR)/debian/tmp/usr/lib -type f -name '*.prl' \
+		-exec sed -i -e "/^QMAKE_PRL_BUILD_DIR/d;s/\(QMAKE_PRL_LIBS =\).*/\1/" {} \;
+
+	# Remove leftover directories
+	find $(CURDIR)/debian/tmp/usr/lib/qt5 -depth -type d \( -false \
+	  -o -name .moc\* \
+	  -o -name .obj\* \
+	  -o -name .pch \
+	  -o -name .rcc \
+	\) -print0 | xargs -0 rm -rf
+
+	# Remove bogus exec bits from some data files in mkspecs, docs, examples
+	find debian/tmp/usr/share/qt5/ debian/tmp/usr/lib/qt5/ \
+		-perm /u+x,g+x,o+x -type f \
+		-regex '.*\.\(app\|conf\|cpp\|h\|js\|php\|png\|pro\|xml\|xsl\)$$' \
+		-exec chmod a-x {} \;
+
+override_dh_install:
+	dh_install --list-missing
+
+override_dh_installdocs:
+	dh_installdocs --all LGPL_EXCEPTION.txt
+
+override_dh_installchangelogs:
+	dh_installchangelogs $(upstream_changes)
+
+override_dh_strip:
+	$(foreach pkg,$(pkgs_dbg),dh_strip -p$(pkg) --dbg-package=$(pkg)-dbg;)
+	dh_strip $(foreach pkg,$(pkgs_dbgbin),-p$(pkg)) --dbg-package=qtbase5-bin-dbg
+	dh_strip --remaining-packages --dbg-package=qtbase5-dbg
+
+override_dh_makeshlibs:
+	# Specific shlibs version (e.g.: 4:4.5.2)
+	$(foreach pkg,$(pkgs_lib),dh_makeshlibs -p$(pkg) -V '$(pkg) (>= $(shlibs_version))' -- -c0;)
+	# Generate shlibs local files
+	for pkg in $(pkgs_lib); do \
+		if test -e debian/$${pkg}/DEBIAN/shlibs ; then \
+			sed 's/>=[^)]*/= $(current_version)/' debian/$${pkg}/DEBIAN/shlibs >> debian/shlibs.local ;\
+		fi \
+	done
+
+override_dh_builddeb:
+	dh_builddeb -- -Zxz
+
+override_dh_auto_test:
+
+prune-nonfree:
+	# Delete zlib's RFCs.
+	find \( -name rfc195* \) -print -delete

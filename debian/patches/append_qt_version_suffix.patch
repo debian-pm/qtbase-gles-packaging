@@ -1,0 +1,173 @@
+Author: Fathi Boudra <fabo@debian.org>
+Author: Pino Toscano <pino@kde.org>
+Description: Append a -qt${version} suffix to some tools.
+ To allow co-installation of the Qt development tools, we append a -qt${version}
+ suffix to the executable names of some development tools: moc, qmake, uic.
+Last-Update: 2012-09-01
+Forwarded: not-needed
+
+---
+ config.tests/unix/arch.test    |    2 +-
+ config.tests/unix/compile.test |    2 +-
+ config.tests/unix/ptrsize.test |    2 +-
+ config.tests/x11/notype.test   |    2 +-
+ configure                      |    8 ++++----
+ mkspecs/features/moc.prf       |    2 +-
+ mkspecs/features/uic.prf       |    2 +-
+ qmake/Makefile.unix            |    8 ++++----
+ qtbase.pro                     |    2 +-
+ src/tools/moc/moc.pro          |    2 +-
+ src/tools/uic/uic.pro          |    2 +-
+ 11 files changed, 17 insertions(+), 17 deletions(-)
+
+--- a/config.tests/unix/arch.test
++++ b/config.tests/unix/arch.test
+@@ -31,7 +31,7 @@ done
+ # build a test program but don't run it
+ test -d "$OUTDIR/config.tests/arch" || mkdir -p "$OUTDIR/config.tests/arch"
+ [ -f Makefile ] && $MAKE distclean >/dev/null 2>&1
+-OUTDIR=$OUTDIR "$OUTDIR/bin/qmake" -nocache -spec "$QMKSPEC" "QT_BUILD_TREE=$OUTDIR" "LIBS+=$LFLAGS" "QMAKE_CXXFLAGS+=$CXXFLAGS" "$SRCDIR/config.tests/arch/arch.pro" -o "$OUTDIR/config.tests/arch/Makefile" >/dev/null 2>&1 || echo "qmake is broken" >&2
++OUTDIR=$OUTDIR "$OUTDIR/bin/qmake-qt5" -nocache -spec "$QMKSPEC" "QT_BUILD_TREE=$OUTDIR" "LIBS+=$LFLAGS" "QMAKE_CXXFLAGS+=$CXXFLAGS" "$SRCDIR/config.tests/arch/arch.pro" -o "$OUTDIR/config.tests/arch/Makefile" >/dev/null 2>&1 || echo "qmake is broken" >&2
+ cd "$OUTDIR/config.tests/arch"
+ 
+ 
+--- a/config.tests/unix/compile.test
++++ b/config.tests/unix/compile.test
+@@ -72,7 +72,7 @@ test -r Makefile && $MAKE distclean >/de
+ # Make sure output from possible previous tests is gone
+ rm -f "$EXE" "${EXE}.exe"
+ 
+-OUTDIR=$OUTDIR "$OUTDIR/bin/qmake" -nocache -spec "$QMKSPEC" "CONFIG+=$QMAKE_CONFIG" "CONFIG-=debug_and_release" "LIBS*=$LFLAGS" "LIBS+=$MAC_ARCH_LFLAGS" "INCLUDEPATH*=$INCLUDEPATH" "QMAKE_CXXFLAGS*=$CXXFLAGS" "QMAKE_CXXFLAGS+=$MAC_ARCH_CXXFLAGS" "QT_BUILD_TREE=$OUTDIR" "$SRCDIR/$TEST/$EXE.pro" -o "$OUTDIR/$TEST/Makefile"
++OUTDIR=$OUTDIR "$OUTDIR/bin/qmake-qt5" -nocache -spec "$QMKSPEC" "CONFIG+=$QMAKE_CONFIG" "CONFIG-=debug_and_release" "LIBS*=$LFLAGS" "LIBS+=$MAC_ARCH_LFLAGS" "INCLUDEPATH*=$INCLUDEPATH" "QMAKE_CXXFLAGS*=$CXXFLAGS" "QMAKE_CXXFLAGS+=$MAC_ARCH_CXXFLAGS" "QT_BUILD_TREE=$OUTDIR" "$SRCDIR/$TEST/$EXE.pro" -o "$OUTDIR/$TEST/Makefile"
+ 
+ if [ "$VERBOSE" = "yes" ]; then
+     $MAKE
+--- a/config.tests/unix/ptrsize.test
++++ b/config.tests/unix/ptrsize.test
+@@ -10,7 +10,7 @@ OUTDIR=$4
+ 
+ # build and run a test program
+ test -d "$OUTDIR/config.tests/unix/ptrsize" || mkdir -p "$OUTDIR/config.tests/unix/ptrsize"
+-"$OUTDIR/bin/qmake" -nocache -spec "$QMKSPEC" "QT_BUILD_TREE=$OUTDIR" "$SRCDIR/config.tests/unix/ptrsize/ptrsizetest.pro" -o "$OUTDIR/config.tests/unix/ptrsize/Makefile" >/dev/null 2>&1
++"$OUTDIR/bin/qmake-qt5" -nocache -spec "$QMKSPEC" "QT_BUILD_TREE=$OUTDIR" "$SRCDIR/config.tests/unix/ptrsize/ptrsizetest.pro" -o "$OUTDIR/config.tests/unix/ptrsize/Makefile" >/dev/null 2>&1
+ cd "$OUTDIR/config.tests/unix/ptrsize"
+ 
+ if [ "$VERBOSE" = "yes" ]; then
+--- a/config.tests/x11/notype.test
++++ b/config.tests/x11/notype.test
+@@ -27,7 +27,7 @@ if [ $XPLATFORM = "solaris-g++" -o $XPLA
+     NOTYPE=yes
+ 
+     test -d "$OUTDIR/config.tests/x11/notype" || mkdir -p "$OUTDIR/config.tests/x11/notype"
+-    "$OUTDIR/bin/qmake" -nocache -spec "$QMKSPEC" "QT_BUILD_TREE=$OUTDIR" "$SRCDIR/config.tests/x11/notype/notypetest.pro" -o "$OUTDIR/config.tests/x11/notype/Makefile" >/dev/null 2>&1
++    "$OUTDIR/bin/qmake-qt5" -nocache -spec "$QMKSPEC" "QT_BUILD_TREE=$OUTDIR" "$SRCDIR/config.tests/x11/notype/notypetest.pro" -o "$OUTDIR/config.tests/x11/notype/Makefile" >/dev/null 2>&1
+     cd "$OUTDIR/config.tests/x11/notype"
+ 
+     if [ "$VERBOSE" = "yes" ]; then
+--- a/configure
++++ b/configure
+@@ -3581,7 +3581,7 @@ setBootstrapVariable()
+ }
+ 
+ # build qmake
+-if true; then ###[ '!' -f "$outpath/bin/qmake" ];
++if true; then ###[ '!' -f "$outpath/bin/qmake-qt5" ];
+     echo "Creating qmake. Please wait..."
+ 
+     OLD_QCONFIG_H=
+@@ -6326,10 +6326,10 @@ if [ "$CFG_PROCESS" != "no" ]; then
+ 
+     if [ "$CFG_PROCESS" = "full" ]; then
+         echo "Creating makefiles. Please wait..."
+-        "$outpath/bin/qmake" -r "$relpath"
++        "$outpath/bin/qmake-qt5" -r "$relpath"
+         echo "Done"
+     else
+-        "$outpath/bin/qmake" "$relpath"
++        "$outpath/bin/qmake-qt5" "$relpath"
+     fi
+ 
+     if [ "$OPT_FAST" = "yes" ]; then
+@@ -6342,7 +6342,7 @@ if [ "$CFG_PROCESS" != "no" ]; then
+         if [ "x$PART_ROOTS" != "x" ]; then
+             echo
+             echo "Creating stub makefiles. Please wait..."
+-            QMAKE="$outpath/bin/qmake"
++            QMAKE="$outpath/bin/qmake-qt5"
+             [ "$CFG_DEBUG_RELEASE" = "no" ] && first_tgt="first_target: first" || first_tgt=
+             (cd "$relpath" && find $PART_ROOTS -name '*.pro') | grep -v /testdata/ | while read p; do
+                 d=${p%/*}
+--- a/mkspecs/features/moc.prf
++++ b/mkspecs/features/moc.prf
+@@ -1,6 +1,6 @@
+ 
+ #global defaults
+-qtPrepareTool(QMAKE_MOC, moc)
++qtPrepareTool(QMAKE_MOC, moc-qt5)
+ isEmpty(MOC_DIR):MOC_DIR = .
+ isEmpty(QMAKE_H_MOD_MOC):QMAKE_H_MOD_MOC = moc_
+ isEmpty(QMAKE_EXT_CPP_MOC):QMAKE_EXT_CPP_MOC = .moc
+--- a/mkspecs/features/uic.prf
++++ b/mkspecs/features/uic.prf
+@@ -1,5 +1,5 @@
+ qtPrepareTool(QMAKE_UIC3, uic3)
+-qtPrepareTool(QMAKE_UIC, uic)
++qtPrepareTool(QMAKE_UIC, uic-qt5)
+ 
+ isEmpty(UI_DIR):UI_DIR = .
+ isEmpty(UI_SOURCES_DIR):UI_SOURCES_DIR = $$UI_DIR
+--- a/qmake/Makefile.unix
++++ b/qmake/Makefile.unix
+@@ -87,17 +87,17 @@ CPPFLAGS = -g -I$(QMKSRC) -I$(QMKSRC)/ge
+ 
+ CXXFLAGS = @QMAKE_CXXFLAGS@ $(CPPFLAGS)
+ 
+-first all: $(BUILD_PATH)/bin/qmake
+-qmake: $(BUILD_PATH)/bin/qmake
++first all: $(BUILD_PATH)/bin/qmake-qt5
++qmake: $(BUILD_PATH)/bin/qmake-qt5
+ 
+-$(BUILD_PATH)/bin/qmake: $(OBJS) $(QOBJS)
++$(BUILD_PATH)/bin/qmake-qt5: $(OBJS) $(QOBJS)
+ 	$(CXX) -o "$@" $(OBJS) $(QOBJS) $(LFLAGS)
+ 
+ clean::
+ 	rm -f $(OBJS) $(QOBJS)
+ 
+ distclean:: clean
+-	rm -rf $(BUILD_PATH)/bin/qmake .deps
++	rm -rf $(BUILD_PATH)/bin/qmake-qt5 .deps
+ 
+ depend:
+ 	makedepend -D__MAKEDEPEND__ $(CPPFLAGS) $(DEPEND_SRC)
+--- a/qtbase.pro
++++ b/qtbase.pro
+@@ -70,7 +70,7 @@ qmake.path = $$[QT_HOST_BINS]
+ equals(QMAKE_HOST.os, Windows) {
+    qmake.files = $$OUT_PWD/bin/qmake.exe
+ } else {
+-   qmake.files = $$OUT_PWD/bin/qmake
++   qmake.files = $$OUT_PWD/bin/qmake-qt5
+ }
+ INSTALLS += qmake
+ 
+--- a/src/tools/moc/moc.pro
++++ b/src/tools/moc/moc.pro
+@@ -1,6 +1,6 @@
+ option(host_build)
+ TEMPLATE	= app
+-TARGET		= moc
++TARGET		= moc-qt5
+ 
+ DEFINES         += QT_MOC QT_NO_CAST_FROM_BYTEARRAY QT_NO_COMPRESS
+ DESTDIR         = ../../../bin
+--- a/src/tools/uic/uic.pro
++++ b/src/tools/uic/uic.pro
+@@ -1,6 +1,6 @@
+ option(host_build)
+ TEMPLATE = app
+-TARGET = uic
++TARGET = uic-qt5
+ 
+ DESTDIR = ../../../bin
+ DEFINES += QT_UIC

@@ -1,0 +1,5 @@
+qtbase-opensource-src (5.0.0~beta1-1) unstable; urgency=low
+
+  * Initial release.
+
+ -- Fathi Boudra <fabo@debian.org>  Sat, 01 Sep 2012 08:21:00 +0300
