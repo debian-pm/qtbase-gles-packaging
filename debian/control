@@ -338,7 +338,6 @@ Priority: extra
 Architecture: any
 Section: debug
 Depends: qtbase5-dbg (= ${binary:Version}), ${misc:Depends}
-Recommends: libqt4-dbg
 Description: Qt 5 base binaries debugging symbols
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.

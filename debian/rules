@@ -12,7 +12,7 @@ export LDFLAGS := $(shell dpkg-buildflags --get LDFLAGS) -Wl,--as-needed
 
 # Packages with own debug package
 pkgs_dbg := $(shell dh_listpackages | grep dbg | sed -e '/qtbase5-dbg/d; s|-dbg||')
-# Packages whose debug symbols belong to qt4-bin-dbg
+# Packages whose debug symbols belong to qtbase5-bin-dbg
 pkgs_dbgbin := qtbase5-dev-bin $(filter-out %-dbg lib% $(pkgs_dbg),$(shell dh_listpackages))
 # Library package list for override_dh_makeshlibs, excludes -dev -dbg -bin
 pkgs_lib := $(filter-out %-dev %-dbg %-bin,$(filter lib%,$(shell dh_listpackages)))
@@ -94,7 +94,7 @@ ifeq ($(DEB_HOST_ARCH),hppa)
 	cd $(CURDIR)/doc/src/images && ls -a | sort > $(CURDIR)/debian/hppa-tmp/ls-a-out
 	@if ! diff -q $(CURDIR)/debian/hppa-tmp/readdir_r-out $(CURDIR)/debian/hppa-tmp/ls-a-out ; \
 		then \
-		echo "Kernel bug present. This will misbuild qt4 if proceeding. Failing" ; \
+		echo "Kernel bug present. This will misbuild Qt if proceeding. Failing" ; \
 		echo "Please update kernel and test again" ; \
 		exit 5 ; \
 	fi
