@@ -257,12 +257,15 @@ Description: Qt 5 print support module
 Package: qtbase5-dev
 Architecture: any
 Section: libdevel
-Depends: libqtcore5 (= ${binary:Version}),
+Depends: libqtconcurrent5 (= ${binary:Version}),
+         libqtcore5 (= ${binary:Version}),
          libqtdbus5 (= ${binary:Version}),
          libqtgui5 (= ${binary:Version}),
          libqtnetwork5 (= ${binary:Version}),
+         libqtprintsupport5 (= ${binary:Version}),
          libqtsql5 (= ${binary:Version}),
          libqttest5 (= ${binary:Version}),
+         libqtwidgets5 (= ${binary:Version}),
          libqtxml5 (= ${binary:Version}),
          qt5-qmake (= ${binary:Version}),
          qtbase5-dev-bin (= ${binary:Version}),
