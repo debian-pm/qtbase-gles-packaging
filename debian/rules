@@ -113,7 +113,7 @@ endif
 	            -headerdir "/usr/include/qt5" \
 	            -datadir "/usr/share/qt5" \
 	            -plugindir "/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/plugins" \
-	            -importdir "/usr/lib/qt5/imports" \
+	            -importdir "/usr/lib/$(DEB_HOST_MULTIARCH)/qt4/imports" \
 	            -translationdir "/usr/share/qt5/translations" \
 	            -sysconfdir "/etc/xdg" \
 	            -examplesdir "/usr/lib/qt5/examples" \
