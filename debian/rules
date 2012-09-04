@@ -10,12 +10,8 @@ export CFLAGS := $(shell dpkg-buildflags --get CFLAGS) $(shell dpkg-buildflags -
 export CXXFLAGS := $(shell dpkg-buildflags --get CXXFLAGS) $(shell dpkg-buildflags --get CPPFLAGS)
 export LDFLAGS := $(shell dpkg-buildflags --get LDFLAGS) -Wl,--as-needed
 
-# Packages with own debug package
-pkgs_dbg := $(shell dh_listpackages | grep dbg | sed -e '/qtbase5-dbg/d; s|-dbg||')
-# Packages whose debug symbols belong to qtbase5-bin-dbg
-pkgs_dbgbin := qtbase5-dev-bin $(filter-out %-dbg lib% $(pkgs_dbg),$(shell dh_listpackages))
-# Library package list for override_dh_makeshlibs, excludes -dev -dbg -bin
-pkgs_lib := $(filter-out %-dev %-dbg %-bin,$(filter lib%,$(shell dh_listpackages)))
+# Library package list for override_dh_makeshlibs, excludes -dev -dbg
+pkgs_lib := $(filter-out %-dev %-dbg,$(filter lib%,$(shell dh_listpackages)))
 # Upstream changelog
 upstream_changes := $(wildcard dist/changes-*)
 # Current debian version (e.g.: 4:4.5.2-1)
@@ -251,8 +247,9 @@ override_dh_installchangelogs:
 	dh_installchangelogs $(upstream_changes)
 
 override_dh_strip:
-	$(foreach pkg,$(pkgs_dbg),dh_strip -p$(pkg) --dbg-package=$(pkg)-dbg;)
-	dh_strip $(foreach pkg,$(pkgs_dbgbin),-p$(pkg)) --dbg-package=qtbase5-bin-dbg
+	dh_strip -pqtbase5-examples --dbg-package=qtbase5-examples-dbg
+	dh_strip -pqtbase5-dev-tools --dbg-package=qtbase5-dev-tools-dbg
+	dh_strip -pqt5-qmake --dbg-package=qtbase5-dev-tools-dbg
 	dh_strip --remaining-packages --dbg-package=qtbase5-dbg
 
 override_dh_makeshlibs:

@@ -1,1 +1,3 @@
+# debian patches
 append_qt_version_suffix.patch
+add_nostrip_for_debug_packages.patch

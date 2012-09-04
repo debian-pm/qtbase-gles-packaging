@@ -11,6 +11,7 @@ Build-Depends: debhelper (>= 9),
                dpkg-dev (>= 1.16.1),
                firebird-dev [amd64 armel i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sh4 sparc],
                freetds-dev,
+               gdb,
                libatspi2.0-dev,
                libcups2-dev,
                libdbus-1-dev,
@@ -289,19 +290,6 @@ Description: Qt 5 base development files
  This package contains the header development files used for building Qt 5
  applications.
 
-Package: qtbase5-dev-tools
-Architecture: any
-Multi-Arch: foreign
-Section: devel
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: Qt 5 base development programs
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This package contains the development programs used for building Qt 5
- applications, such as moc, qdbuscpp2xml, qdbusxml2cpp, qdoc, rcc,
- syncqt and uic.
-
 Package: qtbase5-private-dev
 Architecture: any
 Section: libdevel
@@ -329,39 +317,18 @@ Description: Qt 5 OpenGL library development files
  This package contains the development files needed to build Qt 5 applications
  using QtOpenGL library.
 
-Package: qtbase5-dbg
-Priority: extra
+Package: qtbase5-dev-tools
 Architecture: any
-Section: debug
-Depends: libqtcore5 (= ${binary:Version}), ${misc:Depends}
-Description: Qt 5 base library debugging symbols
+Multi-Arch: foreign
+Section: devel
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 5 base development programs
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
- This package contains the debugging symbols for the Qt 5 base libraries.
-
-Package: qtbase5-bin-dbg
-Priority: extra
-Architecture: any
-Section: debug
-Depends: qtbase5-dbg (= ${binary:Version}), ${misc:Depends}
-Description: Qt 5 base binaries debugging symbols
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This package contains the debugging symbols for the Qt 5 binaries.
-
-Package: qtbase5-examples-dbg
-Priority: extra
-Architecture: any
-Section: debug
-Depends: qtbase5-examples (= ${binary:Version}), ${misc:Depends}
-Recommends: qtbase5-dbg
-Description: Qt 5 base examples debugging symbols
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This package contains the debugging symbols for the Qt 5 examples.
+ This package contains the development programs used for building Qt 5
+ applications, such as moc, qdbuscpp2xml, qdbusxml2cpp, qdoc, rcc,
+ syncqt and uic.
 
 Package: qt5-qmake
 Architecture: any
@@ -392,3 +359,40 @@ Description: Qt 5 base examples
  is its rich set of widgets that provide standard GUI functionality.
  .
  This package contains Qt base 5 examples.
+
+Package: qtbase5-dbg
+Priority: extra
+Architecture: any
+Section: debug
+Depends: libqtcore5 (= ${binary:Version}), ${misc:Depends}
+Description: Qt 5 base library debugging symbols
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the debugging symbols for the Qt 5 base libraries.
+
+Package: qtbase5-dev-tools-dbg
+Priority: extra
+Architecture: any
+Section: debug
+Depends: qt5-qmake (= ${binary:Version}),
+         qtbase5-dev-tools (= ${binary:Version}),
+         ${misc:Depends}
+Recommends: qtbase5-dbg
+Description: Qt 5 base binaries debugging symbols
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the debugging symbols for the Qt 5 binaries.
+
+Package: qtbase5-examples-dbg
+Priority: extra
+Architecture: any
+Section: debug
+Depends: qtbase5-examples (= ${binary:Version}), ${misc:Depends}
+Recommends: qtbase5-dbg
+Description: Qt 5 base examples debugging symbols
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the debugging symbols for the Qt 5 examples.
