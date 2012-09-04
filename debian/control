@@ -273,7 +273,7 @@ Depends: libgl1-mesa-dev [!armel !armhf] | libgl-dev [!armel !armhf],
          libqtwidgets5 (= ${binary:Version}),
          libqtxml5 (= ${binary:Version}),
          qt5-qmake (= ${binary:Version}),
-         qtbase5-dev-bin (= ${binary:Version}),
+         qtbase5-dev-tools (= ${binary:Version}),
          ${misc:Depends}
 Recommends: libqtopengl5-dev (= ${binary:Version})
 Suggests: firebird-dev,
@@ -289,7 +289,7 @@ Description: Qt 5 base development files
  This package contains the header development files used for building Qt 5
  applications.
 
-Package: qtbase5-dev-bin
+Package: qtbase5-dev-tools
 Architecture: any
 Multi-Arch: foreign
 Section: devel
@@ -299,7 +299,8 @@ Description: Qt 5 base development programs
  is its rich set of widgets that provide standard GUI functionality.
  .
  This package contains the development programs used for building Qt 5
- applications, such as moc, qdbuscpp2xml, qdbusxml2cpp, rcc and uic.
+ applications, such as moc, qdbuscpp2xml, qdbusxml2cpp, qdoc, rcc,
+ syncqt and uic.
 
 Package: qtbase5-private-dev
 Architecture: any
