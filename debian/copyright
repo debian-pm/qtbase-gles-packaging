@@ -1,11 +1,17 @@
-Format: http://dep.debian.net/deps/dep5
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: qtbase-opensource-src
-Source: http://releases.qt-project.org/qt5.0/beta1/split_sources/
+Source: http://releases.qt-project.org/qt5.0/
 
 Files: *
-Copyright: 2008-2012 Nokia Corporation and/or its subsidiary(-ies).
+Copyright: 2008-2012 Nokia Corporation and/or its subsidiary(-ies)
            1994-2008 Trolltech ASA.
-License: LGPL-2.1, GPL-3
+License: LGPL-2.1 with Nokia Qt LGPL Exception 1.1 or GPL-3
+
+Files: examples/* src/*/doc/snippets/* tests/manual/qlocale/*
+       src/winmain/qtmain_win.cpp
+Copyright: 2008-2012 Nokia Corporation and/or its subsidiary(-ies)
+           1994-2008 Trolltech ASA.
+License: BSD-3-clause
 
 Files: debian/*
 Copyright: 2007-2012 Fathi Boudra <fabo@debian.org>
@@ -13,617 +19,543 @@ Copyright: 2007-2012 Fathi Boudra <fabo@debian.org>
            2008-2012 Modestas Vainius <modax@debian.org>
            2007-2009 Ana Beatriz Guerrero Lopez <ana@debian.org>
            2005-2007 Brian Nelson <pyro@debian.org>
-License: LGPL-2.1
+License: LGPL-2.1 with Nokia Qt LGPL Exception 1.1
 
+Files: src/testlib/3rdparty/callgrind_p.h
+       src/testlib/3rdparty/valgrind_p.h
+       tests/auto/other/exceptionsafety_objects/3rdparty/memcheck.h
+       tests/auto/other/exceptionsafety_objects/3rdparty/valgrind.h
+Copyright: 2003-2007 Josef Weidendorfer
+           2000-2008 Julian Seward
+License: Hybrid-BSD
+
+Files: src/gui/text/qharfbuzz_copy_p.h
+       src/3rdparty/harfbuzz/*
+Copyright: 1998-2005 David Turner
+           1998-2004 Werner Lemberg
+           2000-2007 Red Hat, Inc
+           2006 Behdad Esfahbod
+           2008-2012 Nokia Corporation and/or its subsidiary(-ies)
 License:
-
-    GNU Lesser General Public License Usage
-
-    Alternatively, this file may be used under the terms of the GNU Lesser
-    General Public License version 2.1 as published by the Free Software
-    Foundation and appearing in the file LICENSE.LGPL included in the
-    packaging of this file.  Please review the following information to
-    ensure the GNU Lesser General Public License version 2.1 requirements
-    will be met: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html.
-
-    In addition, as a special exception, Nokia gives you certain
-    additional rights. These rights are described in the Nokia Qt LGPL
-    Exception version 1.0, included in the file LGPL_EXCEPTION.txt in this
-    package.
-
-    GNU General Public License Usage
-
-    Alternatively, this file may be used under the terms of the GNU
-    General Public License version 3.0 as published by the Free Software
-    Foundation and appearing in the file LICENSE.GPL included in the
-    packaging of this file.  Please review the following information to
-    ensure the GNU General Public License version 3.0 requirements will be
-    met: http://www.gnu.org/copyleft/gpl.html.
-
-On Debian systems, the complete text of the GNU Public Licenses can be found in
- `/usr/share/common-licenses/LGPL-2.1`,
- `/usr/share/common-licenses/GPL-3`.
-
-Nokia Qt LGPL Exception version 1.1
-
-As an additional permission to the GNU Lesser General Public License version
-2.1, the object code form of a "work that uses the Library" may incorporate
-material from a header file that is part of the Library.  You may distribute
-such object code under terms of your choice, provided that:
-    (i)   the header files of the Library have not been modified; and
-    (ii)  the incorporated material is limited to numerical parameters, data
-          structure layouts, accessors, macros, inline functions and
-          templates; and
-    (iii) you comply with the terms of Section 6 of the GNU Lesser General
-          Public License version 2.1.
-
-Moreover, you may apply this exception to a modified version of the Library,
-provided that such modification does not involve copying material from the
-Library into the modified Library's header files unless such material is
-limited to (i) numerical parameters; (ii) data structure layouts;
-(iii) accessors; and (iv) small macros, templates and inline functions of
-five lines or less in length.
-
-Furthermore, you are not required to apply this additional permission to a
-modified version of the Library.
-
-Copyright for doc/src/snippets/*:
-
-     You may use this file under the terms of the BSD license as follows:
-
-     "Redistribution and use in source and binary forms, with or without
-     modification, are permitted provided that the following conditions are
-     met:
-       * Redistributions of source code must retain the above copyright
-         notice, this list of conditions and the following disclaimer.
-       * Redistributions in binary form must reproduce the above copyright
-         notice, this list of conditions and the following disclaimer in
-         the documentation and/or other materials provided with the
-         distribution.
-       * Neither the name of Nokia Corporation and its Subsidiary(-ies) nor
-         the names of its contributors may be used to endorse or promote
-         products derived from this software without specific prior written
-         permission.
-
-     THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
-     "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
-     LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
-     A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
-     OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
-     SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
-     LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
-     DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
-     THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
-     (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
-     OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
-
-Copyright for src/testlib/3rdparty/callgrind_p.h:
-
-   ----------------------------------------------------------------
-
-   Notice that the following BSD-style license applies to this one
-   file (callgrind.h) only.  The rest of Valgrind is licensed under the
-   terms of the GNU General Public License, version 2, unless
-   otherwise indicated.  See the COPYING file in the source
-   distribution for details.
-
-   ----------------------------------------------------------------
-
-   This file is part of callgrind, a valgrind tool for cache simulation
-   and call tree tracing.
-
-   Copyright (C) 2003-2007 Josef Weidendorfer.  All rights reserved.
-
-   Redistribution and use in source and binary forms, with or without
-   modification, are permitted provided that the following conditions
-   are met:
-
-   1. Redistributions of source code must retain the above copyright
-      notice, this list of conditions and the following disclaimer.
-
-   2. The origin of this software must not be misrepresented; you must
-      not claim that you wrote the original software.  If you use this
-      software in a product, an acknowledgment in the product
-      documentation would be appreciated but is not required.
-
-   3. Altered source versions must be plainly marked as such, and must
-      not be misrepresented as being the original software.
-
-   4. The name of the author may not be used to endorse or promote
-      products derived from this software without specific prior written
-      permission.
-
-   THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS
-   OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
-   WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
-   ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
-   DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
-   DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE
-   GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
-   INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
-   WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
-   NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
-   SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
-   ----------------------------------------------------------------
-
-   Notice that the above BSD-style license applies to this one file
-   (vgprof.h) only.  The entire rest of Valgrind is licensed under
-   the terms of the GNU General Public License, version 2.  See the
-   COPYING file in the source distribution for details.
-
-   ----------------------------------------------------------------
-
-Copyright for src/testlib/3rdparty/valgrind_p.h:
-
-   ----------------------------------------------------------------
-
-   Notice that the following BSD-style license applies to this one
-   file (valgrind.h) only.  The rest of Valgrind is licensed under the
-   terms of the GNU General Public License, version 2, unless
-   otherwise indicated.  See the COPYING file in the source
-   distribution for details.
-
-   ----------------------------------------------------------------
-
-   This file is part of Valgrind, a dynamic binary instrumentation
-   framework.
-
-   Copyright (C) 2000-2007 Julian Seward.  All rights reserved.
-
-   Redistribution and use in source and binary forms, with or without
-   modification, are permitted provided that the following conditions
-   are met:
-
-   1. Redistributions of source code must retain the above copyright
-      notice, this list of conditions and the following disclaimer.
-
-   2. The origin of this software must not be misrepresented; you must
-      not claim that you wrote the original software.  If you use this
-      software in a product, an acknowledgment in the product
-      documentation would be appreciated but is not required.
-
-   3. Altered source versions must be plainly marked as such, and must
-      not be misrepresented as being the original software.
-
-   4. The name of the author may not be used to endorse or promote
-      products derived from this software without specific prior written
-      permission.
-
-   THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS
-   OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
-   WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
-   ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
-   DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
-   DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE
-   GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
-   INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
-   WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
-   NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
-   SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
-   ----------------------------------------------------------------
-
-   Notice that the above BSD-style license applies to this one file
-   (valgrind.h) only.  The entire rest of Valgrind is licensed under
-   the terms of the GNU General Public License, version 2.  See the
-   COPYING file in the source distribution for details.
-
-   ----------------------------------------------------------------
-
-Copyright for src/testlib/3rdparty/cycle_p.h
-
-    Copyright (c) 2003, 2006 Matteo Frigo
-    Copyright (c) 2003, 2006 Massachusetts Institute of Technology
-
-    Permission is hereby granted, free of charge, to any person obtaining
-    a copy of this software and associated documentation files (the
-    "Software"), to deal in the Software without restriction, including
-    without limitation the rights to use, copy, modify, merge, publish,
-    distribute, sublicense, and/or sell copies of the Software, and to
-    permit persons to whom the Software is furnished to do so, subject to
-    the following conditions:
-
-    The above copyright notice and this permission notice shall be
-    included in all copies or substantial portions of the Software.
-
-    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-    EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-    MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-    NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
-    LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
-    OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
-    WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-Copyright for tests/auto/other/exceptionsafety_objects/3rdparty/memcheck.h:
-
-   ----------------------------------------------------------------
-
-   Notice that the following BSD-style license applies to this one
-   file (memcheck.h) only.  The rest of Valgrind is licensed under the
-   terms of the GNU General Public License, version 2, unless
-   otherwise indicated.  See the COPYING file in the source
-   distribution for details.
-
-   ----------------------------------------------------------------
-
-   This file is part of MemCheck, a heavyweight Valgrind tool for
-   detecting memory errors.
-
-   Copyright (C) 2000-2008 Julian Seward.  All rights reserved.
-
-   Redistribution and use in source and binary forms, with or without
-   modification, are permitted provided that the following conditions
-   are met:
-
-   1. Redistributions of source code must retain the above copyright
-      notice, this list of conditions and the following disclaimer.
-
-   2. The origin of this software must not be misrepresented; you must
-      not claim that you wrote the original software.  If you use this
-      software in a product, an acknowledgment in the product
-      documentation would be appreciated but is not required.
-
-   3. Altered source versions must be plainly marked as such, and must
-      not be misrepresented as being the original software.
-
-   4. The name of the author may not be used to endorse or promote
-      products derived from this software without specific prior written
-      permission.
-
-   THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS
-   OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
-   WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
-   ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
-   DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
-   DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE
-   GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
-   INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
-   WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
-   NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
-   SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
-   ----------------------------------------------------------------
-
-   Notice that the above BSD-style license applies to this one file
-   (memcheck.h) only.  The entire rest of Valgrind is licensed under
-   the terms of the GNU General Public License, version 2.  See the
-   COPYING file in the source distribution for details.
-
-   ----------------------------------------------------------------
-
-Copyright for tests/auto/other/exceptionsafety_objects/3rdparty/valgrind.h:
-
-   ----------------------------------------------------------------
-
-   Notice that the following BSD-style license applies to this one
-   file (valgrind.h) only.  The rest of Valgrind is licensed under the
-   terms of the GNU General Public License, version 2, unless
-   otherwise indicated.  See the COPYING file in the source
-   distribution for details.
-
-   ----------------------------------------------------------------
-
-   This file is part of Valgrind, a dynamic binary instrumentation
-   framework.
-
-   Copyright (C) 2000-2008 Julian Seward.  All rights reserved.
-
-   Redistribution and use in source and binary forms, with or without
-   modification, are permitted provided that the following conditions
-   are met:
-
-   1. Redistributions of source code must retain the above copyright
-      notice, this list of conditions and the following disclaimer.
-
-   2. The origin of this software must not be misrepresented; you must
-      not claim that you wrote the original software.  If you use this
-      software in a product, an acknowledgment in the product
-      documentation would be appreciated but is not required.
-
-   3. Altered source versions must be plainly marked as such, and must
-      not be misrepresented as being the original software.
-
-   4. The name of the author may not be used to endorse or promote
-      products derived from this software without specific prior written
-      permission.
-
-   THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS
-   OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
-   WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
-   ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
-   DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
-   DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE
-   GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
-   INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
-   WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
-   NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
-   SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
-   ----------------------------------------------------------------
-
-   Notice that the above BSD-style license applies to this one file
-   (valgrind.h) only.  The entire rest of Valgrind is licensed under
-   the terms of the GNU General Public License, version 2.  See the
-   COPYING file in the source distribution for details.
-
-   ----------------------------------------------------------------
-
-Copyright for src/3rdparty/ce-compat/ce_time.*:
-
-    Copyright (C) 2002 Michael Ringgaard. All rights reserved.
-
-    Redistribution and use in source and binary forms, with or without
-    modification, are permitted provided that the following conditions
-    are met:
-
-    1. Redistributions of source code must retain the above copyright
-       notice, this list of conditions and the following disclaimer.
-    2. Redistributions in binary form must reproduce the above copyright
-       notice, this list of conditions and the following disclaimer in the
-       documentation and/or other materials provided with the distribution.
-    3. Neither the name of the project nor the names of its contributors
-       may be used to endorse or promote products derived from this software
-       without specific prior written permission.
-
-    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
-    ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-    IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
-    ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE
-    FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
-    DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
-    OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
-    HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
-    LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
-    OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
-    SUCH DAMAGE.
-
-Copyright for src/3rdparty/pixman/pixman-arm-neon-asm.*:
-
-    Copyright © 2009 Nokia Corporation
-
-    Permission is hereby granted, free of charge, to any person obtaining a
-    copy of this software and associated documentation files (the "Software"),
-    to deal in the Software without restriction, including without limitation
-    the rights to use, copy, modify, merge, publish, distribute, sublicense,
-    and/or sell copies of the Software, and to permit persons to whom the
-    Software is furnished to do so, subject to the following conditions:
-
-    The above copyright notice and this permission notice (including the next
-    paragraph) shall be included in all copies or substantial portions of the
-    Software.
-
-    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL
-    THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
-    FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
-    DEALINGS IN THE SOFTWARE.
-
-    Author:  Siarhei Siamashka (siarhei.siamashka@nokia.com)
-
-Copyright for src/3rdparty/freetype/include/freetype/internal/pcftypes.h:
-
-    Copyright (C) 2000, 2001, 2002 by Francesco Zappa Nardelli
-
-    Permission is hereby granted, free of charge, to any person obtaining a copy
-    of this software and associated documentation files (the "Software"), to deal
-    in the Software without restriction, including without limitation the rights
-    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-    copies of the Software, and to permit persons to whom the Software is
-    furnished to do so, subject to the following conditions:
-
-    The above copyright notice and this permission notice shall be included in
-    all copies or substantial portions of the Software.
-
-    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
-    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-    THE SOFTWARE.
-
-Copyright for src/3rdparty/freetype/src/bdf/*:
-
-    Copyright 2000 Computing Research Labs, New Mexico State University
-    Copyright 2001-2009 Francesco Zappa Nardelli
-
-    Permission is hereby granted, free of charge, to any person obtaining a
-    copy of this software and associated documentation files (the "Software"),
-    to deal in the Software without restriction, including without limitation
-    the rights to use, copy, modify, merge, publish, distribute, sublicense,
-    and/or sell copies of the Software, and to permit persons to whom the
-    Software is furnished to do so, subject to the following conditions:
-
-    The above copyright notice and this permission notice shall be included in
-    all copies or substantial portions of the Software.
-
-    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL
-    THE COMPUTING RESEARCH LAB OR NEW MEXICO STATE UNIVERSITY BE LIABLE FOR ANY
-    CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT
-    OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR
-    THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-Copyright for src/3rdparty/freetype/src/tools/ftrandom/ftrandom.c:
-
-    Copyright (C) 2005, 2007, 2008 by George Williams
-
-    Redistribution and use in source and binary forms, with or without
-    modification, are permitted provided that the following conditions are met:
-
-    Redistributions of source code must retain the above copyright notice, this
-    list of conditions and the following disclaimer.
-
-    Redistributions in binary form must reproduce the above copyright notice,
-    this list of conditions and the following disclaimer in the documentation
-    and/or other materials provided with the distribution.
-
-    The name of the author may not be used to endorse or promote products
-    derived from this software without specific prior written permission.
-
-    THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR IMPLIED
-    WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
-    MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO
-    EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
-    SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
-    PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
-    OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
-    WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
-    OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
-    ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
-Copyright for src/3rdparty/easing/easing.cpp:
-
-    Disclaimer for Robert Penner's Easing Equations license:
-
-    TERMS OF USE - EASING EQUATIONS
-
-    Open source under the BSD License.
-
-    Copyright © 2001 Robert Penner All rights reserved.
-
-    Redistribution and use in source and binary forms, with or without
-    modification, are permitted provided that the following conditions are met:
-
-    * Redistributions of source code must retain the above copyright notice,
-      this list of conditions and the following disclaimer.
-    * Redistributions in binary form must reproduce the above copyright notice,
-      this list of conditions and the following disclaimer in the documentation
-      and/or other materials provided with the distribution.
-    * Neither the name of the author nor the names of contributors may be used
-      to endorse or promote products derived from this software without
-      specific prior written permission.
-
-    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
-    AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-    IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
-    ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
-    LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
-    CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
-    SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
-    INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
-    CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
-    ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
-    POSSIBILITY OF SUCH DAMAGE.
-
-Copyright for src/winmain/*:
-
-    You may use this file under the terms of the BSD license as follows:
-
-    "Redistribution and use in source and binary forms, with or without
-    modification, are permitted provided that the following conditions are
-    met:
-      * Redistributions of source code must retain the above copyright
-        notice, this list of conditions and the following disclaimer.
-      * Redistributions in binary form must reproduce the above copyright
-        notice, this list of conditions and the following disclaimer in
-        the documentation and/or other materials provided with the
-        distribution.
-      * Neither the name of Nokia Corporation and its Subsidiary(-ies) nor
-        the names of its contributors may be used to endorse or promote
-        products derived from this software without specific prior written
-        permission.
-
-    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
-    "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
-    LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
-    A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
-    OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
-    SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
-    LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
-    DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
-    THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
-    (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
-    OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
-    Copyright for src/winmain/*:
-
-    You may use this file under the terms of the BSD license as follows:
-
-    "Redistribution and use in source and binary forms, with or without
-    modification, are permitted provided that the following conditions are
-    met:
-      * Redistributions of source code must retain the above copyright
-        notice, this list of conditions and the following disclaimer.
-      * Redistributions in binary form must reproduce the above copyright
-        notice, this list of conditions and the following disclaimer in
-        the documentation and/or other materials provided with the
-        distribution.
-      * Neither the name of Nokia Corporation and its Subsidiary(-ies) nor
-        the names of its contributors may be used to endorse or promote
-        products derived from this software without specific prior written
-        permission.
-
-    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
-    "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
-    LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
-    A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
-    OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
-    SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
-    LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
-    DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
-    THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
-    (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
-    OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
-
-Copyright for src/corelib/codecs/qtsciicodec*:
-
-    Most of the code here was originally written by Hans Petter Bieker,
-    and is included in Qt with the author's permission, and the grateful
-    thanks of the Qt team.
-
-    Copyright (C) 2000 Hans Petter Bieker. All rights reserved.
-
-    Redistribution and use in source and binary forms, with or without
-    modification, are permitted provided that the following conditions
-    are met:
-    1. Redistributions of source code must retain the above copyright
-       notice, this list of conditions and the following disclaimer.
-    2. Redistributions in binary form must reproduce the above copyright
-       notice, this list of conditions and the following disclaimer in the
-       documentation and/or other materials provided with the distribution.
-
-    THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS'' AND
-    ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-    IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
-    ARE DISCLAIMED.  IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE
-    FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
-    DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
-    OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
-    HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
-    LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
-    OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
-    SUCH DAMAGE.
-
-Copyright for examples/*:
-
-    You may use this file under the terms of the BSD license as follows:
-
-    "Redistribution and use in source and binary forms, with or without
-    modification, are permitted provided that the following conditions are
-    met:
-      * Redistributions of source code must retain the above copyright
-        notice, this list of conditions and the following disclaimer.
-      * Redistributions in binary form must reproduce the above copyright
-        notice, this list of conditions and the following disclaimer in
-        the documentation and/or other materials provided with the
-        distribution.
-      * Neither the name of Nokia Corporation and its Subsidiary(-ies) nor
-        the names of its contributors may be used to endorse or promote
-        products derived from this software without specific prior written
-        permission.
-
-    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
-    "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
-    LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
-    A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
-    OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
-    SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
-    LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
-    DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
-    THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
-    (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
-    OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
+ Permission is hereby granted, without written agreement and without
+ license or royalty fees, to use, copy, modify, and distribute this
+ software and its documentation for any purpose, provided that the
+ above copyright notice and the following two paragraphs appear in
+ all copies of this software.
+ .
+ IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE TO ANY PARTY FOR
+ DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES
+ ARISING OUT OF THE USE OF THIS SOFTWARE AND ITS DOCUMENTATION, EVEN
+ IF THE COPYRIGHT HOLDER HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH
+ DAMAGE.
+ .
+ THE COPYRIGHT HOLDER SPECIFICALLY DISCLAIMS ANY WARRANTIES, INCLUDING,
+ BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
+ FITNESS FOR A PARTICULAR PURPOSE.  THE SOFTWARE PROVIDED HEREUNDER IS
+ ON AN "AS IS" BASIS, AND THE COPYRIGHT HOLDER HAS NO OBLIGATION TO
+ PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
+
+Files: src/testlib/3rdparty/cycle_p.h
+Copyright: 2003, 2006 Matteo Frigo
+           2003, 2006 Massachusetts Institute of Technology
+License: Expat
+
+Files: src/3rdparty/ce-compat/*
+Copyright: 2002 Michael Ringgaard
+License: BSD-3-clause
+
+Files: src/3rdparty/des/des.cpp
+Copyright: 1997-2005 Simon Tatham
+License: Expat
+
+Files: src/3rdparty/easing/easing.cpp
+Copyright: 2001 Robert Penner
+License: BSD-3-clause
+
+Files: src/3rdparty/freetype/*
+Copyright: 1996-2012 David Turner, Robert Wilhelm, and Werner Lemberg
+           1996-2009 Just van Rossum
+           2002-2012 Roberto Alameda
+           2003 Huw D M Davies for Codeweavers
+           2003-2012 Masatake YAMATO, Redhat K.K.
+           2004-2012 Albert Chin-A-Young
+           2004-2012 Suzuki Toshiya
+           2007 Dmitry Timoshkov for Codeweavers
+           2007-2011 Rahul Bhalerao <rahul.bhalerao@redhat.com>
+           2007-2012 Derek Clegg, Michael Toftdal
+           2009-2011 Oran Agra, Mickey Gabel
+           2010, 2012 Joel Klinghed
+License: GPL-2+ or FTL
+
+Files: src/3rdparty/libjpeg/*
+Copyright: 1991-2011, Thomas G. Lane
+           1991-2011, Guido Vollbeding
+License:
+ In plain English:
+ .
+ 1. We don't promise that this software works.  (But if you find any bugs,
+    please let us know!)
+ 2. You can use this software for whatever you want.  You don't have to pay us.
+ 3. You may not pretend that you wrote this software.  If you use it in a
+    program, you must acknowledge somewhere in your documentation that
+    you've used the IJG code.
+ .
+ In legalese:
+ .
+ The authors make NO WARRANTY or representation, either express or implied,
+ with respect to this software, its quality, accuracy, merchantability, or
+ fitness for a particular purpose.  This software is provided "AS IS", and you,
+ its user, assume the entire risk as to its quality and accuracy.
+ .
+ This software is copyright (C) 1991-2011, Thomas G. Lane, Guido Vollbeding.
+ All Rights Reserved except as specified below.
+ .
+ Permission is hereby granted to use, copy, modify, and distribute this
+ software (or portions thereof) for any purpose, without fee, subject to these
+ conditions:
+ (1) If any part of the source code for this software is distributed, then this
+ README file must be included, with this copyright and no-warranty notice
+ unaltered; and any additions, deletions, or changes to the original files
+ must be clearly indicated in accompanying documentation.
+ (2) If only executable code is distributed, then the accompanying
+ documentation must state that "this software is based in part on the work of
+ the Independent JPEG Group".
+ (3) Permission for use of this software is granted only if the user accepts
+ full responsibility for any undesirable consequences; the authors accept
+ NO LIABILITY for damages of any kind.
+ .
+ These conditions apply to any software derived from or based on the IJG code,
+ not just to the unmodified library.  If you use our work, you ought to
+ acknowledge us.
+ .
+ Permission is NOT granted for the use of any IJG author's name or company name
+ in advertising or publicity relating to this software or products derived from
+ it.  This software may be referred to only as "the Independent JPEG Group's
+ software".
+ .
+ We specifically permit and encourage the use of this software as the basis of
+ commercial products, provided that all warranty or liability claims are
+ assumed by the product vendor.
+ .
+ .
+ ansi2knr.c is included in this distribution by permission of L. Peter Deutsch,
+ sole proprietor of its copyright holder, Aladdin Enterprises of Menlo Park, CA.
+ ansi2knr.c is NOT covered by the above copyright and conditions, but instead
+ by the usual distribution terms of the Free Software Foundation; principally,
+ that you must include source code if you redistribute it.  (See the file
+ ansi2knr.c for full details.)  However, since ansi2knr.c is not needed as part
+ of any program generated from the IJG code, this does not limit you more than
+ the foregoing paragraphs do.
+ .
+ The Unix configuration script "configure" was produced with GNU Autoconf.
+ It is copyright by the Free Software Foundation but is freely distributable.
+ The same holds for its supporting scripts (config.guess, config.sub,
+ ltmain.sh).  Another support script, install-sh, is copyright by X Consortium
+ but is also freely distributable.
+ .
+ The IJG distribution formerly included code to read and write GIF files.
+ To avoid entanglement with the Unisys LZW patent, GIF reading support has
+ been removed altogether, and the GIF writer has been simplified to produce
+ "uncompressed GIFs".  This technique does not use the LZW algorithm; the
+ resulting GIF files are larger than usual, but are readable by all standard
+ GIF decoders.
+ .
+ We are required to state that
+     "The Graphics Interchange Format(c) is the Copyright property of
+     CompuServe Incorporated.  GIF(sm) is a Service Mark property of
+     CompuServe Incorporated."
+
+Files: src/3rdparty/libpng/*
+Copyright: 2004, 2006-2012 Glenn Randers-Pehrson
+           Andreas Dilger
+           Dave Martindale
+           Guy Eric Schalnat
+           Paul Schmidt
+           Tim Wegner
+License:
+ The PNG Reference Library is supplied "AS IS".  The Contributing Authors
+ and Group 42, Inc. disclaim all warranties, expressed or implied,
+ including, without limitation, the warranties of merchantability and of
+ fitness for any purpose.  The Contributing Authors and Group 42, Inc.
+ assume no liability for direct, indirect, incidental, special, exemplary,
+ or consequential damages, which may result from the use of the PNG
+ Reference Library, even if advised of the possibility of such damage.
+ .
+ Permission is hereby granted to use, copy, modify, and distribute this
+ source code, or portions hereof, for any purpose, without fee, subject
+ to the following restrictions:
+ .
+ 1. The origin of this source code must not be misrepresented.
+ .
+ 2. Altered versions must be plainly marked as such and must not
+    be misrepresented as being the original source.
+ .
+ 3. This Copyright notice may not be removed or altered from any
+    source or altered source distribution.
+ .
+ The Contributing Authors and Group 42, Inc. specifically permit, without
+ fee, and encourage the use of this source code as a component to
+ supporting the PNG file format in commercial products.  If you use this
+ source code in a product, acknowledgment is not required but would be
+ appreciated.
+
+Files: src/3rdparty/md4/* src/3rdparty/md5/*
+Copyright: -
+License: public-domain
+ placed in the public domain
+
+Files: src/3rdparty/pcre/*
+Copyright: 1997-2012 University of Cambridge
+License: BSD-3-clause
+
+Files: src/3rdparty/pixman/*
+Copyright: 2009 Nokia Corporation
+License: Expat
+
+Files: src/3rdparty/rfc6234/*
+Copyright: 2011 IETF Trust
+License: BSD-3-clause
+
+Files: src/3rdparty/sqlite/*
+Copyright: -
+License: public-domain
+ The author disclaims copyright to this source code.
+
+Files: src/3rdparty/wintab/*
+Copyright: 1991-1998 by LCS/Telegraphics
+License:
+ The text and information contained in this file may be freely used,
+ copied, or distributed without compensation or licensing restrictions.
+
+Files: src/3rdparty/zlib/*
+Copyright: 1995-2010 Jean-loup Gailly
+           1995-2010 Mark Adler
+License: Zlib
+ This software is provided 'as-is', without any express or implied
+ warranty.  In no event will the authors be held liable for any damages
+ arising from the use of this software.
+ .
+ Permission is granted to anyone to use this software for any purpose,
+ including commercial applications, and to alter it and redistribute it
+ freely, subject to the following restrictions:
+ .
+ 1. The origin of this software must not be misrepresented; you must not
+    claim that you wrote the original software. If you use this software
+    in a product, an acknowledgment in the product documentation would be
+    appreciated but is not required.
+ 2. Altered source versions must be plainly marked as such, and must not be
+    misrepresented as being the original software.
+ 3. This notice may not be removed or altered from any source distribution.
+
+License: LGPL-2.1 with Nokia Qt LGPL Exception 1.1
+ GNU Lesser General Public License version 2.1:
+ This file may be used under the terms of the GNU Lesser General Public
+ License version 2.1 as published by the Free Software Foundation and
+ appearing in the file LICENSE.LGPL included in the packaging of this
+ file. Please review the following information to ensure the GNU Lesser
+ General Public License version 2.1 requirements will be met:
+ http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html.
+ .
+ In addition, as a special exception, Nokia gives you certain additional
+ rights. These rights are described in the Nokia Qt LGPL Exception
+ version 1.1, included in the file LGPL_EXCEPTION.txt in this package.
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ can be found in `/usr/share/common-licenses/LGPL-2.1`.
+ .
+ Nokia Qt LGPL Exception version 1.1:
+ As an additional permission to the GNU Lesser General Public License version
+ 2.1, the object code form of a "work that uses the Library" may incorporate
+ material from a header file that is part of the Library.  You may distribute
+ such object code under terms of your choice, provided that:
+     (i)   the header files of the Library have not been modified; and 
+     (ii)  the incorporated material is limited to numerical parameters, data
+           structure layouts, accessors, macros, inline functions and
+           templates; and
+     (iii) you comply with the terms of Section 6 of the GNU Lesser General
+           Public License version 2.1.
+ .
+ Moreover, you may apply this exception to a modified version of the Library,
+ provided that such modification does not involve copying material from the
+ Library into the modified Library's header files unless such material is
+ limited to (i) numerical parameters; (ii) data structure layouts;
+ (iii) accessors; and (iv) small macros, templates and inline functions of
+ five lines or less in length.
+ .
+ Furthermore, you are not required to apply this additional permission to a
+ modified version of the Library.
+
+License: GPL-3
+ Alternatively, this file may be used under the terms of the GNU General
+ Public License version 3.0 as published by the Free Software Foundation
+ and appearing in the file LICENSE.GPL included in the packaging of this
+ file. Please review the following information to ensure the GNU General
+ Public License version 3.0 requirements will be met:
+ http://www.gnu.org/copyleft/gpl.html.
+ .
+ On Debian systems, the complete text of the GNU Public Licenses can be found
+ in `/usr/share/common-licenses/GPL-3`.
+
+License: BSD-3-clause
+ You may use this file under the terms of the BSD license as follows:
+ .
+ "Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are
+ met:
+   * Redistributions of source code must retain the above copyright
+     notice, this list of conditions and the following disclaimer.
+   * Redistributions in binary form must reproduce the above copyright
+     notice, this list of conditions and the following disclaimer in
+     the documentation and/or other materials provided with the
+     distribution.
+   * Neither the name of Nokia Corporation and its Subsidiary(-ies) nor
+     the names of its contributors may be used to endorse or promote
+     products derived from this software without specific prior written
+     permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+ OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+ LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
+
+License: Hybrid-BSD
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ .
+ 2. The origin of this software must not be misrepresented; you must
+    not claim that you wrote the original software.  If you use this
+    software in a product, an acknowledgment in the product
+    documentation would be appreciated but is not required.
+ .
+ 3. Altered source versions must be plainly marked as such, and must
+    not be misrepresented as being the original software.
+ .
+ 4. The name of the author may not be used to endorse or promote
+    products derived from this software without specific prior written
+    permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS
+ OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
+ DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE
+ GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+ INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+ WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+ NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+License: Expat
+ Permission is hereby granted, free of charge, to any person obtaining
+ a copy of this software and associated documentation files (the
+ "Software"), to deal in the Software without restriction, including
+ without limitation the rights to use, copy, modify, merge, publish,
+ distribute, sublicense, and/or sell copies of the Software, and to
+ permit persons to whom the Software is furnished to do so, subject to
+ the following conditions:
+ .
+ The above copyright notice and this permission notice shall be
+ included in all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+ LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+License: GPL-2+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program;  if not, write to the Free Software
+ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston,
+ MA 02110-1301, USA.
+ .
+ On Debian GNU/Linux systems, the complete text of the GNU General
+ Public License version 2 can be found in
+ `/usr/share/common-licenses/GPL-2'.
+
+License: FTL
+                    The FreeType Project LICENSE
+                    ----------------------------
+ .
+                            2000-Feb-08
+ .
+                       Copyright 1996-2000 by
+          David Turner, Robert Wilhelm, and Werner Lemberg
+ .
+ .
+ .
+ Introduction
+ ============
+ .
+  The FreeType  Project is distributed in  several archive packages;
+  some of them may contain, in addition to the FreeType font engine,
+  various tools and  contributions which rely on, or  relate to, the
+  FreeType Project.
+ .
+  This  license applies  to all  files found  in such  packages, and
+  which do not  fall under their own explicit  license.  The license
+  affects  thus  the  FreeType   font  engine,  the  test  programs,
+  documentation and makefiles, at the very least.
+ .
+  This  license   was  inspired  by  the  BSD,   Artistic,  and  IJG
+  (Independent JPEG  Group) licenses, which  all encourage inclusion
+  and  use of  free  software in  commercial  and freeware  products
+  alike.  As a consequence, its main points are that:
+ .
+    o We don't promise that this software works. However, we will be
+      interested in any kind of bug reports. (`as is' distribution)
+ .
+    o You can  use this software for whatever you  want, in parts or
+      full form, without having to pay us. (`royalty-free' usage)
+ .
+    o You may not pretend that  you wrote this software.  If you use
+      it, or  only parts of it,  in a program,  you must acknowledge
+      somewhere  in  your  documentation  that  you  have  used  the
+      FreeType code. (`credits')
+ .
+  We  specifically  permit  and  encourage  the  inclusion  of  this
+  software, with  or without modifications,  in commercial products.
+  We  disclaim  all warranties  covering  The  FreeType Project  and
+  assume no liability related to The FreeType Project.
+ .
+ .
+ Legal Terms
+ ===========
+ .
+ 0. Definitions
+ --------------
+ .
+  Throughout this license,  the terms `package', `FreeType Project',
+  and  `FreeType  archive' refer  to  the  set  of files  originally
+  distributed  by the  authors  (David Turner,  Robert Wilhelm,  and
+  Werner Lemberg) as the `FreeType Project', be they named as alpha,
+  beta or final release.
+ .
+  `You' refers to  the licensee, or person using  the project, where
+  `using' is a generic term including compiling the project's source
+  code as  well as linking it  to form a  `program' or `executable'.
+  This  program is  referred to  as  `a program  using the  FreeType
+  engine'.
+ .
+  This  license applies  to all  files distributed  in  the original
+  FreeType  Project,   including  all  source   code,  binaries  and
+  documentation,  unless  otherwise  stated   in  the  file  in  its
+  original, unmodified form as  distributed in the original archive.
+  If you are  unsure whether or not a particular  file is covered by
+  this license, you must contact us to verify this.
+ .
+  The FreeType  Project is copyright (C) 1996-2000  by David Turner,
+  Robert Wilhelm, and Werner Lemberg.  All rights reserved except as
+  specified below.
+ .
+ 1. No Warranty
+ --------------
+ .
+  THE FREETYPE PROJECT  IS PROVIDED `AS IS' WITHOUT  WARRANTY OF ANY
+  KIND, EITHER  EXPRESS OR IMPLIED,  INCLUDING, BUT NOT  LIMITED TO,
+  WARRANTIES  OF  MERCHANTABILITY   AND  FITNESS  FOR  A  PARTICULAR
+  PURPOSE.  IN NO EVENT WILL ANY OF THE AUTHORS OR COPYRIGHT HOLDERS
+  BE LIABLE  FOR ANY DAMAGES CAUSED  BY THE USE OR  THE INABILITY TO
+  USE, OF THE FREETYPE PROJECT.
+ .
+ 2. Redistribution
+ -----------------
+ .
+  This  license  grants  a  worldwide, royalty-free,  perpetual  and
+  irrevocable right  and license to use,  execute, perform, compile,
+  display,  copy,   create  derivative  works   of,  distribute  and
+  sublicense the  FreeType Project (in  both source and  object code
+  forms)  and  derivative works  thereof  for  any  purpose; and  to
+  authorize others  to exercise  some or all  of the  rights granted
+  herein, subject to the following conditions:
+ .
+    o Redistribution  of source code  must retain this  license file
+      (`LICENSE.TXT') unaltered; any additions, deletions or changes
+      to   the  original   files  must   be  clearly   indicated  in
+      accompanying  documentation.   The  copyright notices  of  the
+      unaltered, original  files must be preserved in  all copies of
+      source files.
+ .
+    o Redistribution in binary form must provide a  disclaimer  that
+      states  that  the software is based in part of the work of the
+      FreeType Team,  in  the  distribution  documentation.  We also
+      encourage you to put an URL to the FreeType web page  in  your
+      documentation, though this isn't mandatory.
+ .
+  These conditions  apply to any  software derived from or  based on
+  the FreeType Project,  not just the unmodified files.   If you use
+  our work, you  must acknowledge us.  However, no  fee need be paid
+  to us.
+ .
+ 3. Advertising
+ --------------
+ .
+  Neither the  FreeType authors and  contributors nor you  shall use
+  the name of the  other for commercial, advertising, or promotional
+  purposes without specific prior written permission.
+ .
+  We suggest,  but do not require, that  you use one or  more of the
+  following phrases to refer  to this software in your documentation
+  or advertising  materials: `FreeType Project',  `FreeType Engine',
+  `FreeType library', or `FreeType Distribution'.
+ .
+  As  you have  not signed  this license,  you are  not  required to
+  accept  it.   However,  as  the FreeType  Project  is  copyrighted
+  material, only  this license, or  another one contracted  with the
+  authors, grants you  the right to use, distribute,  and modify it.
+  Therefore,  by  using,  distributing,  or modifying  the  FreeType
+  Project, you indicate that you understand and accept all the terms
+  of this license.
+ .
+ 4. Contacts
+ -----------
+ .
+  There are two mailing lists related to FreeType:
+ .
+    o freetype@freetype.org
+ .
+      Discusses general use and applications of FreeType, as well as
+      future and  wanted additions to the  library and distribution.
+      If  you are looking  for support,  start in  this list  if you
+      haven't found anything to help you in the documentation.
+ .
+    o devel@freetype.org
+ .
+      Discusses bugs,  as well  as engine internals,  design issues,
+      specific licenses, porting, etc.
+ .
+    o http://www.freetype.org
+ .
+      Holds the current  FreeType web page, which will  allow you to
+      download  our  latest  development  version  and  read  online
+      documentation.
+ .
+  You can also contact us individually at:
+ .
+    David Turner      <david.turner@freetype.org>
+    Robert Wilhelm    <robert.wilhelm@freetype.org>
+    Werner Lemberg    <werner.lemberg@freetype.org>
