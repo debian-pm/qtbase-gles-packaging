@@ -28,7 +28,6 @@ Build-Depends: debhelper (>= 9),
                libmysqlclient-dev,
                libpng12-dev,
                libpq-dev,
-               libsqlite0-dev,
                libsqlite3-dev,
                libssl-dev,
                libudev-dev,
@@ -110,7 +109,7 @@ Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Recommends: libqtsql5-mysql | libqtsql5-odbc | libqtsql5-psql | libqtsql5-sqlite | libqtsql5-sqlite2 | libqtsql5-ibase [amd64 armel i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sh4 sparc]
+Recommends: libqtsql5-mysql | libqtsql5-odbc | libqtsql5-psql | libqtsql5-sqlite | libqtsql5-ibase [amd64 armel i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sh4 sparc]
 Suggests: qtbase5-dev
 Description: Qt 5 SQL module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -280,7 +279,6 @@ Recommends: libqtopengl5-dev (= ${binary:Version})
 Suggests: firebird-dev,
           libmysqlclient-dev,
           libpq-dev,
-          libsqlite0-dev,
           libsqlite3-dev,
           unixodbc-dev
 Description: Qt 5 base development files

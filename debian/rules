@@ -27,12 +27,6 @@ else
 	extra_configure_opts += -no-sql-ibase
 endif
 
-ifneq (,$(filter %-sql-sqlite2,$(shell dh_listpackages)))
-	extra_configure_opts += -plugin-sql-sqlite2
-else
-	extra_configure_opts += -no-sql-sqlite2
-endif
-
 ifeq ($(DEB_HOST_ARCH),arm)
 	extra_configure_opts += -no-pch
 endif
@@ -118,6 +112,7 @@ endif
 	            -plugin-sql-odbc \
 	            -plugin-sql-psql \
 	            -plugin-sql-sqlite \
+	            -no-sql-sqlite2 \
 	            -plugin-sql-tds \
 	            -system-sqlite \
 	            -platform $(platform_arg) \
