@@ -19,6 +19,8 @@ Copyright: 2007-2012 Fathi Boudra <fabo@debian.org>
            2008-2012 Modestas Vainius <modax@debian.org>
            2007-2009 Ana Beatriz Guerrero Lopez <ana@debian.org>
            2005-2007 Brian Nelson <pyro@debian.org>
+           2012 Zoltán Balogh <zoltan@bakter.hu>
+           2012 Timo Jyrinki <timo@debian.org>
 License: LGPL-2.1 with Nokia Qt LGPL Exception 1.1
 
 Files: src/testlib/3rdparty/callgrind_p.h

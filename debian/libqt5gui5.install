@@ -1,4 +1,4 @@
-usr/lib/*/libQtGui.so.*
+usr/lib/*/libQt5Gui.so.*
 usr/lib/*/qt5/plugins/generic/libqevdevkeyboardplugin.so
 usr/lib/*/qt5/plugins/generic/libqevdevmouseplugin.so
 usr/lib/*/qt5/plugins/generic/libqevdevtabletplugin.so
@@ -10,4 +10,4 @@ usr/lib/*/qt5/plugins/platforminputcontexts/libibusplatforminputcontextplugin.so
 usr/lib/*/qt5/plugins/platforminputcontexts/libmaliitplatforminputcontextplugin.so
 usr/lib/*/qt5/plugins/platforms/libqlinuxfb.so
 usr/lib/*/qt5/plugins/platforms/libqminimal.so
-usr/lib/*/qt5/plugins/platforms/libxcb.so
+usr/lib/*/qt5/plugins/platforms/libqxcb.so

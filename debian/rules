@@ -100,6 +100,8 @@ endif
 	            -docdir "/usr/share/qt5/doc" \
 	            -headerdir "/usr/include/qt5" \
 	            -datadir "/usr/share/qt5" \
+	            -archdatadir "/usr/share/qt5" \
+	            -hostdatadir "/usr/share/qt5" \
 	            -plugindir "/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/plugins" \
 	            -importdir "/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/imports" \
 	            -translationdir "/usr/share/qt5/translations" \
@@ -126,8 +128,12 @@ endif
 	            -dbus-linked \
 	            -reduce-relocations \
 	            -no-separate-debug-info \
+	            -qpa xcb \
 	            -xcb \
 	            -glib \
+	            -icu \
+	            -no-pch \
+	            -accessibility \
 	            $(extra_configure_opts)
 
 override_dh_auto_clean:
@@ -226,6 +232,9 @@ override_dh_auto_install:
 	  -o -name .rcc \
 	\) -print0 | xargs -0 rm -rf
 
+	# Clean .la files
+	sed -i "/dependency_libs/ s/'.*'/''/" `find . -name '*.la'`
+
 	# Remove bogus exec bits from some data files in mkspecs, docs, examples
 	find debian/tmp/usr/share/qt5/ debian/tmp/usr/lib/qt5/ \
 		-perm /u+x,g+x,o+x -type f \
@@ -233,7 +242,7 @@ override_dh_auto_install:
 		-exec chmod a-x {} \;
 
 override_dh_install:
-	dh_install --list-missing
+	dh_install --fail-missing
 
 override_dh_installdocs:
 	dh_installdocs --all LGPL_EXCEPTION.txt

@@ -12,4 +12,13 @@ update-alternatives --install \
     --slave /usr/share/man/man1/uic.1.gz uic.1.gz \
     "/usr/share/man/man1/uic-qt5.1.gz"
 
+update-alternatives --install \
+    /usr/bin/rcc rcc "/usr/bin/rcc-qt5" "40"
+
+update-alternatives --install \
+    /usr/bin/qdbuscpp2xml qdbuscpp2xml "/usr/bin/qdbuscpp2xml-qt5" "40"
+
+update-alternatives --install \
+    /usr/bin/qdbusxml2cpp qdbusxml2cpp "/usr/bin/qdbusxml2cpp-qt5" "40"
+
 #DEBHELPER#

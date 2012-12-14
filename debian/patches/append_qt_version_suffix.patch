@@ -22,25 +22,27 @@ Forwarded: not-needed
 
 --- a/config.tests/unix/arch.test
 +++ b/config.tests/unix/arch.test
-@@ -31,7 +31,7 @@ done
+@@ -31,9 +31,9 @@ done
  # build a test program but don't run it
  test -d "$OUTDIR/config.tests/arch" || mkdir -p "$OUTDIR/config.tests/arch"
- [ -f Makefile ] && $MAKE distclean >/dev/null 2>&1
--OUTDIR=$OUTDIR "$OUTDIR/bin/qmake" -nocache -spec "$QMKSPEC" "QT_BUILD_TREE=$OUTDIR" "LIBS+=$LFLAGS" "QMAKE_CXXFLAGS+=$CXXFLAGS" "$SRCDIR/config.tests/arch/arch.pro" -o "$OUTDIR/config.tests/arch/Makefile" >/dev/null 2>&1 || echo "qmake is broken" >&2
-+OUTDIR=$OUTDIR "$OUTDIR/bin/qmake-qt5" -nocache -spec "$QMKSPEC" "QT_BUILD_TREE=$OUTDIR" "LIBS+=$LFLAGS" "QMAKE_CXXFLAGS+=$CXXFLAGS" "$SRCDIR/config.tests/arch/arch.pro" -o "$OUTDIR/config.tests/arch/Makefile" >/dev/null 2>&1 || echo "qmake is broken" >&2
  cd "$OUTDIR/config.tests/arch"
+ [ -f Makefile ] && $MAKE distclean >/dev/null 2>&1
+-OUTDIR=$OUTDIR "$OUTDIR/bin/qmake" -nocache -spec "$QMKSPEC" "QT_BUILD_TREE=$OUTDIR" "LIBS+=$LFLAGS" "QMAKE_CXXFLAGS+=$CXXFLAGS" "$SRCDIR/config.tests/arch/arch.pro" >/dev/null 2>&1 || echo "qmake is broken" >&2
++OUTDIR=$OUTDIR "$OUTDIR/bin/qmake-qt5" -nocache -spec "$QMKSPEC" "QT_BUILD_TREE=$OUTDIR" "LIBS+=$LFLAGS" "QMAKE_CXXFLAGS+=$CXXFLAGS" "$SRCDIR/config.tests/arch/arch.pro" >/dev/null 2>&1 || echo "qmake is broken" >&2
  
  
+ ARCH=""
+ [ "$VERBOSE" = "yes" ] && $MAKE || $MAKE >/dev/null 2>&1
 --- a/config.tests/unix/compile.test
 +++ b/config.tests/unix/compile.test
 @@ -72,7 +72,7 @@ test -r Makefile && $MAKE distclean >/de
  # Make sure output from possible previous tests is gone
  rm -f "$EXE" "${EXE}.exe"
  
--OUTDIR=$OUTDIR "$OUTDIR/bin/qmake" -nocache -spec "$QMKSPEC" "CONFIG+=$QMAKE_CONFIG" "CONFIG-=debug_and_release" "LIBS*=$LFLAGS" "LIBS+=$MAC_ARCH_LFLAGS" "INCLUDEPATH*=$INCLUDEPATH" "QMAKE_CXXFLAGS*=$CXXFLAGS" "QMAKE_CXXFLAGS+=$MAC_ARCH_CXXFLAGS" "QT_BUILD_TREE=$OUTDIR" "$SRCDIR/$TEST/$EXE.pro" -o "$OUTDIR/$TEST/Makefile"
-+OUTDIR=$OUTDIR "$OUTDIR/bin/qmake-qt5" -nocache -spec "$QMKSPEC" "CONFIG+=$QMAKE_CONFIG" "CONFIG-=debug_and_release" "LIBS*=$LFLAGS" "LIBS+=$MAC_ARCH_LFLAGS" "INCLUDEPATH*=$INCLUDEPATH" "QMAKE_CXXFLAGS*=$CXXFLAGS" "QMAKE_CXXFLAGS+=$MAC_ARCH_CXXFLAGS" "QT_BUILD_TREE=$OUTDIR" "$SRCDIR/$TEST/$EXE.pro" -o "$OUTDIR/$TEST/Makefile"
- 
+-set -- "$OUTDIR/bin/qmake" -nocache -spec "$QMKSPEC" "CONFIG+=$QMAKE_CONFIG" "CONFIG-=debug_and_release" "LIBS*=$LFLAGS" "LIBS+=$MAC_ARCH_LFLAGS" "INCLUDEPATH*=$INCLUDEPATH" "QMAKE_CXXFLAGS*=$CXXFLAGS" "QMAKE_CXXFLAGS+=$MAC_ARCH_CXXFLAGS" "QT_BUILD_TREE=$OUTDIR" "$SRCDIR/$TEST/$EXE.pro" -o "$OUTDIR/$TEST/Makefile"
++set -- "$OUTDIR/bin/qmake-qt5" -nocache -spec "$QMKSPEC" "CONFIG+=$QMAKE_CONFIG" "CONFIG-=debug_and_release" "LIBS*=$LFLAGS" "LIBS+=$MAC_ARCH_LFLAGS" "INCLUDEPATH*=$INCLUDEPATH" "QMAKE_CXXFLAGS*=$CXXFLAGS" "QMAKE_CXXFLAGS+=$MAC_ARCH_CXXFLAGS" "QT_BUILD_TREE=$OUTDIR" "$SRCDIR/$TEST/$EXE.pro" -o "$OUTDIR/$TEST/Makefile"
  if [ "$VERBOSE" = "yes" ]; then
+     OUTDIR=$OUTDIR "$@"
      $MAKE
 --- a/config.tests/unix/ptrsize.test
 +++ b/config.tests/unix/ptrsize.test
@@ -66,7 +68,7 @@ Forwarded: not-needed
      if [ "$VERBOSE" = "yes" ]; then
 --- a/configure
 +++ b/configure
-@@ -3581,7 +3581,7 @@ setBootstrapVariable()
+@@ -3623,7 +3623,7 @@ setBootstrapVariable()
  }
  
  # build qmake
@@ -74,7 +76,7 @@ Forwarded: not-needed
 +if true; then ###[ '!' -f "$outpath/bin/qmake-qt5" ];
      echo "Creating qmake. Please wait..."
  
-     OLD_QCONFIG_H=
+     mkdir -p "$outpath/qmake" || exit
 @@ -6326,10 +6326,10 @@ if [ "$CFG_PROCESS" != "no" ]; then
  
      if [ "$CFG_PROCESS" = "full" ]; then
@@ -109,13 +111,12 @@ Forwarded: not-needed
  isEmpty(QMAKE_EXT_CPP_MOC):QMAKE_EXT_CPP_MOC = .moc
 --- a/mkspecs/features/uic.prf
 +++ b/mkspecs/features/uic.prf
-@@ -1,5 +1,5 @@
- qtPrepareTool(QMAKE_UIC3, uic3)
+@@ -1,4 +1,4 @@
 -qtPrepareTool(QMAKE_UIC, uic)
 +qtPrepareTool(QMAKE_UIC, uic-qt5)
  
  isEmpty(UI_DIR):UI_DIR = .
- isEmpty(UI_SOURCES_DIR):UI_SOURCES_DIR = $$UI_DIR
+ isEmpty(QMAKE_MOD_UIC):QMAKE_MOD_UIC = ui_
 --- a/qmake/Makefile.unix
 +++ b/qmake/Makefile.unix
 @@ -87,17 +87,17 @@ CPPFLAGS = -g -I$(QMKSRC) -I$(QMKSRC)/ge
@@ -151,23 +152,3 @@ Forwarded: not-needed
  }
  INSTALLS += qmake
  
---- a/src/tools/moc/moc.pro
-+++ b/src/tools/moc/moc.pro
-@@ -1,6 +1,6 @@
- option(host_build)
- TEMPLATE	= app
--TARGET		= moc
-+TARGET		= moc-qt5
- 
- DEFINES         += QT_MOC QT_NO_CAST_FROM_BYTEARRAY QT_NO_COMPRESS
- DESTDIR         = ../../../bin
---- a/src/tools/uic/uic.pro
-+++ b/src/tools/uic/uic.pro
-@@ -1,6 +1,6 @@
- option(host_build)
- TEMPLATE = app
--TARGET = uic
-+TARGET = uic-qt5
- 
- DESTDIR = ../../../bin
- DEFINES += QT_UIC

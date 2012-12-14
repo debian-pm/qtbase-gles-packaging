@@ -1,2 +1,2 @@
-usr/lib/*/libQtWidgets.so.*
+usr/lib/*/libQt5Widgets.so.*
 usr/lib/*/qt5/plugins/accessible/libqtaccessiblewidgets.so
