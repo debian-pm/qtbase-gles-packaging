@@ -100,7 +100,7 @@ endif
 	            -docdir "/usr/share/qt5/doc" \
 	            -headerdir "/usr/include/qt5" \
 	            -datadir "/usr/share/qt5" \
-	            -archdatadir "/usr/share/qt5" \
+	            -archdatadir "/usr/lib/$(DEB_HOST_MULTIARCH)/qt5" \
 	            -hostdatadir "/usr/share/qt5" \
 	            -plugindir "/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/plugins" \
 	            -importdir "/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/imports" \
