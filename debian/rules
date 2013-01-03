@@ -95,7 +95,7 @@ endif
 
 	./configure -confirm-license \
 	            -prefix "/usr" \
-	            -bindir "/usr/bin" \
+	            -bindir "/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/bin" \
 	            -libdir "/usr/lib/$(DEB_HOST_MULTIARCH)" \
 	            -docdir "/usr/share/qt5/doc" \
 	            -headerdir "/usr/include/qt5" \
@@ -215,7 +215,8 @@ ifeq ($(vendor),Ubuntu)
 endif
 
 override_dh_auto_install:
-	dh_auto_install -Smakefile -- INSTALL_ROOT=$(CURDIR)/debian/tmp/
+	# Disable stripping to allow debug packages to be built
+	dh_auto_install -Smakefile -- INSTALL_ROOT=$(CURDIR)/debian/tmp/ STRIP=echo
 
 	# Fix wrong path in pkgconfig files
 	find $(CURDIR)/debian/tmp/usr/lib/*/pkgconfig -type f -name '*.pc' \
@@ -223,6 +224,12 @@ override_dh_auto_install:
 	# Fix wrong path in prl files
 	find $(CURDIR)/debian/tmp/usr/lib -type f -name '*.prl' \
 		-exec sed -i -e "/^QMAKE_PRL_BUILD_DIR/d;s/\(QMAKE_PRL_LIBS =\).*/\1/" {} \;
+
+	# Add a configuration for qtchooser
+	mkdir -p $(CURDIR)/debian/tmp/etc/xdg/qtchooser
+	echo "/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/bin" > $(CURDIR)/debian/tmp/etc/xdg/qtchooser/qt5.conf
+	echo "/usr/lib/$(DEB_HOST_MULTIARCH)" >> $(CURDIR)/debian/tmp/etc/xdg/qtchooser/qt5.conf
+	ln -s /etc/xdg/qtchooser/qt5.conf $(CURDIR)/debian/tmp/etc/xdg/qtchooser/default.conf
 
 	# Remove leftover directories
 	find $(CURDIR)/debian/tmp/usr/lib/qt5 -depth -type d \( -false \

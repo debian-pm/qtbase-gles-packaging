@@ -1,7 +1,7 @@
-usr/bin/moc-qt5
-usr/bin/qdbuscpp2xml-qt5
-usr/bin/qdbusxml2cpp-qt5
-usr/bin/qdoc
-usr/bin/rcc-qt5
-usr/bin/syncqt
-usr/bin/uic-qt5
+usr/lib/*/qt5/bin/moc
+usr/lib/*/qt5/bin/qdbuscpp2xml
+usr/lib/*/qt5/bin/qdbusxml2cpp
+usr/lib/*/qt5/bin/qdoc
+usr/lib/*/qt5/bin/rcc
+usr/lib/*/qt5/bin/syncqt
+usr/lib/*/qt5/bin/uic
