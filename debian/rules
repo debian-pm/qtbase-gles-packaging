@@ -248,7 +248,7 @@ override_dh_auto_install:
 		-exec chmod a-x {} \;
 
 override_dh_install:
-	dh_install --fail-missing
+	dh_install --list-missing
 
 override_dh_installdocs:
 	dh_installdocs --all LGPL_EXCEPTION.txt
