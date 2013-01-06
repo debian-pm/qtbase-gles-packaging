@@ -108,7 +108,6 @@ endif
 	            -sysconfdir "/etc/xdg" \
 	            -examplesdir "/usr/lib/qt5/examples" \
 	            -opensource \
-	            -no-c++11 \
 	            -fast \
 	            -plugin-sql-mysql \
 	            -plugin-sql-odbc \
