@@ -3,24 +3,26 @@ Upstream-Name: qtbase-opensource-src
 Source: http://origin.releases.qt-project.org/qt5
 
 Files: *
-Copyright: 2008-2012 Nokia Corporation and/or its subsidiary(-ies)
+Copyright: 2012-2013 Digia Plc and/or its subsidiary(-ies)
+           2008-2012 Nokia Corporation and/or its subsidiary(-ies)
            1994-2008 Trolltech ASA.
-License: LGPL-2.1 with Nokia Qt LGPL Exception 1.1 or GPL-3
+License: LGPL-2.1 with Digia Qt LGPL Exception 1.1 or GPL-3
 
 Files: examples/* src/*/doc/snippets/* tests/manual/qlocale/*
        src/winmain/qtmain_win.cpp
-Copyright: 2008-2012 Nokia Corporation and/or its subsidiary(-ies)
+Copyright: 2012-2013 Digia Plc and/or its subsidiary(-ies)
+           2008-2012 Nokia Corporation and/or its subsidiary(-ies)
            1994-2008 Trolltech ASA.
 License: BSD-3-clause
 
 Files: debian/*
-Copyright: 2007-2012 Fathi Boudra <fabo@debian.org>
-           2007-2012 Sune Vuorela <debian@pusling.com>
+Copyright: 2007-2013 Fathi Boudra <fabo@debian.org>
+           2007-2013 Sune Vuorela <debian@pusling.com>
            2008-2012 Modestas Vainius <modax@debian.org>
            2007-2009 Ana Beatriz Guerrero Lopez <ana@debian.org>
            2005-2007 Brian Nelson <pyro@debian.org>
-           2012 Zoltán Balogh <zoltan@bakter.hu>
-           2012 Timo Jyrinki <timo@debian.org>
+           2012-2013 Zoltán Balogh <zoltan@bakter.hu>
+           2012-2013 Timo Jyrinki <timo@debian.org>
 License: LGPL-2.1 with Nokia Qt LGPL Exception 1.1
 
 Files: src/testlib/3rdparty/callgrind_p.h
@@ -38,6 +40,7 @@ Copyright: 1998-2005 David Turner
            2000-2007 Red Hat, Inc
            2006 Behdad Esfahbod
            2008-2012 Nokia Corporation and/or its subsidiary(-ies)
+           2012-2013 Digia Plc and/or its subsidiary(-ies)
 License:
  Permission is hereby granted, without written agreement and without
  license or royalty fees, to use, copy, modify, and distribute this
