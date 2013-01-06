@@ -55,19 +55,6 @@ Homepage: http://qt-project.org/
 Vcs-Git: git://git.debian.org/pkg-kde/qt/qtbase.git
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/qt/qtbase.git;a=summary
 
-Package: qt5-default
-Architecture: all
-Depends: qtchooser, ${misc:Depends}, ${shlibs:Depends}
-Conflicts: qt4-default
-Description: Qt 5 development defaults package
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This package sets Qt 5 to be the default Qt version to be used when
- using development binaries like qmake. It provides a default
- configuration for qtchooser, but does not prevent alternative Qt
- installations from being used.
-
 Package: libqt5core5
 Architecture: any
 Multi-Arch: same
@@ -417,3 +404,16 @@ Description: Qt 5 base examples debugging symbols
  is its rich set of widgets that provide standard GUI functionality.
  .
  This package contains the debugging symbols for the Qt 5 examples.
+
+Package: qt5-default
+Architecture: all
+Depends: qtchooser, ${misc:Depends}
+Conflicts: qt4-default
+Description: Qt 5 development defaults package
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package sets Qt 5 to be the default Qt version to be used when
+ using development binaries like qmake. It provides a default
+ configuration for qtchooser, but does not prevent alternative Qt
+ installations from being used.
