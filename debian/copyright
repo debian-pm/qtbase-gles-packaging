@@ -1,6 +1,6 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: qtbase-opensource-src
-Source: http://releases.qt-project.org/qt5.0/
+Source: http://origin.releases.qt-project.org/qt5
 
 Files: *
 Copyright: 2008-2012 Nokia Corporation and/or its subsidiary(-ies)

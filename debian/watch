@@ -1,2 +1,2 @@
 version=3
-http://releases.qt-project.org/qt5.0/split_sources/qtbase-opensource-src-([^-]*)\.tar.xz
+http://origin.releases.qt-project.org/qt5/([\d\.]*)/submodules_tar/qtbase-opensource-src-([^-]*)\.tar.xz
