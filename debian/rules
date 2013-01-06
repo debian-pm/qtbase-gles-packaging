@@ -106,7 +106,7 @@ endif
 	            -importdir "/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/imports" \
 	            -translationdir "/usr/share/qt5/translations" \
 	            -sysconfdir "/etc/xdg" \
-	            -examplesdir "/usr/lib/qt5/examples" \
+	            -examplesdir "/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/examples" \
 	            -opensource \
 	            -fast \
 	            -plugin-sql-mysql \
@@ -231,7 +231,7 @@ override_dh_auto_install:
 	ln -s /etc/xdg/qtchooser/qt5.conf $(CURDIR)/debian/tmp/etc/xdg/qtchooser/default.conf
 
 	# Remove leftover directories
-	find $(CURDIR)/debian/tmp/usr/lib/qt5 -depth -type d \( -false \
+	find $(CURDIR)/debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt5 -depth -type d \( -false \
 	  -o -name .moc\* \
 	  -o -name .obj\* \
 	  -o -name .pch \
@@ -242,7 +242,7 @@ override_dh_auto_install:
 	sed -i "/dependency_libs/ s/'.*'/''/" `find . -name '*.la'`
 
 	# Remove bogus exec bits from some data files in mkspecs, docs, examples
-	find debian/tmp/usr/share/qt5/ debian/tmp/usr/lib/qt5/ \
+	find debian/tmp/usr/share/qt5/ debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/ \
 		-perm /u+x,g+x,o+x -type f \
 		-regex '.*\.\(app\|conf\|cpp\|h\|js\|php\|png\|pro\|xml\|xsl\)$$' \
 		-exec chmod a-x {} \;

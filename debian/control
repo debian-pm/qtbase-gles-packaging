@@ -371,6 +371,7 @@ Description: Qt 5 qmake Makefile generator tool
 
 Package: qtbase5-examples
 Architecture: any
+Multi-Arch: foreign
 Section: x11
 Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
