@@ -49,7 +49,7 @@ Build-Depends: debhelper (>= 9),
                libxrender-dev,
                pkg-kde-tools (>= 0.14.2),
                unixodbc-dev,
-               zlib1g-dev,
+               zlib1g-dev
 Standards-Version: 3.9.3
 Homepage: http://qt-project.org/
 Vcs-Git: git://git.debian.org/pkg-kde/qt/qtbase.git
@@ -57,15 +57,15 @@ Vcs-Browser: http://git.debian.org/?p=pkg-kde/qt/qtbase.git;a=summary
 
 Package: qt5-default
 Architecture: all
-Depends: ${misc:Depends}, ${shlibs:Depends}, qtchooser
+Depends: qtchooser, ${misc:Depends}, ${shlibs:Depends}
 Conflicts: qt4-default
 Description: Qt 5 development defaults package
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
- This package sets Qt 5 to be the default Qt version to be used when 
- using development binaries like qmake. It provides a default 
- configuration for qtchooser, but does not prevent alternative Qt 
+ This package sets Qt 5 to be the default Qt version to be used when
+ using development binaries like qmake. It provides a default
+ configuration for qtchooser, but does not prevent alternative Qt
  installations from being used.
 
 Package: libqt5core5

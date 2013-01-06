@@ -270,7 +270,7 @@ License: LGPL-2.1 with Nokia Qt LGPL Exception 1.1
  2.1, the object code form of a "work that uses the Library" may incorporate
  material from a header file that is part of the Library.  You may distribute
  such object code under terms of your choice, provided that:
-     (i)   the header files of the Library have not been modified; and 
+     (i)   the header files of the Library have not been modified; and
      (ii)  the incorporated material is limited to numerical parameters, data
            structure layouts, accessors, macros, inline functions and
            templates; and
