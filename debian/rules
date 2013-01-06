@@ -127,6 +127,7 @@ endif
 	            -optimized-qmake \
 	            -dbus-linked \
 	            -reduce-relocations \
+		    -no-strip \
 	            -no-separate-debug-info \
 	            -qpa xcb \
 	            -xcb \
@@ -215,8 +216,7 @@ ifeq ($(vendor),Ubuntu)
 endif
 
 override_dh_auto_install:
-	# Disable stripping to allow debug packages to be built
-	dh_auto_install -Smakefile -- INSTALL_ROOT=$(CURDIR)/debian/tmp/ STRIP=echo
+	dh_auto_install -Smakefile -- INSTALL_ROOT=$(CURDIR)/debian/tmp/
 
 	# Fix wrong path in pkgconfig files
 	find $(CURDIR)/debian/tmp/usr/lib/*/pkgconfig -type f -name '*.pc' \
