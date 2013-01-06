@@ -1,5 +1,5 @@
 qtbase-opensource-src (5.0.0-1) UNRELEASED; urgency=low
 
-  * Initial release.
+  * Initial release. (Closes: #697509)
 
- -- Fathi Boudra <fabo@debian.org>  Sat, 01 Sep 2012 08:21:00 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 06 Jan 2013 14:05:22 +0200
