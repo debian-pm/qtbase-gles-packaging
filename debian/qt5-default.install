@@ -1,2 +1,1 @@
-# do not ship a default.conf
-#etc/xdg/qtchooser/default.conf
+usr/share/qtchooser/default.conf

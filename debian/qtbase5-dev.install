@@ -1,5 +1,4 @@
-# do not ship a qt5.conf in qtbase5-dev
-#etc/xdg/qtchooser/qt5.conf
+usr/share/qtchooser/qt5.conf
 usr/include/qt5/QtConcurrent/QtConcurrent
 usr/include/qt5/QtConcurrent/QtConcurrentFilter
 usr/include/qt5/QtConcurrent/QtConcurrentMap

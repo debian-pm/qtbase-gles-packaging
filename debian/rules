@@ -225,10 +225,10 @@ override_dh_auto_install:
 		-exec sed -i -e "/^QMAKE_PRL_BUILD_DIR/d;s/\(QMAKE_PRL_LIBS =\).*/\1/" {} \;
 
 	# Add a configuration for qtchooser
-	mkdir -p $(CURDIR)/debian/tmp/etc/xdg/qtchooser
-	echo "/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/bin" > $(CURDIR)/debian/tmp/etc/xdg/qtchooser/qt5.conf
-	echo "/usr/lib/$(DEB_HOST_MULTIARCH)" >> $(CURDIR)/debian/tmp/etc/xdg/qtchooser/qt5.conf
-	ln -s /etc/xdg/qtchooser/qt5.conf $(CURDIR)/debian/tmp/etc/xdg/qtchooser/default.conf
+	mkdir -p $(CURDIR)/debian/tmp/usr/share/qtchooser
+	echo "/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/bin" > $(CURDIR)/debian/tmp/usr/share/qtchooser/qt5.conf
+	echo "/usr/lib/$(DEB_HOST_MULTIARCH)" >> $(CURDIR)/debian/tmp/usr/share/qtchooser/qt5.conf
+	ln -s /usr/share/qtchooser/qt5.conf $(CURDIR)/debian/tmp/usr/share/qtchooser/default.conf
 
 	# Remove leftover directories
 	find $(CURDIR)/debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt5 -depth -type d \( -false \
