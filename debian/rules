@@ -220,9 +220,6 @@ override_dh_auto_install:
 	# Fix wrong path in pkgconfig files
 	find $(CURDIR)/debian/tmp/usr/lib/*/pkgconfig -type f -name '*.pc' \
 		-exec perl -pi -e "s, -L$(CURDIR)/?\S+,,g" {} \;
-	# Fix wrong path in prl files
-	find $(CURDIR)/debian/tmp/usr/lib -type f -name '*.prl' \
-		-exec sed -i -e "/^QMAKE_PRL_BUILD_DIR/d;s/\(QMAKE_PRL_LIBS =\).*/\1/" {} \;
 
 	# Add a configuration for qtchooser
 	mkdir -p $(CURDIR)/debian/tmp/usr/share/qtchooser
