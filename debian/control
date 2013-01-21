@@ -407,7 +407,7 @@ Description: Qt 5 base examples debugging symbols
 
 Package: qt5-default
 Architecture: all
-Depends: qtchooser, ${misc:Depends}
+Depends: qtchooser, qtbase5-dev, ${misc:Depends}
 Conflicts: qt4-default
 Description: Qt 5 development defaults package
  Qt is a cross-platform C++ application framework. Qt's primary feature
