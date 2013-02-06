@@ -108,7 +108,6 @@ endif
 	            -sysconfdir "/etc/xdg" \
 	            -examplesdir "/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/examples" \
 	            -opensource \
-	            -fast \
 	            -plugin-sql-mysql \
 	            -plugin-sql-odbc \
 	            -plugin-sql-psql \
