@@ -1,2 +1,3 @@
 version=3
+opts=dversionmangle=s/\+dfsg// \
 http://origin.releases.qt-project.org/qt5/([\d\.]*)/submodules_tar/qtbase-opensource-src-([^-]*)\.tar.xz
