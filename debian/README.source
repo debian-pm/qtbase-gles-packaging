@@ -4,6 +4,15 @@ DFSG-repackaging
 The source code of Qt is repackaged to get rid of the non-DFSG compliant
 RFCs that are bundled with zlib's source code inside src/3rdparty/zlib/doc/.
 
+Additional similar removed files in Qt 5 are: 
+tests/manual/network_stresstest/qtest/bigfile 
+tests/auto/network/access/qnetworkreply/bigfile 
+tests/auto/network/access/qnetworkreply/rfc3252.txt 
+tests/auto/network/access/qnetworkreply/resource 
+tests/auto/network/access/qftp/rfc3252.txt 
+tests/auto/corelib/tools/qbytearray/rfc3252.txt 
+tests/auto/corelib/io/qtextstream/rfc3261.txt
+
 Patches to the original source code
 -----------------------------------
 
