@@ -344,7 +344,7 @@ Description: Qt 5 qmake Makefile generator tool
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
- This package contains Qt 5 qmake (qmake-qt5), a tool that helps simplify
+ This package contains the Qt 5 qmake, a tool that helps simplify
  the build process for development project across different platforms.
  qmake automates the generation of Makefiles so that only a few lines of
  information are needed to create each Makefile. qmake can be used for any
