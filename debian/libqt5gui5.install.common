@@ -1,5 +1,5 @@
 usr/lib/*/libQt5Gui.so.*
-sr/lib/*/qt5/plugins/imageformats/libqgif.so
+usr/lib/*/qt5/plugins/imageformats/libqgif.so
 usr/lib/*/qt5/plugins/imageformats/libqico.so
 usr/lib/*/qt5/plugins/imageformats/libqjpeg.so
 usr/lib/*/qt5/plugins/platforminputcontexts/libibusplatforminputcontextplugin.so
