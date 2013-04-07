@@ -21,22 +21,26 @@ shlibs_version := $(shell dpkg-parsechangelog | sed -n 's/^Version: //p' | cut -
 # Distribution vendor
 vendor := $(shell dpkg-vendor --query Vendor)
 
-# To easier the compilation in !linux OSes, we provide support for
-# .install.common files, were common stuff between archs/OSs should be listed.
+# To easier the files installation according OSes and archs, we create three
+# kinds of install files: foo.install-common, foo.install-$arch and
+# foo.install.$os. In this case we can fine-tune what we install.
 #
-# How to use it: put common stuff in foo.install.common, the arch specific
-# installs in foo.install.ARCH and the OS specific installs in foo.install.OS.
-#
-# Note that when there is a foo.install file and a foo.install.arch, only the later
-# will get processsed (as debhelper does).
-#
-# If foo.install.common is present, foo.install should not be.
+# Note that if any foo.install-* file exists and foo.install exist too, the
+# later will get overwritten.
 #
 # I've opened a bug in debhelper to allow this:
 # http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=703201
 
-# Retrieve packages that have a .install.common file
-pkgs_with_common = $(patsubst debian/%.install.common,%,$(wildcard debian/*.install.common))
+arch= $(shell dpkg-architecture -qDEB_HOST_ARCH)
+os = $(shell dpkg-architecture -qDEB_HOST_ARCH_OS)
+
+# Retrieve packages that have a .install-common file
+pkgs_with_common = $(patsubst debian/%.install-common,%,$(wildcard debian/*.install-common))
+# Retrieve packages that have a .install-$arch file
+pkgs_with_arch = $(patsubst debian/%.install-$arch,%,$(wildcard debian/*.install-$arch))
+# Retrieve packages that have a .install-$os file
+pkgs_with_arch = $(patsubst debian/%.install-$os,%,$(wildcard debian/*.install-$os))
+
 
 ifneq (,$(filter %-sql-ibase,$(shell dh_listpackages)))
 	extra_configure_opts += -plugin-sql-ibase
@@ -261,19 +265,22 @@ override_dh_auto_install:
 		-exec chmod a-x {} \;
 
 override_dh_install:
+	# Now flush all the .install-* files as .install files.
+	set -e; for pkg in $(pkgs_with_common); do \
+		cat debian/$$pkg.install-common >> debian/$$pkg.install ; \
+	done
+
+	set -e; for pkg in $(pkgs_with_arch); do \
+		cat debian/$$pkg.install-$$arch >> debian/$$pkg.install ; \
+	done
+
+	set -e; for pkg in $(pkgs_with_os); do \
+		cat debian/$$pkg.install-$$os >> debian/$$pkg.install ; \
+	done
+
 	# Call dh_install normally. It will process .install, .install.ARCH
 	# and/or .install.OS files.
 	dh_install --list-missing
-
-	# Now copy all the .install.common files as .install files.
-	set -e; for pkg in $(pkgs_with_common); do \
-		ln -s $$pkg.install.common debian/$$pkg.install ; \
-	done
-
-	# Finally, install them.
-	dh_install $(foreach p,$(pkgs_with_common),-p$p \
-	--ignore=debian/$p.install.$(shell dpkg-architecture -qDEB_HOST_ARCH) \
-	--ignore=debian/$p.install.$(shell dpkg-architecture -qDEB_HOST_ARCH_OS))
 
 override_dh_installdocs:
 	dh_installdocs --all LGPL_EXCEPTION.txt
@@ -302,8 +309,19 @@ override_dh_builddeb:
 
 override_dh_clean:
 	dh_clean
+
 	# Don't forget to remove the .install files we generated.
-	rm -rf debian/$(pkgs_with_common).install
+	for pkg in $(pkgs_with_common); do \
+		rm -rf debian/$$pkg.install ; \
+	done
+
+	for pkg in $(pkgs_with_arch); do \
+		rm -rf debian/$$pkg.install ; \
+	done
+
+	for pkg in $(pkgs_with_os); do \
+		rm -rf debian/$$pkg.install ; \
+	done
 
 # See upstream bugs
 # https://bugreports.qt-project.org/browse/QTBUG-30544
