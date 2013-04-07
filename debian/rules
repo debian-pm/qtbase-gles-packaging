@@ -273,9 +273,7 @@ override_dh_builddeb:
 
 prune-nonfree:
 	# Delete zlib's RFCs.
-	find \( -name rfc195* \) -print -delete
-	find \( -name rfc3235 \) -print -delete
-	find \( -name rfc3261 \) -print -delete
+	find \( -name rfc????.txt \) -print -delete
 	rm -f tests/manual/network_stresstest/qtest/bigfile
 	rm -f tests/auto/network/access/qnetworkreply/bigfile
 	rm -f tests/auto/network/access/qnetworkreply/resource
