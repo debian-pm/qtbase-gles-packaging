@@ -271,6 +271,9 @@ override_dh_makeshlibs:
 override_dh_builddeb:
 	dh_builddeb -- -Zxz
 
+# See upstream bugs
+# https://bugreports.qt-project.org/browse/QTBUG-30544
+# https://bugreports.qt-project.org/browse/QTBUG-30545
 prune-nonfree:
 	# Delete zlib's RFCs.
 	find \( -name rfc????.txt \) -print -delete
