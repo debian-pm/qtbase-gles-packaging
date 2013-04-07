@@ -21,6 +21,23 @@ shlibs_version := $(shell dpkg-parsechangelog | sed -n 's/^Version: //p' | cut -
 # Distribution vendor
 vendor := $(shell dpkg-vendor --query Vendor)
 
+# To easier the compilation in !linux OSes, we provide support for
+# .install.common files, were common stuff between archs/OSs should be listed.
+#
+# How to use it: put common stuff in foo.install.common, the arch specific
+# installs in foo.install.ARCH and the OS specific installs in foo.install.OS.
+#
+# Note that when there is a foo.install file and a foo.install.arch, only the later
+# will get processsed (as debhelper does).
+#
+# If foo.install.common is present, foo.install should not be.
+#
+# I've opened a bug in debhelper to allow this:
+# http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=703201
+
+# Retrieve packages that have a .install.common file
+pkgs_with_common = $(patsubst debian/%.install.common,%,$(wildcard debian/*.install.common))
+
 ifneq (,$(filter %-sql-ibase,$(shell dh_listpackages)))
 	extra_configure_opts += -plugin-sql-ibase
 else
@@ -244,7 +261,19 @@ override_dh_auto_install:
 		-exec chmod a-x {} \;
 
 override_dh_install:
+	# Call dh_install normally. It will process .install, .install.ARCH
+	# and/or .install.OS files.
 	dh_install --list-missing
+
+	# Now copy all the .install.common files as .install files.
+	set -e; for pkg in $(pkgs_with_common); do \
+		ln -s $$pkg.install.common debian/$$pkg.install ; \
+	done
+
+	# Finally, install them.
+	dh_install $(foreach p,$(pkgs_with_common),-p$p \
+	--ignore=debian/$p.install.$(shell dpkg-architecture -qDEB_HOST_ARCH) \
+	--ignore=debian/$p.install.$(shell dpkg-architecture -qDEB_HOST_ARCH_OS))
 
 override_dh_installdocs:
 	dh_installdocs --all LGPL_EXCEPTION.txt
@@ -270,6 +299,11 @@ override_dh_makeshlibs:
 
 override_dh_builddeb:
 	dh_builddeb -- -Zxz
+
+override_dh_clean:
+	dh_clean
+	# Don't forget to remove the .install files we generated.
+	rm -rf debian/$(pkgs_with_common).install
 
 # See upstream bugs
 # https://bugreports.qt-project.org/browse/QTBUG-30544
