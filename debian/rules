@@ -37,9 +37,9 @@ os = $(shell dpkg-architecture -qDEB_HOST_ARCH_OS)
 # Retrieve packages that have a .install-common file
 pkgs_with_common = $(patsubst debian/%.install-common,%,$(wildcard debian/*.install-common))
 # Retrieve packages that have a .install-$arch file
-pkgs_with_arch = $(patsubst debian/%.install-$arch,%,$(wildcard debian/*.install-$arch))
+pkgs_with_arch = $(patsubst debian/%.install-$(arch),%,$(wildcard debian/*.install-$(arch)))
 # Retrieve packages that have a .install-$os file
-pkgs_with_os = $(patsubst debian/%.install-$os,%,$(wildcard debian/*.install-$os))
+pkgs_with_os = $(patsubst debian/%.install-$(os),%,$(wildcard debian/*.install-$(os)))
 
 
 ifneq (,$(filter %-sql-ibase,$(shell dh_listpackages)))
