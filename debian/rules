@@ -32,7 +32,7 @@ vendor := $(shell dpkg-vendor --query Vendor)
 # http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=703201
 
 arch= $(shell dpkg-architecture -qDEB_HOST_ARCH)
-os = $(shell dpkg-architecture -qDEB_HOST_ARCH_OS)
+os= $(shell dpkg-architecture -qDEB_HOST_ARCH_OS)
 
 # Retrieve packages that have a .install-common file
 pkgs_with_common = $(patsubst debian/%.install-common,%,$(wildcard debian/*.install-common))
@@ -271,11 +271,11 @@ override_dh_install:
 	done
 
 	set -e; for pkg in $(pkgs_with_arch); do \
-		cat debian/$$pkg.install-$$arch >> debian/$$pkg.install ; \
+		cat debian/$$pkg.install-$(arch) >> debian/$$pkg.install ; \
 	done
 
 	set -e; for pkg in $(pkgs_with_os); do \
-		cat debian/$$pkg.install-$$os >> debian/$$pkg.install ; \
+		cat debian/$$pkg.install-$(os) >> debian/$$pkg.install ; \
 	done
 
 	# Call dh_install normally. It will process .install, .install.ARCH
