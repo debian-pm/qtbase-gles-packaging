@@ -154,6 +154,7 @@ endif
 	            -icu \
 	            -no-pch \
 	            -accessibility \
+	            --no-directfb \
 	            $(extra_configure_opts)
 
 override_dh_auto_clean:
