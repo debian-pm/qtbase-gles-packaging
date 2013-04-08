@@ -87,12 +87,8 @@ else
   endif
 endif
 
-ifneq ($(DEB_HOST_ARCH),ia64)
-	extra_dh_opts += --parallel
-endif
-
 %:
-	dh $@ $(extra_dh_opts) --with pkgkde_symbolshelper
+	dh $@ --parallel --with pkgkde_symbolshelper
 
 override_dh_auto_configure:
 	# Test broken hppa kernel with glibc >= 2.5
