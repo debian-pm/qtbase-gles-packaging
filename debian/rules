@@ -277,7 +277,7 @@ override_dh_install:
 
 	# Call dh_install normally. It will process .install, .install.ARCH
 	# and/or .install.OS files.
-	dh_install --list-missing
+	dh_install --fail-missing
 
 override_dh_installdocs:
 	dh_installdocs --all LGPL_EXCEPTION.txt
