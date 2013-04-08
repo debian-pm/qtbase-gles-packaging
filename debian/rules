@@ -48,7 +48,8 @@ else
 	extra_configure_opts += -no-sql-ibase
 endif
 
-ifeq ($(DEB_HOST_ARCH),arm)
+no_pch_architectures := arm
+ifeq ($(DEB_HOST_ARCH),$(findstring $(DEB_HOST_ARCH), $(no_pch_architectures)))
 	extra_configure_opts += -no-pch
 endif
 
