@@ -259,7 +259,7 @@ Description: Qt 5 print support module
 Package: qtbase5-dev
 Architecture: any
 Section: libdevel
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: dpkg (>= 1.15.6~)
 Depends: libgl1-mesa-dev [!armel !armhf] | libgl-dev [!armel !armhf],
          libgles2-mesa-dev [armel armhf] | libgles2-dev [armel armhf],
          libglu1-mesa-dev [!armel !armhf] | libglu-dev [!armel !armhf],
@@ -292,7 +292,7 @@ Description: Qt 5 base development files
 Package: qtbase5-private-dev
 Architecture: any
 Section: libdevel
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: dpkg (>= 1.15.6~)
 Depends: qtbase5-dev (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 base private development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -306,7 +306,7 @@ Description: Qt 5 base private development files
 Package: libqt5opengl5-dev
 Architecture: any
 Section: libdevel
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: dpkg (>= 1.15.6~)
 Depends: libqt5opengl5 (= ${binary:Version}),
          qtbase5-dev (= ${binary:Version}),
          ${misc:Depends},
@@ -322,7 +322,7 @@ Package: qtbase5-dev-tools
 Architecture: any
 Multi-Arch: foreign
 Section: devel
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: dpkg (>= 1.15.6~)
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: qtchooser
 Description: Qt 5 base development programs
@@ -359,7 +359,7 @@ Package: qtbase5-examples
 Architecture: any
 Multi-Arch: foreign
 Section: x11
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: dpkg (>= 1.15.6~)
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 base examples
  Qt is a cross-platform C++ application framework. Qt's primary feature
