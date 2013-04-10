@@ -82,7 +82,6 @@ usr/include/qt5/QtCore/QFinalState
 usr/include/qt5/QtCore/QFlag
 usr/include/qt5/QtCore/QFlags
 usr/include/qt5/QtCore/QForeachContainer
-usr/include/qt5/QtCore/QForeachContainerBase
 usr/include/qt5/QtCore/QFunctionPointer
 usr/include/qt5/QtCore/QFuture
 usr/include/qt5/QtCore/QFutureInterface
