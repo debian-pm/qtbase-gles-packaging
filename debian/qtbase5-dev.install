@@ -1,4 +1,3 @@
-usr/share/qtchooser/qt5.conf
 usr/include/qt5/QtConcurrent/QtConcurrent
 usr/include/qt5/QtConcurrent/QtConcurrentFilter
 usr/include/qt5/QtConcurrent/QtConcurrentMap
@@ -544,10 +543,12 @@ usr/include/qt5/QtGui/*/QtGui/qpa/qplatformdrag.h
 usr/include/qt5/QtGui/*/QtGui/qpa/qplatformfontdatabase.h
 usr/include/qt5/QtGui/*/QtGui/qpa/qplatforminputcontext.h
 usr/include/qt5/QtGui/*/QtGui/qpa/qplatforminputcontext_p.h
+usr/include/qt5/QtGui/*/QtGui/qpa/qplatforminputcontextfactory_p.h
 usr/include/qt5/QtGui/*/QtGui/qpa/qplatforminputcontextplugin_p.h
 usr/include/qt5/QtGui/*/QtGui/qpa/qplatformintegration.h
 usr/include/qt5/QtGui/*/QtGui/qpa/qplatformintegrationfactory_p.h
 usr/include/qt5/QtGui/*/QtGui/qpa/qplatformintegrationplugin.h
+usr/include/qt5/QtGui/*/QtGui/qpa/qplatformmenu.h
 usr/include/qt5/QtGui/*/QtGui/qpa/qplatformnativeinterface.h
 usr/include/qt5/QtGui/*/QtGui/qpa/qplatformopenglcontext.h
 usr/include/qt5/QtGui/*/QtGui/qpa/qplatformpixmap.h
@@ -931,6 +932,8 @@ usr/include/qt5/QtNetwork/qudpsocket.h
 usr/include/qt5/QtPlatformSupport/QtPlatformSupport
 usr/include/qt5/QtPlatformSupport/QtPlatformSupportVersion
 usr/include/qt5/QtPlatformSupport/qtplatformsupportversion.h
+usr/include/qt5/QtPrintSupport/*/QtPrintSupport/qpa/qplatformprintersupport.h
+usr/include/qt5/QtPrintSupport/*/QtPrintSupport/qpa/qplatformprintplugin.h
 usr/include/qt5/QtPrintSupport/QAbstractPrintDialog
 usr/include/qt5/QtPrintSupport/QPageSetupDialog
 usr/include/qt5/QtPrintSupport/QPrintDialog
@@ -951,6 +954,7 @@ usr/include/qt5/QtPrintSupport/qprintpreviewdialog.h
 usr/include/qt5/QtPrintSupport/qprintpreviewwidget.h
 usr/include/qt5/QtPrintSupport/qtprintsupportglobal.h
 usr/include/qt5/QtPrintSupport/qtprintsupportversion.h
+usr/include/qt5/QtSql/5.0.2/QtSql/private/qsqlresult_p.h
 usr/include/qt5/QtSql/QSql
 usr/include/qt5/QtSql/QSqlDatabase
 usr/include/qt5/QtSql/QSqlDriver
@@ -1484,6 +1488,7 @@ usr/share/qt5/doc/global/externalsites/qch-urls.qdoc
 usr/share/qt5/doc/global/externalsites/qt-webpages.qdoc
 usr/share/qt5/doc/global/externalsites/rfc.qdoc
 usr/share/qt5/doc/global/macros.qdocconf
+usr/share/qt5/doc/global/manifest-meta.qdocconf
 usr/share/qt5/doc/global/qt-cpp-ignore.qdocconf
 usr/share/qt5/doc/global/qt-defines.qdocconf
 usr/share/qt5/doc/global/qt-html-templates-offline.qdocconf
@@ -1520,9 +1525,4 @@ usr/share/qt5/doc/global/template/images/spinner.gif
 usr/share/qt5/doc/global/template/images/sprites-combined.png
 usr/share/qt5/doc/global/template/style/offline.css
 usr/share/qt5/doc/global/template/style/online.css
-usr/include/qt5/QtGui/*/QtGui/qpa/qplatforminputcontextfactory_p.h
-usr/include/qt5/QtGui/*/QtGui/qpa/qplatformmenu.h
-usr/include/qt5/QtPrintSupport/*/QtPrintSupport/qpa/qplatformprintplugin.h
-usr/include/qt5/QtPrintSupport/*/QtPrintSupport/qpa/qplatformprintersupport.h
-usr/share/qt5/doc/global/manifest-meta.qdocconf
-usr/include/qt5/QtSql/5.0.2/QtSql/private/qsqlresult_p.h
+usr/share/qtchooser/qt5.conf
