@@ -1524,3 +1524,5 @@ usr/include/qt5/QtGui/*/QtGui/qpa/qplatforminputcontextfactory_p.h
 usr/include/qt5/QtGui/*/QtGui/qpa/qplatformmenu.h
 usr/include/qt5/QtPrintSupport/*/QtPrintSupport/qpa/qplatformprintplugin.h
 usr/include/qt5/QtPrintSupport/*/QtPrintSupport/qpa/qplatformprintersupport.h
+usr/share/qt5/doc/global/manifest-meta.qdocconf
+usr/include/qt5/QtSql/5.0.2/QtSql/private/qsqlresult_p.h
