@@ -326,10 +326,10 @@ override_dh_clean:
 prune-nonfree:
 	# Delete zlib's RFCs.
 	find \( -name rfc????.txt \) -print -delete
-	rm -f tests/manual/network_stresstest/qtest/bigfile
-	rm -f tests/auto/network/access/qnetworkreply/bigfile
-	rm -f tests/auto/network/access/qnetworkreply/resource
+	rm -fv tests/manual/network_stresstest/qtest/bigfile
+	rm -fv tests/auto/network/access/qnetworkreply/bigfile
+	rm -fv tests/auto/network/access/qnetworkreply/resource
 	# Delete Luxi-font licensed fonts, they are not DFSG compatible.
-	rm -f lib/fonts/l*
+	rm -fv lib/fonts/l*
 	# Delete Adobe's Utopia fonts. They do not seem to allow modification.
-	rm -f lib/fonts/U*
+	rm -fv lib/fonts/U*
