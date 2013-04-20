@@ -1,12 +1,11 @@
-qtbase-opensource-src (5.0.2+dfsg1-1) UNRELEASED; urgency=low
+qtbase-opensource-src (5.0.2+dfsg1-1) experimental; urgency=low
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * Remove non-free fonts:
     - Fonts under Luxi font license.
     - Fonts under Adobe Copyright license.
   * Be verbose on what we are removing.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 20 Apr 2013 13:33:41 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sat, 20 Apr 2013 13:37:32 -0300
 
 qtbase-opensource-src (5.0.2+dfsg-2) experimental; urgency=low
 
