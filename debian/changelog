@@ -1,3 +1,9 @@
+qtbase-opensource-src (5.0.2+dfsg1-1) UNRELEASED; urgency=low
+
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 20 Apr 2013 13:33:41 -0300
+
 qtbase-opensource-src (5.0.2+dfsg-2) experimental; urgency=low
 
   * Make qtbase5-dev depend on qtchooser, as it is needed for using qmake and
