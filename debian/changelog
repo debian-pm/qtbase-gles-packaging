@@ -1,3 +1,9 @@
+qtbase-opensource-src (5.0.2+dfsg1-2) UNRELEASED; urgency=low
+
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 20 Apr 2013 16:15:45 -0300
+
 qtbase-opensource-src (5.0.2+dfsg1-1) experimental; urgency=low
 
   * Remove non-free fonts:
