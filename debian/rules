@@ -329,3 +329,7 @@ prune-nonfree:
 	rm -f tests/manual/network_stresstest/qtest/bigfile
 	rm -f tests/auto/network/access/qnetworkreply/bigfile
 	rm -f tests/auto/network/access/qnetworkreply/resource
+	# Delete Luxi-font licensed fonts, they are not DFSG compatible.
+	rm -f lib/fonts/l*
+	# Delete Adobe's Utopia fonts. They do not seem to allow modification.
+	rm -f lib/fonts/U*
