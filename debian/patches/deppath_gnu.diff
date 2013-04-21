@@ -1,0 +1,18 @@
+Author: Pino Toscano <toscano.pino@tiscali.it>
+Description: Use LD_LIBRARY_PATH for deppath.name in any GNU system
+ Use the right environment variable for deppath.name in any system based on
+ GNU libc.
+Last-Update: 2013-04-21
+Forwarded: no
+
+--- a/mkspecs/features/qt_functions.prf
++++ b/mkspecs/features/qt_functions.prf
+@@ -242,7 +242,7 @@ defineTest(qtAddTargetEnv) {
+             deppath += $$shell_path($$eval(QT.$${dep}.libs))
+         equals(QMAKE_HOST.os, Windows) {
+             deppath.name = PATH
+-        } else:contains(QMAKE_HOST.os, Linux|FreeBSD) {
++        } else:contains(QMAKE_HOST.os, Linux|FreeBSD|GNU) {
+             deppath.name = LD_LIBRARY_PATH
+         } else:equals(QMAKE_HOST.os, Darwin) {
+             contains(QT_CONFIG, qt_framework): \
