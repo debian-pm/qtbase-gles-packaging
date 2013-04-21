@@ -1,5 +1,7 @@
 qtbase-opensource-src (5.0.2+dfsg1-3) UNRELEASED; urgency=low
 
+  [ Pino Toscano ]
+  * debian/control: remove extra ${misc:Pre-Depends} from qt5-qmake.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 21 Apr 2013 10:01:11 +0200
 
