@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.0.2 amd64
+# SymbolsHelper-Confirmed: 5.0.2 amd64 ia64 powerpc
 libQt5Concurrent.so.5 libqt5concurrent5 #MINVER#
  _ZN12QtConcurrent16BlockSizeManager13timeAfterUserEv@Base 5.0.2
  _ZN12QtConcurrent16BlockSizeManager14timeBeforeUserEv@Base 5.0.2
@@ -25,9 +25,9 @@ libQt5Concurrent.so.5 libqt5concurrent5 #MINVER#
  _ZN12QtConcurrent16ThreadEngineBaseD0Ev@Base 5.0.2
  _ZN12QtConcurrent16ThreadEngineBaseD1Ev@Base 5.0.2
  _ZN12QtConcurrent16ThreadEngineBaseD2Ev@Base 5.0.2
- _ZN19QUnhandledExceptionD0Ev@Base 5.0.2
- _ZN19QUnhandledExceptionD1Ev@Base 5.0.2
- _ZN19QUnhandledExceptionD2Ev@Base 5.0.2
+ (arch=amd64)_ZN19QUnhandledExceptionD0Ev@Base 5.0.2
+ (arch=amd64)_ZN19QUnhandledExceptionD1Ev@Base 5.0.2
+ (arch=amd64)_ZN19QUnhandledExceptionD2Ev@Base 5.0.2
  _ZTIN12QtConcurrent16ThreadEngineBaseE@Base 5.0.2
  _ZTSN12QtConcurrent16ThreadEngineBaseE@Base 5.0.2
  _ZTVN12QtConcurrent16ThreadEngineBaseE@Base 5.0.2

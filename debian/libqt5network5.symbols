@@ -1,8 +1,9 @@
-# SymbolsHelper-Confirmed: 5.0.2 amd64
+# SymbolsHelper-Confirmed: 5.0.2 amd64 hurd-i386 i386 ia64 powerpc
 libQt5Network.so.5 libqt5network5 #MINVER#
  _Z19qt_qhostinfo_lookupRK7QStringP7QObjectPKcPbPi@Base 5.0.2
  _Z35qNetworkConfigurationManagerPrivatev@Base 5.0.2
  _Z5qHashRK12QHostAddressj@Base 5.0.2
+ (arch=ia64 powerpc)_ZN10QByteArray4dataEv@Base 5.0.2
  _ZN10QDnsLookup11nameChangedERK7QString@Base 5.0.2
  _ZN10QDnsLookup11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN10QDnsLookup11qt_metacastEPKc@Base 5.0.2
@@ -62,7 +63,7 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZN10QSslSocket18setPeerVerifyDepthEi@Base 5.0.2
  _ZN10QSslSocket19setLocalCertificateERK15QSslCertificate@Base 5.0.2
  _ZN10QSslSocket19setLocalCertificateERK7QStringN4QSsl14EncodingFormatE@Base 5.0.2
- _ZN10QSslSocket19setSocketDescriptorExN15QAbstractSocket11SocketStateE6QFlagsIN9QIODevice12OpenModeFlagEE@Base 5.0.2
+ (subst)_ZN10QSslSocket19setSocketDescriptorE{qptrdiff}N15QAbstractSocket11SocketStateE6QFlagsIN9QIODevice12OpenModeFlagEE@Base 5.0.2
  _ZN10QSslSocket19setSslConfigurationERK17QSslConfiguration@Base 5.0.2
  _ZN10QSslSocket19waitForBytesWrittenEi@Base 5.0.2
  _ZN10QSslSocket19waitForDisconnectedEi@Base 5.0.2
@@ -99,8 +100,8 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZN10QTcpServer14pauseAcceptingEv@Base 5.0.2
  _ZN10QTcpServer15resumeAcceptingEv@Base 5.0.2
  _ZN10QTcpServer16staticMetaObjectE@Base 5.0.2
- _ZN10QTcpServer18incomingConnectionEx@Base 5.0.2
- _ZN10QTcpServer19setSocketDescriptorEx@Base 5.0.2
+ (subst)_ZN10QTcpServer18incomingConnectionE{qptrdiff}@Base 5.0.2
+ (subst)_ZN10QTcpServer19setSocketDescriptorE{qptrdiff}@Base 5.0.2
  _ZN10QTcpServer20addPendingConnectionEP10QTcpSocket@Base 5.0.2
  _ZN10QTcpServer20waitForNewConnectionEiPb@Base 5.0.2
  _ZN10QTcpServer21nextPendingConnectionEv@Base 5.0.2
@@ -172,13 +173,13 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZN12QLocalServer13newConnectionEv@Base 5.0.2
  _ZN12QLocalServer16setSocketOptionsE6QFlagsINS_12SocketOptionEE@Base 5.0.2
  _ZN12QLocalServer16staticMetaObjectE@Base 5.0.2
- _ZN12QLocalServer18incomingConnectionEy@Base 5.0.2
+ (subst)_ZN12QLocalServer18incomingConnectionE{quintptr}@Base 5.0.2
  _ZN12QLocalServer20waitForNewConnectionEiPb@Base 5.0.2
  _ZN12QLocalServer21nextPendingConnectionEv@Base 5.0.2
  _ZN12QLocalServer24setMaxPendingConnectionsEi@Base 5.0.2
  _ZN12QLocalServer5closeEv@Base 5.0.2
  _ZN12QLocalServer6listenERK7QString@Base 5.0.2
- _ZN12QLocalServer6listenEx@Base 5.0.2
+ (subst)_ZN12QLocalServer6listenE{qptrdiff}@Base 5.0.2
  _ZN12QLocalServerC1EP7QObject@Base 5.0.2
  _ZN12QLocalServerC2EP7QObject@Base 5.0.2
  _ZN12QLocalServerD0Ev@Base 5.0.2
@@ -193,7 +194,7 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZN12QLocalSocket16waitForConnectedEi@Base 5.0.2
  _ZN12QLocalSocket16waitForReadyReadEi@Base 5.0.2
  _ZN12QLocalSocket17setReadBufferSizeEx@Base 5.0.2
- _ZN12QLocalSocket19setSocketDescriptorExNS_16LocalSocketStateE6QFlagsIN9QIODevice12OpenModeFlagEE@Base 5.0.2
+ (subst)_ZN12QLocalSocket19setSocketDescriptorE{qptrdiff}NS_16LocalSocketStateE6QFlagsIN9QIODevice12OpenModeFlagEE@Base 5.0.2
  _ZN12QLocalSocket19waitForBytesWrittenEi@Base 5.0.2
  _ZN12QLocalSocket19waitForDisconnectedEi@Base 5.0.2
  _ZN12QLocalSocket20disconnectFromServerEv@Base 5.0.2
@@ -341,7 +342,7 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZN15QAbstractSocket16waitForReadyReadEi@Base 5.0.2
  _ZN15QAbstractSocket17setReadBufferSizeEx@Base 5.0.2
  _ZN15QAbstractSocket18disconnectFromHostEv@Base 5.0.2
- _ZN15QAbstractSocket19setSocketDescriptorExNS_11SocketStateE6QFlagsIN9QIODevice12OpenModeFlagEE@Base 5.0.2
+ (subst)_ZN15QAbstractSocket19setSocketDescriptorE{qptrdiff}NS_11SocketStateE6QFlagsIN9QIODevice12OpenModeFlagEE@Base 5.0.2
  _ZN15QAbstractSocket19waitForBytesWrittenEi@Base 5.0.2
  _ZN15QAbstractSocket19waitForDisconnectedEi@Base 5.0.2
  _ZN15QAbstractSocket27proxyAuthenticationRequiredERK13QNetworkProxyP14QAuthenticator@Base 5.0.2
@@ -1109,6 +1110,27 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZNK9QSslError11errorStringEv@Base 5.0.2
  _ZNK9QSslError5errorEv@Base 5.0.2
  _ZNK9QSslErroreqERKS_@Base 5.0.2
+ (optional=templinst|arch=ia64 powerpc|subst)_ZSt13__adjust_heapIN5QListI17QDnsServiceRecordE8iteratorE{qptrdiff}S1_PFbRKS1_S5_EEvT_T0_S9_T1_T2_@Base 5.0.2
+ (optional=templinst|arch=ia64 powerpc|subst)_ZSt13__adjust_heapIN5QListI22QDnsMailExchangeRecordE8iteratorE{qptrdiff}S1_PFbRKS1_S5_EEvT_T0_S9_T1_T2_@Base 5.0.2
+ (optional=templinst|arch=ia64 powerpc|subst)_ZSt13__adjust_heapIN5QListI7QStringE8iteratorE{qptrdiff}S1_PFbRKS1_S5_EEvT_T0_S9_T1_T2_@Base 5.0.2
+ (optional=templinst|arch=ia64 powerpc)_ZSt16__insertion_sortIN5QListI17QDnsServiceRecordE8iteratorEPFbRKS1_S5_EEvT_S8_T0_@Base 5.0.2
+ (optional=templinst|arch=ia64 powerpc)_ZSt16__insertion_sortIN5QListI22QDnsMailExchangeRecordE8iteratorEPFbRKS1_S5_EEvT_S8_T0_@Base 5.0.2
+ (optional=templinst|arch=ia64 powerpc)_ZSt16__insertion_sortIN5QListI7QStringE8iteratorEPFbRKS1_S5_EEvT_S8_T0_@Base 5.0.2
+ (optional=templinst|arch=ia64 powerpc)_ZSt16__introsort_loopIN5QListI17QDnsServiceRecordE8iteratorEiPFbRKS1_S5_EEvT_S8_T0_T1_@Base 5.0.2
+ (optional=templinst|arch=ia64 powerpc)_ZSt16__introsort_loopIN5QListI22QDnsMailExchangeRecordE8iteratorEiPFbRKS1_S5_EEvT_S8_T0_T1_@Base 5.0.2
+ (optional=templinst|arch=ia64 powerpc)_ZSt16__introsort_loopIN5QListI7QStringE8iteratorEiPFbRKS1_S5_EEvT_S8_T0_T1_@Base 5.0.2
+ (optional=templinst|arch=ia64 powerpc)_ZSt19__move_median_firstIN5QListI17QDnsServiceRecordE8iteratorEPFbRKS1_S5_EEvT_S8_S8_T0_@Base 5.0.2
+ (optional=templinst|arch=ia64 powerpc)_ZSt19__move_median_firstIN5QListI22QDnsMailExchangeRecordE8iteratorEPFbRKS1_S5_EEvT_S8_S8_T0_@Base 5.0.2
+ (optional=templinst|arch=ia64 powerpc)_ZSt19__move_median_firstIN5QListI7QStringE8iteratorEPFbRKS1_S5_EEvT_S8_S8_T0_@Base 5.0.2
+ (optional=templinst|arch=ia64 powerpc)_ZSt21__unguarded_partitionIN5QListI17QDnsServiceRecordE8iteratorES1_PFbRKS1_S5_EET_S8_S8_RKT0_T1_@Base 5.0.2
+ (optional=templinst|arch=ia64 powerpc)_ZSt21__unguarded_partitionIN5QListI22QDnsMailExchangeRecordE8iteratorES1_PFbRKS1_S5_EET_S8_S8_RKT0_T1_@Base 5.0.2
+ (optional=templinst|arch=ia64 powerpc)_ZSt21__unguarded_partitionIN5QListI7QStringE8iteratorES1_PFbRKS1_S5_EET_S8_S8_RKT0_T1_@Base 5.0.2
+ (optional=templinst|arch=ia64 powerpc)_ZSt25__unguarded_linear_insertIN5QListI17QDnsServiceRecordE8iteratorEPFbRKS1_S5_EEvT_T0_@Base 5.0.2
+ (optional=templinst|arch=ia64 powerpc)_ZSt25__unguarded_linear_insertIN5QListI22QDnsMailExchangeRecordE8iteratorEPFbRKS1_S5_EEvT_T0_@Base 5.0.2
+ (optional=templinst|arch=ia64 powerpc)_ZSt25__unguarded_linear_insertIN5QListI7QStringE8iteratorEPFbRKS1_S5_EEvT_T0_@Base 5.0.2
+ (optional=templinst|arch=ia64 powerpc)_ZSt9make_heapIN5QListI17QDnsServiceRecordE8iteratorEPFbRKS1_S5_EEvT_S8_T0_@Base 5.0.2
+ (optional=templinst|arch=ia64 powerpc)_ZSt9make_heapIN5QListI22QDnsMailExchangeRecordE8iteratorEPFbRKS1_S5_EEvT_S8_T0_@Base 5.0.2
+ (optional=templinst|arch=ia64 powerpc)_ZSt9make_heapIN5QListI7QStringE8iteratorEPFbRKS1_S5_EEvT_S8_T0_@Base 5.0.2
  _ZTI10QDnsLookup@Base 5.0.2
  _ZTI10QSslSocket@Base 5.0.2
  _ZTI10QTcpServer@Base 5.0.2

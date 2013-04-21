@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.0.2 amd64
+# SymbolsHelper-Confirmed: 5.0.2 amd64 hurd-i386 i386 ia64 powerpc
 libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _Z11qFadeEffectP7QWidgeti@Base 5.0.2
  _Z12qt_accHotKeyRK7QString@Base 5.0.2
@@ -1916,7 +1916,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN14QStackedWidgetD1Ev@Base 5.0.2
  _ZN14QStackedWidgetD2Ev@Base 5.0.2
  _ZN14QWidgetPrivate10allWidgetsE@Base 5.0.2
- _ZN14QWidgetPrivate10create_sysEybb@Base 5.0.2
+ (subst)_ZN14QWidgetPrivate10create_sysE{quintptr}bb@Base 5.0.2
  _ZN14QWidgetPrivate10drawWidgetEP12QPaintDeviceRK7QRegionRK6QPointiP8QPainterP19QWidgetBackingStore@Base 5.0.2
  _ZN14QWidgetPrivate10scrollRectERK5QRectii@Base 5.0.2
  _ZN14QWidgetPrivate10scroll_sysEii@Base 5.0.2
@@ -1924,7 +1924,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN14QWidgetPrivate10updateFontERK5QFont@Base 5.0.2
  _ZN14QWidgetPrivate11adjustFlagsER6QFlagsIN2Qt10WindowTypeEEP7QWidget@Base 5.0.2
  _ZN14QWidgetPrivate11createExtraEv@Base 5.0.2
- _ZN14QWidgetPrivate11createWinIdEy@Base 5.0.2
+ (subst)_ZN14QWidgetPrivate11createWinIdE{quintptr}@Base 5.0.2
  _ZN14QWidgetPrivate11deleteExtraEv@Base 5.0.2
  _ZN14QWidgetPrivate11hide_helperEv@Base 5.0.2
  _ZN14QWidgetPrivate11pointToRectERK6QPointRK5QRect@Base 5.0.2
@@ -2013,7 +2013,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN14QWidgetPrivate6renderEP12QPaintDeviceRK6QPointRK7QRegion6QFlagsIN7QWidget10RenderFlagEEb@Base 5.0.2
  _ZN14QWidgetPrivate8hide_sysEv@Base 5.0.2
  _ZN14QWidgetPrivate8moveRectERK5QRectii@Base 5.0.2
- _ZN14QWidgetPrivate8setWinIdEy@Base 5.0.2
+ (subst)_ZN14QWidgetPrivate8setWinIdE{quintptr}@Base 5.0.2
  _ZN14QWidgetPrivate8show_sysEv@Base 5.0.2
  _ZN14QWidgetPrivate9lower_sysEv@Base 5.0.2
  _ZN14QWidgetPrivate9raise_sysEv@Base 5.0.2
@@ -2272,6 +2272,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN15QGraphicsWidgetD0Ev@Base 5.0.2
  _ZN15QGraphicsWidgetD1Ev@Base 5.0.2
  _ZN15QGraphicsWidgetD2Ev@Base 5.0.2
+ (arch=powerpc)_ZN15QLinearGradientaSEOS_@Base 5.0.2
  _ZN15QListWidgetItem4readER11QDataStream@Base 5.0.2
  _ZN15QListWidgetItem7setDataEiRK8QVariant@Base 5.0.2
  _ZN15QListWidgetItem8setFlagsE6QFlagsIN2Qt8ItemFlagEE@Base 5.0.2
@@ -2339,8 +2340,8 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN15QStyleOptionTabC1Ev@Base 5.0.2
  _ZN15QStyleOptionTabC2Ei@Base 5.0.2
  _ZN15QStyleOptionTabC2Ev@Base 5.0.2
- _ZN15QStyleOptionTabD1Ev@Base 5.0.2
- _ZN15QStyleOptionTabD2Ev@Base 5.0.2
+ (arch=!ia64 !powerpc)_ZN15QStyleOptionTabD1Ev@Base 5.0.2
+ (arch=!ia64 !powerpc)_ZN15QStyleOptionTabD2Ev@Base 5.0.2
  _ZN15QSystemTrayIcon10setToolTipERK7QString@Base 5.0.2
  _ZN15QSystemTrayIcon10setVisibleEb@Base 5.0.2
  _ZN15QSystemTrayIcon11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
@@ -2775,7 +2776,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN17QGraphicsTextItemD0Ev@Base 5.0.2
  _ZN17QGraphicsTextItemD1Ev@Base 5.0.2
  _ZN17QGraphicsTextItemD2Ev@Base 5.0.2
- _ZN17QInputMethodEventaSERKS_@Base 5.0.2
+ (arch=!ia64 !powerpc)_ZN17QInputMethodEventaSERKS_@Base 5.0.2
  _ZN17QPixmapBlurFilter11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN17QPixmapBlurFilter11qt_metacastEPKc@Base 5.0.2
  _ZN17QPixmapBlurFilter12setBlurHintsE6QFlagsIN19QGraphicsBlurEffect8BlurHintEE@Base 5.0.2
@@ -2812,10 +2813,10 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN18QFileDialogPrivate13_q_showHiddenEv@Base 5.0.2
  _ZN18QFileDialogPrivate13createWidgetsEv@Base 5.0.2
  _ZN18QFileDialogPrivate13maxNameLengthERK7QString@Base 5.0.2
- _ZN18QFileDialogPrivate13setFilter_sysEv@Base 5.0.2
+ (arch=!ia64 !powerpc)_ZN18QFileDialogPrivate13setFilter_sysEv@Base 5.0.2
  _ZN18QFileDialogPrivate14_q_fileRenamedERK7QStringS0_S0_@Base 5.0.2
  _ZN18QFileDialogPrivate14_q_pathChangedERK7QString@Base 5.0.2
- _ZN18QFileDialogPrivate14selectFile_sysERK7QString@Base 5.0.2
+ (arch=!ia64 !powerpc)_ZN18QFileDialogPrivate14selectFile_sysERK7QString@Base 5.0.2
  _ZN18QFileDialogPrivate15_q_rowsInsertedERK11QModelIndex@Base 5.0.2
  _ZN18QFileDialogPrivate15_q_showListViewEv@Base 5.0.2
  _ZN18QFileDialogPrivate15removeDirectoryERK7QString@Base 5.0.2
@@ -2824,7 +2825,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN18QFileDialogPrivate16_q_renameCurrentEv@Base 5.0.2
  _ZN18QFileDialogPrivate16_q_useNameFilterEi@Base 5.0.2
  _ZN18QFileDialogPrivate16initialSelectionERK7QString@Base 5.0.2
- _ZN18QFileDialogPrivate16setDirectory_sysERK7QString@Base 5.0.2
+ (arch=!ia64 !powerpc)_ZN18QFileDialogPrivate16setDirectory_sysERK7QString@Base 5.0.2
  _ZN18QFileDialogPrivate16workingDirectoryERK7QString@Base 5.0.2
  _ZN18QFileDialogPrivate17_q_currentChangedERK11QModelIndex@Base 5.0.2
  _ZN18QFileDialogPrivate17_q_enterDirectoryERK11QModelIndex@Base 5.0.2
@@ -2844,7 +2845,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN18QFileDialogPrivate19_q_navigateToParentEv@Base 5.0.2
  _ZN18QFileDialogPrivate19_q_selectionChangedEv@Base 5.0.2
  _ZN18QFileDialogPrivate19setLabelTextControlEN11QFileDialog11DialogLabelERK7QString@Base 5.0.2
- _ZN18QFileDialogPrivate20selectNameFilter_sysERK7QString@Base 5.0.2
+ (arch=!ia64 !powerpc)_ZN18QFileDialogPrivate20selectNameFilter_sysERK7QString@Base 5.0.2
  _ZN18QFileDialogPrivate21itemViewKeyboardEventEP9QKeyEvent@Base 5.0.2
  _ZN18QFileDialogPrivate22getEnvironmentVariableERK7QString@Base 5.0.2
  _ZN18QFileDialogPrivate22retranslateWindowTitleEv@Base 5.0.2
@@ -2896,14 +2897,14 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN18QStyleOptionButtonC1Ev@Base 5.0.2
  _ZN18QStyleOptionButtonC2Ei@Base 5.0.2
  _ZN18QStyleOptionButtonC2Ev@Base 5.0.2
- _ZN18QStyleOptionButtonD1Ev@Base 5.0.2
- _ZN18QStyleOptionButtonD2Ev@Base 5.0.2
+ (arch=!ia64)_ZN18QStyleOptionButtonD1Ev@Base 5.0.2
+ (arch=!ia64)_ZN18QStyleOptionButtonD2Ev@Base 5.0.2
  _ZN18QStyleOptionHeaderC1Ei@Base 5.0.2
  _ZN18QStyleOptionHeaderC1Ev@Base 5.0.2
  _ZN18QStyleOptionHeaderC2Ei@Base 5.0.2
  _ZN18QStyleOptionHeaderC2Ev@Base 5.0.2
- _ZN18QStyleOptionHeaderD1Ev@Base 5.0.2
- _ZN18QStyleOptionHeaderD2Ev@Base 5.0.2
+ (arch=!ia64 !powerpc)_ZN18QStyleOptionHeaderD1Ev@Base 5.0.2
+ (arch=!ia64 !powerpc)_ZN18QStyleOptionHeaderD2Ev@Base 5.0.2
  _ZN18QStyleOptionSliderC1Ei@Base 5.0.2
  _ZN18QStyleOptionSliderC1Ev@Base 5.0.2
  _ZN18QStyleOptionSliderC2Ei@Base 5.0.2
@@ -3268,8 +3269,8 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN19QStyleOptionToolBoxC1Ev@Base 5.0.2
  _ZN19QStyleOptionToolBoxC2Ei@Base 5.0.2
  _ZN19QStyleOptionToolBoxC2Ev@Base 5.0.2
- _ZN19QStyleOptionToolBoxD1Ev@Base 5.0.2
- _ZN19QStyleOptionToolBoxD2Ev@Base 5.0.2
+ (arch=!ia64 !powerpc)_ZN19QStyleOptionToolBoxD1Ev@Base 5.0.2
+ (arch=!ia64 !powerpc)_ZN19QStyleOptionToolBoxD2Ev@Base 5.0.2
  _ZN19QStyledItemDelegate11editorEventEP6QEventP18QAbstractItemModelRK20QStyleOptionViewItemRK11QModelIndex@Base 5.0.2
  _ZN19QStyledItemDelegate11eventFilterEP7QObjectP6QEvent@Base 5.0.2
  _ZN19QStyledItemDelegate11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
@@ -3421,8 +3422,8 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN20QStyleOptionComboBoxC1Ev@Base 5.0.2
  _ZN20QStyleOptionComboBoxC2Ei@Base 5.0.2
  _ZN20QStyleOptionComboBoxC2Ev@Base 5.0.2
- _ZN20QStyleOptionComboBoxD1Ev@Base 5.0.2
- _ZN20QStyleOptionComboBoxD2Ev@Base 5.0.2
+ (arch=!ia64 !powerpc)_ZN20QStyleOptionComboBoxD1Ev@Base 5.0.2
+ (arch=!ia64 !powerpc)_ZN20QStyleOptionComboBoxD2Ev@Base 5.0.2
  _ZN20QStyleOptionGroupBoxC1Ei@Base 5.0.2
  _ZN20QStyleOptionGroupBoxC1Ev@Base 5.0.2
  _ZN20QStyleOptionGroupBoxC2Ei@Base 5.0.2
@@ -3441,8 +3442,8 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN20QStyleOptionTitleBarC1Ev@Base 5.0.2
  _ZN20QStyleOptionTitleBarC2Ei@Base 5.0.2
  _ZN20QStyleOptionTitleBarC2Ev@Base 5.0.2
- _ZN20QStyleOptionTitleBarD1Ev@Base 5.0.2
- _ZN20QStyleOptionTitleBarD2Ev@Base 5.0.2
+ (arch=amd64)_ZN20QStyleOptionTitleBarD1Ev@Base 5.0.2
+ (arch=amd64)_ZN20QStyleOptionTitleBarD2Ev@Base 5.0.2
  _ZN20QStyleOptionViewItemC1Ei@Base 5.0.2
  _ZN20QStyleOptionViewItemC1Ev@Base 5.0.2
  _ZN20QStyleOptionViewItemC2Ei@Base 5.0.2
@@ -3589,8 +3590,8 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN22QGraphicsOpacityEffectD0Ev@Base 5.0.2
  _ZN22QGraphicsOpacityEffectD1Ev@Base 5.0.2
  _ZN22QGraphicsOpacityEffectD2Ev@Base 5.0.2
- _ZN22QGuiApplicationPrivate22ActiveTouchPointsValueD1Ev@Base 5.0.2
- _ZN22QGuiApplicationPrivate22ActiveTouchPointsValueD2Ev@Base 5.0.2
+ (arch=amd64)_ZN22QGuiApplicationPrivate22ActiveTouchPointsValueD1Ev@Base 5.0.2
+ (arch=amd64)_ZN22QGuiApplicationPrivate22ActiveTouchPointsValueD2Ev@Base 5.0.2
  _ZN22QItemEditorCreatorBaseD0Ev@Base 5.0.2
  _ZN22QItemEditorCreatorBaseD1Ev@Base 5.0.2
  _ZN22QItemEditorCreatorBaseD2Ev@Base 5.0.2
@@ -3610,8 +3611,8 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN22QStyleOptionToolButtonC1Ev@Base 5.0.2
  _ZN22QStyleOptionToolButtonC2Ei@Base 5.0.2
  _ZN22QStyleOptionToolButtonC2Ev@Base 5.0.2
- _ZN22QStyleOptionToolButtonD1Ev@Base 5.0.2
- _ZN22QStyleOptionToolButtonD2Ev@Base 5.0.2
+ (arch=!ia64)_ZN22QStyleOptionToolButtonD1Ev@Base 5.0.2
+ (arch=!ia64)_ZN22QStyleOptionToolButtonD2Ev@Base 5.0.2
  _ZN23QEventTransitionPrivateD0Ev@Base 5.0.2
  _ZN23QEventTransitionPrivateD1Ev@Base 5.0.2
  _ZN23QEventTransitionPrivateD2Ev@Base 5.0.2
@@ -3753,8 +3754,8 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN24QStyleOptionGraphicsItemC1Ev@Base 5.0.2
  _ZN24QStyleOptionGraphicsItemC2Ei@Base 5.0.2
  _ZN24QStyleOptionGraphicsItemC2Ev@Base 5.0.2
- _ZN25QAbstractItemModelPrivate10PersistentD1Ev@Base 5.0.2
- _ZN25QAbstractItemModelPrivate10PersistentD2Ev@Base 5.0.2
+ (arch=!ia64 !powerpc)_ZN25QAbstractItemModelPrivate10PersistentD1Ev@Base 5.0.2
+ (arch=!ia64 !powerpc)_ZN25QAbstractItemModelPrivate10PersistentD2Ev@Base 5.0.2
  _ZN25QAbstractItemModelPrivateD0Ev@Base 5.0.2
  _ZN25QAbstractItemModelPrivateD1Ev@Base 5.0.2
  _ZN25QAbstractItemModelPrivateD2Ev@Base 5.0.2
@@ -3869,10 +3870,10 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN4QCss10StyleSheetC2ERKS0_@Base 5.0.2
  _ZN4QCss10StyleSheetD1Ev@Base 5.0.2
  _ZN4QCss10StyleSheetD2Ev@Base 5.0.2
- _ZN4QCss10StyleSheetaSEOS0_@Base 5.0.2
+ (arch=!ia64 !powerpc)_ZN4QCss10StyleSheetaSEOS0_@Base 5.0.2
  _ZN4QCss10StyleSheetaSERKS0_@Base 5.0.2
- _ZN4QCss11Declaration15DeclarationDataD1Ev@Base 5.0.2
- _ZN4QCss11Declaration15DeclarationDataD2Ev@Base 5.0.2
+ (arch=!ia64 !powerpc)_ZN4QCss11Declaration15DeclarationDataD1Ev@Base 5.0.2
+ (arch=!ia64 !powerpc)_ZN4QCss11Declaration15DeclarationDataD2Ev@Base 5.0.2
  _ZN5QDial10paintEventEP11QPaintEvent@Base 5.0.2
  _ZN5QDial11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN5QDial11qt_metacastEPKc@Base 5.0.2
@@ -4319,7 +4320,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN7QWidget21setShortcutAutoRepeatEib@Base 5.0.2
  _ZN7QWidget24setAccessibleDescriptionERK7QString@Base 5.0.2
  _ZN7QWidget26customContextMenuRequestedERK6QPoint@Base 5.0.2
- _ZN7QWidget4findEy@Base 5.0.2
+ (subst)_ZN7QWidget4findE{quintptr}@Base 5.0.2
  _ZN7QWidget4grabERK5QRect@Base 5.0.2
  _ZN7QWidget4hideEv@Base 5.0.2
  _ZN7QWidget4moveERK6QPoint@Base 5.0.2
@@ -4328,7 +4329,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN7QWidget5eventEP6QEvent@Base 5.0.2
  _ZN7QWidget5lowerEv@Base 5.0.2
  _ZN7QWidget5raiseEv@Base 5.0.2
- _ZN7QWidget6createEybb@Base 5.0.2
+ (subst)_ZN7QWidget6createE{quintptr}bb@Base 5.0.2
  _ZN7QWidget6renderEP12QPaintDeviceRK6QPointRK7QRegion6QFlagsINS_10RenderFlagEE@Base 5.0.2
  _ZN7QWidget6renderEP8QPainterRK6QPointRK7QRegion6QFlagsINS_10RenderFlagEE@Base 5.0.2
  _ZN7QWidget6resizeERK5QSize@Base 5.0.2
@@ -4497,6 +4498,8 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN8QMenuBarD0Ev@Base 5.0.2
  _ZN8QMenuBarD1Ev@Base 5.0.2
  _ZN8QMenuBarD2Ev@Base 5.0.2
+ (arch=hurd-i386 i386)_ZN8QPolygon8setPointEiRK6QPoint@Base 5.0.2
+ (arch=powerpc)_ZN8QPolygon8setPointEiii@Base 5.0.2
  _ZN8QSpinBox10setMaximumEi@Base 5.0.2
  _ZN8QSpinBox10setMinimumEi@Base 5.0.2
  _ZN8QSpinBox11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
@@ -4582,8 +4585,9 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN8QToolTip8showTextERK6QPointRK7QStringP7QWidget@Base 5.0.2
  _ZN8QToolTip8showTextERK6QPointRK7QStringP7QWidgetRK5QRect@Base 5.0.2
  _ZN8QToolTip9isVisibleEv@Base 5.0.2
- _ZN9QBitArray6setBitEi@Base 5.0.2
- _ZN9QBitArray8clearBitEi@Base 5.0.2
+ (arch=!ia64 !powerpc)_ZN9QBitArray6setBitEi@Base 5.0.2
+ (arch=ia64 powerpc)_ZN9QBitArray6setBitEib@Base 5.0.2
+ (arch=!ia64 !powerpc)_ZN9QBitArray8clearBitEi@Base 5.0.2
  _ZN9QCheckBox10paintEventEP11QPaintEvent@Base 5.0.2
  _ZN9QCheckBox11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN9QCheckBox11qt_metacastEPKc@Base 5.0.2
@@ -4715,7 +4719,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN9QDirModelD0Ev@Base 5.0.2
  _ZN9QDirModelD1Ev@Base 5.0.2
  _ZN9QDirModelD2Ev@Base 5.0.2
- _ZN9QGradientaSEOS_@Base 5.0.2
+ (arch=!ia64 !powerpc)_ZN9QGradientaSEOS_@Base 5.0.2
  _ZN9QGroupBox10childEventEP11QChildEvent@Base 5.0.2
  _ZN9QGroupBox10paintEventEP11QPaintEvent@Base 5.0.2
  _ZN9QGroupBox10setCheckedEb@Base 5.0.2
@@ -4742,7 +4746,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN9QGroupBoxD0Ev@Base 5.0.2
  _ZN9QGroupBoxD1Ev@Base 5.0.2
  _ZN9QGroupBoxD2Ev@Base 5.0.2
- _ZN9QHashData8willGrowEv@Base 5.0.2
+ (arch=!ia64 !powerpc)_ZN9QHashData8willGrowEv@Base 5.0.2
  _ZN9QLineEdit10paintEventEP11QPaintEvent@Base 5.0.2
  _ZN9QLineEdit10textEditedERK7QString@Base 5.0.2
  _ZN9QLineEdit11changeEventEP6QEvent@Base 5.0.2
@@ -6420,10 +6424,10 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK18QCommandLinkButton8sizeHintEv@Base 5.0.2
  _ZNK18QFileDialogPrivate10typedFilesEv@Base 5.0.2
  _ZNK18QFileDialogPrivate11currentViewEv@Base 5.0.2
- _ZNK18QFileDialogPrivate13directory_sysEv@Base 5.0.2
- _ZNK18QFileDialogPrivate17selectedFiles_sysEv@Base 5.0.2
+ (arch=!ia64 !powerpc)_ZNK18QFileDialogPrivate13directory_sysEv@Base 5.0.2
+ (arch=!ia64 !powerpc)_ZNK18QFileDialogPrivate17selectedFiles_sysEv@Base 5.0.2
  _ZNK18QFileDialogPrivate17userSelectedFilesEv@Base 5.0.2
- _ZNK18QFileDialogPrivate22selectedNameFilter_sysEv@Base 5.0.2
+ (arch=!ia64 !powerpc)_ZNK18QFileDialogPrivate22selectedNameFilter_sysEv@Base 5.0.2
  _ZNK18QFileDialogPrivate23addDefaultSuffixToFilesE11QStringList@Base 5.0.2
  _ZNK18QFileDialogPrivate8lineEditEv@Base 5.0.2
  _ZNK18QGraphicsItemGroup10opaqueAreaEv@Base 5.0.2
@@ -7000,7 +7004,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK7QWidget8hasFocusEv@Base 5.0.2
  _ZNK7QWidget8sizeHintEv@Base 5.0.2
  _ZNK7QWidget9frameSizeEv@Base 5.0.2
- _ZNK7QWidget9isVisibleEv@Base 5.0.2
+ (arch=!ia64 !powerpc)_ZNK7QWidget9isVisibleEv@Base 5.0.2
  _ZNK7QWidget9statusTipEv@Base 5.0.2
  _ZNK7QWidget9whatsThisEv@Base 5.0.2
  _ZNK7QWizard10buttonTextENS_12WizardButtonE@Base 5.0.2
@@ -7333,6 +7337,37 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK9QUndoView5groupEv@Base 5.0.2
  _ZNK9QUndoView5stackEv@Base 5.0.2
  _ZNK9QUndoView9cleanIconEv@Base 5.0.2
+ (optional=templinst|arch=ia64 powerpc|subst)_ZSt11__push_heapIN5QListI5QPairIPN23QFileSystemModelPrivate15QFileSystemNodeEiEE8iteratorE{qptrdiff}S5_22QFileSystemModelSorterEvT_T0_SA_T1_T2_@Base 5.0.2
+ (optional=templinst|arch=ia64 powerpc|subst)_ZSt13__adjust_heapIN5QListI5QPairIPN23QFileSystemModelPrivate15QFileSystemNodeEiEE8iteratorE{qptrdiff}S5_22QFileSystemModelSorterEvT_T0_SA_T1_T2_@Base 5.0.2
+ (optional=templinst|arch=ia64 powerpc|subst)_ZSt13__adjust_heapIN5QListIP13QGraphicsItemE8iteratorE{qptrdiff}S2_PFbPKS1_S6_EEvT_T0_SA_T1_T2_@Base 5.0.2
+ (optional=templinst|arch=ia64 powerpc|subst)_ZSt13__adjust_heapIN5QListIP13QGraphicsItemE8iteratorE{qptrdiff}S2_PFbS2_S2_EEvT_T0_S8_T1_T2_@Base 5.0.2
+ (optional=templinst|arch=ia64 powerpc|subst)_ZSt13__adjust_heapIN5QListIP15QGraphicsObjectE8iteratorE{qptrdiff}S2_PFbPK13QGraphicsItemS7_EEvT_T0_SB_T1_T2_@Base 5.0.2
+ (optional=templinst|arch=ia64 powerpc)_ZSt13__heap_selectIN5QListI5QPairIPN23QFileSystemModelPrivate15QFileSystemNodeEiEE8iteratorE22QFileSystemModelSorterEvT_S9_S9_T0_@Base 5.0.2
+ (optional=templinst|arch=ia64 powerpc)_ZSt13__heap_selectIN5QListIP13QGraphicsItemE8iteratorEPFbPKS1_S6_EEvT_S9_S9_T0_@Base 5.0.2
+ (optional=templinst|arch=ia64 powerpc)_ZSt13__heap_selectIN5QListIP13QGraphicsItemE8iteratorEPFbS2_S2_EEvT_S7_S7_T0_@Base 5.0.2
+ (optional=templinst|arch=ia64 powerpc)_ZSt13__heap_selectIN5QListIP15QGraphicsObjectE8iteratorEPFbPK13QGraphicsItemS7_EEvT_SA_SA_T0_@Base 5.0.2
+ (optional=templinst|arch=ia64 powerpc)_ZSt16__insertion_sortIN5QListI5QPairIPN23QFileSystemModelPrivate15QFileSystemNodeEiEE8iteratorE22QFileSystemModelSorterEvT_S9_T0_@Base 5.0.2
+ (optional=templinst|arch=ia64 powerpc)_ZSt16__insertion_sortIN5QListIP13QGraphicsItemE8iteratorEPFbPKS1_S6_EEvT_S9_T0_@Base 5.0.2
+ (optional=templinst|arch=ia64 powerpc)_ZSt16__insertion_sortIN5QListIP13QGraphicsItemE8iteratorEPFbS2_S2_EEvT_S7_T0_@Base 5.0.2
+ (optional=templinst|arch=ia64 powerpc)_ZSt16__insertion_sortIN5QListIP15QGraphicsObjectE8iteratorEPFbPK13QGraphicsItemS7_EEvT_SA_T0_@Base 5.0.2
+ (optional=templinst|arch=ia64 powerpc)_ZSt16__introsort_loopIN5QListI5QPairIPN23QFileSystemModelPrivate15QFileSystemNodeEiEE8iteratorEi22QFileSystemModelSorterEvT_S9_T0_T1_@Base 5.0.2
+ (optional=templinst|arch=ia64 powerpc)_ZSt16__introsort_loopIN5QListIP13QGraphicsItemE8iteratorEiPFbPKS1_S6_EEvT_S9_T0_T1_@Base 5.0.2
+ (optional=templinst|arch=ia64 powerpc)_ZSt16__introsort_loopIN5QListIP13QGraphicsItemE8iteratorEiPFbS2_S2_EEvT_S7_T0_T1_@Base 5.0.2
+ (optional=templinst|arch=ia64 powerpc)_ZSt16__introsort_loopIN5QListIP15QGraphicsObjectE8iteratorEiPFbPK13QGraphicsItemS7_EEvT_SA_T0_T1_@Base 5.0.2
+ (optional=templinst|arch=ia64 powerpc)_ZSt19__move_median_firstIN5QListI5QPairIPN23QFileSystemModelPrivate15QFileSystemNodeEiEE8iteratorE22QFileSystemModelSorterEvT_S9_S9_T0_@Base 5.0.2
+ (optional=templinst|arch=ia64 powerpc)_ZSt19__move_median_firstIN5QListIP13QGraphicsItemE8iteratorEPFbPKS1_S6_EEvT_S9_S9_T0_@Base 5.0.2
+ (optional=templinst|arch=ia64 powerpc)_ZSt19__move_median_firstIN5QListIP13QGraphicsItemE8iteratorEPFbS2_S2_EEvT_S7_S7_T0_@Base 5.0.2
+ (optional=templinst|arch=ia64 powerpc)_ZSt19__move_median_firstIN5QListIP15QGraphicsObjectE8iteratorEPFbPK13QGraphicsItemS7_EEvT_SA_SA_T0_@Base 5.0.2
+ (optional=templinst|arch=ia64 powerpc)_ZSt21__unguarded_partitionIN5QListI5QPairIPN23QFileSystemModelPrivate15QFileSystemNodeEiEE8iteratorES5_22QFileSystemModelSorterET_S9_S9_RKT0_T1_@Base 5.0.2
+ (optional=templinst|arch=ia64 powerpc)_ZSt21__unguarded_partitionIN5QListIP13QGraphicsItemE8iteratorES2_PFbPKS1_S6_EET_S9_S9_RKT0_T1_@Base 5.0.2
+ (optional=templinst|arch=ia64 powerpc)_ZSt21__unguarded_partitionIN5QListIP13QGraphicsItemE8iteratorES2_PFbS2_S2_EET_S7_S7_RKT0_T1_@Base 5.0.2
+ (optional=templinst|arch=ia64 powerpc)_ZSt21__unguarded_partitionIN5QListIP15QGraphicsObjectE8iteratorES2_PFbPK13QGraphicsItemS7_EET_SA_SA_RKT0_T1_@Base 5.0.2
+ (optional=templinst|arch=ia64 powerpc)_ZSt22__final_insertion_sortIN5QListIP13QGraphicsItemE8iteratorEPFbPKS1_S6_EEvT_S9_T0_@Base 5.0.2
+ (optional=templinst|arch=ia64 powerpc)_ZSt22__final_insertion_sortIN5QListIP13QGraphicsItemE8iteratorEPFbS2_S2_EEvT_S7_T0_@Base 5.0.2
+ (optional=templinst|arch=ia64 powerpc)_ZSt25__unguarded_linear_insertIN5QListI5QPairIPN23QFileSystemModelPrivate15QFileSystemNodeEiEE8iteratorE22QFileSystemModelSorterEvT_T0_@Base 5.0.2
+ (optional=templinst|arch=ia64 powerpc)_ZSt25__unguarded_linear_insertIN5QListIP15QGraphicsObjectE8iteratorEPFbPK13QGraphicsItemS7_EEvT_T0_@Base 5.0.2
+ (optional=templinst|arch=ia64 powerpc)_ZSt4sortIN5QListIP15QGraphicsObjectE8iteratorEPFbPK13QGraphicsItemS7_EEvT_SA_T0_@Base 5.0.2
+ (optional=templinst|arch=hurd-i386 i386)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 5.0.2
  _ZTI10QBoxLayout@Base 5.0.2
  _ZTI10QCompleter@Base 5.0.2
  _ZTI10QLCDNumber@Base 5.0.2
