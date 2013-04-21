@@ -438,6 +438,7 @@ usr/include/qt5/QtPrintSupport/*/QtPrintSupport/qpa/qplatformprintplugin.h
 usr/include/qt5/QtSql/*/QtSql/private/qsqlcachedresult_p.h
 usr/include/qt5/QtSql/*/QtSql/private/qsqlnulldriver_p.h
 usr/include/qt5/QtSql/*/QtSql/private/qsqlquerymodel_p.h
+usr/include/qt5/QtSql/*/QtSql/private/qsqlresult_p.h
 usr/include/qt5/QtSql/*/QtSql/private/qsqltablemodel_p.h
 usr/include/qt5/QtTest/*/QtTest/private/callgrind_p.h
 usr/include/qt5/QtTest/*/QtTest/private/cycle_p.h

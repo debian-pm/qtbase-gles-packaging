@@ -287,6 +287,8 @@ Architecture: any
 Section: libdevel
 Pre-Depends: dpkg (>= 1.15.6~)
 Depends: qtbase5-dev (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
+Breaks: qtbase-dev (<< 5.0.2+dfsg1-3~)
+Replaces: qtbase-dev (<< 5.0.2+dfsg1-3~)
 Description: Qt 5 base private development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.

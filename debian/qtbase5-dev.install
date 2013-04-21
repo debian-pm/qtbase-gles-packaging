@@ -920,7 +920,6 @@ usr/include/qt5/QtPrintSupport/qprintpreviewdialog.h
 usr/include/qt5/QtPrintSupport/qprintpreviewwidget.h
 usr/include/qt5/QtPrintSupport/qtprintsupportglobal.h
 usr/include/qt5/QtPrintSupport/qtprintsupportversion.h
-usr/include/qt5/QtSql/5.0.2/QtSql/private/qsqlresult_p.h
 usr/include/qt5/QtSql/QSql
 usr/include/qt5/QtSql/QSqlDatabase
 usr/include/qt5/QtSql/QSqlDriver

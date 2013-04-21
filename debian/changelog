@@ -7,6 +7,8 @@ qtbase-opensource-src (5.0.2+dfsg1-3) UNRELEASED; urgency=low
     libqt5sql5-tds.
   * debian/control: make libqt5printsupport5 recommend libcups2 (which is
     dlopen'ed).
+  * Move the private qsqlresult_p.h from qtbase5-dev to qtbase5-private-dev,
+    adding proper breaks/replaces in the latter.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 21 Apr 2013 10:01:11 +0200
 
