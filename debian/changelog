@@ -2,6 +2,9 @@ qtbase-opensource-src (5.0.2+dfsg1-3) UNRELEASED; urgency=low
 
   [ Pino Toscano ]
   * debian/control: remove extra ${misc:Pre-Depends} from qt5-qmake.
+  * debian/control: remove extra qtbase5-dev suggest from libqt5sql5,
+    libqt5sql5-mysql, libqt5sql5-odbc, libqt5sql5-psql, libqt5sql5-sqlite,
+    libqt5sql5-tds.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 21 Apr 2013 10:01:11 +0200
 
