@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.0.2 amd64
+# SymbolsHelper-Confirmed: 5.0.2 amd64 i386 hurd-i386 ia64 powerpc
 libQt5Sql.so.5 libqt5sql5 #MINVER#
  _ZN10QSqlDriver11cancelQueryEv@Base 5.0.2
  _ZN10QSqlDriver11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2

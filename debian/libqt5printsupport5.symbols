@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.0.2 amd64
+# SymbolsHelper-Confirmed: 5.0.2 amd64 i386 hurd-i386 ia64 powerpc
 libQt5PrintSupport.so.5 libqt5printsupport5 #MINVER#
  _Z19qt_printerPaperSizeN8QPrinter11OrientationEN17QPagedPaintDevice8PageSizeENS_4UnitEi@Base 5.0.2
  _Z20qt_multiplierForUnitN8QPrinter4UnitEi@Base 5.0.2

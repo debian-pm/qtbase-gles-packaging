@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.0.2 amd64
+# SymbolsHelper-Confirmed: 5.0.2 amd64 i386 hurd-i386 ia64 powerpc
 libQt5Test.so.5 libqt5test5 #MINVER#
  _ZN10QTestTable15globalTestTableEv@Base 5.0.2
  _ZN10QTestTable16currentTestTableEv@Base 5.0.2

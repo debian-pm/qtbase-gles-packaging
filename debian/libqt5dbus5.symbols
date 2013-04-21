@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.0.2 amd64 ia64 powerpc
+# SymbolsHelper-Confirmed: 5.0.2 amd64 ia64 powerpc i386 hurd-i386
 libQt5DBus.so.5 libqt5dbus5 #MINVER#
  _Z14qDBusReplyFillRK12QDBusMessageR10QDBusErrorR8QVariant@Base 5.0.2
  _Z15qDBusAddSpyHookPFvRK12QDBusMessageE@Base 5.0.2

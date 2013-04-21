@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.0.2 amd64 ia64 powerpc
+# SymbolsHelper-Confirmed: 5.0.2 amd64 i386 hurd-i386 ia64 powerpc
 libQt5Xml.so.5 libqt5xml5 #MINVER#
  (arch=amd64)_ZN10QByteArray4dataEv@Base 5.0.2
  _ZN10QDomEntityC1EP17QDomEntityPrivate@Base 5.0.2
