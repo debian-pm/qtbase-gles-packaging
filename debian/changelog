@@ -2,6 +2,9 @@ qtbase-opensource-src (5.0.2+dfsg1-2) UNRELEASED; urgency=low
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Remove the licenses of the removed fonts from debian/copyright.
+  * Patch out commit 2b397f985e4ef6ae5c0571a928bb1320fb048c61 to allow building
+    examples without calling -developer-build with build_examples.patch
+    (Closes: #705836).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 20 Apr 2013 16:15:45 -0300
 

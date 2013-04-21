@@ -1,1 +1,4 @@
 undef_B0.diff
+
+# Debian specific.
+build_examples.patch
