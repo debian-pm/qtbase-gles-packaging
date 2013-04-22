@@ -61,14 +61,11 @@ ifeq ($(DEB_HOST_ARCH),$(findstring $(DEB_HOST_ARCH), $(armv6_architectures)))
 	extra_configure_opts += -arch armv6
 endif
 
-ifeq ($(vendor),Ubuntu)
 gles2_architectures := armel armhf
-endif
 ifeq ($(DEB_HOST_ARCH),$(findstring $(DEB_HOST_ARCH), $(gles2_architectures)))
 	extra_configure_opts += -opengl es2
 else
-	extra_configure_opts += -opengl desktop \
-	                        -no-egl
+	extra_configure_opts += -opengl desktop
 endif
 
 ifeq ($(DEB_HOST_ARCH_OS),linux)

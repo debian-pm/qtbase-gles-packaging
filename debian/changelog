@@ -14,6 +14,10 @@ qtbase-opensource-src (5.0.2+dfsg1-3) UNRELEASED; urgency=low
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Update symbols files for hurd-i386, i386, ia64 and powerpc.
 
+  [ Timo Jyrinki ]
+  * Use -opengl es2 correctly on arm
+  * Allow EGL support also on desktop
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 21 Apr 2013 10:01:11 +0200
 
 qtbase-opensource-src (5.0.2+dfsg1-2) experimental; urgency=low
