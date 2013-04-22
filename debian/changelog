@@ -16,7 +16,7 @@ qtbase-opensource-src (5.0.2+dfsg1-3) UNRELEASED; urgency=low
 
   [ Timo Jyrinki ]
   * Use -opengl es2 correctly on arm
-  * Allow EGL support also on desktop
+  * Allow EGL support also on desktop, on Linux only for now.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 21 Apr 2013 10:01:11 +0200
 
