@@ -10,6 +10,8 @@ qtbase-opensource-src (5.0.2+dfsg1-3) UNRELEASED; urgency=low
   * Move the private qsqlresult_p.h from qtbase5-dev to qtbase5-private-dev,
     adding proper breaks/replaces in the latter.
   * Use LD_LIBRARY_PATH on any GNU system; patch deppath_gnu.diff.
+  * debian/control: remove extra ${shlibs:Depends} from qtbase5-private-dev and
+    libqt5opengl5-dev.
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Update symbols files for hurd-i386, i386, ia64 and powerpc.
