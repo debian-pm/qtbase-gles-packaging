@@ -1,3 +1,8 @@
+qtbase-opensource-src (5.0.2+dfsg1-4) UNRELEASED; urgency=low
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 26 Apr 2013 13:21:51 +0200
+
 qtbase-opensource-src (5.0.2+dfsg1-3) experimental; urgency=low
 
   [ Pino Toscano ]
