@@ -2,6 +2,7 @@ qtbase-opensource-src (5.0.2+dfsg1-4) UNRELEASED; urgency=low
 
   [ Pino Toscano ]
   * Update lintian overrides.
+  * Drop check of old hppa kernel bug, which has been fixed many years ago.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 26 Apr 2013 13:21:51 +0200
 

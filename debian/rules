@@ -88,21 +88,6 @@ endif
 	dh $@ --parallel --with pkgkde_symbolshelper
 
 override_dh_auto_configure:
-	# Test broken hppa kernel with glibc >= 2.5
-ifeq ($(DEB_HOST_ARCH),hppa)
-	mkdir -p debian/hppa-tmp
-	echo "Testing whether getdents kernel bug is present on this buildd - see #433768"
-	gcc -o debian/hppa-tmp/hppa-test-program debian/readdir-hppa-test.c
-	cd $(CURDIR)/doc/src/images && $(CURDIR)/debian/hppa-tmp/hppa-test-program | sort > $(CURDIR)/debian/hppa-tmp/readdir_r-out
-	cd $(CURDIR)/doc/src/images && ls -a | sort > $(CURDIR)/debian/hppa-tmp/ls-a-out
-	@if ! diff -q $(CURDIR)/debian/hppa-tmp/readdir_r-out $(CURDIR)/debian/hppa-tmp/ls-a-out ; \
-		then \
-		echo "Kernel bug present. This will misbuild Qt if proceeding. Failing" ; \
-		echo "Please update kernel and test again" ; \
-		exit 5 ; \
-	fi
-endif
-
 	# Create mkspecs/glibc-g++ from mkspecs/linux-g++, needed by GNU/kFreeBSD
 	# we cannot use directly linux-g++ due to src/corelib/io/io.pri
 	rm -rf mkspecs/glibc-g++
@@ -176,9 +161,6 @@ override_dh_auto_clean:
 	  mkspecs/glibc-g++/ \
 	  plugins/ \
 	;
-
-	# hppa test directory
-	rm -rf debian/hppa-tmp
 
 	# Leftover dirs
 	find -depth -type d \( -false \
