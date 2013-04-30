@@ -6,7 +6,7 @@ qtbase-opensource-src (5.0.2+dfsg1-4) UNRELEASED; urgency=low
   * Update Vcs-Browser and Vcs-Git headers.
 
   [ Timo Jyrinki ]
-  * libqt5sql5-sqlite listed as first in recommends, being the lightest 
+  * libqt5sql5-sqlite listed as first in recommends, being the lightest.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 26 Apr 2013 13:21:51 +0200
 
