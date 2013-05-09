@@ -58,8 +58,8 @@ Package: libqt5core5
 Architecture: any
 Multi-Arch: same
 Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
-Breaks: qtbase5-dev (<< 5.0.2+dfsg1-3~)
-Replaces: qtbase5-dev (<< 5.0.2+dfsg1-3~)
+Breaks: qtbase5-dev (<< 5.0.2+dfsg1-4~)
+Replaces: qtbase5-dev (<< 5.0.2+dfsg1-4~)
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Suggests: libthai0
 Description: Qt 5 core module
