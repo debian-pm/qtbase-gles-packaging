@@ -7,7 +7,6 @@ qtbase-opensource-src (5.0.2+dfsg1-4) UNRELEASED; urgency=low
 
   [ Timo Jyrinki ]
   * libqt5sql5-sqlite listed as first in recommends, being the lightest.
-  * Build-depend on libxkbcommon-dev
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Move qt5.conf from qtbase5-dev to libqt5core5. It will not be strange to find
