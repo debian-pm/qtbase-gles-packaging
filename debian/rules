@@ -219,9 +219,13 @@ override_dh_auto_install:
 
 	# Add a configuration for qtchooser
 	mkdir -p $(CURDIR)/debian/tmp/usr/share/qtchooser
-	echo "/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/bin" > $(CURDIR)/debian/tmp/usr/share/qtchooser/qt5.conf
-	echo "/usr/lib/$(DEB_HOST_MULTIARCH)" >> $(CURDIR)/debian/tmp/usr/share/qtchooser/qt5.conf
-	ln -s /usr/share/qtchooser/qt5.conf $(CURDIR)/debian/tmp/usr/share/qtchooser/default.conf
+	echo "/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/bin" > $(CURDIR)/debian/tmp/usr/share/qtchooser/qt5-$(DEB_HOST_MULTIARCH).conf
+	echo "/usr/lib/$(DEB_HOST_MULTIARCH)" >> $(CURDIR)/debian/tmp/usr/share/qtchooser/qt5-$(DEB_HOST_MULTIARCH).conf
+
+	# Ship qt5.conf for this arch, and a default.conf.
+	mkdir -p $(CURDIR)/debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qtchooser
+	ln -s /usr/share/qtchooser/qt5-$(DEB_HOST_MULTIARCH).conf $(CURDIR)/debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qtchooser/qt5.conf
+	ln -s /usr/share/qtchooser/qt5-$(DEB_HOST_MULTIARCH).conf $(CURDIR)/debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qtchooser/default.conf
 
 	# Remove leftover directories
 	find $(CURDIR)/debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt5 -depth -type d \( -false \

@@ -9,9 +9,8 @@ qtbase-opensource-src (5.0.2+dfsg1-4) UNRELEASED; urgency=low
   * libqt5sql5-sqlite listed as first in recommends, being the lightest.
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
-  * Move qt5.conf from qtbase5-dev to libqt5core5. It will not be strange to find
-    apps explicitely calling the qt5 config.
-    - Add Breaks+Replaces to libqt5core5 against qtbase5-dev << 5.0.2+dfsg1-4~.
+  * Add qt5-triplet.conf and arch-qualified qt5.conf. See qtchooser's
+    README.Debian for more details.
   * Fix typo in qtbase5-private-dev's Breaks+Replaces.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 26 Apr 2013 13:21:51 +0200
