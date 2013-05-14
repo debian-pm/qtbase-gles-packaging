@@ -12,6 +12,8 @@ qtbase-opensource-src (5.0.2+dfsg1-4) UNRELEASED; urgency=low
   * Add qt5-triplet.conf and arch-qualified qt5.conf. See qtchooser's
     README.Debian for more details.
   * Fix typo in qtbase5-private-dev's Breaks+Replaces.
+  * Changed qt5-default to arch: all. Should have been like this from start, as
+    it contains arch-qualified paths in it.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 26 Apr 2013 13:21:51 +0200
 
