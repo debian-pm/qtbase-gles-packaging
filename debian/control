@@ -399,7 +399,7 @@ Description: Qt 5 base examples debugging symbols
  This package contains the debugging symbols for the Qt 5 examples.
 
 Package: qt5-default
-Architecture: all
+Architecture: any
 Depends: qtchooser, qtbase5-dev, ${misc:Depends}
 Conflicts: qt4-default
 Suggests: qt5-qmake, qtbase5-dev-tools
