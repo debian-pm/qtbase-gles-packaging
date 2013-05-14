@@ -371,7 +371,7 @@ libQt5Core.so.5 libqt5core5 #MINVER#
  _ZN11QJsonObjectD2Ev@Base 5.0.2
  _ZN11QJsonObjectaSERKS_@Base 5.0.2
  _ZN11QJsonObjectixERK7QString@Base 5.0.2
- (optional=templinst)_ZN11QMetaMethod10fromSignalIM9QIODeviceFvxEEES_T_@Base 5.0.2
+ (optional=templinst|arch=!amd64)_ZN11QMetaMethod10fromSignalIM9QIODeviceFvxEEES_T_@Base 5.0.2
  _ZN11QMetaMethod14fromSignalImplEPK11QMetaObjectPPv@Base 5.0.2
  _ZN11QMetaObject10ConnectionC1ERKS0_@Base 5.0.2
  _ZN11QMetaObject10ConnectionC1Ev@Base 5.0.2
@@ -4417,7 +4417,6 @@ libQt5Core.so.5 libqt5core5 #MINVER#
  (optional=templinst|arch=ia64 powerpc)_ZSt8__rotateIP5QPairIiiEEvT_S3_S3_St26random_access_iterator_tag@Base 5.0.2
  (optional=templinst)_ZSt8__rotateIPiEvT_S1_S1_St26random_access_iterator_tag@Base 5.0.2
  (optional=templinst|arch=ia64 powerpc)_ZSt9make_heapIN5QListI5QPairI7QStringiEE8iteratorEPFbRKS3_S7_EEvT_SA_T0_@Base 5.0.2
- (optional=templinst|arch=amd64)_ZSt9sort_heapIPiEvT_S1_@Base 5.0.2
  _ZTI10QEventLoop@Base 5.0.2
  _ZTI10QException@Base 5.0.2
  _ZTI10QTextCodec@Base 5.0.2

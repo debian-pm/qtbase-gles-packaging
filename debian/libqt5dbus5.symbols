@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.0.2 amd64 ia64 powerpc i386 hurd-i386
+# SymbolsHelper-Confirmed: 5.0.2 amd64 hurd-i386 i386 ia64 powerpc
 libQt5DBus.so.5 libqt5dbus5 #MINVER#
  _Z14qDBusReplyFillRK12QDBusMessageR10QDBusErrorR8QVariant@Base 5.0.2
  _Z15qDBusAddSpyHookPFvRK12QDBusMessageE@Base 5.0.2
@@ -30,7 +30,7 @@ libQt5DBus.so.5 libqt5dbus5 #MINVER#
  _ZN11QDBusServerD0Ev@Base 5.0.2
  _ZN11QDBusServerD1Ev@Base 5.0.2
  _ZN11QDBusServerD2Ev@Base 5.0.2
- (optional=templinst)_ZN11QMetaMethod10fromSignalIM7QObjectFvPS1_EEES_T_@Base 5.0.2
+ (optional=templinst|arch=!amd64)_ZN11QMetaMethod10fromSignalIM7QObjectFvPS1_EEES_T_@Base 5.0.2
  _ZN12QDBusContextC1Ev@Base 5.0.2
  _ZN12QDBusContextC2Ev@Base 5.0.2
  _ZN12QDBusContextD1Ev@Base 5.0.2

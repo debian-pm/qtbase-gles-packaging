@@ -3428,6 +3428,8 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN20QStyleOptionGroupBoxC1Ev@Base 5.0.2
  _ZN20QStyleOptionGroupBoxC2Ei@Base 5.0.2
  _ZN20QStyleOptionGroupBoxC2Ev@Base 5.0.2
+ (arch=amd64)_ZN20QStyleOptionGroupBoxD1Ev@Base 5.0.2
+ (arch=amd64)_ZN20QStyleOptionGroupBoxD2Ev@Base 5.0.2
  _ZN20QStyleOptionMenuItemC1Ei@Base 5.0.2
  _ZN20QStyleOptionMenuItemC1Ev@Base 5.0.2
  _ZN20QStyleOptionMenuItemC2Ei@Base 5.0.2
