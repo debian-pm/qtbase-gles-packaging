@@ -197,9 +197,9 @@ libQt5Sql.so.5 libqt5sql5 #MINVER#
  _ZN16QSqlDriverPluginD0Ev@Base 5.0.2
  _ZN16QSqlDriverPluginD1Ev@Base 5.0.2
  _ZN16QSqlDriverPluginD2Ev@Base 5.0.2
- _ZN17QSqlResultPrivate11fieldSerialEi@Base 5.0.2
- _ZN17QSqlResultPrivate24namedToPositionalBindingERK7QString@Base 5.0.2
- _ZN17QSqlResultPrivate24positionalToNamedBindingERK7QStringPFS0_iE@Base 5.0.2
+ _ZN17QSqlResultPrivate11fieldSerialEi@Base 5.0.2 1
+ _ZN17QSqlResultPrivate24namedToPositionalBindingERK7QString@Base 5.0.2 1
+ _ZN17QSqlResultPrivate24positionalToNamedBindingERK7QStringPFS0_iE@Base 5.0.2 1
  _ZN24QSqlRelationalTableModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN24QSqlRelationalTableModel11qt_metacastEPKc@Base 5.0.2
  _ZN24QSqlRelationalTableModel11setJoinModeENS_8JoinModeE@Base 5.0.2
@@ -218,9 +218,9 @@ libQt5Sql.so.5 libqt5sql5 #MINVER#
  _ZN24QSqlRelationalTableModelD0Ev@Base 5.0.2
  _ZN24QSqlRelationalTableModelD1Ev@Base 5.0.2
  _ZN24QSqlRelationalTableModelD2Ev@Base 5.0.2
- _ZN25QAbstractItemModelPrivateD0Ev@Base 5.0.2
- _ZN25QAbstractItemModelPrivateD1Ev@Base 5.0.2
- _ZN25QAbstractItemModelPrivateD2Ev@Base 5.0.2
+ _ZN25QAbstractItemModelPrivateD0Ev@Base 5.0.2 1
+ _ZN25QAbstractItemModelPrivateD1Ev@Base 5.0.2 1
+ _ZN25QAbstractItemModelPrivateD2Ev@Base 5.0.2 1
  _ZN9QSqlError13setDriverTextERK7QString@Base 5.0.2
  _ZN9QSqlError15setDatabaseTextERK7QString@Base 5.0.2
  _ZN9QSqlError7setTypeENS_9ErrorTypeE@Base 5.0.2
@@ -392,7 +392,7 @@ libQt5Sql.so.5 libqt5sql5 #MINVER#
  _ZNK14QSqlTableModel9tableNameEv@Base 5.0.2
  _ZNK16QSqlCachedResult8colCountEv@Base 5.0.2
  _ZNK16QSqlDriverPlugin10metaObjectEv@Base 5.0.2
- _ZNK17QSqlResultPrivate8holderAtEi@Base 5.0.2
+ _ZNK17QSqlResultPrivate8holderAtEi@Base 5.0.2 1
  _ZNK24QSqlRelationalTableModel10metaObjectEv@Base 5.0.2
  _ZNK24QSqlRelationalTableModel13orderByClauseEv@Base 5.0.2
  _ZNK24QSqlRelationalTableModel13relationModelEi@Base 5.0.2
@@ -450,7 +450,7 @@ libQt5Sql.so.5 libqt5sql5 #MINVER#
  _ZTI16QSqlCachedResult@Base 5.0.2
  _ZTI16QSqlDriverPlugin@Base 5.0.2
  _ZTI24QSqlRelationalTableModel@Base 5.0.2
- _ZTI25QAbstractItemModelPrivate@Base 5.0.2
+ _ZTI25QAbstractItemModelPrivate@Base 5.0.2 1
  _ZTS10QSqlDriver@Base 5.0.2
  _ZTS10QSqlResult@Base 5.0.2
  _ZTS14QSqlQueryModel@Base 5.0.2
@@ -458,7 +458,7 @@ libQt5Sql.so.5 libqt5sql5 #MINVER#
  _ZTS16QSqlCachedResult@Base 5.0.2
  _ZTS16QSqlDriverPlugin@Base 5.0.2
  _ZTS24QSqlRelationalTableModel@Base 5.0.2
- _ZTS25QAbstractItemModelPrivate@Base 5.0.2
+ _ZTS25QAbstractItemModelPrivate@Base 5.0.2 1
  _ZTV10QSqlDriver@Base 5.0.2
  _ZTV10QSqlResult@Base 5.0.2
  _ZTV14QSqlQueryModel@Base 5.0.2
@@ -466,7 +466,7 @@ libQt5Sql.so.5 libqt5sql5 #MINVER#
  _ZTV16QSqlCachedResult@Base 5.0.2
  _ZTV16QSqlDriverPlugin@Base 5.0.2
  _ZTV24QSqlRelationalTableModel@Base 5.0.2
- _ZTV25QAbstractItemModelPrivate@Base 5.0.2
+ _ZTV25QAbstractItemModelPrivate@Base 5.0.2 1
  _Zls6QDebugRK10QSqlRecord@Base 5.0.2
  _Zls6QDebugRK12QSqlDatabase@Base 5.0.2
  _Zls6QDebugRK9QSqlError@Base 5.0.2

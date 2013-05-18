@@ -54,15 +54,15 @@ libQt5OpenGL.so.5 libqt5opengl5 #MINVER#
  _ZN12QGLFunctionsC1Ev@Base 5.0.2
  _ZN12QGLFunctionsC2EPK10QGLContext@Base 5.0.2
  _ZN12QGLFunctionsC2Ev@Base 5.0.2
- _ZN14QGLPaintDevice10beginPaintEv@Base 5.0.2
- _ZN14QGLPaintDevice18ensureActiveTargetEv@Base 5.0.2
- _ZN14QGLPaintDevice8endPaintEv@Base 5.0.2
- _ZN14QGLPaintDevice9getDeviceEP12QPaintDevice@Base 5.0.2
- _ZN14QGLPaintDeviceC1Ev@Base 5.0.2
- _ZN14QGLPaintDeviceC2Ev@Base 5.0.2
- _ZN14QGLPaintDeviceD0Ev@Base 5.0.2
- _ZN14QGLPaintDeviceD1Ev@Base 5.0.2
- _ZN14QGLPaintDeviceD2Ev@Base 5.0.2
+ _ZN14QGLPaintDevice10beginPaintEv@Base 5.0.2 1
+ _ZN14QGLPaintDevice18ensureActiveTargetEv@Base 5.0.2 1
+ _ZN14QGLPaintDevice8endPaintEv@Base 5.0.2 1
+ _ZN14QGLPaintDevice9getDeviceEP12QPaintDevice@Base 5.0.2 1
+ _ZN14QGLPaintDeviceC1Ev@Base 5.0.2 1
+ _ZN14QGLPaintDeviceC2Ev@Base 5.0.2 1
+ _ZN14QGLPaintDeviceD0Ev@Base 5.0.2 1
+ _ZN14QGLPaintDeviceD1Ev@Base 5.0.2 1
+ _ZN14QGLPaintDeviceD2Ev@Base 5.0.2 1
  _ZN14QGLPixelBuffer11bindTextureERK6QImagej@Base 5.0.2
  _ZN14QGLPixelBuffer11bindTextureERK7QPixmapj@Base 5.0.2
  _ZN14QGLPixelBuffer11bindTextureERK7QString@Base 5.0.2
@@ -81,14 +81,14 @@ libQt5OpenGL.so.5 libqt5opengl5 #MINVER#
  _ZN14QGLPixelBufferD0Ev@Base 5.0.2
  _ZN14QGLPixelBufferD1Ev@Base 5.0.2
  _ZN14QGLPixelBufferD2Ev@Base 5.0.2
- _ZN14QGLSignalProxy11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
- _ZN14QGLSignalProxy11qt_metacastEPKc@Base 5.0.2
- _ZN14QGLSignalProxy16staticMetaObjectE@Base 5.0.2
- _ZN14QGLSignalProxy21aboutToDestroyContextEPK10QGLContext@Base 5.0.2
- _ZN14QGLSignalProxy8instanceEv@Base 5.0.2
- _ZN14QGLSignalProxyD0Ev@Base 5.0.2
- _ZN14QGLSignalProxyD1Ev@Base 5.0.2
- _ZN14QGLSignalProxyD2Ev@Base 5.0.2
+ _ZN14QGLSignalProxy11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
+ _ZN14QGLSignalProxy11qt_metacastEPKc@Base 5.0.2 1
+ _ZN14QGLSignalProxy16staticMetaObjectE@Base 5.0.2 1
+ _ZN14QGLSignalProxy21aboutToDestroyContextEPK10QGLContext@Base 5.0.2 1
+ _ZN14QGLSignalProxy8instanceEv@Base 5.0.2 1
+ _ZN14QGLSignalProxyD0Ev@Base 5.0.2 1
+ _ZN14QGLSignalProxyD1Ev@Base 5.0.2 1
+ _ZN14QGLSignalProxyD2Ev@Base 5.0.2 1
  _ZN16QGLShaderProgram11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN16QGLShaderProgram11qt_metacastEPKc@Base 5.0.2
  _ZN16QGLShaderProgram12removeShaderEP9QGLShader@Base 5.0.2
@@ -236,58 +236,58 @@ libQt5OpenGL.so.5 libqt5opengl5 #MINVER#
  _ZN16QGLShaderProgramD0Ev@Base 5.0.2
  _ZN16QGLShaderProgramD1Ev@Base 5.0.2
  _ZN16QGLShaderProgramD2Ev@Base 5.0.2
- _ZN16QGLWidgetPrivate10renderCxPmEP7QPixmap@Base 5.0.2
- _ZN16QGLWidgetPrivate11initContextEP10QGLContextPK9QGLWidget@Base 5.0.2
- _ZN16QGLWidgetPrivate16cleanupColormapsEv@Base 5.0.2
- _ZN16QGLWidgetPrivate4initEP10QGLContextPK9QGLWidget@Base 5.0.2
- _ZN17QGL2PaintEngineEx10drawPixmapERK6QRectFRK7QPixmapS2_@Base 5.0.2
- _ZN17QGL2PaintEngineEx10penChangedEv@Base 5.0.2
- _ZN17QGL2PaintEngineEx11drawTextureERK6QRectFjRK5QSizeS2_@Base 5.0.2
- _ZN17QGL2PaintEngineEx12brushChangedEv@Base 5.0.2
- _ZN17QGL2PaintEngineEx12drawTextItemERK7QPointFRK9QTextItem@Base 5.0.2
- _ZN17QGL2PaintEngineEx12ensureActiveEv@Base 5.0.2
- _ZN17QGL2PaintEngineEx14opacityChangedEv@Base 5.0.2
- _ZN17QGL2PaintEngineEx15invalidateStateEv@Base 5.0.2
- _ZN17QGL2PaintEngineEx16transformChangedEv@Base 5.0.2
- _ZN17QGL2PaintEngineEx17endNativePaintingEv@Base 5.0.2
- _ZN17QGL2PaintEngineEx18brushOriginChangedEv@Base 5.0.2
- _ZN17QGL2PaintEngineEx18clipEnabledChangedEv@Base 5.0.2
- _ZN17QGL2PaintEngineEx18drawStaticTextItemEP15QStaticTextItem@Base 5.0.2
- _ZN17QGL2PaintEngineEx18renderHintsChangedEv@Base 5.0.2
- _ZN17QGL2PaintEngineEx19beginNativePaintingEv@Base 5.0.2
- _ZN17QGL2PaintEngineEx19drawPixmapFragmentsEPKN8QPainter14PixmapFragmentEiRK7QPixmap6QFlagsINS0_18PixmapFragmentHintEE@Base 5.0.2
- _ZN17QGL2PaintEngineEx22compositionModeChangedEv@Base 5.0.2
- _ZN17QGL2PaintEngineEx3endEv@Base 5.0.2
- _ZN17QGL2PaintEngineEx4clipERK11QVectorPathN2Qt13ClipOperationE@Base 5.0.2
- _ZN17QGL2PaintEngineEx4fillERK11QVectorPathRK6QBrush@Base 5.0.2
- _ZN17QGL2PaintEngineEx5beginEP12QPaintDevice@Base 5.0.2
- _ZN17QGL2PaintEngineEx6strokeERK11QVectorPathRK4QPen@Base 5.0.2
- _ZN17QGL2PaintEngineEx8setStateEP13QPainterState@Base 5.0.2
- _ZN17QGL2PaintEngineEx9drawImageERK6QRectFRK6QImageS2_6QFlagsIN2Qt19ImageConversionFlagEE@Base 5.0.2
- _ZN17QGL2PaintEngineExC1Ev@Base 5.0.2
- _ZN17QGL2PaintEngineExC2Ev@Base 5.0.2
- _ZN17QGL2PaintEngineExD0Ev@Base 5.0.2
- _ZN17QGL2PaintEngineExD1Ev@Base 5.0.2
- _ZN17QGL2PaintEngineExD2Ev@Base 5.0.2
+ _ZN16QGLWidgetPrivate10renderCxPmEP7QPixmap@Base 5.0.2 1
+ _ZN16QGLWidgetPrivate11initContextEP10QGLContextPK9QGLWidget@Base 5.0.2 1
+ _ZN16QGLWidgetPrivate16cleanupColormapsEv@Base 5.0.2 1
+ _ZN16QGLWidgetPrivate4initEP10QGLContextPK9QGLWidget@Base 5.0.2 1
+ _ZN17QGL2PaintEngineEx10drawPixmapERK6QRectFRK7QPixmapS2_@Base 5.0.2 1
+ _ZN17QGL2PaintEngineEx10penChangedEv@Base 5.0.2 1
+ _ZN17QGL2PaintEngineEx11drawTextureERK6QRectFjRK5QSizeS2_@Base 5.0.2 1
+ _ZN17QGL2PaintEngineEx12brushChangedEv@Base 5.0.2 1
+ _ZN17QGL2PaintEngineEx12drawTextItemERK7QPointFRK9QTextItem@Base 5.0.2 1
+ _ZN17QGL2PaintEngineEx12ensureActiveEv@Base 5.0.2 1
+ _ZN17QGL2PaintEngineEx14opacityChangedEv@Base 5.0.2 1
+ _ZN17QGL2PaintEngineEx15invalidateStateEv@Base 5.0.2 1
+ _ZN17QGL2PaintEngineEx16transformChangedEv@Base 5.0.2 1
+ _ZN17QGL2PaintEngineEx17endNativePaintingEv@Base 5.0.2 1
+ _ZN17QGL2PaintEngineEx18brushOriginChangedEv@Base 5.0.2 1
+ _ZN17QGL2PaintEngineEx18clipEnabledChangedEv@Base 5.0.2 1
+ _ZN17QGL2PaintEngineEx18drawStaticTextItemEP15QStaticTextItem@Base 5.0.2 1
+ _ZN17QGL2PaintEngineEx18renderHintsChangedEv@Base 5.0.2 1
+ _ZN17QGL2PaintEngineEx19beginNativePaintingEv@Base 5.0.2 1
+ _ZN17QGL2PaintEngineEx19drawPixmapFragmentsEPKN8QPainter14PixmapFragmentEiRK7QPixmap6QFlagsINS0_18PixmapFragmentHintEE@Base 5.0.2 1
+ _ZN17QGL2PaintEngineEx22compositionModeChangedEv@Base 5.0.2 1
+ _ZN17QGL2PaintEngineEx3endEv@Base 5.0.2 1
+ _ZN17QGL2PaintEngineEx4clipERK11QVectorPathN2Qt13ClipOperationE@Base 5.0.2 1
+ _ZN17QGL2PaintEngineEx4fillERK11QVectorPathRK6QBrush@Base 5.0.2 1
+ _ZN17QGL2PaintEngineEx5beginEP12QPaintDevice@Base 5.0.2 1
+ _ZN17QGL2PaintEngineEx6strokeERK11QVectorPathRK4QPen@Base 5.0.2 1
+ _ZN17QGL2PaintEngineEx8setStateEP13QPainterState@Base 5.0.2 1
+ _ZN17QGL2PaintEngineEx9drawImageERK6QRectFRK6QImageS2_6QFlagsIN2Qt19ImageConversionFlagEE@Base 5.0.2 1
+ _ZN17QGL2PaintEngineExC1Ev@Base 5.0.2 1
+ _ZN17QGL2PaintEngineExC2Ev@Base 5.0.2 1
+ _ZN17QGL2PaintEngineExD0Ev@Base 5.0.2 1
+ _ZN17QGL2PaintEngineExD1Ev@Base 5.0.2 1
+ _ZN17QGL2PaintEngineExD2Ev@Base 5.0.2 1
  _ZN17QGLContextPrivate14extensionFuncsEPK10QGLContext@Base 5.0.2
  _ZN17QGLContextPrivate17qt_extensionFuncsE@Base 5.0.2
- _ZN19QGLTextureDestroyer11freeTextureEP10QGLContextP15QPlatformPixmapj@Base 5.0.2
- _ZN19QGLTextureDestroyer11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
- _ZN19QGLTextureDestroyer11qt_metacastEPKc@Base 5.0.2
- _ZN19QGLTextureDestroyer16staticMetaObjectE@Base 5.0.2
- _ZN19QGLTextureDestroyerD0Ev@Base 5.0.2
- _ZN19QGLTextureDestroyerD1Ev@Base 5.0.2
- _ZN19QGLTextureDestroyerD2Ev@Base 5.0.2
- _ZN20QGLCustomShaderStage11setInactiveEv@Base 5.0.2
- _ZN20QGLCustomShaderStage12setOnPainterEP8QPainter@Base 5.0.2
- _ZN20QGLCustomShaderStage16setUniformsDirtyEv@Base 5.0.2
- _ZN20QGLCustomShaderStage17removeFromPainterEP8QPainter@Base 5.0.2
- _ZN20QGLCustomShaderStage9setSourceERK10QByteArray@Base 5.0.2
- _ZN20QGLCustomShaderStageC1Ev@Base 5.0.2
- _ZN20QGLCustomShaderStageC2Ev@Base 5.0.2
- _ZN20QGLCustomShaderStageD0Ev@Base 5.0.2
- _ZN20QGLCustomShaderStageD1Ev@Base 5.0.2
- _ZN20QGLCustomShaderStageD2Ev@Base 5.0.2
+ _ZN19QGLTextureDestroyer11freeTextureEP10QGLContextP15QPlatformPixmapj@Base 5.0.2 1
+ _ZN19QGLTextureDestroyer11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
+ _ZN19QGLTextureDestroyer11qt_metacastEPKc@Base 5.0.2 1
+ _ZN19QGLTextureDestroyer16staticMetaObjectE@Base 5.0.2 1
+ _ZN19QGLTextureDestroyerD0Ev@Base 5.0.2 1
+ _ZN19QGLTextureDestroyerD1Ev@Base 5.0.2 1
+ _ZN19QGLTextureDestroyerD2Ev@Base 5.0.2 1
+ _ZN20QGLCustomShaderStage11setInactiveEv@Base 5.0.2 1
+ _ZN20QGLCustomShaderStage12setOnPainterEP8QPainter@Base 5.0.2 1
+ _ZN20QGLCustomShaderStage16setUniformsDirtyEv@Base 5.0.2 1
+ _ZN20QGLCustomShaderStage17removeFromPainterEP8QPainter@Base 5.0.2 1
+ _ZN20QGLCustomShaderStage9setSourceERK10QByteArray@Base 5.0.2 1
+ _ZN20QGLCustomShaderStageC1Ev@Base 5.0.2 1
+ _ZN20QGLCustomShaderStageC2Ev@Base 5.0.2 1
+ _ZN20QGLCustomShaderStageD0Ev@Base 5.0.2 1
+ _ZN20QGLCustomShaderStageD1Ev@Base 5.0.2 1
+ _ZN20QGLCustomShaderStageD2Ev@Base 5.0.2 1
  _ZN20QGLFramebufferObject11bindDefaultEv@Base 5.0.2
  _ZN20QGLFramebufferObject11drawTextureERK6QRectFjj@Base 5.0.2
  _ZN20QGLFramebufferObject11drawTextureERK7QPointFjj@Base 5.0.2
@@ -311,71 +311,71 @@ libQt5OpenGL.so.5 libqt5opengl5 #MINVER#
  _ZN20QGLFramebufferObjectD0Ev@Base 5.0.2
  _ZN20QGLFramebufferObjectD1Ev@Base 5.0.2
  _ZN20QGLFramebufferObjectD2Ev@Base 5.0.2
- _ZN20QGLTextureGlyphCache11fillTextureERKN18QTextureGlyphCache5CoordEj6QFixed@Base 5.0.2
- _ZN20QGLTextureGlyphCache17createTextureDataEii@Base 5.0.2
- _ZN20QGLTextureGlyphCache17resizeTextureDataEii@Base 5.0.2
- _ZN20QGLTextureGlyphCache5clearEv@Base 5.0.2
- _ZN20QGLTextureGlyphCacheC1EN21QFontEngineGlyphCache4TypeERK10QTransform@Base 5.0.2
- _ZN20QGLTextureGlyphCacheC2EN21QFontEngineGlyphCache4TypeERK10QTransform@Base 5.0.2
- _ZN20QGLTextureGlyphCacheD0Ev@Base 5.0.2
- _ZN20QGLTextureGlyphCacheD1Ev@Base 5.0.2
- _ZN20QGLTextureGlyphCacheD2Ev@Base 5.0.2
- _ZN21QGraphicsShaderEffect11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
- _ZN21QGraphicsShaderEffect11qt_metacastEPKc@Base 5.0.2
- _ZN21QGraphicsShaderEffect11setUniformsEP16QGLShaderProgram@Base 5.0.2
- _ZN21QGraphicsShaderEffect16setUniformsDirtyEv@Base 5.0.2
- _ZN21QGraphicsShaderEffect16staticMetaObjectE@Base 5.0.2
- _ZN21QGraphicsShaderEffect22setPixelShaderFragmentERK10QByteArray@Base 5.0.2
- _ZN21QGraphicsShaderEffect4drawEP8QPainter@Base 5.0.2
- _ZN21QGraphicsShaderEffectC1EP7QObject@Base 5.0.2
- _ZN21QGraphicsShaderEffectC2EP7QObject@Base 5.0.2
- _ZN21QGraphicsShaderEffectD0Ev@Base 5.0.2
- _ZN21QGraphicsShaderEffectD1Ev@Base 5.0.2
- _ZN21QGraphicsShaderEffectD2Ev@Base 5.0.2
- _ZN22QGLEngineShaderManager11blitProgramEv@Base 5.0.2
- _ZN22QGLEngineShaderManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
- _ZN22QGLEngineShaderManager11qt_metacastEPKc@Base 5.0.2
- _ZN22QGLEngineShaderManager11setMaskTypeENS_8MaskTypeE@Base 5.0.2
- _ZN22QGLEngineShaderManager13simpleProgramEv@Base 5.0.2
- _ZN22QGLEngineShaderManager14currentProgramEv@Base 5.0.2
- _ZN22QGLEngineShaderManager14setCustomStageEP20QGLCustomShaderStage@Base 5.0.2
- _ZN22QGLEngineShaderManager14setOpacityModeENS_11OpacityModeE@Base 5.0.2
- _ZN22QGLEngineShaderManager14useBlitProgramEv@Base 5.0.2
- _ZN22QGLEngineShaderManager15setSrcPixelTypeEN2Qt10BrushStyleE@Base 5.0.2
- _ZN22QGLEngineShaderManager15setSrcPixelTypeENS_12PixelSrcTypeE@Base 5.0.2
- _ZN22QGLEngineShaderManager16staticMetaObjectE@Base 5.0.2
- _ZN22QGLEngineShaderManager16useSimpleProgramEv@Base 5.0.2
- _ZN22QGLEngineShaderManager17removeCustomStageEv@Base 5.0.2
- _ZN22QGLEngineShaderManager18getUniformLocationENS_7UniformE@Base 5.0.2
- _ZN22QGLEngineShaderManager18setCompositionModeEN8QPainter15CompositionModeE@Base 5.0.2
- _ZN22QGLEngineShaderManager20useCorrectShaderProgEv@Base 5.0.2
- _ZN22QGLEngineShaderManager25optimiseForBrushTransformEN10QTransform18TransformationTypeE@Base 5.0.2
- _ZN22QGLEngineShaderManager8setDirtyEv@Base 5.0.2
- _ZN22QGLEngineShaderManagerC1EP10QGLContext@Base 5.0.2
- _ZN22QGLEngineShaderManagerC2EP10QGLContext@Base 5.0.2
- _ZN22QGLEngineShaderManagerD0Ev@Base 5.0.2
- _ZN22QGLEngineShaderManagerD1Ev@Base 5.0.2
- _ZN22QGLEngineShaderManagerD2Ev@Base 5.0.2
- _ZN22QGLEngineSharedShaders15qShaderSnippetsE@Base 5.0.2
- _ZN22QGLEngineSharedShaders16staticMetaObjectE@Base 5.0.2
- _ZN22QGLEngineSharedShaders17shadersForContextEPK10QGLContext@Base 5.0.2
- _ZN22QGLEngineSharedShaders18cleanupCustomStageEP20QGLCustomShaderStage@Base 5.0.2
- _ZN22QGLEngineSharedShaders18findProgramInCacheERK19QGLEngineShaderProg@Base 5.0.2
- _ZN22QGLEngineSharedShadersC1EPK10QGLContext@Base 5.0.2
- _ZN22QGLEngineSharedShadersC2EPK10QGLContext@Base 5.0.2
- _ZN22QGLEngineSharedShadersD1Ev@Base 5.0.2
- _ZN22QGLEngineSharedShadersD2Ev@Base 5.0.2
- _ZN22QGLWidgetGLPaintDevice10beginPaintEv@Base 5.0.2
- _ZN22QGLWidgetGLPaintDevice8endPaintEv@Base 5.0.2
- _ZN22QGLWidgetGLPaintDevice9setWidgetEP9QGLWidget@Base 5.0.2
- _ZN22QGLWidgetGLPaintDeviceC1Ev@Base 5.0.2
- _ZN22QGLWidgetGLPaintDeviceC2Ev@Base 5.0.2
- _ZN22QGLWidgetGLPaintDeviceD0Ev@Base 5.0.2
- _ZN22QGLWidgetGLPaintDeviceD1Ev@Base 5.0.2
- _ZN22QGLWidgetGLPaintDeviceD2Ev@Base 5.0.2
- _ZN22QGraphicsEffectPrivateD0Ev@Base 5.0.2
- _ZN22QGraphicsEffectPrivateD1Ev@Base 5.0.2
- _ZN22QGraphicsEffectPrivateD2Ev@Base 5.0.2
+ _ZN20QGLTextureGlyphCache11fillTextureERKN18QTextureGlyphCache5CoordEj6QFixed@Base 5.0.2 1
+ _ZN20QGLTextureGlyphCache17createTextureDataEii@Base 5.0.2 1
+ _ZN20QGLTextureGlyphCache17resizeTextureDataEii@Base 5.0.2 1
+ _ZN20QGLTextureGlyphCache5clearEv@Base 5.0.2 1
+ _ZN20QGLTextureGlyphCacheC1EN21QFontEngineGlyphCache4TypeERK10QTransform@Base 5.0.2 1
+ _ZN20QGLTextureGlyphCacheC2EN21QFontEngineGlyphCache4TypeERK10QTransform@Base 5.0.2 1
+ _ZN20QGLTextureGlyphCacheD0Ev@Base 5.0.2 1
+ _ZN20QGLTextureGlyphCacheD1Ev@Base 5.0.2 1
+ _ZN20QGLTextureGlyphCacheD2Ev@Base 5.0.2 1
+ _ZN21QGraphicsShaderEffect11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
+ _ZN21QGraphicsShaderEffect11qt_metacastEPKc@Base 5.0.2 1
+ _ZN21QGraphicsShaderEffect11setUniformsEP16QGLShaderProgram@Base 5.0.2 1
+ _ZN21QGraphicsShaderEffect16setUniformsDirtyEv@Base 5.0.2 1
+ _ZN21QGraphicsShaderEffect16staticMetaObjectE@Base 5.0.2 1
+ _ZN21QGraphicsShaderEffect22setPixelShaderFragmentERK10QByteArray@Base 5.0.2 1
+ _ZN21QGraphicsShaderEffect4drawEP8QPainter@Base 5.0.2 1
+ _ZN21QGraphicsShaderEffectC1EP7QObject@Base 5.0.2 1
+ _ZN21QGraphicsShaderEffectC2EP7QObject@Base 5.0.2 1
+ _ZN21QGraphicsShaderEffectD0Ev@Base 5.0.2 1
+ _ZN21QGraphicsShaderEffectD1Ev@Base 5.0.2 1
+ _ZN21QGraphicsShaderEffectD2Ev@Base 5.0.2 1
+ _ZN22QGLEngineShaderManager11blitProgramEv@Base 5.0.2 1
+ _ZN22QGLEngineShaderManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
+ _ZN22QGLEngineShaderManager11qt_metacastEPKc@Base 5.0.2 1
+ _ZN22QGLEngineShaderManager11setMaskTypeENS_8MaskTypeE@Base 5.0.2 1
+ _ZN22QGLEngineShaderManager13simpleProgramEv@Base 5.0.2 1
+ _ZN22QGLEngineShaderManager14currentProgramEv@Base 5.0.2 1
+ _ZN22QGLEngineShaderManager14setCustomStageEP20QGLCustomShaderStage@Base 5.0.2 1
+ _ZN22QGLEngineShaderManager14setOpacityModeENS_11OpacityModeE@Base 5.0.2 1
+ _ZN22QGLEngineShaderManager14useBlitProgramEv@Base 5.0.2 1
+ _ZN22QGLEngineShaderManager15setSrcPixelTypeEN2Qt10BrushStyleE@Base 5.0.2 1
+ _ZN22QGLEngineShaderManager15setSrcPixelTypeENS_12PixelSrcTypeE@Base 5.0.2 1
+ _ZN22QGLEngineShaderManager16staticMetaObjectE@Base 5.0.2 1
+ _ZN22QGLEngineShaderManager16useSimpleProgramEv@Base 5.0.2 1
+ _ZN22QGLEngineShaderManager17removeCustomStageEv@Base 5.0.2 1
+ _ZN22QGLEngineShaderManager18getUniformLocationENS_7UniformE@Base 5.0.2 1
+ _ZN22QGLEngineShaderManager18setCompositionModeEN8QPainter15CompositionModeE@Base 5.0.2 1
+ _ZN22QGLEngineShaderManager20useCorrectShaderProgEv@Base 5.0.2 1
+ _ZN22QGLEngineShaderManager25optimiseForBrushTransformEN10QTransform18TransformationTypeE@Base 5.0.2 1
+ _ZN22QGLEngineShaderManager8setDirtyEv@Base 5.0.2 1
+ _ZN22QGLEngineShaderManagerC1EP10QGLContext@Base 5.0.2 1
+ _ZN22QGLEngineShaderManagerC2EP10QGLContext@Base 5.0.2 1
+ _ZN22QGLEngineShaderManagerD0Ev@Base 5.0.2 1
+ _ZN22QGLEngineShaderManagerD1Ev@Base 5.0.2 1
+ _ZN22QGLEngineShaderManagerD2Ev@Base 5.0.2 1
+ _ZN22QGLEngineSharedShaders15qShaderSnippetsE@Base 5.0.2 1
+ _ZN22QGLEngineSharedShaders16staticMetaObjectE@Base 5.0.2 1
+ _ZN22QGLEngineSharedShaders17shadersForContextEPK10QGLContext@Base 5.0.2 1
+ _ZN22QGLEngineSharedShaders18cleanupCustomStageEP20QGLCustomShaderStage@Base 5.0.2 1
+ _ZN22QGLEngineSharedShaders18findProgramInCacheERK19QGLEngineShaderProg@Base 5.0.2 1
+ _ZN22QGLEngineSharedShadersC1EPK10QGLContext@Base 5.0.2 1
+ _ZN22QGLEngineSharedShadersC2EPK10QGLContext@Base 5.0.2 1
+ _ZN22QGLEngineSharedShadersD1Ev@Base 5.0.2 1
+ _ZN22QGLEngineSharedShadersD2Ev@Base 5.0.2 1
+ _ZN22QGLWidgetGLPaintDevice10beginPaintEv@Base 5.0.2 1
+ _ZN22QGLWidgetGLPaintDevice8endPaintEv@Base 5.0.2 1
+ _ZN22QGLWidgetGLPaintDevice9setWidgetEP9QGLWidget@Base 5.0.2 1
+ _ZN22QGLWidgetGLPaintDeviceC1Ev@Base 5.0.2 1
+ _ZN22QGLWidgetGLPaintDeviceC2Ev@Base 5.0.2 1
+ _ZN22QGLWidgetGLPaintDeviceD0Ev@Base 5.0.2 1
+ _ZN22QGLWidgetGLPaintDeviceD1Ev@Base 5.0.2 1
+ _ZN22QGLWidgetGLPaintDeviceD2Ev@Base 5.0.2 1
+ _ZN22QGraphicsEffectPrivateD0Ev@Base 5.0.2 1
+ _ZN22QGraphicsEffectPrivateD1Ev@Base 5.0.2 1
+ _ZN22QGraphicsEffectPrivateD2Ev@Base 5.0.2 1
  _ZN26QGLFramebufferObjectFormat10setSamplesEi@Base 5.0.2
  _ZN26QGLFramebufferObjectFormat13setAttachmentEN20QGLFramebufferObject10AttachmentE@Base 5.0.2
  _ZN26QGLFramebufferObjectFormat16setTextureTargetEj@Base 5.0.2
@@ -505,11 +505,11 @@ libQt5OpenGL.so.5 libqt5opengl5 #MINVER#
  _ZN9QGLWidget9setFormatERK9QGLFormat@Base 5.0.2
  _ZN9QGLWidgetC1EP10QGLContextP7QWidgetPKS_6QFlagsIN2Qt10WindowTypeEE@Base 5.0.2
  _ZN9QGLWidgetC1EP7QWidgetPKS_6QFlagsIN2Qt10WindowTypeEE@Base 5.0.2
- _ZN9QGLWidgetC1ER16QGLWidgetPrivateRK9QGLFormatP7QWidgetPKS_6QFlagsIN2Qt10WindowTypeEE@Base 5.0.2
+ _ZN9QGLWidgetC1ER16QGLWidgetPrivateRK9QGLFormatP7QWidgetPKS_6QFlagsIN2Qt10WindowTypeEE@Base 5.0.2 1
  _ZN9QGLWidgetC1ERK9QGLFormatP7QWidgetPKS_6QFlagsIN2Qt10WindowTypeEE@Base 5.0.2
  _ZN9QGLWidgetC2EP10QGLContextP7QWidgetPKS_6QFlagsIN2Qt10WindowTypeEE@Base 5.0.2
  _ZN9QGLWidgetC2EP7QWidgetPKS_6QFlagsIN2Qt10WindowTypeEE@Base 5.0.2
- _ZN9QGLWidgetC2ER16QGLWidgetPrivateRK9QGLFormatP7QWidgetPKS_6QFlagsIN2Qt10WindowTypeEE@Base 5.0.2
+ _ZN9QGLWidgetC2ER16QGLWidgetPrivateRK9QGLFormatP7QWidgetPKS_6QFlagsIN2Qt10WindowTypeEE@Base 5.0.2 1
  _ZN9QGLWidgetC2ERK9QGLFormatP7QWidgetPKS_6QFlagsIN2Qt10WindowTypeEE@Base 5.0.2
  _ZN9QGLWidgetD0Ev@Base 5.0.2
  _ZN9QGLWidgetD1Ev@Base 5.0.2
@@ -536,10 +536,10 @@ libQt5OpenGL.so.5 libqt5opengl5 #MINVER#
  _ZNK11QGLColormap8entryRgbEi@Base 5.0.2
  _ZNK12QGLFunctions14openGLFeaturesEv@Base 5.0.2
  _ZNK12QGLFunctions16hasOpenGLFeatureENS_13OpenGLFeatureE@Base 5.0.2
- _ZNK14QGLPaintDevice14alphaRequestedEv@Base 5.0.2
- _ZNK14QGLPaintDevice6formatEv@Base 5.0.2
- _ZNK14QGLPaintDevice6metricEN12QPaintDevice17PaintDeviceMetricE@Base 5.0.2
- _ZNK14QGLPaintDevice9isFlippedEv@Base 5.0.2
+ _ZNK14QGLPaintDevice14alphaRequestedEv@Base 5.0.2 1
+ _ZNK14QGLPaintDevice6formatEv@Base 5.0.2 1
+ _ZNK14QGLPaintDevice6metricEN12QPaintDevice17PaintDeviceMetricE@Base 5.0.2 1
+ _ZNK14QGLPaintDevice9isFlippedEv@Base 5.0.2 1
  _ZNK14QGLPixelBuffer11paintEngineEv@Base 5.0.2
  _ZNK14QGLPixelBuffer20updateDynamicTextureEj@Base 5.0.2
  _ZNK14QGLPixelBuffer22generateDynamicTextureEv@Base 5.0.2
@@ -550,7 +550,7 @@ libQt5OpenGL.so.5 libqt5opengl5 #MINVER#
  _ZNK14QGLPixelBuffer7contextEv@Base 5.0.2
  _ZNK14QGLPixelBuffer7isValidEv@Base 5.0.2
  _ZNK14QGLPixelBuffer7toImageEv@Base 5.0.2
- _ZNK14QGLSignalProxy10metaObjectEv@Base 5.0.2
+ _ZNK14QGLSignalProxy10metaObjectEv@Base 5.0.2 1
  _ZNK16QGLShaderProgram10metaObjectEv@Base 5.0.2
  _ZNK16QGLShaderProgram15uniformLocationEPKc@Base 5.0.2
  _ZNK16QGLShaderProgram15uniformLocationERK10QByteArray@Base 5.0.2
@@ -566,10 +566,10 @@ libQt5OpenGL.so.5 libqt5opengl5 #MINVER#
  _ZNK16QGLShaderProgram7shadersEv@Base 5.0.2
  _ZNK16QGLShaderProgram8isLinkedEv@Base 5.0.2
  _ZNK16QGLShaderProgram9programIdEv@Base 5.0.2
- _ZNK17QGL2PaintEngineEx11createStateEP13QPainterState@Base 5.0.2
- _ZNK17QGL2PaintEngineEx22isNativePaintingActiveEv@Base 5.0.2
- _ZNK19QGLTextureDestroyer10metaObjectEv@Base 5.0.2
- _ZNK20QGLCustomShaderStage6sourceEv@Base 5.0.2
+ _ZNK17QGL2PaintEngineEx11createStateEP13QPainterState@Base 5.0.2 1
+ _ZNK17QGL2PaintEngineEx22isNativePaintingActiveEv@Base 5.0.2 1
+ _ZNK19QGLTextureDestroyer10metaObjectEv@Base 5.0.2 1
+ _ZNK20QGLCustomShaderStage6sourceEv@Base 5.0.2 1
  _ZNK20QGLFramebufferObject10attachmentEv@Base 5.0.2
  _ZNK20QGLFramebufferObject11paintEngineEv@Base 5.0.2
  _ZNK20QGLFramebufferObject4sizeEv@Base 5.0.2
@@ -580,15 +580,15 @@ libQt5OpenGL.so.5 libqt5opengl5 #MINVER#
  _ZNK20QGLFramebufferObject7isValidEv@Base 5.0.2
  _ZNK20QGLFramebufferObject7textureEv@Base 5.0.2
  _ZNK20QGLFramebufferObject7toImageEv@Base 5.0.2
- _ZNK20QGLTextureGlyphCache12glyphPaddingEv@Base 5.0.2
- _ZNK20QGLTextureGlyphCache15maxTextureWidthEv@Base 5.0.2
- _ZNK20QGLTextureGlyphCache16maxTextureHeightEv@Base 5.0.2
- _ZNK21QGraphicsShaderEffect10metaObjectEv@Base 5.0.2
- _ZNK21QGraphicsShaderEffect19pixelShaderFragmentEv@Base 5.0.2
- _ZNK22QGLEngineShaderManager10metaObjectEv@Base 5.0.2
- _ZNK22QGLWidgetGLPaintDevice11paintEngineEv@Base 5.0.2
- _ZNK22QGLWidgetGLPaintDevice4sizeEv@Base 5.0.2
- _ZNK22QGLWidgetGLPaintDevice7contextEv@Base 5.0.2
+ _ZNK20QGLTextureGlyphCache12glyphPaddingEv@Base 5.0.2 1
+ _ZNK20QGLTextureGlyphCache15maxTextureWidthEv@Base 5.0.2 1
+ _ZNK20QGLTextureGlyphCache16maxTextureHeightEv@Base 5.0.2 1
+ _ZNK21QGraphicsShaderEffect10metaObjectEv@Base 5.0.2 1
+ _ZNK21QGraphicsShaderEffect19pixelShaderFragmentEv@Base 5.0.2 1
+ _ZNK22QGLEngineShaderManager10metaObjectEv@Base 5.0.2 1
+ _ZNK22QGLWidgetGLPaintDevice11paintEngineEv@Base 5.0.2 1
+ _ZNK22QGLWidgetGLPaintDevice4sizeEv@Base 5.0.2 1
+ _ZNK22QGLWidgetGLPaintDevice7contextEv@Base 5.0.2 1
  _ZNK26QGLFramebufferObjectFormat10attachmentEv@Base 5.0.2
  _ZNK26QGLFramebufferObjectFormat13textureTargetEv@Base 5.0.2
  _ZNK26QGLFramebufferObjectFormat21internalTextureFormatEv@Base 5.0.2
@@ -635,60 +635,60 @@ libQt5OpenGL.so.5 libqt5opengl5 #MINVER#
  _ZNK9QGLWidget9isSharingEv@Base 5.0.2
  _ZTI10QGLContext@Base 5.0.2
  _ZTI11QSharedData@Base 5.0.2
- _ZTI14QGLPaintDevice@Base 5.0.2
+ _ZTI14QGLPaintDevice@Base 5.0.2 1
  _ZTI14QGLPixelBuffer@Base 5.0.2
- _ZTI14QGLSignalProxy@Base 5.0.2
+ _ZTI14QGLSignalProxy@Base 5.0.2 1
  _ZTI16QGLShaderProgram@Base 5.0.2
- _ZTI16QGLWidgetPrivate@Base 5.0.2
- _ZTI17QGL2PaintEngineEx@Base 5.0.2
- _ZTI18QTextureGlyphCache@Base 5.0.2
- _ZTI19QGLTextureDestroyer@Base 5.0.2
- _ZTI20QGLCustomShaderStage@Base 5.0.2
+ _ZTI16QGLWidgetPrivate@Base 5.0.2 1
+ _ZTI17QGL2PaintEngineEx@Base 5.0.2 1
+ _ZTI18QTextureGlyphCache@Base 5.0.2 1
+ _ZTI19QGLTextureDestroyer@Base 5.0.2 1
+ _ZTI20QGLCustomShaderStage@Base 5.0.2 1
  _ZTI20QGLFramebufferObject@Base 5.0.2
- _ZTI20QGLTextureGlyphCache@Base 5.0.2
- _ZTI21QGraphicsShaderEffect@Base 5.0.2
- _ZTI21QOpenGLSharedResource@Base 5.0.2
- _ZTI22QGLEngineShaderManager@Base 5.0.2
- _ZTI22QGLWidgetGLPaintDevice@Base 5.0.2
- _ZTI22QGraphicsEffectPrivate@Base 5.0.2
+ _ZTI20QGLTextureGlyphCache@Base 5.0.2 1
+ _ZTI21QGraphicsShaderEffect@Base 5.0.2 1
+ _ZTI21QOpenGLSharedResource@Base 5.0.2 1
+ _ZTI22QGLEngineShaderManager@Base 5.0.2 1
+ _ZTI22QGLWidgetGLPaintDevice@Base 5.0.2 1
+ _ZTI22QGraphicsEffectPrivate@Base 5.0.2 1
  _ZTI9QGLShader@Base 5.0.2
  _ZTI9QGLWidget@Base 5.0.2
  _ZTS10QGLContext@Base 5.0.2
  _ZTS11QSharedData@Base 5.0.2
- _ZTS14QGLPaintDevice@Base 5.0.2
+ _ZTS14QGLPaintDevice@Base 5.0.2 1
  _ZTS14QGLPixelBuffer@Base 5.0.2
- _ZTS14QGLSignalProxy@Base 5.0.2
+ _ZTS14QGLSignalProxy@Base 5.0.2 1
  _ZTS16QGLShaderProgram@Base 5.0.2
- _ZTS16QGLWidgetPrivate@Base 5.0.2
- _ZTS17QGL2PaintEngineEx@Base 5.0.2
- _ZTS18QTextureGlyphCache@Base 5.0.2
- _ZTS19QGLTextureDestroyer@Base 5.0.2
- _ZTS20QGLCustomShaderStage@Base 5.0.2
+ _ZTS16QGLWidgetPrivate@Base 5.0.2 1
+ _ZTS17QGL2PaintEngineEx@Base 5.0.2 1
+ _ZTS18QTextureGlyphCache@Base 5.0.2 1
+ _ZTS19QGLTextureDestroyer@Base 5.0.2 1
+ _ZTS20QGLCustomShaderStage@Base 5.0.2 1
  _ZTS20QGLFramebufferObject@Base 5.0.2
- _ZTS20QGLTextureGlyphCache@Base 5.0.2
- _ZTS21QGraphicsShaderEffect@Base 5.0.2
- _ZTS21QOpenGLSharedResource@Base 5.0.2
- _ZTS22QGLEngineShaderManager@Base 5.0.2
- _ZTS22QGLWidgetGLPaintDevice@Base 5.0.2
- _ZTS22QGraphicsEffectPrivate@Base 5.0.2
+ _ZTS20QGLTextureGlyphCache@Base 5.0.2 1
+ _ZTS21QGraphicsShaderEffect@Base 5.0.2 1
+ _ZTS21QOpenGLSharedResource@Base 5.0.2 1
+ _ZTS22QGLEngineShaderManager@Base 5.0.2 1
+ _ZTS22QGLWidgetGLPaintDevice@Base 5.0.2 1
+ _ZTS22QGraphicsEffectPrivate@Base 5.0.2 1
  _ZTS9QGLShader@Base 5.0.2
  _ZTS9QGLWidget@Base 5.0.2
  _ZTV10QGLContext@Base 5.0.2
- _ZTV14QGLPaintDevice@Base 5.0.2
+ _ZTV14QGLPaintDevice@Base 5.0.2 1
  _ZTV14QGLPixelBuffer@Base 5.0.2
- _ZTV14QGLSignalProxy@Base 5.0.2
+ _ZTV14QGLSignalProxy@Base 5.0.2 1
  _ZTV16QGLShaderProgram@Base 5.0.2
- _ZTV16QGLWidgetPrivate@Base 5.0.2
- _ZTV17QGL2PaintEngineEx@Base 5.0.2
- _ZTV18QTextureGlyphCache@Base 5.0.2
- _ZTV19QGLTextureDestroyer@Base 5.0.2
- _ZTV20QGLCustomShaderStage@Base 5.0.2
+ _ZTV16QGLWidgetPrivate@Base 5.0.2 1
+ _ZTV17QGL2PaintEngineEx@Base 5.0.2 1
+ _ZTV18QTextureGlyphCache@Base 5.0.2 1
+ _ZTV19QGLTextureDestroyer@Base 5.0.2 1
+ _ZTV20QGLCustomShaderStage@Base 5.0.2 1
  _ZTV20QGLFramebufferObject@Base 5.0.2
- _ZTV20QGLTextureGlyphCache@Base 5.0.2
- _ZTV21QGraphicsShaderEffect@Base 5.0.2
- _ZTV22QGLEngineShaderManager@Base 5.0.2
- _ZTV22QGLWidgetGLPaintDevice@Base 5.0.2
- _ZTV22QGraphicsEffectPrivate@Base 5.0.2
+ _ZTV20QGLTextureGlyphCache@Base 5.0.2 1
+ _ZTV21QGraphicsShaderEffect@Base 5.0.2 1
+ _ZTV22QGLEngineShaderManager@Base 5.0.2 1
+ _ZTV22QGLWidgetGLPaintDevice@Base 5.0.2 1
+ _ZTV22QGraphicsEffectPrivate@Base 5.0.2 1
  _ZTV9QGLShader@Base 5.0.2
  _ZTV9QGLWidget@Base 5.0.2
  _ZeqRK9QGLFormatS1_@Base 5.0.2

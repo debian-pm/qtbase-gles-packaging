@@ -329,9 +329,9 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN11QColumnView8setModelEP18QAbstractItemModel@Base 5.0.2
  _ZN11QColumnView9selectAllEv@Base 5.0.2
  _ZN11QColumnViewC1EP7QWidget@Base 5.0.2
- _ZN11QColumnViewC1ER18QColumnViewPrivateP7QWidget@Base 5.0.2
+ _ZN11QColumnViewC1ER18QColumnViewPrivateP7QWidget@Base 5.0.2 1
  _ZN11QColumnViewC2EP7QWidget@Base 5.0.2
- _ZN11QColumnViewC2ER18QColumnViewPrivateP7QWidget@Base 5.0.2
+ _ZN11QColumnViewC2ER18QColumnViewPrivateP7QWidget@Base 5.0.2 1
  _ZN11QColumnViewD0Ev@Base 5.0.2
  _ZN11QColumnViewD1Ev@Base 5.0.2
  _ZN11QColumnViewD2Ev@Base 5.0.2
@@ -1075,9 +1075,9 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN12QCommonStyleD0Ev@Base 5.0.2
  _ZN12QCommonStyleD1Ev@Base 5.0.2
  _ZN12QCommonStyleD2Ev@Base 5.0.2
- _ZN12QFSCompleterD0Ev@Base 5.0.2
- _ZN12QFSCompleterD1Ev@Base 5.0.2
- _ZN12QFSCompleterD2Ev@Base 5.0.2
+ _ZN12QFSCompleterD0Ev@Base 5.0.2 1
+ _ZN12QFSCompleterD1Ev@Base 5.0.2 1
+ _ZN12QFSCompleterD2Ev@Base 5.0.2 1
  _ZN12QInputDialog10setIntStepEi@Base 5.0.2
  _ZN12QInputDialog10setOptionsE6QFlagsINS_17InputDialogOptionEE@Base 5.0.2
  _ZN12QInputDialog10setVisibleEb@Base 5.0.2
@@ -1339,14 +1339,14 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN13QErrorMessageD0Ev@Base 5.0.2
  _ZN13QErrorMessageD1Ev@Base 5.0.2
  _ZN13QErrorMessageD2Ev@Base 5.0.2
- _ZN13QFlickGesture11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
- _ZN13QFlickGesture11qt_metacastEPKc@Base 5.0.2
- _ZN13QFlickGesture16staticMetaObjectE@Base 5.0.2
- _ZN13QFlickGestureC1EP7QObjectN2Qt11MouseButtonES1_@Base 5.0.2
- _ZN13QFlickGestureC2EP7QObjectN2Qt11MouseButtonES1_@Base 5.0.2
- _ZN13QFlickGestureD0Ev@Base 5.0.2
- _ZN13QFlickGestureD1Ev@Base 5.0.2
- _ZN13QFlickGestureD2Ev@Base 5.0.2
+ _ZN13QFlickGesture11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
+ _ZN13QFlickGesture11qt_metacastEPKc@Base 5.0.2 1
+ _ZN13QFlickGesture16staticMetaObjectE@Base 5.0.2 1
+ _ZN13QFlickGestureC1EP7QObjectN2Qt11MouseButtonES1_@Base 5.0.2 1
+ _ZN13QFlickGestureC2EP7QObjectN2Qt11MouseButtonES1_@Base 5.0.2 1
+ _ZN13QFlickGestureD0Ev@Base 5.0.2 1
+ _ZN13QFlickGestureD1Ev@Base 5.0.2 1
+ _ZN13QFlickGestureD2Ev@Base 5.0.2 1
  _ZN13QFontComboBox11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN13QFontComboBox11qt_metacastEPKc@Base 5.0.2
  _ZN13QFontComboBox14setCurrentFontERK5QFont@Base 5.0.2
@@ -1450,9 +1450,9 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN13QGraphicsItem9setMatrixERK7QMatrixb@Base 5.0.2
  (subst)_ZN13QGraphicsItem9setZValueE{qreal}@Base 5.0.2
  _ZN13QGraphicsItemC1EPS_@Base 5.0.2
- _ZN13QGraphicsItemC1ER20QGraphicsItemPrivatePS_@Base 5.0.2
+ _ZN13QGraphicsItemC1ER20QGraphicsItemPrivatePS_@Base 5.0.2 1
  _ZN13QGraphicsItemC2EPS_@Base 5.0.2
- _ZN13QGraphicsItemC2ER20QGraphicsItemPrivatePS_@Base 5.0.2
+ _ZN13QGraphicsItemC2ER20QGraphicsItemPrivatePS_@Base 5.0.2 1
  _ZN13QGraphicsItemD0Ev@Base 5.0.2
  _ZN13QGraphicsItemD1Ev@Base 5.0.2
  _ZN13QGraphicsItemD2Ev@Base 5.0.2
@@ -1522,10 +1522,10 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  (subst)_ZN13QGraphicsView9translateE{qreal}{qreal}@Base 5.0.2
  _ZN13QGraphicsViewC1EP14QGraphicsSceneP7QWidget@Base 5.0.2
  _ZN13QGraphicsViewC1EP7QWidget@Base 5.0.2
- _ZN13QGraphicsViewC1ER20QGraphicsViewPrivateP7QWidget@Base 5.0.2
+ _ZN13QGraphicsViewC1ER20QGraphicsViewPrivateP7QWidget@Base 5.0.2 1
  _ZN13QGraphicsViewC2EP14QGraphicsSceneP7QWidget@Base 5.0.2
  _ZN13QGraphicsViewC2EP7QWidget@Base 5.0.2
- _ZN13QGraphicsViewC2ER20QGraphicsViewPrivateP7QWidget@Base 5.0.2
+ _ZN13QGraphicsViewC2ER20QGraphicsViewPrivateP7QWidget@Base 5.0.2 1
  _ZN13QGraphicsViewD0Ev@Base 5.0.2
  _ZN13QGraphicsViewD1Ev@Base 5.0.2
  _ZN13QGraphicsViewD2Ev@Base 5.0.2
@@ -1597,16 +1597,16 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN13QPinchGestureD0Ev@Base 5.0.2
  _ZN13QPinchGestureD1Ev@Base 5.0.2
  _ZN13QPinchGestureD2Ev@Base 5.0.2
- _ZN13QPixmapFilter11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
- _ZN13QPixmapFilter11qt_metacastEPKc@Base 5.0.2
- _ZN13QPixmapFilter16staticMetaObjectE@Base 5.0.2
- _ZN13QPixmapFilterC1ENS_10FilterTypeEP7QObject@Base 5.0.2
- _ZN13QPixmapFilterC1ER20QPixmapFilterPrivateNS_10FilterTypeEP7QObject@Base 5.0.2
- _ZN13QPixmapFilterC2ENS_10FilterTypeEP7QObject@Base 5.0.2
- _ZN13QPixmapFilterC2ER20QPixmapFilterPrivateNS_10FilterTypeEP7QObject@Base 5.0.2
- _ZN13QPixmapFilterD0Ev@Base 5.0.2
- _ZN13QPixmapFilterD1Ev@Base 5.0.2
- _ZN13QPixmapFilterD2Ev@Base 5.0.2
+ _ZN13QPixmapFilter11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
+ _ZN13QPixmapFilter11qt_metacastEPKc@Base 5.0.2 1
+ _ZN13QPixmapFilter16staticMetaObjectE@Base 5.0.2 1
+ _ZN13QPixmapFilterC1ENS_10FilterTypeEP7QObject@Base 5.0.2 1
+ _ZN13QPixmapFilterC1ER20QPixmapFilterPrivateNS_10FilterTypeEP7QObject@Base 5.0.2 1
+ _ZN13QPixmapFilterC2ENS_10FilterTypeEP7QObject@Base 5.0.2 1
+ _ZN13QPixmapFilterC2ER20QPixmapFilterPrivateNS_10FilterTypeEP7QObject@Base 5.0.2 1
+ _ZN13QPixmapFilterD0Ev@Base 5.0.2 1
+ _ZN13QPixmapFilterD1Ev@Base 5.0.2 1
+ _ZN13QPixmapFilterD2Ev@Base 5.0.2 1
  _ZN13QSplashScreen11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN13QSplashScreen11qt_metacastEPKc@Base 5.0.2
  _ZN13QSplashScreen11showMessageERK7QStringiRK6QColor@Base 5.0.2
@@ -1657,16 +1657,16 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN13QWidgetItemV2D0Ev@Base 5.0.2
  _ZN13QWidgetItemV2D1Ev@Base 5.0.2
  _ZN13QWidgetItemV2D2Ev@Base 5.0.2
- _ZN14QActionPrivate14showStatusTextEP7QWidgetRK7QString@Base 5.0.2
- _ZN14QActionPrivate15sendDataChangedEv@Base 5.0.2
- _ZN14QActionPrivate17redoGrabAlternateER12QShortcutMap@Base 5.0.2
- _ZN14QActionPrivate18setShortcutEnabledEbR12QShortcutMap@Base 5.0.2
- _ZN14QActionPrivate8redoGrabER12QShortcutMap@Base 5.0.2
- _ZN14QActionPrivateC1Ev@Base 5.0.2
- _ZN14QActionPrivateC2Ev@Base 5.0.2
- _ZN14QActionPrivateD0Ev@Base 5.0.2
- _ZN14QActionPrivateD1Ev@Base 5.0.2
- _ZN14QActionPrivateD2Ev@Base 5.0.2
+ _ZN14QActionPrivate14showStatusTextEP7QWidgetRK7QString@Base 5.0.2 1
+ _ZN14QActionPrivate15sendDataChangedEv@Base 5.0.2 1
+ _ZN14QActionPrivate17redoGrabAlternateER12QShortcutMap@Base 5.0.2 1
+ _ZN14QActionPrivate18setShortcutEnabledEbR12QShortcutMap@Base 5.0.2 1
+ _ZN14QActionPrivate8redoGrabER12QShortcutMap@Base 5.0.2 1
+ _ZN14QActionPrivateC1Ev@Base 5.0.2 1
+ _ZN14QActionPrivateC2Ev@Base 5.0.2 1
+ _ZN14QActionPrivateD0Ev@Base 5.0.2 1
+ _ZN14QActionPrivateD1Ev@Base 5.0.2 1
+ _ZN14QActionPrivateD2Ev@Base 5.0.2 1
  _ZN14QDesktopWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN14QDesktopWidget11qt_metacastEPKc@Base 5.0.2
  _ZN14QDesktopWidget11resizeEventEP12QResizeEvent@Base 5.0.2
@@ -1789,17 +1789,17 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN14QGraphicsSceneD0Ev@Base 5.0.2
  _ZN14QGraphicsSceneD1Ev@Base 5.0.2
  _ZN14QGraphicsSceneD2Ev@Base 5.0.2
- _ZN14QLayoutPrivate16createSpacerItemEPK7QLayoutiiN11QSizePolicy6PolicyES4_@Base 5.0.2
- _ZN14QLayoutPrivate16createWidgetItemEPK7QLayoutP7QWidget@Base 5.0.2
- _ZN14QLayoutPrivate20reparentChildWidgetsEP7QWidget@Base 5.0.2
- _ZN14QLayoutPrivate23spacerItemFactoryMethodE@Base 5.0.2
- _ZN14QLayoutPrivate23widgetItemFactoryMethodE@Base 5.0.2
- _ZN14QLayoutPrivate8doResizeERK5QSize@Base 5.0.2
- _ZN14QLayoutPrivateC1Ev@Base 5.0.2
- _ZN14QLayoutPrivateC2Ev@Base 5.0.2
- _ZN14QLayoutPrivateD0Ev@Base 5.0.2
- _ZN14QLayoutPrivateD1Ev@Base 5.0.2
- _ZN14QLayoutPrivateD2Ev@Base 5.0.2
+ _ZN14QLayoutPrivate16createSpacerItemEPK7QLayoutiiN11QSizePolicy6PolicyES4_@Base 5.0.2 1
+ _ZN14QLayoutPrivate16createWidgetItemEPK7QLayoutP7QWidget@Base 5.0.2 1
+ _ZN14QLayoutPrivate20reparentChildWidgetsEP7QWidget@Base 5.0.2 1
+ _ZN14QLayoutPrivate23spacerItemFactoryMethodE@Base 5.0.2 1
+ _ZN14QLayoutPrivate23widgetItemFactoryMethodE@Base 5.0.2 1
+ _ZN14QLayoutPrivate8doResizeERK5QSize@Base 5.0.2 1
+ _ZN14QLayoutPrivateC1Ev@Base 5.0.2 1
+ _ZN14QLayoutPrivateC2Ev@Base 5.0.2 1
+ _ZN14QLayoutPrivateD0Ev@Base 5.0.2 1
+ _ZN14QLayoutPrivateD1Ev@Base 5.0.2 1
+ _ZN14QLayoutPrivateD2Ev@Base 5.0.2 1
  _ZN14QPlainTextEdit10appendHtmlERK7QString@Base 5.0.2
  _ZN14QPlainTextEdit10moveCursorEN11QTextCursor13MoveOperationENS0_8MoveModeE@Base 5.0.2
  _ZN14QPlainTextEdit10paintEventEP11QPaintEvent@Base 5.0.2
@@ -1916,114 +1916,114 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN14QStackedWidgetD0Ev@Base 5.0.2
  _ZN14QStackedWidgetD1Ev@Base 5.0.2
  _ZN14QStackedWidgetD2Ev@Base 5.0.2
- _ZN14QWidgetPrivate10allWidgetsE@Base 5.0.2
- (subst)_ZN14QWidgetPrivate10create_sysE{quintptr}bb@Base 5.0.2
- _ZN14QWidgetPrivate10drawWidgetEP12QPaintDeviceRK7QRegionRK6QPointiP8QPainterP19QWidgetBackingStore@Base 5.0.2
- _ZN14QWidgetPrivate10scrollRectERK5QRectii@Base 5.0.2
- _ZN14QWidgetPrivate10scroll_sysEii@Base 5.0.2
- _ZN14QWidgetPrivate10scroll_sysEiiRK5QRect@Base 5.0.2
- _ZN14QWidgetPrivate10updateFontERK5QFont@Base 5.0.2
- _ZN14QWidgetPrivate11adjustFlagsER6QFlagsIN2Qt10WindowTypeEEP7QWidget@Base 5.0.2
- _ZN14QWidgetPrivate11createExtraEv@Base 5.0.2
- (subst)_ZN14QWidgetPrivate11createWinIdE{quintptr}@Base 5.0.2
- _ZN14QWidgetPrivate11deleteExtraEv@Base 5.0.2
- _ZN14QWidgetPrivate11hide_helperEv@Base 5.0.2
- _ZN14QWidgetPrivate11pointToRectERK6QPointRK5QRect@Base 5.0.2
- _ZN14QWidgetPrivate11repaint_sysERK7QRegion@Base 5.0.2
- _ZN14QWidgetPrivate11resolveFontEv@Base 5.0.2
- _ZN14QWidgetPrivate11setMask_sysERK7QRegion@Base 5.0.2
- _ZN14QWidgetPrivate11show_helperEv@Base 5.0.2
- _ZN14QWidgetPrivate12close_helperENS_9CloseModeE@Base 5.0.2
- _ZN14QWidgetPrivate12hideChildrenEb@Base 5.0.2
- _ZN14QWidgetPrivate12inheritStyleEv@Base 5.0.2
- _ZN14QWidgetPrivate12maxInstancesE@Base 5.0.2
- _ZN14QWidgetPrivate12setFocus_sysEv@Base 5.0.2
- _ZN14QWidgetPrivate12setModal_sysEv@Base 5.0.2
- _ZN14QWidgetPrivate12showChildrenEb@Base 5.0.2
- _ZN14QWidgetPrivate13createTLExtraEv@Base 5.0.2
- _ZN14QWidgetPrivate13render_helperEP8QPainterRK6QPointRK7QRegion6QFlagsIN7QWidget10RenderFlagEE@Base 5.0.2
- _ZN14QWidgetPrivate13resolveLocaleEv@Base 5.0.2
- _ZN14QWidgetPrivate13setCursor_sysERK7QCursor@Base 5.0.2
- _ZN14QWidgetPrivate13setParent_sysEP7QWidget6QFlagsIN2Qt10WindowTypeEE@Base 5.0.2
- _ZN14QWidgetPrivate13setSystemClipEP12QPaintDeviceRK7QRegion@Base 5.0.2
- _ZN14QWidgetPrivate13setWSGeometryEbRK5QRect@Base 5.0.2
- _ZN14QWidgetPrivate14createSysExtraEv@Base 5.0.2
- _ZN14QWidgetPrivate14deleteSysExtraEv@Base 5.0.2
- _ZN14QWidgetPrivate14resolvePaletteEv@Base 5.0.2
- _ZN14QWidgetPrivate14scrollChildrenEii@Base 5.0.2
- _ZN14QWidgetPrivate14show_recursiveEv@Base 5.0.2
- _ZN14QWidgetPrivate14stackUnder_sysEP7QWidget@Base 5.0.2
- _ZN14QWidgetPrivate14stealMouseGrabEb@Base 5.0.2
- _ZN14QWidgetPrivate14updateIsOpaqueEv@Base 5.0.2
- _ZN14QWidgetPrivate15instanceCounterE@Base 5.0.2
- _ZN14QWidgetPrivate15prepareToRenderERK7QRegion6QFlagsIN7QWidget10RenderFlagEE@Base 5.0.2
- _ZN14QWidgetPrivate15setGeometry_sysEiiiib@Base 5.0.2
- _ZN14QWidgetPrivate15setStyle_helperEP6QStylebb@Base 5.0.2
- _ZN14QWidgetPrivate15unsetCursor_sysEv@Base 5.0.2
- _ZN14QWidgetPrivate16createTLSysExtraEv@Base 5.0.2
- _ZN14QWidgetPrivate16deleteTLSysExtraEv@Base 5.0.2
- _ZN14QWidgetPrivate16invalidateBufferERK5QRect@Base 5.0.2
- _ZN14QWidgetPrivate16invalidateBufferERK7QRegion@Base 5.0.2
- _ZN14QWidgetPrivate16registerDropSiteEb@Base 5.0.2
- _ZN14QWidgetPrivate16setLocale_helperERK7QLocaleb@Base 5.0.2
- _ZN14QWidgetPrivate16syncBackingStoreERK7QRegion@Base 5.0.2
- _ZN14QWidgetPrivate16syncBackingStoreEv@Base 5.0.2
- _ZN14QWidgetPrivate16updateFocusChildEv@Base 5.0.2
- _ZN14QWidgetPrivate16updateFrameStrutEv@Base 5.0.2
- _ZN14QWidgetPrivate17createRecursivelyEv@Base 5.0.2
- _ZN14QWidgetPrivate17setEnabled_helperEb@Base 5.0.2
- _ZN14QWidgetPrivate17setPalette_helperERK8QPalette@Base 5.0.2
- _ZN14QWidgetPrivate17setWindowIcon_sysEv@Base 5.0.2
- _ZN14QWidgetPrivate17stealKeyboardGrabEb@Base 5.0.2
- _ZN14QWidgetPrivate18_q_showIfNotHiddenEv@Base 5.0.2
- _ZN14QWidgetPrivate18setConstraints_sysEv@Base 5.0.2
- _ZN14QWidgetPrivate18setWindowTitle_sysERK7QString@Base 5.0.2
- _ZN14QWidgetPrivate19fixPosIncludesFrameEv@Base 5.0.2
- _ZN14QWidgetPrivate19updateIsTranslucentEv@Base 5.0.2
- _ZN14QWidgetPrivate20reparentFocusWidgetsEP7QWidget@Base 5.0.2
- _ZN14QWidgetPrivate20setDirtyOpaqueRegionEv@Base 5.0.2
- _ZN14QWidgetPrivate20setLayoutItemMarginsEN6QStyle10SubElementEPK12QStyleOption@Base 5.0.2
- _ZN14QWidgetPrivate20setLayoutItemMarginsEiiii@Base 5.0.2
- _ZN14QWidgetPrivate20setWindowIcon_helperEv@Base 5.0.2
- (subst)_ZN14QWidgetPrivate20setWindowOpacity_sysE{qreal}@Base 5.0.2
- _ZN14QWidgetPrivate21setMaximumSize_helperERiS0_@Base 5.0.2
- _ZN14QWidgetPrivate21setMinimumSize_helperERiS0_@Base 5.0.2
- _ZN14QWidgetPrivate21setWindowFilePath_sysERK7QString@Base 5.0.2
- _ZN14QWidgetPrivate21setWindowIconText_sysERK7QString@Base 5.0.2
- _ZN14QWidgetPrivate21setWindowTitle_helperERK7QString@Base 5.0.2
- _ZN14QWidgetPrivate21updateGeometry_helperEb@Base 5.0.2
- _ZN14QWidgetPrivate21updateWidgetTransformEv@Base 5.0.2
- _ZN14QWidgetPrivate22paintSiblingsRecursiveEP12QPaintDeviceRK5QListIP7QObjectEiRK7QRegionRK6QPointiP8QPainterP19QWidgetBackingStore@Base 5.0.2
- _ZN14QWidgetPrivate22propagatePaletteChangeEv@Base 5.0.2
- _ZN14QWidgetPrivate22resolveLayoutDirectionEv@Base 5.0.2
- _ZN14QWidgetPrivate22updateSystemBackgroundEv@Base 5.0.2
- _ZN14QWidgetPrivate23deactivateWidgetCleanupEv@Base 5.0.2
- _ZN14QWidgetPrivate24setUpdatesEnabled_helperEb@Base 5.0.2
- _ZN14QWidgetPrivate24setWindowFilePath_helperERK7QString@Base 5.0.2
- _ZN14QWidgetPrivate24setWindowIconText_helperERK7QString@Base 5.0.2
- _ZN14QWidgetPrivate24setWindowModified_helperEv@Base 5.0.2
- _ZN14QWidgetPrivate25setLayoutDirection_helperEN2Qt15LayoutDirectionE@Base 5.0.2
- _ZN14QWidgetPrivate26adjustQuitOnCloseAttributeEv@Base 5.0.2
- _ZN14QWidgetPrivate26nearestGraphicsProxyWidgetEPK7QWidget@Base 5.0.2
- _ZN14QWidgetPrivate29invalidateBuffer_resizeHelperERK6QPointRK5QSize@Base 5.0.2
- _ZN14QWidgetPrivate30sendPendingMoveAndResizeEventsEbb@Base 5.0.2
- _ZN14QWidgetPrivate31activateChildLayoutsRecursivelyEv@Base 5.0.2
- _ZN14QWidgetPrivate36invalidateGraphicsEffectsRecursivelyEv@Base 5.0.2
- _ZN14QWidgetPrivate4initEP7QWidget6QFlagsIN2Qt10WindowTypeEE@Base 5.0.2
- _ZN14QWidgetPrivate6mapperE@Base 5.0.2
- _ZN14QWidgetPrivate6renderEP12QPaintDeviceRK6QPointRK7QRegion6QFlagsIN7QWidget10RenderFlagEEb@Base 5.0.2
- _ZN14QWidgetPrivate8hide_sysEv@Base 5.0.2
- _ZN14QWidgetPrivate8moveRectERK5QRectii@Base 5.0.2
- (subst)_ZN14QWidgetPrivate8setWinIdE{quintptr}@Base 5.0.2
- _ZN14QWidgetPrivate8show_sysEv@Base 5.0.2
- _ZN14QWidgetPrivate9lower_sysEv@Base 5.0.2
- _ZN14QWidgetPrivate9raise_sysEv@Base 5.0.2
- _ZN14QWidgetPrivate9setOpaqueEb@Base 5.0.2
- _ZN14QWidgetPrivateC1Ei@Base 5.0.2
- _ZN14QWidgetPrivateC2Ei@Base 5.0.2
- _ZN14QWidgetPrivateD0Ev@Base 5.0.2
- _ZN14QWidgetPrivateD1Ev@Base 5.0.2
- _ZN14QWidgetPrivateD2Ev@Base 5.0.2
+ _ZN14QWidgetPrivate10allWidgetsE@Base 5.0.2 1
+ (subst)_ZN14QWidgetPrivate10create_sysE{quintptr}bb@Base 5.0.2 1
+ _ZN14QWidgetPrivate10drawWidgetEP12QPaintDeviceRK7QRegionRK6QPointiP8QPainterP19QWidgetBackingStore@Base 5.0.2 1
+ _ZN14QWidgetPrivate10scrollRectERK5QRectii@Base 5.0.2 1
+ _ZN14QWidgetPrivate10scroll_sysEii@Base 5.0.2 1
+ _ZN14QWidgetPrivate10scroll_sysEiiRK5QRect@Base 5.0.2 1
+ _ZN14QWidgetPrivate10updateFontERK5QFont@Base 5.0.2 1
+ _ZN14QWidgetPrivate11adjustFlagsER6QFlagsIN2Qt10WindowTypeEEP7QWidget@Base 5.0.2 1
+ _ZN14QWidgetPrivate11createExtraEv@Base 5.0.2 1
+ (subst)_ZN14QWidgetPrivate11createWinIdE{quintptr}@Base 5.0.2 1
+ _ZN14QWidgetPrivate11deleteExtraEv@Base 5.0.2 1
+ _ZN14QWidgetPrivate11hide_helperEv@Base 5.0.2 1
+ _ZN14QWidgetPrivate11pointToRectERK6QPointRK5QRect@Base 5.0.2 1
+ _ZN14QWidgetPrivate11repaint_sysERK7QRegion@Base 5.0.2 1
+ _ZN14QWidgetPrivate11resolveFontEv@Base 5.0.2 1
+ _ZN14QWidgetPrivate11setMask_sysERK7QRegion@Base 5.0.2 1
+ _ZN14QWidgetPrivate11show_helperEv@Base 5.0.2 1
+ _ZN14QWidgetPrivate12close_helperENS_9CloseModeE@Base 5.0.2 1
+ _ZN14QWidgetPrivate12hideChildrenEb@Base 5.0.2 1
+ _ZN14QWidgetPrivate12inheritStyleEv@Base 5.0.2 1
+ _ZN14QWidgetPrivate12maxInstancesE@Base 5.0.2 1
+ _ZN14QWidgetPrivate12setFocus_sysEv@Base 5.0.2 1
+ _ZN14QWidgetPrivate12setModal_sysEv@Base 5.0.2 1
+ _ZN14QWidgetPrivate12showChildrenEb@Base 5.0.2 1
+ _ZN14QWidgetPrivate13createTLExtraEv@Base 5.0.2 1
+ _ZN14QWidgetPrivate13render_helperEP8QPainterRK6QPointRK7QRegion6QFlagsIN7QWidget10RenderFlagEE@Base 5.0.2 1
+ _ZN14QWidgetPrivate13resolveLocaleEv@Base 5.0.2 1
+ _ZN14QWidgetPrivate13setCursor_sysERK7QCursor@Base 5.0.2 1
+ _ZN14QWidgetPrivate13setParent_sysEP7QWidget6QFlagsIN2Qt10WindowTypeEE@Base 5.0.2 1
+ _ZN14QWidgetPrivate13setSystemClipEP12QPaintDeviceRK7QRegion@Base 5.0.2 1
+ _ZN14QWidgetPrivate13setWSGeometryEbRK5QRect@Base 5.0.2 1
+ _ZN14QWidgetPrivate14createSysExtraEv@Base 5.0.2 1
+ _ZN14QWidgetPrivate14deleteSysExtraEv@Base 5.0.2 1
+ _ZN14QWidgetPrivate14resolvePaletteEv@Base 5.0.2 1
+ _ZN14QWidgetPrivate14scrollChildrenEii@Base 5.0.2 1
+ _ZN14QWidgetPrivate14show_recursiveEv@Base 5.0.2 1
+ _ZN14QWidgetPrivate14stackUnder_sysEP7QWidget@Base 5.0.2 1
+ _ZN14QWidgetPrivate14stealMouseGrabEb@Base 5.0.2 1
+ _ZN14QWidgetPrivate14updateIsOpaqueEv@Base 5.0.2 1
+ _ZN14QWidgetPrivate15instanceCounterE@Base 5.0.2 1
+ _ZN14QWidgetPrivate15prepareToRenderERK7QRegion6QFlagsIN7QWidget10RenderFlagEE@Base 5.0.2 1
+ _ZN14QWidgetPrivate15setGeometry_sysEiiiib@Base 5.0.2 1
+ _ZN14QWidgetPrivate15setStyle_helperEP6QStylebb@Base 5.0.2 1
+ _ZN14QWidgetPrivate15unsetCursor_sysEv@Base 5.0.2 1
+ _ZN14QWidgetPrivate16createTLSysExtraEv@Base 5.0.2 1
+ _ZN14QWidgetPrivate16deleteTLSysExtraEv@Base 5.0.2 1
+ _ZN14QWidgetPrivate16invalidateBufferERK5QRect@Base 5.0.2 1
+ _ZN14QWidgetPrivate16invalidateBufferERK7QRegion@Base 5.0.2 1
+ _ZN14QWidgetPrivate16registerDropSiteEb@Base 5.0.2 1
+ _ZN14QWidgetPrivate16setLocale_helperERK7QLocaleb@Base 5.0.2 1
+ _ZN14QWidgetPrivate16syncBackingStoreERK7QRegion@Base 5.0.2 1
+ _ZN14QWidgetPrivate16syncBackingStoreEv@Base 5.0.2 1
+ _ZN14QWidgetPrivate16updateFocusChildEv@Base 5.0.2 1
+ _ZN14QWidgetPrivate16updateFrameStrutEv@Base 5.0.2 1
+ _ZN14QWidgetPrivate17createRecursivelyEv@Base 5.0.2 1
+ _ZN14QWidgetPrivate17setEnabled_helperEb@Base 5.0.2 1
+ _ZN14QWidgetPrivate17setPalette_helperERK8QPalette@Base 5.0.2 1
+ _ZN14QWidgetPrivate17setWindowIcon_sysEv@Base 5.0.2 1
+ _ZN14QWidgetPrivate17stealKeyboardGrabEb@Base 5.0.2 1
+ _ZN14QWidgetPrivate18_q_showIfNotHiddenEv@Base 5.0.2 1
+ _ZN14QWidgetPrivate18setConstraints_sysEv@Base 5.0.2 1
+ _ZN14QWidgetPrivate18setWindowTitle_sysERK7QString@Base 5.0.2 1
+ _ZN14QWidgetPrivate19fixPosIncludesFrameEv@Base 5.0.2 1
+ _ZN14QWidgetPrivate19updateIsTranslucentEv@Base 5.0.2 1
+ _ZN14QWidgetPrivate20reparentFocusWidgetsEP7QWidget@Base 5.0.2 1
+ _ZN14QWidgetPrivate20setDirtyOpaqueRegionEv@Base 5.0.2 1
+ _ZN14QWidgetPrivate20setLayoutItemMarginsEN6QStyle10SubElementEPK12QStyleOption@Base 5.0.2 1
+ _ZN14QWidgetPrivate20setLayoutItemMarginsEiiii@Base 5.0.2 1
+ _ZN14QWidgetPrivate20setWindowIcon_helperEv@Base 5.0.2 1
+ (subst)_ZN14QWidgetPrivate20setWindowOpacity_sysE{qreal}@Base 5.0.2 1
+ _ZN14QWidgetPrivate21setMaximumSize_helperERiS0_@Base 5.0.2 1
+ _ZN14QWidgetPrivate21setMinimumSize_helperERiS0_@Base 5.0.2 1
+ _ZN14QWidgetPrivate21setWindowFilePath_sysERK7QString@Base 5.0.2 1
+ _ZN14QWidgetPrivate21setWindowIconText_sysERK7QString@Base 5.0.2 1
+ _ZN14QWidgetPrivate21setWindowTitle_helperERK7QString@Base 5.0.2 1
+ _ZN14QWidgetPrivate21updateGeometry_helperEb@Base 5.0.2 1
+ _ZN14QWidgetPrivate21updateWidgetTransformEv@Base 5.0.2 1
+ _ZN14QWidgetPrivate22paintSiblingsRecursiveEP12QPaintDeviceRK5QListIP7QObjectEiRK7QRegionRK6QPointiP8QPainterP19QWidgetBackingStore@Base 5.0.2 1
+ _ZN14QWidgetPrivate22propagatePaletteChangeEv@Base 5.0.2 1
+ _ZN14QWidgetPrivate22resolveLayoutDirectionEv@Base 5.0.2 1
+ _ZN14QWidgetPrivate22updateSystemBackgroundEv@Base 5.0.2 1
+ _ZN14QWidgetPrivate23deactivateWidgetCleanupEv@Base 5.0.2 1
+ _ZN14QWidgetPrivate24setUpdatesEnabled_helperEb@Base 5.0.2 1
+ _ZN14QWidgetPrivate24setWindowFilePath_helperERK7QString@Base 5.0.2 1
+ _ZN14QWidgetPrivate24setWindowIconText_helperERK7QString@Base 5.0.2 1
+ _ZN14QWidgetPrivate24setWindowModified_helperEv@Base 5.0.2 1
+ _ZN14QWidgetPrivate25setLayoutDirection_helperEN2Qt15LayoutDirectionE@Base 5.0.2 1
+ _ZN14QWidgetPrivate26adjustQuitOnCloseAttributeEv@Base 5.0.2 1
+ _ZN14QWidgetPrivate26nearestGraphicsProxyWidgetEPK7QWidget@Base 5.0.2 1
+ _ZN14QWidgetPrivate29invalidateBuffer_resizeHelperERK6QPointRK5QSize@Base 5.0.2 1
+ _ZN14QWidgetPrivate30sendPendingMoveAndResizeEventsEbb@Base 5.0.2 1
+ _ZN14QWidgetPrivate31activateChildLayoutsRecursivelyEv@Base 5.0.2 1
+ _ZN14QWidgetPrivate36invalidateGraphicsEffectsRecursivelyEv@Base 5.0.2 1
+ _ZN14QWidgetPrivate4initEP7QWidget6QFlagsIN2Qt10WindowTypeEE@Base 5.0.2 1
+ _ZN14QWidgetPrivate6mapperE@Base 5.0.2 1
+ _ZN14QWidgetPrivate6renderEP12QPaintDeviceRK6QPointRK7QRegion6QFlagsIN7QWidget10RenderFlagEEb@Base 5.0.2 1
+ _ZN14QWidgetPrivate8hide_sysEv@Base 5.0.2 1
+ _ZN14QWidgetPrivate8moveRectERK5QRectii@Base 5.0.2 1
+ (subst)_ZN14QWidgetPrivate8setWinIdE{quintptr}@Base 5.0.2 1
+ _ZN14QWidgetPrivate8show_sysEv@Base 5.0.2 1
+ _ZN14QWidgetPrivate9lower_sysEv@Base 5.0.2 1
+ _ZN14QWidgetPrivate9raise_sysEv@Base 5.0.2 1
+ _ZN14QWidgetPrivate9setOpaqueEb@Base 5.0.2 1
+ _ZN14QWidgetPrivateC1Ei@Base 5.0.2 1
+ _ZN14QWidgetPrivateC2Ei@Base 5.0.2 1
+ _ZN14QWidgetPrivateD0Ev@Base 5.0.2 1
+ _ZN14QWidgetPrivateD1Ev@Base 5.0.2 1
+ _ZN14QWidgetPrivateD2Ev@Base 5.0.2 1
  _ZN15QAbstractButton10setCheckedEb@Base 5.0.2
  _ZN15QAbstractButton10timerEventEP11QTimerEvent@Base 5.0.2
  _ZN15QAbstractButton11changeEventEP6QEvent@Base 5.0.2
@@ -2162,9 +2162,9 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN15QGraphicsEffect18updateBoundingRectEv@Base 5.0.2
  _ZN15QGraphicsEffect6updateEv@Base 5.0.2
  _ZN15QGraphicsEffectC1EP7QObject@Base 5.0.2
- _ZN15QGraphicsEffectC1ER22QGraphicsEffectPrivateP7QObject@Base 5.0.2
+ _ZN15QGraphicsEffectC1ER22QGraphicsEffectPrivateP7QObject@Base 5.0.2 1
  _ZN15QGraphicsEffectC2EP7QObject@Base 5.0.2
- _ZN15QGraphicsEffectC2ER22QGraphicsEffectPrivateP7QObject@Base 5.0.2
+ _ZN15QGraphicsEffectC2ER22QGraphicsEffectPrivateP7QObject@Base 5.0.2 1
  _ZN15QGraphicsEffectD0Ev@Base 5.0.2
  _ZN15QGraphicsEffectD1Ev@Base 5.0.2
  _ZN15QGraphicsEffectD2Ev@Base 5.0.2
@@ -2177,9 +2177,9 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN15QGraphicsLayout31setInstantInvalidatePropagationEb@Base 5.0.2
  _ZN15QGraphicsLayout8activateEv@Base 5.0.2
  _ZN15QGraphicsLayoutC1EP19QGraphicsLayoutItem@Base 5.0.2
- _ZN15QGraphicsLayoutC1ER22QGraphicsLayoutPrivateP19QGraphicsLayoutItem@Base 5.0.2
+ _ZN15QGraphicsLayoutC1ER22QGraphicsLayoutPrivateP19QGraphicsLayoutItem@Base 5.0.2 1
  _ZN15QGraphicsLayoutC2EP19QGraphicsLayoutItem@Base 5.0.2
- _ZN15QGraphicsLayoutC2ER22QGraphicsLayoutPrivateP19QGraphicsLayoutItem@Base 5.0.2
+ _ZN15QGraphicsLayoutC2ER22QGraphicsLayoutPrivateP19QGraphicsLayoutItem@Base 5.0.2 1
  _ZN15QGraphicsLayoutD0Ev@Base 5.0.2
  _ZN15QGraphicsLayoutD1Ev@Base 5.0.2
  _ZN15QGraphicsLayoutD2Ev@Base 5.0.2
@@ -2203,9 +2203,9 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN15QGraphicsObject8yChangedEv@Base 5.0.2
  _ZN15QGraphicsObject8zChangedEv@Base 5.0.2
  _ZN15QGraphicsObjectC1EP13QGraphicsItem@Base 5.0.2
- _ZN15QGraphicsObjectC1ER20QGraphicsItemPrivateP13QGraphicsItem@Base 5.0.2
+ _ZN15QGraphicsObjectC1ER20QGraphicsItemPrivateP13QGraphicsItem@Base 5.0.2 1
  _ZN15QGraphicsObjectC2EP13QGraphicsItem@Base 5.0.2
- _ZN15QGraphicsObjectC2ER20QGraphicsItemPrivateP13QGraphicsItem@Base 5.0.2
+ _ZN15QGraphicsObjectC2ER20QGraphicsItemPrivateP13QGraphicsItem@Base 5.0.2 1
  _ZN15QGraphicsObjectD0Ev@Base 5.0.2
  _ZN15QGraphicsObjectD1Ev@Base 5.0.2
  _ZN15QGraphicsObjectD2Ev@Base 5.0.2
@@ -2492,9 +2492,9 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN16QFileSystemModel9fetchMoreERK11QModelIndex@Base 5.0.2
  _ZN16QFileSystemModel9setFilterE6QFlagsIN4QDir6FilterEE@Base 5.0.2
  _ZN16QFileSystemModelC1EP7QObject@Base 5.0.2
- _ZN16QFileSystemModelC1ER23QFileSystemModelPrivateP7QObject@Base 5.0.2
+ _ZN16QFileSystemModelC1ER23QFileSystemModelPrivateP7QObject@Base 5.0.2 1
  _ZN16QFileSystemModelC2EP7QObject@Base 5.0.2
- _ZN16QFileSystemModelC2ER23QFileSystemModelPrivateP7QObject@Base 5.0.2
+ _ZN16QFileSystemModelC2ER23QFileSystemModelPrivateP7QObject@Base 5.0.2 1
  _ZN16QFileSystemModelD0Ev@Base 5.0.2
  _ZN16QFileSystemModelD1Ev@Base 5.0.2
  _ZN16QFileSystemModelD2Ev@Base 5.0.2
@@ -2517,26 +2517,26 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN16QTableWidgetItemD1Ev@Base 5.0.2
  _ZN16QTableWidgetItemD2Ev@Base 5.0.2
  _ZN16QTableWidgetItemaSERKS_@Base 5.0.2
- _ZN16QTreeViewPrivate10initializeEv@Base 5.0.2
- _ZN16QTreeViewPrivate15insertViewItemsEiiRK13QTreeViewItem@Base 5.0.2
- _ZN16QTreeViewPrivate15removeViewItemsEii@Base 5.0.2
- _ZN16QTreeViewPrivate16updateScrollBarsEv@Base 5.0.2
- _ZN16QTreeViewPrivate17AnimatedOperationD0Ev@Base 5.0.2
- _ZN16QTreeViewPrivate17AnimatedOperationD1Ev@Base 5.0.2
- _ZN16QTreeViewPrivate17AnimatedOperationD2Ev@Base 5.0.2
- _ZN16QTreeViewPrivate17_q_columnsRemovedERK11QModelIndexii@Base 5.0.2
- _ZN16QTreeViewPrivate17_q_modelDestroyedEv@Base 5.0.2
- _ZN16QTreeViewPrivate22_q_modelAboutToBeResetEv@Base 5.0.2
- _ZN16QTreeViewPrivate22beginAnimatedOperationEv@Base 5.0.2
- _ZN16QTreeViewPrivate23_q_endAnimatedOperationEv@Base 5.0.2
- _ZN16QTreeViewPrivate23_q_sortIndicatorChangedEiN2Qt9SortOrderE@Base 5.0.2
- _ZN16QTreeViewPrivate24prepareAnimatedOperationEiN18QAbstractAnimation9DirectionE@Base 5.0.2
- _ZN16QTreeViewPrivate25expandOrCollapseItemAtPosERK6QPoint@Base 5.0.2
- _ZN16QTreeViewPrivate26_q_columnsAboutToBeRemovedERK11QModelIndexii@Base 5.0.2
- _ZN16QTreeViewPrivate6expandEib@Base 5.0.2
- _ZN16QTreeViewPrivate6layoutEibb@Base 5.0.2
- _ZN16QTreeViewPrivate6selectERK11QModelIndexS2_6QFlagsIN19QItemSelectionModel13SelectionFlagEE@Base 5.0.2
- _ZN16QTreeViewPrivate8collapseEib@Base 5.0.2
+ _ZN16QTreeViewPrivate10initializeEv@Base 5.0.2 1
+ _ZN16QTreeViewPrivate15insertViewItemsEiiRK13QTreeViewItem@Base 5.0.2 1
+ _ZN16QTreeViewPrivate15removeViewItemsEii@Base 5.0.2 1
+ _ZN16QTreeViewPrivate16updateScrollBarsEv@Base 5.0.2 1
+ _ZN16QTreeViewPrivate17AnimatedOperationD0Ev@Base 5.0.2 1
+ _ZN16QTreeViewPrivate17AnimatedOperationD1Ev@Base 5.0.2 1
+ _ZN16QTreeViewPrivate17AnimatedOperationD2Ev@Base 5.0.2 1
+ _ZN16QTreeViewPrivate17_q_columnsRemovedERK11QModelIndexii@Base 5.0.2 1
+ _ZN16QTreeViewPrivate17_q_modelDestroyedEv@Base 5.0.2 1
+ _ZN16QTreeViewPrivate22_q_modelAboutToBeResetEv@Base 5.0.2 1
+ _ZN16QTreeViewPrivate22beginAnimatedOperationEv@Base 5.0.2 1
+ _ZN16QTreeViewPrivate23_q_endAnimatedOperationEv@Base 5.0.2 1
+ _ZN16QTreeViewPrivate23_q_sortIndicatorChangedEiN2Qt9SortOrderE@Base 5.0.2 1
+ _ZN16QTreeViewPrivate24prepareAnimatedOperationEiN18QAbstractAnimation9DirectionE@Base 5.0.2 1
+ _ZN16QTreeViewPrivate25expandOrCollapseItemAtPosERK6QPoint@Base 5.0.2 1
+ _ZN16QTreeViewPrivate26_q_columnsAboutToBeRemovedERK11QModelIndexii@Base 5.0.2 1
+ _ZN16QTreeViewPrivate6expandEib@Base 5.0.2 1
+ _ZN16QTreeViewPrivate6layoutEibb@Base 5.0.2 1
+ _ZN16QTreeViewPrivate6selectERK11QModelIndexS2_6QFlagsIN19QItemSelectionModel13SelectionFlagEE@Base 5.0.2 1
+ _ZN16QTreeViewPrivate8collapseEib@Base 5.0.2 1
  _ZN17QAbstractItemView10commitDataEP7QWidget@Base 5.0.2
  _ZN17QAbstractItemView10timerEventEP11QTimerEvent@Base 5.0.2
  _ZN17QAbstractItemView11closeEditorEP7QWidgetN21QAbstractItemDelegate11EndEditHintE@Base 5.0.2
@@ -2626,9 +2626,9 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN17QAbstractItemView9selectAllEv@Base 5.0.2
  _ZN17QAbstractItemView9startDragE6QFlagsIN2Qt10DropActionEE@Base 5.0.2
  _ZN17QAbstractItemViewC1EP7QWidget@Base 5.0.2
- _ZN17QAbstractItemViewC1ER24QAbstractItemViewPrivateP7QWidget@Base 5.0.2
+ _ZN17QAbstractItemViewC1ER24QAbstractItemViewPrivateP7QWidget@Base 5.0.2 1
  _ZN17QAbstractItemViewC2EP7QWidget@Base 5.0.2
- _ZN17QAbstractItemViewC2ER24QAbstractItemViewPrivateP7QWidget@Base 5.0.2
+ _ZN17QAbstractItemViewC2ER24QAbstractItemViewPrivateP7QWidget@Base 5.0.2 1
  _ZN17QAbstractItemViewD0Ev@Base 5.0.2
  _ZN17QAbstractItemViewD1Ev@Base 5.0.2
  _ZN17QAbstractItemViewD2Ev@Base 5.0.2
@@ -2666,19 +2666,19 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN17QDataWidgetMapperD0Ev@Base 5.0.2
  _ZN17QDataWidgetMapperD1Ev@Base 5.0.2
  _ZN17QDataWidgetMapperD2Ev@Base 5.0.2
- _ZN17QDockWidgetLayout11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
- _ZN17QDockWidgetLayout11qt_metacastEPKc@Base 5.0.2
- _ZN17QDockWidgetLayout11setGeometryERK5QRect@Base 5.0.2
- _ZN17QDockWidgetLayout16setWidgetForRoleENS_4RoleEP7QWidget@Base 5.0.2
- _ZN17QDockWidgetLayout16staticMetaObjectE@Base 5.0.2
- _ZN17QDockWidgetLayout19setVerticalTitleBarEb@Base 5.0.2
- _ZN17QDockWidgetLayout6takeAtEi@Base 5.0.2
- _ZN17QDockWidgetLayout7addItemEP11QLayoutItem@Base 5.0.2
- _ZN17QDockWidgetLayoutC1EP7QWidget@Base 5.0.2
- _ZN17QDockWidgetLayoutC2EP7QWidget@Base 5.0.2
- _ZN17QDockWidgetLayoutD0Ev@Base 5.0.2
- _ZN17QDockWidgetLayoutD1Ev@Base 5.0.2
- _ZN17QDockWidgetLayoutD2Ev@Base 5.0.2
+ _ZN17QDockWidgetLayout11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
+ _ZN17QDockWidgetLayout11qt_metacastEPKc@Base 5.0.2 1
+ _ZN17QDockWidgetLayout11setGeometryERK5QRect@Base 5.0.2 1
+ _ZN17QDockWidgetLayout16setWidgetForRoleENS_4RoleEP7QWidget@Base 5.0.2 1
+ _ZN17QDockWidgetLayout16staticMetaObjectE@Base 5.0.2 1
+ _ZN17QDockWidgetLayout19setVerticalTitleBarEb@Base 5.0.2 1
+ _ZN17QDockWidgetLayout6takeAtEi@Base 5.0.2 1
+ _ZN17QDockWidgetLayout7addItemEP11QLayoutItem@Base 5.0.2 1
+ _ZN17QDockWidgetLayoutC1EP7QWidget@Base 5.0.2 1
+ _ZN17QDockWidgetLayoutC2EP7QWidget@Base 5.0.2 1
+ _ZN17QDockWidgetLayoutD0Ev@Base 5.0.2 1
+ _ZN17QDockWidgetLayoutD1Ev@Base 5.0.2 1
+ _ZN17QDockWidgetLayoutD2Ev@Base 5.0.2 1
  _ZN17QFileIconProviderC1Ev@Base 5.0.2
  _ZN17QFileIconProviderC2Ev@Base 5.0.2
  _ZN17QFileIconProviderD0Ev@Base 5.0.2
@@ -2778,16 +2778,16 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN17QGraphicsTextItemD1Ev@Base 5.0.2
  _ZN17QGraphicsTextItemD2Ev@Base 5.0.2
  (optional=gccinternal)_ZN17QInputMethodEventaSERKS_@Base 5.0.2
- _ZN17QPixmapBlurFilter11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
- _ZN17QPixmapBlurFilter11qt_metacastEPKc@Base 5.0.2
- _ZN17QPixmapBlurFilter12setBlurHintsE6QFlagsIN19QGraphicsBlurEffect8BlurHintEE@Base 5.0.2
- _ZN17QPixmapBlurFilter16staticMetaObjectE@Base 5.0.2
- (subst)_ZN17QPixmapBlurFilter9setRadiusE{qreal}@Base 5.0.2
- _ZN17QPixmapBlurFilterC1EP7QObject@Base 5.0.2
- _ZN17QPixmapBlurFilterC2EP7QObject@Base 5.0.2
- _ZN17QPixmapBlurFilterD0Ev@Base 5.0.2
- _ZN17QPixmapBlurFilterD1Ev@Base 5.0.2
- _ZN17QPixmapBlurFilterD2Ev@Base 5.0.2
+ _ZN17QPixmapBlurFilter11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
+ _ZN17QPixmapBlurFilter11qt_metacastEPKc@Base 5.0.2 1
+ _ZN17QPixmapBlurFilter12setBlurHintsE6QFlagsIN19QGraphicsBlurEffect8BlurHintEE@Base 5.0.2 1
+ _ZN17QPixmapBlurFilter16staticMetaObjectE@Base 5.0.2 1
+ (subst)_ZN17QPixmapBlurFilter9setRadiusE{qreal}@Base 5.0.2 1
+ _ZN17QPixmapBlurFilterC1EP7QObject@Base 5.0.2 1
+ _ZN17QPixmapBlurFilterC2EP7QObject@Base 5.0.2 1
+ _ZN17QPixmapBlurFilterD0Ev@Base 5.0.2 1
+ _ZN17QPixmapBlurFilterD1Ev@Base 5.0.2 1
+ _ZN17QPixmapBlurFilterD2Ev@Base 5.0.2 1
  _ZN17QStyleOptionFrameC1Ei@Base 5.0.2
  _ZN17QStyleOptionFrameC1Ev@Base 5.0.2
  _ZN17QStyleOptionFrameC2Ei@Base 5.0.2
@@ -2807,59 +2807,59 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN18QCommandLinkButtonD0Ev@Base 5.0.2
  _ZN18QCommandLinkButtonD1Ev@Base 5.0.2
  _ZN18QCommandLinkButtonD2Ev@Base 5.0.2
- _ZN18QFileDialogPrivate10_q_goToUrlERK4QUrl@Base 5.0.2
- _ZN18QFileDialogPrivate10helperDoneEN7QDialog10DialogCodeEP21QPlatformDialogHelper@Base 5.0.2
- _ZN18QFileDialogPrivate10initHelperEP21QPlatformDialogHelper@Base 5.0.2
- _ZN18QFileDialogPrivate13_q_showHeaderEP7QAction@Base 5.0.2
- _ZN18QFileDialogPrivate13_q_showHiddenEv@Base 5.0.2
- _ZN18QFileDialogPrivate13createWidgetsEv@Base 5.0.2
- _ZN18QFileDialogPrivate13maxNameLengthERK7QString@Base 5.0.2
- (optional=gccinternal)_ZN18QFileDialogPrivate13setFilter_sysEv@Base 5.0.2
- _ZN18QFileDialogPrivate14_q_fileRenamedERK7QStringS0_S0_@Base 5.0.2
- _ZN18QFileDialogPrivate14_q_pathChangedERK7QString@Base 5.0.2
- (optional=gccinternal)_ZN18QFileDialogPrivate14selectFile_sysERK7QString@Base 5.0.2
- _ZN18QFileDialogPrivate15_q_rowsInsertedERK11QModelIndex@Base 5.0.2
- _ZN18QFileDialogPrivate15_q_showListViewEv@Base 5.0.2
- _ZN18QFileDialogPrivate15removeDirectoryERK7QString@Base 5.0.2
- _ZN18QFileDialogPrivate16_q_deleteCurrentEv@Base 5.0.2
- _ZN18QFileDialogPrivate16_q_goToDirectoryERK7QString@Base 5.0.2
- _ZN18QFileDialogPrivate16_q_renameCurrentEv@Base 5.0.2
- _ZN18QFileDialogPrivate16_q_useNameFilterEi@Base 5.0.2
- _ZN18QFileDialogPrivate16initialSelectionERK7QString@Base 5.0.2
- (optional=gccinternal)_ZN18QFileDialogPrivate16setDirectory_sysERK7QString@Base 5.0.2
- _ZN18QFileDialogPrivate16workingDirectoryERK7QString@Base 5.0.2
- _ZN18QFileDialogPrivate17_q_currentChangedERK11QModelIndex@Base 5.0.2
- _ZN18QFileDialogPrivate17_q_enterDirectoryERK11QModelIndex@Base 5.0.2
- _ZN18QFileDialogPrivate17_q_updateOkButtonEv@Base 5.0.2
- _ZN18QFileDialogPrivate17canBeNativeDialogEv@Base 5.0.2
- _ZN18QFileDialogPrivate17createMenuActionsEv@Base 5.0.2
- _ZN18QFileDialogPrivate17createToolButtonsEv@Base 5.0.2
- _ZN18QFileDialogPrivate17emitFilesSelectedERK11QStringList@Base 5.0.2
- _ZN18QFileDialogPrivate17helperPrepareShowEP21QPlatformDialogHelper@Base 5.0.2
- _ZN18QFileDialogPrivate18_q_createDirectoryEv@Base 5.0.2
- _ZN18QFileDialogPrivate18_q_navigateForwardEv@Base 5.0.2
- _ZN18QFileDialogPrivate18_q_showContextMenuERK6QPoint@Base 5.0.2
- _ZN18QFileDialogPrivate18_q_showDetailsViewEv@Base 5.0.2
- _ZN18QFileDialogPrivate18retranslateStringsEv@Base 5.0.2
- _ZN18QFileDialogPrivate18updateOkButtonTextEb@Base 5.0.2
- _ZN18QFileDialogPrivate19_q_navigateBackwardEv@Base 5.0.2
- _ZN18QFileDialogPrivate19_q_navigateToParentEv@Base 5.0.2
- _ZN18QFileDialogPrivate19_q_selectionChangedEv@Base 5.0.2
- _ZN18QFileDialogPrivate19setLabelTextControlEN11QFileDialog11DialogLabelERK7QString@Base 5.0.2
- (optional=gccinternal)_ZN18QFileDialogPrivate20selectNameFilter_sysERK7QString@Base 5.0.2
- _ZN18QFileDialogPrivate21itemViewKeyboardEventEP9QKeyEvent@Base 5.0.2
- _ZN18QFileDialogPrivate22getEnvironmentVariableERK7QString@Base 5.0.2
- _ZN18QFileDialogPrivate22retranslateWindowTitleEv@Base 5.0.2
- _ZN18QFileDialogPrivate23_q_autoCompleteFileNameERK7QString@Base 5.0.2
- _ZN18QFileDialogPrivate23_q_nativeEnterDirectoryERK7QString@Base 5.0.2
- _ZN18QFileDialogPrivate23setLastVisitedDirectoryERK7QString@Base 5.0.2
- _ZN18QFileDialogPrivate4initERK7QStringS2_S2_@Base 5.0.2
- _ZN18QFileDialogPrivate9_q_goHomeEv@Base 5.0.2
- _ZN18QFileDialogPrivateC1Ev@Base 5.0.2
- _ZN18QFileDialogPrivateC2Ev@Base 5.0.2
- _ZN18QFileDialogPrivateD0Ev@Base 5.0.2
- _ZN18QFileDialogPrivateD1Ev@Base 5.0.2
- _ZN18QFileDialogPrivateD2Ev@Base 5.0.2
+ _ZN18QFileDialogPrivate10_q_goToUrlERK4QUrl@Base 5.0.2 1
+ _ZN18QFileDialogPrivate10helperDoneEN7QDialog10DialogCodeEP21QPlatformDialogHelper@Base 5.0.2 1
+ _ZN18QFileDialogPrivate10initHelperEP21QPlatformDialogHelper@Base 5.0.2 1
+ _ZN18QFileDialogPrivate13_q_showHeaderEP7QAction@Base 5.0.2 1
+ _ZN18QFileDialogPrivate13_q_showHiddenEv@Base 5.0.2 1
+ _ZN18QFileDialogPrivate13createWidgetsEv@Base 5.0.2 1
+ _ZN18QFileDialogPrivate13maxNameLengthERK7QString@Base 5.0.2 1
+ (optional=gccinternal)_ZN18QFileDialogPrivate13setFilter_sysEv@Base 5.0.2 1
+ _ZN18QFileDialogPrivate14_q_fileRenamedERK7QStringS0_S0_@Base 5.0.2 1
+ _ZN18QFileDialogPrivate14_q_pathChangedERK7QString@Base 5.0.2 1
+ (optional=gccinternal)_ZN18QFileDialogPrivate14selectFile_sysERK7QString@Base 5.0.2 1
+ _ZN18QFileDialogPrivate15_q_rowsInsertedERK11QModelIndex@Base 5.0.2 1
+ _ZN18QFileDialogPrivate15_q_showListViewEv@Base 5.0.2 1
+ _ZN18QFileDialogPrivate15removeDirectoryERK7QString@Base 5.0.2 1
+ _ZN18QFileDialogPrivate16_q_deleteCurrentEv@Base 5.0.2 1
+ _ZN18QFileDialogPrivate16_q_goToDirectoryERK7QString@Base 5.0.2 1
+ _ZN18QFileDialogPrivate16_q_renameCurrentEv@Base 5.0.2 1
+ _ZN18QFileDialogPrivate16_q_useNameFilterEi@Base 5.0.2 1
+ _ZN18QFileDialogPrivate16initialSelectionERK7QString@Base 5.0.2 1
+ (optional=gccinternal)_ZN18QFileDialogPrivate16setDirectory_sysERK7QString@Base 5.0.2 1
+ _ZN18QFileDialogPrivate16workingDirectoryERK7QString@Base 5.0.2 1
+ _ZN18QFileDialogPrivate17_q_currentChangedERK11QModelIndex@Base 5.0.2 1
+ _ZN18QFileDialogPrivate17_q_enterDirectoryERK11QModelIndex@Base 5.0.2 1
+ _ZN18QFileDialogPrivate17_q_updateOkButtonEv@Base 5.0.2 1
+ _ZN18QFileDialogPrivate17canBeNativeDialogEv@Base 5.0.2 1
+ _ZN18QFileDialogPrivate17createMenuActionsEv@Base 5.0.2 1
+ _ZN18QFileDialogPrivate17createToolButtonsEv@Base 5.0.2 1
+ _ZN18QFileDialogPrivate17emitFilesSelectedERK11QStringList@Base 5.0.2 1
+ _ZN18QFileDialogPrivate17helperPrepareShowEP21QPlatformDialogHelper@Base 5.0.2 1
+ _ZN18QFileDialogPrivate18_q_createDirectoryEv@Base 5.0.2 1
+ _ZN18QFileDialogPrivate18_q_navigateForwardEv@Base 5.0.2 1
+ _ZN18QFileDialogPrivate18_q_showContextMenuERK6QPoint@Base 5.0.2 1
+ _ZN18QFileDialogPrivate18_q_showDetailsViewEv@Base 5.0.2 1
+ _ZN18QFileDialogPrivate18retranslateStringsEv@Base 5.0.2 1
+ _ZN18QFileDialogPrivate18updateOkButtonTextEb@Base 5.0.2 1
+ _ZN18QFileDialogPrivate19_q_navigateBackwardEv@Base 5.0.2 1
+ _ZN18QFileDialogPrivate19_q_navigateToParentEv@Base 5.0.2 1
+ _ZN18QFileDialogPrivate19_q_selectionChangedEv@Base 5.0.2 1
+ _ZN18QFileDialogPrivate19setLabelTextControlEN11QFileDialog11DialogLabelERK7QString@Base 5.0.2 1
+ (optional=gccinternal)_ZN18QFileDialogPrivate20selectNameFilter_sysERK7QString@Base 5.0.2 1
+ _ZN18QFileDialogPrivate21itemViewKeyboardEventEP9QKeyEvent@Base 5.0.2 1
+ _ZN18QFileDialogPrivate22getEnvironmentVariableERK7QString@Base 5.0.2 1
+ _ZN18QFileDialogPrivate22retranslateWindowTitleEv@Base 5.0.2 1
+ _ZN18QFileDialogPrivate23_q_autoCompleteFileNameERK7QString@Base 5.0.2 1
+ _ZN18QFileDialogPrivate23_q_nativeEnterDirectoryERK7QString@Base 5.0.2 1
+ _ZN18QFileDialogPrivate23setLastVisitedDirectoryERK7QString@Base 5.0.2 1
+ _ZN18QFileDialogPrivate4initERK7QStringS2_S2_@Base 5.0.2 1
+ _ZN18QFileDialogPrivate9_q_goHomeEv@Base 5.0.2 1
+ _ZN18QFileDialogPrivateC1Ev@Base 5.0.2 1
+ _ZN18QFileDialogPrivateC2Ev@Base 5.0.2 1
+ _ZN18QFileDialogPrivateD0Ev@Base 5.0.2 1
+ _ZN18QFileDialogPrivateD1Ev@Base 5.0.2 1
+ _ZN18QFileDialogPrivateD2Ev@Base 5.0.2 1
  _ZN18QGestureRecognizer18registerRecognizerEPS_@Base 5.0.2
  _ZN18QGestureRecognizer20unregisterRecognizerEN2Qt11GestureTypeE@Base 5.0.2
  _ZN18QGestureRecognizer5resetEP8QGesture@Base 5.0.2
@@ -2921,127 +2921,127 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN18QTapAndHoldGestureD0Ev@Base 5.0.2
  _ZN18QTapAndHoldGestureD1Ev@Base 5.0.2
  _ZN18QTapAndHoldGestureD2Ev@Base 5.0.2
- _ZN18QWidgetLineControl10addCommandERKNS_7CommandE@Base 5.0.2
- _ZN18QWidgetLineControl10moveCursorEib@Base 5.0.2
- _ZN18QWidgetLineControl10textEditedERK7QString@Base 5.0.2
- _ZN18QWidgetLineControl10timerEventEP11QTimerEvent@Base 5.0.2
- _ZN18QWidgetLineControl11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
- _ZN18QWidgetLineControl11qt_metacastEPKc@Base 5.0.2
- _ZN18QWidgetLineControl11setReadOnlyEb@Base 5.0.2
- _ZN18QWidgetLineControl11textChangedERK7QString@Base 5.0.2
- _ZN18QWidgetLineControl12finishChangeEibb@Base 5.0.2
- _ZN18QWidgetLineControl12internalRedoEv@Base 5.0.2
- _ZN18QWidgetLineControl12internalUndoEi@Base 5.0.2
- _ZN18QWidgetLineControl12setSelectionEii@Base 5.0.2
- _ZN18QWidgetLineControl12updateNeededERK5QRect@Base 5.0.2
- _ZN18QWidgetLineControl13commitPreeditEv@Base 5.0.2
- _ZN18QWidgetLineControl14internalDeleteEb@Base 5.0.2
- _ZN18QWidgetLineControl14internalInsertERK7QString@Base 5.0.2
- _ZN18QWidgetLineControl14parseInputMaskERK7QString@Base 5.0.2
- _ZN18QWidgetLineControl15editingFinishedEv@Base 5.0.2
- _ZN18QWidgetLineControl15internalSetTextERK7QStringib@Base 5.0.2
- _ZN18QWidgetLineControl15processKeyEventEP9QKeyEvent@Base 5.0.2
- _ZN18QWidgetLineControl15selectWordAtPosEi@Base 5.0.2
- _ZN18QWidgetLineControl16selectionChangedEv@Base 5.0.2
- _ZN18QWidgetLineControl16staticMetaObjectE@Base 5.0.2
- _ZN18QWidgetLineControl16updateMicroFocusEv@Base 5.0.2
- _ZN18QWidgetLineControl17_q_deleteSelectedEv@Base 5.0.2
- _ZN18QWidgetLineControl17resetInputContextEv@Base 5.0.2
- _ZN18QWidgetLineControl17updateDisplayTextEb@Base 5.0.2
- _ZN18QWidgetLineControl18displayTextChangedERK7QString@Base 5.0.2
- _ZN18QWidgetLineControl18removeSelectedTextEv@Base 5.0.2
- _ZN18QWidgetLineControl19_q_clipboardChangedEv@Base 5.0.2
- _ZN18QWidgetLineControl20advanceToEnabledItemEi@Base 5.0.2
- _ZN18QWidgetLineControl20setCursorBlinkPeriodEi@Base 5.0.2
- _ZN18QWidgetLineControl21cursorPositionChangedEii@Base 5.0.2
- _ZN18QWidgetLineControl21resetCursorBlinkTimerEv@Base 5.0.2
- _ZN18QWidgetLineControl23processInputMethodEventEP17QInputMethodEvent@Base 5.0.2
- _ZN18QWidgetLineControl25emitCursorPositionChangedEv@Base 5.0.2
- _ZN18QWidgetLineControl25updatePasswordEchoEditingEb@Base 5.0.2
- _ZN18QWidgetLineControl28processShortcutOverrideEventEP9QKeyEvent@Base 5.0.2
- _ZN18QWidgetLineControl3delEv@Base 5.0.2
- _ZN18QWidgetLineControl4drawEP8QPainterRK6QPointRK5QRecti@Base 5.0.2
- _ZN18QWidgetLineControl4initERK7QString@Base 5.0.2
- _ZN18QWidgetLineControl5clearEv@Base 5.0.2
- _ZN18QWidgetLineControl5fixupEv@Base 5.0.2
- _ZN18QWidgetLineControl5pasteEN10QClipboard4ModeE@Base 5.0.2
- _ZN18QWidgetLineControl6insertERK7QString@Base 5.0.2
- _ZN18QWidgetLineControl8acceptedEv@Base 5.0.2
- _ZN18QWidgetLineControl8completeEi@Base 5.0.2
- _ZN18QWidgetLineControl9backspaceEv@Base 5.0.2
- _ZN18QWidgetTextControl10adjustSizeEv@Base 5.0.2
- _ZN18QWidgetTextControl10appendHtmlERK7QString@Base 5.0.2
- _ZN18QWidgetTextControl10insertHtmlERK7QString@Base 5.0.2
- _ZN18QWidgetTextControl10moveCursorEN11QTextCursor13MoveOperationENS0_8MoveModeE@Base 5.0.2
- _ZN18QWidgetTextControl10setPaletteERK8QPalette@Base 5.0.2
- _ZN18QWidgetTextControl10timerEventEP11QTimerEvent@Base 5.0.2
- _ZN18QWidgetTextControl11linkHoveredERK7QString@Base 5.0.2
- _ZN18QWidgetTextControl11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
- _ZN18QWidgetTextControl11qt_metacastEPKc@Base 5.0.2
- _ZN18QWidgetTextControl11setDocumentEP13QTextDocument@Base 5.0.2
- _ZN18QWidgetTextControl11textChangedEv@Base 5.0.2
- _ZN18QWidgetTextControl12drawContentsEP8QPainterRK6QRectFP7QWidget@Base 5.0.2
- _ZN18QWidgetTextControl12loadResourceEiRK4QUrl@Base 5.0.2
- _ZN18QWidgetTextControl12processEventEP6QEventRK7QMatrixP7QWidget@Base 5.0.2
- _ZN18QWidgetTextControl12processEventEP6QEventRK7QPointFP7QWidget@Base 5.0.2
- _ZN18QWidgetTextControl12setPlainTextERK7QString@Base 5.0.2
- (subst)_ZN18QWidgetTextControl12setTextWidthE{qreal}@Base 5.0.2
- _ZN18QWidgetTextControl13copyAvailableEb@Base 5.0.2
- _ZN18QWidgetTextControl13linkActivatedERK7QString@Base 5.0.2
- _ZN18QWidgetTextControl13redoAvailableEb@Base 5.0.2
- _ZN18QWidgetTextControl13setTextCursorERK11QTextCursor@Base 5.0.2
- _ZN18QWidgetTextControl13undoAvailableEb@Base 5.0.2
- _ZN18QWidgetTextControl13updateRequestERK6QRectF@Base 5.0.2
- _ZN18QWidgetTextControl14setCursorWidthEi@Base 5.0.2
- _ZN18QWidgetTextControl14setDragEnabledEb@Base 5.0.2
- _ZN18QWidgetTextControl15appendPlainTextERK7QString@Base 5.0.2
- _ZN18QWidgetTextControl15insertPlainTextERK7QString@Base 5.0.2
- _ZN18QWidgetTextControl16selectionChangedEv@Base 5.0.2
- _ZN18QWidgetTextControl16setFocusToAnchorERK11QTextCursor@Base 5.0.2
- _ZN18QWidgetTextControl16setOverwriteModeEb@Base 5.0.2
- _ZN18QWidgetTextControl16staticMetaObjectE@Base 5.0.2
- _ZN18QWidgetTextControl17blockCountChangedEi@Base 5.0.2
- _ZN18QWidgetTextControl17microFocusChangedEv@Base 5.0.2
- _ZN18QWidgetTextControl17setAcceptRichTextEb@Base 5.0.2
- _ZN18QWidgetTextControl17visibilityRequestERK6QRectF@Base 5.0.2
- _ZN18QWidgetTextControl18findNextPrevAnchorERK11QTextCursorbRS0_@Base 5.0.2
- _ZN18QWidgetTextControl18insertFromMimeDataEPK9QMimeData@Base 5.0.2
- _ZN18QWidgetTextControl18setExtraSelectionsERK5QListIN9QTextEdit14ExtraSelectionEE@Base 5.0.2
- _ZN18QWidgetTextControl19documentSizeChangedERK6QSizeF@Base 5.0.2
- _ZN18QWidgetTextControl19ensureCursorVisibleEv@Base 5.0.2
- _ZN18QWidgetTextControl19modificationChangedEb@Base 5.0.2
- _ZN18QWidgetTextControl20setCurrentCharFormatERK15QTextCharFormat@Base 5.0.2
- _ZN18QWidgetTextControl20setOpenExternalLinksEb@Base 5.0.2
- _ZN18QWidgetTextControl21cursorPositionChangedEv@Base 5.0.2
- _ZN18QWidgetTextControl22mergeCurrentCharFormatERK15QTextCharFormat@Base 5.0.2
- _ZN18QWidgetTextControl23setTextInteractionFlagsE6QFlagsIN2Qt19TextInteractionFlagEE@Base 5.0.2
- _ZN18QWidgetTextControl23setWordSelectionEnabledEb@Base 5.0.2
- _ZN18QWidgetTextControl24currentCharFormatChangedERK15QTextCharFormat@Base 5.0.2
- _ZN18QWidgetTextControl25createStandardContextMenuERK7QPointFP7QWidget@Base 5.0.2
- _ZN18QWidgetTextControl25setCursorIsFocusIndicatorEb@Base 5.0.2
- _ZN18QWidgetTextControl30setFocusToNextOrPreviousAnchorEb@Base 5.0.2
- _ZN18QWidgetTextControl31setIgnoreUnusedNavigationEventsEb@Base 5.0.2
- _ZN18QWidgetTextControl3cutEv@Base 5.0.2
- _ZN18QWidgetTextControl4copyEv@Base 5.0.2
- _ZN18QWidgetTextControl4findERK7QString6QFlagsIN13QTextDocument8FindFlagEE@Base 5.0.2
- _ZN18QWidgetTextControl4redoEv@Base 5.0.2
- _ZN18QWidgetTextControl4undoEv@Base 5.0.2
- _ZN18QWidgetTextControl5clearEv@Base 5.0.2
- _ZN18QWidgetTextControl5eventEP6QEvent@Base 5.0.2
- _ZN18QWidgetTextControl5pasteEN10QClipboard4ModeE@Base 5.0.2
- _ZN18QWidgetTextControl6appendERK7QString@Base 5.0.2
- _ZN18QWidgetTextControl7setHtmlERK7QString@Base 5.0.2
- _ZN18QWidgetTextControl8setFocusEbN2Qt11FocusReasonE@Base 5.0.2
- _ZN18QWidgetTextControl9selectAllEv@Base 5.0.2
- _ZN18QWidgetTextControlC1EP13QTextDocumentP7QObject@Base 5.0.2
- _ZN18QWidgetTextControlC1EP7QObject@Base 5.0.2
- _ZN18QWidgetTextControlC1ERK7QStringP7QObject@Base 5.0.2
- _ZN18QWidgetTextControlC2EP13QTextDocumentP7QObject@Base 5.0.2
- _ZN18QWidgetTextControlC2EP7QObject@Base 5.0.2
- _ZN18QWidgetTextControlC2ERK7QStringP7QObject@Base 5.0.2
- _ZN18QWidgetTextControlD0Ev@Base 5.0.2
- _ZN18QWidgetTextControlD1Ev@Base 5.0.2
- _ZN18QWidgetTextControlD2Ev@Base 5.0.2
+ _ZN18QWidgetLineControl10addCommandERKNS_7CommandE@Base 5.0.2 1
+ _ZN18QWidgetLineControl10moveCursorEib@Base 5.0.2 1
+ _ZN18QWidgetLineControl10textEditedERK7QString@Base 5.0.2 1
+ _ZN18QWidgetLineControl10timerEventEP11QTimerEvent@Base 5.0.2 1
+ _ZN18QWidgetLineControl11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
+ _ZN18QWidgetLineControl11qt_metacastEPKc@Base 5.0.2 1
+ _ZN18QWidgetLineControl11setReadOnlyEb@Base 5.0.2 1
+ _ZN18QWidgetLineControl11textChangedERK7QString@Base 5.0.2 1
+ _ZN18QWidgetLineControl12finishChangeEibb@Base 5.0.2 1
+ _ZN18QWidgetLineControl12internalRedoEv@Base 5.0.2 1
+ _ZN18QWidgetLineControl12internalUndoEi@Base 5.0.2 1
+ _ZN18QWidgetLineControl12setSelectionEii@Base 5.0.2 1
+ _ZN18QWidgetLineControl12updateNeededERK5QRect@Base 5.0.2 1
+ _ZN18QWidgetLineControl13commitPreeditEv@Base 5.0.2 1
+ _ZN18QWidgetLineControl14internalDeleteEb@Base 5.0.2 1
+ _ZN18QWidgetLineControl14internalInsertERK7QString@Base 5.0.2 1
+ _ZN18QWidgetLineControl14parseInputMaskERK7QString@Base 5.0.2 1
+ _ZN18QWidgetLineControl15editingFinishedEv@Base 5.0.2 1
+ _ZN18QWidgetLineControl15internalSetTextERK7QStringib@Base 5.0.2 1
+ _ZN18QWidgetLineControl15processKeyEventEP9QKeyEvent@Base 5.0.2 1
+ _ZN18QWidgetLineControl15selectWordAtPosEi@Base 5.0.2 1
+ _ZN18QWidgetLineControl16selectionChangedEv@Base 5.0.2 1
+ _ZN18QWidgetLineControl16staticMetaObjectE@Base 5.0.2 1
+ _ZN18QWidgetLineControl16updateMicroFocusEv@Base 5.0.2 1
+ _ZN18QWidgetLineControl17_q_deleteSelectedEv@Base 5.0.2 1
+ _ZN18QWidgetLineControl17resetInputContextEv@Base 5.0.2 1
+ _ZN18QWidgetLineControl17updateDisplayTextEb@Base 5.0.2 1
+ _ZN18QWidgetLineControl18displayTextChangedERK7QString@Base 5.0.2 1
+ _ZN18QWidgetLineControl18removeSelectedTextEv@Base 5.0.2 1
+ _ZN18QWidgetLineControl19_q_clipboardChangedEv@Base 5.0.2 1
+ _ZN18QWidgetLineControl20advanceToEnabledItemEi@Base 5.0.2 1
+ _ZN18QWidgetLineControl20setCursorBlinkPeriodEi@Base 5.0.2 1
+ _ZN18QWidgetLineControl21cursorPositionChangedEii@Base 5.0.2 1
+ _ZN18QWidgetLineControl21resetCursorBlinkTimerEv@Base 5.0.2 1
+ _ZN18QWidgetLineControl23processInputMethodEventEP17QInputMethodEvent@Base 5.0.2 1
+ _ZN18QWidgetLineControl25emitCursorPositionChangedEv@Base 5.0.2 1
+ _ZN18QWidgetLineControl25updatePasswordEchoEditingEb@Base 5.0.2 1
+ _ZN18QWidgetLineControl28processShortcutOverrideEventEP9QKeyEvent@Base 5.0.2 1
+ _ZN18QWidgetLineControl3delEv@Base 5.0.2 1
+ _ZN18QWidgetLineControl4drawEP8QPainterRK6QPointRK5QRecti@Base 5.0.2 1
+ _ZN18QWidgetLineControl4initERK7QString@Base 5.0.2 1
+ _ZN18QWidgetLineControl5clearEv@Base 5.0.2 1
+ _ZN18QWidgetLineControl5fixupEv@Base 5.0.2 1
+ _ZN18QWidgetLineControl5pasteEN10QClipboard4ModeE@Base 5.0.2 1
+ _ZN18QWidgetLineControl6insertERK7QString@Base 5.0.2 1
+ _ZN18QWidgetLineControl8acceptedEv@Base 5.0.2 1
+ _ZN18QWidgetLineControl8completeEi@Base 5.0.2 1
+ _ZN18QWidgetLineControl9backspaceEv@Base 5.0.2 1
+ _ZN18QWidgetTextControl10adjustSizeEv@Base 5.0.2 1
+ _ZN18QWidgetTextControl10appendHtmlERK7QString@Base 5.0.2 1
+ _ZN18QWidgetTextControl10insertHtmlERK7QString@Base 5.0.2 1
+ _ZN18QWidgetTextControl10moveCursorEN11QTextCursor13MoveOperationENS0_8MoveModeE@Base 5.0.2 1
+ _ZN18QWidgetTextControl10setPaletteERK8QPalette@Base 5.0.2 1
+ _ZN18QWidgetTextControl10timerEventEP11QTimerEvent@Base 5.0.2 1
+ _ZN18QWidgetTextControl11linkHoveredERK7QString@Base 5.0.2 1
+ _ZN18QWidgetTextControl11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
+ _ZN18QWidgetTextControl11qt_metacastEPKc@Base 5.0.2 1
+ _ZN18QWidgetTextControl11setDocumentEP13QTextDocument@Base 5.0.2 1
+ _ZN18QWidgetTextControl11textChangedEv@Base 5.0.2 1
+ _ZN18QWidgetTextControl12drawContentsEP8QPainterRK6QRectFP7QWidget@Base 5.0.2 1
+ _ZN18QWidgetTextControl12loadResourceEiRK4QUrl@Base 5.0.2 1
+ _ZN18QWidgetTextControl12processEventEP6QEventRK7QMatrixP7QWidget@Base 5.0.2 1
+ _ZN18QWidgetTextControl12processEventEP6QEventRK7QPointFP7QWidget@Base 5.0.2 1
+ _ZN18QWidgetTextControl12setPlainTextERK7QString@Base 5.0.2 1
+ (subst)_ZN18QWidgetTextControl12setTextWidthE{qreal}@Base 5.0.2 1
+ _ZN18QWidgetTextControl13copyAvailableEb@Base 5.0.2 1
+ _ZN18QWidgetTextControl13linkActivatedERK7QString@Base 5.0.2 1
+ _ZN18QWidgetTextControl13redoAvailableEb@Base 5.0.2 1
+ _ZN18QWidgetTextControl13setTextCursorERK11QTextCursor@Base 5.0.2 1
+ _ZN18QWidgetTextControl13undoAvailableEb@Base 5.0.2 1
+ _ZN18QWidgetTextControl13updateRequestERK6QRectF@Base 5.0.2 1
+ _ZN18QWidgetTextControl14setCursorWidthEi@Base 5.0.2 1
+ _ZN18QWidgetTextControl14setDragEnabledEb@Base 5.0.2 1
+ _ZN18QWidgetTextControl15appendPlainTextERK7QString@Base 5.0.2 1
+ _ZN18QWidgetTextControl15insertPlainTextERK7QString@Base 5.0.2 1
+ _ZN18QWidgetTextControl16selectionChangedEv@Base 5.0.2 1
+ _ZN18QWidgetTextControl16setFocusToAnchorERK11QTextCursor@Base 5.0.2 1
+ _ZN18QWidgetTextControl16setOverwriteModeEb@Base 5.0.2 1
+ _ZN18QWidgetTextControl16staticMetaObjectE@Base 5.0.2 1
+ _ZN18QWidgetTextControl17blockCountChangedEi@Base 5.0.2 1
+ _ZN18QWidgetTextControl17microFocusChangedEv@Base 5.0.2 1
+ _ZN18QWidgetTextControl17setAcceptRichTextEb@Base 5.0.2 1
+ _ZN18QWidgetTextControl17visibilityRequestERK6QRectF@Base 5.0.2 1
+ _ZN18QWidgetTextControl18findNextPrevAnchorERK11QTextCursorbRS0_@Base 5.0.2 1
+ _ZN18QWidgetTextControl18insertFromMimeDataEPK9QMimeData@Base 5.0.2 1
+ _ZN18QWidgetTextControl18setExtraSelectionsERK5QListIN9QTextEdit14ExtraSelectionEE@Base 5.0.2 1
+ _ZN18QWidgetTextControl19documentSizeChangedERK6QSizeF@Base 5.0.2 1
+ _ZN18QWidgetTextControl19ensureCursorVisibleEv@Base 5.0.2 1
+ _ZN18QWidgetTextControl19modificationChangedEb@Base 5.0.2 1
+ _ZN18QWidgetTextControl20setCurrentCharFormatERK15QTextCharFormat@Base 5.0.2 1
+ _ZN18QWidgetTextControl20setOpenExternalLinksEb@Base 5.0.2 1
+ _ZN18QWidgetTextControl21cursorPositionChangedEv@Base 5.0.2 1
+ _ZN18QWidgetTextControl22mergeCurrentCharFormatERK15QTextCharFormat@Base 5.0.2 1
+ _ZN18QWidgetTextControl23setTextInteractionFlagsE6QFlagsIN2Qt19TextInteractionFlagEE@Base 5.0.2 1
+ _ZN18QWidgetTextControl23setWordSelectionEnabledEb@Base 5.0.2 1
+ _ZN18QWidgetTextControl24currentCharFormatChangedERK15QTextCharFormat@Base 5.0.2 1
+ _ZN18QWidgetTextControl25createStandardContextMenuERK7QPointFP7QWidget@Base 5.0.2 1
+ _ZN18QWidgetTextControl25setCursorIsFocusIndicatorEb@Base 5.0.2 1
+ _ZN18QWidgetTextControl30setFocusToNextOrPreviousAnchorEb@Base 5.0.2 1
+ _ZN18QWidgetTextControl31setIgnoreUnusedNavigationEventsEb@Base 5.0.2 1
+ _ZN18QWidgetTextControl3cutEv@Base 5.0.2 1
+ _ZN18QWidgetTextControl4copyEv@Base 5.0.2 1
+ _ZN18QWidgetTextControl4findERK7QString6QFlagsIN13QTextDocument8FindFlagEE@Base 5.0.2 1
+ _ZN18QWidgetTextControl4redoEv@Base 5.0.2 1
+ _ZN18QWidgetTextControl4undoEv@Base 5.0.2 1
+ _ZN18QWidgetTextControl5clearEv@Base 5.0.2 1
+ _ZN18QWidgetTextControl5eventEP6QEvent@Base 5.0.2 1
+ _ZN18QWidgetTextControl5pasteEN10QClipboard4ModeE@Base 5.0.2 1
+ _ZN18QWidgetTextControl6appendERK7QString@Base 5.0.2 1
+ _ZN18QWidgetTextControl7setHtmlERK7QString@Base 5.0.2 1
+ _ZN18QWidgetTextControl8setFocusEbN2Qt11FocusReasonE@Base 5.0.2 1
+ _ZN18QWidgetTextControl9selectAllEv@Base 5.0.2 1
+ _ZN18QWidgetTextControlC1EP13QTextDocumentP7QObject@Base 5.0.2 1
+ _ZN18QWidgetTextControlC1EP7QObject@Base 5.0.2 1
+ _ZN18QWidgetTextControlC1ERK7QStringP7QObject@Base 5.0.2 1
+ _ZN18QWidgetTextControlC2EP13QTextDocumentP7QObject@Base 5.0.2 1
+ _ZN18QWidgetTextControlC2EP7QObject@Base 5.0.2 1
+ _ZN18QWidgetTextControlC2ERK7QStringP7QObject@Base 5.0.2 1
+ _ZN18QWidgetTextControlD0Ev@Base 5.0.2 1
+ _ZN18QWidgetTextControlD1Ev@Base 5.0.2 1
+ _ZN18QWidgetTextControlD2Ev@Base 5.0.2 1
  _ZN19QAbstractScrollArea10paintEventEP11QPaintEvent@Base 5.0.2
  _ZN19QAbstractScrollArea10wheelEventEP11QWheelEvent@Base 5.0.2
  _ZN19QAbstractScrollArea11eventFilterEP7QObjectP6QEvent@Base 5.0.2
@@ -3080,72 +3080,72 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN19QAbstractScrollAreaD0Ev@Base 5.0.2
  _ZN19QAbstractScrollAreaD1Ev@Base 5.0.2
  _ZN19QAbstractScrollAreaD2Ev@Base 5.0.2
- _ZN19QApplicationPrivate10closePopupEP7QWidget@Base 5.0.2
- _ZN19QApplicationPrivate10initializeEv@Base 5.0.2
- _ZN19QApplicationPrivate10modalStateEv@Base 5.0.2
- _ZN19QApplicationPrivate10shouldQuitEv@Base 5.0.2
- _ZN19QApplicationPrivate10styleSheetE@Base 5.0.2
- _ZN19QApplicationPrivate11inPopupModeEv@Base 5.0.2
- _ZN19QApplicationPrivate11main_widgetE@Base 5.0.2
- _ZN19QApplicationPrivate11widgetCountE@Base 5.0.2
- _ZN19QApplicationPrivate12focus_widgetE@Base 5.0.2
- _ZN19QApplicationPrivate12popupWidgetsE@Base 5.0.2
- _ZN19QApplicationPrivate13active_windowE@Base 5.0.2
- _ZN19QApplicationPrivate13notify_helperEP7QObjectP6QEvent@Base 5.0.2
- _ZN19QApplicationPrivate13setSystemFontERK5QFont@Base 5.0.2
- _ZN19QApplicationPrivate13styleOverrideE@Base 5.0.2
- _ZN19QApplicationPrivate14autoSipEnabledE@Base 5.0.2
- _ZN19QApplicationPrivate14sendMouseEventEP7QWidgetP11QMouseEventS1_S1_PS1_R8QPointerIS0_Eb@Base 5.0.2
- _ZN19QApplicationPrivate14setFocusWidgetEP7QWidgetN2Qt11FocusReasonE@Base 5.0.2
- _ZN19QApplicationPrivate14shouldSetFocusEP7QWidgetN2Qt11FocusPolicyE@Base 5.0.2
- _ZN19QApplicationPrivate14tryModalHelperEP7QWidgetPS1_@Base 5.0.2
- _ZN19QApplicationPrivate15desktopStyleKeyEv@Base 5.0.2
- _ZN19QApplicationPrivate15process_cmdlineEv@Base 5.0.2
- _ZN19QApplicationPrivate16isBlockedByModalEP7QWidget@Base 5.0.2
- _ZN19QApplicationPrivate16load_testabilityE@Base 5.0.2
- _ZN19QApplicationPrivate16setSystemPaletteERK8QPalette@Base 5.0.2
- _ZN19QApplicationPrivate17cleanupMultitouchEv@Base 5.0.2
- _ZN19QApplicationPrivate17enabledAnimationsE@Base 5.0.2
- _ZN19QApplicationPrivate17leaveAfterReleaseE@Base 5.0.2
- _ZN19QApplicationPrivate17notifyDragStartedEPK5QDrag@Base 5.0.2
- _ZN19QApplicationPrivate17pickMouseReceiverEP7QWidgetRK6QPointPS2_N6QEvent4TypeE6QFlagsIN2Qt11MouseButtonEES1_S1_@Base 5.0.2
- _ZN19QApplicationPrivate17setPalette_helperERK8QPalettePKcb@Base 5.0.2
- _ZN19QApplicationPrivate18dispatchEnterLeaveEP7QWidgetS1_RK7QPointF@Base 5.0.2
- _ZN19QApplicationPrivate18notifyThemeChangedEv@Base 5.0.2
- _ZN19QApplicationPrivate18wheel_scroll_linesE@Base 5.0.2
- _ZN19QApplicationPrivate19hidden_focus_widgetE@Base 5.0.2
- _ZN19QApplicationPrivate20initializeMultitouchEv@Base 5.0.2
- _ZN19QApplicationPrivate20translateTouchCancelEP12QTouchDevicem@Base 5.0.2
- _ZN19QApplicationPrivate21cleanupMultitouch_sysEv@Base 5.0.2
- _ZN19QApplicationPrivate21createEventDispatcherEv@Base 5.0.2
- _ZN19QApplicationPrivate21translateTouchToMouseEP7QWidgetP11QTouchEvent@Base 5.0.2
- _ZN19QApplicationPrivate22translateRawTouchEventEP7QWidgetP12QTouchDeviceRK5QListIN11QTouchEvent10TouchPointEEm@Base 5.0.2
- _ZN19QApplicationPrivate23sendSyntheticEnterLeaveEP7QWidget@Base 5.0.2
- _ZN19QApplicationPrivate24initializeMultitouch_sysEv@Base 5.0.2
- _ZN19QApplicationPrivate24initializeWidgetFontHashEv@Base 5.0.2
- _ZN19QApplicationPrivate24notifyActiveWindowChangeEP7QWindow@Base 5.0.2
- _ZN19QApplicationPrivate25focusNextPrevChild_helperEP7QWidgetb@Base 5.0.2
- _ZN19QApplicationPrivate26updateTouchPointsForWidgetEP7QWidgetP11QTouchEvent@Base 5.0.2
- _ZN19QApplicationPrivate27findClosestTouchPointTargetEP12QTouchDeviceRK7QPointF@Base 5.0.2
- _ZN19QApplicationPrivate27initializeWidgetPaletteHashEv@Base 5.0.2
- _ZN19QApplicationPrivate27notifyLayoutDirectionChangeEv@Base 5.0.2
- _ZN19QApplicationPrivate31giveFocusAccordingToFocusPolicyEP7QWidgetN2Qt11FocusPolicyENS2_11FocusReasonE@Base 5.0.2
- _ZN19QApplicationPrivate4selfE@Base 5.0.2
- _ZN19QApplicationPrivate7set_palE@Base 5.0.2
- _ZN19QApplicationPrivate7sys_palE@Base 5.0.2
- _ZN19QApplicationPrivate8app_iconE@Base 5.0.2
- _ZN19QApplicationPrivate8set_fontE@Base 5.0.2
- _ZN19QApplicationPrivate8sys_fontE@Base 5.0.2
- _ZN19QApplicationPrivate9app_cspecE@Base 5.0.2
- _ZN19QApplicationPrivate9app_strutE@Base 5.0.2
- _ZN19QApplicationPrivate9app_styleE@Base 5.0.2
- _ZN19QApplicationPrivate9constructEv@Base 5.0.2
- _ZN19QApplicationPrivate9openPopupEP7QWidget@Base 5.0.2
- _ZN19QApplicationPrivateC1ERiPPci@Base 5.0.2
- _ZN19QApplicationPrivateC2ERiPPci@Base 5.0.2
- _ZN19QApplicationPrivateD0Ev@Base 5.0.2
- _ZN19QApplicationPrivateD1Ev@Base 5.0.2
- _ZN19QApplicationPrivateD2Ev@Base 5.0.2
+ _ZN19QApplicationPrivate10closePopupEP7QWidget@Base 5.0.2 1
+ _ZN19QApplicationPrivate10initializeEv@Base 5.0.2 1
+ _ZN19QApplicationPrivate10modalStateEv@Base 5.0.2 1
+ _ZN19QApplicationPrivate10shouldQuitEv@Base 5.0.2 1
+ _ZN19QApplicationPrivate10styleSheetE@Base 5.0.2 1
+ _ZN19QApplicationPrivate11inPopupModeEv@Base 5.0.2 1
+ _ZN19QApplicationPrivate11main_widgetE@Base 5.0.2 1
+ _ZN19QApplicationPrivate11widgetCountE@Base 5.0.2 1
+ _ZN19QApplicationPrivate12focus_widgetE@Base 5.0.2 1
+ _ZN19QApplicationPrivate12popupWidgetsE@Base 5.0.2 1
+ _ZN19QApplicationPrivate13active_windowE@Base 5.0.2 1
+ _ZN19QApplicationPrivate13notify_helperEP7QObjectP6QEvent@Base 5.0.2 1
+ _ZN19QApplicationPrivate13setSystemFontERK5QFont@Base 5.0.2 1
+ _ZN19QApplicationPrivate13styleOverrideE@Base 5.0.2 1
+ _ZN19QApplicationPrivate14autoSipEnabledE@Base 5.0.2 1
+ _ZN19QApplicationPrivate14sendMouseEventEP7QWidgetP11QMouseEventS1_S1_PS1_R8QPointerIS0_Eb@Base 5.0.2 1
+ _ZN19QApplicationPrivate14setFocusWidgetEP7QWidgetN2Qt11FocusReasonE@Base 5.0.2 1
+ _ZN19QApplicationPrivate14shouldSetFocusEP7QWidgetN2Qt11FocusPolicyE@Base 5.0.2 1
+ _ZN19QApplicationPrivate14tryModalHelperEP7QWidgetPS1_@Base 5.0.2 1
+ _ZN19QApplicationPrivate15desktopStyleKeyEv@Base 5.0.2 1
+ _ZN19QApplicationPrivate15process_cmdlineEv@Base 5.0.2 1
+ _ZN19QApplicationPrivate16isBlockedByModalEP7QWidget@Base 5.0.2 1
+ _ZN19QApplicationPrivate16load_testabilityE@Base 5.0.2 1
+ _ZN19QApplicationPrivate16setSystemPaletteERK8QPalette@Base 5.0.2 1
+ _ZN19QApplicationPrivate17cleanupMultitouchEv@Base 5.0.2 1
+ _ZN19QApplicationPrivate17enabledAnimationsE@Base 5.0.2 1
+ _ZN19QApplicationPrivate17leaveAfterReleaseE@Base 5.0.2 1
+ _ZN19QApplicationPrivate17notifyDragStartedEPK5QDrag@Base 5.0.2 1
+ _ZN19QApplicationPrivate17pickMouseReceiverEP7QWidgetRK6QPointPS2_N6QEvent4TypeE6QFlagsIN2Qt11MouseButtonEES1_S1_@Base 5.0.2 1
+ _ZN19QApplicationPrivate17setPalette_helperERK8QPalettePKcb@Base 5.0.2 1
+ _ZN19QApplicationPrivate18dispatchEnterLeaveEP7QWidgetS1_RK7QPointF@Base 5.0.2 1
+ _ZN19QApplicationPrivate18notifyThemeChangedEv@Base 5.0.2 1
+ _ZN19QApplicationPrivate18wheel_scroll_linesE@Base 5.0.2 1
+ _ZN19QApplicationPrivate19hidden_focus_widgetE@Base 5.0.2 1
+ _ZN19QApplicationPrivate20initializeMultitouchEv@Base 5.0.2 1
+ _ZN19QApplicationPrivate20translateTouchCancelEP12QTouchDevicem@Base 5.0.2 1
+ _ZN19QApplicationPrivate21cleanupMultitouch_sysEv@Base 5.0.2 1
+ _ZN19QApplicationPrivate21createEventDispatcherEv@Base 5.0.2 1
+ _ZN19QApplicationPrivate21translateTouchToMouseEP7QWidgetP11QTouchEvent@Base 5.0.2 1
+ _ZN19QApplicationPrivate22translateRawTouchEventEP7QWidgetP12QTouchDeviceRK5QListIN11QTouchEvent10TouchPointEEm@Base 5.0.2 1
+ _ZN19QApplicationPrivate23sendSyntheticEnterLeaveEP7QWidget@Base 5.0.2 1
+ _ZN19QApplicationPrivate24initializeMultitouch_sysEv@Base 5.0.2 1
+ _ZN19QApplicationPrivate24initializeWidgetFontHashEv@Base 5.0.2 1
+ _ZN19QApplicationPrivate24notifyActiveWindowChangeEP7QWindow@Base 5.0.2 1
+ _ZN19QApplicationPrivate25focusNextPrevChild_helperEP7QWidgetb@Base 5.0.2 1
+ _ZN19QApplicationPrivate26updateTouchPointsForWidgetEP7QWidgetP11QTouchEvent@Base 5.0.2 1
+ _ZN19QApplicationPrivate27findClosestTouchPointTargetEP12QTouchDeviceRK7QPointF@Base 5.0.2 1
+ _ZN19QApplicationPrivate27initializeWidgetPaletteHashEv@Base 5.0.2 1
+ _ZN19QApplicationPrivate27notifyLayoutDirectionChangeEv@Base 5.0.2 1
+ _ZN19QApplicationPrivate31giveFocusAccordingToFocusPolicyEP7QWidgetN2Qt11FocusPolicyENS2_11FocusReasonE@Base 5.0.2 1
+ _ZN19QApplicationPrivate4selfE@Base 5.0.2 1
+ _ZN19QApplicationPrivate7set_palE@Base 5.0.2 1
+ _ZN19QApplicationPrivate7sys_palE@Base 5.0.2 1
+ _ZN19QApplicationPrivate8app_iconE@Base 5.0.2 1
+ _ZN19QApplicationPrivate8set_fontE@Base 5.0.2 1
+ _ZN19QApplicationPrivate8sys_fontE@Base 5.0.2 1
+ _ZN19QApplicationPrivate9app_cspecE@Base 5.0.2 1
+ _ZN19QApplicationPrivate9app_strutE@Base 5.0.2 1
+ _ZN19QApplicationPrivate9app_styleE@Base 5.0.2 1
+ _ZN19QApplicationPrivate9constructEv@Base 5.0.2 1
+ _ZN19QApplicationPrivate9openPopupEP7QWidget@Base 5.0.2 1
+ _ZN19QApplicationPrivateC1ERiPPci@Base 5.0.2 1
+ _ZN19QApplicationPrivateC2ERiPPci@Base 5.0.2 1
+ _ZN19QApplicationPrivateD0Ev@Base 5.0.2 1
+ _ZN19QApplicationPrivateD1Ev@Base 5.0.2 1
+ _ZN19QApplicationPrivateD2Ev@Base 5.0.2 1
  _ZN19QGraphicsBlurEffect11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN19QGraphicsBlurEffect11qt_metacastEPKc@Base 5.0.2
  _ZN19QGraphicsBlurEffect12setBlurHintsE6QFlagsINS_8BlurHintEE@Base 5.0.2
@@ -3204,9 +3204,9 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  (subst)_ZN19QGraphicsLayoutItem18setPreferredHeightE{qreal}@Base 5.0.2
  _ZN19QGraphicsLayoutItem19setParentLayoutItemEPS_@Base 5.0.2
  _ZN19QGraphicsLayoutItemC1EPS_b@Base 5.0.2
- _ZN19QGraphicsLayoutItemC1ER26QGraphicsLayoutItemPrivate@Base 5.0.2
+ _ZN19QGraphicsLayoutItemC1ER26QGraphicsLayoutItemPrivate@Base 5.0.2 1
  _ZN19QGraphicsLayoutItemC2EPS_b@Base 5.0.2
- _ZN19QGraphicsLayoutItemC2ER26QGraphicsLayoutItemPrivate@Base 5.0.2
+ _ZN19QGraphicsLayoutItemC2ER26QGraphicsLayoutItemPrivate@Base 5.0.2 1
  _ZN19QGraphicsLayoutItemD0Ev@Base 5.0.2
  _ZN19QGraphicsLayoutItemD1Ev@Base 5.0.2
  _ZN19QGraphicsLayoutItemD2Ev@Base 5.0.2
@@ -3297,48 +3297,48 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN20QGraphicsEllipseItemD0Ev@Base 5.0.2
  _ZN20QGraphicsEllipseItemD1Ev@Base 5.0.2
  _ZN20QGraphicsEllipseItemD2Ev@Base 5.0.2
- _ZN20QGraphicsItemPrivate10resetWidthEv@Base 5.0.2
- _ZN20QGraphicsItemPrivate11children_atEP24QDeclarativeListPropertyI15QGraphicsObjectEi@Base 5.0.2
- _ZN20QGraphicsItemPrivate11removeChildEP13QGraphicsItem@Base 5.0.2
- _ZN20QGraphicsItemPrivate11resetHeightEv@Base 5.0.2
- _ZN20QGraphicsItemPrivate11setSubFocusEP13QGraphicsItemS1_@Base 5.0.2
- _ZN20QGraphicsItemPrivate12childrenListEv@Base 5.0.2
- _ZN20QGraphicsItemPrivate12remapItemPosEP6QEventP13QGraphicsItem@Base 5.0.2
- _ZN20QGraphicsItemPrivate12resolveDepthEv@Base 5.0.2
- _ZN20QGraphicsItemPrivate12setPosHelperERK7QPointF@Base 5.0.2
- _ZN20QGraphicsItemPrivate13clearSubFocusEP13QGraphicsItemS1_@Base 5.0.2
- _ZN20QGraphicsItemPrivate14children_clearEP24QDeclarativeListPropertyI15QGraphicsObjectE@Base 5.0.2
- _ZN20QGraphicsItemPrivate14children_countEP24QDeclarativeListPropertyI15QGraphicsObjectE@Base 5.0.2
- _ZN20QGraphicsItemPrivate14setFocusHelperEN2Qt11FocusReasonEbb@Base 5.0.2
- _ZN20QGraphicsItemPrivate15children_appendEP24QDeclarativeListPropertyI15QGraphicsObjectEPS1_@Base 5.0.2
- _ZN20QGraphicsItemPrivate15resetFocusProxyEv@Base 5.0.2
- _ZN20QGraphicsItemPrivate16clearFocusHelperEbb@Base 5.0.2
- _ZN20QGraphicsItemPrivate16setEnabledHelperEbbb@Base 5.0.2
- _ZN20QGraphicsItemPrivate16setVisibleHelperEbbbb@Base 5.0.2
- _ZN20QGraphicsItemPrivate18setIsMemberOfGroupEb@Base 5.0.2
- _ZN20QGraphicsItemPrivate18setTransformHelperERK10QTransform@Base 5.0.2
- _ZN20QGraphicsItemPrivate18siblingOrderChangeEv@Base 5.0.2
- _ZN20QGraphicsItemPrivate18subFocusItemChangeEv@Base 5.0.2
- _ZN20QGraphicsItemPrivate18updateAncestorFlagEN13QGraphicsItem16GraphicsItemFlagENS_12AncestorFlagEbb@Base 5.0.2
- _ZN20QGraphicsItemPrivate19setParentItemHelperEP13QGraphicsItemPK8QVariantS4_@Base 5.0.2
- _ZN20QGraphicsItemPrivate19updateAncestorFlagsEv@Base 5.0.2
- _ZN20QGraphicsItemPrivate20focusScopeItemChangeEb@Base 5.0.2
- _ZN20QGraphicsItemPrivate20removeExtraItemCacheEv@Base 5.0.2
- _ZN20QGraphicsItemPrivate23appendGraphicsTransformEP18QGraphicsTransform@Base 5.0.2
- _ZN20QGraphicsItemPrivate24prependGraphicsTransformEP18QGraphicsTransform@Base 5.0.2
- _ZN20QGraphicsItemPrivate25movableAncestorIsSelectedEPK13QGraphicsItem@Base 5.0.2
- _ZN20QGraphicsItemPrivate26childrenBoundingRectHelperEP10QTransformP6QRectFP13QGraphicsItem@Base 5.0.2
- _ZN20QGraphicsItemPrivate26invalidateDepthRecursivelyEv@Base 5.0.2
- _ZN20QGraphicsItemPrivate28ensureSequentialSiblingIndexEv@Base 5.0.2
- _ZN20QGraphicsItemPrivate29ensureSceneTransformRecursiveEPP13QGraphicsItem@Base 5.0.2
- _ZN20QGraphicsItemPrivate30updatePaintedViewBoundingRectsEb@Base 5.0.2
- _ZN20QGraphicsItemPrivate30updateSceneTransformFromParentEv@Base 5.0.2
- _ZN20QGraphicsItemPrivate41invalidateChildGraphicsEffectsRecursivelyENS_16InvalidateReasonE@Base 5.0.2
- _ZN20QGraphicsItemPrivate42invalidateParentGraphicsEffectsRecursivelyEv@Base 5.0.2
- _ZN20QGraphicsItemPrivate44updateChildWithGraphicsEffectFlagRecursivelyEv@Base 5.0.2
- _ZN20QGraphicsItemPrivate8addChildEP13QGraphicsItem@Base 5.0.2
- (subst)_ZN20QGraphicsItemPrivate8setWidthE{qreal}@Base 5.0.2
- (subst)_ZN20QGraphicsItemPrivate9setHeightE{qreal}@Base 5.0.2
+ _ZN20QGraphicsItemPrivate10resetWidthEv@Base 5.0.2 1
+ _ZN20QGraphicsItemPrivate11children_atEP24QDeclarativeListPropertyI15QGraphicsObjectEi@Base 5.0.2 1
+ _ZN20QGraphicsItemPrivate11removeChildEP13QGraphicsItem@Base 5.0.2 1
+ _ZN20QGraphicsItemPrivate11resetHeightEv@Base 5.0.2 1
+ _ZN20QGraphicsItemPrivate11setSubFocusEP13QGraphicsItemS1_@Base 5.0.2 1
+ _ZN20QGraphicsItemPrivate12childrenListEv@Base 5.0.2 1
+ _ZN20QGraphicsItemPrivate12remapItemPosEP6QEventP13QGraphicsItem@Base 5.0.2 1
+ _ZN20QGraphicsItemPrivate12resolveDepthEv@Base 5.0.2 1
+ _ZN20QGraphicsItemPrivate12setPosHelperERK7QPointF@Base 5.0.2 1
+ _ZN20QGraphicsItemPrivate13clearSubFocusEP13QGraphicsItemS1_@Base 5.0.2 1
+ _ZN20QGraphicsItemPrivate14children_clearEP24QDeclarativeListPropertyI15QGraphicsObjectE@Base 5.0.2 1
+ _ZN20QGraphicsItemPrivate14children_countEP24QDeclarativeListPropertyI15QGraphicsObjectE@Base 5.0.2 1
+ _ZN20QGraphicsItemPrivate14setFocusHelperEN2Qt11FocusReasonEbb@Base 5.0.2 1
+ _ZN20QGraphicsItemPrivate15children_appendEP24QDeclarativeListPropertyI15QGraphicsObjectEPS1_@Base 5.0.2 1
+ _ZN20QGraphicsItemPrivate15resetFocusProxyEv@Base 5.0.2 1
+ _ZN20QGraphicsItemPrivate16clearFocusHelperEbb@Base 5.0.2 1
+ _ZN20QGraphicsItemPrivate16setEnabledHelperEbbb@Base 5.0.2 1
+ _ZN20QGraphicsItemPrivate16setVisibleHelperEbbbb@Base 5.0.2 1
+ _ZN20QGraphicsItemPrivate18setIsMemberOfGroupEb@Base 5.0.2 1
+ _ZN20QGraphicsItemPrivate18setTransformHelperERK10QTransform@Base 5.0.2 1
+ _ZN20QGraphicsItemPrivate18siblingOrderChangeEv@Base 5.0.2 1
+ _ZN20QGraphicsItemPrivate18subFocusItemChangeEv@Base 5.0.2 1
+ _ZN20QGraphicsItemPrivate18updateAncestorFlagEN13QGraphicsItem16GraphicsItemFlagENS_12AncestorFlagEbb@Base 5.0.2 1
+ _ZN20QGraphicsItemPrivate19setParentItemHelperEP13QGraphicsItemPK8QVariantS4_@Base 5.0.2 1
+ _ZN20QGraphicsItemPrivate19updateAncestorFlagsEv@Base 5.0.2 1
+ _ZN20QGraphicsItemPrivate20focusScopeItemChangeEb@Base 5.0.2 1
+ _ZN20QGraphicsItemPrivate20removeExtraItemCacheEv@Base 5.0.2 1
+ _ZN20QGraphicsItemPrivate23appendGraphicsTransformEP18QGraphicsTransform@Base 5.0.2 1
+ _ZN20QGraphicsItemPrivate24prependGraphicsTransformEP18QGraphicsTransform@Base 5.0.2 1
+ _ZN20QGraphicsItemPrivate25movableAncestorIsSelectedEPK13QGraphicsItem@Base 5.0.2 1
+ _ZN20QGraphicsItemPrivate26childrenBoundingRectHelperEP10QTransformP6QRectFP13QGraphicsItem@Base 5.0.2 1
+ _ZN20QGraphicsItemPrivate26invalidateDepthRecursivelyEv@Base 5.0.2 1
+ _ZN20QGraphicsItemPrivate28ensureSequentialSiblingIndexEv@Base 5.0.2 1
+ _ZN20QGraphicsItemPrivate29ensureSceneTransformRecursiveEPP13QGraphicsItem@Base 5.0.2 1
+ _ZN20QGraphicsItemPrivate30updatePaintedViewBoundingRectsEb@Base 5.0.2 1
+ _ZN20QGraphicsItemPrivate30updateSceneTransformFromParentEv@Base 5.0.2 1
+ _ZN20QGraphicsItemPrivate41invalidateChildGraphicsEffectsRecursivelyENS_16InvalidateReasonE@Base 5.0.2 1
+ _ZN20QGraphicsItemPrivate42invalidateParentGraphicsEffectsRecursivelyEv@Base 5.0.2 1
+ _ZN20QGraphicsItemPrivate44updateChildWithGraphicsEffectFlagRecursivelyEv@Base 5.0.2 1
+ _ZN20QGraphicsItemPrivate8addChildEP13QGraphicsItem@Base 5.0.2 1
+ (subst)_ZN20QGraphicsItemPrivate8setWidthE{qreal}@Base 5.0.2 1
+ (subst)_ZN20QGraphicsItemPrivate9setHeightE{qreal}@Base 5.0.2 1
  _ZN20QGraphicsPolygonItem10setPolygonERK9QPolygonF@Base 5.0.2
  _ZN20QGraphicsPolygonItem11setFillRuleEN2Qt8FillRuleE@Base 5.0.2
  _ZN20QGraphicsPolygonItem12setExtensionEN13QGraphicsItem9ExtensionERK8QVariant@Base 5.0.2
@@ -3390,31 +3390,31 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN20QGraphicsProxyWidgetD0Ev@Base 5.0.2
  _ZN20QGraphicsProxyWidgetD1Ev@Base 5.0.2
  _ZN20QGraphicsProxyWidgetD2Ev@Base 5.0.2
- _ZN20QGraphicsViewPrivate10centerViewEN13QGraphicsView14ViewportAnchorE@Base 5.0.2
- _ZN20QGraphicsViewPrivate10updateRectERK5QRect@Base 5.0.2
- _ZN20QGraphicsViewPrivate12updateRegionERK6QRectFRK10QTransform@Base 5.0.2
- _ZN20QGraphicsViewPrivate12updateScrollEv@Base 5.0.2
- _ZN20QGraphicsViewPrivate13setUpdateClipEP13QGraphicsItem@Base 5.0.2
- _ZN20QGraphicsViewPrivate15storeMouseEventEP11QMouseEvent@Base 5.0.2
- _ZN20QGraphicsViewPrivate16updateRubberBandEP11QMouseEvent@Base 5.0.2
- _ZN20QGraphicsViewPrivate18storeDragDropEventEPK27QGraphicsSceneDragDropEvent@Base 5.0.2
- _ZN20QGraphicsViewPrivate19translateTouchEventEPS_P11QTouchEvent@Base 5.0.2
- _ZN20QGraphicsViewPrivate20_q_setViewportCursorERK7QCursor@Base 5.0.2
- _ZN20QGraphicsViewPrivate20replayLastMouseEventEv@Base 5.0.2
- _ZN20QGraphicsViewPrivate21freeStyleOptionsArrayEP24QStyleOptionGraphicsItem@Base 5.0.2
- _ZN20QGraphicsViewPrivate21mouseMoveEventHandlerEP11QMouseEvent@Base 5.0.2
- _ZN20QGraphicsViewPrivate21processPendingUpdatesEv@Base 5.0.2
- _ZN20QGraphicsViewPrivate21updateLastCenterPointEv@Base 5.0.2
- _ZN20QGraphicsViewPrivate22_q_unsetViewportCursorEv@Base 5.0.2
- _ZN20QGraphicsViewPrivate22allocStyleOptionsArrayEi@Base 5.0.2
- _ZN20QGraphicsViewPrivate22recalculateContentSizeEv@Base 5.0.2
- _ZN20QGraphicsViewPrivate26populateSceneDragDropEventEP27QGraphicsSceneDragDropEventP10QDropEvent@Base 5.0.2
- _ZN20QGraphicsViewPrivate28updateInputMethodSensitivityEv@Base 5.0.2
- _ZN20QGraphicsViewPrivateC1Ev@Base 5.0.2
- _ZN20QGraphicsViewPrivateC2Ev@Base 5.0.2
- _ZN20QGraphicsViewPrivateD0Ev@Base 5.0.2
- _ZN20QGraphicsViewPrivateD1Ev@Base 5.0.2
- _ZN20QGraphicsViewPrivateD2Ev@Base 5.0.2
+ _ZN20QGraphicsViewPrivate10centerViewEN13QGraphicsView14ViewportAnchorE@Base 5.0.2 1
+ _ZN20QGraphicsViewPrivate10updateRectERK5QRect@Base 5.0.2 1
+ _ZN20QGraphicsViewPrivate12updateRegionERK6QRectFRK10QTransform@Base 5.0.2 1
+ _ZN20QGraphicsViewPrivate12updateScrollEv@Base 5.0.2 1
+ _ZN20QGraphicsViewPrivate13setUpdateClipEP13QGraphicsItem@Base 5.0.2 1
+ _ZN20QGraphicsViewPrivate15storeMouseEventEP11QMouseEvent@Base 5.0.2 1
+ _ZN20QGraphicsViewPrivate16updateRubberBandEP11QMouseEvent@Base 5.0.2 1
+ _ZN20QGraphicsViewPrivate18storeDragDropEventEPK27QGraphicsSceneDragDropEvent@Base 5.0.2 1
+ _ZN20QGraphicsViewPrivate19translateTouchEventEPS_P11QTouchEvent@Base 5.0.2 1
+ _ZN20QGraphicsViewPrivate20_q_setViewportCursorERK7QCursor@Base 5.0.2 1
+ _ZN20QGraphicsViewPrivate20replayLastMouseEventEv@Base 5.0.2 1
+ _ZN20QGraphicsViewPrivate21freeStyleOptionsArrayEP24QStyleOptionGraphicsItem@Base 5.0.2 1
+ _ZN20QGraphicsViewPrivate21mouseMoveEventHandlerEP11QMouseEvent@Base 5.0.2 1
+ _ZN20QGraphicsViewPrivate21processPendingUpdatesEv@Base 5.0.2 1
+ _ZN20QGraphicsViewPrivate21updateLastCenterPointEv@Base 5.0.2 1
+ _ZN20QGraphicsViewPrivate22_q_unsetViewportCursorEv@Base 5.0.2 1
+ _ZN20QGraphicsViewPrivate22allocStyleOptionsArrayEi@Base 5.0.2 1
+ _ZN20QGraphicsViewPrivate22recalculateContentSizeEv@Base 5.0.2 1
+ _ZN20QGraphicsViewPrivate26populateSceneDragDropEventEP27QGraphicsSceneDragDropEventP10QDropEvent@Base 5.0.2 1
+ _ZN20QGraphicsViewPrivate28updateInputMethodSensitivityEv@Base 5.0.2 1
+ _ZN20QGraphicsViewPrivateC1Ev@Base 5.0.2 1
+ _ZN20QGraphicsViewPrivateC2Ev@Base 5.0.2 1
+ _ZN20QGraphicsViewPrivateD0Ev@Base 5.0.2 1
+ _ZN20QGraphicsViewPrivateD1Ev@Base 5.0.2 1
+ _ZN20QGraphicsViewPrivateD2Ev@Base 5.0.2 1
  _ZN20QStyleHintReturnMaskC1Ev@Base 5.0.2
  _ZN20QStyleHintReturnMaskC2Ev@Base 5.0.2
  _ZN20QStyleHintReturnMaskD1Ev@Base 5.0.2
@@ -3453,22 +3453,22 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN20QStyleOptionViewItemC2Ev@Base 5.0.2
  _ZN20QStyleOptionViewItemD1Ev@Base 5.0.2
  _ZN20QStyleOptionViewItemD2Ev@Base 5.0.2
- _ZN20QWidgetResizeHandler11eventFilterEP7QObjectP6QEvent@Base 5.0.2
- _ZN20QWidgetResizeHandler11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
- _ZN20QWidgetResizeHandler11qt_metacastEPKc@Base 5.0.2
- _ZN20QWidgetResizeHandler13keyPressEventEP9QKeyEvent@Base 5.0.2
- _ZN20QWidgetResizeHandler14mouseMoveEventEP11QMouseEvent@Base 5.0.2
- _ZN20QWidgetResizeHandler14setMouseCursorENS_13MousePositionE@Base 5.0.2
- _ZN20QWidgetResizeHandler16staticMetaObjectE@Base 5.0.2
- _ZN20QWidgetResizeHandler6doMoveEv@Base 5.0.2
- _ZN20QWidgetResizeHandler8activateEv@Base 5.0.2
- _ZN20QWidgetResizeHandler8doResizeEv@Base 5.0.2
- _ZN20QWidgetResizeHandler9setActiveENS_6ActionEb@Base 5.0.2
- _ZN20QWidgetResizeHandlerC1EP7QWidgetS1_@Base 5.0.2
- _ZN20QWidgetResizeHandlerC2EP7QWidgetS1_@Base 5.0.2
- _ZN20QWidgetResizeHandlerD0Ev@Base 5.0.2
- _ZN20QWidgetResizeHandlerD1Ev@Base 5.0.2
- _ZN20QWidgetResizeHandlerD2Ev@Base 5.0.2
+ _ZN20QWidgetResizeHandler11eventFilterEP7QObjectP6QEvent@Base 5.0.2 1
+ _ZN20QWidgetResizeHandler11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
+ _ZN20QWidgetResizeHandler11qt_metacastEPKc@Base 5.0.2 1
+ _ZN20QWidgetResizeHandler13keyPressEventEP9QKeyEvent@Base 5.0.2 1
+ _ZN20QWidgetResizeHandler14mouseMoveEventEP11QMouseEvent@Base 5.0.2 1
+ _ZN20QWidgetResizeHandler14setMouseCursorENS_13MousePositionE@Base 5.0.2 1
+ _ZN20QWidgetResizeHandler16staticMetaObjectE@Base 5.0.2 1
+ _ZN20QWidgetResizeHandler6doMoveEv@Base 5.0.2 1
+ _ZN20QWidgetResizeHandler8activateEv@Base 5.0.2 1
+ _ZN20QWidgetResizeHandler8doResizeEv@Base 5.0.2 1
+ _ZN20QWidgetResizeHandler9setActiveENS_6ActionEb@Base 5.0.2 1
+ _ZN20QWidgetResizeHandlerC1EP7QWidgetS1_@Base 5.0.2 1
+ _ZN20QWidgetResizeHandlerC2EP7QWidgetS1_@Base 5.0.2 1
+ _ZN20QWidgetResizeHandlerD0Ev@Base 5.0.2 1
+ _ZN20QWidgetResizeHandlerD1Ev@Base 5.0.2 1
+ _ZN20QWidgetResizeHandlerD2Ev@Base 5.0.2 1
  _ZN21QAbstractItemDelegate10commitDataEP7QWidget@Base 5.0.2
  _ZN21QAbstractItemDelegate10elidedTextERK12QFontMetricsiN2Qt13TextElideModeERK7QString@Base 5.0.2
  _ZN21QAbstractItemDelegate11closeEditorEP7QWidgetNS_11EndEditHintE@Base 5.0.2
@@ -3479,9 +3479,9 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN21QAbstractItemDelegate16staticMetaObjectE@Base 5.0.2
  _ZN21QAbstractItemDelegate9helpEventEP10QHelpEventP17QAbstractItemViewRK20QStyleOptionViewItemRK11QModelIndex@Base 5.0.2
  _ZN21QAbstractItemDelegateC1EP7QObject@Base 5.0.2
- _ZN21QAbstractItemDelegateC1ER14QObjectPrivateP7QObject@Base 5.0.2
+ _ZN21QAbstractItemDelegateC1ER14QObjectPrivateP7QObject@Base 5.0.2 1
  _ZN21QAbstractItemDelegateC2EP7QObject@Base 5.0.2
- _ZN21QAbstractItemDelegateC2ER14QObjectPrivateP7QObject@Base 5.0.2
+ _ZN21QAbstractItemDelegateC2ER14QObjectPrivateP7QObject@Base 5.0.2 1
  _ZN21QAbstractItemDelegateD0Ev@Base 5.0.2
  _ZN21QAbstractItemDelegateD1Ev@Base 5.0.2
  _ZN21QAbstractItemDelegateD2Ev@Base 5.0.2
@@ -3500,16 +3500,16 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN21QGraphicsAnchorLayoutD0Ev@Base 5.0.2
  _ZN21QGraphicsAnchorLayoutD1Ev@Base 5.0.2
  _ZN21QGraphicsAnchorLayoutD2Ev@Base 5.0.2
- _ZN21QGraphicsEffectSource11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
- _ZN21QGraphicsEffectSource11qt_metacastEPKc@Base 5.0.2
- _ZN21QGraphicsEffectSource16staticMetaObjectE@Base 5.0.2
- _ZN21QGraphicsEffectSource4drawEP8QPainter@Base 5.0.2
- _ZN21QGraphicsEffectSource6updateEv@Base 5.0.2
- _ZN21QGraphicsEffectSourceC1ER28QGraphicsEffectSourcePrivateP7QObject@Base 5.0.2
- _ZN21QGraphicsEffectSourceC2ER28QGraphicsEffectSourcePrivateP7QObject@Base 5.0.2
- _ZN21QGraphicsEffectSourceD0Ev@Base 5.0.2
- _ZN21QGraphicsEffectSourceD1Ev@Base 5.0.2
- _ZN21QGraphicsEffectSourceD2Ev@Base 5.0.2
+ _ZN21QGraphicsEffectSource11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
+ _ZN21QGraphicsEffectSource11qt_metacastEPKc@Base 5.0.2 1
+ _ZN21QGraphicsEffectSource16staticMetaObjectE@Base 5.0.2 1
+ _ZN21QGraphicsEffectSource4drawEP8QPainter@Base 5.0.2 1
+ _ZN21QGraphicsEffectSource6updateEv@Base 5.0.2 1
+ _ZN21QGraphicsEffectSourceC1ER28QGraphicsEffectSourcePrivateP7QObject@Base 5.0.2 1
+ _ZN21QGraphicsEffectSourceC2ER28QGraphicsEffectSourcePrivateP7QObject@Base 5.0.2 1
+ _ZN21QGraphicsEffectSourceD0Ev@Base 5.0.2 1
+ _ZN21QGraphicsEffectSourceD1Ev@Base 5.0.2 1
+ _ZN21QGraphicsEffectSourceD2Ev@Base 5.0.2 1
  _ZN21QGraphicsLinearLayout10insertItemEiP19QGraphicsLayoutItem@Base 5.0.2
  _ZN21QGraphicsLinearLayout10invalidateEv@Base 5.0.2
  _ZN21QGraphicsLinearLayout10removeItemEP19QGraphicsLayoutItem@Base 5.0.2
@@ -3543,23 +3543,23 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN21QMouseEventTransitionD0Ev@Base 5.0.2
  _ZN21QMouseEventTransitionD1Ev@Base 5.0.2
  _ZN21QMouseEventTransitionD2Ev@Base 5.0.2
- _ZN21QPixmapColorizeFilter11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
- _ZN21QPixmapColorizeFilter11qt_metacastEPKc@Base 5.0.2
- (subst)_ZN21QPixmapColorizeFilter11setStrengthE{qreal}@Base 5.0.2
- _ZN21QPixmapColorizeFilter16staticMetaObjectE@Base 5.0.2
- _ZN21QPixmapColorizeFilter8setColorERK6QColor@Base 5.0.2
- _ZN21QPixmapColorizeFilterC1EP7QObject@Base 5.0.2
- _ZN21QPixmapColorizeFilterC2EP7QObject@Base 5.0.2
- _ZN21QPixmapColorizeFilterD0Ev@Base 5.0.2
- _ZN21QPixmapColorizeFilterD1Ev@Base 5.0.2
- _ZN21QPixmapColorizeFilterD2Ev@Base 5.0.2
+ _ZN21QPixmapColorizeFilter11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
+ _ZN21QPixmapColorizeFilter11qt_metacastEPKc@Base 5.0.2 1
+ (subst)_ZN21QPixmapColorizeFilter11setStrengthE{qreal}@Base 5.0.2 1
+ _ZN21QPixmapColorizeFilter16staticMetaObjectE@Base 5.0.2 1
+ _ZN21QPixmapColorizeFilter8setColorERK6QColor@Base 5.0.2 1
+ _ZN21QPixmapColorizeFilterC1EP7QObject@Base 5.0.2 1
+ _ZN21QPixmapColorizeFilterC2EP7QObject@Base 5.0.2 1
+ _ZN21QPixmapColorizeFilterD0Ev@Base 5.0.2 1
+ _ZN21QPixmapColorizeFilterD1Ev@Base 5.0.2 1
+ _ZN21QPixmapColorizeFilterD2Ev@Base 5.0.2 1
  _ZN21QStyleOptionFocusRectC1Ei@Base 5.0.2
  _ZN21QStyleOptionFocusRectC1Ev@Base 5.0.2
  _ZN21QStyleOptionFocusRectC2Ei@Base 5.0.2
  _ZN21QStyleOptionFocusRectC2Ev@Base 5.0.2
- _ZN22QGraphicsEffectPrivateD0Ev@Base 5.0.2
- _ZN22QGraphicsEffectPrivateD1Ev@Base 5.0.2
- _ZN22QGraphicsEffectPrivateD2Ev@Base 5.0.2
+ _ZN22QGraphicsEffectPrivateD0Ev@Base 5.0.2 1
+ _ZN22QGraphicsEffectPrivateD1Ev@Base 5.0.2 1
+ _ZN22QGraphicsEffectPrivateD2Ev@Base 5.0.2 1
  (subst)_ZN22QGraphicsItemAnimation10setScaleAtE{qreal}{qreal}{qreal}@Base 5.0.2
  (subst)_ZN22QGraphicsItemAnimation10setShearAtE{qreal}{qreal}{qreal}@Base 5.0.2
  _ZN22QGraphicsItemAnimation11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
@@ -3593,8 +3593,8 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN22QGraphicsOpacityEffectD0Ev@Base 5.0.2
  _ZN22QGraphicsOpacityEffectD1Ev@Base 5.0.2
  _ZN22QGraphicsOpacityEffectD2Ev@Base 5.0.2
- (arch=amd64)_ZN22QGuiApplicationPrivate22ActiveTouchPointsValueD1Ev@Base 5.0.2
- (arch=amd64)_ZN22QGuiApplicationPrivate22ActiveTouchPointsValueD2Ev@Base 5.0.2
+ (arch=amd64)_ZN22QGuiApplicationPrivate22ActiveTouchPointsValueD1Ev@Base 5.0.2 1
+ (arch=amd64)_ZN22QGuiApplicationPrivate22ActiveTouchPointsValueD2Ev@Base 5.0.2 1
  _ZN22QItemEditorCreatorBaseD0Ev@Base 5.0.2
  _ZN22QItemEditorCreatorBaseD1Ev@Base 5.0.2
  _ZN22QItemEditorCreatorBaseD2Ev@Base 5.0.2
@@ -3616,9 +3616,9 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN22QStyleOptionToolButtonC2Ev@Base 5.0.2
  (arch=!ia64)_ZN22QStyleOptionToolButtonD1Ev@Base 5.0.2
  (arch=!ia64)_ZN22QStyleOptionToolButtonD2Ev@Base 5.0.2
- _ZN23QEventTransitionPrivateD0Ev@Base 5.0.2
- _ZN23QEventTransitionPrivateD1Ev@Base 5.0.2
- _ZN23QEventTransitionPrivateD2Ev@Base 5.0.2
+ _ZN23QEventTransitionPrivateD0Ev@Base 5.0.2 1
+ _ZN23QEventTransitionPrivateD1Ev@Base 5.0.2 1
+ _ZN23QEventTransitionPrivateD2Ev@Base 5.0.2 1
  _ZN23QGraphicsColorizeEffect11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN23QGraphicsColorizeEffect11qt_metacastEPKc@Base 5.0.2
  (subst)_ZN23QGraphicsColorizeEffect11setStrengthE{qreal}@Base 5.0.2
@@ -3657,17 +3657,17 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN23QGraphicsSimpleTextItemD0Ev@Base 5.0.2
  _ZN23QGraphicsSimpleTextItemD1Ev@Base 5.0.2
  _ZN23QGraphicsSimpleTextItemD2Ev@Base 5.0.2
- _ZN23QPixmapDropShadowFilter11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
- _ZN23QPixmapDropShadowFilter11qt_metacastEPKc@Base 5.0.2
- (subst)_ZN23QPixmapDropShadowFilter13setBlurRadiusE{qreal}@Base 5.0.2
- _ZN23QPixmapDropShadowFilter16staticMetaObjectE@Base 5.0.2
- _ZN23QPixmapDropShadowFilter8setColorERK6QColor@Base 5.0.2
- _ZN23QPixmapDropShadowFilter9setOffsetERK7QPointF@Base 5.0.2
- _ZN23QPixmapDropShadowFilterC1EP7QObject@Base 5.0.2
- _ZN23QPixmapDropShadowFilterC2EP7QObject@Base 5.0.2
- _ZN23QPixmapDropShadowFilterD0Ev@Base 5.0.2
- _ZN23QPixmapDropShadowFilterD1Ev@Base 5.0.2
- _ZN23QPixmapDropShadowFilterD2Ev@Base 5.0.2
+ _ZN23QPixmapDropShadowFilter11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
+ _ZN23QPixmapDropShadowFilter11qt_metacastEPKc@Base 5.0.2 1
+ (subst)_ZN23QPixmapDropShadowFilter13setBlurRadiusE{qreal}@Base 5.0.2 1
+ _ZN23QPixmapDropShadowFilter16staticMetaObjectE@Base 5.0.2 1
+ _ZN23QPixmapDropShadowFilter8setColorERK6QColor@Base 5.0.2 1
+ _ZN23QPixmapDropShadowFilter9setOffsetERK7QPointF@Base 5.0.2 1
+ _ZN23QPixmapDropShadowFilterC1EP7QObject@Base 5.0.2 1
+ _ZN23QPixmapDropShadowFilterC2EP7QObject@Base 5.0.2 1
+ _ZN23QPixmapDropShadowFilterD0Ev@Base 5.0.2 1
+ _ZN23QPixmapDropShadowFilterD1Ev@Base 5.0.2 1
+ _ZN23QPixmapDropShadowFilterD2Ev@Base 5.0.2 1
  _ZN23QStyleHintReturnVariantC1Ev@Base 5.0.2
  _ZN23QStyleHintReturnVariantC2Ev@Base 5.0.2
  _ZN23QStyleHintReturnVariantD1Ev@Base 5.0.2
@@ -3728,15 +3728,15 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN24QGraphicsSceneWheelEventD0Ev@Base 5.0.2
  _ZN24QGraphicsSceneWheelEventD1Ev@Base 5.0.2
  _ZN24QGraphicsSceneWheelEventD2Ev@Base 5.0.2
- _ZN24QPixmapConvolutionFilter11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
- _ZN24QPixmapConvolutionFilter11qt_metacastEPKc@Base 5.0.2
- _ZN24QPixmapConvolutionFilter16staticMetaObjectE@Base 5.0.2
- (subst)_ZN24QPixmapConvolutionFilter20setConvolutionKernelEPK{qreal}ii@Base 5.0.2
- _ZN24QPixmapConvolutionFilterC1EP7QObject@Base 5.0.2
- _ZN24QPixmapConvolutionFilterC2EP7QObject@Base 5.0.2
- _ZN24QPixmapConvolutionFilterD0Ev@Base 5.0.2
- _ZN24QPixmapConvolutionFilterD1Ev@Base 5.0.2
- _ZN24QPixmapConvolutionFilterD2Ev@Base 5.0.2
+ _ZN24QPixmapConvolutionFilter11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
+ _ZN24QPixmapConvolutionFilter11qt_metacastEPKc@Base 5.0.2 1
+ _ZN24QPixmapConvolutionFilter16staticMetaObjectE@Base 5.0.2 1
+ (subst)_ZN24QPixmapConvolutionFilter20setConvolutionKernelEPK{qreal}ii@Base 5.0.2 1
+ _ZN24QPixmapConvolutionFilterC1EP7QObject@Base 5.0.2 1
+ _ZN24QPixmapConvolutionFilterC2EP7QObject@Base 5.0.2 1
+ _ZN24QPixmapConvolutionFilterD0Ev@Base 5.0.2 1
+ _ZN24QPixmapConvolutionFilterD1Ev@Base 5.0.2 1
+ _ZN24QPixmapConvolutionFilterD2Ev@Base 5.0.2 1
  _ZN24QPlainTextDocumentLayout10blockWidthERK10QTextBlock@Base 5.0.2
  _ZN24QPlainTextDocumentLayout11layoutBlockERK10QTextBlock@Base 5.0.2
  _ZN24QPlainTextDocumentLayout11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
@@ -3758,11 +3758,11 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN24QStyleOptionGraphicsItemC2Ei@Base 5.0.2
  _ZN24QStyleOptionGraphicsItemC2Ev@Base 5.0.2
  (arch=s390x)_ZN24QStyleOptionGraphicsItemaSERKS_@Base 5.0.2
- (optional=gccinternal)_ZN25QAbstractItemModelPrivate10PersistentD1Ev@Base 5.0.2
- (optional=gccinternal)_ZN25QAbstractItemModelPrivate10PersistentD2Ev@Base 5.0.2
- _ZN25QAbstractItemModelPrivateD0Ev@Base 5.0.2
- _ZN25QAbstractItemModelPrivateD1Ev@Base 5.0.2
- _ZN25QAbstractItemModelPrivateD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN25QAbstractItemModelPrivate10PersistentD1Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN25QAbstractItemModelPrivate10PersistentD2Ev@Base 5.0.2 1
+ _ZN25QAbstractItemModelPrivateD0Ev@Base 5.0.2 1
+ _ZN25QAbstractItemModelPrivateD1Ev@Base 5.0.2 1
+ _ZN25QAbstractItemModelPrivateD2Ev@Base 5.0.2 1
  _ZN25QGraphicsDropShadowEffect11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN25QGraphicsDropShadowEffect11qt_metacastEPKc@Base 5.0.2
  _ZN25QGraphicsDropShadowEffect12colorChangedERK6QColor@Base 5.0.2
@@ -4069,11 +4069,11 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN7QAction8activateENS_11ActionEventE@Base 5.0.2
  _ZN7QAction9triggeredEb@Base 5.0.2
  _ZN7QActionC1EP7QObject@Base 5.0.2
- _ZN7QActionC1ER14QActionPrivateP7QObject@Base 5.0.2
+ _ZN7QActionC1ER14QActionPrivateP7QObject@Base 5.0.2 1
  _ZN7QActionC1ERK5QIconRK7QStringP7QObject@Base 5.0.2
  _ZN7QActionC1ERK7QStringP7QObject@Base 5.0.2
  _ZN7QActionC2EP7QObject@Base 5.0.2
- _ZN7QActionC2ER14QActionPrivateP7QObject@Base 5.0.2
+ _ZN7QActionC2ER14QActionPrivateP7QObject@Base 5.0.2 1
  _ZN7QActionC2ERK5QIconRK7QStringP7QObject@Base 5.0.2
  _ZN7QActionC2ERK7QStringP7QObject@Base 5.0.2
  _ZN7QActionD0Ev@Base 5.0.2
@@ -4138,10 +4138,10 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN7QLayout9addWidgetEP7QWidget@Base 5.0.2
  _ZN7QLayout9setMarginEi@Base 5.0.2
  _ZN7QLayoutC1EP7QWidget@Base 5.0.2
- _ZN7QLayoutC1ER14QLayoutPrivatePS_P7QWidget@Base 5.0.2
+ _ZN7QLayoutC1ER14QLayoutPrivatePS_P7QWidget@Base 5.0.2 1
  _ZN7QLayoutC1Ev@Base 5.0.2
  _ZN7QLayoutC2EP7QWidget@Base 5.0.2
- _ZN7QLayoutC2ER14QLayoutPrivatePS_P7QWidget@Base 5.0.2
+ _ZN7QLayoutC2ER14QLayoutPrivatePS_P7QWidget@Base 5.0.2 1
  _ZN7QLayoutC2Ev@Base 5.0.2
  _ZN7QLayoutD0Ev@Base 5.0.2
  _ZN7QLayoutD1Ev@Base 5.0.2
@@ -4367,9 +4367,9 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN7QWidget9setParentEPS_@Base 5.0.2
  _ZN7QWidget9showEventEP10QShowEvent@Base 5.0.2
  _ZN7QWidgetC1EPS_6QFlagsIN2Qt10WindowTypeEE@Base 5.0.2
- _ZN7QWidgetC1ER14QWidgetPrivatePS_6QFlagsIN2Qt10WindowTypeEE@Base 5.0.2
+ _ZN7QWidgetC1ER14QWidgetPrivatePS_6QFlagsIN2Qt10WindowTypeEE@Base 5.0.2 1
  _ZN7QWidgetC2EPS_6QFlagsIN2Qt10WindowTypeEE@Base 5.0.2
- _ZN7QWidgetC2ER14QWidgetPrivatePS_6QFlagsIN2Qt10WindowTypeEE@Base 5.0.2
+ _ZN7QWidgetC2ER14QWidgetPrivatePS_6QFlagsIN2Qt10WindowTypeEE@Base 5.0.2 1
  _ZN7QWidgetD0Ev@Base 5.0.2
  _ZN7QWidgetD1Ev@Base 5.0.2
  _ZN7QWidgetD2Ev@Base 5.0.2
@@ -4680,9 +4680,9 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN9QComboBox9showEventEP10QShowEvent@Base 5.0.2
  _ZN9QComboBox9showPopupEv@Base 5.0.2
  _ZN9QComboBoxC1EP7QWidget@Base 5.0.2
- _ZN9QComboBoxC1ER16QComboBoxPrivateP7QWidget@Base 5.0.2
+ _ZN9QComboBoxC1ER16QComboBoxPrivateP7QWidget@Base 5.0.2 1
  _ZN9QComboBoxC2EP7QWidget@Base 5.0.2
- _ZN9QComboBoxC2ER16QComboBoxPrivateP7QWidget@Base 5.0.2
+ _ZN9QComboBoxC2ER16QComboBoxPrivateP7QWidget@Base 5.0.2 1
  _ZN9QComboBoxD0Ev@Base 5.0.2
  _ZN9QComboBoxD1Ev@Base 5.0.2
  _ZN9QComboBoxD2Ev@Base 5.0.2
@@ -5131,9 +5131,9 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN9QTreeView9selectAllEv@Base 5.0.2
  _ZN9QTreeView9setHeaderEP11QHeaderView@Base 5.0.2
  _ZN9QTreeViewC1EP7QWidget@Base 5.0.2
- _ZN9QTreeViewC1ER16QTreeViewPrivateP7QWidget@Base 5.0.2
+ _ZN9QTreeViewC1ER16QTreeViewPrivateP7QWidget@Base 5.0.2 1
  _ZN9QTreeViewC2EP7QWidget@Base 5.0.2
- _ZN9QTreeViewC2ER16QTreeViewPrivateP7QWidget@Base 5.0.2
+ _ZN9QTreeViewC2ER16QTreeViewPrivateP7QWidget@Base 5.0.2 1
  _ZN9QTreeViewD0Ev@Base 5.0.2
  _ZN9QTreeViewD1Ev@Base 5.0.2
  _ZN9QTreeViewD2Ev@Base 5.0.2
@@ -5625,8 +5625,8 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK12QCommonStyle19generatedIconPixmapEN5QIcon4ModeERK7QPixmapPK12QStyleOption@Base 5.0.2
  _ZNK12QCommonStyle21hitTestComplexControlEN6QStyle14ComplexControlEPK19QStyleOptionComplexRK6QPointPK7QWidget@Base 5.0.2
  _ZNK12QCommonStyle9styleHintEN6QStyle9StyleHintEPK12QStyleOptionPK7QWidgetP16QStyleHintReturn@Base 5.0.2
- _ZNK12QFSCompleter13pathFromIndexERK11QModelIndex@Base 5.0.2
- _ZNK12QFSCompleter9splitPathERK7QString@Base 5.0.2
+ _ZNK12QFSCompleter13pathFromIndexERK11QModelIndex@Base 5.0.2 1
+ _ZNK12QFSCompleter9splitPathERK7QString@Base 5.0.2 1
  _ZNK12QInputDialog10intMaximumEv@Base 5.0.2
  _ZNK12QInputDialog10intMinimumEv@Base 5.0.2
  _ZNK12QInputDialog10metaObjectEv@Base 5.0.2
@@ -5740,7 +5740,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK13QDateTimeEdit8validateER7QStringRi@Base 5.0.2
  _ZNK13QDateTimeEdit9sectionAtEi@Base 5.0.2
  _ZNK13QErrorMessage10metaObjectEv@Base 5.0.2
- _ZNK13QFlickGesture10metaObjectEv@Base 5.0.2
+ _ZNK13QFlickGesture10metaObjectEv@Base 5.0.2 1
  _ZNK13QFontComboBox10metaObjectEv@Base 5.0.2
  _ZNK13QFontComboBox11currentFontEv@Base 5.0.2
  _ZNK13QFontComboBox11fontFiltersEv@Base 5.0.2
@@ -5939,9 +5939,9 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK13QPinchGesture16totalScaleFactorEv@Base 5.0.2
  _ZNK13QPinchGesture17lastRotationAngleEv@Base 5.0.2
  _ZNK13QPinchGesture18totalRotationAngleEv@Base 5.0.2
- _ZNK13QPixmapFilter10metaObjectEv@Base 5.0.2
- _ZNK13QPixmapFilter15boundingRectForERK6QRectF@Base 5.0.2
- _ZNK13QPixmapFilter4typeEv@Base 5.0.2
+ _ZNK13QPixmapFilter10metaObjectEv@Base 5.0.2 1
+ _ZNK13QPixmapFilter15boundingRectForERK6QRectF@Base 5.0.2 1
+ _ZNK13QPixmapFilter4typeEv@Base 5.0.2 1
  _ZNK13QSplashScreen10metaObjectEv@Base 5.0.2
  _ZNK13QSplashScreen6pixmapEv@Base 5.0.2
  _ZNK13QSwipeGesture10metaObjectEv@Base 5.0.2
@@ -6014,7 +6014,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK14QGraphicsScene8isActiveEv@Base 5.0.2
  _ZNK14QGraphicsScene9focusItemEv@Base 5.0.2
  _ZNK14QGraphicsScene9sceneRectEv@Base 5.0.2
- _ZNK14QLayoutPrivate9getMarginEPiiN6QStyle11PixelMetricE@Base 5.0.2
+ _ZNK14QLayoutPrivate9getMarginEPiiN6QStyle11PixelMetricE@Base 5.0.2 1
  _ZNK14QPlainTextEdit10blockCountEv@Base 5.0.2
  _ZNK14QPlainTextEdit10cursorRectERK11QTextCursor@Base 5.0.2
  _ZNK14QPlainTextEdit10cursorRectEv@Base 5.0.2
@@ -6062,23 +6062,23 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK14QStackedWidget5countEv@Base 5.0.2
  _ZNK14QStackedWidget6widgetEi@Base 5.0.2
  _ZNK14QStackedWidget7indexOfEP7QWidget@Base 5.0.2
- _ZNK14QWidgetPrivate10clipRegionEv@Base 5.0.2
- _ZNK14QWidgetPrivate10frameStrutEv@Base 5.0.2
- _ZNK14QWidgetPrivate12adjustedSizeEv@Base 5.0.2
- _ZNK14QWidgetPrivate12isOverlappedERK5QRect@Base 5.0.2
- _ZNK14QWidgetPrivate13isAboutToShowEv@Base 5.0.2
- _ZNK14QWidgetPrivate13paintOnScreenEv@Base 5.0.2
- _ZNK14QWidgetPrivate14childAt_helperERK6QPointb@Base 5.0.2
- _ZNK14QWidgetPrivate15paintBackgroundEP8QPainterRK7QRegioni@Base 5.0.2
- _ZNK14QWidgetPrivate17getOpaqueChildrenEv@Base 5.0.2
- _ZNK14QWidgetPrivate17naturalWidgetFontEj@Base 5.0.2
- _ZNK14QWidgetPrivate19clipToEffectiveMaskER7QRegion@Base 5.0.2
- _ZNK14QWidgetPrivate20getLayoutItemMarginsEPiS0_S0_S0_@Base 5.0.2
- _ZNK14QWidgetPrivate20naturalWidgetPaletteEj@Base 5.0.2
- _ZNK14QWidgetPrivate22childAtRecursiveHelperERK6QPointbb@Base 5.0.2
- _ZNK14QWidgetPrivate22subtractOpaqueChildrenER7QRegionRK5QRect@Base 5.0.2
- _ZNK14QWidgetPrivate22subtractOpaqueSiblingsER7QRegionPbb@Base 5.0.2
- _ZNK14QWidgetPrivate8clipRectEv@Base 5.0.2
+ _ZNK14QWidgetPrivate10clipRegionEv@Base 5.0.2 1
+ _ZNK14QWidgetPrivate10frameStrutEv@Base 5.0.2 1
+ _ZNK14QWidgetPrivate12adjustedSizeEv@Base 5.0.2 1
+ _ZNK14QWidgetPrivate12isOverlappedERK5QRect@Base 5.0.2 1
+ _ZNK14QWidgetPrivate13isAboutToShowEv@Base 5.0.2 1
+ _ZNK14QWidgetPrivate13paintOnScreenEv@Base 5.0.2 1
+ _ZNK14QWidgetPrivate14childAt_helperERK6QPointb@Base 5.0.2 1
+ _ZNK14QWidgetPrivate15paintBackgroundEP8QPainterRK7QRegioni@Base 5.0.2 1
+ _ZNK14QWidgetPrivate17getOpaqueChildrenEv@Base 5.0.2 1
+ _ZNK14QWidgetPrivate17naturalWidgetFontEj@Base 5.0.2 1
+ _ZNK14QWidgetPrivate19clipToEffectiveMaskER7QRegion@Base 5.0.2 1
+ _ZNK14QWidgetPrivate20getLayoutItemMarginsEPiS0_S0_S0_@Base 5.0.2 1
+ _ZNK14QWidgetPrivate20naturalWidgetPaletteEj@Base 5.0.2 1
+ _ZNK14QWidgetPrivate22childAtRecursiveHelperERK6QPointbb@Base 5.0.2 1
+ _ZNK14QWidgetPrivate22subtractOpaqueChildrenER7QRegionRK5QRect@Base 5.0.2 1
+ _ZNK14QWidgetPrivate22subtractOpaqueSiblingsER7QRegionPbb@Base 5.0.2 1
+ _ZNK14QWidgetPrivate8clipRectEv@Base 5.0.2 1
  _ZNK15QAbstractButton10autoRepeatEv@Base 5.0.2
  _ZNK15QAbstractButton10metaObjectEv@Base 5.0.2
  _ZNK15QAbstractButton11isCheckableEv@Base 5.0.2
@@ -6261,27 +6261,27 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK16QTableWidgetItem5cloneEv@Base 5.0.2
  _ZNK16QTableWidgetItem5writeER11QDataStream@Base 5.0.2
  _ZNK16QTableWidgetItemltERKS_@Base 5.0.2
- _ZNK16QTreeViewPrivate10itemHeightEi@Base 5.0.2
- _ZNK16QTreeViewPrivate10modelIndexEii@Base 5.0.2
- _ZNK16QTreeViewPrivate12columnRangesERK11QModelIndexS2_@Base 5.0.2
- _ZNK16QTreeViewPrivate16firstVisibleItemEPi@Base 5.0.2
- _ZNK16QTreeViewPrivate16itemAtCoordinateEi@Base 5.0.2
- _ZNK16QTreeViewPrivate16itemDecorationAtERK6QPoint@Base 5.0.2
- _ZNK16QTreeViewPrivate17coordinateForItemEi@Base 5.0.2
- _ZNK16QTreeViewPrivate18calcLogicalIndicesEP7QVectorIiEPS0_IN20QStyleOptionViewItem16ViewItemPositionEEii@Base 5.0.2
- _ZNK16QTreeViewPrivate18hasVisibleChildrenERK11QModelIndex@Base 5.0.2
- _ZNK16QTreeViewPrivate18indentationForItemEi@Base 5.0.2
- _ZNK16QTreeViewPrivate18itemDecorationRectERK11QModelIndex@Base 5.0.2
- _ZNK16QTreeViewPrivate18startAndEndColumnsERK5QRect@Base 5.0.2
- _ZNK16QTreeViewPrivate19draggablePaintPairsERK5QListI11QModelIndexEP5QRect@Base 5.0.2
- _ZNK16QTreeViewPrivate21drawAnimatedOperationEP8QPainter@Base 5.0.2
- _ZNK16QTreeViewPrivate25adjustViewOptionsForIndexEP20QStyleOptionViewItemRK11QModelIndex@Base 5.0.2
- _ZNK16QTreeViewPrivate25paintAlternatingRowColorsEP8QPainterP20QStyleOptionViewItemii@Base 5.0.2
- _ZNK16QTreeViewPrivate30renderTreeToPixmapForAnimationERK5QRect@Base 5.0.2
- _ZNK16QTreeViewPrivate6pageUpEi@Base 5.0.2
- _ZNK16QTreeViewPrivate8columnAtEi@Base 5.0.2
- _ZNK16QTreeViewPrivate8pageDownEi@Base 5.0.2
- _ZNK16QTreeViewPrivate9viewIndexERK11QModelIndex@Base 5.0.2
+ _ZNK16QTreeViewPrivate10itemHeightEi@Base 5.0.2 1
+ _ZNK16QTreeViewPrivate10modelIndexEii@Base 5.0.2 1
+ _ZNK16QTreeViewPrivate12columnRangesERK11QModelIndexS2_@Base 5.0.2 1
+ _ZNK16QTreeViewPrivate16firstVisibleItemEPi@Base 5.0.2 1
+ _ZNK16QTreeViewPrivate16itemAtCoordinateEi@Base 5.0.2 1
+ _ZNK16QTreeViewPrivate16itemDecorationAtERK6QPoint@Base 5.0.2 1
+ _ZNK16QTreeViewPrivate17coordinateForItemEi@Base 5.0.2 1
+ _ZNK16QTreeViewPrivate18calcLogicalIndicesEP7QVectorIiEPS0_IN20QStyleOptionViewItem16ViewItemPositionEEii@Base 5.0.2 1
+ _ZNK16QTreeViewPrivate18hasVisibleChildrenERK11QModelIndex@Base 5.0.2 1
+ _ZNK16QTreeViewPrivate18indentationForItemEi@Base 5.0.2 1
+ _ZNK16QTreeViewPrivate18itemDecorationRectERK11QModelIndex@Base 5.0.2 1
+ _ZNK16QTreeViewPrivate18startAndEndColumnsERK5QRect@Base 5.0.2 1
+ _ZNK16QTreeViewPrivate19draggablePaintPairsERK5QListI11QModelIndexEP5QRect@Base 5.0.2 1
+ _ZNK16QTreeViewPrivate21drawAnimatedOperationEP8QPainter@Base 5.0.2 1
+ _ZNK16QTreeViewPrivate25adjustViewOptionsForIndexEP20QStyleOptionViewItemRK11QModelIndex@Base 5.0.2 1
+ _ZNK16QTreeViewPrivate25paintAlternatingRowColorsEP8QPainterP20QStyleOptionViewItemii@Base 5.0.2 1
+ _ZNK16QTreeViewPrivate30renderTreeToPixmapForAnimationERK5QRect@Base 5.0.2 1
+ _ZNK16QTreeViewPrivate6pageUpEi@Base 5.0.2 1
+ _ZNK16QTreeViewPrivate8columnAtEi@Base 5.0.2 1
+ _ZNK16QTreeViewPrivate8pageDownEi@Base 5.0.2 1
+ _ZNK16QTreeViewPrivate9viewIndexERK11QModelIndex@Base 5.0.2 1
  _ZNK17QAbstractItemView10metaObjectEv@Base 5.0.2
  _ZNK17QAbstractItemView11dragEnabledEv@Base 5.0.2
  _ZNK17QAbstractItemView11indexWidgetERK11QModelIndex@Base 5.0.2
@@ -6347,19 +6347,19 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK17QDataWidgetMapper18mappedPropertyNameEP7QWidget@Base 5.0.2
  _ZNK17QDataWidgetMapper5modelEv@Base 5.0.2
  _ZNK17QDataWidgetMapper9rootIndexEv@Base 5.0.2
- _ZNK17QDockWidgetLayout10metaObjectEv@Base 5.0.2
- _ZNK17QDockWidgetLayout11itemForRoleENS_4RoleE@Base 5.0.2
- _ZNK17QDockWidgetLayout11maximumSizeEv@Base 5.0.2
- _ZNK17QDockWidgetLayout11minimumSizeEv@Base 5.0.2
- _ZNK17QDockWidgetLayout11titleHeightEv@Base 5.0.2
- _ZNK17QDockWidgetLayout13widgetForRoleENS_4RoleE@Base 5.0.2
- _ZNK17QDockWidgetLayout15sizeFromContentERK5QSizeb@Base 5.0.2
- _ZNK17QDockWidgetLayout16nativeWindowDecoEb@Base 5.0.2
- _ZNK17QDockWidgetLayout16nativeWindowDecoEv@Base 5.0.2
- _ZNK17QDockWidgetLayout17minimumTitleWidthEv@Base 5.0.2
- _ZNK17QDockWidgetLayout5countEv@Base 5.0.2
- _ZNK17QDockWidgetLayout6itemAtEi@Base 5.0.2
- _ZNK17QDockWidgetLayout8sizeHintEv@Base 5.0.2
+ _ZNK17QDockWidgetLayout10metaObjectEv@Base 5.0.2 1
+ _ZNK17QDockWidgetLayout11itemForRoleENS_4RoleE@Base 5.0.2 1
+ _ZNK17QDockWidgetLayout11maximumSizeEv@Base 5.0.2 1
+ _ZNK17QDockWidgetLayout11minimumSizeEv@Base 5.0.2 1
+ _ZNK17QDockWidgetLayout11titleHeightEv@Base 5.0.2 1
+ _ZNK17QDockWidgetLayout13widgetForRoleENS_4RoleE@Base 5.0.2 1
+ _ZNK17QDockWidgetLayout15sizeFromContentERK5QSizeb@Base 5.0.2 1
+ _ZNK17QDockWidgetLayout16nativeWindowDecoEb@Base 5.0.2 1
+ _ZNK17QDockWidgetLayout16nativeWindowDecoEv@Base 5.0.2 1
+ _ZNK17QDockWidgetLayout17minimumTitleWidthEv@Base 5.0.2 1
+ _ZNK17QDockWidgetLayout5countEv@Base 5.0.2 1
+ _ZNK17QDockWidgetLayout6itemAtEi@Base 5.0.2 1
+ _ZNK17QDockWidgetLayout8sizeHintEv@Base 5.0.2 1
  _ZNK17QFileIconProvider4iconENS_8IconTypeE@Base 5.0.2
  _ZNK17QFileIconProvider4iconERK9QFileInfo@Base 5.0.2
  _ZNK17QFileIconProvider4typeERK9QFileInfo@Base 5.0.2
@@ -6416,24 +6416,24 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK17QGraphicsTextItem8documentEv@Base 5.0.2
  _ZNK17QGraphicsTextItem9extensionERK8QVariant@Base 5.0.2
  _ZNK17QGraphicsTextItem9textWidthEv@Base 5.0.2
- _ZNK17QPixmapBlurFilter10metaObjectEv@Base 5.0.2
- _ZNK17QPixmapBlurFilter15boundingRectForERK6QRectF@Base 5.0.2
- _ZNK17QPixmapBlurFilter4drawEP8QPainterRK7QPointFRK7QPixmapRK6QRectF@Base 5.0.2
- _ZNK17QPixmapBlurFilter6radiusEv@Base 5.0.2
- _ZNK17QPixmapBlurFilter9blurHintsEv@Base 5.0.2
+ _ZNK17QPixmapBlurFilter10metaObjectEv@Base 5.0.2 1
+ _ZNK17QPixmapBlurFilter15boundingRectForERK6QRectF@Base 5.0.2 1
+ _ZNK17QPixmapBlurFilter4drawEP8QPainterRK7QPointFRK7QPixmapRK6QRectF@Base 5.0.2 1
+ _ZNK17QPixmapBlurFilter6radiusEv@Base 5.0.2 1
+ _ZNK17QPixmapBlurFilter9blurHintsEv@Base 5.0.2 1
  _ZNK18QCommandLinkButton10metaObjectEv@Base 5.0.2
  _ZNK18QCommandLinkButton11descriptionEv@Base 5.0.2
  _ZNK18QCommandLinkButton14heightForWidthEi@Base 5.0.2
  _ZNK18QCommandLinkButton15minimumSizeHintEv@Base 5.0.2
  _ZNK18QCommandLinkButton8sizeHintEv@Base 5.0.2
- _ZNK18QFileDialogPrivate10typedFilesEv@Base 5.0.2
- _ZNK18QFileDialogPrivate11currentViewEv@Base 5.0.2
- (optional=gccinternal)_ZNK18QFileDialogPrivate13directory_sysEv@Base 5.0.2
- (optional=gccinternal)_ZNK18QFileDialogPrivate17selectedFiles_sysEv@Base 5.0.2
- _ZNK18QFileDialogPrivate17userSelectedFilesEv@Base 5.0.2
- (optional=gccinternal)_ZNK18QFileDialogPrivate22selectedNameFilter_sysEv@Base 5.0.2
- _ZNK18QFileDialogPrivate23addDefaultSuffixToFilesE11QStringList@Base 5.0.2
- _ZNK18QFileDialogPrivate8lineEditEv@Base 5.0.2
+ _ZNK18QFileDialogPrivate10typedFilesEv@Base 5.0.2 1
+ _ZNK18QFileDialogPrivate11currentViewEv@Base 5.0.2 1
+ (optional=gccinternal)_ZNK18QFileDialogPrivate13directory_sysEv@Base 5.0.2 1
+ (optional=gccinternal)_ZNK18QFileDialogPrivate17selectedFiles_sysEv@Base 5.0.2 1
+ _ZNK18QFileDialogPrivate17userSelectedFilesEv@Base 5.0.2 1
+ (optional=gccinternal)_ZNK18QFileDialogPrivate22selectedNameFilter_sysEv@Base 5.0.2 1
+ _ZNK18QFileDialogPrivate23addDefaultSuffixToFilesE11QStringList@Base 5.0.2 1
+ _ZNK18QFileDialogPrivate8lineEditEv@Base 5.0.2 1
  _ZNK18QGraphicsItemGroup10opaqueAreaEv@Base 5.0.2
  _ZNK18QGraphicsItemGroup12boundingRectEv@Base 5.0.2
  _ZNK18QGraphicsItemGroup12isObscuredByEPK13QGraphicsItem@Base 5.0.2
@@ -6443,54 +6443,54 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK18QItemEditorFactory17valuePropertyNameEi@Base 5.0.2
  _ZNK18QTapAndHoldGesture10metaObjectEv@Base 5.0.2
  _ZNK18QTapAndHoldGesture8positionEv@Base 5.0.2
- _ZNK18QWidgetLineControl10cursorRectEv@Base 5.0.2
- _ZNK18QWidgetLineControl10findInMaskEibb5QChar@Base 5.0.2
- _ZNK18QWidgetLineControl10maskStringEjRK7QStringb@Base 5.0.2
- _ZNK18QWidgetLineControl10metaObjectEv@Base 5.0.2
- _ZNK18QWidgetLineControl11clearStringEjj@Base 5.0.2
- _ZNK18QWidgetLineControl11stripStringERK7QString@Base 5.0.2
- _ZNK18QWidgetLineControl12isValidInputE5QCharS0_@Base 5.0.2
- _ZNK18QWidgetLineControl14redoTextLayoutEv@Base 5.0.2
- _ZNK18QWidgetLineControl15isRedoAvailableEv@Base 5.0.2
- _ZNK18QWidgetLineControl15isUndoAvailableEv@Base 5.0.2
- _ZNK18QWidgetLineControl18hasAcceptableInputERK7QString@Base 5.0.2
- _ZNK18QWidgetLineControl4copyEN10QClipboard4ModeE@Base 5.0.2
- _ZNK18QWidgetLineControl6xToPosEiN9QTextLine14CursorPositionE@Base 5.0.2
- _ZNK18QWidgetTextControl10cursorRectERK11QTextCursor@Base 5.0.2
- _ZNK18QWidgetTextControl10cursorRectEv@Base 5.0.2
- _ZNK18QWidgetTextControl10metaObjectEv@Base 5.0.2
- _ZNK18QWidgetTextControl10textCursorEv@Base 5.0.2
- _ZNK18QWidgetTextControl11cursorWidthEv@Base 5.0.2
- _ZNK18QWidgetTextControl11toPlainTextEv@Base 5.0.2
- _ZNK18QWidgetTextControl13isDragEnabledEv@Base 5.0.2
- _ZNK18QWidgetTextControl13overwriteModeEv@Base 5.0.2
- _ZNK18QWidgetTextControl13selectionRectERK11QTextCursor@Base 5.0.2
- _ZNK18QWidgetTextControl13selectionRectEv@Base 5.0.2
- _ZNK18QWidgetTextControl14acceptRichTextEv@Base 5.0.2
- _ZNK18QWidgetTextControl14anchorAtCursorEv@Base 5.0.2
- _ZNK18QWidgetTextControl14anchorPositionERK7QString@Base 5.0.2
- _ZNK18QWidgetTextControl15extraSelectionsEv@Base 5.0.2
- _ZNK18QWidgetTextControl15getPaintContextEP7QWidget@Base 5.0.2
- _ZNK18QWidgetTextControl16inputMethodQueryEN2Qt16InputMethodQueryE@Base 5.0.2
- _ZNK18QWidgetTextControl17blockBoundingRectERK10QTextBlock@Base 5.0.2
- _ZNK18QWidgetTextControl17currentCharFormatEv@Base 5.0.2
- _ZNK18QWidgetTextControl17cursorForPositionERK7QPointF@Base 5.0.2
- _ZNK18QWidgetTextControl17openExternalLinksEv@Base 5.0.2
- _ZNK18QWidgetTextControl20textInteractionFlagsEv@Base 5.0.2
- _ZNK18QWidgetTextControl21canInsertFromMimeDataEPK9QMimeData@Base 5.0.2
- _ZNK18QWidgetTextControl22cursorIsFocusIndicatorEv@Base 5.0.2
- _ZNK18QWidgetTextControl22isWordSelectionEnabledEv@Base 5.0.2
- _ZNK18QWidgetTextControl27createMimeDataFromSelectionEv@Base 5.0.2
- _ZNK18QWidgetTextControl28ignoreUnusedNavigationEventsEv@Base 5.0.2
- _ZNK18QWidgetTextControl4sizeEv@Base 5.0.2
- _ZNK18QWidgetTextControl5printEP17QPagedPaintDevice@Base 5.0.2
- _ZNK18QWidgetTextControl6toHtmlEv@Base 5.0.2
- _ZNK18QWidgetTextControl7hitTestERK7QPointFN2Qt15HitTestAccuracyE@Base 5.0.2
- _ZNK18QWidgetTextControl7paletteEv@Base 5.0.2
- _ZNK18QWidgetTextControl8anchorAtERK7QPointF@Base 5.0.2
- _ZNK18QWidgetTextControl8canPasteEv@Base 5.0.2
- _ZNK18QWidgetTextControl8documentEv@Base 5.0.2
- _ZNK18QWidgetTextControl9textWidthEv@Base 5.0.2
+ _ZNK18QWidgetLineControl10cursorRectEv@Base 5.0.2 1
+ _ZNK18QWidgetLineControl10findInMaskEibb5QChar@Base 5.0.2 1
+ _ZNK18QWidgetLineControl10maskStringEjRK7QStringb@Base 5.0.2 1
+ _ZNK18QWidgetLineControl10metaObjectEv@Base 5.0.2 1
+ _ZNK18QWidgetLineControl11clearStringEjj@Base 5.0.2 1
+ _ZNK18QWidgetLineControl11stripStringERK7QString@Base 5.0.2 1
+ _ZNK18QWidgetLineControl12isValidInputE5QCharS0_@Base 5.0.2 1
+ _ZNK18QWidgetLineControl14redoTextLayoutEv@Base 5.0.2 1
+ _ZNK18QWidgetLineControl15isRedoAvailableEv@Base 5.0.2 1
+ _ZNK18QWidgetLineControl15isUndoAvailableEv@Base 5.0.2 1
+ _ZNK18QWidgetLineControl18hasAcceptableInputERK7QString@Base 5.0.2 1
+ _ZNK18QWidgetLineControl4copyEN10QClipboard4ModeE@Base 5.0.2 1
+ _ZNK18QWidgetLineControl6xToPosEiN9QTextLine14CursorPositionE@Base 5.0.2 1
+ _ZNK18QWidgetTextControl10cursorRectERK11QTextCursor@Base 5.0.2 1
+ _ZNK18QWidgetTextControl10cursorRectEv@Base 5.0.2 1
+ _ZNK18QWidgetTextControl10metaObjectEv@Base 5.0.2 1
+ _ZNK18QWidgetTextControl10textCursorEv@Base 5.0.2 1
+ _ZNK18QWidgetTextControl11cursorWidthEv@Base 5.0.2 1
+ _ZNK18QWidgetTextControl11toPlainTextEv@Base 5.0.2 1
+ _ZNK18QWidgetTextControl13isDragEnabledEv@Base 5.0.2 1
+ _ZNK18QWidgetTextControl13overwriteModeEv@Base 5.0.2 1
+ _ZNK18QWidgetTextControl13selectionRectERK11QTextCursor@Base 5.0.2 1
+ _ZNK18QWidgetTextControl13selectionRectEv@Base 5.0.2 1
+ _ZNK18QWidgetTextControl14acceptRichTextEv@Base 5.0.2 1
+ _ZNK18QWidgetTextControl14anchorAtCursorEv@Base 5.0.2 1
+ _ZNK18QWidgetTextControl14anchorPositionERK7QString@Base 5.0.2 1
+ _ZNK18QWidgetTextControl15extraSelectionsEv@Base 5.0.2 1
+ _ZNK18QWidgetTextControl15getPaintContextEP7QWidget@Base 5.0.2 1
+ _ZNK18QWidgetTextControl16inputMethodQueryEN2Qt16InputMethodQueryE@Base 5.0.2 1
+ _ZNK18QWidgetTextControl17blockBoundingRectERK10QTextBlock@Base 5.0.2 1
+ _ZNK18QWidgetTextControl17currentCharFormatEv@Base 5.0.2 1
+ _ZNK18QWidgetTextControl17cursorForPositionERK7QPointF@Base 5.0.2 1
+ _ZNK18QWidgetTextControl17openExternalLinksEv@Base 5.0.2 1
+ _ZNK18QWidgetTextControl20textInteractionFlagsEv@Base 5.0.2 1
+ _ZNK18QWidgetTextControl21canInsertFromMimeDataEPK9QMimeData@Base 5.0.2 1
+ _ZNK18QWidgetTextControl22cursorIsFocusIndicatorEv@Base 5.0.2 1
+ _ZNK18QWidgetTextControl22isWordSelectionEnabledEv@Base 5.0.2 1
+ _ZNK18QWidgetTextControl27createMimeDataFromSelectionEv@Base 5.0.2 1
+ _ZNK18QWidgetTextControl28ignoreUnusedNavigationEventsEv@Base 5.0.2 1
+ _ZNK18QWidgetTextControl4sizeEv@Base 5.0.2 1
+ _ZNK18QWidgetTextControl5printEP17QPagedPaintDevice@Base 5.0.2 1
+ _ZNK18QWidgetTextControl6toHtmlEv@Base 5.0.2 1
+ _ZNK18QWidgetTextControl7hitTestERK7QPointFN2Qt15HitTestAccuracyE@Base 5.0.2 1
+ _ZNK18QWidgetTextControl7paletteEv@Base 5.0.2 1
+ _ZNK18QWidgetTextControl8anchorAtERK7QPointF@Base 5.0.2 1
+ _ZNK18QWidgetTextControl8canPasteEv@Base 5.0.2 1
+ _ZNK18QWidgetTextControl8documentEv@Base 5.0.2 1
+ _ZNK18QWidgetTextControl9textWidthEv@Base 5.0.2 1
  _ZNK19QAbstractScrollArea10metaObjectEv@Base 5.0.2
  _ZNK19QAbstractScrollArea12cornerWidgetEv@Base 5.0.2
  _ZNK19QAbstractScrollArea15minimumSizeHintEv@Base 5.0.2
@@ -6502,8 +6502,8 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK19QAbstractScrollArea25horizontalScrollBarPolicyEv@Base 5.0.2
  _ZNK19QAbstractScrollArea8sizeHintEv@Base 5.0.2
  _ZNK19QAbstractScrollArea8viewportEv@Base 5.0.2
- _ZNK19QApplicationPrivate15isWindowBlockedEP7QWindowPS1_@Base 5.0.2
- _ZNK19QApplicationPrivate21applyQIconStyleHelperEN5QIcon4ModeERK7QPixmap@Base 5.0.2
+ _ZNK19QApplicationPrivate15isWindowBlockedEP7QWindowPS1_@Base 5.0.2 1
+ _ZNK19QApplicationPrivate21applyQIconStyleHelperEN5QIcon4ModeERK7QPixmap@Base 5.0.2 1
  _ZNK19QGraphicsBlurEffect10blurRadiusEv@Base 5.0.2
  _ZNK19QGraphicsBlurEffect10metaObjectEv@Base 5.0.2
  _ZNK19QGraphicsBlurEffect15boundingRectForERK6QRectF@Base 5.0.2
@@ -6581,20 +6581,20 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK20QGraphicsEllipseItem8containsERK7QPointF@Base 5.0.2
  _ZNK20QGraphicsEllipseItem9extensionERK8QVariant@Base 5.0.2
  _ZNK20QGraphicsEllipseItem9spanAngleEv@Base 5.0.2
- _ZNK20QGraphicsItemPrivate13isProxyWidgetEv@Base 5.0.2
- _ZNK20QGraphicsItemPrivate14extraItemCacheEv@Base 5.0.2
- _ZNK20QGraphicsItemPrivate15initStyleOptionEP24QStyleOptionGraphicsItemRK10QTransformRK7QRegionb@Base 5.0.2
- _ZNK20QGraphicsItemPrivate19genericMapFromSceneERK7QPointFPK7QWidget@Base 5.0.2
- _ZNK20QGraphicsItemPrivate19maybeExtraItemCacheEv@Base 5.0.2
- _ZNK20QGraphicsItemPrivate20discardUpdateRequestEbbb@Base 5.0.2
- _ZNK20QGraphicsItemPrivate21effectiveBoundingRectEP13QGraphicsItem@Base 5.0.2
- _ZNK20QGraphicsItemPrivate21effectiveBoundingRectERK6QRectF@Base 5.0.2
- _ZNK20QGraphicsItemPrivate24combineTransformToParentEP10QTransformPKS0_@Base 5.0.2
- _ZNK20QGraphicsItemPrivate26combineTransformFromParentEP10QTransformPKS0_@Base 5.0.2
- _ZNK20QGraphicsItemPrivate26sceneEffectiveBoundingRectEv@Base 5.0.2
- _ZNK20QGraphicsItemPrivate5depthEv@Base 5.0.2
- _ZNK20QGraphicsItemPrivate5widthEv@Base 5.0.2
- _ZNK20QGraphicsItemPrivate6heightEv@Base 5.0.2
+ _ZNK20QGraphicsItemPrivate13isProxyWidgetEv@Base 5.0.2 1
+ _ZNK20QGraphicsItemPrivate14extraItemCacheEv@Base 5.0.2 1
+ _ZNK20QGraphicsItemPrivate15initStyleOptionEP24QStyleOptionGraphicsItemRK10QTransformRK7QRegionb@Base 5.0.2 1
+ _ZNK20QGraphicsItemPrivate19genericMapFromSceneERK7QPointFPK7QWidget@Base 5.0.2 1
+ _ZNK20QGraphicsItemPrivate19maybeExtraItemCacheEv@Base 5.0.2 1
+ _ZNK20QGraphicsItemPrivate20discardUpdateRequestEbbb@Base 5.0.2 1
+ _ZNK20QGraphicsItemPrivate21effectiveBoundingRectEP13QGraphicsItem@Base 5.0.2 1
+ _ZNK20QGraphicsItemPrivate21effectiveBoundingRectERK6QRectF@Base 5.0.2 1
+ _ZNK20QGraphicsItemPrivate24combineTransformToParentEP10QTransformPKS0_@Base 5.0.2 1
+ _ZNK20QGraphicsItemPrivate26combineTransformFromParentEP10QTransformPKS0_@Base 5.0.2 1
+ _ZNK20QGraphicsItemPrivate26sceneEffectiveBoundingRectEv@Base 5.0.2 1
+ _ZNK20QGraphicsItemPrivate5depthEv@Base 5.0.2 1
+ _ZNK20QGraphicsItemPrivate5widthEv@Base 5.0.2 1
+ _ZNK20QGraphicsItemPrivate6heightEv@Base 5.0.2 1
  _ZNK20QGraphicsPolygonItem10opaqueAreaEv@Base 5.0.2
  _ZNK20QGraphicsPolygonItem12boundingRectEv@Base 5.0.2
  _ZNK20QGraphicsPolygonItem12isObscuredByEPK13QGraphicsItem@Base 5.0.2
@@ -6611,18 +6611,18 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK20QGraphicsProxyWidget4typeEv@Base 5.0.2
  _ZNK20QGraphicsProxyWidget6widgetEv@Base 5.0.2
  _ZNK20QGraphicsProxyWidget8sizeHintEN2Qt8SizeHintERK6QSizeF@Base 5.0.2
- _ZNK20QGraphicsViewPrivate10mapToSceneERK6QRectF@Base 5.0.2
- _ZNK20QGraphicsViewPrivate10mapToSceneERK7QPointF@Base 5.0.2
- _ZNK20QGraphicsViewPrivate13mapToViewRectEPK13QGraphicsItemRK6QRectF@Base 5.0.2
- _ZNK20QGraphicsViewPrivate14mapRectToSceneERK5QRect@Base 5.0.2
- _ZNK20QGraphicsViewPrivate14verticalScrollEv@Base 5.0.2
- _ZNK20QGraphicsViewPrivate15mapToViewRegionEPK13QGraphicsItemRK6QRectF@Base 5.0.2
- _ZNK20QGraphicsViewPrivate16horizontalScrollEv@Base 5.0.2
- _ZNK20QGraphicsViewPrivate16mapRectFromSceneERK6QRectF@Base 5.0.2
- _ZNK20QGraphicsViewPrivate16rubberBandRegionEPK7QWidgetRK5QRect@Base 5.0.2
- _ZNK20QGraphicsViewPrivate9findItemsERK7QRegionPbRK10QTransform@Base 5.0.2
- _ZNK20QWidgetResizeHandler10metaObjectEv@Base 5.0.2
- _ZNK20QWidgetResizeHandler8isActiveENS_6ActionE@Base 5.0.2
+ _ZNK20QGraphicsViewPrivate10mapToSceneERK6QRectF@Base 5.0.2 1
+ _ZNK20QGraphicsViewPrivate10mapToSceneERK7QPointF@Base 5.0.2 1
+ _ZNK20QGraphicsViewPrivate13mapToViewRectEPK13QGraphicsItemRK6QRectF@Base 5.0.2 1
+ _ZNK20QGraphicsViewPrivate14mapRectToSceneERK5QRect@Base 5.0.2 1
+ _ZNK20QGraphicsViewPrivate14verticalScrollEv@Base 5.0.2 1
+ _ZNK20QGraphicsViewPrivate15mapToViewRegionEPK13QGraphicsItemRK6QRectF@Base 5.0.2 1
+ _ZNK20QGraphicsViewPrivate16horizontalScrollEv@Base 5.0.2 1
+ _ZNK20QGraphicsViewPrivate16mapRectFromSceneERK6QRectF@Base 5.0.2 1
+ _ZNK20QGraphicsViewPrivate16rubberBandRegionEPK7QWidgetRK5QRect@Base 5.0.2 1
+ _ZNK20QGraphicsViewPrivate9findItemsERK7QRegionPbRK10QTransform@Base 5.0.2 1
+ _ZNK20QWidgetResizeHandler10metaObjectEv@Base 5.0.2 1
+ _ZNK20QWidgetResizeHandler8isActiveENS_6ActionE@Base 5.0.2 1
  _ZNK21QAbstractItemDelegate10metaObjectEv@Base 5.0.2
  _ZNK21QAbstractItemDelegate12createEditorEP7QWidgetRK20QStyleOptionViewItemRK11QModelIndex@Base 5.0.2
  _ZNK21QAbstractItemDelegate12setModelDataEP7QWidgetP18QAbstractItemModelRK11QModelIndex@Base 5.0.2
@@ -6635,13 +6635,13 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK21QGraphicsAnchorLayout5countEv@Base 5.0.2
  _ZNK21QGraphicsAnchorLayout6itemAtEi@Base 5.0.2
  _ZNK21QGraphicsAnchorLayout8sizeHintEN2Qt8SizeHintERK6QSizeF@Base 5.0.2
- _ZNK21QGraphicsEffectSource10metaObjectEv@Base 5.0.2
- _ZNK21QGraphicsEffectSource11styleOptionEv@Base 5.0.2
- _ZNK21QGraphicsEffectSource12boundingRectEN2Qt16CoordinateSystemE@Base 5.0.2
- _ZNK21QGraphicsEffectSource12graphicsItemEv@Base 5.0.2
- _ZNK21QGraphicsEffectSource6pixmapEN2Qt16CoordinateSystemEP6QPointN15QGraphicsEffect13PixmapPadModeE@Base 5.0.2
- _ZNK21QGraphicsEffectSource6widgetEv@Base 5.0.2
- _ZNK21QGraphicsEffectSource8isPixmapEv@Base 5.0.2
+ _ZNK21QGraphicsEffectSource10metaObjectEv@Base 5.0.2 1
+ _ZNK21QGraphicsEffectSource11styleOptionEv@Base 5.0.2 1
+ _ZNK21QGraphicsEffectSource12boundingRectEN2Qt16CoordinateSystemE@Base 5.0.2 1
+ _ZNK21QGraphicsEffectSource12graphicsItemEv@Base 5.0.2 1
+ _ZNK21QGraphicsEffectSource6pixmapEN2Qt16CoordinateSystemEP6QPointN15QGraphicsEffect13PixmapPadModeE@Base 5.0.2 1
+ _ZNK21QGraphicsEffectSource6widgetEv@Base 5.0.2 1
+ _ZNK21QGraphicsEffectSource8isPixmapEv@Base 5.0.2 1
  _ZNK21QGraphicsLinearLayout11itemSpacingEi@Base 5.0.2
  _ZNK21QGraphicsLinearLayout11orientationEv@Base 5.0.2
  _ZNK21QGraphicsLinearLayout13stretchFactorEP19QGraphicsLayoutItem@Base 5.0.2
@@ -6655,10 +6655,10 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK21QMouseEventTransition11hitTestPathEv@Base 5.0.2
  _ZNK21QMouseEventTransition12modifierMaskEv@Base 5.0.2
  _ZNK21QMouseEventTransition6buttonEv@Base 5.0.2
- _ZNK21QPixmapColorizeFilter10metaObjectEv@Base 5.0.2
- _ZNK21QPixmapColorizeFilter4drawEP8QPainterRK7QPointFRK7QPixmapRK6QRectF@Base 5.0.2
- _ZNK21QPixmapColorizeFilter5colorEv@Base 5.0.2
- _ZNK21QPixmapColorizeFilter8strengthEv@Base 5.0.2
+ _ZNK21QPixmapColorizeFilter10metaObjectEv@Base 5.0.2 1
+ _ZNK21QPixmapColorizeFilter4drawEP8QPainterRK7QPointFRK7QPixmapRK6QRectF@Base 5.0.2 1
+ _ZNK21QPixmapColorizeFilter5colorEv@Base 5.0.2 1
+ _ZNK21QPixmapColorizeFilter8strengthEv@Base 5.0.2 1
  _ZNK22QGraphicsItemAnimation10metaObjectEv@Base 5.0.2
  (subst)_ZNK22QGraphicsItemAnimation10rotationAtE{qreal}@Base 5.0.2
  _ZNK22QGraphicsItemAnimation12rotationListEv@Base 5.0.2
@@ -6696,12 +6696,12 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK23QGraphicsSimpleTextItem5shapeEv@Base 5.0.2
  _ZNK23QGraphicsSimpleTextItem8containsERK7QPointF@Base 5.0.2
  _ZNK23QGraphicsSimpleTextItem9extensionERK8QVariant@Base 5.0.2
- _ZNK23QPixmapDropShadowFilter10blurRadiusEv@Base 5.0.2
- _ZNK23QPixmapDropShadowFilter10metaObjectEv@Base 5.0.2
- _ZNK23QPixmapDropShadowFilter15boundingRectForERK6QRectF@Base 5.0.2
- _ZNK23QPixmapDropShadowFilter4drawEP8QPainterRK7QPointFRK7QPixmapRK6QRectF@Base 5.0.2
- _ZNK23QPixmapDropShadowFilter5colorEv@Base 5.0.2
- _ZNK23QPixmapDropShadowFilter6offsetEv@Base 5.0.2
+ _ZNK23QPixmapDropShadowFilter10blurRadiusEv@Base 5.0.2 1
+ _ZNK23QPixmapDropShadowFilter10metaObjectEv@Base 5.0.2 1
+ _ZNK23QPixmapDropShadowFilter15boundingRectForERK6QRectF@Base 5.0.2 1
+ _ZNK23QPixmapDropShadowFilter4drawEP8QPainterRK7QPointFRK7QPixmapRK6QRectF@Base 5.0.2 1
+ _ZNK23QPixmapDropShadowFilter5colorEv@Base 5.0.2 1
+ _ZNK23QPixmapDropShadowFilter6offsetEv@Base 5.0.2 1
  _ZNK23QTreeWidgetItemIterator12matchesFlagsEPK15QTreeWidgetItem@Base 5.0.2
  _ZNK24QGraphicsSceneHoverEvent12lastScenePosEv@Base 5.0.2
  _ZNK24QGraphicsSceneHoverEvent13lastScreenPosEv@Base 5.0.2
@@ -6729,12 +6729,12 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK24QGraphicsSceneWheelEvent8scenePosEv@Base 5.0.2
  _ZNK24QGraphicsSceneWheelEvent9modifiersEv@Base 5.0.2
  _ZNK24QGraphicsSceneWheelEvent9screenPosEv@Base 5.0.2
- _ZNK24QPixmapConvolutionFilter10metaObjectEv@Base 5.0.2
- _ZNK24QPixmapConvolutionFilter15boundingRectForERK6QRectF@Base 5.0.2
- _ZNK24QPixmapConvolutionFilter17convolutionKernelEv@Base 5.0.2
- _ZNK24QPixmapConvolutionFilter4drawEP8QPainterRK7QPointFRK7QPixmapRK6QRectF@Base 5.0.2
- _ZNK24QPixmapConvolutionFilter4rowsEv@Base 5.0.2
- _ZNK24QPixmapConvolutionFilter7columnsEv@Base 5.0.2
+ _ZNK24QPixmapConvolutionFilter10metaObjectEv@Base 5.0.2 1
+ _ZNK24QPixmapConvolutionFilter15boundingRectForERK6QRectF@Base 5.0.2 1
+ _ZNK24QPixmapConvolutionFilter17convolutionKernelEv@Base 5.0.2 1
+ _ZNK24QPixmapConvolutionFilter4drawEP8QPainterRK7QPointFRK7QPixmapRK6QRectF@Base 5.0.2 1
+ _ZNK24QPixmapConvolutionFilter4rowsEv@Base 5.0.2 1
+ _ZNK24QPixmapConvolutionFilter7columnsEv@Base 5.0.2 1
  _ZNK24QPlainTextDocumentLayout10metaObjectEv@Base 5.0.2
  _ZNK24QPlainTextDocumentLayout11cursorWidthEv@Base 5.0.2
  _ZNK24QPlainTextDocumentLayout12documentSizeEv@Base 5.0.2
@@ -7341,34 +7341,34 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK9QUndoView5groupEv@Base 5.0.2
  _ZNK9QUndoView5stackEv@Base 5.0.2
  _ZNK9QUndoView9cleanIconEv@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390x|subst)_ZSt11__push_heapIN5QListI5QPairIPN23QFileSystemModelPrivate15QFileSystemNodeEiEE8iteratorE{qptrdiff}S5_22QFileSystemModelSorterEvT_T0_SA_T1_T2_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390x|subst)_ZSt13__adjust_heapIN5QListI5QPairIPN23QFileSystemModelPrivate15QFileSystemNodeEiEE8iteratorE{qptrdiff}S5_22QFileSystemModelSorterEvT_T0_SA_T1_T2_@Base 5.0.2
+ (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390x|subst)_ZSt11__push_heapIN5QListI5QPairIPN23QFileSystemModelPrivate15QFileSystemNodeEiEE8iteratorE{qptrdiff}S5_22QFileSystemModelSorterEvT_T0_SA_T1_T2_@Base 5.0.2 1
+ (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390x|subst)_ZSt13__adjust_heapIN5QListI5QPairIPN23QFileSystemModelPrivate15QFileSystemNodeEiEE8iteratorE{qptrdiff}S5_22QFileSystemModelSorterEvT_T0_SA_T1_T2_@Base 5.0.2 1
  (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390x|subst)_ZSt13__adjust_heapIN5QListIP13QGraphicsItemE8iteratorE{qptrdiff}S2_PFbPKS1_S6_EEvT_T0_SA_T1_T2_@Base 5.0.2
  (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390x|subst)_ZSt13__adjust_heapIN5QListIP13QGraphicsItemE8iteratorE{qptrdiff}S2_PFbS2_S2_EEvT_T0_S8_T1_T2_@Base 5.0.2
  (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390x|subst)_ZSt13__adjust_heapIN5QListIP15QGraphicsObjectE8iteratorE{qptrdiff}S2_PFbPK13QGraphicsItemS7_EEvT_T0_SB_T1_T2_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390x)_ZSt13__heap_selectIN5QListI5QPairIPN23QFileSystemModelPrivate15QFileSystemNodeEiEE8iteratorE22QFileSystemModelSorterEvT_S9_S9_T0_@Base 5.0.2
+ (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390x)_ZSt13__heap_selectIN5QListI5QPairIPN23QFileSystemModelPrivate15QFileSystemNodeEiEE8iteratorE22QFileSystemModelSorterEvT_S9_S9_T0_@Base 5.0.2 1
  (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390x)_ZSt13__heap_selectIN5QListIP13QGraphicsItemE8iteratorEPFbPKS1_S6_EEvT_S9_S9_T0_@Base 5.0.2
  (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390x)_ZSt13__heap_selectIN5QListIP13QGraphicsItemE8iteratorEPFbS2_S2_EEvT_S7_S7_T0_@Base 5.0.2
  (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390x)_ZSt13__heap_selectIN5QListIP15QGraphicsObjectE8iteratorEPFbPK13QGraphicsItemS7_EEvT_SA_SA_T0_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390x)_ZSt16__insertion_sortIN5QListI5QPairIPN23QFileSystemModelPrivate15QFileSystemNodeEiEE8iteratorE22QFileSystemModelSorterEvT_S9_T0_@Base 5.0.2
+ (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390x)_ZSt16__insertion_sortIN5QListI5QPairIPN23QFileSystemModelPrivate15QFileSystemNodeEiEE8iteratorE22QFileSystemModelSorterEvT_S9_T0_@Base 5.0.2 1
  (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390x)_ZSt16__insertion_sortIN5QListIP13QGraphicsItemE8iteratorEPFbPKS1_S6_EEvT_S9_T0_@Base 5.0.2
  (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390x)_ZSt16__insertion_sortIN5QListIP13QGraphicsItemE8iteratorEPFbS2_S2_EEvT_S7_T0_@Base 5.0.2
  (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390x)_ZSt16__insertion_sortIN5QListIP15QGraphicsObjectE8iteratorEPFbPK13QGraphicsItemS7_EEvT_SA_T0_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390x)_ZSt16__introsort_loopIN5QListI5QPairIPN23QFileSystemModelPrivate15QFileSystemNodeEiEE8iteratorEi22QFileSystemModelSorterEvT_S9_T0_T1_@Base 5.0.2
+ (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390x)_ZSt16__introsort_loopIN5QListI5QPairIPN23QFileSystemModelPrivate15QFileSystemNodeEiEE8iteratorEi22QFileSystemModelSorterEvT_S9_T0_T1_@Base 5.0.2 1
  (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390x)_ZSt16__introsort_loopIN5QListIP13QGraphicsItemE8iteratorEiPFbPKS1_S6_EEvT_S9_T0_T1_@Base 5.0.2
  (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390x)_ZSt16__introsort_loopIN5QListIP13QGraphicsItemE8iteratorEiPFbS2_S2_EEvT_S7_T0_T1_@Base 5.0.2
  (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390x)_ZSt16__introsort_loopIN5QListIP15QGraphicsObjectE8iteratorEiPFbPK13QGraphicsItemS7_EEvT_SA_T0_T1_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390x)_ZSt19__move_median_firstIN5QListI5QPairIPN23QFileSystemModelPrivate15QFileSystemNodeEiEE8iteratorE22QFileSystemModelSorterEvT_S9_S9_T0_@Base 5.0.2
+ (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390x)_ZSt19__move_median_firstIN5QListI5QPairIPN23QFileSystemModelPrivate15QFileSystemNodeEiEE8iteratorE22QFileSystemModelSorterEvT_S9_S9_T0_@Base 5.0.2 1
  (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390x)_ZSt19__move_median_firstIN5QListIP13QGraphicsItemE8iteratorEPFbPKS1_S6_EEvT_S9_S9_T0_@Base 5.0.2
  (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390x)_ZSt19__move_median_firstIN5QListIP13QGraphicsItemE8iteratorEPFbS2_S2_EEvT_S7_S7_T0_@Base 5.0.2
  (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390x)_ZSt19__move_median_firstIN5QListIP15QGraphicsObjectE8iteratorEPFbPK13QGraphicsItemS7_EEvT_SA_SA_T0_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390x)_ZSt21__unguarded_partitionIN5QListI5QPairIPN23QFileSystemModelPrivate15QFileSystemNodeEiEE8iteratorES5_22QFileSystemModelSorterET_S9_S9_RKT0_T1_@Base 5.0.2
+ (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390x)_ZSt21__unguarded_partitionIN5QListI5QPairIPN23QFileSystemModelPrivate15QFileSystemNodeEiEE8iteratorES5_22QFileSystemModelSorterET_S9_S9_RKT0_T1_@Base 5.0.2 1
  (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390x)_ZSt21__unguarded_partitionIN5QListIP13QGraphicsItemE8iteratorES2_PFbPKS1_S6_EET_S9_S9_RKT0_T1_@Base 5.0.2
  (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390x)_ZSt21__unguarded_partitionIN5QListIP13QGraphicsItemE8iteratorES2_PFbS2_S2_EET_S7_S7_RKT0_T1_@Base 5.0.2
  (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390x)_ZSt21__unguarded_partitionIN5QListIP15QGraphicsObjectE8iteratorES2_PFbPK13QGraphicsItemS7_EET_SA_SA_RKT0_T1_@Base 5.0.2
  (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390x)_ZSt22__final_insertion_sortIN5QListIP13QGraphicsItemE8iteratorEPFbPKS1_S6_EEvT_S9_T0_@Base 5.0.2
  (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390x)_ZSt22__final_insertion_sortIN5QListIP13QGraphicsItemE8iteratorEPFbS2_S2_EEvT_S7_T0_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390x)_ZSt25__unguarded_linear_insertIN5QListI5QPairIPN23QFileSystemModelPrivate15QFileSystemNodeEiEE8iteratorE22QFileSystemModelSorterEvT_T0_@Base 5.0.2
+ (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390x)_ZSt25__unguarded_linear_insertIN5QListI5QPairIPN23QFileSystemModelPrivate15QFileSystemNodeEiEE8iteratorE22QFileSystemModelSorterEvT_T0_@Base 5.0.2 1
  (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390x)_ZSt25__unguarded_linear_insertIN5QListIP15QGraphicsObjectE8iteratorEPFbPK13QGraphicsItemS7_EEvT_T0_@Base 5.0.2
  (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390x)_ZSt4sortIN5QListIP15QGraphicsObjectE8iteratorEPFbPK13QGraphicsItemS7_EEvT_SA_T0_@Base 5.0.2
  (optional=templinst|arch=hurd-i386 i386)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 5.0.2
@@ -7411,7 +7411,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZTI12QButtonGroup@Base 5.0.2
  _ZTI12QColorDialog@Base 5.0.2
  _ZTI12QCommonStyle@Base 5.0.2
- _ZTI12QFSCompleter@Base 5.0.2
+ _ZTI12QFSCompleter@Base 5.0.2 1
  _ZTI12QInputDialog@Base 5.0.2
  _ZTI12QProgressBar@Base 5.0.2
  _ZTI12QRadioButton@Base 5.0.2
@@ -7421,7 +7421,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZTI12QUndoCommand@Base 5.0.2
  _ZTI13QDateTimeEdit@Base 5.0.2
  _ZTI13QErrorMessage@Base 5.0.2
- _ZTI13QFlickGesture@Base 5.0.2
+ _ZTI13QFlickGesture@Base 5.0.2 1
  _ZTI13QFontComboBox@Base 5.0.2
  _ZTI13QGestureEvent@Base 5.0.2
  _ZTI13QGraphicsItem@Base 5.0.2
@@ -7429,22 +7429,22 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZTI13QItemDelegate@Base 5.0.2
  _ZTI13QMdiSubWindow@Base 5.0.2
  _ZTI13QPinchGesture@Base 5.0.2
- _ZTI13QPixmapFilter@Base 5.0.2
+ _ZTI13QPixmapFilter@Base 5.0.2 1
  _ZTI13QSplashScreen@Base 5.0.2
  _ZTI13QSwipeGesture@Base 5.0.2
  _ZTI13QWidgetAction@Base 5.0.2
  _ZTI13QWidgetItemV2@Base 5.0.2
- _ZTI14QActionPrivate@Base 5.0.2
+ _ZTI14QActionPrivate@Base 5.0.2 1
  _ZTI14QDesktopWidget@Base 5.0.2
  _ZTI14QDoubleSpinBox@Base 5.0.2
  _ZTI14QGraphicsScale@Base 5.0.2
  _ZTI14QGraphicsScene@Base 5.0.2
- _ZTI14QLayoutPrivate@Base 5.0.2
+ _ZTI14QLayoutPrivate@Base 5.0.2 1
  _ZTI14QPlainTextEdit@Base 5.0.2
  _ZTI14QStackedLayout@Base 5.0.2
  _ZTI14QStackedWidget@Base 5.0.2
- _ZTI14QWidgetPrivate@Base 5.0.2
- _ZTI14QWindowPrivate@Base 5.0.2
+ _ZTI14QWidgetPrivate@Base 5.0.2 1
+ _ZTI14QWindowPrivate@Base 5.0.2 1
  _ZTI15QAbstractButton@Base 5.0.2
  _ZTI15QAbstractSlider@Base 5.0.2
  _ZTI15QCalendarWidget@Base 5.0.2
@@ -7462,29 +7462,29 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZTI16QDialogButtonBox@Base 5.0.2
  _ZTI16QFileSystemModel@Base 5.0.2
  _ZTI16QTableWidgetItem@Base 5.0.2
- _ZTI16QTreeViewPrivate@Base 5.0.2
+ _ZTI16QTreeViewPrivate@Base 5.0.2 1
  _ZTI17QAbstractItemView@Base 5.0.2
  _ZTI17QAccessibleWidget@Base 5.0.2
  _ZTI17QDataWidgetMapper@Base 5.0.2
- _ZTI17QDockWidgetLayout@Base 5.0.2
+ _ZTI17QDockWidgetLayout@Base 5.0.2 1
  _ZTI17QFileIconProvider@Base 5.0.2
  _ZTI17QGraphicsLineItem@Base 5.0.2
  _ZTI17QGraphicsPathItem@Base 5.0.2
  _ZTI17QGraphicsRectItem@Base 5.0.2
  _ZTI17QGraphicsRotation@Base 5.0.2
  _ZTI17QGraphicsTextItem@Base 5.0.2
- _ZTI17QPixmapBlurFilter@Base 5.0.2
+ _ZTI17QPixmapBlurFilter@Base 5.0.2 1
  _ZTI18QCommandLinkButton@Base 5.0.2
- _ZTI18QFileDialogPrivate@Base 5.0.2
+ _ZTI18QFileDialogPrivate@Base 5.0.2 1
  _ZTI18QGestureRecognizer@Base 5.0.2
  _ZTI18QGraphicsItemGroup@Base 5.0.2
  _ZTI18QGraphicsTransform@Base 5.0.2
  _ZTI18QItemEditorFactory@Base 5.0.2
  _ZTI18QTapAndHoldGesture@Base 5.0.2
- _ZTI18QWidgetLineControl@Base 5.0.2
- _ZTI18QWidgetTextControl@Base 5.0.2
+ _ZTI18QWidgetLineControl@Base 5.0.2 1
+ _ZTI18QWidgetTextControl@Base 5.0.2 1
  _ZTI19QAbstractScrollArea@Base 5.0.2
- _ZTI19QApplicationPrivate@Base 5.0.2
+ _ZTI19QApplicationPrivate@Base 5.0.2 1
  _ZTI19QGraphicsBlurEffect@Base 5.0.2
  _ZTI19QGraphicsGridLayout@Base 5.0.2
  _ZTI19QGraphicsLayoutItem@Base 5.0.2
@@ -7494,33 +7494,33 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZTI19QScrollerProperties@Base 5.0.2
  _ZTI19QStyledItemDelegate@Base 5.0.2
  _ZTI20QGraphicsEllipseItem@Base 5.0.2
- _ZTI20QGraphicsItemPrivate@Base 5.0.2
+ _ZTI20QGraphicsItemPrivate@Base 5.0.2 1
  _ZTI20QGraphicsPolygonItem@Base 5.0.2
  _ZTI20QGraphicsProxyWidget@Base 5.0.2
- _ZTI20QGraphicsViewPrivate@Base 5.0.2
- _ZTI20QWidgetResizeHandler@Base 5.0.2
+ _ZTI20QGraphicsViewPrivate@Base 5.0.2 1
+ _ZTI20QWidgetResizeHandler@Base 5.0.2 1
  _ZTI21QAbstractItemDelegate@Base 5.0.2
  _ZTI21QGraphicsAnchorLayout@Base 5.0.2
- _ZTI21QGraphicsEffectSource@Base 5.0.2
+ _ZTI21QGraphicsEffectSource@Base 5.0.2 1
  _ZTI21QGraphicsLinearLayout@Base 5.0.2
  _ZTI21QMouseEventTransition@Base 5.0.2
- _ZTI21QPixmapColorizeFilter@Base 5.0.2
- _ZTI22QGraphicsEffectPrivate@Base 5.0.2
+ _ZTI21QPixmapColorizeFilter@Base 5.0.2 1
+ _ZTI22QGraphicsEffectPrivate@Base 5.0.2 1
  _ZTI22QGraphicsItemAnimation@Base 5.0.2
  _ZTI22QGraphicsOpacityEffect@Base 5.0.2
  _ZTI22QItemEditorCreatorBase@Base 5.0.2
- _ZTI23QEventTransitionPrivate@Base 5.0.2
+ _ZTI23QEventTransitionPrivate@Base 5.0.2 1
  _ZTI23QGraphicsColorizeEffect@Base 5.0.2
  _ZTI23QGraphicsSceneHelpEvent@Base 5.0.2
  _ZTI23QGraphicsSceneMoveEvent@Base 5.0.2
  _ZTI23QGraphicsSimpleTextItem@Base 5.0.2
- _ZTI23QPixmapDropShadowFilter@Base 5.0.2
+ _ZTI23QPixmapDropShadowFilter@Base 5.0.2 1
  _ZTI24QGraphicsSceneHoverEvent@Base 5.0.2
  _ZTI24QGraphicsSceneMouseEvent@Base 5.0.2
  _ZTI24QGraphicsSceneWheelEvent@Base 5.0.2
- _ZTI24QPixmapConvolutionFilter@Base 5.0.2
+ _ZTI24QPixmapConvolutionFilter@Base 5.0.2 1
  _ZTI24QPlainTextDocumentLayout@Base 5.0.2
- _ZTI25QAbstractItemModelPrivate@Base 5.0.2
+ _ZTI25QAbstractItemModelPrivate@Base 5.0.2 1
  _ZTI25QGraphicsDropShadowEffect@Base 5.0.2
  _ZTI25QGraphicsSceneResizeEvent@Base 5.0.2
  _ZTI26QAbstractGraphicsShapeItem@Base 5.0.2
@@ -7568,7 +7568,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZTI9QTimeEdit@Base 5.0.2
  _ZTI9QTreeView@Base 5.0.2
  _ZTI9QUndoView@Base 5.0.2
- _ZTIN16QTreeViewPrivate17AnimatedOperationE@Base 5.0.2
+ _ZTIN16QTreeViewPrivate17AnimatedOperationE@Base 5.0.2 1
  _ZTS10QBoxLayout@Base 5.0.2
  _ZTS10QCompleter@Base 5.0.2
  _ZTS10QLCDNumber@Base 5.0.2
@@ -7608,7 +7608,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZTS12QButtonGroup@Base 5.0.2
  _ZTS12QColorDialog@Base 5.0.2
  _ZTS12QCommonStyle@Base 5.0.2
- _ZTS12QFSCompleter@Base 5.0.2
+ _ZTS12QFSCompleter@Base 5.0.2 1
  _ZTS12QInputDialog@Base 5.0.2
  _ZTS12QProgressBar@Base 5.0.2
  _ZTS12QRadioButton@Base 5.0.2
@@ -7618,7 +7618,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZTS12QUndoCommand@Base 5.0.2
  _ZTS13QDateTimeEdit@Base 5.0.2
  _ZTS13QErrorMessage@Base 5.0.2
- _ZTS13QFlickGesture@Base 5.0.2
+ _ZTS13QFlickGesture@Base 5.0.2 1
  _ZTS13QFontComboBox@Base 5.0.2
  _ZTS13QGestureEvent@Base 5.0.2
  _ZTS13QGraphicsItem@Base 5.0.2
@@ -7626,22 +7626,22 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZTS13QItemDelegate@Base 5.0.2
  _ZTS13QMdiSubWindow@Base 5.0.2
  _ZTS13QPinchGesture@Base 5.0.2
- _ZTS13QPixmapFilter@Base 5.0.2
+ _ZTS13QPixmapFilter@Base 5.0.2 1
  _ZTS13QSplashScreen@Base 5.0.2
  _ZTS13QSwipeGesture@Base 5.0.2
  _ZTS13QWidgetAction@Base 5.0.2
  _ZTS13QWidgetItemV2@Base 5.0.2
- _ZTS14QActionPrivate@Base 5.0.2
+ _ZTS14QActionPrivate@Base 5.0.2 1
  _ZTS14QDesktopWidget@Base 5.0.2
  _ZTS14QDoubleSpinBox@Base 5.0.2
  _ZTS14QGraphicsScale@Base 5.0.2
  _ZTS14QGraphicsScene@Base 5.0.2
- _ZTS14QLayoutPrivate@Base 5.0.2
+ _ZTS14QLayoutPrivate@Base 5.0.2 1
  _ZTS14QPlainTextEdit@Base 5.0.2
  _ZTS14QStackedLayout@Base 5.0.2
  _ZTS14QStackedWidget@Base 5.0.2
- _ZTS14QWidgetPrivate@Base 5.0.2
- _ZTS14QWindowPrivate@Base 5.0.2
+ _ZTS14QWidgetPrivate@Base 5.0.2 1
+ _ZTS14QWindowPrivate@Base 5.0.2 1
  _ZTS15QAbstractButton@Base 5.0.2
  _ZTS15QAbstractSlider@Base 5.0.2
  _ZTS15QCalendarWidget@Base 5.0.2
@@ -7659,29 +7659,29 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZTS16QDialogButtonBox@Base 5.0.2
  _ZTS16QFileSystemModel@Base 5.0.2
  _ZTS16QTableWidgetItem@Base 5.0.2
- _ZTS16QTreeViewPrivate@Base 5.0.2
+ _ZTS16QTreeViewPrivate@Base 5.0.2 1
  _ZTS17QAbstractItemView@Base 5.0.2
  _ZTS17QAccessibleWidget@Base 5.0.2
  _ZTS17QDataWidgetMapper@Base 5.0.2
- _ZTS17QDockWidgetLayout@Base 5.0.2
+ _ZTS17QDockWidgetLayout@Base 5.0.2 1
  _ZTS17QFileIconProvider@Base 5.0.2
  _ZTS17QGraphicsLineItem@Base 5.0.2
  _ZTS17QGraphicsPathItem@Base 5.0.2
  _ZTS17QGraphicsRectItem@Base 5.0.2
  _ZTS17QGraphicsRotation@Base 5.0.2
  _ZTS17QGraphicsTextItem@Base 5.0.2
- _ZTS17QPixmapBlurFilter@Base 5.0.2
+ _ZTS17QPixmapBlurFilter@Base 5.0.2 1
  _ZTS18QCommandLinkButton@Base 5.0.2
- _ZTS18QFileDialogPrivate@Base 5.0.2
+ _ZTS18QFileDialogPrivate@Base 5.0.2 1
  _ZTS18QGestureRecognizer@Base 5.0.2
  _ZTS18QGraphicsItemGroup@Base 5.0.2
  _ZTS18QGraphicsTransform@Base 5.0.2
  _ZTS18QItemEditorFactory@Base 5.0.2
  _ZTS18QTapAndHoldGesture@Base 5.0.2
- _ZTS18QWidgetLineControl@Base 5.0.2
- _ZTS18QWidgetTextControl@Base 5.0.2
+ _ZTS18QWidgetLineControl@Base 5.0.2 1
+ _ZTS18QWidgetTextControl@Base 5.0.2 1
  _ZTS19QAbstractScrollArea@Base 5.0.2
- _ZTS19QApplicationPrivate@Base 5.0.2
+ _ZTS19QApplicationPrivate@Base 5.0.2 1
  _ZTS19QGraphicsBlurEffect@Base 5.0.2
  _ZTS19QGraphicsGridLayout@Base 5.0.2
  _ZTS19QGraphicsLayoutItem@Base 5.0.2
@@ -7691,33 +7691,33 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZTS19QScrollerProperties@Base 5.0.2
  _ZTS19QStyledItemDelegate@Base 5.0.2
  _ZTS20QGraphicsEllipseItem@Base 5.0.2
- _ZTS20QGraphicsItemPrivate@Base 5.0.2
+ _ZTS20QGraphicsItemPrivate@Base 5.0.2 1
  _ZTS20QGraphicsPolygonItem@Base 5.0.2
  _ZTS20QGraphicsProxyWidget@Base 5.0.2
- _ZTS20QGraphicsViewPrivate@Base 5.0.2
- _ZTS20QWidgetResizeHandler@Base 5.0.2
+ _ZTS20QGraphicsViewPrivate@Base 5.0.2 1
+ _ZTS20QWidgetResizeHandler@Base 5.0.2 1
  _ZTS21QAbstractItemDelegate@Base 5.0.2
  _ZTS21QGraphicsAnchorLayout@Base 5.0.2
- _ZTS21QGraphicsEffectSource@Base 5.0.2
+ _ZTS21QGraphicsEffectSource@Base 5.0.2 1
  _ZTS21QGraphicsLinearLayout@Base 5.0.2
  _ZTS21QMouseEventTransition@Base 5.0.2
- _ZTS21QPixmapColorizeFilter@Base 5.0.2
- _ZTS22QGraphicsEffectPrivate@Base 5.0.2
+ _ZTS21QPixmapColorizeFilter@Base 5.0.2 1
+ _ZTS22QGraphicsEffectPrivate@Base 5.0.2 1
  _ZTS22QGraphicsItemAnimation@Base 5.0.2
  _ZTS22QGraphicsOpacityEffect@Base 5.0.2
  _ZTS22QItemEditorCreatorBase@Base 5.0.2
- _ZTS23QEventTransitionPrivate@Base 5.0.2
+ _ZTS23QEventTransitionPrivate@Base 5.0.2 1
  _ZTS23QGraphicsColorizeEffect@Base 5.0.2
  _ZTS23QGraphicsSceneHelpEvent@Base 5.0.2
  _ZTS23QGraphicsSceneMoveEvent@Base 5.0.2
  _ZTS23QGraphicsSimpleTextItem@Base 5.0.2
- _ZTS23QPixmapDropShadowFilter@Base 5.0.2
+ _ZTS23QPixmapDropShadowFilter@Base 5.0.2 1
  _ZTS24QGraphicsSceneHoverEvent@Base 5.0.2
  _ZTS24QGraphicsSceneMouseEvent@Base 5.0.2
  _ZTS24QGraphicsSceneWheelEvent@Base 5.0.2
- _ZTS24QPixmapConvolutionFilter@Base 5.0.2
+ _ZTS24QPixmapConvolutionFilter@Base 5.0.2 1
  _ZTS24QPlainTextDocumentLayout@Base 5.0.2
- _ZTS25QAbstractItemModelPrivate@Base 5.0.2
+ _ZTS25QAbstractItemModelPrivate@Base 5.0.2 1
  _ZTS25QGraphicsDropShadowEffect@Base 5.0.2
  _ZTS25QGraphicsSceneResizeEvent@Base 5.0.2
  _ZTS26QAbstractGraphicsShapeItem@Base 5.0.2
@@ -7765,7 +7765,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZTS9QTimeEdit@Base 5.0.2
  _ZTS9QTreeView@Base 5.0.2
  _ZTS9QUndoView@Base 5.0.2
- _ZTSN16QTreeViewPrivate17AnimatedOperationE@Base 5.0.2
+ _ZTSN16QTreeViewPrivate17AnimatedOperationE@Base 5.0.2 1
  _ZTV10QBoxLayout@Base 5.0.2
  _ZTV10QCompleter@Base 5.0.2
  _ZTV10QLCDNumber@Base 5.0.2
@@ -7805,7 +7805,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZTV12QButtonGroup@Base 5.0.2
  _ZTV12QColorDialog@Base 5.0.2
  _ZTV12QCommonStyle@Base 5.0.2
- _ZTV12QFSCompleter@Base 5.0.2
+ _ZTV12QFSCompleter@Base 5.0.2 1
  _ZTV12QInputDialog@Base 5.0.2
  _ZTV12QProgressBar@Base 5.0.2
  _ZTV12QRadioButton@Base 5.0.2
@@ -7815,7 +7815,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZTV12QUndoCommand@Base 5.0.2
  _ZTV13QDateTimeEdit@Base 5.0.2
  _ZTV13QErrorMessage@Base 5.0.2
- _ZTV13QFlickGesture@Base 5.0.2
+ _ZTV13QFlickGesture@Base 5.0.2 1
  _ZTV13QFontComboBox@Base 5.0.2
  _ZTV13QGestureEvent@Base 5.0.2
  _ZTV13QGraphicsItem@Base 5.0.2
@@ -7823,22 +7823,22 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZTV13QItemDelegate@Base 5.0.2
  _ZTV13QMdiSubWindow@Base 5.0.2
  _ZTV13QPinchGesture@Base 5.0.2
- _ZTV13QPixmapFilter@Base 5.0.2
+ _ZTV13QPixmapFilter@Base 5.0.2 1
  _ZTV13QSplashScreen@Base 5.0.2
  _ZTV13QSwipeGesture@Base 5.0.2
  _ZTV13QWidgetAction@Base 5.0.2
  _ZTV13QWidgetItemV2@Base 5.0.2
- _ZTV14QActionPrivate@Base 5.0.2
+ _ZTV14QActionPrivate@Base 5.0.2 1
  _ZTV14QDesktopWidget@Base 5.0.2
  _ZTV14QDoubleSpinBox@Base 5.0.2
  _ZTV14QGraphicsScale@Base 5.0.2
  _ZTV14QGraphicsScene@Base 5.0.2
- _ZTV14QLayoutPrivate@Base 5.0.2
+ _ZTV14QLayoutPrivate@Base 5.0.2 1
  _ZTV14QPlainTextEdit@Base 5.0.2
  _ZTV14QStackedLayout@Base 5.0.2
  _ZTV14QStackedWidget@Base 5.0.2
- _ZTV14QWidgetPrivate@Base 5.0.2
- _ZTV14QWindowPrivate@Base 5.0.2
+ _ZTV14QWidgetPrivate@Base 5.0.2 1
+ _ZTV14QWindowPrivate@Base 5.0.2 1
  _ZTV15QAbstractButton@Base 5.0.2
  _ZTV15QAbstractSlider@Base 5.0.2
  _ZTV15QCalendarWidget@Base 5.0.2
@@ -7856,29 +7856,29 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZTV16QDialogButtonBox@Base 5.0.2
  _ZTV16QFileSystemModel@Base 5.0.2
  _ZTV16QTableWidgetItem@Base 5.0.2
- _ZTV16QTreeViewPrivate@Base 5.0.2
+ _ZTV16QTreeViewPrivate@Base 5.0.2 1
  _ZTV17QAbstractItemView@Base 5.0.2
  _ZTV17QAccessibleWidget@Base 5.0.2
  _ZTV17QDataWidgetMapper@Base 5.0.2
- _ZTV17QDockWidgetLayout@Base 5.0.2
+ _ZTV17QDockWidgetLayout@Base 5.0.2 1
  _ZTV17QFileIconProvider@Base 5.0.2
  _ZTV17QGraphicsLineItem@Base 5.0.2
  _ZTV17QGraphicsPathItem@Base 5.0.2
  _ZTV17QGraphicsRectItem@Base 5.0.2
  _ZTV17QGraphicsRotation@Base 5.0.2
  _ZTV17QGraphicsTextItem@Base 5.0.2
- _ZTV17QPixmapBlurFilter@Base 5.0.2
+ _ZTV17QPixmapBlurFilter@Base 5.0.2 1
  _ZTV18QCommandLinkButton@Base 5.0.2
- _ZTV18QFileDialogPrivate@Base 5.0.2
+ _ZTV18QFileDialogPrivate@Base 5.0.2 1
  _ZTV18QGestureRecognizer@Base 5.0.2
  _ZTV18QGraphicsItemGroup@Base 5.0.2
  _ZTV18QGraphicsTransform@Base 5.0.2
  _ZTV18QItemEditorFactory@Base 5.0.2
  _ZTV18QTapAndHoldGesture@Base 5.0.2
- _ZTV18QWidgetLineControl@Base 5.0.2
- _ZTV18QWidgetTextControl@Base 5.0.2
+ _ZTV18QWidgetLineControl@Base 5.0.2 1
+ _ZTV18QWidgetTextControl@Base 5.0.2 1
  _ZTV19QAbstractScrollArea@Base 5.0.2
- _ZTV19QApplicationPrivate@Base 5.0.2
+ _ZTV19QApplicationPrivate@Base 5.0.2 1
  _ZTV19QGraphicsBlurEffect@Base 5.0.2
  _ZTV19QGraphicsGridLayout@Base 5.0.2
  _ZTV19QGraphicsLayoutItem@Base 5.0.2
@@ -7888,33 +7888,33 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZTV19QScrollerProperties@Base 5.0.2
  _ZTV19QStyledItemDelegate@Base 5.0.2
  _ZTV20QGraphicsEllipseItem@Base 5.0.2
- _ZTV20QGraphicsItemPrivate@Base 5.0.2
+ _ZTV20QGraphicsItemPrivate@Base 5.0.2 1
  _ZTV20QGraphicsPolygonItem@Base 5.0.2
  _ZTV20QGraphicsProxyWidget@Base 5.0.2
- _ZTV20QGraphicsViewPrivate@Base 5.0.2
- _ZTV20QWidgetResizeHandler@Base 5.0.2
+ _ZTV20QGraphicsViewPrivate@Base 5.0.2 1
+ _ZTV20QWidgetResizeHandler@Base 5.0.2 1
  _ZTV21QAbstractItemDelegate@Base 5.0.2
  _ZTV21QGraphicsAnchorLayout@Base 5.0.2
- _ZTV21QGraphicsEffectSource@Base 5.0.2
+ _ZTV21QGraphicsEffectSource@Base 5.0.2 1
  _ZTV21QGraphicsLinearLayout@Base 5.0.2
  _ZTV21QMouseEventTransition@Base 5.0.2
- _ZTV21QPixmapColorizeFilter@Base 5.0.2
- _ZTV22QGraphicsEffectPrivate@Base 5.0.2
+ _ZTV21QPixmapColorizeFilter@Base 5.0.2 1
+ _ZTV22QGraphicsEffectPrivate@Base 5.0.2 1
  _ZTV22QGraphicsItemAnimation@Base 5.0.2
  _ZTV22QGraphicsOpacityEffect@Base 5.0.2
  _ZTV22QItemEditorCreatorBase@Base 5.0.2
- _ZTV23QEventTransitionPrivate@Base 5.0.2
+ _ZTV23QEventTransitionPrivate@Base 5.0.2 1
  _ZTV23QGraphicsColorizeEffect@Base 5.0.2
  _ZTV23QGraphicsSceneHelpEvent@Base 5.0.2
  _ZTV23QGraphicsSceneMoveEvent@Base 5.0.2
  _ZTV23QGraphicsSimpleTextItem@Base 5.0.2
- _ZTV23QPixmapDropShadowFilter@Base 5.0.2
+ _ZTV23QPixmapDropShadowFilter@Base 5.0.2 1
  _ZTV24QGraphicsSceneHoverEvent@Base 5.0.2
  _ZTV24QGraphicsSceneMouseEvent@Base 5.0.2
  _ZTV24QGraphicsSceneWheelEvent@Base 5.0.2
- _ZTV24QPixmapConvolutionFilter@Base 5.0.2
+ _ZTV24QPixmapConvolutionFilter@Base 5.0.2 1
  _ZTV24QPlainTextDocumentLayout@Base 5.0.2
- _ZTV25QAbstractItemModelPrivate@Base 5.0.2
+ _ZTV25QAbstractItemModelPrivate@Base 5.0.2 1
  _ZTV25QGraphicsDropShadowEffect@Base 5.0.2
  _ZTV25QGraphicsSceneResizeEvent@Base 5.0.2
  _ZTV26QAbstractGraphicsShapeItem@Base 5.0.2
@@ -7962,7 +7962,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZTV9QTimeEdit@Base 5.0.2
  _ZTV9QTreeView@Base 5.0.2
  _ZTV9QUndoView@Base 5.0.2
- _ZTVN16QTreeViewPrivate17AnimatedOperationE@Base 5.0.2
+ _ZTVN16QTreeViewPrivate17AnimatedOperationE@Base 5.0.2 1
  _Zls6QDebug6QFlagsIN13QGraphicsItem16GraphicsItemFlagEE@Base 5.0.2
  _Zls6QDebug6QFlagsIN6QStyle9StateFlagEE@Base 5.0.2
  _Zls6QDebugN13QGraphicsItem16GraphicsItemFlagE@Base 5.0.2

@@ -140,9 +140,9 @@ libQt5DBus.so.5 libqt5dbus5 #MINVER#
  _ZN16QDBusPendingCallD1Ev@Base 5.0.2
  _ZN16QDBusPendingCallD2Ev@Base 5.0.2
  _ZN16QDBusPendingCallaSERKS_@Base 5.0.2
- _ZN18QDBusIntrospection11parseObjectERK7QStringS2_S2_@Base 5.0.2
- _ZN18QDBusIntrospection14parseInterfaceERK7QString@Base 5.0.2
- _ZN18QDBusIntrospection15parseInterfacesERK7QString@Base 5.0.2
+ _ZN18QDBusIntrospection11parseObjectERK7QStringS2_S2_@Base 5.0.2 1
+ _ZN18QDBusIntrospection14parseInterfaceERK7QString@Base 5.0.2 1
+ _ZN18QDBusIntrospection15parseInterfacesERK7QString@Base 5.0.2 1
  _ZN18QDBusVirtualObject11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN18QDBusVirtualObject11qt_metacastEPKc@Base 5.0.2
  _ZN18QDBusVirtualObject16staticMetaObjectE@Base 5.0.2
