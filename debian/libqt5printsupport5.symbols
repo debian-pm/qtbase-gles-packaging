@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.0.2 amd64 i386 hurd-i386 ia64 powerpc
+# SymbolsHelper-Confirmed: 5.0.2 amd64 armhf hurd-i386 i386 ia64 powerpc
 libQt5PrintSupport.so.5 libqt5printsupport5 #MINVER#
  _Z19qt_printerPaperSizeN8QPrinter11OrientationEN17QPagedPaintDevice8PageSizeENS_4UnitEi@Base 5.0.2
  _Z20qt_multiplierForUnitN8QPrinter4UnitEi@Base 5.0.2
@@ -115,7 +115,7 @@ libQt5PrintSupport.so.5 libqt5printsupport5 #MINVER#
  _ZN19QPrintPreviewWidget11qt_metacastEPKc@Base 5.0.2
  _ZN19QPrintPreviewWidget11setViewModeENS_8ViewModeE@Base 5.0.2
  _ZN19QPrintPreviewWidget11setZoomModeENS_8ZoomModeE@Base 5.0.2
- _ZN19QPrintPreviewWidget13setZoomFactorEd@Base 5.0.2
+ (subst)_ZN19QPrintPreviewWidget13setZoomFactorE{qreal}@Base 5.0.2
  _ZN19QPrintPreviewWidget13updatePreviewEv@Base 5.0.2
  _ZN19QPrintPreviewWidget14paintRequestedEP8QPrinter@Base 5.0.2
  _ZN19QPrintPreviewWidget14previewChangedEv@Base 5.0.2
@@ -128,8 +128,8 @@ libQt5PrintSupport.so.5 libqt5printsupport5 #MINVER#
  _ZN19QPrintPreviewWidget22setPortraitOrientationEv@Base 5.0.2
  _ZN19QPrintPreviewWidget23setLandscapeOrientationEv@Base 5.0.2
  _ZN19QPrintPreviewWidget5printEv@Base 5.0.2
- _ZN19QPrintPreviewWidget6zoomInEd@Base 5.0.2
- _ZN19QPrintPreviewWidget7zoomOutEd@Base 5.0.2
+ (subst)_ZN19QPrintPreviewWidget6zoomInE{qreal}@Base 5.0.2
+ (subst)_ZN19QPrintPreviewWidget7zoomOutE{qreal}@Base 5.0.2
  _ZN19QPrintPreviewWidget9fitInViewEv@Base 5.0.2
  _ZN19QPrintPreviewWidgetC1EP7QWidget6QFlagsIN2Qt10WindowTypeEE@Base 5.0.2
  _ZN19QPrintPreviewWidgetC1EP8QPrinterP7QWidget6QFlagsIN2Qt10WindowTypeEE@Base 5.0.2
@@ -203,7 +203,7 @@ libQt5PrintSupport.so.5 libqt5printsupport5 #MINVER#
  _ZN8QPrinter13setPrintRangeENS_10PrintRangeE@Base 5.0.2
  _ZN8QPrinter13setResolutionEi@Base 5.0.2
  _ZN8QPrinter14setOrientationENS_11OrientationE@Base 5.0.2
- _ZN8QPrinter14setPageMarginsEddddNS_4UnitE@Base 5.0.2
+ (subst)_ZN8QPrinter14setPageMarginsE{qreal}{qreal}{qreal}{qreal}NS_4UnitE@Base 5.0.2
  _ZN8QPrinter14setPaperSourceENS_11PaperSourceE@Base 5.0.2
  _ZN8QPrinter14setPrinterNameERK7QString@Base 5.0.2
  _ZN8QPrinter15setOutputFormatENS_12OutputFormatE@Base 5.0.2
@@ -284,7 +284,7 @@ libQt5PrintSupport.so.5 libqt5printsupport5 #MINVER#
  _ZNK8QPrinter12printProgramEv@Base 5.0.2
  _ZNK8QPrinter12printerStateEv@Base 5.0.2
  _ZNK8QPrinter13collateCopiesEv@Base 5.0.2
- _ZNK8QPrinter14getPageMarginsEPdS0_S0_S0_NS_4UnitE@Base 5.0.2
+ (subst)_ZNK8QPrinter14getPageMarginsEP{qreal}S0_S0_S0_NS_4UnitE@Base 5.0.2
  _ZNK8QPrinter14outputFileNameEv@Base 5.0.2
  _ZNK8QPrinter15actualNumCopiesEv@Base 5.0.2
  _ZNK8QPrinter19doubleSidedPrintingEv@Base 5.0.2

@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.0.2 amd64 i386 hurd-i386 ia64 powerpc
+# SymbolsHelper-Confirmed: 5.0.2 amd64 armhf hurd-i386 i386 ia64 powerpc
 libQt5Test.so.5 libqt5test5 #MINVER#
  _ZN10QTestTable15globalTestTableEv@Base 5.0.2
  _ZN10QTestTable16currentTestTableEv@Base 5.0.2
@@ -51,7 +51,7 @@ libQt5Test.so.5 libqt5test5 #MINVER#
  _ZN24QBenchmarkTestMethodData12beginDataRunEv@Base 5.0.2
  _ZN24QBenchmarkTestMethodData20adjustIterationCountEi@Base 5.0.2
  _ZN24QBenchmarkTestMethodData7currentE@Base 5.0.2
- _ZN24QBenchmarkTestMethodData9setResultEdN5QTest16QBenchmarkMetricEb@Base 5.0.2
+ (subst)_ZN24QBenchmarkTestMethodData9setResultE{qreal}N5QTest16QBenchmarkMetricEb@Base 5.0.2
  _ZN24QBenchmarkTestMethodDataC1Ev@Base 5.0.2
  _ZN24QBenchmarkTestMethodDataC2Ev@Base 5.0.2
  _ZN24QBenchmarkTestMethodDataD1Ev@Base 5.0.2
@@ -73,7 +73,7 @@ libQt5Test.so.5 libqt5test5 #MINVER#
  _ZN5QTest17addColumnInternalEiPKc@Base 5.0.2
  _ZN5QTest17currentTestFailedEv@Base 5.0.2
  _ZN5QTest17defaultMouseDelayEv@Base 5.0.2
- _ZN5QTest18setBenchmarkResultEdNS_16QBenchmarkMetricE@Base 5.0.2
+ (subst)_ZN5QTest18setBenchmarkResultE{qreal}NS_16QBenchmarkMetricE@Base 5.0.2
  _ZN5QTest19currentTestFunctionEv@Base 5.0.2
  _ZN5QTest19toHexRepresentationEPKci@Base 5.0.2
  _ZN5QTest21compare_string_helperEPKcS1_S1_S1_S1_i@Base 5.0.2
