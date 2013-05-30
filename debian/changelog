@@ -14,7 +14,7 @@ qtbase-opensource-src (5.0.2+dfsg1-5) experimental; urgency=low
   * Create a script to mark symbols as private.
   * Mark private symbols as private.
 
- -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 30 May 2013 15:35:46 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 30 May 2013 17:53:00 -0300
 
 qtbase-opensource-src (5.0.2+dfsg1-4) experimental; urgency=low
 
