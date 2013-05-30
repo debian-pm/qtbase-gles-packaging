@@ -5,7 +5,7 @@ qtbase-opensource-src (5.0.2+dfsg1-5) experimental; urgency=low
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Also ship 5.conf. This makes calls to qtchooser prettier: qtchooser -qt5.
-  * Add a lintian override for packages that depend on the private API/ABI,
+  * Add lintian overrides for packages that depend on the private API/ABI,
     it's totally correct for them to do so.
 
   [ Sune Vuorela ]
