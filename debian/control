@@ -318,8 +318,7 @@ Architecture: any
 Multi-Arch: foreign
 Section: devel
 Pre-Depends: dpkg (>= 1.15.6~)
-Depends: ${misc:Depends}, ${shlibs:Depends}, ${perl:Depends}
-Recommends: qtchooser
+Depends: qtchooser, ${misc:Depends}, ${shlibs:Depends}, ${perl:Depends}
 Description: Qt 5 base development programs
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -333,8 +332,7 @@ Architecture: any
 Multi-Arch: foreign
 Section: devel
 Pre-Depends: dpkg (>= 1.15.6~)
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Recommends: qtchooser
+Depends: qtchooser, ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 qmake Makefile generator tool
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
