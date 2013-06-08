@@ -418,7 +418,7 @@ Priority: extra
 Architecture: all
 Section: doc
 Depends: ${misc:Depends}
-Description: Qt 5 declarative documentation
+Description: Qt 5 base documentation
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
@@ -429,7 +429,7 @@ Priority: extra
 Architecture: all
 Section: doc
 Depends: ${misc:Depends}
-Description: Qt 5 declarative HTML documentation
+Description: Qt 5 base HTML documentation
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
