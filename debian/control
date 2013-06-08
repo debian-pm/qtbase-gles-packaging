@@ -412,3 +412,26 @@ Description: Qt 5 development defaults package
  using development binaries like qmake. It provides a default
  configuration for qtchooser, but does not prevent alternative Qt
  installations from being used.
+
+Package: qtbase5-doc
+Priority: extra
+Architecture: all
+Section: doc
+Depends: ${misc:Depends}
+Description: Qt 5 declarative documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the documentation for the Qt 5 base libraries.
+
+Package: qtbase5-doc-html
+Priority: extra
+Architecture: all
+Section: doc
+Depends: ${misc:Depends}
+Description: Qt 5 declarative HTML documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the HTML documentation for the Qt 5 base
+ libraries.

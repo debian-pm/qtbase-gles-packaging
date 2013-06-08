@@ -210,7 +210,10 @@ ifeq ($(vendor),Ubuntu)
 	rm -rf po
 endif
 
-override_dh_auto_install:
+override_dh_auto_build-indep:
+	dh_auto_build -Smakefile -- docs
+
+override_dh_auto_install-arch:
 	dh_auto_install -Smakefile -- INSTALL_ROOT=$(CURDIR)/debian/tmp/
 
 	# Fix wrong path in pkgconfig files
@@ -245,6 +248,9 @@ override_dh_auto_install:
 		-perm /u+x,g+x,o+x -type f \
 		-regex '.*\.\(app\|conf\|cpp\|h\|js\|php\|png\|pro\|xml\|xsl\)$$' \
 		-exec chmod a-x {} \;
+
+override_dh_auto_install-indep:
+	make INSTALL_ROOT=$(CURDIR)/debian/tmp install_docs
 
 override_dh_install:
 	# Now flush all the .install-* files as .install files.
