@@ -1,5 +1,6 @@
 undef_B0.diff
 deppath_gnu.diff
+Rename-qAbs-Function-for-timeval.patch
 
 # Debian specific.
 build_examples.patch
