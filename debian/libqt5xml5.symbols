@@ -1,7 +1,7 @@
 # SymbolsHelper-Confirmed: 5.0.2 amd64 armhf hurd-i386 i386 ia64 powerpc s390 s390x
 libQt5Xml.so.5 libqt5xml5 #MINVER#
 | libqt5xml5 #MINVER#, qtbase-abi-5-0-2
- (optional=gccinternal|arch=amd64 hurd-i386 i386)_ZN10QByteArray4dataEv@Base 5.0.2
+ (optional=gccinternal|arch=hurd-i386 i386)_ZN10QByteArray4dataEv@Base 5.0.2
  _ZN10QDomEntityC1EP17QDomEntityPrivate@Base 5.0.2
  _ZN10QDomEntityC1ERKS_@Base 5.0.2
  _ZN10QDomEntityC1Ev@Base 5.0.2
@@ -97,10 +97,10 @@ libQt5Xml.so.5 libqt5xml5 #MINVER#
  _ZN12QDomNotationaSERKS_@Base 5.0.2
  _ZN14QXmlAttributes5clearEv@Base 5.0.2
  _ZN14QXmlAttributes6appendERK7QStringS2_S2_S2_@Base 5.0.2
- (optional=gccinternal|arch=amd64 hurd-i386 i386)_ZN14QXmlAttributes9AttributeC1ERKS0_@Base 5.0.2
- (optional=gccinternal|arch=amd64 hurd-i386 i386)_ZN14QXmlAttributes9AttributeC2ERKS0_@Base 5.0.2
- (optional=gccinternal|arch=amd64 hurd-i386 i386)_ZN14QXmlAttributes9AttributeD1Ev@Base 5.0.2
- (optional=gccinternal|arch=amd64 hurd-i386 i386)_ZN14QXmlAttributes9AttributeD2Ev@Base 5.0.2
+ (optional=gccinternal|arch=hurd-i386 i386)_ZN14QXmlAttributes9AttributeC1ERKS0_@Base 5.0.2
+ (optional=gccinternal|arch=hurd-i386 i386)_ZN14QXmlAttributes9AttributeC2ERKS0_@Base 5.0.2
+ (optional=gccinternal|arch=hurd-i386 i386)_ZN14QXmlAttributes9AttributeD1Ev@Base 5.0.2
+ (optional=gccinternal|arch=hurd-i386 i386)_ZN14QXmlAttributes9AttributeD2Ev@Base 5.0.2
  _ZN15QXmlInputSource11fromRawDataERK10QByteArrayb@Base 5.0.2
  _ZN15QXmlInputSource13EndOfDocumentE@Base 5.0.2
  _ZN15QXmlInputSource4initEv@Base 5.0.2
@@ -251,7 +251,7 @@ libQt5Xml.so.5 libqt5xml5 #MINVER#
  _ZN25QDomProcessingInstructionC2ERKS_@Base 5.0.2
  _ZN25QDomProcessingInstructionC2Ev@Base 5.0.2
  _ZN25QDomProcessingInstructionaSERKS_@Base 5.0.2
- (optional=gccinternal|arch=amd64 hurd-i386 i386)_ZN7QString5clearEv@Base 5.0.2
+ (optional=gccinternal|arch=hurd-i386 i386)_ZN7QString5clearEv@Base 5.0.2
  _ZN8QDomAttr8setValueERK7QString@Base 5.0.2
  _ZN8QDomAttrC1EP15QDomAttrPrivate@Base 5.0.2
  _ZN8QDomAttrC1ERKS_@Base 5.0.2

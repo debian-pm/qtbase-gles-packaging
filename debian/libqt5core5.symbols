@@ -765,8 +765,8 @@ libQt5Core.so.5 libqt5core5 #MINVER#
  _ZN14QItemSelection6selectERK11QModelIndexS2_@Base 5.0.2
  _ZN14QItemSelectionC1ERK11QModelIndexS2_@Base 5.0.2
  _ZN14QItemSelectionC2ERK11QModelIndexS2_@Base 5.0.2
- _ZN14QItemSelectionD1Ev@Base 5.0.2
- _ZN14QItemSelectionD2Ev@Base 5.0.2
+ (arch=!amd64)_ZN14QItemSelectionD1Ev@Base 5.0.2
+ (arch=!amd64)_ZN14QItemSelectionD2Ev@Base 5.0.2
  _ZN14QLocalePrivate12codeToScriptERK7QString@Base 5.0.2 1
  _ZN14QLocalePrivate13codeToCountryERK7QString@Base 5.0.2 1
  _ZN14QLocalePrivate14codeToLanguageERK7QString@Base 5.0.2 1
@@ -898,8 +898,8 @@ libQt5Core.so.5 libqt5core5 #MINVER#
  _ZN15QAnimationGroupD1Ev@Base 5.0.2
  _ZN15QAnimationGroupD2Ev@Base 5.0.2
  _ZN15QDateTimeParser11parseFormatERK7QString@Base 5.0.2 1
- _ZN15QDateTimeParser9StateNodeD1Ev@Base 5.0.2 1
- _ZN15QDateTimeParser9StateNodeD2Ev@Base 5.0.2 1
+ (arch=!amd64)_ZN15QDateTimeParser9StateNodeD1Ev@Base 5.0.2 1
+ (arch=!amd64)_ZN15QDateTimeParser9StateNodeD2Ev@Base 5.0.2 1
  _ZN15QIPAddressUtils8parseIp4ERjPK5QCharS3_@Base 5.0.2
  _ZN15QIPAddressUtils8parseIp6ERA16_hPK5QCharS4_@Base 5.0.2
  _ZN15QIPAddressUtils8toStringER7QStringPh@Base 5.0.2
@@ -1531,8 +1531,8 @@ libQt5Core.so.5 libqt5core5 #MINVER#
  _ZN19QItemSelectionModelD0Ev@Base 5.0.2
  _ZN19QItemSelectionModelD1Ev@Base 5.0.2
  _ZN19QItemSelectionModelD2Ev@Base 5.0.2
- _ZN19QItemSelectionRangeD1Ev@Base 5.0.2
- _ZN19QItemSelectionRangeD2Ev@Base 5.0.2
+ (arch=!amd64)_ZN19QItemSelectionRangeD1Ev@Base 5.0.2
+ (arch=!amd64)_ZN19QItemSelectionRangeD2Ev@Base 5.0.2
  _ZN19QProcessEnvironment17systemEnvironmentEv@Base 5.0.2
  _ZN19QProcessEnvironment5clearEv@Base 5.0.2
  _ZN19QProcessEnvironment6insertERK7QStringS2_@Base 5.0.2
@@ -2185,8 +2185,8 @@ libQt5Core.so.5 libqt5core5 #MINVER#
  _ZN5QUuidC2EPKc@Base 5.0.2
  _ZN5QUuidC2ERK10QByteArray@Base 5.0.2
  _ZN5QUuidC2ERK7QString@Base 5.0.2
- (optional=gccinternal|arch=amd64 hurd-i386 i386 powerpcspe)_ZN6QDebug6StreamD1Ev@Base 5.0.2
- (optional=gccinternal|arch=amd64 hurd-i386 i386 powerpcspe)_ZN6QDebug6StreamD2Ev@Base 5.0.2
+ (optional=gccinternal|arch=hurd-i386 i386 powerpcspe)_ZN6QDebug6StreamD1Ev@Base 5.0.2
+ (optional=gccinternal|arch=hurd-i386 i386 powerpcspe)_ZN6QDebug6StreamD2Ev@Base 5.0.2
  _ZN6QEvent16staticMetaObjectE@Base 5.0.2
  _ZN6QEvent17registerEventTypeEi@Base 5.0.2
  _ZN6QEventC1ENS_4TypeE@Base 5.0.2
@@ -2368,7 +2368,7 @@ libQt5Core.so.5 libqt5core5 #MINVER#
  _ZN7QString4chopEi@Base 5.0.2
  _ZN7QString4fillE5QChari@Base 5.0.2
  _ZN7QString4nullE@Base 5.0.2
- (optional=gccinternal|arch=amd64 hurd-i386 i386 powerpcspe)_ZN7QString5clearEv@Base 5.0.2
+ (optional=gccinternal|arch=hurd-i386 i386 powerpcspe)_ZN7QString5clearEv@Base 5.0.2
  _ZN7QString6appendE13QLatin1String@Base 5.0.2
  _ZN7QString6appendE5QChar@Base 5.0.2
  _ZN7QString6appendEPK5QChari@Base 5.0.2
@@ -2704,8 +2704,8 @@ libQt5Core.so.5 libqt5core5 #MINVER#
  _ZN9QHashData6rehashEi@Base 5.0.2
  _ZN9QHashData8freeNodeEPv@Base 5.0.2
  _ZN9QHashData8nextNodeEPNS_4NodeE@Base 5.0.2
- (optional=gccinternal|arch=amd64 hurd-i386 i386 powerpcspe)_ZN9QHashData8willGrowEv@Base 5.0.2
- (arch=!armhf !powerpc !powerpcspe)_ZN9QHashData9hasShrunkEv@Base 5.0.2
+ (optional=gccinternal|arch=hurd-i386 i386 powerpcspe)_ZN9QHashData8willGrowEv@Base 5.0.2
+ (arch=!amd64 !armhf !powerpc !powerpcspe)_ZN9QHashData9hasShrunkEv@Base 5.0.2
  _ZN9QIODevice11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN9QIODevice11qt_metacastEPKc@Base 5.0.2
  _ZN9QIODevice11setOpenModeE6QFlagsINS_12OpenModeFlagEE@Base 5.0.2
@@ -4314,11 +4314,11 @@ libQt5Core.so.5 libqt5core5 #MINVER#
  _ZNK9QtPrivate18ResultIteratorBase9batchSizeEv@Base 5.0.2
  _ZNK9QtPrivate18ResultIteratorBaseeqERKS0_@Base 5.0.2
  _ZNK9QtPrivate18ResultIteratorBaseneERKS0_@Base 5.0.2
- (optional=templinst|arch=!armhf !ia64 !powerpc !powerpcspe !s390 !s390x)_ZNSt11__copy_moveILb1ELb0ESt26random_access_iterator_tagE8__copy_mIP21QPersistentModelIndexS4_EET0_T_S6_S5_@Base 5.0.2
+ (optional=templinst|arch=!amd64 !armhf !ia64 !powerpc !powerpcspe !s390 !s390x)_ZNSt11__copy_moveILb1ELb0ESt26random_access_iterator_tagE8__copy_mIP21QPersistentModelIndexS4_EET0_T_S6_S5_@Base 5.0.2
  (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390 s390x)_ZNSt17_Temporary_bufferIP21QPersistentModelIndexS0_EC1ES1_S1_@Base 5.0.2
  (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390 s390x)_ZNSt17_Temporary_bufferIP21QPersistentModelIndexS0_EC2ES1_S1_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpcspe)_ZNSt17_Temporary_bufferIP21QPersistentModelIndexS0_ED1Ev@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpcspe)_ZNSt17_Temporary_bufferIP21QPersistentModelIndexS0_ED2Ev@Base 5.0.2
+ (optional=templinst|arch=amd64 armhf ia64 powerpcspe)_ZNSt17_Temporary_bufferIP21QPersistentModelIndexS0_ED1Ev@Base 5.0.2
+ (optional=templinst|arch=amd64 armhf ia64 powerpcspe)_ZNSt17_Temporary_bufferIP21QPersistentModelIndexS0_ED2Ev@Base 5.0.2
  (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390 s390x)_ZNSt17_Temporary_bufferIP5QPairI21QPersistentModelIndexjES2_EC1ES3_S3_@Base 5.0.2
  (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390 s390x)_ZNSt17_Temporary_bufferIP5QPairI21QPersistentModelIndexjES2_EC2ES3_S3_@Base 5.0.2
  (optional=templinst|arch=armhf ia64 powerpcspe)_ZNSt17_Temporary_bufferIP5QPairI21QPersistentModelIndexjES2_ED1Ev@Base 5.0.2
@@ -4327,16 +4327,16 @@ libQt5Core.so.5 libqt5core5 #MINVER#
  (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390 s390x)_ZNSt17_Temporary_bufferIP5QPairIiiES1_EC2ES2_S2_@Base 5.0.2
  (optional=templinst)_ZNSt17_Temporary_bufferIPiiEC1ES0_S0_@Base 5.0.2
  (optional=templinst)_ZNSt17_Temporary_bufferIPiiEC2ES0_S0_@Base 5.0.2
- (optional=templinst|arch=!armhf !ia64 !powerpc !powerpcspe !s390 !s390x)_ZNSt20__copy_move_backwardILb1ELb0ESt26random_access_iterator_tagE13__copy_move_bIP21QPersistentModelIndexS4_EET0_T_S6_S5_@Base 5.0.2
- (optional=templinst)_ZNSt38__uninitialized_construct_buf_dispatchILb0EE5__ucrIP21QPersistentModelIndexS2_EEvT_S4_RT0_@Base 5.0.2
+ (optional=templinst|arch=!amd64 !armhf !ia64 !powerpc !powerpcspe !s390 !s390x)_ZNSt20__copy_move_backwardILb1ELb0ESt26random_access_iterator_tagE13__copy_move_bIP21QPersistentModelIndexS4_EET0_T_S6_S5_@Base 5.0.2
+ (optional=templinst|arch=amd64)_ZNSt20__copy_move_backwardILb1ELb1ESt26random_access_iterator_tagE13__copy_move_bIiEEPT_PKS3_S6_S4_@Base 5.0.2
+ (optional=templinst|arch=!amd64)_ZNSt38__uninitialized_construct_buf_dispatchILb0EE5__ucrIP21QPersistentModelIndexS2_EEvT_S4_RT0_@Base 5.0.2
  (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390 s390x)_ZNSt38__uninitialized_construct_buf_dispatchILb0EE5__ucrIP5QPairI21QPersistentModelIndexjES4_EEvT_S6_RT0_@Base 5.0.2
  (optional=templinst|subst|arch=powerpcspe s390)_ZSt11__push_heapIN5QListI5QPairI7QStringiEE8iteratorE{qptrdiff}S3_PFbRKS3_S7_EEvT_T0_SB_T1_T2_@Base 5.0.2
  (optional=templinst)_ZSt11lower_boundIP21QPersistentModelIndexS0_ET_S2_S2_RKT0_@Base 5.0.2
  (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390 s390x)_ZSt11lower_boundIP5QPairI21QPersistentModelIndexjES2_ET_S4_S4_RKT0_@Base 5.0.2
  (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390 s390x)_ZSt11lower_boundIP5QPairIiiES1_ET_S3_S3_RKT0_@Base 5.0.2
- (optional=templinst)_ZSt11stable_sortIP21QPersistentModelIndexEvT_S2_@Base 5.0.2
+ (optional=templinst|arch=!amd64)_ZSt11stable_sortIP21QPersistentModelIndexEvT_S2_@Base 5.0.2
  (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390 s390x)_ZSt11stable_sortIP5QPairI21QPersistentModelIndexjEEvT_S4_@Base 5.0.2
- (optional=templinst|arch=amd64)_ZSt11stable_sortIPiEvT_S1_@Base 5.0.2
  (optional=templinst)_ZSt11upper_boundIP21QPersistentModelIndexS0_ET_S2_S2_RKT0_@Base 5.0.2
  (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390 s390x)_ZSt11upper_boundIP5QPairI21QPersistentModelIndexjES2_ET_S4_S4_RKT0_@Base 5.0.2
  (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390 s390x)_ZSt11upper_boundIP5QPairIiiES1_ET_S3_S3_RKT0_@Base 5.0.2
@@ -4380,7 +4380,7 @@ libQt5Core.so.5 libqt5core5 #MINVER#
  (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390x|subst)_ZSt17__merge_sort_loopIPiS0_{ssize_t}32QSortFilterProxyModelGreaterThanEvT_S2_T0_T1_T2_@Base 5.0.2
  (optional=templinst|subst)_ZSt17__merge_sort_loopIPiS0_{ssize_t}EvT_S1_T0_T1_@Base 5.0.2
  (optional=templinst|arch=s390)_ZSt17__rotate_adaptiveIP21QPersistentModelIndexS1_iET_S2_S2_S2_T1_S3_T0_S3_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390x|subst)_ZSt17__rotate_adaptiveIP21QPersistentModelIndexS1_{ssize_t}ET_S2_S2_S2_T1_S3_T0_S3_@Base 5.0.2
+ (optional=templinst|arch=amd64 armhf ia64 powerpc powerpcspe s390x|subst)_ZSt17__rotate_adaptiveIP21QPersistentModelIndexS1_{ssize_t}ET_S2_S2_S2_T1_S3_T0_S3_@Base 5.0.2
  (optional=templinst|arch=s390)_ZSt17__rotate_adaptiveIP5QPairI21QPersistentModelIndexjES3_iET_S4_S4_S4_T1_S5_T0_S5_@Base 5.0.2
  (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390x|subst)_ZSt17__rotate_adaptiveIP5QPairI21QPersistentModelIndexjES3_{ssize_t}ET_S4_S4_S4_T1_S5_T0_S5_@Base 5.0.2
  (optional=templinst|arch=s390)_ZSt17__rotate_adaptiveIP5QPairIiiES2_iET_S3_S3_S3_T1_S4_T0_S4_@Base 5.0.2
@@ -4394,9 +4394,9 @@ libQt5Core.so.5 libqt5core5 #MINVER#
  (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390 s390x)_ZSt21__inplace_stable_sortIPi29QSortFilterProxyModelLessThanEvT_S2_T0_@Base 5.0.2
  (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390 s390x)_ZSt21__inplace_stable_sortIPi32QSortFilterProxyModelGreaterThanEvT_S2_T0_@Base 5.0.2
  (optional=templinst)_ZSt21__inplace_stable_sortIPiEvT_S1_@Base 5.0.2
- (optional=templinst|arch=!armhf !ia64 !powerpc !powerpcspe !s390 !s390x)_ZSt21__move_merge_adaptiveIP21QPersistentModelIndexS1_S1_EvT_S2_T0_S3_T1_@Base 5.0.2
+ (optional=templinst|arch=!amd64 !armhf !ia64 !powerpc !powerpcspe !s390 !s390x)_ZSt21__move_merge_adaptiveIP21QPersistentModelIndexS1_S1_EvT_S2_T0_S3_T1_@Base 5.0.2
  (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390 s390x)_ZSt21__unguarded_partitionIN5QListI5QPairI7QStringiEE8iteratorES3_PFbRKS3_S7_EET_SA_SA_RKT0_T1_@Base 5.0.2
- (optional=templinst|arch=!armhf !ia64 !powerpc !powerpcspe !s390 !s390x)_ZSt22__final_insertion_sortIPiEvT_S1_@Base 5.0.2
+ (optional=templinst|arch=!amd64 !armhf !ia64 !powerpc !powerpcspe !s390 !s390x)_ZSt22__final_insertion_sortIPiEvT_S1_@Base 5.0.2
  (optional=templinst|subst)_ZSt22__merge_without_bufferIP21QPersistentModelIndex{ssize_t}EvT_S2_S2_T0_S3_@Base 5.0.2
  (optional=templinst|arch=s390)_ZSt22__merge_without_bufferIP5QPairI21QPersistentModelIndexjEiEvT_S4_S4_T0_S5_@Base 5.0.2
  (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390x|subst)_ZSt22__merge_without_bufferIP5QPairI21QPersistentModelIndexjE{ssize_t}EvT_S4_S4_T0_S5_@Base 5.0.2
@@ -4426,12 +4426,12 @@ libQt5Core.so.5 libqt5core5 #MINVER#
  (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390 s390x)_ZSt25__unguarded_linear_insertIN5QListI5QPairI7QStringiEE8iteratorEPFbRKS3_S7_EEvT_T0_@Base 5.0.2
  (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390 s390x)_ZSt25__unguarded_linear_insertIP21QPersistentModelIndexEvT_@Base 5.0.2
  (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390 s390x)_ZSt25__unguarded_linear_insertIP5QPairI21QPersistentModelIndexjEEvT_@Base 5.0.2
- (optional=templinst)_ZSt30__move_merge_adaptive_backwardIP21QPersistentModelIndexS1_S1_EvT_S2_T0_S3_T1_@Base 5.0.2
+ (optional=templinst|arch=!amd64)_ZSt30__move_merge_adaptive_backwardIP21QPersistentModelIndexS1_S1_EvT_S2_T0_S3_T1_@Base 5.0.2
  (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390 s390x)_ZSt30__move_merge_adaptive_backwardIP5QPairI21QPersistentModelIndexjES3_S3_EvT_S4_T0_S5_T1_@Base 5.0.2
  (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390 s390x)_ZSt30__move_merge_adaptive_backwardIP5QPairIiiES2_S2_EvT_S3_T0_S4_T1_@Base 5.0.2
  (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390 s390x)_ZSt30__move_merge_adaptive_backwardIPiS0_S0_29QSortFilterProxyModelLessThanEvT_S2_T0_S3_T1_T2_@Base 5.0.2
  (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390 s390x)_ZSt30__move_merge_adaptive_backwardIPiS0_S0_32QSortFilterProxyModelGreaterThanEvT_S2_T0_S3_T1_T2_@Base 5.0.2
- (optional=templinst|arch=!armhf !ia64 !powerpc !powerpcspe !s390 !s390x)_ZSt30__move_merge_adaptive_backwardIPiS0_S0_EvT_S1_T0_S2_T1_@Base 5.0.2
+ (optional=templinst|arch=!amd64 !armhf !ia64 !powerpc !powerpcspe !s390 !s390x)_ZSt30__move_merge_adaptive_backwardIPiS0_S0_EvT_S1_T0_S2_T1_@Base 5.0.2
  (optional=templinst|arch=powerpc powerpcspe s390 s390x)_ZSt4moveIP21QPersistentModelIndexS1_ET0_T_S3_S2_@Base 5.0.2
  (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390 s390x)_ZSt4moveIP5QPairI21QPersistentModelIndexjES3_ET0_T_S5_S4_@Base 5.0.2
  (optional=templinst)_ZSt8__rotateIP21QPersistentModelIndexEvT_S2_S2_St26random_access_iterator_tag@Base 5.0.2

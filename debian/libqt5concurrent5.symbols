@@ -26,9 +26,9 @@ libQt5Concurrent.so.5 libqt5concurrent5 #MINVER#
  _ZN12QtConcurrent16ThreadEngineBaseD0Ev@Base 5.0.2
  _ZN12QtConcurrent16ThreadEngineBaseD1Ev@Base 5.0.2
  _ZN12QtConcurrent16ThreadEngineBaseD2Ev@Base 5.0.2
- (optional=gccinternal|arch=amd64 hurd-i386 i386)_ZN19QUnhandledExceptionD0Ev@Base 5.0.2
- (optional=gccinternal|arch=amd64 hurd-i386 i386)_ZN19QUnhandledExceptionD1Ev@Base 5.0.2
- (optional=gccinternal|arch=amd64 hurd-i386 i386)_ZN19QUnhandledExceptionD2Ev@Base 5.0.2
+ (optional=gccinternal|arch=hurd-i386 i386)_ZN19QUnhandledExceptionD0Ev@Base 5.0.2
+ (optional=gccinternal|arch=hurd-i386 i386)_ZN19QUnhandledExceptionD1Ev@Base 5.0.2
+ (optional=gccinternal|arch=hurd-i386 i386)_ZN19QUnhandledExceptionD2Ev@Base 5.0.2
  _ZTIN12QtConcurrent16ThreadEngineBaseE@Base 5.0.2
  _ZTSN12QtConcurrent16ThreadEngineBaseE@Base 5.0.2
  _ZTVN12QtConcurrent16ThreadEngineBaseE@Base 5.0.2
