@@ -10,6 +10,8 @@ qtbase-opensource-src (5.0.2+dfsg1-6) UNRELEASED; urgency=low
     - Document how to bootstrap the packages in order to be able to build the
       documentation.
   * Update symbols files.
+  * Add build dependencies to build support for:
+    - ALSA.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 04 Jun 2013 14:43:47 -0300
 
