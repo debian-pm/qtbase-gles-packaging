@@ -13,6 +13,7 @@ qtbase-opensource-src (5.0.2+dfsg1-6) UNRELEASED; urgency=low
   * Add build dependencies to build support for:
     - ALSA.
     - PulseAudio.
+    - OpenVG.
   * Add libgbm-dev as Build-Dep, necessary for KMS support.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 04 Jun 2013 14:43:47 -0300
