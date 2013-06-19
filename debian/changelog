@@ -18,6 +18,7 @@ qtbase-opensource-src (5.0.2+dfsg1-6) UNRELEASED; urgency=low
   * Add libgbm-dev as Build-Dep, necessary for KMS support.
   * Apply Rename-qAbs-Function-for-timeval.patch taken from upstream to solve
     FTBFS with GCC 4.8.
+  * Update Standards-Version to 3.9.4. No changes needed.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 04 Jun 2013 14:43:47 -0300
 
