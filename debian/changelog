@@ -9,6 +9,7 @@ qtbase-opensource-src (5.0.2+dfsg1-6) UNRELEASED; urgency=low
     - Build and create a packages for qch and HTML doc formats.
     - Document how to bootstrap the packages in order to be able to build the
       documentation.
+  * Update symbols files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 04 Jun 2013 14:43:47 -0300
 
