@@ -1,4 +1,4 @@
-qtbase-opensource-src (5.0.2+dfsg1-6) UNRELEASED; urgency=low
+qtbase-opensource-src (5.0.2+dfsg1-6) experimental; urgency=low
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Make packages that ship a binary managed by qtchooser depend on it.
@@ -21,7 +21,7 @@ qtbase-opensource-src (5.0.2+dfsg1-6) UNRELEASED; urgency=low
   * Update Standards-Version to 3.9.4. No changes needed.
   * Make qtbase5-dbg M-A same.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 04 Jun 2013 14:43:47 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 19 Jun 2013 19:34:49 -0300
 
 qtbase-opensource-src (5.0.2+dfsg1-5) experimental; urgency=low
 
