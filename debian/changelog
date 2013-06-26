@@ -2,6 +2,7 @@ qtbase-opensource-src (5.0.2+dfsg1-7) UNRELEASED; urgency=low
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Mark libgbm-dev as linux-any. Other OSs do not have it.
+  * Add the qkms plugin to the armhf list of files to install.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 24 Jun 2013 09:48:33 -0300
 
