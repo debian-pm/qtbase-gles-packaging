@@ -4331,7 +4331,7 @@ libQt5Core.so.5 libqt5core5 #MINVER#
  (optional=templinst|arch=amd64)_ZNSt20__copy_move_backwardILb1ELb1ESt26random_access_iterator_tagE13__copy_move_bIiEEPT_PKS3_S6_S4_@Base 5.0.2
  (optional=templinst|arch=!amd64)_ZNSt38__uninitialized_construct_buf_dispatchILb0EE5__ucrIP21QPersistentModelIndexS2_EEvT_S4_RT0_@Base 5.0.2
  (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390 s390x)_ZNSt38__uninitialized_construct_buf_dispatchILb0EE5__ucrIP5QPairI21QPersistentModelIndexjES4_EEvT_S6_RT0_@Base 5.0.2
- (optional=templinst|subst|arch=powerpcspe s390)_ZSt11__push_heapIN5QListI5QPairI7QStringiEE8iteratorE{qptrdiff}S3_PFbRKS3_S7_EEvT_T0_SB_T1_T2_@Base 5.0.2
+ (optional=templinst|subst|arch=ia64 powerpcspe s390 s390x)_ZSt11__push_heapIN5QListI5QPairI7QStringiEE8iteratorE{qptrdiff}S3_PFbRKS3_S7_EEvT_T0_SB_T1_T2_@Base 5.0.2
  (optional=templinst)_ZSt11lower_boundIP21QPersistentModelIndexS0_ET_S2_S2_RKT0_@Base 5.0.2
  (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390 s390x)_ZSt11lower_boundIP5QPairI21QPersistentModelIndexjES2_ET_S4_S4_RKT0_@Base 5.0.2
  (optional=templinst|arch=armhf ia64 powerpc powerpcspe s390 s390x)_ZSt11lower_boundIP5QPairIiiES1_ET_S3_S3_RKT0_@Base 5.0.2
