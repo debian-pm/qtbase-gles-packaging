@@ -1,6 +1,5 @@
-qtbase-opensource-src (5.0.2+dfsg1-7) UNRELEASED; urgency=low
+qtbase-opensource-src (5.0.2+dfsg1-7) experimental; urgency=low
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * Mark libgbm-dev as linux-any. Other OSs do not have it.
   * Add the qkms plugin to the armhf list of files to install.
   * Update symbols files.
@@ -9,7 +8,7 @@ qtbase-opensource-src (5.0.2+dfsg1-7) UNRELEASED; urgency=low
   * Add a lintian override for libqt5xml5, which rightfully declares a
     dependency on qtbase-abi-5-0-2.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 24 Jun 2013 09:48:33 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 26 Jun 2013 00:01:03 -0300
 
 qtbase-opensource-src (5.0.2+dfsg1-6) experimental; urgency=low
 
