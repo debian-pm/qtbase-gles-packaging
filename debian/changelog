@@ -1,5 +1,9 @@
 qtbase-opensource-src (5.0.2+dfsg1-8) UNRELEASED; urgency=low
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Do not build depend on libopenvg1-mesa-dev on hurd, it's not available
+    there.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 27 Jun 2013 14:04:21 -0300
 
 qtbase-opensource-src (5.0.2+dfsg1-7) experimental; urgency=low
