@@ -1,3 +1,7 @@
+qtbase-opensource-src (5.0.2+dfsg1-8) UNRELEASED; urgency=low
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 27 Jun 2013 14:04:21 -0300
+
 qtbase-opensource-src (5.0.2+dfsg1-7) experimental; urgency=low
 
   * Mark libgbm-dev as linux-any. Other OSs do not have it.
