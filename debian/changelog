@@ -6,6 +6,7 @@ qtbase-opensource-src (5.1.0+dfsg-1) UNRELEASED; urgency=low
     there.
   * Fix watch file with new url.
   * Make libqt5core5 provide qtbase-abi-5-1-0.
+  * Update symbols files with latest 5.0.2 build logs.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 27 Jun 2013 14:04:21 -0300
 
