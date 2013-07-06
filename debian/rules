@@ -129,6 +129,7 @@ override_dh_auto_configure:
 	            -glib \
 	            -icu \
 	            -accessibility \
+	            -compile-examples \
 	            --no-directfb \
 	            $(extra_configure_opts)
 

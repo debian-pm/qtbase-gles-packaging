@@ -1,4 +1,3 @@
 deppath_gnu.diff
 
 # Debian specific.
-build_examples.patch
