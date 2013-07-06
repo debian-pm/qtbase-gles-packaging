@@ -12,6 +12,7 @@ qtbase-opensource-src (5.1.0+dfsg-1) UNRELEASED; urgency=low
     - Rename-qAbs-Function-for-timeval.patch
     - build_examples.patch, adding the new -compile-examples switch.
   * Refresh patches: deppath_gnu.diff.
+  * Bump Build-Depends-Indep qttools5-dev-tools dependency to << 5.1.0~.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 27 Jun 2013 14:04:21 -0300
 
