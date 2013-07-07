@@ -154,7 +154,6 @@ override_dh_auto_clean:
 	  doc/qch/ \
 	  examples/tools/plugandpaint/plugins/ \
 	  examples/tools/styleplugin/styles/ \
-	  include/ \
 	  lib/ \
 	  mkspecs/glibc-g++/ \
 	  plugins/ \

@@ -13,6 +13,10 @@ qtbase-opensource-src (5.1.0+dfsg-1) UNRELEASED; urgency=low
     - build_examples.patch, adding the new -compile-examples switch.
   * Refresh patches: deppath_gnu.diff.
   * Bump Build-Depends-Indep qttools5-dev-tools dependency to << 5.1.0~.
+  * Do not remove the include dir on cleaning the sources. Prior to Qt 5.1 perl
+    would be run and re-create the includes. In 5.1, perl only runs if .git is
+    found and the build is done out-of-source. Thanks Pino and Thiago for the
+    hints.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 27 Jun 2013 14:04:21 -0300
 
