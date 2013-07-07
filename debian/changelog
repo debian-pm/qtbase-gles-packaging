@@ -17,6 +17,7 @@ qtbase-opensource-src (5.1.0+dfsg-1) UNRELEASED; urgency=low
     would be run and re-create the includes. In 5.1, perl only runs if .git is
     found and the build is done out-of-source. Thanks Pino and Thiago for the
     hints.
+  * Fix typo in -no-direcfb switch in configure.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 27 Jun 2013 14:04:21 -0300
 
