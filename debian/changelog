@@ -18,6 +18,7 @@ qtbase-opensource-src (5.1.0+dfsg-1) UNRELEASED; urgency=low
     found and the build is done out-of-source. Thanks Pino and Thiago for the
     hints.
   * Fix typo in -no-direcfb switch in configure.
+  * Update install files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 27 Jun 2013 14:04:21 -0300
 
