@@ -22,6 +22,8 @@ qtbase-opensource-src (5.1.0+dfsg-1) UNRELEASED; urgency=low
   * Update symbols files with current build. The missing symbols seemed to be
     internal/private stuff and optional ones, so everything should be OK.
   * Mark private symbols in symbols files.
+  * Add a lintian override for libqt5core5. Symbols should declare a dependency on
+    qtbase-abi-5-1-0.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 27 Jun 2013 14:04:21 -0300
 
