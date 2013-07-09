@@ -26,6 +26,12 @@ qtbase-opensource-src (5.1.0+dfsg-1) UNRELEASED; urgency=low
     on qtbase-abi-5-1-0.
   * Change symbols files and lintian overrides to provide qtbase-abi-5-1-0.
   * Minimal improve of README.source with private symbols handling.
+  * Remove doc packages. The build system has changed and I can't build them
+    anymore.
+    - Remove independent build deps.
+    - Remove the doc packages from debian/control.
+    - Remove their asociated install files.
+    - Remove the indep targets in debian/rules.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 27 Jun 2013 14:04:21 -0300
 

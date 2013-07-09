@@ -13,14 +13,6 @@ tests/auto/network/access/qftp/rfc3252.txt
 tests/auto/corelib/tools/qbytearray/rfc3252.txt 
 tests/auto/corelib/io/qtextstream/rfc3261.txt
 
-Bootstrapping the documentation
--------------------------------
-
-To build the documentation you need to first bootstrap the packages. This is
-easily done by first building only arch: any packages of qtbase and qttools.
-Using this packages, rebuild the full source, this time including arch: all
-packages.
-
 Marking private symbols
 -----------------------
 
