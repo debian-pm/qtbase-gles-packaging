@@ -1530,6 +1530,7 @@ usr/share/qt5/doc/global/compat.qdocconf
 usr/share/qt5/doc/global/externalsites/external-resources.qdoc
 usr/share/qt5/doc/global/externalsites/qch-urls.qdoc
 usr/share/qt5/doc/global/externalsites/qt-webpages.qdoc
+usr/share/qt5/doc/global/externalsites/qtcreator.qdoc
 usr/share/qt5/doc/global/externalsites/rfc.qdoc
 usr/share/qt5/doc/global/macros.qdocconf
 usr/share/qt5/doc/global/manifest-meta.qdocconf
