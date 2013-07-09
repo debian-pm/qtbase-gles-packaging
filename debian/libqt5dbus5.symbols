@@ -1,9 +1,11 @@
-# SymbolsHelper-Confirmed: 5.0.2 amd64 armhf hurd-i386 i386 ia64 powerpc ppc64 s390 s390x
+# SymbolsHelper-Confirmed: 5.1.0 amd64
 libQt5DBus.so.5 libqt5dbus5 #MINVER#
 | libqt5dbus5 #MINVER#, qtbase-abi-5-0-2
  _Z14qDBusReplyFillRK12QDBusMessageR10QDBusErrorR8QVariant@Base 5.0.2
  _Z15qDBusAddSpyHookPFvRK12QDBusMessageE@Base 5.0.2
+ _Z18qDBusCheckAsyncTagPKc@Base 5.1.0
  _Z22qDBusBindToApplicationv@Base 5.0.2
+ _Z24qDBusParametersForMethodRK5QListI10QByteArrayER7QVectorIiE@Base 5.1.0
  _Z26qDBusGenerateMetaObjectXml7QStringPK11QMetaObjectS2_i@Base 5.0.2
  _ZN10QDBusError11errorStringENS_9ErrorTypeE@Base 5.0.2
  _ZN10QDBusErrorC1ENS_9ErrorTypeERK7QString@Base 5.0.2

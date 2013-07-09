@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.0.2 amd64 armhf hurd-i386 i386 ia64 powerpc powerpcspe ppc64 s390 s390x
+# SymbolsHelper-Confirmed: 5.1.0 amd64
 libQt5Network.so.5 libqt5network5 #MINVER#
 | libqt5network5 #MINVER#, qtbase-abi-5-0-2
  _Z19qt_qhostinfo_lookupRK7QStringP7QObjectPKcPbPi@Base 5.0.2
@@ -81,6 +81,7 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZN10QSslSocket24addDefaultCaCertificatesERK5QListI15QSslCertificateE@Base 5.0.2
  _ZN10QSslSocket24addDefaultCaCertificatesERK7QStringN4QSsl14EncodingFormatEN7QRegExp13PatternSyntaxE@Base 5.0.2
  _ZN10QSslSocket24setDefaultCaCertificatesERK5QListI15QSslCertificateE@Base 5.0.2
+ _ZN10QSslSocket24setLocalCertificateChainERK5QListI15QSslCertificateE@Base 5.1.0
  _ZN10QSslSocket5abortEv@Base 5.0.2
  _ZN10QSslSocket5closeEv@Base 5.0.2
  _ZN10QSslSocket5flushEv@Base 5.0.2
@@ -190,6 +191,8 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZN12QLocalSocket11qt_metacastEPKc@Base 5.0.2
  _ZN12QLocalSocket12disconnectedEv@Base 5.0.2
  _ZN12QLocalSocket12stateChangedENS_16LocalSocketStateE@Base 5.0.2
+ _ZN12QLocalSocket13setServerNameERK7QString@Base 5.1.0
+ _ZN12QLocalSocket15connectToServerE6QFlagsIN9QIODevice12OpenModeFlagEE@Base 5.1.0
  _ZN12QLocalSocket15connectToServerERK7QString6QFlagsIN9QIODevice12OpenModeFlagEE@Base 5.0.2
  _ZN12QLocalSocket16staticMetaObjectE@Base 5.0.2
  _ZN12QLocalSocket16waitForConnectedEi@Base 5.0.2
@@ -199,6 +202,7 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZN12QLocalSocket19waitForBytesWrittenEi@Base 5.0.2
  _ZN12QLocalSocket19waitForDisconnectedEi@Base 5.0.2
  _ZN12QLocalSocket20disconnectFromServerEv@Base 5.0.2
+ _ZN12QLocalSocket4openE6QFlagsIN9QIODevice12OpenModeFlagEE@Base 5.1.0
  _ZN12QLocalSocket5abortEv@Base 5.0.2
  _ZN12QLocalSocket5closeEv@Base 5.0.2
  _ZN12QLocalSocket5errorENS_16LocalSocketErrorE@Base 5.0.2
@@ -264,6 +268,7 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZN13QNetworkReply6setUrlERK4QUrl@Base 5.0.2
  _ZN13QNetworkReply8finishedEv@Base 5.0.2
  _ZN13QNetworkReply8setErrorENS_12NetworkErrorERK7QString@Base 5.0.2
+ _ZN13QNetworkReply9encryptedEv@Base 5.1.0
  _ZN13QNetworkReply9setHeaderEN15QNetworkRequest12KnownHeadersERK8QVariant@Base 5.0.2
  _ZN13QNetworkReply9sslErrorsERK5QListI9QSslErrorE@Base 5.0.2
  _ZN13QNetworkReply9writeDataEPKcx@Base 5.0.2
@@ -479,6 +484,7 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZN17QSslConfiguration19setLocalCertificateERK15QSslCertificate@Base 5.0.2
  _ZN17QSslConfiguration20defaultConfigurationEv@Base 5.0.2
  _ZN17QSslConfiguration23setDefaultConfigurationERKS_@Base 5.0.2
+ _ZN17QSslConfiguration24setLocalCertificateChainERK5QListI15QSslCertificateE@Base 5.1.0
  _ZN17QSslConfigurationC1ERKS_@Base 5.0.2
  _ZN17QSslConfigurationC1Ev@Base 5.0.2
  _ZN17QSslConfigurationC2ERKS_@Base 5.0.2
@@ -590,6 +596,7 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZN21QNetworkAccessManager8finishedEP13QNetworkReply@Base 5.0.2
  _ZN21QNetworkAccessManager8setCacheEP21QAbstractNetworkCache@Base 5.0.2
  _ZN21QNetworkAccessManager8setProxyERK13QNetworkProxy@Base 5.0.2
+ _ZN21QNetworkAccessManager9encryptedEP13QNetworkReply@Base 5.1.0
  _ZN21QNetworkAccessManager9sslErrorsEP13QNetworkReplyRK5QListI9QSslErrorE@Base 5.0.2
  _ZN21QNetworkAccessManagerC1EP7QObject@Base 5.0.2
  _ZN21QNetworkAccessManagerC2EP7QObject@Base 5.0.2
@@ -800,6 +807,7 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZNK10QSslSocket16sslConfigurationEv@Base 5.0.2
  _ZNK10QSslSocket20peerCertificateChainEv@Base 5.0.2
  _ZNK10QSslSocket21encryptedBytesToWriteEv@Base 5.0.2
+ _ZNK10QSslSocket21localCertificateChainEv@Base 5.1.0
  _ZNK10QSslSocket23encryptedBytesAvailableEv@Base 5.0.2
  _ZNK10QSslSocket4modeEv@Base 5.0.2
  _ZNK10QSslSocket5atEndEv@Base 5.0.2
@@ -1003,6 +1011,7 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZNK17QSslConfiguration15peerVerifyDepthEv@Base 5.0.2
  _ZNK17QSslConfiguration16localCertificateEv@Base 5.0.2
  _ZNK17QSslConfiguration20peerCertificateChainEv@Base 5.0.2
+ _ZNK17QSslConfiguration21localCertificateChainEv@Base 5.1.0
  _ZNK17QSslConfiguration6isNullEv@Base 5.0.2
  _ZNK17QSslConfiguration7ciphersEv@Base 5.0.2
  _ZNK17QSslConfiguration8protocolEv@Base 5.0.2

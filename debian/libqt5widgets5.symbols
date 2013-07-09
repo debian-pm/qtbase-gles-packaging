@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.0.2 amd64 armhf hurd-i386 i386 ia64 powerpc powerpcspe ppc64 s390 s390x
+# SymbolsHelper-Confirmed: 5.1.0 amd64
 libQt5Widgets.so.5 libqt5widgets5 #MINVER#
 | libqt5widgets5 #MINVER#, qtbase-abi-5-0-2
  _Z11qFadeEffectP7QWidgeti@Base 5.0.2
@@ -700,6 +700,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN11QMessageBox17setWindowModalityEN2Qt14WindowModalityE@Base 5.0.2
  _ZN11QMessageBox18setInformativeTextERK7QString@Base 5.0.2
  _ZN11QMessageBox18setStandardButtonsE6QFlagsINS_14StandardButtonEE@Base 5.0.2
+ _ZN11QMessageBox23setTextInteractionFlagsE6QFlagsIN2Qt19TextInteractionFlagEE@Base 5.1.0
  _ZN11QMessageBox4openEP7QObjectPKc@Base 5.0.2
  _ZN11QMessageBox5aboutEP7QWidgetRK7QStringS4_@Base 5.0.2
  _ZN11QMessageBox5eventEP6QEvent@Base 5.0.2
@@ -750,7 +751,9 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN11QProxyStyle8unpolishEP12QApplication@Base 5.0.2
  _ZN11QProxyStyle8unpolishEP7QWidget@Base 5.0.2
  _ZN11QProxyStyleC1EP6QStyle@Base 5.0.2
+ _ZN11QProxyStyleC1ERK7QString@Base 5.1.0
  _ZN11QProxyStyleC2EP6QStyle@Base 5.0.2
+ _ZN11QProxyStyleC2ERK7QString@Base 5.1.0
  _ZN11QProxyStyleD0Ev@Base 5.0.2
  _ZN11QProxyStyleD1Ev@Base 5.0.2
  _ZN11QProxyStyleD2Ev@Base 5.0.2
@@ -1124,6 +1127,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN12QProgressBar10setMinimumEi@Base 5.0.2
  _ZN12QProgressBar11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN12QProgressBar11qt_metacastEPKc@Base 5.0.2
+ _ZN12QProgressBar11resetFormatEv@Base 5.1.0
  _ZN12QProgressBar12setAlignmentE6QFlagsIN2Qt13AlignmentFlagEE@Base 5.0.2
  _ZN12QProgressBar12valueChangedEi@Base 5.0.2
  _ZN12QProgressBar14setOrientationEN2Qt11OrientationE@Base 5.0.2
@@ -1495,6 +1499,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN13QGraphicsView16scrollContentsByEii@Base 5.0.2
  _ZN13QGraphicsView16staticMetaObjectE@Base 5.0.2
  _ZN13QGraphicsView17mouseReleaseEventEP11QMouseEvent@Base 5.0.2
+ _ZN13QGraphicsView17rubberBandChangedE5QRect7QPointFS1_@Base 5.1.0
  _ZN13QGraphicsView18focusNextPrevChildEb@Base 5.0.2
  _ZN13QGraphicsView18resetCachedContentEv@Base 5.0.2
  _ZN13QGraphicsView18setBackgroundBrushERK6QBrush@Base 5.0.2
@@ -1747,6 +1752,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN14QGraphicsScene15setBspTreeDepthEi@Base 5.0.2
  _ZN14QGraphicsScene16contextMenuEventEP30QGraphicsSceneContextMenuEvent@Base 5.0.2
  _ZN14QGraphicsScene16destroyItemGroupEP18QGraphicsItemGroup@Base 5.0.2
+ _ZN14QGraphicsScene16focusItemChangedEP13QGraphicsItemS1_N2Qt11FocusReasonE@Base 5.1.0
  _ZN14QGraphicsScene16inputMethodEventEP17QInputMethodEvent@Base 5.0.2
  _ZN14QGraphicsScene16sceneRectChangedERK6QRectF@Base 5.0.2
  _ZN14QGraphicsScene16selectionChangedEv@Base 5.0.2
@@ -1866,6 +1872,8 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN14QPlainTextEdit5clearEv@Base 5.0.2
  _ZN14QPlainTextEdit5eventEP6QEvent@Base 5.0.2
  _ZN14QPlainTextEdit5pasteEv@Base 5.0.2
+ _ZN14QPlainTextEdit6zoomInEi@Base 5.1.0
+ _ZN14QPlainTextEdit7zoomOutEi@Base 5.1.0
  _ZN14QPlainTextEdit9dropEventEP10QDropEvent@Base 5.0.2
  _ZN14QPlainTextEdit9selectAllEv@Base 5.0.2
  _ZN14QPlainTextEdit9showEventEP10QShowEvent@Base 5.0.2
@@ -3125,7 +3133,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN19QApplicationPrivate24initializeMultitouch_sysEv@Base 5.0.2 1
  _ZN19QApplicationPrivate24initializeWidgetFontHashEv@Base 5.0.2 1
  _ZN19QApplicationPrivate24notifyActiveWindowChangeEP7QWindow@Base 5.0.2 1
- _ZN19QApplicationPrivate25focusNextPrevChild_helperEP7QWidgetb@Base 5.0.2 1
+ _ZN19QApplicationPrivate25focusNextPrevChild_helperEP7QWidgetbPb@Base 5.1.0
  _ZN19QApplicationPrivate26updateTouchPointsForWidgetEP7QWidgetP11QTouchEvent@Base 5.0.2 1
  _ZN19QApplicationPrivate27findClosestTouchPointTargetEP12QTouchDeviceRK7QPointF@Base 5.0.2 1
  _ZN19QApplicationPrivate27initializeWidgetPaletteHashEv@Base 5.0.2 1
@@ -3397,7 +3405,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN20QGraphicsViewPrivate12updateScrollEv@Base 5.0.2 1
  _ZN20QGraphicsViewPrivate13setUpdateClipEP13QGraphicsItem@Base 5.0.2 1
  _ZN20QGraphicsViewPrivate15storeMouseEventEP11QMouseEvent@Base 5.0.2 1
- _ZN20QGraphicsViewPrivate16updateRubberBandEP11QMouseEvent@Base 5.0.2 1
+ _ZN20QGraphicsViewPrivate16updateRubberBandEPK11QMouseEvent@Base 5.1.0
  _ZN20QGraphicsViewPrivate18storeDragDropEventEPK27QGraphicsSceneDragDropEvent@Base 5.0.2 1
  _ZN20QGraphicsViewPrivate19translateTouchEventEPS_P11QTouchEvent@Base 5.0.2 1
  _ZN20QGraphicsViewPrivate20_q_setViewportCursorERK7QCursor@Base 5.0.2 1
@@ -3893,6 +3901,8 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN5QDialD0Ev@Base 5.0.2
  _ZN5QDialD1Ev@Base 5.0.2
  _ZN5QDialD2Ev@Base 5.0.2
+ _ZN5QMenu10addSectionERK5QIconRK7QString@Base 5.1.0
+ _ZN5QMenu10addSectionERK7QString@Base 5.1.0
  _ZN5QMenu10enterEventEP6QEvent@Base 5.0.2
  _ZN5QMenu10insertMenuEP7QActionPS_@Base 5.0.2
  _ZN5QMenu10leaveEventEP6QEvent@Base 5.0.2
@@ -3907,6 +3917,8 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN5QMenu11qt_metacastEPKc@Base 5.0.2
  _ZN5QMenu12addSeparatorEv@Base 5.0.2
  _ZN5QMenu12platformMenuEv@Base 5.0.2
+ _ZN5QMenu13insertSectionEP7QActionRK5QIconRK7QString@Base 5.1.0
+ _ZN5QMenu13insertSectionEP7QActionRK7QString@Base 5.1.0
  _ZN5QMenu13keyPressEventEP9QKeyEvent@Base 5.0.2
  _ZN5QMenu14mouseMoveEventEP11QMouseEvent@Base 5.0.2
  _ZN5QMenu14setNoReplayForEP7QWidget@Base 5.0.2
@@ -3919,6 +3931,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN5QMenu17mouseReleaseEventEP11QMouseEvent@Base 5.0.2
  _ZN5QMenu17setTearOffEnabledEb@Base 5.0.2
  _ZN5QMenu18focusNextPrevChildEb@Base 5.0.2
+ _ZN5QMenu18setToolTipsVisibleEb@Base 5.1.0
  _ZN5QMenu20internalDelayedPopupEv@Base 5.0.2
  _ZN5QMenu23internalSetSloppyActionEv@Base 5.0.2
  _ZN5QMenu24setSeparatorsCollapsibleEb@Base 5.0.2
@@ -4114,6 +4127,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN7QLayout10setEnabledEb@Base 5.0.2
  _ZN7QLayout10setMenuBarEP7QWidget@Base 5.0.2
  _ZN7QLayout10setSpacingEi@Base 5.0.2
+ _ZN7QLayout11adoptLayoutEPS_@Base 5.1.0
  _ZN7QLayout11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN7QLayout11qt_metacastEPKc@Base 5.0.2
  _ZN7QLayout11setGeometryERK5QRect@Base 5.0.2
@@ -4316,6 +4330,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN7QWidget19setInputMethodHintsE6QFlagsIN2Qt15InputMethodHintEE@Base 5.0.2
  _ZN7QWidget20setContextMenuPolicyEN2Qt17ContextMenuPolicyE@Base 5.0.2
  _ZN7QWidget20unsetLayoutDirectionEv@Base 5.0.2
+ _ZN7QWidget21createWindowContainerEP7QWindowPS_6QFlagsIN2Qt10WindowTypeEE@Base 5.1.0
  _ZN7QWidget21mouseDoubleClickEventEP11QMouseEvent@Base 5.0.2
  _ZN7QWidget21setAutoFillBackgroundEb@Base 5.0.2
  _ZN7QWidget21setShortcutAutoRepeatEib@Base 5.0.2
@@ -5472,6 +5487,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK11QMessageBox14standardButtonEP15QAbstractButton@Base 5.0.2
  _ZNK11QMessageBox15informativeTextEv@Base 5.0.2
  _ZNK11QMessageBox15standardButtonsEv@Base 5.0.2
+ _ZNK11QMessageBox20textInteractionFlagsEv@Base 5.1.0
  _ZNK11QMessageBox4iconEv@Base 5.0.2
  _ZNK11QMessageBox4textEv@Base 5.0.2
  _ZNK11QMessageBox6buttonENS_14StandardButtonE@Base 5.0.2
@@ -5868,6 +5884,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK13QGraphicsView12resizeAnchorEv@Base 5.0.2
  _ZNK13QGraphicsView13isInteractiveEv@Base 5.0.2
  _ZNK13QGraphicsView13isTransformedEv@Base 5.0.2
+ _ZNK13QGraphicsView14rubberBandRectEv@Base 5.1.0
  _ZNK13QGraphicsView15backgroundBrushEv@Base 5.0.2
  _ZNK13QGraphicsView15foregroundBrushEv@Base 5.0.2
  _ZNK13QGraphicsView16inputMethodQueryEN2Qt16InputMethodQueryE@Base 5.0.2
@@ -6332,6 +6349,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK17QAccessibleWidget6parentEv@Base 5.0.2
  _ZNK17QAccessibleWidget6widgetEv@Base 5.0.2
  _ZNK17QAccessibleWidget6windowEv@Base 5.0.2
+ _ZNK17QAccessibleWidget7isValidEv@Base 5.1.0
  _ZNK17QAccessibleWidget9relationsE6QFlagsIN11QAccessible12RelationFlagEE@Base 5.0.2
  _ZNK17QDataWidgetMapper10metaObjectEv@Base 5.0.2
  _ZNK17QDataWidgetMapper11orientationEv@Base 5.0.2
@@ -6783,6 +6801,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK5QMenu13defaultActionEv@Base 5.0.2
  _ZNK5QMenu14actionGeometryEP7QAction@Base 5.0.2
  _ZNK5QMenu15initStyleOptionEP20QStyleOptionMenuItemPK7QAction@Base 5.0.2
+ _ZNK5QMenu15toolTipsVisibleEv@Base 5.1.0
  _ZNK5QMenu16isTearOffEnabledEv@Base 5.0.2
  _ZNK5QMenu20isTearOffMenuVisibleEv@Base 5.0.2
  _ZNK5QMenu21separatorsCollapsibleEv@Base 5.0.2

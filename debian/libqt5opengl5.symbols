@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.0.2 amd64 i386 hurd-i386 ia64 powerpc
+# SymbolsHelper-Confirmed: 5.1.0 amd64
 libQt5OpenGL.so.5 libqt5opengl5 #MINVER#
 | libqt5opengl5 #MINVER#, qtbase-abi-5-0-2
  _Z19qt_qgl_paint_enginev@Base 5.0.2
@@ -269,15 +269,6 @@ libQt5OpenGL.so.5 libqt5opengl5 #MINVER#
  _ZN17QGL2PaintEngineExD0Ev@Base 5.0.2 1
  _ZN17QGL2PaintEngineExD1Ev@Base 5.0.2 1
  _ZN17QGL2PaintEngineExD2Ev@Base 5.0.2 1
- _ZN17QGLContextPrivate14extensionFuncsEPK10QGLContext@Base 5.0.2
- _ZN17QGLContextPrivate17qt_extensionFuncsE@Base 5.0.2
- _ZN19QGLTextureDestroyer11freeTextureEP10QGLContextP15QPlatformPixmapj@Base 5.0.2 1
- _ZN19QGLTextureDestroyer11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
- _ZN19QGLTextureDestroyer11qt_metacastEPKc@Base 5.0.2 1
- _ZN19QGLTextureDestroyer16staticMetaObjectE@Base 5.0.2 1
- _ZN19QGLTextureDestroyerD0Ev@Base 5.0.2 1
- _ZN19QGLTextureDestroyerD1Ev@Base 5.0.2 1
- _ZN19QGLTextureDestroyerD2Ev@Base 5.0.2 1
  _ZN20QGLCustomShaderStage11setInactiveEv@Base 5.0.2 1
  _ZN20QGLCustomShaderStage12setOnPainterEP8QPainter@Base 5.0.2 1
  _ZN20QGLCustomShaderStage16setUniformsDirtyEv@Base 5.0.2 1
@@ -568,7 +559,7 @@ libQt5OpenGL.so.5 libqt5opengl5 #MINVER#
  _ZNK16QGLShaderProgram9programIdEv@Base 5.0.2
  _ZNK17QGL2PaintEngineEx11createStateEP13QPainterState@Base 5.0.2 1
  _ZNK17QGL2PaintEngineEx22isNativePaintingActiveEv@Base 5.0.2 1
- _ZNK19QGLTextureDestroyer10metaObjectEv@Base 5.0.2 1
+ _ZNK17QGL2PaintEngineEx22shouldDrawCachedGlyphsEP11QFontEngineRK10QTransform@Base 5.1.0
  _ZNK20QGLCustomShaderStage6sourceEv@Base 5.0.2 1
  _ZNK20QGLFramebufferObject10attachmentEv@Base 5.0.2
  _ZNK20QGLFramebufferObject11paintEngineEv@Base 5.0.2
@@ -642,7 +633,6 @@ libQt5OpenGL.so.5 libqt5opengl5 #MINVER#
  _ZTI16QGLWidgetPrivate@Base 5.0.2 1
  _ZTI17QGL2PaintEngineEx@Base 5.0.2 1
  _ZTI18QTextureGlyphCache@Base 5.0.2 1
- _ZTI19QGLTextureDestroyer@Base 5.0.2 1
  _ZTI20QGLCustomShaderStage@Base 5.0.2 1
  _ZTI20QGLFramebufferObject@Base 5.0.2
  _ZTI20QGLTextureGlyphCache@Base 5.0.2 1
@@ -662,7 +652,6 @@ libQt5OpenGL.so.5 libqt5opengl5 #MINVER#
  _ZTS16QGLWidgetPrivate@Base 5.0.2 1
  _ZTS17QGL2PaintEngineEx@Base 5.0.2 1
  _ZTS18QTextureGlyphCache@Base 5.0.2 1
- _ZTS19QGLTextureDestroyer@Base 5.0.2 1
  _ZTS20QGLCustomShaderStage@Base 5.0.2 1
  _ZTS20QGLFramebufferObject@Base 5.0.2
  _ZTS20QGLTextureGlyphCache@Base 5.0.2 1
@@ -681,7 +670,6 @@ libQt5OpenGL.so.5 libqt5opengl5 #MINVER#
  _ZTV16QGLWidgetPrivate@Base 5.0.2 1
  _ZTV17QGL2PaintEngineEx@Base 5.0.2 1
  _ZTV18QTextureGlyphCache@Base 5.0.2 1
- _ZTV19QGLTextureDestroyer@Base 5.0.2 1
  _ZTV20QGLCustomShaderStage@Base 5.0.2 1
  _ZTV20QGLFramebufferObject@Base 5.0.2
  _ZTV20QGLTextureGlyphCache@Base 5.0.2 1

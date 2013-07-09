@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.0.2 amd64 armhf hurd-i386 i386 ia64 powerpc s390 s390x
+# SymbolsHelper-Confirmed: 5.1.0 amd64
 libQt5Xml.so.5 libqt5xml5 #MINVER#
 | libqt5xml5 #MINVER#, qtbase-abi-5-0-2
  (optional=gccinternal|arch=hurd-i386 i386)_ZN10QByteArray4dataEv@Base 5.0.2
@@ -101,6 +101,11 @@ libQt5Xml.so.5 libqt5xml5 #MINVER#
  (optional=gccinternal|arch=hurd-i386 i386)_ZN14QXmlAttributes9AttributeC2ERKS0_@Base 5.0.2
  (optional=gccinternal|arch=hurd-i386 i386)_ZN14QXmlAttributes9AttributeD1Ev@Base 5.0.2
  (optional=gccinternal|arch=hurd-i386 i386)_ZN14QXmlAttributes9AttributeD2Ev@Base 5.0.2
+ _ZN14QXmlAttributesC1Ev@Base 5.1.0
+ _ZN14QXmlAttributesC2Ev@Base 5.1.0
+ _ZN14QXmlAttributesD0Ev@Base 5.1.0
+ _ZN14QXmlAttributesD1Ev@Base 5.1.0
+ _ZN14QXmlAttributesD2Ev@Base 5.1.0
  _ZN15QXmlInputSource11fromRawDataERK10QByteArrayb@Base 5.0.2
  _ZN15QXmlInputSource13EndOfDocumentE@Base 5.0.2
  _ZN15QXmlInputSource4initEv@Base 5.0.2
@@ -215,6 +220,11 @@ libQt5Xml.so.5 libqt5xml5 #MINVER#
  _ZN18QXmlDefaultHandler8endCDATAEv@Base 5.0.2
  _ZN18QXmlDefaultHandler8startDTDERK7QStringS2_S2_@Base 5.0.2
  _ZN18QXmlDefaultHandler9endEntityERK7QString@Base 5.0.2
+ _ZN18QXmlDefaultHandlerC1Ev@Base 5.1.0
+ _ZN18QXmlDefaultHandlerC2Ev@Base 5.1.0
+ _ZN18QXmlDefaultHandlerD0Ev@Base 5.1.0
+ _ZN18QXmlDefaultHandlerD1Ev@Base 5.1.0
+ _ZN18QXmlDefaultHandlerD2Ev@Base 5.1.0
  _ZN18QXmlParseExceptionC1ERK7QStringiiS2_S2_@Base 5.0.2
  _ZN18QXmlParseExceptionC1ERKS_@Base 5.0.2
  _ZN18QXmlParseExceptionC2ERK7QStringiiS2_S2_@Base 5.0.2
@@ -481,3 +491,4 @@ libQt5Xml.so.5 libqt5xml5 #MINVER#
  (c++)"non-virtual thunk to QXmlDefaultHandler::startEntity(QString const&)@Base" 5.0.2
  (c++)"non-virtual thunk to QXmlDefaultHandler::unparsedEntityDecl(QString const&, QString const&, QString const&, QString const&)@Base" 5.0.2
  (c++)"non-virtual thunk to QXmlDefaultHandler::warning(QXmlParseException const&)@Base" 5.0.2
+ (c++)"non-virtual thunk to QXmlDefaultHandler::~QXmlDefaultHandler()@Base" 5.1.0

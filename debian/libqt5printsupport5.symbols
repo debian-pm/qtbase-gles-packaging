@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.0.2 amd64 armhf hurd-i386 i386 ia64 powerpc
+# SymbolsHelper-Confirmed: 5.1.0 amd64
 libQt5PrintSupport.so.5 libqt5printsupport5 #MINVER#
 | libqt5printsupport5 #MINVER#, qtbase-abi-5-0-2
  _Z19qt_printerPaperSizeN8QPrinter11OrientationEN17QPagedPaintDevice8PageSizeENS_4UnitEi@Base 5.0.2
@@ -11,6 +11,7 @@ libQt5PrintSupport.so.5 libqt5printsupport5 #MINVER#
  _ZN12QCUPSSupport17setCurrentPrinterEi@Base 5.0.2 1
  _ZN12QCUPSSupport21availableUnixPrintersEv@Base 5.0.2 1
  _ZN12QCUPSSupport24getCupsPrinterPaperSizesEi@Base 5.0.2 1
+ _ZN12QCUPSSupport33getCupsPrinterPaperSizesWithNamesEi@Base 5.1.0
  _ZN12QCUPSSupport6tempFdEv@Base 5.0.2 1
  _ZN12QCUPSSupport7PrinterC1ERK7QString@Base 5.0.2 1
  _ZN12QCUPSSupport7PrinterC2ERK7QString@Base 5.0.2 1
@@ -198,6 +199,7 @@ libQt5PrintSupport.so.5 libqt5printsupport5 #MINVER#
  _ZN8QPrinter12setCopyCountEi@Base 5.0.2
  _ZN8QPrinter12setNumCopiesEi@Base 5.0.2
  _ZN8QPrinter12setPageOrderENS_9PageOrderE@Base 5.0.2
+ _ZN8QPrinter12setPaperNameERK7QString@Base 5.1.0
  _ZN8QPrinter12setPaperSizeEN17QPagedPaintDevice8PageSizeE@Base 5.0.2
  _ZN8QPrinter12setPaperSizeERK6QSizeFNS_4UnitE@Base 5.0.2
  _ZN8QPrinter13setPageSizeMMERK6QSizeF@Base 5.0.2
@@ -244,6 +246,7 @@ libQt5PrintSupport.so.5 libqt5printsupport5 #MINVER#
  _ZNK12QPrinterInfo11printerNameEv@Base 5.0.2
  _ZNK12QPrinterInfo12makeAndModelEv@Base 5.0.2
  _ZNK12QPrinterInfo19supportedPaperSizesEv@Base 5.0.2
+ _ZNK12QPrinterInfo23supportedSizesWithNamesEv@Base 5.1.0
  _ZNK12QPrinterInfo6isNullEv@Base 5.0.2
  _ZNK12QPrinterInfo8locationEv@Base 5.0.2
  _ZNK12QPrinterInfo9isDefaultEv@Base 5.0.2
@@ -273,6 +276,7 @@ libQt5PrintSupport.so.5 libqt5printsupport5 #MINVER#
  _ZNK23QPlatformPrinterSupport13printerOptionERK12QPrinterInfoRK7QString@Base 5.0.2 1
  _ZNK23QPlatformPrinterSupport14printerOptionsERK12QPrinterInfo@Base 5.0.2 1
  _ZNK23QPlatformPrinterSupport19supportedPaperSizesERK12QPrinterInfo@Base 5.0.2 1
+ _ZNK23QPlatformPrinterSupport23supportedSizesWithNamesERK12QPrinterInfo@Base 5.1.0
  _ZNK29QPlatformPrinterSupportPlugin10metaObjectEv@Base 5.0.2 1
  _ZNK8QPrinter10printRangeEv@Base 5.0.2
  _ZNK8QPrinter10resolutionEv@Base 5.0.2
@@ -309,6 +313,7 @@ libQt5PrintSupport.so.5 libqt5printsupport5 #MINVER#
  _ZNK8QPrinter9copyCountEv@Base 5.0.2
  _ZNK8QPrinter9numCopiesEv@Base 5.0.2
  _ZNK8QPrinter9pageOrderEv@Base 5.0.2
+ _ZNK8QPrinter9paperNameEv@Base 5.1.0
  _ZNK8QPrinter9paperRectENS_4UnitE@Base 5.0.2
  _ZNK8QPrinter9paperRectEv@Base 5.0.2
  _ZNK8QPrinter9paperSizeENS_4UnitE@Base 5.0.2

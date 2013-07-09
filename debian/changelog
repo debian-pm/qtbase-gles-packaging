@@ -19,6 +19,8 @@ qtbase-opensource-src (5.1.0+dfsg-1) UNRELEASED; urgency=low
     hints.
   * Fix typo in -no-direcfb switch in configure.
   * Update install files.
+  * Update symbols files with current build. The missing symbols seemed to be
+    internal/private stuff and optional ones, so everything should be OK.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 27 Jun 2013 14:04:21 -0300
 
