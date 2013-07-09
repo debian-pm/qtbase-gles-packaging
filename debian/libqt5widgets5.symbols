@@ -2641,14 +2641,14 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN17QAbstractItemViewD0Ev@Base 5.0.2
  _ZN17QAbstractItemViewD1Ev@Base 5.0.2
  _ZN17QAbstractItemViewD2Ev@Base 5.0.2
- _ZN17QAccessibleWidget14interface_castEN11QAccessible13InterfaceTypeE@Base 5.0.2
- _ZN17QAccessibleWidget20addControllingSignalERK7QString@Base 5.0.2
- _ZN17QAccessibleWidget8doActionERK7QString@Base 5.0.2
- _ZN17QAccessibleWidgetC1EP7QWidgetN11QAccessible4RoleERK7QString@Base 5.0.2
- _ZN17QAccessibleWidgetC2EP7QWidgetN11QAccessible4RoleERK7QString@Base 5.0.2
- _ZN17QAccessibleWidgetD0Ev@Base 5.0.2
- _ZN17QAccessibleWidgetD1Ev@Base 5.0.2
- _ZN17QAccessibleWidgetD2Ev@Base 5.0.2
+ _ZN17QAccessibleWidget14interface_castEN11QAccessible13InterfaceTypeE@Base 5.0.2 1
+ _ZN17QAccessibleWidget20addControllingSignalERK7QString@Base 5.0.2 1
+ _ZN17QAccessibleWidget8doActionERK7QString@Base 5.0.2 1
+ _ZN17QAccessibleWidgetC1EP7QWidgetN11QAccessible4RoleERK7QString@Base 5.0.2 1
+ _ZN17QAccessibleWidgetC2EP7QWidgetN11QAccessible4RoleERK7QString@Base 5.0.2 1
+ _ZN17QAccessibleWidgetD0Ev@Base 5.0.2 1
+ _ZN17QAccessibleWidgetD1Ev@Base 5.0.2 1
+ _ZN17QAccessibleWidgetD2Ev@Base 5.0.2 1
  _ZN17QDataWidgetMapper10addMappingEP7QWidgeti@Base 5.0.2
  _ZN17QDataWidgetMapper10addMappingEP7QWidgetiRK10QByteArray@Base 5.0.2
  _ZN17QDataWidgetMapper10toPreviousEv@Base 5.0.2
@@ -3133,7 +3133,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN19QApplicationPrivate24initializeMultitouch_sysEv@Base 5.0.2 1
  _ZN19QApplicationPrivate24initializeWidgetFontHashEv@Base 5.0.2 1
  _ZN19QApplicationPrivate24notifyActiveWindowChangeEP7QWindow@Base 5.0.2 1
- _ZN19QApplicationPrivate25focusNextPrevChild_helperEP7QWidgetbPb@Base 5.1.0
+ _ZN19QApplicationPrivate25focusNextPrevChild_helperEP7QWidgetbPb@Base 5.1.0 1
  _ZN19QApplicationPrivate26updateTouchPointsForWidgetEP7QWidgetP11QTouchEvent@Base 5.0.2 1
  _ZN19QApplicationPrivate27findClosestTouchPointTargetEP12QTouchDeviceRK7QPointF@Base 5.0.2 1
  _ZN19QApplicationPrivate27initializeWidgetPaletteHashEv@Base 5.0.2 1
@@ -3405,7 +3405,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN20QGraphicsViewPrivate12updateScrollEv@Base 5.0.2 1
  _ZN20QGraphicsViewPrivate13setUpdateClipEP13QGraphicsItem@Base 5.0.2 1
  _ZN20QGraphicsViewPrivate15storeMouseEventEP11QMouseEvent@Base 5.0.2 1
- _ZN20QGraphicsViewPrivate16updateRubberBandEPK11QMouseEvent@Base 5.1.0
+ _ZN20QGraphicsViewPrivate16updateRubberBandEPK11QMouseEvent@Base 5.1.0 1
  _ZN20QGraphicsViewPrivate18storeDragDropEventEPK27QGraphicsSceneDragDropEvent@Base 5.0.2 1
  _ZN20QGraphicsViewPrivate19translateTouchEventEPS_P11QTouchEvent@Base 5.0.2 1
  _ZN20QGraphicsViewPrivate20_q_setViewportCursorERK7QCursor@Base 5.0.2 1
@@ -6333,24 +6333,24 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK17QAbstractItemView5stateEv@Base 5.0.2
  _ZNK17QAbstractItemView8iconSizeEv@Base 5.0.2
  _ZNK17QAbstractItemView9rootIndexEv@Base 5.0.2
- _ZNK17QAccessibleWidget10childCountEv@Base 5.0.2
- _ZNK17QAccessibleWidget10focusChildEv@Base 5.0.2
- _ZNK17QAccessibleWidget11actionNamesEv@Base 5.0.2
- _ZNK17QAccessibleWidget12indexOfChildEPK20QAccessibleInterface@Base 5.0.2
- _ZNK17QAccessibleWidget12parentObjectEv@Base 5.0.2
- _ZNK17QAccessibleWidget15backgroundColorEv@Base 5.0.2
- _ZNK17QAccessibleWidget15foregroundColorEv@Base 5.0.2
- _ZNK17QAccessibleWidget20keyBindingsForActionERK7QString@Base 5.0.2
- _ZNK17QAccessibleWidget4rectEv@Base 5.0.2
- _ZNK17QAccessibleWidget4roleEv@Base 5.0.2
- _ZNK17QAccessibleWidget4textEN11QAccessible4TextE@Base 5.0.2
- _ZNK17QAccessibleWidget5childEi@Base 5.0.2
- _ZNK17QAccessibleWidget5stateEv@Base 5.0.2
- _ZNK17QAccessibleWidget6parentEv@Base 5.0.2
- _ZNK17QAccessibleWidget6widgetEv@Base 5.0.2
- _ZNK17QAccessibleWidget6windowEv@Base 5.0.2
- _ZNK17QAccessibleWidget7isValidEv@Base 5.1.0
- _ZNK17QAccessibleWidget9relationsE6QFlagsIN11QAccessible12RelationFlagEE@Base 5.0.2
+ _ZNK17QAccessibleWidget10childCountEv@Base 5.0.2 1
+ _ZNK17QAccessibleWidget10focusChildEv@Base 5.0.2 1
+ _ZNK17QAccessibleWidget11actionNamesEv@Base 5.0.2 1
+ _ZNK17QAccessibleWidget12indexOfChildEPK20QAccessibleInterface@Base 5.0.2 1
+ _ZNK17QAccessibleWidget12parentObjectEv@Base 5.0.2 1
+ _ZNK17QAccessibleWidget15backgroundColorEv@Base 5.0.2 1
+ _ZNK17QAccessibleWidget15foregroundColorEv@Base 5.0.2 1
+ _ZNK17QAccessibleWidget20keyBindingsForActionERK7QString@Base 5.0.2 1
+ _ZNK17QAccessibleWidget4rectEv@Base 5.0.2 1
+ _ZNK17QAccessibleWidget4roleEv@Base 5.0.2 1
+ _ZNK17QAccessibleWidget4textEN11QAccessible4TextE@Base 5.0.2 1
+ _ZNK17QAccessibleWidget5childEi@Base 5.0.2 1
+ _ZNK17QAccessibleWidget5stateEv@Base 5.0.2 1
+ _ZNK17QAccessibleWidget6parentEv@Base 5.0.2 1
+ _ZNK17QAccessibleWidget6widgetEv@Base 5.0.2 1
+ _ZNK17QAccessibleWidget6windowEv@Base 5.0.2 1
+ _ZNK17QAccessibleWidget7isValidEv@Base 5.1.0 1
+ _ZNK17QAccessibleWidget9relationsE6QFlagsIN11QAccessible12RelationFlagEE@Base 5.0.2 1
  _ZNK17QDataWidgetMapper10metaObjectEv@Base 5.0.2
  _ZNK17QDataWidgetMapper11orientationEv@Base 5.0.2
  _ZNK17QDataWidgetMapper12currentIndexEv@Base 5.0.2
@@ -7479,7 +7479,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZTI16QTableWidgetItem@Base 5.0.2
  _ZTI16QTreeViewPrivate@Base 5.0.2 1
  _ZTI17QAbstractItemView@Base 5.0.2
- _ZTI17QAccessibleWidget@Base 5.0.2
+ _ZTI17QAccessibleWidget@Base 5.0.2 1
  _ZTI17QDataWidgetMapper@Base 5.0.2
  _ZTI17QDockWidgetLayout@Base 5.0.2 1
  _ZTI17QFileIconProvider@Base 5.0.2
@@ -7676,7 +7676,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZTS16QTableWidgetItem@Base 5.0.2
  _ZTS16QTreeViewPrivate@Base 5.0.2 1
  _ZTS17QAbstractItemView@Base 5.0.2
- _ZTS17QAccessibleWidget@Base 5.0.2
+ _ZTS17QAccessibleWidget@Base 5.0.2 1
  _ZTS17QDataWidgetMapper@Base 5.0.2
  _ZTS17QDockWidgetLayout@Base 5.0.2 1
  _ZTS17QFileIconProvider@Base 5.0.2
@@ -7873,7 +7873,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZTV16QTableWidgetItem@Base 5.0.2
  _ZTV16QTreeViewPrivate@Base 5.0.2 1
  _ZTV17QAbstractItemView@Base 5.0.2
- _ZTV17QAccessibleWidget@Base 5.0.2
+ _ZTV17QAccessibleWidget@Base 5.0.2 1
  _ZTV17QDataWidgetMapper@Base 5.0.2
  _ZTV17QDockWidgetLayout@Base 5.0.2 1
  _ZTV17QFileIconProvider@Base 5.0.2

@@ -559,7 +559,7 @@ libQt5OpenGL.so.5 libqt5opengl5 #MINVER#
  _ZNK16QGLShaderProgram9programIdEv@Base 5.0.2
  _ZNK17QGL2PaintEngineEx11createStateEP13QPainterState@Base 5.0.2 1
  _ZNK17QGL2PaintEngineEx22isNativePaintingActiveEv@Base 5.0.2 1
- _ZNK17QGL2PaintEngineEx22shouldDrawCachedGlyphsEP11QFontEngineRK10QTransform@Base 5.1.0
+ _ZNK17QGL2PaintEngineEx22shouldDrawCachedGlyphsEP11QFontEngineRK10QTransform@Base 5.1.0 1
  _ZNK20QGLCustomShaderStage6sourceEv@Base 5.0.2 1
  _ZNK20QGLFramebufferObject10attachmentEv@Base 5.0.2
  _ZNK20QGLFramebufferObject11paintEngineEv@Base 5.0.2

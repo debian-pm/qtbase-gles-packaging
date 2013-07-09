@@ -11,7 +11,7 @@ libQt5PrintSupport.so.5 libqt5printsupport5 #MINVER#
  _ZN12QCUPSSupport17setCurrentPrinterEi@Base 5.0.2 1
  _ZN12QCUPSSupport21availableUnixPrintersEv@Base 5.0.2 1
  _ZN12QCUPSSupport24getCupsPrinterPaperSizesEi@Base 5.0.2 1
- _ZN12QCUPSSupport33getCupsPrinterPaperSizesWithNamesEi@Base 5.1.0
+ _ZN12QCUPSSupport33getCupsPrinterPaperSizesWithNamesEi@Base 5.1.0 1
  _ZN12QCUPSSupport6tempFdEv@Base 5.0.2 1
  _ZN12QCUPSSupport7PrinterC1ERK7QString@Base 5.0.2 1
  _ZN12QCUPSSupport7PrinterC2ERK7QString@Base 5.0.2 1
@@ -276,7 +276,7 @@ libQt5PrintSupport.so.5 libqt5printsupport5 #MINVER#
  _ZNK23QPlatformPrinterSupport13printerOptionERK12QPrinterInfoRK7QString@Base 5.0.2 1
  _ZNK23QPlatformPrinterSupport14printerOptionsERK12QPrinterInfo@Base 5.0.2 1
  _ZNK23QPlatformPrinterSupport19supportedPaperSizesERK12QPrinterInfo@Base 5.0.2 1
- _ZNK23QPlatformPrinterSupport23supportedSizesWithNamesERK12QPrinterInfo@Base 5.1.0
+ _ZNK23QPlatformPrinterSupport23supportedSizesWithNamesERK12QPrinterInfo@Base 5.1.0 1
  _ZNK29QPlatformPrinterSupportPlugin10metaObjectEv@Base 5.0.2 1
  _ZNK8QPrinter10printRangeEv@Base 5.0.2
  _ZNK8QPrinter10resolutionEv@Base 5.0.2

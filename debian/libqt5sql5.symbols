@@ -65,9 +65,9 @@ libQt5Sql.so.5 libqt5sql5 #MINVER#
  _ZN10QSqlResult9setActiveEb@Base 5.0.2
  _ZN10QSqlResult9setSelectEb@Base 5.0.2
  _ZN10QSqlResultC1EPK10QSqlDriver@Base 5.0.2
- _ZN10QSqlResultC1ER17QSqlResultPrivatePK10QSqlDriver@Base 5.1.0
+ _ZN10QSqlResultC1ER17QSqlResultPrivatePK10QSqlDriver@Base 5.1.0 1
  _ZN10QSqlResultC2EPK10QSqlDriver@Base 5.0.2
- _ZN10QSqlResultC2ER17QSqlResultPrivatePK10QSqlDriver@Base 5.1.0
+ _ZN10QSqlResultC2ER17QSqlResultPrivatePK10QSqlDriver@Base 5.1.0 1
  _ZN10QSqlResultD0Ev@Base 5.0.2
  _ZN10QSqlResultD1Ev@Base 5.0.2
  _ZN10QSqlResultD2Ev@Base 5.0.2
@@ -396,8 +396,8 @@ libQt5Sql.so.5 libqt5sql5 #MINVER#
  _ZNK14QSqlTableModel9tableNameEv@Base 5.0.2
  _ZNK16QSqlCachedResult8colCountEv@Base 5.0.2
  _ZNK16QSqlDriverPlugin10metaObjectEv@Base 5.0.2
- _ZNK17QSqlResultPrivate11fieldSerialEi@Base 5.1.0
- _ZNK17QSqlResultPrivate24positionalToNamedBindingERK7QString@Base 5.1.0
+ _ZNK17QSqlResultPrivate11fieldSerialEi@Base 5.1.0 1
+ _ZNK17QSqlResultPrivate24positionalToNamedBindingERK7QString@Base 5.1.0 1
  _ZNK17QSqlResultPrivate8holderAtEi@Base 5.0.2 1
  _ZNK24QSqlRelationalTableModel10metaObjectEv@Base 5.0.2
  _ZNK24QSqlRelationalTableModel13orderByClauseEv@Base 5.0.2
@@ -455,7 +455,7 @@ libQt5Sql.so.5 libqt5sql5 #MINVER#
  _ZTI14QSqlTableModel@Base 5.0.2
  _ZTI16QSqlCachedResult@Base 5.0.2
  _ZTI16QSqlDriverPlugin@Base 5.0.2
- _ZTI17QSqlResultPrivate@Base 5.1.0
+ _ZTI17QSqlResultPrivate@Base 5.1.0 1
  _ZTI24QSqlRelationalTableModel@Base 5.0.2
  _ZTI25QAbstractItemModelPrivate@Base 5.0.2 1
  _ZTS10QSqlDriver@Base 5.0.2
@@ -464,7 +464,7 @@ libQt5Sql.so.5 libqt5sql5 #MINVER#
  _ZTS14QSqlTableModel@Base 5.0.2
  _ZTS16QSqlCachedResult@Base 5.0.2
  _ZTS16QSqlDriverPlugin@Base 5.0.2
- _ZTS17QSqlResultPrivate@Base 5.1.0
+ _ZTS17QSqlResultPrivate@Base 5.1.0 1
  _ZTS24QSqlRelationalTableModel@Base 5.0.2
  _ZTS25QAbstractItemModelPrivate@Base 5.0.2 1
  _ZTV10QSqlDriver@Base 5.0.2
@@ -473,7 +473,7 @@ libQt5Sql.so.5 libqt5sql5 #MINVER#
  _ZTV14QSqlTableModel@Base 5.0.2
  _ZTV16QSqlCachedResult@Base 5.0.2
  _ZTV16QSqlDriverPlugin@Base 5.0.2
- _ZTV17QSqlResultPrivate@Base 5.1.0
+ _ZTV17QSqlResultPrivate@Base 5.1.0 1
  _ZTV24QSqlRelationalTableModel@Base 5.0.2
  _ZTV25QAbstractItemModelPrivate@Base 5.0.2 1
  _Zls6QDebugRK10QSqlRecord@Base 5.0.2
