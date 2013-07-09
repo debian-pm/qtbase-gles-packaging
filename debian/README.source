@@ -21,6 +21,13 @@ easily done by first building only arch: any packages of qtbase and qttools.
 Using this packages, rebuild the full source, this time including arch: all
 packages.
 
+Marking private symbols
+-----------------------
+
+After doing a first build, run mark_private_symbols to mark private symbols
+to depend on qtbase-abi-x-y-z. Be sure to modify control, lintian-overrides and
+symbols files with current version of this ABI.
+
 Patches to the original source code
 -----------------------------------
 
