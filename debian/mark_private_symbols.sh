@@ -16,7 +16,7 @@ then
 	error "Private headers not found"
 fi
 
-grep -rh class qtbase5-private-dev/usr/include | 
+grep -rh class ${PRIVATE_HEADERS} |
 	grep EXPORT | 
 	while read class export classname rest 
 	do

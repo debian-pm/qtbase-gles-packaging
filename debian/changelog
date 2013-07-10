@@ -3,6 +3,7 @@ qtbase-opensource-src (5.1.0+dfsg-2) UNRELEASED; urgency=low
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Add libxkbcommon-dev as build dependency, thus avoiding using the bundled
     lib.
+  * Minor improvement of mark_private_symbols.sh.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 09 Jul 2013 20:24:35 -0300
 
