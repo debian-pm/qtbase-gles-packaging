@@ -1,3 +1,4 @@
 deppath_gnu.diff
+Dont_check_for_the_existence_of_priv_inc_dirs.patch
 
 # Debian specific.

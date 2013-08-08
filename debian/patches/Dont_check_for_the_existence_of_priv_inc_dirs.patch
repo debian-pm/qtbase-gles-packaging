@@ -1,0 +1,64 @@
+From ed90bd61f77549e3e896388682596017441a1172 Mon Sep 17 00:00:00 2001
+From: Stephen Kelly <stephen.kelly@kdab.com>
+Date: Thu, 18 Jul 2013 11:11:31 +0200
+Subject: [PATCH] Don't check for the existence of private include directories.
+
+Some packagers don't want to install the private headers.
+
+Check the existence of private headers only if the 'Private' component
+is specified when finding the package.
+
+Task-number: QTBUG-32466
+Change-Id: I1fdbfb25e8ce485cd051564b937f766b2733741a
+---
+ mkspecs/features/data/cmake/Qt5BasicConfig.cmake.in   | 17 ++++++++++++-----
+ tests/auto/cmake/test_private_includes/CMakeLists.txt |  2 +-
+ 2 files changed, 13 insertions(+), 6 deletions(-)
+
+diff --git a/mkspecs/features/data/cmake/Qt5BasicConfig.cmake.in b/mkspecs/features/data/cmake/Qt5BasicConfig.cmake.in
+index 3862334..bcff316 100644
+--- a/mkspecs/features/data/cmake/Qt5BasicConfig.cmake.in
++++ b/mkspecs/features/data/cmake/Qt5BasicConfig.cmake.in
+@@ -119,14 +119,21 @@ if (NOT TARGET Qt5::$${CMAKE_MODULE_NAME})
+     set(Qt5$${CMAKE_MODULE_NAME}_PRIVATE_INCLUDE_DIRS)
+ !!ENDIF
+ 
+-    foreach(_dir ${_Qt5$${CMAKE_MODULE_NAME}_OWN_INCLUDE_DIRS}
+-!!IF isEmpty(CMAKE_BUILD_IS_FRAMEWORK)
+-                 ${Qt5$${CMAKE_MODULE_NAME}_PRIVATE_INCLUDE_DIRS}
+-!!ENDIF
+-                 )
++    foreach(_dir ${_Qt5$${CMAKE_MODULE_NAME}_OWN_INCLUDE_DIRS})
+         _qt5_$${CMAKE_MODULE_NAME}_check_file_exists(${_dir})
+     endforeach()
+ 
++!!IF isEmpty(CMAKE_BUILD_IS_FRAMEWORK)
++    # Only check existence of private includes if the Private component is
++    # specified.
++    list(FIND Qt5$${CMAKE_MODULE_NAME}_FIND_COMPONENTS Private _check_private)
++    if (NOT _check_private STREQUAL -1)
++        foreach(_dir ${Qt5$${CMAKE_MODULE_NAME}_PRIVATE_INCLUDE_DIRS})
++            _qt5_$${CMAKE_MODULE_NAME}_check_file_exists(${_dir})
++        endforeach()
++    endif()
++!!ENDIF
++
+     set(Qt5$${CMAKE_MODULE_NAME}_INCLUDE_DIRS ${_Qt5$${CMAKE_MODULE_NAME}_OWN_INCLUDE_DIRS})
+ 
+     set(Qt5$${CMAKE_MODULE_NAME}_DEFINITIONS -D$${MODULE_DEFINE})
+diff --git a/tests/auto/cmake/test_private_includes/CMakeLists.txt b/tests/auto/cmake/test_private_includes/CMakeLists.txt
+index f283bc2..9095836 100644
+--- a/tests/auto/cmake/test_private_includes/CMakeLists.txt
++++ b/tests/auto/cmake/test_private_includes/CMakeLists.txt
+@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 2.8)
+ 
+ project(test_private_includes)
+ 
+-find_package(Qt5Gui REQUIRED)
++find_package(Qt5Gui REQUIRED Private)
+ 
+ include_directories(
+   ${Qt5Gui_INCLUDE_DIRS}
+-- 
+1.8.4.rc1
+
