@@ -8,6 +8,7 @@ qtbase-opensource-src (5.1.0+dfsg-2) UNRELEASED; urgency=low
     our users install private headers in order to compile with CMake
     (Closes: #718348).
   * Armel also builds libqkms.so, added to the proper install file.
+  * Update symbols files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 09 Jul 2013 20:24:35 -0300
 

@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.1.0 amd64
+# SymbolsHelper-Confirmed: 5.1.0 alpha amd64 i386 s390 sparc
 libQt5DBus.so.5 libqt5dbus5 #MINVER#
 | libqt5dbus5 #MINVER#, qtbase-abi-5-1-0
  _Z14qDBusReplyFillRK12QDBusMessageR10QDBusErrorR8QVariant@Base 5.0.2
@@ -271,6 +271,7 @@ libQt5DBus.so.5 libqt5dbus5 #MINVER#
  _ZN9QDBusUtil22isValidSingleSignatureERK7QString@Base 5.0.2
  _ZN9QDBusUtil23isValidPartOfObjectPathERK7QString@Base 5.0.2
  _ZN9QDBusUtil27isValidUniqueConnectionNameERK7QString@Base 5.0.2
+ (optional=gccinternal|arch=i386)_ZN9QHashData8willGrowEv@Base 5.1.0
  _ZNK10QDBusError4nameEv@Base 5.0.2
  _ZNK10QDBusError4typeEv@Base 5.0.2
  _ZNK10QDBusError7isValidEv@Base 5.0.2

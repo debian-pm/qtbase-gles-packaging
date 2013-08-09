@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.1.0 amd64
+# SymbolsHelper-Confirmed: 5.1.0 alpha amd64 i386 s390
 libQt5Core.so.5 libqt5core5 #MINVER#
 | libqt5core5 #MINVER#, qtbase-abi-5-1-0
  _Z10forcepointR11QTextStream@Base 5.0.2
@@ -9,6 +9,7 @@ libQt5Core.so.5 libqt5core5 #MINVER#
  _Z10qTerminatev@Base 5.0.2
  (arch=hurd-i386 i386)_Z10qvsnprintfPcjPKcS_@Base 5.0.2
  (arch=armhf)_Z10qvsnprintfPcjPKcSt9__va_list@Base 5.0.2
+ (arch=alpha)_Z10qvsnprintfPcmPKc13__va_list_tag@Base 5.1.0
  (arch=ia64)_Z10qvsnprintfPcmPKcPv@Base 5.0.2
  (arch=ppc64)_Z10qvsnprintfPcmPKcS_@Base 5.0.2
  (arch=amd64 powerpc powerpcspe s390 s390x|subst)_Z10qvsnprintfPc{size_t}PKcP13__va_list_tag@Base 5.0.2
@@ -871,8 +872,8 @@ libQt5Core.so.5 libqt5core5 #MINVER#
  _ZN14QTimerInfoList9timerWaitER8timespec@Base 5.1.0 1
  _ZN14QTimerInfoListC1Ev@Base 5.0.2 1
  _ZN14QTimerInfoListC2Ev@Base 5.0.2 1
- (arch=armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZN14QTimerInfoListD1Ev@Base 5.0.2 1
- (arch=armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZN14QTimerInfoListD2Ev@Base 5.0.2 1
+ (arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZN14QTimerInfoListD1Ev@Base 5.1.0 1
+ (arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZN14QTimerInfoListD2Ev@Base 5.1.0 1
  _ZN14QUnicodeTables10propertiesEj@Base 5.0.2
  _ZN14QUnicodeTables10propertiesEt@Base 5.0.2
  _ZN14QUnicodeTables14lineBreakClassEj@Base 5.0.2
@@ -1785,8 +1786,8 @@ libQt5Core.so.5 libqt5core5 #MINVER#
  _ZN20QStateMachinePrivateD2Ev@Base 5.0.2 1
  _ZN20QXmlStreamAttributes6appendERK7QStringS2_@Base 5.0.2
  _ZN20QXmlStreamAttributes6appendERK7QStringS2_S2_@Base 5.0.2
- (arch=armhf powerpc powerpcspe ppc64 s390 s390x)_ZN20QXmlStreamAttributesD1Ev@Base 5.0.2
- (arch=armhf powerpc powerpcspe ppc64 s390 s390x)_ZN20QXmlStreamAttributesD2Ev@Base 5.0.2
+ (arch=alpha armhf powerpc powerpcspe ppc64 s390 s390x)_ZN20QXmlStreamAttributesD1Ev@Base 5.1.0
+ (arch=alpha armhf powerpc powerpcspe ppc64 s390 s390x)_ZN20QXmlStreamAttributesD2Ev@Base 5.1.0
  _ZN21QAbstractConcatenable16convertFromAsciiEPKciRP5QChar@Base 5.0.2
  _ZN21QObjectCleanupHandler11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN21QObjectCleanupHandler11qt_metacastEPKc@Base 5.0.2
@@ -2482,6 +2483,7 @@ libQt5Core.so.5 libqt5core5 #MINVER#
  _ZN7QString7sprintfEPKcz@Base 5.0.2
  _ZN7QString8fromUcs4EPKji@Base 5.0.2
  _ZN7QString8truncateEi@Base 5.0.2
+ (arch=alpha)_ZN7QString8vsprintfEPKc13__va_list_tag@Base 5.1.0
  (arch=amd64 powerpc powerpcspe s390 s390x)_ZN7QString8vsprintfEPKcP13__va_list_tag@Base 5.0.2
  (arch=hurd-i386 i386 ppc64)_ZN7QString8vsprintfEPKcPc@Base 5.0.2
  (arch=ia64)_ZN7QString8vsprintfEPKcPv@Base 5.0.2
@@ -2783,7 +2785,7 @@ libQt5Core.so.5 libqt5core5 #MINVER#
  _ZN9QHashData8freeNodeEPv@Base 5.0.2
  _ZN9QHashData8nextNodeEPNS_4NodeE@Base 5.0.2
  (optional=gccinternal|arch=hurd-i386 i386 powerpcspe)_ZN9QHashData8willGrowEv@Base 5.0.2
- (arch=!amd64 !armhf !powerpc !powerpcspe !ppc64)_ZN9QHashData9hasShrunkEv@Base 5.0.2
+ (arch=!alpha !amd64 !armhf !powerpc !powerpcspe !ppc64 !s390)_ZN9QHashData9hasShrunkEv@Base 5.0.2
  _ZN9QIODevice11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN9QIODevice11qt_metacastEPKc@Base 5.0.2
  _ZN9QIODevice11setOpenModeE6QFlagsINS_12OpenModeFlagEE@Base 5.0.2
@@ -4476,131 +4478,143 @@ libQt5Core.so.5 libqt5core5 #MINVER#
  _ZNK9QtPrivate18ResultIteratorBase9batchSizeEv@Base 5.0.2
  _ZNK9QtPrivate18ResultIteratorBaseeqERKS0_@Base 5.0.2
  _ZNK9QtPrivate18ResultIteratorBaseneERKS0_@Base 5.0.2
- (optional=templinst|arch=!amd64 !armhf !ia64 !powerpc !powerpcspe !ppc64 !s390 !s390x)_ZNSt11__copy_moveILb1ELb0ESt26random_access_iterator_tagE8__copy_mIP21QPersistentModelIndexS4_EET0_T_S6_S5_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZNSt17_Temporary_bufferIP21QPersistentModelIndexS0_EC1ES1_S1_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZNSt17_Temporary_bufferIP21QPersistentModelIndexS0_EC2ES1_S1_@Base 5.0.2
- (optional=templinst|arch=amd64 armhf ia64 powerpcspe)_ZNSt17_Temporary_bufferIP21QPersistentModelIndexS0_ED1Ev@Base 5.0.2
- (optional=templinst|arch=amd64 armhf ia64 powerpcspe)_ZNSt17_Temporary_bufferIP21QPersistentModelIndexS0_ED2Ev@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZNSt17_Temporary_bufferIP5QPairI21QPersistentModelIndexjES2_EC1ES3_S3_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZNSt17_Temporary_bufferIP5QPairI21QPersistentModelIndexjES2_EC2ES3_S3_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpcspe)_ZNSt17_Temporary_bufferIP5QPairI21QPersistentModelIndexjES2_ED1Ev@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpcspe)_ZNSt17_Temporary_bufferIP5QPairI21QPersistentModelIndexjES2_ED2Ev@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZNSt17_Temporary_bufferIP5QPairIiiES1_EC1ES2_S2_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZNSt17_Temporary_bufferIP5QPairIiiES1_EC2ES2_S2_@Base 5.0.2
+ (optional=templinst|arch=!alpha !amd64 !armhf !ia64 !powerpc !powerpcspe !ppc64 !s390 !s390x)_ZNSt11__copy_moveILb1ELb0ESt26random_access_iterator_tagE8__copy_mIP21QPersistentModelIndexS4_EET0_T_S6_S5_@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZNSt17_Temporary_bufferIP21QPersistentModelIndexS0_EC1ES1_S1_@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZNSt17_Temporary_bufferIP21QPersistentModelIndexS0_EC2ES1_S1_@Base 5.0.2
+ (optional=templinst|arch=alpha amd64 armhf ia64 powerpcspe)_ZNSt17_Temporary_bufferIP21QPersistentModelIndexS0_ED1Ev@Base 5.0.2
+ (optional=templinst|arch=alpha amd64 armhf ia64 powerpcspe)_ZNSt17_Temporary_bufferIP21QPersistentModelIndexS0_ED2Ev@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZNSt17_Temporary_bufferIP5QPairI21QPersistentModelIndexjES2_EC1ES3_S3_@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZNSt17_Temporary_bufferIP5QPairI21QPersistentModelIndexjES2_EC2ES3_S3_@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpcspe)_ZNSt17_Temporary_bufferIP5QPairI21QPersistentModelIndexjES2_ED1Ev@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpcspe)_ZNSt17_Temporary_bufferIP5QPairI21QPersistentModelIndexjES2_ED2Ev@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZNSt17_Temporary_bufferIP5QPairIiiES1_EC1ES2_S2_@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZNSt17_Temporary_bufferIP5QPairIiiES1_EC2ES2_S2_@Base 5.0.2
  (optional=templinst)_ZNSt17_Temporary_bufferIPiiEC1ES0_S0_@Base 5.0.2
  (optional=templinst)_ZNSt17_Temporary_bufferIPiiEC2ES0_S0_@Base 5.0.2
- (optional=templinst|arch=!amd64 !armhf !ia64 !powerpc !powerpcspe !ppc64 !s390 !s390x)_ZNSt20__copy_move_backwardILb1ELb0ESt26random_access_iterator_tagE13__copy_move_bIP21QPersistentModelIndexS4_EET0_T_S6_S5_@Base 5.0.2
+ (optional=templinst|arch=!alpha !amd64 !armhf !ia64 !powerpc !powerpcspe !ppc64 !s390 !s390x)_ZNSt20__copy_move_backwardILb1ELb0ESt26random_access_iterator_tagE13__copy_move_bIP21QPersistentModelIndexS4_EET0_T_S6_S5_@Base 5.0.2
  (optional=templinst|arch=amd64)_ZNSt20__copy_move_backwardILb1ELb1ESt26random_access_iterator_tagE13__copy_move_bIiEEPT_PKS3_S6_S4_@Base 5.0.2
  (optional=templinst|arch=!amd64)_ZNSt38__uninitialized_construct_buf_dispatchILb0EE5__ucrIP21QPersistentModelIndexS2_EEvT_S4_RT0_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZNSt38__uninitialized_construct_buf_dispatchILb0EE5__ucrIP5QPairI21QPersistentModelIndexjES4_EEvT_S6_RT0_@Base 5.0.2
- (optional=templinst|subst|arch=ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt11__push_heapIN5QListI5QPairI7QStringiEE8iteratorE{qptrdiff}S3_PFbRKS3_S7_EEvT_T0_SB_T1_T2_@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZNSt38__uninitialized_construct_buf_dispatchILb0EE5__ucrIP5QPairI21QPersistentModelIndexjES4_EEvT_S6_RT0_@Base 5.0.2
+ (optional=templinst|subst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt11__push_heapIN5QListI5QPairI7QStringiEE8iteratorE{qptrdiff}S3_PFbRKS3_S7_EEvT_T0_SB_T1_T2_@Base 5.0.2
  (optional=templinst)_ZSt11lower_boundIP21QPersistentModelIndexS0_ET_S2_S2_RKT0_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt11lower_boundIP5QPairI21QPersistentModelIndexjES2_ET_S4_S4_RKT0_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt11lower_boundIP5QPairIiiES1_ET_S3_S3_RKT0_@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt11lower_boundIP5QPairI21QPersistentModelIndexjES2_ET_S4_S4_RKT0_@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt11lower_boundIP5QPairIiiES1_ET_S3_S3_RKT0_@Base 5.0.2
  (optional=templinst|arch=!amd64)_ZSt11stable_sortIP21QPersistentModelIndexEvT_S2_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt11stable_sortIP5QPairI21QPersistentModelIndexjEEvT_S4_@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt11stable_sortIP5QPairI21QPersistentModelIndexjEEvT_S4_@Base 5.0.2
+ (optional=templinst|arch=i386)_ZSt11stable_sortIPiEvT_S1_@Base 5.1.0
  (optional=templinst)_ZSt11upper_boundIP21QPersistentModelIndexS0_ET_S2_S2_RKT0_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt11upper_boundIP5QPairI21QPersistentModelIndexjES2_ET_S4_S4_RKT0_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt11upper_boundIP5QPairIiiES1_ET_S3_S3_RKT0_@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt11upper_boundIP5QPairI21QPersistentModelIndexjES2_ET_S4_S4_RKT0_@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt11upper_boundIP5QPairIiiES1_ET_S3_S3_RKT0_@Base 5.0.2
  (optional=templinst)_ZSt12__move_mergeIP21QPersistentModelIndexS1_S1_ET1_T_S3_T0_S4_S2_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt12__move_mergeIP5QPairI21QPersistentModelIndexjES3_S3_ET1_T_S5_T0_S6_S4_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt12__move_mergeIP5QPairIiiES2_S2_ET1_T_S4_T0_S5_S3_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt12__move_mergeIPiS0_S0_29QSortFilterProxyModelLessThanET1_T_S3_T0_S4_S2_T2_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt12__move_mergeIPiS0_S0_32QSortFilterProxyModelGreaterThanET1_T_S3_T0_S4_S2_T2_@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt12__move_mergeIP5QPairI21QPersistentModelIndexjES3_S3_ET1_T_S5_T0_S6_S4_@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt12__move_mergeIP5QPairIiiES2_S2_ET1_T_S4_T0_S5_S3_@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt12__move_mergeIPiS0_S0_29QSortFilterProxyModelLessThanET1_T_S3_T0_S4_S2_T2_@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt12__move_mergeIPiS0_S0_32QSortFilterProxyModelGreaterThanET1_T_S3_T0_S4_S2_T2_@Base 5.0.2
  (optional=templinst)_ZSt12__move_mergeIPiS0_S0_ET1_T_S2_T0_S3_S1_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390 s390x|subst)_ZSt13__adjust_heapIN5QListI5QPairI7QStringiEE8iteratorE{qptrdiff}S3_PFbRKS3_S7_EEvT_T0_SB_T1_T2_@Base 5.0.2
- (optional=templinst|subst)_ZSt13__adjust_heapIPi{ssize_t}iEvT_T0_S2_T1_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt13move_backwardIP21QPersistentModelIndexS1_ET0_T_S3_S2_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt13move_backwardIP5QPairI21QPersistentModelIndexjES3_ET0_T_S5_S4_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt16__insertion_sortIN5QListI5QPairI7QStringiEE8iteratorEPFbRKS3_S7_EEvT_SA_T0_@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x|subst)_ZSt13__adjust_heapIN5QListI5QPairI7QStringiEE8iteratorE{qptrdiff}S3_PFbRKS3_S7_EEvT_T0_SB_T1_T2_@Base 5.0.2
+ (optional=templinst|arch=s390)_ZSt13__adjust_heapIPiiiEvT_T0_S2_T1_@Base 5.1.0
+ (optional=templinst|subst|arch=!s390)_ZSt13__adjust_heapIPi{ssize_t}iEvT_T0_S2_T1_@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt13move_backwardIP21QPersistentModelIndexS1_ET0_T_S3_S2_@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt13move_backwardIP5QPairI21QPersistentModelIndexjES3_ET0_T_S5_S4_@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt16__insertion_sortIN5QListI5QPairI7QStringiEE8iteratorEPFbRKS3_S7_EEvT_SA_T0_@Base 5.0.2
  (optional=templinst)_ZSt16__insertion_sortIP21QPersistentModelIndexEvT_S2_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt16__insertion_sortIP5QPairI21QPersistentModelIndexjEEvT_S4_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt16__insertion_sortIP5QPairIiiEEvT_S3_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt16__insertion_sortIPi29QSortFilterProxyModelLessThanEvT_S2_T0_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt16__insertion_sortIPi32QSortFilterProxyModelGreaterThanEvT_S2_T0_@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt16__insertion_sortIP5QPairI21QPersistentModelIndexjEEvT_S4_@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt16__insertion_sortIP5QPairIiiEEvT_S3_@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt16__insertion_sortIPi29QSortFilterProxyModelLessThanEvT_S2_T0_@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt16__insertion_sortIPi32QSortFilterProxyModelGreaterThanEvT_S2_T0_@Base 5.0.2
  (optional=templinst)_ZSt16__insertion_sortIPiEvT_S1_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt16__introsort_loopIN5QListI5QPairI7QStringiEE8iteratorEiPFbRKS3_S7_EEvT_SA_T0_T1_@Base 5.0.2
- (optional=templinst|subst)_ZSt16__introsort_loopIPi{ssize_t}EvT_S1_T0_@Base 5.0.2
- (optional=templinst|subst)_ZSt16__merge_adaptiveIP21QPersistentModelIndex{ssize_t}S1_EvT_S2_S2_T0_S3_T1_S3_@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt16__introsort_loopIN5QListI5QPairI7QStringiEE8iteratorEiPFbRKS3_S7_EEvT_SA_T0_T1_@Base 5.0.2
+ (optional=templinst|arch=s390)_ZSt16__introsort_loopIPiiEvT_S1_T0_@Base 5.1.0
+ (optional=templinst|subst|arch=!s390)_ZSt16__introsort_loopIPi{ssize_t}EvT_S1_T0_@Base 5.0.2
+ (optional=templinst|arch=s390)_ZSt16__merge_adaptiveIP21QPersistentModelIndexiS1_EvT_S2_S2_T0_S3_T1_S3_@Base 5.1.0
+ (optional=templinst|subst|arch=!s390)_ZSt16__merge_adaptiveIP21QPersistentModelIndex{ssize_t}S1_EvT_S2_S2_T0_S3_T1_S3_@Base 5.0.2
  (optional=templinst|arch=powerpc s390)_ZSt16__merge_adaptiveIP5QPairI21QPersistentModelIndexjEiS3_EvT_S4_S4_T0_S5_T1_S5_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390x|subst)_ZSt16__merge_adaptiveIP5QPairI21QPersistentModelIndexjE{ssize_t}S3_EvT_S4_S4_T0_S5_T1_S5_@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390x|subst)_ZSt16__merge_adaptiveIP5QPairI21QPersistentModelIndexjE{ssize_t}S3_EvT_S4_S4_T0_S5_T1_S5_@Base 5.0.2
  (optional=templinst|arch=s390)_ZSt16__merge_adaptiveIP5QPairIiiEiS2_EvT_S3_S3_T0_S4_T1_S4_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390x|subst)_ZSt16__merge_adaptiveIP5QPairIiiE{ssize_t}S2_EvT_S3_S3_T0_S4_T1_S4_@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390x|subst)_ZSt16__merge_adaptiveIP5QPairIiiE{ssize_t}S2_EvT_S3_S3_T0_S4_T1_S4_@Base 5.0.2
  (optional=templinst|arch=powerpc s390)_ZSt16__merge_adaptiveIPiiS0_29QSortFilterProxyModelLessThanEvT_S2_S2_T0_S3_T1_S3_T2_@Base 5.0.2
  (optional=templinst|arch=powerpc s390)_ZSt16__merge_adaptiveIPiiS0_32QSortFilterProxyModelGreaterThanEvT_S2_S2_T0_S3_T1_S3_T2_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390x|subst)_ZSt16__merge_adaptiveIPi{ssize_t}S0_29QSortFilterProxyModelLessThanEvT_S2_S2_T0_S3_T1_S3_T2_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390x|subst)_ZSt16__merge_adaptiveIPi{ssize_t}S0_32QSortFilterProxyModelGreaterThanEvT_S2_S2_T0_S3_T1_S3_T2_@Base 5.0.2
- (optional=templinst|subst)_ZSt16__merge_adaptiveIPi{ssize_t}S0_EvT_S1_S1_T0_S2_T1_S2_@Base 5.0.2
- (optional=templinst|subst)_ZSt17__merge_sort_loopIP21QPersistentModelIndexS1_{ssize_t}EvT_S2_T0_T1_@Base 5.0.2
+ (optional=templinst|arch=s390)_ZSt16__merge_adaptiveIPiiS0_EvT_S1_S1_T0_S2_T1_S2_@Base 5.1.0
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390x|subst)_ZSt16__merge_adaptiveIPi{ssize_t}S0_29QSortFilterProxyModelLessThanEvT_S2_S2_T0_S3_T1_S3_T2_@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390x|subst)_ZSt16__merge_adaptiveIPi{ssize_t}S0_32QSortFilterProxyModelGreaterThanEvT_S2_S2_T0_S3_T1_S3_T2_@Base 5.0.2
+ (optional=templinst|subst|arch=!s390)_ZSt16__merge_adaptiveIPi{ssize_t}S0_EvT_S1_S1_T0_S2_T1_S2_@Base 5.0.2
+ (optional=templinst|arch=s390)_ZSt17__merge_sort_loopIP21QPersistentModelIndexS1_iEvT_S2_T0_T1_@Base 5.1.0
+ (optional=templinst|subst|arch=!s390)_ZSt17__merge_sort_loopIP21QPersistentModelIndexS1_{ssize_t}EvT_S2_T0_T1_@Base 5.0.2
  (optional=templinst|arch=powerpc s390)_ZSt17__merge_sort_loopIP5QPairI21QPersistentModelIndexjES3_iEvT_S4_T0_T1_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390x|subst)_ZSt17__merge_sort_loopIP5QPairI21QPersistentModelIndexjES3_{ssize_t}EvT_S4_T0_T1_@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390x|subst)_ZSt17__merge_sort_loopIP5QPairI21QPersistentModelIndexjES3_{ssize_t}EvT_S4_T0_T1_@Base 5.0.2
  (optional=templinst|arch=s390)_ZSt17__merge_sort_loopIP5QPairIiiES2_iEvT_S3_T0_T1_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390x|subst)_ZSt17__merge_sort_loopIP5QPairIiiES2_{ssize_t}EvT_S3_T0_T1_@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390x|subst)_ZSt17__merge_sort_loopIP5QPairIiiES2_{ssize_t}EvT_S3_T0_T1_@Base 5.0.2
  (optional=templinst|arch=powerpc s390)_ZSt17__merge_sort_loopIPiS0_i29QSortFilterProxyModelLessThanEvT_S2_T0_T1_T2_@Base 5.0.2
  (optional=templinst|arch=powerpc s390)_ZSt17__merge_sort_loopIPiS0_i32QSortFilterProxyModelGreaterThanEvT_S2_T0_T1_T2_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390x|subst)_ZSt17__merge_sort_loopIPiS0_{ssize_t}29QSortFilterProxyModelLessThanEvT_S2_T0_T1_T2_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390x|subst)_ZSt17__merge_sort_loopIPiS0_{ssize_t}32QSortFilterProxyModelGreaterThanEvT_S2_T0_T1_T2_@Base 5.0.2
- (optional=templinst|subst)_ZSt17__merge_sort_loopIPiS0_{ssize_t}EvT_S1_T0_T1_@Base 5.0.2
+ (optional=templinst|arch=s390)_ZSt17__merge_sort_loopIPiS0_iEvT_S1_T0_T1_@Base 5.1.0
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390x|subst)_ZSt17__merge_sort_loopIPiS0_{ssize_t}29QSortFilterProxyModelLessThanEvT_S2_T0_T1_T2_@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390x|subst)_ZSt17__merge_sort_loopIPiS0_{ssize_t}32QSortFilterProxyModelGreaterThanEvT_S2_T0_T1_T2_@Base 5.0.2
+ (optional=templinst|subst|arch=!s390)_ZSt17__merge_sort_loopIPiS0_{ssize_t}EvT_S1_T0_T1_@Base 5.0.2
  (optional=templinst|arch=powerpc s390)_ZSt17__rotate_adaptiveIP21QPersistentModelIndexS1_iET_S2_S2_S2_T1_S3_T0_S3_@Base 5.0.2
- (optional=templinst|arch=amd64 armhf ia64 powerpc powerpcspe ppc64 s390x|subst)_ZSt17__rotate_adaptiveIP21QPersistentModelIndexS1_{ssize_t}ET_S2_S2_S2_T1_S3_T0_S3_@Base 5.0.2
+ (optional=templinst|arch=alpha amd64 armhf ia64 powerpc powerpcspe ppc64 s390x|subst)_ZSt17__rotate_adaptiveIP21QPersistentModelIndexS1_{ssize_t}ET_S2_S2_S2_T1_S3_T0_S3_@Base 5.0.2
  (optional=templinst|arch=powerpc s390)_ZSt17__rotate_adaptiveIP5QPairI21QPersistentModelIndexjES3_iET_S4_S4_S4_T1_S5_T0_S5_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390x|subst)_ZSt17__rotate_adaptiveIP5QPairI21QPersistentModelIndexjES3_{ssize_t}ET_S4_S4_S4_T1_S5_T0_S5_@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390x|subst)_ZSt17__rotate_adaptiveIP5QPairI21QPersistentModelIndexjES3_{ssize_t}ET_S4_S4_S4_T1_S5_T0_S5_@Base 5.0.2
  (optional=templinst|arch=s390)_ZSt17__rotate_adaptiveIP5QPairIiiES2_iET_S3_S3_S3_T1_S4_T0_S4_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390x|subst)_ZSt17__rotate_adaptiveIP5QPairIiiES2_{ssize_t}ET_S3_S3_S3_T1_S4_T0_S4_@Base 5.0.2
- (optional=templinst|subst)_ZSt17__rotate_adaptiveIPiS0_{ssize_t}ET_S1_S1_S1_T1_S2_T0_S2_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt19__move_median_firstIN5QListI5QPairI7QStringiEE8iteratorEPFbRKS3_S7_EEvT_SA_SA_T0_@Base 5.0.2
- (optional=templinst|arch=!armhf !ia64 !powerpc !powerpcspe !ppc64 !s390 !s390x|subst)_ZSt20get_temporary_bufferI21QPersistentModelIndexESt4pairIPT_{ssize_t}E{ssize_t}@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390x|subst)_ZSt17__rotate_adaptiveIP5QPairIiiES2_{ssize_t}ET_S3_S3_S3_T1_S4_T0_S4_@Base 5.0.2
+ (optional=templinst|arch=s390)_ZSt17__rotate_adaptiveIPiS0_iET_S1_S1_S1_T1_S2_T0_S2_@Base 5.1.0
+ (optional=templinst|subst|arch=!s390)_ZSt17__rotate_adaptiveIPiS0_{ssize_t}ET_S1_S1_S1_T1_S2_T0_S2_@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt19__move_median_firstIN5QListI5QPairI7QStringiEE8iteratorEPFbRKS3_S7_EEvT_SA_SA_T0_@Base 5.0.2
+ (optional=templinst|arch=!alpha !armhf !ia64 !powerpc !powerpcspe !ppc64 !s390 !s390x|subst)_ZSt20get_temporary_bufferI21QPersistentModelIndexESt4pairIPT_{ssize_t}E{ssize_t}@Base 5.0.2
  (optional=templinst)_ZSt21__inplace_stable_sortIP21QPersistentModelIndexEvT_S2_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt21__inplace_stable_sortIP5QPairI21QPersistentModelIndexjEEvT_S4_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt21__inplace_stable_sortIP5QPairIiiEEvT_S3_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt21__inplace_stable_sortIPi29QSortFilterProxyModelLessThanEvT_S2_T0_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt21__inplace_stable_sortIPi32QSortFilterProxyModelGreaterThanEvT_S2_T0_@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt21__inplace_stable_sortIP5QPairI21QPersistentModelIndexjEEvT_S4_@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt21__inplace_stable_sortIP5QPairIiiEEvT_S3_@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt21__inplace_stable_sortIPi29QSortFilterProxyModelLessThanEvT_S2_T0_@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt21__inplace_stable_sortIPi32QSortFilterProxyModelGreaterThanEvT_S2_T0_@Base 5.0.2
  (optional=templinst)_ZSt21__inplace_stable_sortIPiEvT_S1_@Base 5.0.2
- (optional=templinst|arch=!amd64 !armhf !ia64 !powerpc !powerpcspe !ppc64 !s390 !s390x)_ZSt21__move_merge_adaptiveIP21QPersistentModelIndexS1_S1_EvT_S2_T0_S3_T1_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt21__unguarded_partitionIN5QListI5QPairI7QStringiEE8iteratorES3_PFbRKS3_S7_EET_SA_SA_RKT0_T1_@Base 5.0.2
- (optional=templinst|arch=!amd64 !armhf !ia64 !powerpc !powerpcspe !ppc64 !s390 !s390x)_ZSt22__final_insertion_sortIPiEvT_S1_@Base 5.0.2
- (optional=templinst|subst)_ZSt22__merge_without_bufferIP21QPersistentModelIndex{ssize_t}EvT_S2_S2_T0_S3_@Base 5.0.2
+ (optional=templinst|arch=!alpha !amd64 !armhf !ia64 !powerpc !powerpcspe !ppc64 !s390 !s390x)_ZSt21__move_merge_adaptiveIP21QPersistentModelIndexS1_S1_EvT_S2_T0_S3_T1_@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt21__unguarded_partitionIN5QListI5QPairI7QStringiEE8iteratorES3_PFbRKS3_S7_EET_SA_SA_RKT0_T1_@Base 5.0.2
+ (optional=templinst|arch=!alpha !amd64 !armhf !ia64 !powerpc !powerpcspe !ppc64 !s390 !s390x)_ZSt22__final_insertion_sortIPiEvT_S1_@Base 5.0.2
+ (optional=templinst|arch=s390)_ZSt22__merge_without_bufferIP21QPersistentModelIndexiEvT_S2_S2_T0_S3_@Base 5.1.0
+ (optional=templinst|subst|arch=!s390)_ZSt22__merge_without_bufferIP21QPersistentModelIndex{ssize_t}EvT_S2_S2_T0_S3_@Base 5.0.2
  (optional=templinst|arch=s390)_ZSt22__merge_without_bufferIP5QPairI21QPersistentModelIndexjEiEvT_S4_S4_T0_S5_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390x|subst)_ZSt22__merge_without_bufferIP5QPairI21QPersistentModelIndexjE{ssize_t}EvT_S4_S4_T0_S5_@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390x|subst)_ZSt22__merge_without_bufferIP5QPairI21QPersistentModelIndexjE{ssize_t}EvT_S4_S4_T0_S5_@Base 5.0.2
  (optional=templinst|arch=powerpc s390)_ZSt22__merge_without_bufferIP5QPairIiiEiEvT_S3_S3_T0_S4_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390x|subst)_ZSt22__merge_without_bufferIP5QPairIiiE{ssize_t}EvT_S3_S3_T0_S4_@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390x|subst)_ZSt22__merge_without_bufferIP5QPairIiiE{ssize_t}EvT_S3_S3_T0_S4_@Base 5.0.2
  (optional=templinst|arch=powerpc s390)_ZSt22__merge_without_bufferIPii29QSortFilterProxyModelLessThanEvT_S2_S2_T0_S3_T1_@Base 5.0.2
  (optional=templinst|arch=powerpc s390)_ZSt22__merge_without_bufferIPii32QSortFilterProxyModelGreaterThanEvT_S2_S2_T0_S3_T1_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390x|subst)_ZSt22__merge_without_bufferIPi{ssize_t}29QSortFilterProxyModelLessThanEvT_S2_S2_T0_S3_T1_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390x|subst)_ZSt22__merge_without_bufferIPi{ssize_t}32QSortFilterProxyModelGreaterThanEvT_S2_S2_T0_S3_T1_@Base 5.0.2
- (optional=templinst|subst)_ZSt22__merge_without_bufferIPi{ssize_t}EvT_S1_S1_T0_S2_@Base 5.0.2
- (optional=templinst|subst)_ZSt22__stable_sort_adaptiveIP21QPersistentModelIndexS1_{ssize_t}EvT_S2_T0_T1_@Base 5.0.2
+ (optional=templinst|arch=s390)_ZSt22__merge_without_bufferIPiiEvT_S1_S1_T0_S2_@Base 5.1.0
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390x|subst)_ZSt22__merge_without_bufferIPi{ssize_t}29QSortFilterProxyModelLessThanEvT_S2_S2_T0_S3_T1_@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390x|subst)_ZSt22__merge_without_bufferIPi{ssize_t}32QSortFilterProxyModelGreaterThanEvT_S2_S2_T0_S3_T1_@Base 5.0.2
+ (optional=templinst|subst|arch=!s390)_ZSt22__merge_without_bufferIPi{ssize_t}EvT_S1_S1_T0_S2_@Base 5.0.2
+ (optional=templinst|arch=s390)_ZSt22__stable_sort_adaptiveIP21QPersistentModelIndexS1_iEvT_S2_T0_T1_@Base 5.1.0
+ (optional=templinst|subst|arch=!s390)_ZSt22__stable_sort_adaptiveIP21QPersistentModelIndexS1_{ssize_t}EvT_S2_T0_T1_@Base 5.0.2
  (optional=templinst|arch=powerpc s390)_ZSt22__stable_sort_adaptiveIP5QPairI21QPersistentModelIndexjES3_iEvT_S4_T0_T1_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390x|subst)_ZSt22__stable_sort_adaptiveIP5QPairI21QPersistentModelIndexjES3_{ssize_t}EvT_S4_T0_T1_@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390x|subst)_ZSt22__stable_sort_adaptiveIP5QPairI21QPersistentModelIndexjES3_{ssize_t}EvT_S4_T0_T1_@Base 5.0.2
  (optional=templinst|arch=s390)_ZSt22__stable_sort_adaptiveIP5QPairIiiES2_iEvT_S3_T0_T1_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390x|subst)_ZSt22__stable_sort_adaptiveIP5QPairIiiES2_{ssize_t}EvT_S3_T0_T1_@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390x|subst)_ZSt22__stable_sort_adaptiveIP5QPairIiiES2_{ssize_t}EvT_S3_T0_T1_@Base 5.0.2
  (optional=templinst|arch=s390)_ZSt22__stable_sort_adaptiveIPiS0_i29QSortFilterProxyModelLessThanEvT_S2_T0_T1_T2_@Base 5.0.2
  (optional=templinst|arch=powerpc s390)_ZSt22__stable_sort_adaptiveIPiS0_i32QSortFilterProxyModelGreaterThanEvT_S2_T0_T1_T2_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390x|subst)_ZSt22__stable_sort_adaptiveIPiS0_{ssize_t}29QSortFilterProxyModelLessThanEvT_S2_T0_T1_T2_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390x|subst)_ZSt22__stable_sort_adaptiveIPiS0_{ssize_t}32QSortFilterProxyModelGreaterThanEvT_S2_T0_T1_T2_@Base 5.0.2
- (optional=templinst|subst)_ZSt22__stable_sort_adaptiveIPiS0_{ssize_t}EvT_S1_T0_T1_@Base 5.0.2
+ (optional=templinst|arch=s390)_ZSt22__stable_sort_adaptiveIPiS0_iEvT_S1_T0_T1_@Base 5.1.0
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390x|subst)_ZSt22__stable_sort_adaptiveIPiS0_{ssize_t}29QSortFilterProxyModelLessThanEvT_S2_T0_T1_T2_@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390x|subst)_ZSt22__stable_sort_adaptiveIPiS0_{ssize_t}32QSortFilterProxyModelGreaterThanEvT_S2_T0_T1_T2_@Base 5.0.2
+ (optional=templinst|subst|arch=!s390)_ZSt22__stable_sort_adaptiveIPiS0_{ssize_t}EvT_S1_T0_T1_@Base 5.0.2
  (optional=templinst)_ZSt24__merge_sort_with_bufferIP21QPersistentModelIndexS1_EvT_S2_T0_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt24__merge_sort_with_bufferIP5QPairI21QPersistentModelIndexjES3_EvT_S4_T0_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt24__merge_sort_with_bufferIP5QPairIiiES2_EvT_S3_T0_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt24__merge_sort_with_bufferIPiS0_29QSortFilterProxyModelLessThanEvT_S2_T0_T1_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt24__merge_sort_with_bufferIPiS0_32QSortFilterProxyModelGreaterThanEvT_S2_T0_T1_@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt24__merge_sort_with_bufferIP5QPairI21QPersistentModelIndexjES3_EvT_S4_T0_@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt24__merge_sort_with_bufferIP5QPairIiiES2_EvT_S3_T0_@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt24__merge_sort_with_bufferIPiS0_29QSortFilterProxyModelLessThanEvT_S2_T0_T1_@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt24__merge_sort_with_bufferIPiS0_32QSortFilterProxyModelGreaterThanEvT_S2_T0_T1_@Base 5.0.2
  (optional=templinst)_ZSt24__merge_sort_with_bufferIPiS0_EvT_S1_T0_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt25__unguarded_linear_insertIN5QListI5QPairI7QStringiEE8iteratorEPFbRKS3_S7_EEvT_T0_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt25__unguarded_linear_insertIP21QPersistentModelIndexEvT_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt25__unguarded_linear_insertIP5QPairI21QPersistentModelIndexjEEvT_@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt25__unguarded_linear_insertIN5QListI5QPairI7QStringiEE8iteratorEPFbRKS3_S7_EEvT_T0_@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt25__unguarded_linear_insertIP21QPersistentModelIndexEvT_@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt25__unguarded_linear_insertIP5QPairI21QPersistentModelIndexjEEvT_@Base 5.0.2
  (optional=templinst|arch=!amd64)_ZSt30__move_merge_adaptive_backwardIP21QPersistentModelIndexS1_S1_EvT_S2_T0_S3_T1_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt30__move_merge_adaptive_backwardIP5QPairI21QPersistentModelIndexjES3_S3_EvT_S4_T0_S5_T1_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt30__move_merge_adaptive_backwardIP5QPairIiiES2_S2_EvT_S3_T0_S4_T1_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt30__move_merge_adaptive_backwardIPiS0_S0_29QSortFilterProxyModelLessThanEvT_S2_T0_S3_T1_T2_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt30__move_merge_adaptive_backwardIPiS0_S0_32QSortFilterProxyModelGreaterThanEvT_S2_T0_S3_T1_T2_@Base 5.0.2
- (optional=templinst|arch=!amd64 !armhf !ia64 !powerpc !powerpcspe !ppc64 !s390 !s390x)_ZSt30__move_merge_adaptive_backwardIPiS0_S0_EvT_S1_T0_S2_T1_@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt30__move_merge_adaptive_backwardIP5QPairI21QPersistentModelIndexjES3_S3_EvT_S4_T0_S5_T1_@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt30__move_merge_adaptive_backwardIP5QPairIiiES2_S2_EvT_S3_T0_S4_T1_@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt30__move_merge_adaptive_backwardIPiS0_S0_29QSortFilterProxyModelLessThanEvT_S2_T0_S3_T1_T2_@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt30__move_merge_adaptive_backwardIPiS0_S0_32QSortFilterProxyModelGreaterThanEvT_S2_T0_S3_T1_T2_@Base 5.0.2
+ (optional=templinst|arch=!alpha !amd64 !armhf !ia64 !powerpc !powerpcspe !ppc64 !s390 !s390x)_ZSt30__move_merge_adaptive_backwardIPiS0_S0_EvT_S1_T0_S2_T1_@Base 5.0.2
  (optional=templinst|arch=powerpc powerpcspe ppc64 s390 s390x)_ZSt4moveIP21QPersistentModelIndexS1_ET0_T_S3_S2_@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt4moveIP5QPairI21QPersistentModelIndexjES3_ET0_T_S5_S4_@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt4moveIP5QPairI21QPersistentModelIndexjES3_ET0_T_S5_S4_@Base 5.0.2
  (optional=templinst)_ZSt8__rotateIP21QPersistentModelIndexEvT_S2_S2_St26random_access_iterator_tag@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt8__rotateIP5QPairI21QPersistentModelIndexjEEvT_S4_S4_St26random_access_iterator_tag@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt8__rotateIP5QPairIiiEEvT_S3_S3_St26random_access_iterator_tag@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt8__rotateIP5QPairI21QPersistentModelIndexjEEvT_S4_S4_St26random_access_iterator_tag@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt8__rotateIP5QPairIiiEEvT_S3_S3_St26random_access_iterator_tag@Base 5.0.2
  (optional=templinst)_ZSt8__rotateIPiEvT_S1_S1_St26random_access_iterator_tag@Base 5.0.2
- (optional=templinst|arch=armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt9make_heapIN5QListI5QPairI7QStringiEE8iteratorEPFbRKS3_S7_EEvT_SA_T0_@Base 5.0.2
+ (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt9make_heapIN5QListI5QPairI7QStringiEE8iteratorEPFbRKS3_S7_EEvT_SA_T0_@Base 5.0.2
  _ZTI10QEventLoop@Base 5.0.2
  _ZTI10QException@Base 5.0.2
  _ZTI10QTextCodec@Base 5.0.2

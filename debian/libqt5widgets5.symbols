@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.1.0 amd64
+# SymbolsHelper-Confirmed: 5.1.0 alpha amd64 i386 s390 sparc
 libQt5Widgets.so.5 libqt5widgets5 #MINVER#
 | libqt5widgets5 #MINVER#, qtbase-abi-5-1-0
  _Z11qFadeEffectP7QWidgeti@Base 5.0.2
@@ -64,6 +64,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN10QBoxLayoutD0Ev@Base 5.0.2
  _ZN10QBoxLayoutD1Ev@Base 5.0.2
  _ZN10QBoxLayoutD2Ev@Base 5.0.2
+ (optional=gccinternal|arch=i386)_ZN10QByteArray7reserveEi@Base 5.1.0
  _ZN10QCompleter11eventFilterEP7QObjectP6QEvent@Base 5.0.2
  _ZN10QCompleter11highlightedERK11QModelIndex@Base 5.0.2
  _ZN10QCompleter11highlightedERK7QString@Base 5.0.2
@@ -2913,8 +2914,8 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN18QStyleOptionHeaderC1Ev@Base 5.0.2
  _ZN18QStyleOptionHeaderC2Ei@Base 5.0.2
  _ZN18QStyleOptionHeaderC2Ev@Base 5.0.2
- (arch=!ia64 !powerpc !powerpcspe !ppc64 !s390 !s390x)_ZN18QStyleOptionHeaderD1Ev@Base 5.0.2
- (arch=!ia64 !powerpc !powerpcspe !ppc64 !s390 !s390x)_ZN18QStyleOptionHeaderD2Ev@Base 5.0.2
+ (arch=!alpha !ia64 !powerpc !powerpcspe !ppc64 !s390 !s390x !sparc)_ZN18QStyleOptionHeaderD1Ev@Base 5.0.2
+ (arch=!alpha !ia64 !powerpc !powerpcspe !ppc64 !s390 !s390x !sparc)_ZN18QStyleOptionHeaderD2Ev@Base 5.0.2
  _ZN18QStyleOptionSliderC1Ei@Base 5.0.2
  _ZN18QStyleOptionSliderC1Ev@Base 5.0.2
  _ZN18QStyleOptionSliderC2Ei@Base 5.0.2
@@ -3432,8 +3433,8 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN20QStyleOptionComboBoxC1Ev@Base 5.0.2
  _ZN20QStyleOptionComboBoxC2Ei@Base 5.0.2
  _ZN20QStyleOptionComboBoxC2Ev@Base 5.0.2
- (optional=gccinternal|arch=!ia64 !powerpc !ppc64 !s390 !s390x)_ZN20QStyleOptionComboBoxD1Ev@Base 5.0.2
- (optional=gccinternal|arch=!ia64 !powerpc !ppc64 !s390 !s390x)_ZN20QStyleOptionComboBoxD2Ev@Base 5.0.2
+ (optional=gccinternal|arch=!alpha !ia64 !powerpc !ppc64 !s390 !s390x !sparc)_ZN20QStyleOptionComboBoxD1Ev@Base 5.0.2
+ (optional=gccinternal|arch=!alpha !ia64 !powerpc !ppc64 !s390 !s390x !sparc)_ZN20QStyleOptionComboBoxD2Ev@Base 5.0.2
  _ZN20QStyleOptionGroupBoxC1Ei@Base 5.0.2
  _ZN20QStyleOptionGroupBoxC1Ev@Base 5.0.2
  _ZN20QStyleOptionGroupBoxC2Ei@Base 5.0.2
@@ -3600,6 +3601,8 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN22QGraphicsOpacityEffectD0Ev@Base 5.0.2
  _ZN22QGraphicsOpacityEffectD1Ev@Base 5.0.2
  _ZN22QGraphicsOpacityEffectD2Ev@Base 5.0.2
+ (optional=gccinternal|arch=i386)_ZN22QGuiApplicationPrivate22ActiveTouchPointsValueD1Ev@Base 5.1.0
+ (optional=gccinternal|arch=i386)_ZN22QGuiApplicationPrivate22ActiveTouchPointsValueD2Ev@Base 5.1.0
  _ZN22QItemEditorCreatorBaseD0Ev@Base 5.0.2
  _ZN22QItemEditorCreatorBaseD1Ev@Base 5.0.2
  _ZN22QItemEditorCreatorBaseD2Ev@Base 5.0.2
@@ -4514,7 +4517,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN8QMenuBarD0Ev@Base 5.0.2
  _ZN8QMenuBarD1Ev@Base 5.0.2
  _ZN8QMenuBarD2Ev@Base 5.0.2
- (arch=powerpc powerpcspe s390)_ZN8QPolygon8setPointEiii@Base 5.0.2
+ (arch=powerpc powerpcspe sparc)_ZN8QPolygon8setPointEiii@Base 5.1.0
  _ZN8QSpinBox10setMaximumEi@Base 5.0.2
  _ZN8QSpinBox10setMinimumEi@Base 5.0.2
  _ZN8QSpinBox11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
@@ -4600,9 +4603,9 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN8QToolTip8showTextERK6QPointRK7QStringP7QWidget@Base 5.0.2
  _ZN8QToolTip8showTextERK6QPointRK7QStringP7QWidgetRK5QRect@Base 5.0.2
  _ZN8QToolTip9isVisibleEv@Base 5.0.2
- (arch=!ia64 !powerpc !powerpcspe !ppc64 !s390 !s390x)_ZN9QBitArray6setBitEi@Base 5.0.2
- (arch=ia64 powerpc powerpcspe ppc64 s390 s390x)_ZN9QBitArray6setBitEib@Base 5.0.2
- (arch=!ia64 !powerpc !powerpcspe !ppc64 !s390 !s390x)_ZN9QBitArray8clearBitEi@Base 5.0.2
+ (arch=!alpha !ia64 !powerpc !powerpcspe !ppc64 !s390 !s390x !sparc)_ZN9QBitArray6setBitEi@Base 5.0.2
+ (arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc)_ZN9QBitArray6setBitEib@Base 5.1.0
+ (arch=!alpha !ia64 !powerpc !powerpcspe !ppc64 !s390 !s390x !sparc)_ZN9QBitArray8clearBitEi@Base 5.0.2
  _ZN9QCheckBox10paintEventEP11QPaintEvent@Base 5.0.2
  _ZN9QCheckBox11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN9QCheckBox11qt_metacastEPKc@Base 5.0.2
@@ -7356,36 +7359,36 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK9QUndoView5groupEv@Base 5.0.2
  _ZNK9QUndoView5stackEv@Base 5.0.2
  _ZNK9QUndoView9cleanIconEv@Base 5.0.2
- (optional=templinst|subst|arch=ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt11__push_heapIN5QListI5QPairIPN23QFileSystemModelPrivate15QFileSystemNodeEiEE8iteratorE{qptrdiff}S5_22QFileSystemModelSorterEvT_T0_SA_T1_T2_@Base 5.0.2 1
- (optional=templinst|arch=ia64 powerpc powerpcspe ppc64 s390 s390x|subst)_ZSt13__adjust_heapIN5QListI5QPairIPN23QFileSystemModelPrivate15QFileSystemNodeEiEE8iteratorE{qptrdiff}S5_22QFileSystemModelSorterEvT_T0_SA_T1_T2_@Base 5.0.2 1
- (optional=templinst|arch=ia64 powerpc powerpcspe ppc64 s390 s390x|subst)_ZSt13__adjust_heapIN5QListIP13QGraphicsItemE8iteratorE{qptrdiff}S2_PFbPKS1_S6_EEvT_T0_SA_T1_T2_@Base 5.0.2
- (optional=templinst|subst|arch=ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt13__adjust_heapIN5QListIP13QGraphicsItemE8iteratorE{qptrdiff}S2_PFbS2_S2_EEvT_T0_S8_T1_T2_@Base 5.0.2
- (optional=templinst|arch=ia64 powerpc powerpcspe ppc64 s390 s390x|subst)_ZSt13__adjust_heapIN5QListIP15QGraphicsObjectE8iteratorE{qptrdiff}S2_PFbPK13QGraphicsItemS7_EEvT_T0_SB_T1_T2_@Base 5.0.2
- (optional=templinst|arch=ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt13__heap_selectIN5QListI5QPairIPN23QFileSystemModelPrivate15QFileSystemNodeEiEE8iteratorE22QFileSystemModelSorterEvT_S9_S9_T0_@Base 5.0.2 1
- (optional=templinst|arch=ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt13__heap_selectIN5QListIP13QGraphicsItemE8iteratorEPFbPKS1_S6_EEvT_S9_S9_T0_@Base 5.0.2
- (optional=templinst|arch=ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt13__heap_selectIN5QListIP13QGraphicsItemE8iteratorEPFbS2_S2_EEvT_S7_S7_T0_@Base 5.0.2
- (optional=templinst|arch=ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt13__heap_selectIN5QListIP15QGraphicsObjectE8iteratorEPFbPK13QGraphicsItemS7_EEvT_SA_SA_T0_@Base 5.0.2
- (optional=templinst|arch=ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt16__insertion_sortIN5QListI5QPairIPN23QFileSystemModelPrivate15QFileSystemNodeEiEE8iteratorE22QFileSystemModelSorterEvT_S9_T0_@Base 5.0.2 1
- (optional=templinst|arch=ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt16__insertion_sortIN5QListIP13QGraphicsItemE8iteratorEPFbPKS1_S6_EEvT_S9_T0_@Base 5.0.2
- (optional=templinst|arch=ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt16__insertion_sortIN5QListIP13QGraphicsItemE8iteratorEPFbS2_S2_EEvT_S7_T0_@Base 5.0.2
- (optional=templinst|arch=ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt16__insertion_sortIN5QListIP15QGraphicsObjectE8iteratorEPFbPK13QGraphicsItemS7_EEvT_SA_T0_@Base 5.0.2
- (optional=templinst|arch=ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt16__introsort_loopIN5QListI5QPairIPN23QFileSystemModelPrivate15QFileSystemNodeEiEE8iteratorEi22QFileSystemModelSorterEvT_S9_T0_T1_@Base 5.0.2 1
- (optional=templinst|arch=ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt16__introsort_loopIN5QListIP13QGraphicsItemE8iteratorEiPFbPKS1_S6_EEvT_S9_T0_T1_@Base 5.0.2
- (optional=templinst|arch=ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt16__introsort_loopIN5QListIP13QGraphicsItemE8iteratorEiPFbS2_S2_EEvT_S7_T0_T1_@Base 5.0.2
- (optional=templinst|arch=ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt16__introsort_loopIN5QListIP15QGraphicsObjectE8iteratorEiPFbPK13QGraphicsItemS7_EEvT_SA_T0_T1_@Base 5.0.2
- (optional=templinst|arch=ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt19__move_median_firstIN5QListI5QPairIPN23QFileSystemModelPrivate15QFileSystemNodeEiEE8iteratorE22QFileSystemModelSorterEvT_S9_S9_T0_@Base 5.0.2 1
- (optional=templinst|arch=ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt19__move_median_firstIN5QListIP13QGraphicsItemE8iteratorEPFbPKS1_S6_EEvT_S9_S9_T0_@Base 5.0.2
- (optional=templinst|arch=ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt19__move_median_firstIN5QListIP13QGraphicsItemE8iteratorEPFbS2_S2_EEvT_S7_S7_T0_@Base 5.0.2
- (optional=templinst|arch=ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt19__move_median_firstIN5QListIP15QGraphicsObjectE8iteratorEPFbPK13QGraphicsItemS7_EEvT_SA_SA_T0_@Base 5.0.2
- (optional=templinst|arch=ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt21__unguarded_partitionIN5QListI5QPairIPN23QFileSystemModelPrivate15QFileSystemNodeEiEE8iteratorES5_22QFileSystemModelSorterET_S9_S9_RKT0_T1_@Base 5.0.2 1
- (optional=templinst|arch=ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt21__unguarded_partitionIN5QListIP13QGraphicsItemE8iteratorES2_PFbPKS1_S6_EET_S9_S9_RKT0_T1_@Base 5.0.2
- (optional=templinst|arch=ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt21__unguarded_partitionIN5QListIP13QGraphicsItemE8iteratorES2_PFbS2_S2_EET_S7_S7_RKT0_T1_@Base 5.0.2
- (optional=templinst|arch=ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt21__unguarded_partitionIN5QListIP15QGraphicsObjectE8iteratorES2_PFbPK13QGraphicsItemS7_EET_SA_SA_RKT0_T1_@Base 5.0.2
- (optional=templinst|arch=ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt22__final_insertion_sortIN5QListIP13QGraphicsItemE8iteratorEPFbPKS1_S6_EEvT_S9_T0_@Base 5.0.2
- (optional=templinst|arch=ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt22__final_insertion_sortIN5QListIP13QGraphicsItemE8iteratorEPFbS2_S2_EEvT_S7_T0_@Base 5.0.2
- (optional=templinst|arch=ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt25__unguarded_linear_insertIN5QListI5QPairIPN23QFileSystemModelPrivate15QFileSystemNodeEiEE8iteratorE22QFileSystemModelSorterEvT_T0_@Base 5.0.2 1
- (optional=templinst|arch=ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt25__unguarded_linear_insertIN5QListIP15QGraphicsObjectE8iteratorEPFbPK13QGraphicsItemS7_EEvT_T0_@Base 5.0.2
- (optional=templinst|arch=ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt4sortIN5QListIP15QGraphicsObjectE8iteratorEPFbPK13QGraphicsItemS7_EEvT_SA_T0_@Base 5.0.2
+ (optional=templinst|subst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt11__push_heapIN5QListI5QPairIPN23QFileSystemModelPrivate15QFileSystemNodeEiEE8iteratorE{qptrdiff}S5_22QFileSystemModelSorterEvT_T0_SA_T1_T2_@Base 5.0.2 1
+ (optional=templinst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc|subst)_ZSt13__adjust_heapIN5QListI5QPairIPN23QFileSystemModelPrivate15QFileSystemNodeEiEE8iteratorE{qptrdiff}S5_22QFileSystemModelSorterEvT_T0_SA_T1_T2_@Base 5.0.2 1
+ (optional=templinst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc|subst)_ZSt13__adjust_heapIN5QListIP13QGraphicsItemE8iteratorE{qptrdiff}S2_PFbPKS1_S6_EEvT_T0_SA_T1_T2_@Base 5.0.2
+ (optional=templinst|subst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc)_ZSt13__adjust_heapIN5QListIP13QGraphicsItemE8iteratorE{qptrdiff}S2_PFbS2_S2_EEvT_T0_S8_T1_T2_@Base 5.0.2
+ (optional=templinst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc|subst)_ZSt13__adjust_heapIN5QListIP15QGraphicsObjectE8iteratorE{qptrdiff}S2_PFbPK13QGraphicsItemS7_EEvT_T0_SB_T1_T2_@Base 5.0.2
+ (optional=templinst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc)_ZSt13__heap_selectIN5QListI5QPairIPN23QFileSystemModelPrivate15QFileSystemNodeEiEE8iteratorE22QFileSystemModelSorterEvT_S9_S9_T0_@Base 5.0.2 1
+ (optional=templinst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc)_ZSt13__heap_selectIN5QListIP13QGraphicsItemE8iteratorEPFbPKS1_S6_EEvT_S9_S9_T0_@Base 5.0.2
+ (optional=templinst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc)_ZSt13__heap_selectIN5QListIP13QGraphicsItemE8iteratorEPFbS2_S2_EEvT_S7_S7_T0_@Base 5.0.2
+ (optional=templinst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc)_ZSt13__heap_selectIN5QListIP15QGraphicsObjectE8iteratorEPFbPK13QGraphicsItemS7_EEvT_SA_SA_T0_@Base 5.0.2
+ (optional=templinst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc)_ZSt16__insertion_sortIN5QListI5QPairIPN23QFileSystemModelPrivate15QFileSystemNodeEiEE8iteratorE22QFileSystemModelSorterEvT_S9_T0_@Base 5.0.2 1
+ (optional=templinst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc)_ZSt16__insertion_sortIN5QListIP13QGraphicsItemE8iteratorEPFbPKS1_S6_EEvT_S9_T0_@Base 5.0.2
+ (optional=templinst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc)_ZSt16__insertion_sortIN5QListIP13QGraphicsItemE8iteratorEPFbS2_S2_EEvT_S7_T0_@Base 5.0.2
+ (optional=templinst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc)_ZSt16__insertion_sortIN5QListIP15QGraphicsObjectE8iteratorEPFbPK13QGraphicsItemS7_EEvT_SA_T0_@Base 5.0.2
+ (optional=templinst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc)_ZSt16__introsort_loopIN5QListI5QPairIPN23QFileSystemModelPrivate15QFileSystemNodeEiEE8iteratorEi22QFileSystemModelSorterEvT_S9_T0_T1_@Base 5.0.2 1
+ (optional=templinst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc)_ZSt16__introsort_loopIN5QListIP13QGraphicsItemE8iteratorEiPFbPKS1_S6_EEvT_S9_T0_T1_@Base 5.0.2
+ (optional=templinst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc)_ZSt16__introsort_loopIN5QListIP13QGraphicsItemE8iteratorEiPFbS2_S2_EEvT_S7_T0_T1_@Base 5.0.2
+ (optional=templinst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc)_ZSt16__introsort_loopIN5QListIP15QGraphicsObjectE8iteratorEiPFbPK13QGraphicsItemS7_EEvT_SA_T0_T1_@Base 5.0.2
+ (optional=templinst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc)_ZSt19__move_median_firstIN5QListI5QPairIPN23QFileSystemModelPrivate15QFileSystemNodeEiEE8iteratorE22QFileSystemModelSorterEvT_S9_S9_T0_@Base 5.0.2 1
+ (optional=templinst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc)_ZSt19__move_median_firstIN5QListIP13QGraphicsItemE8iteratorEPFbPKS1_S6_EEvT_S9_S9_T0_@Base 5.0.2
+ (optional=templinst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc)_ZSt19__move_median_firstIN5QListIP13QGraphicsItemE8iteratorEPFbS2_S2_EEvT_S7_S7_T0_@Base 5.0.2
+ (optional=templinst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc)_ZSt19__move_median_firstIN5QListIP15QGraphicsObjectE8iteratorEPFbPK13QGraphicsItemS7_EEvT_SA_SA_T0_@Base 5.0.2
+ (optional=templinst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc)_ZSt21__unguarded_partitionIN5QListI5QPairIPN23QFileSystemModelPrivate15QFileSystemNodeEiEE8iteratorES5_22QFileSystemModelSorterET_S9_S9_RKT0_T1_@Base 5.0.2 1
+ (optional=templinst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc)_ZSt21__unguarded_partitionIN5QListIP13QGraphicsItemE8iteratorES2_PFbPKS1_S6_EET_S9_S9_RKT0_T1_@Base 5.0.2
+ (optional=templinst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc)_ZSt21__unguarded_partitionIN5QListIP13QGraphicsItemE8iteratorES2_PFbS2_S2_EET_S7_S7_RKT0_T1_@Base 5.0.2
+ (optional=templinst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc)_ZSt21__unguarded_partitionIN5QListIP15QGraphicsObjectE8iteratorES2_PFbPK13QGraphicsItemS7_EET_SA_SA_RKT0_T1_@Base 5.0.2
+ (optional=templinst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc)_ZSt22__final_insertion_sortIN5QListIP13QGraphicsItemE8iteratorEPFbPKS1_S6_EEvT_S9_T0_@Base 5.0.2
+ (optional=templinst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc)_ZSt22__final_insertion_sortIN5QListIP13QGraphicsItemE8iteratorEPFbS2_S2_EEvT_S7_T0_@Base 5.0.2
+ (optional=templinst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc)_ZSt25__unguarded_linear_insertIN5QListI5QPairIPN23QFileSystemModelPrivate15QFileSystemNodeEiEE8iteratorE22QFileSystemModelSorterEvT_T0_@Base 5.0.2 1
+ (optional=templinst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc)_ZSt25__unguarded_linear_insertIN5QListIP15QGraphicsObjectE8iteratorEPFbPK13QGraphicsItemS7_EEvT_T0_@Base 5.0.2
+ (optional=templinst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc)_ZSt4sortIN5QListIP15QGraphicsObjectE8iteratorEPFbPK13QGraphicsItemS7_EEvT_SA_T0_@Base 5.0.2
  (optional=templinst|arch=armhf hurd-i386 i386)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 5.0.2
  _ZTI10QBoxLayout@Base 5.0.2
  _ZTI10QCompleter@Base 5.0.2
