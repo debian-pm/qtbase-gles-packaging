@@ -1,6 +1,5 @@
-qtbase-opensource-src (5.1.0+dfsg-2) UNRELEASED; urgency=low
+qtbase-opensource-src (5.1.0+dfsg-2) experimental; urgency=low
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * Add libxkbcommon-dev as build dependency, thus avoiding using the bundled
     lib.
   * Minor improvement of mark_private_symbols.sh.
@@ -10,7 +9,7 @@ qtbase-opensource-src (5.1.0+dfsg-2) UNRELEASED; urgency=low
   * Armel also builds libqkms.so, added to the proper install file.
   * Update symbols files.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 09 Jul 2013 20:24:35 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 08 Aug 2013 23:34:06 -0300
 
 qtbase-opensource-src (5.1.0+dfsg-1) experimental; urgency=low
 
