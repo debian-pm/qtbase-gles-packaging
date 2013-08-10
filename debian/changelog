@@ -1,6 +1,8 @@
-qtbase-opensource-src (5.1.0+dfsg-3) UNRELEASED; urgency=low
+qtbase-opensource-src (5.1.0+dfsg-3) unstable; urgency=low
 
- -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Fri, 09 Aug 2013 21:30:46 -0300
+  * Upload to unstable.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Fri, 09 Aug 2013 21:36:01 -0300
 
 qtbase-opensource-src (5.1.0+dfsg-2) experimental; urgency=low
 
