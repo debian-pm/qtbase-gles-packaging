@@ -3,6 +3,7 @@ qtbase-opensource-src (5.1.0+dfsg-4) UNRELEASED; urgency=low
   [ Pino Toscano ]
   * Fix build of the SHA3 implementation on 64bit big endian architectures
     (e.g. s390x and ppc64); patch sha3_64bit_BE.diff.
+  * Update/simplify lintian overrides.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 11 Aug 2013 11:40:49 +0200
 
