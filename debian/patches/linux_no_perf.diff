@@ -1,0 +1,17 @@
+Author: Pino Toscano <toscano.pino@tiscali.it>
+Description: Disable perf events on Linux/ia64.
+ It seems ia64 does not have perf events compiled, so disable them.
+Last-Update: 2013-08-11
+Forwarded: no
+
+--- a/src/testlib/qbenchmark_p.h
++++ b/src/testlib/qbenchmark_p.h
+@@ -63,7 +63,7 @@
+ #undef QTESTLIB_USE_VALGRIND
+ #endif
+ 
+-#if defined(Q_OS_LINUX) && !defined(QT_LINUXBASE) && !defined(Q_OS_ANDROID)
++#if defined(Q_OS_LINUX) && !defined(QT_LINUXBASE) && !defined(Q_OS_ANDROID) && !defined(Q_PROCESSOR_IA64)
+ #define QTESTLIB_USE_PERF_EVENTS
+ #else
+ #undef QTESTLIB_USE_PERF_EVENTS
