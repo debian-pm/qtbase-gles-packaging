@@ -1,10 +1,10 @@
-qtbase-opensource-src (5.1.0+dfsg-5) UNRELEASED; urgency=low
+qtbase-opensource-src (5.1.0+dfsg-5) unstable; urgency=low
 
   [ Pino Toscano ]
   * Extend patch sha3_64bit_BE.diff with another needed function; should
     really fix build on s390x and ppc64 now.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 13 Aug 2013 01:26:34 +0200
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sat, 24 Aug 2013 14:58:29 -0300
 
 qtbase-opensource-src (5.1.0+dfsg-4) unstable; urgency=low
 
