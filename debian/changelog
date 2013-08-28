@@ -2,6 +2,7 @@ qtbase-opensource-src (5.1.1+dfsg-1) UNRELEASED; urgency=low
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
+  * Remove deppath_gnu.diff, the fix is now included upstream.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 28 Aug 2013 10:47:33 -0300
 

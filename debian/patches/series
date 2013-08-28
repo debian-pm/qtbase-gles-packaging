@@ -1,4 +1,3 @@
-deppath_gnu.diff
 Dont_check_for_the_existence_of_priv_inc_dirs.patch
 sha3_64bit_BE.diff
 linux_no_perf.diff
