@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.1.0 alpha amd64 i386 s390
+# SymbolsHelper-Confirmed: 5.1.1 amd64
 libQt5Gui.so.5 libqt5gui5 #MINVER#
 | libqt5gui5 #MINVER#, qtbase-abi-5-1-0
  _Z11qDrawBorderP8QPainterRK5QRectPKN4QCss11BorderStyleEPKiPK6QBrushPK5QSize@Base 5.0.2
@@ -1765,6 +1765,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN17QPdfEnginePrivate11writeHeaderEv@Base 5.0.2 1
  _ZN17QPdfEnginePrivate12addXrefEntryEib@Base 5.0.2 1
  _ZN17QPdfEnginePrivate12drawTextItemERK7QPointFRK12QTextItemInt@Base 5.0.2 1
+ _ZN17QPdfEnginePrivate12setPaperSizeERK6QSizeF@Base 5.1.1 1
  _ZN17QPdfEnginePrivate13writePageRootEv@Base 5.0.2 1
  _ZN17QPdfEnginePrivate15addBrushPatternERK10QTransformPbPi@Base 5.0.2 1
  _ZN17QPdfEnginePrivate15writeCompressedEP9QIODevice@Base 5.0.2 1
@@ -2662,6 +2663,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN22QGuiApplicationPrivate18processNativeEventEP7QWindowRK10QByteArrayPvPl@Base 5.0.2 1
  _ZN22QGuiApplicationPrivate18processTabletEventEPN29QWindowSystemInterfacePrivate11TabletEventE@Base 5.0.2 1
  _ZN22QGuiApplicationPrivate18setEventDispatcherEP24QAbstractEventDispatcher@Base 5.0.2 1
+ _ZN22QGuiApplicationPrivate18shouldQuitInternalERK5QListIP7QWindowE@Base 5.1.1 1
  _ZN22QGuiApplicationPrivate19generic_plugin_listE@Base 5.0.2 1
  _ZN22QGuiApplicationPrivate19processThemeChangedEPN29QWindowSystemInterfacePrivate16ThemeChangeEventE@Base 5.0.2 1
  _ZN22QGuiApplicationPrivate19updateBlockedStatusEP7QWindow@Base 5.0.2 1

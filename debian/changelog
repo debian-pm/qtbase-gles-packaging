@@ -5,6 +5,7 @@ qtbase-opensource-src (5.1.1+dfsg-1) UNRELEASED; urgency=low
   * Remove patches applied upstresm:
     - deppath_gnu.diff, the fix is now included upstream.
     - Dont_check_for_the_existence_of_priv_inc_dirs.patch
+  * Update amd64 symbols and mark the private ones.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 28 Aug 2013 10:47:33 -0300
 

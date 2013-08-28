@@ -3601,8 +3601,8 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN22QGraphicsOpacityEffectD0Ev@Base 5.0.2
  _ZN22QGraphicsOpacityEffectD1Ev@Base 5.0.2
  _ZN22QGraphicsOpacityEffectD2Ev@Base 5.0.2
- (optional=gccinternal|arch=i386)_ZN22QGuiApplicationPrivate22ActiveTouchPointsValueD1Ev@Base 5.1.0
- (optional=gccinternal|arch=i386)_ZN22QGuiApplicationPrivate22ActiveTouchPointsValueD2Ev@Base 5.1.0
+ (optional=gccinternal|arch=i386)_ZN22QGuiApplicationPrivate22ActiveTouchPointsValueD1Ev@Base 5.1.0 1
+ (optional=gccinternal|arch=i386)_ZN22QGuiApplicationPrivate22ActiveTouchPointsValueD2Ev@Base 5.1.0 1
  _ZN22QItemEditorCreatorBaseD0Ev@Base 5.0.2
  _ZN22QItemEditorCreatorBaseD1Ev@Base 5.0.2
  _ZN22QItemEditorCreatorBaseD2Ev@Base 5.0.2
