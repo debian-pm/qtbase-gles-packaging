@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.1.0 alpha amd64 i386 s390 sparc
+# SymbolsHelper-Confirmed: 5.1.1 alpha i386 ia64 s390 s390x sparc
 libQt5DBus.so.5 libqt5dbus5 #MINVER#
 | libqt5dbus5 #MINVER#, qtbase-abi-5-1-0
  _Z14qDBusReplyFillRK12QDBusMessageR10QDBusErrorR8QVariant@Base 5.0.2
@@ -18,8 +18,6 @@ libQt5DBus.so.5 libqt5dbus5 #MINVER#
  _ZN10QDBusErrorC2ERK12QDBusMessage@Base 5.0.2
  _ZN10QDBusErrorC2ERKS_@Base 5.0.2
  _ZN10QDBusErrorC2Ev@Base 5.0.2
- (optional=gccinternal|arch=hurd-i386 i386)_ZN10QDBusErrorD1Ev@Base 5.0.2
- (optional=gccinternal|arch=hurd-i386 i386)_ZN10QDBusErrorD2Ev@Base 5.0.2
  _ZN10QDBusErroraSERK12QDBusMessage@Base 5.0.2
  _ZN10QDBusErroraSERKS_@Base 5.0.2
  _ZN11QDBusServer11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
@@ -257,7 +255,6 @@ libQt5DBus.so.5 libqt5dbus5 #MINVER#
  _ZN26QDBusAbstractInterfaceBaseD0Ev@Base 5.0.2
  _ZN26QDBusAbstractInterfaceBaseD1Ev@Base 5.0.2
  _ZN26QDBusAbstractInterfaceBaseD2Ev@Base 5.0.2
- (optional=gccinternal|arch=hurd-i386 i386)_ZN7QString5clearEv@Base 5.0.2
  (optional=templinst|arch=ia64 ppc64)_ZN8QVariant9fromValueI14QDBusSlotCacheEES_RKT_@Base 5.0.2
  _ZN9QDBusUtil14isValidBusNameERK7QString@Base 5.0.2
  _ZN9QDBusUtil16argumentToStringERK8QVariant@Base 5.0.2
@@ -271,7 +268,6 @@ libQt5DBus.so.5 libqt5dbus5 #MINVER#
  _ZN9QDBusUtil22isValidSingleSignatureERK7QString@Base 5.0.2
  _ZN9QDBusUtil23isValidPartOfObjectPathERK7QString@Base 5.0.2
  _ZN9QDBusUtil27isValidUniqueConnectionNameERK7QString@Base 5.0.2
- (optional=gccinternal|arch=i386)_ZN9QHashData8willGrowEv@Base 5.1.0
  _ZNK10QDBusError4nameEv@Base 5.0.2
  _ZNK10QDBusError4typeEv@Base 5.0.2
  _ZNK10QDBusError7isValidEv@Base 5.0.2
@@ -381,7 +377,6 @@ libQt5DBus.so.5 libqt5dbus5 #MINVER#
  _ZNK24QDBusConnectionInterface19isServiceRegisteredERK7QString@Base 5.0.2
  _ZNK24QDBusConnectionInterface22registeredServiceNamesEv@Base 5.0.2
  (optional=templinst|arch=!amd64 !armhf !hurd-i386 !i386)_ZSt11lower_boundIPKN21QDBusAdaptorConnector11AdaptorDataE7QStringET_S5_S5_RKT0_@Base 5.0.2
- (optional=templinst|arch=!amd64 !armhf !hurd-i386 !i386)_ZSt11lower_boundIPN22QDBusConnectionPrivate14ObjectTreeNodeE7QStringET_S4_S4_RKT0_@Base 5.0.2
  _ZTI11QDBusServer@Base 5.0.2
  _ZTI14QDBusInterface@Base 5.0.2
  _ZTI16QDBusPendingCall@Base 5.0.2

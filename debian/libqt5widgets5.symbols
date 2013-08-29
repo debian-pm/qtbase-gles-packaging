@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.1.0 alpha amd64 i386 s390 sparc
+# SymbolsHelper-Confirmed: 5.1.1 armhf i386 s390 s390x
 libQt5Widgets.so.5 libqt5widgets5 #MINVER#
 | libqt5widgets5 #MINVER#, qtbase-abi-5-1-0
  _Z11qFadeEffectP7QWidgeti@Base 5.0.2
@@ -64,7 +64,6 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN10QBoxLayoutD0Ev@Base 5.0.2
  _ZN10QBoxLayoutD1Ev@Base 5.0.2
  _ZN10QBoxLayoutD2Ev@Base 5.0.2
- (optional=gccinternal|arch=i386)_ZN10QByteArray7reserveEi@Base 5.1.0
  _ZN10QCompleter11eventFilterEP7QObjectP6QEvent@Base 5.0.2
  _ZN10QCompleter11highlightedERK11QModelIndex@Base 5.0.2
  _ZN10QCompleter11highlightedERK7QString@Base 5.0.2
@@ -2787,7 +2786,6 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN17QGraphicsTextItemD0Ev@Base 5.0.2
  _ZN17QGraphicsTextItemD1Ev@Base 5.0.2
  _ZN17QGraphicsTextItemD2Ev@Base 5.0.2
- (optional=gccinternal|arch=hurd-i386 i386 powerpcspe)_ZN17QInputMethodEventaSERKS_@Base 5.0.2
  _ZN17QPixmapBlurFilter11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
  _ZN17QPixmapBlurFilter11qt_metacastEPKc@Base 5.0.2 1
  _ZN17QPixmapBlurFilter12setBlurHintsE6QFlagsIN19QGraphicsBlurEffect8BlurHintEE@Base 5.0.2 1
@@ -2824,10 +2822,8 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN18QFileDialogPrivate13_q_showHiddenEv@Base 5.0.2 1
  _ZN18QFileDialogPrivate13createWidgetsEv@Base 5.0.2 1
  _ZN18QFileDialogPrivate13maxNameLengthERK7QString@Base 5.0.2 1
- (optional=gccinternal|arch=hurd-i386 i386 powerpcspe)_ZN18QFileDialogPrivate13setFilter_sysEv@Base 5.0.2 1
  _ZN18QFileDialogPrivate14_q_fileRenamedERK7QStringS0_S0_@Base 5.0.2 1
  _ZN18QFileDialogPrivate14_q_pathChangedERK7QString@Base 5.0.2 1
- (optional=gccinternal|arch=hurd-i386 i386 powerpcspe)_ZN18QFileDialogPrivate14selectFile_sysERK7QString@Base 5.0.2 1
  _ZN18QFileDialogPrivate15_q_rowsInsertedERK11QModelIndex@Base 5.0.2 1
  _ZN18QFileDialogPrivate15_q_showListViewEv@Base 5.0.2 1
  _ZN18QFileDialogPrivate15removeDirectoryERK7QString@Base 5.0.2 1
@@ -2836,7 +2832,6 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN18QFileDialogPrivate16_q_renameCurrentEv@Base 5.0.2 1
  _ZN18QFileDialogPrivate16_q_useNameFilterEi@Base 5.0.2 1
  _ZN18QFileDialogPrivate16initialSelectionERK7QString@Base 5.0.2 1
- (optional=gccinternal|arch=hurd-i386 i386 powerpcspe)_ZN18QFileDialogPrivate16setDirectory_sysERK7QString@Base 5.0.2 1
  _ZN18QFileDialogPrivate16workingDirectoryERK7QString@Base 5.0.2 1
  _ZN18QFileDialogPrivate17_q_currentChangedERK11QModelIndex@Base 5.0.2 1
  _ZN18QFileDialogPrivate17_q_enterDirectoryERK11QModelIndex@Base 5.0.2 1
@@ -2856,7 +2851,6 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN18QFileDialogPrivate19_q_navigateToParentEv@Base 5.0.2 1
  _ZN18QFileDialogPrivate19_q_selectionChangedEv@Base 5.0.2 1
  _ZN18QFileDialogPrivate19setLabelTextControlEN11QFileDialog11DialogLabelERK7QString@Base 5.0.2 1
- (optional=gccinternal|arch=hurd-i386 i386 powerpcspe)_ZN18QFileDialogPrivate20selectNameFilter_sysERK7QString@Base 5.0.2 1
  _ZN18QFileDialogPrivate21itemViewKeyboardEventEP9QKeyEvent@Base 5.0.2 1
  _ZN18QFileDialogPrivate22getEnvironmentVariableERK7QString@Base 5.0.2 1
  _ZN18QFileDialogPrivate22retranslateWindowTitleEv@Base 5.0.2 1
@@ -3439,8 +3433,6 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN20QStyleOptionGroupBoxC1Ev@Base 5.0.2
  _ZN20QStyleOptionGroupBoxC2Ei@Base 5.0.2
  _ZN20QStyleOptionGroupBoxC2Ev@Base 5.0.2
- (optional=gccinternal|arch=hurd-i386 i386 powerpcspe)_ZN20QStyleOptionGroupBoxD1Ev@Base 5.0.2
- (optional=gccinternal|arch=hurd-i386 i386 powerpcspe)_ZN20QStyleOptionGroupBoxD2Ev@Base 5.0.2
  _ZN20QStyleOptionMenuItemC1Ei@Base 5.0.2
  _ZN20QStyleOptionMenuItemC1Ev@Base 5.0.2
  _ZN20QStyleOptionMenuItemC2Ei@Base 5.0.2
@@ -3601,8 +3593,6 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN22QGraphicsOpacityEffectD0Ev@Base 5.0.2
  _ZN22QGraphicsOpacityEffectD1Ev@Base 5.0.2
  _ZN22QGraphicsOpacityEffectD2Ev@Base 5.0.2
- (optional=gccinternal|arch=i386)_ZN22QGuiApplicationPrivate22ActiveTouchPointsValueD1Ev@Base 5.1.0 1
- (optional=gccinternal|arch=i386)_ZN22QGuiApplicationPrivate22ActiveTouchPointsValueD2Ev@Base 5.1.0 1
  _ZN22QItemEditorCreatorBaseD0Ev@Base 5.0.2
  _ZN22QItemEditorCreatorBaseD1Ev@Base 5.0.2
  _ZN22QItemEditorCreatorBaseD2Ev@Base 5.0.2
@@ -3765,9 +3755,6 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN24QStyleOptionGraphicsItemC1Ev@Base 5.0.2
  _ZN24QStyleOptionGraphicsItemC2Ei@Base 5.0.2
  _ZN24QStyleOptionGraphicsItemC2Ev@Base 5.0.2
- (arch=s390 s390x)_ZN24QStyleOptionGraphicsItemaSERKS_@Base 5.0.2
- (optional=gccinternal|arch=hurd-i386 i386 powerpcspe)_ZN25QAbstractItemModelPrivate10PersistentD1Ev@Base 5.0.2 1
- (optional=gccinternal|arch=hurd-i386 i386 powerpcspe)_ZN25QAbstractItemModelPrivate10PersistentD2Ev@Base 5.0.2 1
  _ZN25QAbstractItemModelPrivateD0Ev@Base 5.0.2 1
  _ZN25QAbstractItemModelPrivateD1Ev@Base 5.0.2 1
  _ZN25QAbstractItemModelPrivateD2Ev@Base 5.0.2 1
@@ -3878,14 +3865,11 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN32QAccessibleTableModelChangeEventD0Ev@Base 5.0.2
  _ZN32QAccessibleTableModelChangeEventD1Ev@Base 5.0.2
  _ZN32QAccessibleTableModelChangeEventD2Ev@Base 5.0.2
- (arch=!amd64)_ZN4QCss10StyleSheetC1ERKS0_@Base 5.0.2
- (arch=!amd64)_ZN4QCss10StyleSheetC2ERKS0_@Base 5.0.2
+ (optional=gccinternal|arch=!amd64 !i386)_ZN4QCss10StyleSheetC1ERKS0_@Base 5.0.2
+ (optional=gccinternal|arch=!amd64 !i386)_ZN4QCss10StyleSheetC2ERKS0_@Base 5.0.2
  _ZN4QCss10StyleSheetD1Ev@Base 5.0.2
  _ZN4QCss10StyleSheetD2Ev@Base 5.0.2
- (optional=gccinternal|arch=hurd-i386 i386 powerpcspe)_ZN4QCss10StyleSheetaSEOS0_@Base 5.0.2
  _ZN4QCss10StyleSheetaSERKS0_@Base 5.0.2
- (optional=gccinternal|arch=hurd-i386 i386 powerpcspe)_ZN4QCss11Declaration15DeclarationDataD1Ev@Base 5.0.2
- (optional=gccinternal|arch=hurd-i386 i386 powerpcspe)_ZN4QCss11Declaration15DeclarationDataD2Ev@Base 5.0.2
  _ZN5QDial10paintEventEP11QPaintEvent@Base 5.0.2
  _ZN5QDial11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN5QDial11qt_metacastEPKc@Base 5.0.2
@@ -4737,7 +4721,6 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN9QDirModelD0Ev@Base 5.0.2
  _ZN9QDirModelD1Ev@Base 5.0.2
  _ZN9QDirModelD2Ev@Base 5.0.2
- (optional=gccinternal|arch=armhf hurd-i386 i386 powerpcspe)_ZN9QGradientaSEOS_@Base 5.0.2
  _ZN9QGroupBox10childEventEP11QChildEvent@Base 5.0.2
  _ZN9QGroupBox10paintEventEP11QPaintEvent@Base 5.0.2
  _ZN9QGroupBox10setCheckedEb@Base 5.0.2
@@ -4764,7 +4747,6 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN9QGroupBoxD0Ev@Base 5.0.2
  _ZN9QGroupBoxD1Ev@Base 5.0.2
  _ZN9QGroupBoxD2Ev@Base 5.0.2
- (optional=gccinternal|arch=hurd-i386 i386 powerpcspe)_ZN9QHashData8willGrowEv@Base 5.0.2
  _ZN9QLineEdit10paintEventEP11QPaintEvent@Base 5.0.2
  _ZN9QLineEdit10textEditedERK7QString@Base 5.0.2
  _ZN9QLineEdit11changeEventEP6QEvent@Base 5.0.2
@@ -6445,10 +6427,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK18QCommandLinkButton8sizeHintEv@Base 5.0.2
  _ZNK18QFileDialogPrivate10typedFilesEv@Base 5.0.2 1
  _ZNK18QFileDialogPrivate11currentViewEv@Base 5.0.2 1
- (optional=gccinternal|arch=hurd-i386 i386 powerpcspe)_ZNK18QFileDialogPrivate13directory_sysEv@Base 5.0.2 1
- (optional=gccinternal|arch=hurd-i386 i386 powerpcspe)_ZNK18QFileDialogPrivate17selectedFiles_sysEv@Base 5.0.2 1
  _ZNK18QFileDialogPrivate17userSelectedFilesEv@Base 5.0.2 1
- (optional=gccinternal|arch=hurd-i386 i386 powerpcspe)_ZNK18QFileDialogPrivate22selectedNameFilter_sysEv@Base 5.0.2 1
  _ZNK18QFileDialogPrivate23addDefaultSuffixToFilesE11QStringList@Base 5.0.2 1
  _ZNK18QFileDialogPrivate8lineEditEv@Base 5.0.2 1
  _ZNK18QGraphicsItemGroup10opaqueAreaEv@Base 5.0.2
@@ -7026,7 +7005,6 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK7QWidget8hasFocusEv@Base 5.0.2
  _ZNK7QWidget8sizeHintEv@Base 5.0.2
  _ZNK7QWidget9frameSizeEv@Base 5.0.2
- (optional=gccinternal|arch=hurd-i386 i386 powerpcspe)_ZNK7QWidget9isVisibleEv@Base 5.0.2
  _ZNK7QWidget9statusTipEv@Base 5.0.2
  _ZNK7QWidget9whatsThisEv@Base 5.0.2
  _ZNK7QWizard10buttonTextENS_12WizardButtonE@Base 5.0.2

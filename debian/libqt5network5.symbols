@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.1.0 alpha amd64 sparc
+# SymbolsHelper-Confirmed: 5.1.1 i386 s390x
 libQt5Network.so.5 libqt5network5 #MINVER#
 | libqt5network5 #MINVER#, qtbase-abi-5-1-0
  _Z19qt_qhostinfo_lookupRK7QStringP7QObjectPKcPbPi@Base 5.0.2
@@ -767,7 +767,7 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZN9QSslErrorD1Ev@Base 5.0.2
  _ZN9QSslErrorD2Ev@Base 5.0.2
  _ZN9QSslErroraSERKS_@Base 5.0.2
- (arch=!amd64 !armhf)_ZNK10QByteArray8containsEPKc@Base 5.0.2
+ (arch=!amd64 !armhf !i386)_ZNK10QByteArray8containsEPKc@Base 5.0.2
  _ZNK10QDnsLookup10isFinishedEv@Base 5.0.2
  _ZNK10QDnsLookup10metaObjectEv@Base 5.0.2
  _ZNK10QDnsLookup11errorStringEv@Base 5.0.2

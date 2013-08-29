@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.1.0 alpha amd64 i386 s390
+# SymbolsHelper-Confirmed: 5.1.1 s390x
 libQt5Core.so.5 libqt5core5 #MINVER#
 | libqt5core5 #MINVER#, qtbase-abi-5-1-0
  _Z10forcepointR11QTextStream@Base 5.0.2
@@ -2785,7 +2785,6 @@ libQt5Core.so.5 libqt5core5 #MINVER#
  _ZN9QHashData8freeNodeEPv@Base 5.0.2
  _ZN9QHashData8nextNodeEPNS_4NodeE@Base 5.0.2
  (optional=gccinternal|arch=hurd-i386 i386 powerpcspe)_ZN9QHashData8willGrowEv@Base 5.0.2
- (arch=!alpha !amd64 !armhf !powerpc !powerpcspe !ppc64 !s390)_ZN9QHashData9hasShrunkEv@Base 5.0.2
  _ZN9QIODevice11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN9QIODevice11qt_metacastEPKc@Base 5.0.2
  _ZN9QIODevice11setOpenModeE6QFlagsINS_12OpenModeFlagEE@Base 5.0.2

@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.1.1 amd64
+# SymbolsHelper-Confirmed: 5.1.1 amd64 i386 s390x
 libQt5Gui.so.5 libqt5gui5 #MINVER#
 | libqt5gui5 #MINVER#, qtbase-abi-5-1-0
  _Z11qDrawBorderP8QPainterRK5QRectPKN4QCss11BorderStyleEPKiPK6QBrushPK5QSize@Base 5.0.2
@@ -565,8 +565,8 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN11QTextEngine10LayoutDataD2Ev@Base 5.0.2 1
  _ZN11QTextEngine10freeMemoryEv@Base 5.0.2 1
  _ZN11QTextEngine10invalidateEv@Base 5.0.2 1
- (optional=gccinternal|arch=alpha hurd-i386 i386 powerpcspe s390)_ZN11QTextEngine11SpecialDataD1Ev@Base 5.0.2 1
- (optional=gccinternal|arch=alpha hurd-i386 i386 powerpcspe s390)_ZN11QTextEngine11SpecialDataD2Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=alpha hurd-i386 powerpcspe s390 s390x)_ZN11QTextEngine11SpecialDataD1Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=alpha hurd-i386 powerpcspe s390 s390x)_ZN11QTextEngine11SpecialDataD2Ev@Base 5.0.2 1
  _ZN11QTextEngine11addOverlineEP8QPainterRK6QLineF@Base 5.0.2 1
  _ZN11QTextEngine11bidiReorderEiPKhPi@Base 5.0.2 1
  _ZN11QTextEngine12addStrikeOutEP8QPainterRK6QLineF@Base 5.0.2 1
@@ -1432,8 +1432,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN15QLinearGradientC2ERK7QPointFS2_@Base 5.0.2
  _ZN15QLinearGradientC2Ev@Base 5.0.2
  (subst)_ZN15QLinearGradientC2E{qreal}{qreal}{qreal}{qreal}@Base 5.0.2
- (optional=gccinternal|arch=hurd-i386 i386 powerpcspe)_ZN15QLinearGradientD1Ev@Base 5.0.2
- (optional=gccinternal|arch=hurd-i386 i386 powerpcspe)_ZN15QLinearGradientD2Ev@Base 5.0.2
  _ZN15QPlatformCursor6setPosERK6QPoint@Base 5.0.2 1
  _ZN15QPlatformCursorC1Ev@Base 5.0.2 1
  _ZN15QPlatformCursorC2Ev@Base 5.0.2 1
@@ -1510,8 +1508,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  (subst)_ZN15QRadialGradientC2E{qreal}{qreal}{qreal}@Base 5.0.2
  (subst)_ZN15QRadialGradientC2E{qreal}{qreal}{qreal}{qreal}{qreal}@Base 5.0.2
  (subst)_ZN15QRadialGradientC2E{qreal}{qreal}{qreal}{qreal}{qreal}{qreal}@Base 5.0.2
- (optional=gccinternal|arch=hurd-i386 i386 powerpcspe)_ZN15QRadialGradientD1Ev@Base 5.0.2
- (optional=gccinternal|arch=hurd-i386 i386 powerpcspe)_ZN15QRadialGradientD2Ev@Base 5.0.2
  _ZN15QRawFontPrivate15platformCleanUpEv@Base 5.0.2 1
  (subst)_ZN15QRawFontPrivate20platformLoadFromDataERK10QByteArray{qreal}N5QFont17HintingPreferenceE@Base 5.0.2 1
  _ZN15QRawFontPrivate7cleanUpEv@Base 5.0.2 1
@@ -1572,8 +1568,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  (subst)_ZN16QConicalGradientC2ERK7QPointF{qreal}@Base 5.0.2
  _ZN16QConicalGradientC2Ev@Base 5.0.2
  (subst)_ZN16QConicalGradientC2E{qreal}{qreal}{qreal}@Base 5.0.2
- (optional=gccinternal|arch=hurd-i386 i386 powerpcspe)_ZN16QConicalGradientD1Ev@Base 5.0.2
- (optional=gccinternal|arch=hurd-i386 i386 powerpcspe)_ZN16QConicalGradientD2Ev@Base 5.0.2
  _ZN16QDesktopServices13setUrlHandlerERK7QStringP7QObjectPKc@Base 5.0.2
  _ZN16QDesktopServices15unsetUrlHandlerERK7QString@Base 5.0.2
  _ZN16QDesktopServices19storageLocationImplEN14QStandardPaths16StandardLocationE@Base 5.0.2
@@ -2675,8 +2669,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN22QGuiApplicationPrivate21createEventDispatcherEv@Base 5.0.2 1
  _ZN22QGuiApplicationPrivate21obey_desktop_settingsE@Base 5.0.2 1
  _ZN22QGuiApplicationPrivate21processActivatedEventEPN29QWindowSystemInterfacePrivate20ActivatedWindowEventE@Base 5.0.2 1
- (optional=gccinternal|arch=hurd-i386 i386 powerpcspe)_ZN22QGuiApplicationPrivate22ActiveTouchPointsValueD1Ev@Base 5.0.2 1
- (optional=gccinternal|arch=hurd-i386 i386 powerpcspe)_ZN22QGuiApplicationPrivate22ActiveTouchPointsValueD2Ev@Base 5.0.2 1
  _ZN22QGuiApplicationPrivate23processContextMenuEventEPN29QWindowSystemInterfacePrivate16ContextMenuEventE@Base 5.0.2 1
  _ZN22QGuiApplicationPrivate23reportRefreshRateChangeEPN29QWindowSystemInterfacePrivate22ScreenRefreshRateEventE@Base 5.0.2 1
  _ZN22QGuiApplicationPrivate24m_fakeMouseSourcePointIdE@Base 5.0.2 1
@@ -2745,8 +2737,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN22QWhatsThisClickedEventD0Ev@Base 5.0.2
  _ZN22QWhatsThisClickedEventD1Ev@Base 5.0.2
  _ZN22QWhatsThisClickedEventD2Ev@Base 5.0.2
- (arch=!alpha !amd64 !armhf !ia64 !ppc64 !s390x)_ZN22QWindowSystemInterface10TouchPointC1ERKS0_@Base 5.0.2 1
- (arch=!alpha !amd64 !armhf !ia64 !ppc64 !s390x)_ZN22QWindowSystemInterface10TouchPointC2ERKS0_@Base 5.0.2 1
  _ZN22QWindowSystemInterface10handleDragEP7QWindowPK9QMimeDataRK6QPoint6QFlagsIN2Qt10DropActionEE@Base 5.0.2 1
  _ZN22QWindowSystemInterface10handleDropEP7QWindowPK9QMimeDataRK6QPoint6QFlagsIN2Qt10DropActionEE@Base 5.0.2 1
  _ZN22QWindowSystemInterface14handleKeyEventEP7QWindowN6QEvent4TypeEi6QFlagsIN2Qt16KeyboardModifierEERK7QStringbt@Base 5.0.2 1
@@ -3346,10 +3336,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN4QCss10StyleSheetC2ERKS0_@Base 5.0.2
  _ZN4QCss10StyleSheetD1Ev@Base 5.0.2
  _ZN4QCss10StyleSheetD2Ev@Base 5.0.2
- (optional=gccinternal|arch=hurd-i386 i386 powerpcspe)_ZN4QCss10StyleSheetaSEOS0_@Base 5.0.2
  _ZN4QCss10StyleSheetaSERKS0_@Base 5.0.2
- (optional=gccinternal|arch=hurd-i386 i386 powerpcspe)_ZN4QCss11Declaration15DeclarationDataD1Ev@Base 5.0.2
- (optional=gccinternal|arch=hurd-i386 i386 powerpcspe)_ZN4QCss11Declaration15DeclarationDataD2Ev@Base 5.0.2
  (arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZN4QCss11DeclarationD1Ev@Base 5.1.0
  (arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZN4QCss11DeclarationD2Ev@Base 5.1.0
  _ZN4QCss13StyleSelector15selectorMatchesERKNS_8SelectorENS0_7NodePtrE@Base 5.0.2 1
@@ -3416,8 +3403,8 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN4QCss6ParserC1Ev@Base 5.0.2 1
  _ZN4QCss6ParserC2ERK7QStringb@Base 5.0.2 1
  _ZN4QCss6ParserC2Ev@Base 5.0.2 1
- (arch=!amd64)_ZN4QCss6ParserD1Ev@Base 5.0.2 1
- (arch=!amd64)_ZN4QCss6ParserD2Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64 !i386)_ZN4QCss6ParserD1Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64 !i386)_ZN4QCss6ParserD2Ev@Base 5.0.2 1
  _ZN4QCss7Scanner10preprocessERK7QStringPb@Base 5.0.2 1
  _ZN4QCss7Scanner4scanERK7QStringP7QVectorINS_6SymbolEE@Base 5.0.2 1
  _ZN4QPen10isDetachedEv@Base 5.0.2
@@ -3818,7 +3805,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN7QScreenD0Ev@Base 5.0.2
  _ZN7QScreenD1Ev@Base 5.0.2
  _ZN7QScreenD2Ev@Base 5.0.2
- (optional=gccinternal|arch=hurd-i386 i386 powerpcspe)_ZN7QString5clearEv@Base 5.0.2
  (subst)_ZN7QWindow10setOpacityE{qreal}@Base 5.0.2
  _ZN7QWindow10setVisibleEb@Base 5.0.2
  _ZN7QWindow10showNormalEv@Base 5.0.2
