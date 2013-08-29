@@ -2,3 +2,5 @@ sha3_64bit_BE.diff
 linux_no_perf.diff
 
 # Debian specific.
+workaround_other_distros_workaround.patch
+

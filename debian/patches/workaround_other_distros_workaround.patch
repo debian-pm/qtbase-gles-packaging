@@ -1,0 +1,12 @@
+--- a/mkspecs/features/create_cmake.prf
++++ b/mkspecs/features/create_cmake.prf
+@@ -28,7 +28,8 @@ CMAKE_PARTIAL_MODULE_DEPS = $$replace(CM
+ # that to an absolute path. This is only done for installations to
+ # the /usr or / prefix.
+ CMAKE_INSTALL_LIBS_DIR = $$cmakeTargetPath($$[QT_INSTALL_LIBS])
+-contains(CMAKE_INSTALL_LIBS_DIR, ^(/usr)?/lib(64)?.*): CMAKE_USR_MOVE_WORKAROUND = $$CMAKE_INSTALL_LIBS_DIR
++# Workaround Qt BUG https://bugreports.qt-project.org/browse/QTBUG-33223
++#contains(CMAKE_INSTALL_LIBS_DIR, ^(/usr)?/lib(64)?.*): CMAKE_USR_MOVE_WORKAROUND = $$CMAKE_INSTALL_LIBS_DIR
+ 
+ CMAKE_INCLUDE_DIR = $$cmakeRelativePath($$[QT_INSTALL_HEADERS], $$[QT_INSTALL_PREFIX])
+ contains(CMAKE_INCLUDE_DIR, "^\\.\\./.*") {
