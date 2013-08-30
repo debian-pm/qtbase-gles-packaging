@@ -1,13 +1,12 @@
-qtbase-opensource-src (5.1.1+dfsg-2) UNRELEASED; urgency=low
+qtbase-opensource-src (5.1.1+dfsg-2) unstable; urgency=low
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * Add upstream patch
     fix_usr-move_workaround_in_the_presence_of_multi-arch.patch to solve
     a CMake paths issue that involved a workaround for other distros
     (Closes: #721176).
   * Update symbols files with symbols from other archs.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 28 Aug 2013 16:12:34 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Fri, 30 Aug 2013 12:29:23 -0300
 
 qtbase-opensource-src (5.1.1+dfsg-1) unstable; urgency=low
 
