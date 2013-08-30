@@ -1,4 +1,4 @@
-From 9910e152f3ba683986af8f063b9f6874c728e1e0 Mon Sep 17 00:00:00 2001
+From 345432ca89c4a2530fa4fea43d96e8c382a28af7 Mon Sep 17 00:00:00 2001
 From: Stephen Kelly <stephen.kelly@kdab.com>
 Date: Fri, 30 Aug 2013 16:09:06 +0200
 Subject: [PATCH] Fix usr-move workaround in the presence of multi-arch.
@@ -9,10 +9,12 @@ directory will not lead us to $PREFIX/, but to $PREFIX/lib.
 
 Use a relative calculation instead.
 
+Task-number: QTBUG-33223
+
 Change-Id: Ice4e0f859ab1df238bad4eb942f073e84dd86cc3
 ---
- mkspecs/features/create_cmake.prf                   | 4 ++--
- mkspecs/features/data/cmake/Qt5BasicConfig.cmake.in | 2 +-
+ mkspecs/features/create_cmake.prf                   |    4 ++--
+ mkspecs/features/data/cmake/Qt5BasicConfig.cmake.in |    2 +-
  2 files changed, 3 insertions(+), 3 deletions(-)
 
 --- a/mkspecs/features/create_cmake.prf
