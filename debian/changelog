@@ -1,11 +1,11 @@
-qtbase-opensource-src (5.1.1+dfsg-3) UNRELEASED; urgency=low
+qtbase-opensource-src (5.1.1+dfsg-3) unstable; urgency=low
 
   [ Pino Toscano ]
   * Move libcomposeplatforminputcontextplugin.so, libqoffscreen.so and
     libqgtk2.so from libqt5gui5.install-linux to libqt5gui5.install-common,
     as they are compiled also on non-Linux OSes.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 11 Sep 2013 08:20:45 +0200
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 30 Sep 2013 17:54:44 -0300
 
 qtbase-opensource-src (5.1.1+dfsg-2) unstable; urgency=low
 
