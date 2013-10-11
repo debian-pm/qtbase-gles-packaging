@@ -5,6 +5,7 @@ qtbase-opensource-src (5.1.1+dfsg-4) UNRELEASED; urgency=low
     replacement is not usable for qt5 anyway.
   * Remove X11R6 library- and include-dirs from the hurd-g++ mkspec, as they
     might cause issues; patch hurd_opengl_incldir.diff.
+  * Update symbols files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 06 Oct 2013 15:38:08 +0200
 

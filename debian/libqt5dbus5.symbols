@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.1.1 alpha i386 ia64 s390 s390x sparc
+# SymbolsHelper-Confirmed: 5.1.1 alpha armel i386 ia64 s390 s390x sparc
 libQt5DBus.so.5 libqt5dbus5 #MINVER#
 | libqt5dbus5 #MINVER#, qtbase-abi-5-1-0
  _Z14qDBusReplyFillRK12QDBusMessageR10QDBusErrorR8QVariant@Base 5.0.2
@@ -31,7 +31,7 @@ libQt5DBus.so.5 libqt5dbus5 #MINVER#
  _ZN11QDBusServerD0Ev@Base 5.0.2
  _ZN11QDBusServerD1Ev@Base 5.0.2
  _ZN11QDBusServerD2Ev@Base 5.0.2
- (optional=templinst|arch=!amd64 !armhf !hurd-i386 !i386)_ZN11QMetaMethod10fromSignalIM7QObjectFvPS1_EEES_T_@Base 5.0.2
+ (optional=templinst|arch=!amd64 !armel !armhf !hurd-i386 !i386)_ZN11QMetaMethod10fromSignalIM7QObjectFvPS1_EEES_T_@Base 5.0.2
  _ZN12QDBusContextC1Ev@Base 5.0.2
  _ZN12QDBusContextC2Ev@Base 5.0.2
  _ZN12QDBusContextD1Ev@Base 5.0.2
@@ -376,7 +376,7 @@ libQt5DBus.so.5 libqt5dbus5 #MINVER#
  _ZNK24QDBusConnectionInterface12serviceOwnerERK7QString@Base 5.0.2
  _ZNK24QDBusConnectionInterface19isServiceRegisteredERK7QString@Base 5.0.2
  _ZNK24QDBusConnectionInterface22registeredServiceNamesEv@Base 5.0.2
- (optional=templinst|arch=!amd64 !armhf !hurd-i386 !i386)_ZSt11lower_boundIPKN21QDBusAdaptorConnector11AdaptorDataE7QStringET_S5_S5_RKT0_@Base 5.0.2
+ (optional=templinst|arch=!amd64 !armel !armhf !hurd-i386 !i386)_ZSt11lower_boundIPKN21QDBusAdaptorConnector11AdaptorDataE7QStringET_S5_S5_RKT0_@Base 5.0.2
  _ZTI11QDBusServer@Base 5.0.2
  _ZTI14QDBusInterface@Base 5.0.2
  _ZTI16QDBusPendingCall@Base 5.0.2

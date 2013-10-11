@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.1.1 armhf i386 s390 s390x
+# SymbolsHelper-Confirmed: 5.1.1 armel armhf hurd-i386 i386 s390 s390x
 libQt5Widgets.so.5 libqt5widgets5 #MINVER#
 | libqt5widgets5 #MINVER#, qtbase-abi-5-1-0
  _Z11qFadeEffectP7QWidgeti@Base 5.0.2
@@ -259,6 +259,8 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN10QTableViewD0Ev@Base 5.0.2
  _ZN10QTableViewD1Ev@Base 5.0.2
  _ZN10QTableViewD2Ev@Base 5.0.2
+ (arch=armel)_ZN10QTransformC1ERKS_@Base 5.1.1
+ (arch=armel)_ZN10QTransformC2ERKS_@Base 5.1.1
  _ZN10QUndoGroup11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN10QUndoGroup11qt_metacastEPKc@Base 5.0.2
  _ZN10QUndoGroup11removeStackEP10QUndoStack@Base 5.0.2
@@ -1933,7 +1935,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN14QWidgetPrivate10updateFontERK5QFont@Base 5.0.2 1
  _ZN14QWidgetPrivate11adjustFlagsER6QFlagsIN2Qt10WindowTypeEEP7QWidget@Base 5.0.2 1
  _ZN14QWidgetPrivate11createExtraEv@Base 5.0.2 1
- (subst)_ZN14QWidgetPrivate11createWinIdE{quintptr}@Base 5.0.2 1
+ (subst|arch=armhf i386 s390)_ZN14QWidgetPrivate11createWinIdE{quintptr}@Base 5.0.2 1
  _ZN14QWidgetPrivate11deleteExtraEv@Base 5.0.2 1
  _ZN14QWidgetPrivate11hide_helperEv@Base 5.0.2 1
  _ZN14QWidgetPrivate11pointToRectERK6QPointRK5QRect@Base 5.0.2 1
@@ -2349,8 +2351,8 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN15QStyleOptionTabC1Ev@Base 5.0.2
  _ZN15QStyleOptionTabC2Ei@Base 5.0.2
  _ZN15QStyleOptionTabC2Ev@Base 5.0.2
- (optional=gccinternal|arch=amd64 armhf hurd-i386 i386 powerpcspe)_ZN15QStyleOptionTabD1Ev@Base 5.0.2
- (optional=gccinternal|arch=amd64 armhf hurd-i386 i386 powerpcspe)_ZN15QStyleOptionTabD2Ev@Base 5.0.2
+ (optional=gccinternal|arch=amd64 armel armhf hurd-i386 i386 powerpcspe)_ZN15QStyleOptionTabD1Ev@Base 5.0.2
+ (optional=gccinternal|arch=amd64 armel armhf hurd-i386 i386 powerpcspe)_ZN15QStyleOptionTabD2Ev@Base 5.0.2
  _ZN15QSystemTrayIcon10setToolTipERK7QString@Base 5.0.2
  _ZN15QSystemTrayIcon10setVisibleEb@Base 5.0.2
  _ZN15QSystemTrayIcon11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
@@ -2451,7 +2453,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN16QAbstractSpinBoxD0Ev@Base 5.0.2
  _ZN16QAbstractSpinBoxD1Ev@Base 5.0.2
  _ZN16QAbstractSpinBoxD2Ev@Base 5.0.2
- (arch=armhf)_ZN16QCoreApplication9sendEventEP7QObjectP6QEvent@Base 5.0.2
+ (arch=armel armhf)_ZN16QCoreApplication9sendEventEP7QObjectP6QEvent@Base 5.0.2
  _ZN16QDialogButtonBox11changeEventEP6QEvent@Base 5.0.2
  _ZN16QDialogButtonBox11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN16QDialogButtonBox11qt_metacastEPKc@Base 5.0.2
@@ -3274,8 +3276,8 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN19QStyleOptionToolBoxC1Ev@Base 5.0.2
  _ZN19QStyleOptionToolBoxC2Ei@Base 5.0.2
  _ZN19QStyleOptionToolBoxC2Ev@Base 5.0.2
- (optional=gccinternal|arch=amd64 armhf hurd-i386 i386 powerpcspe)_ZN19QStyleOptionToolBoxD1Ev@Base 5.0.2
- (optional=gccinternal|arch=amd64 armhf hurd-i386 i386 powerpcspe)_ZN19QStyleOptionToolBoxD2Ev@Base 5.0.2
+ (optional=gccinternal|arch=amd64 armel armhf hurd-i386 i386 powerpcspe)_ZN19QStyleOptionToolBoxD1Ev@Base 5.0.2
+ (optional=gccinternal|arch=amd64 armel armhf hurd-i386 i386 powerpcspe)_ZN19QStyleOptionToolBoxD2Ev@Base 5.0.2
  _ZN19QStyledItemDelegate11editorEventEP6QEventP18QAbstractItemModelRK20QStyleOptionViewItemRK11QModelIndex@Base 5.0.2
  _ZN19QStyledItemDelegate11eventFilterEP7QObjectP6QEvent@Base 5.0.2
  _ZN19QStyledItemDelegate11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
@@ -3755,6 +3757,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN24QStyleOptionGraphicsItemC1Ev@Base 5.0.2
  _ZN24QStyleOptionGraphicsItemC2Ei@Base 5.0.2
  _ZN24QStyleOptionGraphicsItemC2Ev@Base 5.0.2
+ (arch=armel)_ZN24QStyleOptionGraphicsItemaSERKS_@Base 5.1.1
  _ZN25QAbstractItemModelPrivateD0Ev@Base 5.0.2 1
  _ZN25QAbstractItemModelPrivateD1Ev@Base 5.0.2 1
  _ZN25QAbstractItemModelPrivateD2Ev@Base 5.0.2 1
@@ -3865,8 +3868,8 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN32QAccessibleTableModelChangeEventD0Ev@Base 5.0.2
  _ZN32QAccessibleTableModelChangeEventD1Ev@Base 5.0.2
  _ZN32QAccessibleTableModelChangeEventD2Ev@Base 5.0.2
- (optional=gccinternal|arch=!amd64 !i386)_ZN4QCss10StyleSheetC1ERKS0_@Base 5.0.2
- (optional=gccinternal|arch=!amd64 !i386)_ZN4QCss10StyleSheetC2ERKS0_@Base 5.0.2
+ (optional=gccinternal|arch=!amd64 !hurd-i386 !i386)_ZN4QCss10StyleSheetC1ERKS0_@Base 5.0.2
+ (optional=gccinternal|arch=!amd64 !hurd-i386 !i386)_ZN4QCss10StyleSheetC2ERKS0_@Base 5.0.2
  _ZN4QCss10StyleSheetD1Ev@Base 5.0.2
  _ZN4QCss10StyleSheetD2Ev@Base 5.0.2
  _ZN4QCss10StyleSheetaSERKS0_@Base 5.0.2
@@ -4323,7 +4326,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN7QWidget21setShortcutAutoRepeatEib@Base 5.0.2
  _ZN7QWidget24setAccessibleDescriptionERK7QString@Base 5.0.2
  _ZN7QWidget26customContextMenuRequestedERK6QPoint@Base 5.0.2
- (subst)_ZN7QWidget4findE{quintptr}@Base 5.0.2
+ (subst|arch=armhf i386 s390)_ZN7QWidget4findE{quintptr}@Base 5.0.2
  _ZN7QWidget4grabERK5QRect@Base 5.0.2
  _ZN7QWidget4hideEv@Base 5.0.2
  _ZN7QWidget4moveERK6QPoint@Base 5.0.2
@@ -4588,7 +4591,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN8QToolTip8showTextERK6QPointRK7QStringP7QWidgetRK5QRect@Base 5.0.2
  _ZN8QToolTip9isVisibleEv@Base 5.0.2
  (arch=!alpha !ia64 !powerpc !powerpcspe !ppc64 !s390 !s390x !sparc)_ZN9QBitArray6setBitEi@Base 5.0.2
- (arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc)_ZN9QBitArray6setBitEib@Base 5.1.0
+ (arch=alpha armel ia64 powerpc powerpcspe ppc64 s390 s390x sparc)_ZN9QBitArray6setBitEib@Base 5.1.0
  (arch=!alpha !ia64 !powerpc !powerpcspe !ppc64 !s390 !s390x !sparc)_ZN9QBitArray8clearBitEi@Base 5.0.2
  _ZN9QCheckBox10paintEventEP11QPaintEvent@Base 5.0.2
  _ZN9QCheckBox11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
@@ -4721,6 +4724,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN9QDirModelD0Ev@Base 5.0.2
  _ZN9QDirModelD1Ev@Base 5.0.2
  _ZN9QDirModelD2Ev@Base 5.0.2
+ (arch=armel)_ZN9QGradientaSEOS_@Base 5.1.1
  _ZN9QGroupBox10childEventEP11QChildEvent@Base 5.0.2
  _ZN9QGroupBox10paintEventEP11QPaintEvent@Base 5.0.2
  _ZN9QGroupBox10setCheckedEb@Base 5.0.2
@@ -7339,8 +7343,8 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK9QUndoView9cleanIconEv@Base 5.0.2
  (optional=templinst|subst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt11__push_heapIN5QListI5QPairIPN23QFileSystemModelPrivate15QFileSystemNodeEiEE8iteratorE{qptrdiff}S5_22QFileSystemModelSorterEvT_T0_SA_T1_T2_@Base 5.0.2 1
  (optional=templinst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc|subst)_ZSt13__adjust_heapIN5QListI5QPairIPN23QFileSystemModelPrivate15QFileSystemNodeEiEE8iteratorE{qptrdiff}S5_22QFileSystemModelSorterEvT_T0_SA_T1_T2_@Base 5.0.2 1
- (optional=templinst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc|subst)_ZSt13__adjust_heapIN5QListIP13QGraphicsItemE8iteratorE{qptrdiff}S2_PFbPKS1_S6_EEvT_T0_SA_T1_T2_@Base 5.0.2
- (optional=templinst|subst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc)_ZSt13__adjust_heapIN5QListIP13QGraphicsItemE8iteratorE{qptrdiff}S2_PFbS2_S2_EEvT_T0_S8_T1_T2_@Base 5.0.2
+ (optional=templinst|arch=s390|subst)_ZSt13__adjust_heapIN5QListIP13QGraphicsItemE8iteratorE{qptrdiff}S2_PFbPKS1_S6_EEvT_T0_SA_T1_T2_@Base 5.0.2
+ (optional=templinst|subst|arch=s390)_ZSt13__adjust_heapIN5QListIP13QGraphicsItemE8iteratorE{qptrdiff}S2_PFbS2_S2_EEvT_T0_S8_T1_T2_@Base 5.0.2
  (optional=templinst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc|subst)_ZSt13__adjust_heapIN5QListIP15QGraphicsObjectE8iteratorE{qptrdiff}S2_PFbPK13QGraphicsItemS7_EEvT_T0_SB_T1_T2_@Base 5.0.2
  (optional=templinst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc)_ZSt13__heap_selectIN5QListI5QPairIPN23QFileSystemModelPrivate15QFileSystemNodeEiEE8iteratorE22QFileSystemModelSorterEvT_S9_S9_T0_@Base 5.0.2 1
  (optional=templinst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc)_ZSt13__heap_selectIN5QListIP13QGraphicsItemE8iteratorEPFbPKS1_S6_EEvT_S9_S9_T0_@Base 5.0.2
@@ -7367,7 +7371,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  (optional=templinst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc)_ZSt25__unguarded_linear_insertIN5QListI5QPairIPN23QFileSystemModelPrivate15QFileSystemNodeEiEE8iteratorE22QFileSystemModelSorterEvT_T0_@Base 5.0.2 1
  (optional=templinst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc)_ZSt25__unguarded_linear_insertIN5QListIP15QGraphicsObjectE8iteratorEPFbPK13QGraphicsItemS7_EEvT_T0_@Base 5.0.2
  (optional=templinst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc)_ZSt4sortIN5QListIP15QGraphicsObjectE8iteratorEPFbPK13QGraphicsItemS7_EEvT_SA_T0_@Base 5.0.2
- (optional=templinst|arch=armhf hurd-i386 i386)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 5.0.2
+ (optional=templinst|arch=armel armhf hurd-i386 i386)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 5.0.2
  _ZTI10QBoxLayout@Base 5.0.2
  _ZTI10QCompleter@Base 5.0.2
  _ZTI10QLCDNumber@Base 5.0.2
