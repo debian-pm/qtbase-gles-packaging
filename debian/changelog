@@ -1,4 +1,4 @@
-qtbase-opensource-src (5.1.1+dfsg-4) UNRELEASED; urgency=low
+qtbase-opensource-src (5.1.1+dfsg-4) unstable; urgency=low
 
   [ Pino Toscano ]
   * Limit the libasound2-dev build dependency as linux-any, as the oss-alsa
@@ -7,7 +7,7 @@ qtbase-opensource-src (5.1.1+dfsg-4) UNRELEASED; urgency=low
     might cause issues; patch hurd_opengl_incldir.diff.
   * Update symbols files.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 06 Oct 2013 15:38:08 +0200
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Fri, 11 Oct 2013 21:07:18 -0300
 
 qtbase-opensource-src (5.1.1+dfsg-3) unstable; urgency=low
 
