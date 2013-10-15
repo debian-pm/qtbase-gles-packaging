@@ -19,6 +19,7 @@ usr/include/qt5/QtCore/*/QtCore/private/qcrashhandler_p.h
 usr/include/qt5/QtCore/*/QtCore/private/qdatastream_p.h
 usr/include/qt5/QtCore/*/QtCore/private/qdataurl_p.h
 usr/include/qt5/QtCore/*/QtCore/private/qdatetime_p.h
+usr/include/qt5/QtCore/*/QtCore/private/qdatetimeparser_p.h
 usr/include/qt5/QtCore/*/QtCore/private/qdir_p.h
 usr/include/qt5/QtCore/*/QtCore/private/qelfparser_p.h
 usr/include/qt5/QtCore/*/QtCore/private/qeucjpcodec_p.h
@@ -33,6 +34,7 @@ usr/include/qt5/QtCore/*/QtCore/private/qfactoryloader_p.h
 usr/include/qt5/QtCore/*/QtCore/private/qfile_p.h
 usr/include/qt5/QtCore/*/QtCore/private/qfiledevice_p.h
 usr/include/qt5/QtCore/*/QtCore/private/qfileinfo_p.h
+usr/include/qt5/QtCore/*/QtCore/private/qfileselector_p.h
 usr/include/qt5/QtCore/*/QtCore/private/qfilesystemengine_p.h
 usr/include/qt5/QtCore/*/QtCore/private/qfilesystementry_p.h
 usr/include/qt5/QtCore/*/QtCore/private/qfilesystemiterator_p.h
@@ -58,6 +60,8 @@ usr/include/qt5/QtCore/*/QtCore/private/qipaddress_p.h
 usr/include/qt5/QtCore/*/QtCore/private/qisciicodec_p.h
 usr/include/qt5/QtCore/*/QtCore/private/qitemselectionmodel_p.h
 usr/include/qt5/QtCore/*/QtCore/private/qjiscodec_p.h
+usr/include/qt5/QtCore/*/QtCore/private/qjni_p.h
+usr/include/qt5/QtCore/*/QtCore/private/qjnihelpers_p.h
 usr/include/qt5/QtCore/*/QtCore/private/qjpunicode_p.h
 usr/include/qt5/QtCore/*/QtCore/private/qjson_p.h
 usr/include/qt5/QtCore/*/QtCore/private/qjsonparser_p.h
@@ -68,6 +72,9 @@ usr/include/qt5/QtCore/*/QtCore/private/qlocale_data_p.h
 usr/include/qt5/QtCore/*/QtCore/private/qlocale_p.h
 usr/include/qt5/QtCore/*/QtCore/private/qlocale_tools_p.h
 usr/include/qt5/QtCore/*/QtCore/private/qlockfile_p.h
+usr/include/qt5/QtCore/*/QtCore/private/qloggingcategory_p.h
+usr/include/qt5/QtCore/*/QtCore/private/qloggingregistry_p.h
+usr/include/qt5/QtCore/*/QtCore/private/qmachparser_p.h
 usr/include/qt5/QtCore/*/QtCore/private/qmetaobject_moc_p.h
 usr/include/qt5/QtCore/*/QtCore/private/qmetaobject_p.h
 usr/include/qt5/QtCore/*/QtCore/private/qmetaobjectbuilder_p.h
@@ -116,6 +123,8 @@ usr/include/qt5/QtCore/*/QtCore/private/qtextstream_p.h
 usr/include/qt5/QtCore/*/QtCore/private/qthread_p.h
 usr/include/qt5/QtCore/*/QtCore/private/qthreadpool_p.h
 usr/include/qt5/QtCore/*/QtCore/private/qtimerinfo_unix_p.h
+usr/include/qt5/QtCore/*/QtCore/private/qtimezoneprivate_p.h
+usr/include/qt5/QtCore/*/QtCore/private/qtimezoneprivate_data_p.h
 usr/include/qt5/QtCore/*/QtCore/private/qtldurl_p.h
 usr/include/qt5/QtCore/*/QtCore/private/qtools_p.h
 usr/include/qt5/QtCore/*/QtCore/private/qtranslator_p.h
@@ -178,7 +187,6 @@ usr/include/qt5/QtGui/*/QtGui/private/qfont_p.h
 usr/include/qt5/QtGui/*/QtGui/private/qfontengine_ft_p.h
 usr/include/qt5/QtGui/*/QtGui/private/qfontengine_p.h
 usr/include/qt5/QtGui/*/QtGui/private/qfontengine_qpa_p.h
-usr/include/qt5/QtGui/*/QtGui/private/qfontengine_qpf_p.h
 usr/include/qt5/QtGui/*/QtGui/private/qfontengineglyphcache_p.h
 usr/include/qt5/QtGui/*/QtGui/private/qfontsubset_p.h
 usr/include/qt5/QtGui/*/QtGui/private/qfragmentmap_p.h
@@ -186,6 +194,7 @@ usr/include/qt5/QtGui/*/QtGui/private/qgifhandler_p.h
 usr/include/qt5/QtGui/*/QtGui/private/qglyphrun_p.h
 usr/include/qt5/QtGui/*/QtGui/private/qgrayraster_p.h
 usr/include/qt5/QtGui/*/QtGui/private/qguiapplication_p.h
+usr/include/qt5/QtGui/*/QtGui/private/qharfbuzzng_p.h
 usr/include/qt5/QtGui/*/QtGui/private/qhexstring_p.h
 usr/include/qt5/QtGui/*/QtGui/private/qicon_p.h
 usr/include/qt5/QtGui/*/QtGui/private/qiconloader_p.h
@@ -212,8 +221,10 @@ usr/include/qt5/QtGui/*/QtGui/private/qopenglpaintengine_p.h
 usr/include/qt5/QtGui/*/QtGui/private/qopenglqueryhelper_p.h
 usr/include/qt5/QtGui/*/QtGui/private/qopenglshadercache_meego_p.h
 usr/include/qt5/QtGui/*/QtGui/private/qopenglshadercache_p.h
+usr/include/qt5/QtGui/*/QtGui/private/qopengltexture_p.h
 usr/include/qt5/QtGui/*/QtGui/private/qopengltexturecache_p.h
 usr/include/qt5/QtGui/*/QtGui/private/qopengltextureglyphcache_p.h
+usr/include/qt5/QtGui/*/QtGui/private/qopengltexturehelper_p.h
 usr/include/qt5/QtGui/*/QtGui/private/qopenglversionfunctionsfactory_p.h
 usr/include/qt5/QtGui/*/QtGui/private/qoutlinemapper_p.h
 usr/include/qt5/QtGui/*/QtGui/private/qpagedpaintdevice_p.h
@@ -241,6 +252,7 @@ usr/include/qt5/QtGui/*/QtGui/private/qrasterizer_p.h
 usr/include/qt5/QtGui/*/QtGui/private/qrawfont_p.h
 usr/include/qt5/QtGui/*/QtGui/private/qrbtree_p.h
 usr/include/qt5/QtGui/*/QtGui/private/qscreen_p.h
+usr/include/qt5/QtGui/*/QtGui/private/qsessionmanager_p.h
 usr/include/qt5/QtGui/*/QtGui/private/qshapedpixmapdndwindow_p.h
 usr/include/qt5/QtGui/*/QtGui/private/qshortcutmap_p.h
 usr/include/qt5/QtGui/*/QtGui/private/qsimpledrag_p.h
@@ -292,6 +304,7 @@ usr/include/qt5/QtGui/*/QtGui/qpa/qplatformscreen.h
 usr/include/qt5/QtGui/*/QtGui/qpa/qplatformscreen_p.h
 usr/include/qt5/QtGui/*/QtGui/qpa/qplatformscreenpageflipper.h
 usr/include/qt5/QtGui/*/QtGui/qpa/qplatformservices.h
+usr/include/qt5/QtGui/*/QtGui/qpa/qplatformsessionmanager.h
 usr/include/qt5/QtGui/*/QtGui/qpa/qplatformsharedgraphicscache.h
 usr/include/qt5/QtGui/*/QtGui/qpa/qplatformsurface.h
 usr/include/qt5/QtGui/*/QtGui/qpa/qplatformsystemtrayicon.h
@@ -396,6 +409,7 @@ usr/include/qt5/QtPlatformSupport/*/QtPlatformSupport/private/qevdevmousehandler
 usr/include/qt5/QtPlatformSupport/*/QtPlatformSupport/private/qevdevmousemanager_p.h
 usr/include/qt5/QtPlatformSupport/*/QtPlatformSupport/private/qevdevtablet_p.h
 usr/include/qt5/QtPlatformSupport/*/QtPlatformSupport/private/qevdevtouch_p.h
+usr/include/qt5/QtPlatformSupport/*/QtPlatformSupport/private/qeventdispatcher_cf_p.h
 usr/include/qt5/QtPlatformSupport/*/QtPlatformSupport/private/qeventdispatcher_glib_p.h
 usr/include/qt5/QtPlatformSupport/*/QtPlatformSupport/private/qfbbackingstore_p.h
 usr/include/qt5/QtPlatformSupport/*/QtPlatformSupport/private/qfbcursor_p.h
@@ -409,13 +423,12 @@ usr/include/qt5/QtPlatformSupport/*/QtPlatformSupport/private/qgenericunixfontda
 usr/include/qt5/QtPlatformSupport/*/QtPlatformSupport/private/qgenericunixservices_p.h
 usr/include/qt5/QtPlatformSupport/*/QtPlatformSupport/private/qgenericunixthemes_p.h
 usr/include/qt5/QtPlatformSupport/*/QtPlatformSupport/private/qglxconvenience_p.h
-usr/include/qt5/QtPlatformSupport/*/QtPlatformSupport/private/qjnihelpers_p.h
-usr/include/qt5/QtPlatformSupport/*/QtPlatformSupport/private/qjniobject_p.h
 usr/include/qt5/QtPlatformSupport/*/QtPlatformSupport/private/qunixeventdispatcher_qpa_p.h
 usr/include/qt5/QtPlatformSupport/*/QtPlatformSupport/private/qxlibeglintegration_p.h
 usr/include/qt5/QtPlatformSupport/*/QtPlatformSupport/private/struct_marshallers_p.h
 usr/include/qt5/QtPrintSupport/*/QtPrintSupport/private/qabstractprintdialog_p.h
 usr/include/qt5/QtPrintSupport/*/QtPrintSupport/private/qcups_p.h
+usr/include/qt5/QtPrintSupport/*/QtPrintSupport/private/qcupsjobwidget_p.h
 usr/include/qt5/QtPrintSupport/*/QtPrintSupport/private/qpagesetupdialog_p.h
 usr/include/qt5/QtPrintSupport/*/QtPrintSupport/private/qpagesetupdialog_unix_p.h
 usr/include/qt5/QtPrintSupport/*/QtPrintSupport/private/qpaintengine_alpha_p.h
@@ -469,7 +482,6 @@ usr/include/qt5/QtWidgets/*/QtWidgets/private/qabstractitemview_p.h
 usr/include/qt5/QtWidgets/*/QtWidgets/private/qabstractscrollarea_p.h
 usr/include/qt5/QtWidgets/*/QtWidgets/private/qabstractslider_p.h
 usr/include/qt5/QtWidgets/*/QtWidgets/private/qabstractspinbox_p.h
-usr/include/qt5/QtWidgets/*/QtWidgets/private/qaccessiblewidget_p.h
 usr/include/qt5/QtWidgets/*/QtWidgets/private/qaction_p.h
 usr/include/qt5/QtWidgets/*/QtWidgets/private/qandroidstyle_p.h
 usr/include/qt5/QtWidgets/*/QtWidgets/private/qapplication_p.h
@@ -492,6 +504,7 @@ usr/include/qt5/QtWidgets/*/QtWidgets/private/qdockarealayout_p.h
 usr/include/qt5/QtWidgets/*/QtWidgets/private/qdockwidget_p.h
 usr/include/qt5/QtWidgets/*/QtWidgets/private/qeffects_p.h
 usr/include/qt5/QtWidgets/*/QtWidgets/private/qfiledialog_p.h
+usr/include/qt5/QtWidgets/*/QtWidgets/private/qfileiconprovider_p.h
 usr/include/qt5/QtWidgets/*/QtWidgets/private/qfileinfogatherer_p.h
 usr/include/qt5/QtWidgets/*/QtWidgets/private/qfilesystemmodel_p.h
 usr/include/qt5/QtWidgets/*/QtWidgets/private/qflickgesture_p.h
@@ -525,6 +538,7 @@ usr/include/qt5/QtWidgets/*/QtWidgets/private/qgtkstyle_p.h
 usr/include/qt5/QtWidgets/*/QtWidgets/private/qgtkstyle_p_p.h
 usr/include/qt5/QtWidgets/*/QtWidgets/private/qheaderview_p.h
 usr/include/qt5/QtWidgets/*/QtWidgets/private/qitemeditorfactory_p.h
+usr/include/qt5/QtWidgets/*/QtWidgets/private/qkeysequenceedit_p.h
 usr/include/qt5/QtWidgets/*/QtWidgets/private/qlabel_p.h
 usr/include/qt5/QtWidgets/*/QtWidgets/private/qlayout_p.h
 usr/include/qt5/QtWidgets/*/QtWidgets/private/qlayoutengine_p.h

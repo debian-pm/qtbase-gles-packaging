@@ -4,7 +4,6 @@ usr/lib/*/qt5/plugins/imageformats/libqico.so
 usr/lib/*/qt5/plugins/imageformats/libqjpeg.so
 usr/lib/*/qt5/plugins/platforminputcontexts/libcomposeplatforminputcontextplugin.so
 usr/lib/*/qt5/plugins/platforminputcontexts/libibusplatforminputcontextplugin.so
-usr/lib/*/qt5/plugins/platforminputcontexts/libmaliitplatforminputcontextplugin.so
 usr/lib/*/qt5/plugins/platforms/libqminimal.so
 usr/lib/*/qt5/plugins/platforms/libqoffscreen.so
 usr/lib/*/qt5/plugins/platforms/libqxcb.so
