@@ -1,6 +1,5 @@
 sha3_64bit_BE.diff
 linux_no_perf.diff
-fix_usr-move_workaround_in_the_presence_of_multi-arch.patch
 hurd_opengl_incldir.diff
 
 # Debian specific.
