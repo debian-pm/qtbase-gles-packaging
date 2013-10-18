@@ -6,6 +6,7 @@ qtbase-opensource-src (5.2~alpha1+dfsg-1) UNRELEASED; urgency=low
     applied upstream.
   * Update .install files for new upstream release.
   * Make libqt5core5 provide qtbase-abi-5-2-0.
+  * Update symbols files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 15 Oct 2013 15:48:12 +0400
 
