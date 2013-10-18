@@ -1,3 +1,10 @@
+qtbase-opensource-src (5.2~alpha1+dfsg-1) UNRELEASED; urgency=low
+
+  [ Dmitry Shachnev ]
+  * New upstream alpha release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 15 Oct 2013 15:48:12 +0400
+
 qtbase-opensource-src (5.1.1+dfsg-4) unstable; urgency=low
 
   [ Pino Toscano ]
