@@ -5,22 +5,22 @@ libQt5PrintSupport.so.5 libqt5printsupport5 #MINVER#
  _Z20qt_multiplierForUnitN8QPrinter4UnitEi@Base 5.0.2
  _Z27qt_SizeFromUnitToMillimeterRK6QSizeFN8QPrinter4UnitEd@Base 5.2~alpha1
  _ZN12QCUPSSupport10markOptionEPKcS1_@Base 5.0.2 1
- _ZN12QCUPSSupport10setJobHoldEP8QPrinterNS_12JobHoldUntilERK5QTime@Base 5.2~alpha1
- _ZN12QCUPSSupport10setPageSetEP8QPrinterNS_7PageSetE@Base 5.2~alpha1
+ _ZN12QCUPSSupport10setJobHoldEP8QPrinterNS_12JobHoldUntilERK5QTime@Base 5.2~alpha1 1
+ _ZN12QCUPSSupport10setPageSetEP8QPrinterNS_7PageSetE@Base 5.2~alpha1 1
  _ZN12QCUPSSupport11isAvailableEv@Base 5.0.2 1
  _ZN12QCUPSSupport11saveOptionsE5QListIPK12ppd_option_sES0_IPKcE@Base 5.0.2 1
- _ZN12QCUPSSupport12setPageRangeEP8QPrinterii@Base 5.2~alpha1
+ _ZN12QCUPSSupport12setPageRangeEP8QPrinterii@Base 5.2~alpha1 1
  _ZN12QCUPSSupport13printerHasPPDEPKc@Base 5.0.2 1
- _ZN12QCUPSSupport13setCupsOptionER11QStringListRK7QStringS4_@Base 5.2~alpha1
- _ZN12QCUPSSupport13setJobBillingEP8QPrinterRK7QString@Base 5.2~alpha1
+ _ZN12QCUPSSupport13setCupsOptionER11QStringListRK7QStringS4_@Base 5.2~alpha1 1
+ _ZN12QCUPSSupport13setJobBillingEP8QPrinterRK7QString@Base 5.2~alpha1 1
  _ZN12QCUPSSupport13unicodeStringEPKc@Base 5.0.2 1
- _ZN12QCUPSSupport14setBannerPagesEP8QPrinterNS_10BannerPageES2_@Base 5.2~alpha1
- _ZN12QCUPSSupport14setCupsOptionsEP8QPrinterRK11QStringList@Base 5.2~alpha1
- _ZN12QCUPSSupport14setJobPriorityEP8QPrinteri@Base 5.2~alpha1
- _ZN12QCUPSSupport15cupsOptionsListEP8QPrinter@Base 5.2~alpha1
+ _ZN12QCUPSSupport14setBannerPagesEP8QPrinterNS_10BannerPageES2_@Base 5.2~alpha1 1
+ _ZN12QCUPSSupport14setCupsOptionsEP8QPrinterRK11QStringList@Base 5.2~alpha1 1
+ _ZN12QCUPSSupport14setJobPriorityEP8QPrinteri@Base 5.2~alpha1 1
+ _ZN12QCUPSSupport15cupsOptionsListEP8QPrinter@Base 5.2~alpha1 1
  _ZN12QCUPSSupport17setCurrentPrinterEi@Base 5.0.2 1
  _ZN12QCUPSSupport21availableUnixPrintersEv@Base 5.0.2 1
- _ZN12QCUPSSupport22setPagesPerSheetLayoutEP8QPrinterNS_13PagesPerSheetENS_19PagesPerSheetLayoutE@Base 5.2~alpha1
+ _ZN12QCUPSSupport22setPagesPerSheetLayoutEP8QPrinterNS_13PagesPerSheetENS_19PagesPerSheetLayoutE@Base 5.2~alpha1 1
  _ZN12QCUPSSupport24getCupsPrinterPaperSizesEi@Base 5.0.2 1
  _ZN12QCUPSSupport33getCupsPrinterPaperSizesWithNamesEi@Base 5.1.0 1
  _ZN12QCUPSSupport6tempFdEv@Base 5.0.2 1

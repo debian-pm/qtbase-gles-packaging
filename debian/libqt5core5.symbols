@@ -723,13 +723,13 @@ libQt5Core.so.5 libqt5core5 #MINVER#
  _ZN13QStateMachineD0Ev@Base 5.0.2
  _ZN13QStateMachineD1Ev@Base 5.0.2
  _ZN13QStateMachineD2Ev@Base 5.0.2
- _ZN13QSystemLocaleC1Eb@Base 5.2~alpha1
- _ZN13QSystemLocaleC1Ev@Base 5.2~alpha1
- _ZN13QSystemLocaleC2Eb@Base 5.2~alpha1
- _ZN13QSystemLocaleC2Ev@Base 5.2~alpha1
- _ZN13QSystemLocaleD0Ev@Base 5.2~alpha1
- _ZN13QSystemLocaleD1Ev@Base 5.2~alpha1
- _ZN13QSystemLocaleD2Ev@Base 5.2~alpha1
+ _ZN13QSystemLocaleC1Eb@Base 5.2~alpha1 1
+ _ZN13QSystemLocaleC1Ev@Base 5.2~alpha1 1
+ _ZN13QSystemLocaleC2Eb@Base 5.2~alpha1 1
+ _ZN13QSystemLocaleC2Ev@Base 5.2~alpha1 1
+ _ZN13QSystemLocaleD0Ev@Base 5.2~alpha1 1
+ _ZN13QSystemLocaleD1Ev@Base 5.2~alpha1 1
+ _ZN13QSystemLocaleD2Ev@Base 5.2~alpha1 1
  _ZN13QTemporaryDir13setAutoRemoveEb@Base 5.0.2
  _ZN13QTemporaryDir6removeEv@Base 5.0.2
  _ZN13QTemporaryDirC1ERK7QString@Base 5.0.2
@@ -820,8 +820,8 @@ libQt5Core.so.5 libqt5core5 #MINVER#
  _ZN14QMetaCallEventD2Ev@Base 5.0.2 1
  _ZN14QObjectPrivate10ConnectionD1Ev@Base 5.0.2 1
  _ZN14QObjectPrivate10ConnectionD2Ev@Base 5.0.2 1
- _ZN14QObjectPrivate10disconnectEPK7QObjectiPPv@Base 5.2~alpha1
- _ZN14QObjectPrivate11connectImplEPK7QObjectiS2_PPvPN9QtPrivate15QSlotObjectBaseEN2Qt14ConnectionTypeEPKiPK11QMetaObject@Base 5.2~alpha1
+ _ZN14QObjectPrivate10disconnectEPK7QObjectiPPv@Base 5.2~alpha1 1
+ _ZN14QObjectPrivate11connectImplEPK7QObjectiS2_PPvPN9QtPrivate15QSlotObjectBaseEN2Qt14ConnectionTypeEPKiPK11QMetaObject@Base 5.2~alpha1 1
  _ZN14QObjectPrivate13addConnectionEiPNS_10ConnectionE@Base 5.0.2 1
  _ZN14QObjectPrivate14deleteChildrenEv@Base 5.0.2 1
  _ZN14QObjectPrivate16setParent_helperEP7QObject@Base 5.0.2 1
@@ -829,7 +829,7 @@ libQt5Core.so.5 libqt5core5 #MINVER#
  _ZN14QObjectPrivate19moveToThread_helperEv@Base 5.0.2 1
  _ZN14QObjectPrivate20cleanConnectionListsEv@Base 5.0.2 1
  _ZN14QObjectPrivate20setThreadData_helperEP11QThreadDataS1_@Base 5.0.2 1
- _ZN14QObjectPrivate7connectEPK7QObjectiPN9QtPrivate15QSlotObjectBaseEN2Qt14ConnectionTypeE@Base 5.2~alpha1
+ _ZN14QObjectPrivate7connectEPK7QObjectiPN9QtPrivate15QSlotObjectBaseEN2Qt14ConnectionTypeE@Base 5.2~alpha1 1
  _ZN14QObjectPrivateC1Ei@Base 5.0.2 1
  _ZN14QObjectPrivateC2Ei@Base 5.0.2 1
  _ZN14QObjectPrivateD0Ev@Base 5.0.2 1
@@ -991,11 +991,11 @@ libQt5Core.so.5 libqt5core5 #MINVER#
  _ZN16QAnimationDriverD0Ev@Base 5.0.2
  _ZN16QAnimationDriverD1Ev@Base 5.0.2
  _ZN16QAnimationDriverD2Ev@Base 5.0.2
- _ZN16QCollatorPrivate4initEv@Base 5.2~alpha1
- _ZN16QCollatorPrivate7cleanupEv@Base 5.2~alpha1
- _ZN16QCollatorSortKeyC1EP23QCollatorSortKeyPrivate@Base 5.2~alpha1
+ _ZN16QCollatorPrivate4initEv@Base 5.2~alpha1 1
+ _ZN16QCollatorPrivate7cleanupEv@Base 5.2~alpha1 1
+ _ZN16QCollatorSortKeyC1EP23QCollatorSortKeyPrivate@Base 5.2~alpha1 1
  _ZN16QCollatorSortKeyC1ERKS_@Base 5.2~alpha1
- _ZN16QCollatorSortKeyC2EP23QCollatorSortKeyPrivate@Base 5.2~alpha1
+ _ZN16QCollatorSortKeyC2EP23QCollatorSortKeyPrivate@Base 5.2~alpha1 1
  _ZN16QCollatorSortKeyC2ERKS_@Base 5.2~alpha1
  _ZN16QCollatorSortKeyD1Ev@Base 5.2~alpha1
  _ZN16QCollatorSortKeyD2Ev@Base 5.2~alpha1
@@ -1139,24 +1139,24 @@ libQt5Core.so.5 libqt5core5 #MINVER#
  _ZN16QSystemSemaphoreC2ERK7QStringiNS_10AccessModeE@Base 5.0.2
  _ZN16QSystemSemaphoreD1Ev@Base 5.0.2
  _ZN16QSystemSemaphoreD2Ev@Base 5.0.2
- _ZN16QTimeZonePrivate11invalidDataEv@Base 5.2~alpha1
- _ZN16QTimeZonePrivate12toOffsetDataERKNS_4DataE@Base 5.2~alpha1
- _ZN16QTimeZonePrivate15isoOffsetFormatEi@Base 5.2~alpha1
- _ZN16QTimeZonePrivate17invalidOffsetDataEv@Base 5.2~alpha1
- _ZN16QTimeZonePrivate18olsenIdToWindowsIdERK10QByteArray@Base 5.2~alpha1
- _ZN16QTimeZonePrivate19windowsIdToOlsenIdsERK10QByteArray@Base 5.2~alpha1
- _ZN16QTimeZonePrivate19windowsIdToOlsenIdsERK10QByteArrayN7QLocale7CountryE@Base 5.2~alpha1
- _ZN16QTimeZonePrivate25windowsIdToDefaultOlsenIdERK10QByteArray@Base 5.2~alpha1
- _ZN16QTimeZonePrivate25windowsIdToDefaultOlsenIdERK10QByteArrayN7QLocale7CountryE@Base 5.2~alpha1
- _ZN16QTimeZonePrivate5cloneEv@Base 5.2~alpha1
- _ZN16QTimeZonePrivate9isValidIdERK10QByteArray@Base 5.2~alpha1
- _ZN16QTimeZonePrivateC1ERKS_@Base 5.2~alpha1
- _ZN16QTimeZonePrivateC1Ev@Base 5.2~alpha1
- _ZN16QTimeZonePrivateC2ERKS_@Base 5.2~alpha1
- _ZN16QTimeZonePrivateC2Ev@Base 5.2~alpha1
- _ZN16QTimeZonePrivateD0Ev@Base 5.2~alpha1
- _ZN16QTimeZonePrivateD1Ev@Base 5.2~alpha1
- _ZN16QTimeZonePrivateD2Ev@Base 5.2~alpha1
+ _ZN16QTimeZonePrivate11invalidDataEv@Base 5.2~alpha1 1
+ _ZN16QTimeZonePrivate12toOffsetDataERKNS_4DataE@Base 5.2~alpha1 1
+ _ZN16QTimeZonePrivate15isoOffsetFormatEi@Base 5.2~alpha1 1
+ _ZN16QTimeZonePrivate17invalidOffsetDataEv@Base 5.2~alpha1 1
+ _ZN16QTimeZonePrivate18olsenIdToWindowsIdERK10QByteArray@Base 5.2~alpha1 1
+ _ZN16QTimeZonePrivate19windowsIdToOlsenIdsERK10QByteArray@Base 5.2~alpha1 1
+ _ZN16QTimeZonePrivate19windowsIdToOlsenIdsERK10QByteArrayN7QLocale7CountryE@Base 5.2~alpha1 1
+ _ZN16QTimeZonePrivate25windowsIdToDefaultOlsenIdERK10QByteArray@Base 5.2~alpha1 1
+ _ZN16QTimeZonePrivate25windowsIdToDefaultOlsenIdERK10QByteArrayN7QLocale7CountryE@Base 5.2~alpha1 1
+ _ZN16QTimeZonePrivate5cloneEv@Base 5.2~alpha1 1
+ _ZN16QTimeZonePrivate9isValidIdERK10QByteArray@Base 5.2~alpha1 1
+ _ZN16QTimeZonePrivateC1ERKS_@Base 5.2~alpha1 1
+ _ZN16QTimeZonePrivateC1Ev@Base 5.2~alpha1 1
+ _ZN16QTimeZonePrivateC2ERKS_@Base 5.2~alpha1 1
+ _ZN16QTimeZonePrivateC2Ev@Base 5.2~alpha1 1
+ _ZN16QTimeZonePrivateD0Ev@Base 5.2~alpha1 1
+ _ZN16QTimeZonePrivateD1Ev@Base 5.2~alpha1 1
+ _ZN16QTimeZonePrivateD2Ev@Base 5.2~alpha1 1
  _ZN16QXmlStreamReader10raiseErrorERK7QString@Base 5.0.2
  _ZN16QXmlStreamReader15readElementTextENS_24ReadElementTextBehaviourE@Base 5.0.2
  _ZN16QXmlStreamReader17setEntityResolverEP24QXmlStreamEntityResolver@Base 5.0.2
@@ -1536,7 +1536,7 @@ libQt5Core.so.5 libqt5core5 #MINVER#
  _ZN18QThreadPoolPrivate11waitForDoneEi@Base 5.0.2 1
  _ZN18QThreadPoolPrivate13stealRunnableEP9QRunnable@Base 5.0.2 1
  _ZN18QThreadPoolPrivate21tryToStartMoreThreadsEv@Base 5.0.2 1
- _ZN18QThreadPoolPrivate5clearEv@Base 5.2~alpha1
+ _ZN18QThreadPoolPrivate5clearEv@Base 5.2~alpha1 1
  _ZN18QThreadPoolPrivate5resetEv@Base 5.0.2 1
  _ZN18QThreadPoolPrivate8tryStartEP9QRunnable@Base 5.0.2 1
  _ZN18QThreadPoolPrivateC1Ev@Base 5.0.2 1
@@ -1803,14 +1803,14 @@ libQt5Core.so.5 libqt5core5 #MINVER#
  _ZN20QEventDispatcherUNIXD0Ev@Base 5.0.2 1
  _ZN20QEventDispatcherUNIXD1Ev@Base 5.0.2 1
  _ZN20QEventDispatcherUNIXD2Ev@Base 5.0.2 1
- _ZN20QFileSelectorPrivate10addStaticsERK11QStringList@Base 5.2~alpha1
- _ZN20QFileSelectorPrivate15updateSelectorsEv@Base 5.2~alpha1
- _ZN20QFileSelectorPrivate17platformSelectorsEv@Base 5.2~alpha1
- _ZN20QFileSelectorPrivateC1Ev@Base 5.2~alpha1
- _ZN20QFileSelectorPrivateC2Ev@Base 5.2~alpha1
- _ZN20QFileSelectorPrivateD0Ev@Base 5.2~alpha1
- _ZN20QFileSelectorPrivateD1Ev@Base 5.2~alpha1
- _ZN20QFileSelectorPrivateD2Ev@Base 5.2~alpha1
+ _ZN20QFileSelectorPrivate10addStaticsERK11QStringList@Base 5.2~alpha1 1
+ _ZN20QFileSelectorPrivate15updateSelectorsEv@Base 5.2~alpha1 1
+ _ZN20QFileSelectorPrivate17platformSelectorsEv@Base 5.2~alpha1 1
+ _ZN20QFileSelectorPrivateC1Ev@Base 5.2~alpha1 1
+ _ZN20QFileSelectorPrivateC2Ev@Base 5.2~alpha1 1
+ _ZN20QFileSelectorPrivateD0Ev@Base 5.2~alpha1 1
+ _ZN20QFileSelectorPrivateD1Ev@Base 5.2~alpha1 1
+ _ZN20QFileSelectorPrivateD2Ev@Base 5.2~alpha1 1
  _ZN20QFutureInterfaceBase11setRunnableEP9QRunnable@Base 5.0.2
  _ZN20QFutureInterfaceBase12setThrottledEb@Base 5.0.2
  _ZN20QFutureInterfaceBase12togglePausedEv@Base 5.0.2
@@ -3158,13 +3158,13 @@ libQt5Core.so.5 libqt5core5 #MINVER#
  _ZN9QTimeZone21isTimeZoneIdAvailableERK10QByteArray@Base 5.2~alpha1
  _ZN9QTimeZone25windowsIdToDefaultOlsenIdERK10QByteArray@Base 5.2~alpha1
  _ZN9QTimeZone25windowsIdToDefaultOlsenIdERK10QByteArrayN7QLocale7CountryE@Base 5.2~alpha1
- _ZN9QTimeZoneC1ER16QTimeZonePrivate@Base 5.2~alpha1
+ _ZN9QTimeZoneC1ER16QTimeZonePrivate@Base 5.2~alpha1 1
  _ZN9QTimeZoneC1ERK10QByteArray@Base 5.2~alpha1
  _ZN9QTimeZoneC1ERK10QByteArrayiRK7QStringS5_N7QLocale7CountryES5_@Base 5.2~alpha1
  _ZN9QTimeZoneC1ERKS_@Base 5.2~alpha1
  _ZN9QTimeZoneC1Ei@Base 5.2~alpha1
  _ZN9QTimeZoneC1Ev@Base 5.2~alpha1
- _ZN9QTimeZoneC2ER16QTimeZonePrivate@Base 5.2~alpha1
+ _ZN9QTimeZoneC2ER16QTimeZonePrivate@Base 5.2~alpha1 1
  _ZN9QTimeZoneC2ERK10QByteArray@Base 5.2~alpha1
  _ZN9QTimeZoneC2ERK10QByteArrayiRK7QStringS5_N7QLocale7CountryES5_@Base 5.2~alpha1
  _ZN9QTimeZoneC2ERKS_@Base 5.2~alpha1
@@ -3568,8 +3568,8 @@ libQt5Core.so.5 libqt5core5 #MINVER#
  _ZNK13QStateMachine5errorEv@Base 5.0.2
  _ZNK13QStateMachine9isRunningEv@Base 5.0.2
  _ZNK13QStaticPlugin8metaDataEv@Base 5.2~alpha1
- _ZNK13QSystemLocale16fallbackUiLocaleEv@Base 5.2~alpha1
- _ZNK13QSystemLocale5queryENS_9QueryTypeE8QVariant@Base 5.2~alpha1
+ _ZNK13QSystemLocale16fallbackUiLocaleEv@Base 5.2~alpha1 1
+ _ZNK13QSystemLocale5queryENS_9QueryTypeE8QVariant@Base 5.2~alpha1 1
  _ZNK13QTemporaryDir10autoRemoveEv@Base 5.0.2
  _ZNK13QTemporaryDir4pathEv@Base 5.0.2
  _ZNK13QTemporaryDir7isValidEv@Base 5.0.2
@@ -3590,7 +3590,7 @@ libQt5Core.so.5 libqt5core5 #MINVER#
  _ZNK14QLocalePrivate14stringToDoubleERK10QStringRefPbNS_18GroupSeparatorModeE@Base 5.1.0 1
  _ZNK14QLocalePrivate14stringToDoubleERK7QStringPbNS_18GroupSeparatorModeE@Base 5.0.2 1
  _ZNK14QLocalePrivate15numberToCLocaleEPK5QChariNS_18GroupSeparatorModeEP15QVarLengthArrayIcLi256EE@Base 5.1.0 1
- _ZNK14QLocalePrivate16dateTimeToStringERK7QStringRK9QDateTimeRK5QDateRK5QTimePK7QLocale@Base 5.2~alpha1
+ _ZNK14QLocalePrivate16dateTimeToStringERK7QStringRK9QDateTimeRK5QDateRK5QTimePK7QLocale@Base 5.2~alpha1 1
  _ZNK14QLocalePrivate16longLongToStringExiiij@Base 5.0.2 1
  _ZNK14QLocalePrivate16stringToLongLongERK10QStringRefiPbNS_18GroupSeparatorModeE@Base 5.1.0 1
  _ZNK14QLocalePrivate16stringToLongLongERK7QStringiPbNS_18GroupSeparatorModeE@Base 5.0.2 1
@@ -3691,31 +3691,31 @@ libQt5Core.so.5 libqt5core5 #MINVER#
  _ZNK16QSystemSemaphore11errorStringEv@Base 5.0.2
  _ZNK16QSystemSemaphore3keyEv@Base 5.0.2
  _ZNK16QSystemSemaphore5errorEv@Base 5.0.2
- _ZNK16QTimeZonePrivate11displayNameEN9QTimeZone8TimeTypeENS0_8NameTypeERK7QLocale@Base 5.2~alpha1
- _ZNK16QTimeZonePrivate11displayNameExN9QTimeZone8NameTypeERK7QLocale@Base 5.2~alpha1
- _ZNK16QTimeZonePrivate11transitionsExx@Base 5.2~alpha1
- _ZNK16QTimeZonePrivate12abbreviationEx@Base 5.2~alpha1
- _ZNK16QTimeZonePrivate13offsetFromUtcEx@Base 5.2~alpha1
- _ZNK16QTimeZonePrivate14hasTransitionsEv@Base 5.2~alpha1
- _ZNK16QTimeZonePrivate14isDaylightTimeEx@Base 5.2~alpha1
- _ZNK16QTimeZonePrivate14nextTransitionEx@Base 5.2~alpha1
- _ZNK16QTimeZonePrivate15hasDaylightTimeEv@Base 5.2~alpha1
- _ZNK16QTimeZonePrivate16dataForLocalTimeEx@Base 5.2~alpha1
- _ZNK16QTimeZonePrivate16systemTimeZoneIdEv@Base 5.2~alpha1
- _ZNK16QTimeZonePrivate18daylightTimeOffsetEx@Base 5.2~alpha1
- _ZNK16QTimeZonePrivate18previousTransitionEx@Base 5.2~alpha1
- _ZNK16QTimeZonePrivate18standardTimeOffsetEx@Base 5.2~alpha1
- _ZNK16QTimeZonePrivate20availableTimeZoneIdsEN7QLocale7CountryE@Base 5.2~alpha1
- _ZNK16QTimeZonePrivate20availableTimeZoneIdsEi@Base 5.2~alpha1
- _ZNK16QTimeZonePrivate20availableTimeZoneIdsEv@Base 5.2~alpha1
- _ZNK16QTimeZonePrivate2idEv@Base 5.2~alpha1
- _ZNK16QTimeZonePrivate4dataEx@Base 5.2~alpha1
- _ZNK16QTimeZonePrivate7commentEv@Base 5.2~alpha1
- _ZNK16QTimeZonePrivate7countryEv@Base 5.2~alpha1
- _ZNK16QTimeZonePrivate7isValidEv@Base 5.2~alpha1
- _ZNK16QTimeZonePrivate9serializeER11QDataStream@Base 5.2~alpha1
- _ZNK16QTimeZonePrivateeqERKS_@Base 5.2~alpha1
- _ZNK16QTimeZonePrivateneERKS_@Base 5.2~alpha1
+ _ZNK16QTimeZonePrivate11displayNameEN9QTimeZone8TimeTypeENS0_8NameTypeERK7QLocale@Base 5.2~alpha1 1
+ _ZNK16QTimeZonePrivate11displayNameExN9QTimeZone8NameTypeERK7QLocale@Base 5.2~alpha1 1
+ _ZNK16QTimeZonePrivate11transitionsExx@Base 5.2~alpha1 1
+ _ZNK16QTimeZonePrivate12abbreviationEx@Base 5.2~alpha1 1
+ _ZNK16QTimeZonePrivate13offsetFromUtcEx@Base 5.2~alpha1 1
+ _ZNK16QTimeZonePrivate14hasTransitionsEv@Base 5.2~alpha1 1
+ _ZNK16QTimeZonePrivate14isDaylightTimeEx@Base 5.2~alpha1 1
+ _ZNK16QTimeZonePrivate14nextTransitionEx@Base 5.2~alpha1 1
+ _ZNK16QTimeZonePrivate15hasDaylightTimeEv@Base 5.2~alpha1 1
+ _ZNK16QTimeZonePrivate16dataForLocalTimeEx@Base 5.2~alpha1 1
+ _ZNK16QTimeZonePrivate16systemTimeZoneIdEv@Base 5.2~alpha1 1
+ _ZNK16QTimeZonePrivate18daylightTimeOffsetEx@Base 5.2~alpha1 1
+ _ZNK16QTimeZonePrivate18previousTransitionEx@Base 5.2~alpha1 1
+ _ZNK16QTimeZonePrivate18standardTimeOffsetEx@Base 5.2~alpha1 1
+ _ZNK16QTimeZonePrivate20availableTimeZoneIdsEN7QLocale7CountryE@Base 5.2~alpha1 1
+ _ZNK16QTimeZonePrivate20availableTimeZoneIdsEi@Base 5.2~alpha1 1
+ _ZNK16QTimeZonePrivate20availableTimeZoneIdsEv@Base 5.2~alpha1 1
+ _ZNK16QTimeZonePrivate2idEv@Base 5.2~alpha1 1
+ _ZNK16QTimeZonePrivate4dataEx@Base 5.2~alpha1 1
+ _ZNK16QTimeZonePrivate7commentEv@Base 5.2~alpha1 1
+ _ZNK16QTimeZonePrivate7countryEv@Base 5.2~alpha1 1
+ _ZNK16QTimeZonePrivate7isValidEv@Base 5.2~alpha1 1
+ _ZNK16QTimeZonePrivate9serializeER11QDataStream@Base 5.2~alpha1 1
+ _ZNK16QTimeZonePrivateeqERKS_@Base 5.2~alpha1 1
+ _ZNK16QTimeZonePrivateneERKS_@Base 5.2~alpha1 1
  _ZNK16QXmlStreamReader10attributesEv@Base 5.0.2
  _ZNK16QXmlStreamReader10lineNumberEv@Base 5.0.2
  _ZNK16QXmlStreamReader11dtdPublicIdEv@Base 5.0.2
@@ -3987,7 +3987,7 @@ libQt5Core.so.5 libqt5core5 #MINVER#
  _ZNK20QEventDispatcherGlib16registeredTimersEP7QObject@Base 5.0.2 1
  _ZNK20QEventDispatcherUNIX10metaObjectEv@Base 5.0.2 1
  _ZNK20QEventDispatcherUNIX16registeredTimersEP7QObject@Base 5.0.2 1
- _ZNK20QFileSelectorPrivate6selectERK7QString@Base 5.2~alpha1
+ _ZNK20QFileSelectorPrivate6selectERK7QString@Base 5.2~alpha1 1
  _ZNK20QFutureInterfaceBase10isCanceledEv@Base 5.0.2
  _ZNK20QFutureInterfaceBase10isFinishedEv@Base 5.0.2
  _ZNK20QFutureInterfaceBase10queryStateENS_5StateE@Base 5.0.2
@@ -4908,7 +4908,7 @@ libQt5Core.so.5 libqt5core5 #MINVER#
  _ZTI13QSharedMemory@Base 5.0.2
  _ZTI13QSignalMapper@Base 5.0.2
  _ZTI13QStateMachine@Base 5.0.2
- _ZTI13QSystemLocale@Base 5.2~alpha1
+ _ZTI13QSystemLocale@Base 5.2~alpha1 1
  _ZTI13QUnifiedTimer@Base 5.0.2 1
  _ZTI14QAbstractState@Base 5.0.2
  _ZTI14QFactoryLoader@Base 5.0.2 1
@@ -4925,7 +4925,7 @@ libQt5Core.so.5 libqt5core5 #MINVER#
  _ZTI16QEventTransition@Base 5.0.2
  _ZTI16QIODevicePrivate@Base 5.0.2 1
  _ZTI16QStringListModel@Base 5.0.2
- _ZTI16QTimeZonePrivate@Base 5.2~alpha1
+ _ZTI16QTimeZonePrivate@Base 5.2~alpha1 1
  _ZTI17QSignalTransition@Base 5.0.2
  _ZTI17QVariantAnimation@Base 5.0.2
  _ZTI18QAbstractAnimation@Base 5.0.2
@@ -4946,7 +4946,7 @@ libQt5Core.so.5 libqt5core5 #MINVER#
  _ZTI20QDeferredDeleteEvent@Base 5.0.2
  _ZTI20QEventDispatcherGlib@Base 5.0.2 1
  _ZTI20QEventDispatcherUNIX@Base 5.0.2 1
- _ZTI20QFileSelectorPrivate@Base 5.2~alpha1
+ _ZTI20QFileSelectorPrivate@Base 5.2~alpha1 1
  _ZTI20QFutureInterfaceBase@Base 5.0.2
  _ZTI20QStateMachinePrivate@Base 5.0.2 1
  _ZTI21QObjectCleanupHandler@Base 5.0.2
@@ -5005,7 +5005,7 @@ libQt5Core.so.5 libqt5core5 #MINVER#
  _ZTS13QSharedMemory@Base 5.0.2
  _ZTS13QSignalMapper@Base 5.0.2
  _ZTS13QStateMachine@Base 5.0.2
- _ZTS13QSystemLocale@Base 5.2~alpha1
+ _ZTS13QSystemLocale@Base 5.2~alpha1 1
  _ZTS13QUnifiedTimer@Base 5.0.2 1
  _ZTS14QAbstractState@Base 5.0.2
  _ZTS14QFactoryLoader@Base 5.0.2 1
@@ -5022,7 +5022,7 @@ libQt5Core.so.5 libqt5core5 #MINVER#
  _ZTS16QEventTransition@Base 5.0.2
  _ZTS16QIODevicePrivate@Base 5.0.2 1
  _ZTS16QStringListModel@Base 5.0.2
- _ZTS16QTimeZonePrivate@Base 5.2~alpha1
+ _ZTS16QTimeZonePrivate@Base 5.2~alpha1 1
  _ZTS17QSignalTransition@Base 5.0.2
  _ZTS17QVariantAnimation@Base 5.0.2
  _ZTS18QAbstractAnimation@Base 5.0.2
@@ -5043,7 +5043,7 @@ libQt5Core.so.5 libqt5core5 #MINVER#
  _ZTS20QDeferredDeleteEvent@Base 5.0.2
  _ZTS20QEventDispatcherGlib@Base 5.0.2 1
  _ZTS20QEventDispatcherUNIX@Base 5.0.2 1
- _ZTS20QFileSelectorPrivate@Base 5.2~alpha1
+ _ZTS20QFileSelectorPrivate@Base 5.2~alpha1 1
  _ZTS20QFutureInterfaceBase@Base 5.0.2
  _ZTS20QStateMachinePrivate@Base 5.0.2 1
  _ZTS21QObjectCleanupHandler@Base 5.0.2
@@ -5101,7 +5101,7 @@ libQt5Core.so.5 libqt5core5 #MINVER#
  _ZTV13QSharedMemory@Base 5.0.2
  _ZTV13QSignalMapper@Base 5.0.2
  _ZTV13QStateMachine@Base 5.0.2
- _ZTV13QSystemLocale@Base 5.2~alpha1
+ _ZTV13QSystemLocale@Base 5.2~alpha1 1
  _ZTV13QUnifiedTimer@Base 5.0.2 1
  _ZTV14QAbstractState@Base 5.0.2
  _ZTV14QFactoryLoader@Base 5.0.2 1
@@ -5118,7 +5118,7 @@ libQt5Core.so.5 libqt5core5 #MINVER#
  _ZTV16QEventTransition@Base 5.0.2
  _ZTV16QIODevicePrivate@Base 5.0.2 1
  _ZTV16QStringListModel@Base 5.0.2
- _ZTV16QTimeZonePrivate@Base 5.2~alpha1
+ _ZTV16QTimeZonePrivate@Base 5.2~alpha1 1
  _ZTV17QSignalTransition@Base 5.0.2
  _ZTV17QVariantAnimation@Base 5.0.2
  _ZTV18QAbstractAnimation@Base 5.0.2
@@ -5139,7 +5139,7 @@ libQt5Core.so.5 libqt5core5 #MINVER#
  _ZTV20QDeferredDeleteEvent@Base 5.0.2
  _ZTV20QEventDispatcherGlib@Base 5.0.2 1
  _ZTV20QEventDispatcherUNIX@Base 5.0.2 1
- _ZTV20QFileSelectorPrivate@Base 5.2~alpha1
+ _ZTV20QFileSelectorPrivate@Base 5.2~alpha1 1
  _ZTV20QFutureInterfaceBase@Base 5.0.2
  _ZTV20QStateMachinePrivate@Base 5.0.2 1
  _ZTV21QObjectCleanupHandler@Base 5.0.2

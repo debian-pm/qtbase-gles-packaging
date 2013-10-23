@@ -2902,14 +2902,14 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN18QFileDialogPrivate19_q_navigateToParentEv@Base 5.0.2 1
  _ZN18QFileDialogPrivate19_q_selectionChangedEv@Base 5.0.2 1
  _ZN18QFileDialogPrivate19setLabelTextControlEN11QFileDialog11DialogLabelERK7QString@Base 5.0.2 1
- _ZN18QFileDialogPrivate21_q_nativeFileSelectedERK4QUrl@Base 5.2~alpha1
+ _ZN18QFileDialogPrivate21_q_nativeFileSelectedERK4QUrl@Base 5.2~alpha1 1
  _ZN18QFileDialogPrivate21itemViewKeyboardEventEP9QKeyEvent@Base 5.0.2 1
- _ZN18QFileDialogPrivate22_q_nativeFilesSelectedERK5QListI4QUrlE@Base 5.2~alpha1
+ _ZN18QFileDialogPrivate22_q_nativeFilesSelectedERK5QListI4QUrlE@Base 5.2~alpha1 1
  _ZN18QFileDialogPrivate22getEnvironmentVariableERK7QString@Base 5.0.2 1
  _ZN18QFileDialogPrivate22retranslateWindowTitleEv@Base 5.0.2 1
  _ZN18QFileDialogPrivate23_q_autoCompleteFileNameERK7QString@Base 5.0.2 1
- _ZN18QFileDialogPrivate23_q_nativeCurrentChangedERK4QUrl@Base 5.2~alpha1
- _ZN18QFileDialogPrivate23_q_nativeEnterDirectoryERK4QUrl@Base 5.2~alpha1
+ _ZN18QFileDialogPrivate23_q_nativeCurrentChangedERK4QUrl@Base 5.2~alpha1 1
+ _ZN18QFileDialogPrivate23_q_nativeEnterDirectoryERK4QUrl@Base 5.2~alpha1 1
  _ZN18QFileDialogPrivate23setLastVisitedDirectoryERK7QString@Base 5.0.2 1
  _ZN18QFileDialogPrivate4initERK7QStringS2_S2_@Base 5.0.2 1
  _ZN18QFileDialogPrivate9_q_goHomeEv@Base 5.0.2 1
@@ -3188,7 +3188,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN19QApplicationPrivate27findClosestTouchPointTargetEP12QTouchDeviceRK7QPointF@Base 5.0.2 1
  _ZN19QApplicationPrivate27initializeWidgetPaletteHashEv@Base 5.0.2 1
  _ZN19QApplicationPrivate27notifyLayoutDirectionChangeEv@Base 5.0.2 1
- _ZN19QApplicationPrivate31giveFocusAccordingToFocusPolicyEP7QWidgetP6QEvent6QPoint@Base 5.2~alpha1
+ _ZN19QApplicationPrivate31giveFocusAccordingToFocusPolicyEP7QWidgetP6QEvent6QPoint@Base 5.2~alpha1 1
  _ZN19QApplicationPrivate4selfE@Base 5.0.2 1
  _ZN19QApplicationPrivate7set_palE@Base 5.0.2 1
  _ZN19QApplicationPrivate7sys_palE@Base 5.0.2 1
@@ -6346,19 +6346,19 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK16QTreeViewPrivate10itemHeightEi@Base 5.0.2 1
  _ZNK16QTreeViewPrivate10modelIndexEii@Base 5.0.2 1
  _ZNK16QTreeViewPrivate12columnRangesERK11QModelIndexS2_@Base 5.0.2 1
- _ZNK16QTreeViewPrivate15lastVisibleItemEii@Base 5.2~alpha1
+ _ZNK16QTreeViewPrivate15lastVisibleItemEii@Base 5.2~alpha1 1
  _ZNK16QTreeViewPrivate16firstVisibleItemEPi@Base 5.0.2 1
  _ZNK16QTreeViewPrivate16itemAtCoordinateEi@Base 5.0.2 1
  _ZNK16QTreeViewPrivate16itemDecorationAtERK6QPoint@Base 5.0.2 1
  _ZNK16QTreeViewPrivate17coordinateForItemEi@Base 5.0.2 1
- _ZNK16QTreeViewPrivate17widthHintForIndexERK11QModelIndexiRK20QStyleOptionViewItemi@Base 5.2~alpha1
+ _ZNK16QTreeViewPrivate17widthHintForIndexERK11QModelIndexiRK20QStyleOptionViewItemi@Base 5.2~alpha1 1
  _ZNK16QTreeViewPrivate18calcLogicalIndicesEP7QVectorIiEPS0_IN20QStyleOptionViewItem16ViewItemPositionEEii@Base 5.0.2 1
  _ZNK16QTreeViewPrivate18hasVisibleChildrenERK11QModelIndex@Base 5.0.2 1
  _ZNK16QTreeViewPrivate18indentationForItemEi@Base 5.0.2 1
  _ZNK16QTreeViewPrivate18itemDecorationRectERK11QModelIndex@Base 5.0.2 1
  _ZNK16QTreeViewPrivate18startAndEndColumnsERK5QRect@Base 5.0.2 1
  _ZNK16QTreeViewPrivate19draggablePaintPairsERK5QListI11QModelIndexEP5QRect@Base 5.0.2 1
- _ZNK16QTreeViewPrivate19logicalIndexForTreeEv@Base 5.2~alpha1
+ _ZNK16QTreeViewPrivate19logicalIndexForTreeEv@Base 5.2~alpha1 1
  _ZNK16QTreeViewPrivate21drawAnimatedOperationEP8QPainter@Base 5.0.2 1
  _ZNK16QTreeViewPrivate25adjustViewOptionsForIndexEP20QStyleOptionViewItemRK11QModelIndex@Base 5.0.2 1
  _ZNK16QTreeViewPrivate25paintAlternatingRowColorsEP8QPainterP20QStyleOptionViewItemii@Base 5.0.2 1
@@ -6516,7 +6516,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK18QFileDialogPrivate10typedFilesEv@Base 5.0.2 1
  _ZNK18QFileDialogPrivate11currentViewEv@Base 5.0.2 1
  _ZNK18QFileDialogPrivate17userSelectedFilesEv@Base 5.0.2 1
- _ZNK18QFileDialogPrivate22addDefaultSuffixToUrlsERK5QListI4QUrlE@Base 5.2~alpha1
+ _ZNK18QFileDialogPrivate22addDefaultSuffixToUrlsERK5QListI4QUrlE@Base 5.2~alpha1 1
  _ZNK18QFileDialogPrivate23addDefaultSuffixToFilesE11QStringList@Base 5.0.2 1
  _ZNK18QFileDialogPrivate8lineEditEv@Base 5.0.2 1
  _ZNK18QGraphicsItemGroup10opaqueAreaEv@Base 5.0.2
