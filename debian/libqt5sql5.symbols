@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.2~alpha1 i386 amd64
+# SymbolsHelper-Confirmed: 5.2.0~alpha1 i386 amd64
 libQt5Sql.so.5 libqt5sql5 #MINVER#
 | libqt5sql5 #MINVER#, qtbase-abi-5-2-0
  _ZN10QSqlDriver11cancelQueryEv@Base 5.0.2

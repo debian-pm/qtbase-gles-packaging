@@ -1,11 +1,11 @@
-# SymbolsHelper-Confirmed: 5.2~alpha1 i386 amd64
+# SymbolsHelper-Confirmed: 5.2.0~alpha1 i386 amd64
 libQt5DBus.so.5 libqt5dbus5 #MINVER#
 | libqt5dbus5 #MINVER#, qtbase-abi-5-2-0
  _Z14qDBusReplyFillRK12QDBusMessageR10QDBusErrorR8QVariant@Base 5.0.2
  _Z15qDBusAddSpyHookPFvRK12QDBusMessageE@Base 5.0.2
  _Z18qDBusCheckAsyncTagPKc@Base 5.1.0
  _Z22qDBusBindToApplicationv@Base 5.0.2
- _Z24qDBusParametersForMethodRK5QListI10QByteArrayER7QVectorIiER7QString@Base 5.2~alpha1
+ _Z24qDBusParametersForMethodRK5QListI10QByteArrayER7QVectorIiER7QString@Base 5.2.0~alpha1
  _Z26qDBusGenerateMetaObjectXml7QStringPK11QMetaObjectS2_i@Base 5.0.2
  _ZN10QDBusError11errorStringENS_9ErrorTypeE@Base 5.0.2
  _ZN10QDBusErrorC1ENS_9ErrorTypeERK7QString@Base 5.0.2

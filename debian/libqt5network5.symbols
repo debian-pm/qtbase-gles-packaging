@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.2~alpha1 i386 amd64
+# SymbolsHelper-Confirmed: 5.2.0~alpha1 i386 amd64
 libQt5Network.so.5 libqt5network5 #MINVER#
 | libqt5network5 #MINVER#, qtbase-abi-5-2-0
  _Z19qt_qhostinfo_lookupRK7QStringP7QObjectPKcPbPi@Base 5.0.2
@@ -475,7 +475,7 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZN17QNetworkInterfaceD2Ev@Base 5.0.2
  _ZN17QNetworkInterfaceaSERKS_@Base 5.0.2
  _ZN17QSslConfiguration10setCiphersERK5QListI10QSslCipherE@Base 5.0.2
- _ZN17QSslConfiguration10setSessionERK10QByteArray@Base 5.2~alpha1
+ _ZN17QSslConfiguration10setSessionERK10QByteArray@Base 5.2.0~alpha1
  _ZN17QSslConfiguration11setProtocolEN4QSsl11SslProtocolE@Base 5.0.2
  _ZN17QSslConfiguration12setSslOptionEN4QSsl9SslOptionEb@Base 5.0.2
  _ZN17QSslConfiguration13setPrivateKeyERK7QSslKey@Base 5.0.2
@@ -574,7 +574,7 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZN21QNetworkAccessManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN21QNetworkAccessManager11qt_metacastEPKc@Base 5.0.2
  _ZN21QNetworkAccessManager12setCookieJarEP17QNetworkCookieJar@Base 5.0.2
- _ZN21QNetworkAccessManager13connectToHostERK7QStringt@Base 5.2~alpha1
+ _ZN21QNetworkAccessManager13connectToHostERK7QStringt@Base 5.2.0~alpha1
  _ZN21QNetworkAccessManager13createRequestENS_9OperationERK15QNetworkRequestP9QIODevice@Base 5.0.2
  _ZN21QNetworkAccessManager14deleteResourceERK15QNetworkRequest@Base 5.0.2
  _ZN21QNetworkAccessManager15setProxyFactoryEP20QNetworkProxyFactory@Base 5.0.2
@@ -584,7 +584,7 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZN21QNetworkAccessManager17sendCustomRequestERK15QNetworkRequestRK10QByteArrayP9QIODevice@Base 5.0.2
  _ZN21QNetworkAccessManager20setNetworkAccessibleENS_20NetworkAccessibilityE@Base 5.0.2
  _ZN21QNetworkAccessManager22authenticationRequiredEP13QNetworkReplyP14QAuthenticator@Base 5.0.2
- _ZN21QNetworkAccessManager22connectToHostEncryptedERK7QStringtRK17QSslConfiguration@Base 5.2~alpha1
+ _ZN21QNetworkAccessManager22connectToHostEncryptedERK7QStringtRK17QSslConfiguration@Base 5.2.0~alpha1
  _ZN21QNetworkAccessManager23networkSessionConnectedEv@Base 5.0.2
  _ZN21QNetworkAccessManager24networkAccessibleChangedENS_20NetworkAccessibilityE@Base 5.0.2
  _ZN21QNetworkAccessManager27proxyAuthenticationRequiredERK13QNetworkProxyP14QAuthenticator@Base 5.0.2
@@ -1015,10 +1015,10 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZNK17QSslConfiguration16localCertificateEv@Base 5.0.2
  _ZNK17QSslConfiguration20peerCertificateChainEv@Base 5.0.2
  _ZNK17QSslConfiguration21localCertificateChainEv@Base 5.1.0
- _ZNK17QSslConfiguration25sessionTicketLifeTimeHintEv@Base 5.2~alpha1
+ _ZNK17QSslConfiguration25sessionTicketLifeTimeHintEv@Base 5.2.0~alpha1
  _ZNK17QSslConfiguration6isNullEv@Base 5.0.2
  _ZNK17QSslConfiguration7ciphersEv@Base 5.0.2
- _ZNK17QSslConfiguration7sessionEv@Base 5.2~alpha1
+ _ZNK17QSslConfiguration7sessionEv@Base 5.2.0~alpha1
  _ZNK17QSslConfiguration8protocolEv@Base 5.0.2
  _ZNK17QSslConfigurationeqERKS_@Base 5.0.2
  _ZNK18QNetworkProxyQuery11protocolTagEv@Base 5.0.2
@@ -1045,10 +1045,10 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZNK21QNetworkAccessManager10metaObjectEv@Base 5.0.2
  _ZNK21QNetworkAccessManager12proxyFactoryEv@Base 5.0.2
  _ZNK21QNetworkAccessManager13configurationEv@Base 5.0.2
- _ZNK21QNetworkAccessManager16supportedSchemesEv@Base 5.2~alpha1
+ _ZNK21QNetworkAccessManager16supportedSchemesEv@Base 5.2.0~alpha1
  _ZNK21QNetworkAccessManager17networkAccessibleEv@Base 5.0.2
  _ZNK21QNetworkAccessManager19activeConfigurationEv@Base 5.0.2
- _ZNK21QNetworkAccessManager30supportedSchemesImplementationEv@Base 5.2~alpha1
+ _ZNK21QNetworkAccessManager30supportedSchemesImplementationEv@Base 5.2.0~alpha1
  _ZNK21QNetworkAccessManager5cacheEv@Base 5.0.2
  _ZNK21QNetworkAccessManager5proxyEv@Base 5.0.2
  _ZNK21QNetworkAccessManager9cookieJarEv@Base 5.0.2
@@ -1063,7 +1063,7 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZNK21QNetworkConfiguration10bearerTypeEv@Base 5.0.2
  _ZNK21QNetworkConfiguration10identifierEv@Base 5.0.2
  _ZNK21QNetworkConfiguration14bearerTypeNameEv@Base 5.0.2
- _ZNK21QNetworkConfiguration16bearerTypeFamilyEv@Base 5.2~alpha1
+ _ZNK21QNetworkConfiguration16bearerTypeFamilyEv@Base 5.2.0~alpha1
  _ZNK21QNetworkConfiguration18isRoamingAvailableEv@Base 5.0.2
  _ZNK21QNetworkConfiguration4nameEv@Base 5.0.2
  _ZNK21QNetworkConfiguration4typeEv@Base 5.0.2

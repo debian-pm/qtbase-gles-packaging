@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.2~alpha1 i386 amd64
+# SymbolsHelper-Confirmed: 5.2.0~alpha1 i386 amd64
 libQt5OpenGL.so.5 libqt5opengl5 #MINVER#
 | libqt5opengl5 #MINVER#, qtbase-abi-5-2-0
  _Z19qt_qgl_paint_enginev@Base 5.0.2
