@@ -664,6 +664,7 @@ usr/include/qt5/QtGui/QMatrix4x4
 usr/include/qt5/QtGui/QMouseEvent
 usr/include/qt5/QtGui/QMoveEvent
 usr/include/qt5/QtGui/QMovie
+usr/include/qt5/QtGui/QNativeGestureEvent
 usr/include/qt5/QtGui/QOffscreenSurface
 usr/include/qt5/QtGui/QOpenGLBuffer
 usr/include/qt5/QtGui/QOpenGLContext

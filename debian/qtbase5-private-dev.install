@@ -545,6 +545,7 @@ usr/include/qt5/QtWidgets/*/QtWidgets/private/qlayoutengine_p.h
 usr/include/qt5/QtWidgets/*/QtWidgets/private/qlineedit_p.h
 usr/include/qt5/QtWidgets/*/QtWidgets/private/qlistview_p.h
 usr/include/qt5/QtWidgets/*/QtWidgets/private/qlistwidget_p.h
+usr/include/qt5/QtWidgets/*/QtWidgets/private/qmacgesturerecognizer_p.h
 usr/include/qt5/QtWidgets/*/QtWidgets/private/qmacstyle_mac_p.h
 usr/include/qt5/QtWidgets/*/QtWidgets/private/qmacstyle_mac_p_p.h
 usr/include/qt5/QtWidgets/*/QtWidgets/private/qmainwindowlayout_p.h
