@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.2.0~alpha1 i386 amd64
+# SymbolsHelper-Confirmed: 5.2.0~beta1 i386 amd64
 libQt5Test.so.5 libqt5test5 #MINVER#
 | libqt5test5 #MINVER#, qtbase-abi-5-2-0
  _ZN10QTestTable15globalTestTableEv@Base 5.0.2 1
@@ -12,12 +12,12 @@ libQt5Test.so.5 libqt5test5 #MINVER#
  _ZN10QTestTableD2Ev@Base 5.0.2 1
  _ZN11QTestResult10addFailureEPKcS1_i@Base 5.0.2 1
  _ZN11QTestResult10expectFailEPKcS1_N5QTest12TestFailModeES1_i@Base 5.0.2 1
- _ZN11QTestResult14currentAppnameEv@Base 5.0.2 1
+ _ZN11QTestResult14currentAppNameEv@Base 5.2.0~beta1 1
  _ZN11QTestResult14currentDataTagEv@Base 5.0.2 1
  _ZN11QTestResult15currentTestDataEv@Base 5.0.2 1
  _ZN11QTestResult15skipCurrentTestEv@Base 5.0.2 1
  _ZN11QTestResult17currentTestFailedEv@Base 5.0.2 1
- _ZN11QTestResult17setCurrentAppnameEPKc@Base 5.0.2 1
+ _ZN11QTestResult17setCurrentAppNameEPKc@Base 5.2.0~beta1 1
  _ZN11QTestResult18setCurrentTestDataEP9QTestData@Base 5.0.2 1
  _ZN11QTestResult18setSkipCurrentTestEb@Base 5.0.2 1
  _ZN11QTestResult19currentTestFunctionEv@Base 5.0.2 1
@@ -68,6 +68,7 @@ libQt5Test.so.5 libqt5test5 #MINVER#
  _ZN5QTest13qFindTestDataERK7QStringPKciS4_@Base 5.0.2
  _ZN5QTest13testFunctionsE@Base 5.0.2
  _ZN5QTest14compare_helperEbPKcPcS2_S1_S1_S1_i@Base 5.0.2
+ _ZN5QTest14currentAppNameEv@Base 5.2.0~beta1
  _ZN5QTest14currentDataTagEv@Base 5.0.2
  _ZN5QTest15defaultKeyDelayEv@Base 5.0.2
  _ZN5QTest16qtest_qParseArgsEiPPcb@Base 5.0.2

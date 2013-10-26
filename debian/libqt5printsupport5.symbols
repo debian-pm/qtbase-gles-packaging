@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.2.0~alpha1 i386 amd64
+# SymbolsHelper-Confirmed: 5.2.0~beta1 i386 amd64
 libQt5PrintSupport.so.5 libqt5printsupport5 #MINVER#
 | libqt5printsupport5 #MINVER#, qtbase-abi-5-2-0
  _Z19qt_printerPaperSizeN8QPrinter11OrientationEN17QPagedPaintDevice8PageSizeENS_4UnitEi@Base 5.0.2
@@ -18,6 +18,7 @@ libQt5PrintSupport.so.5 libqt5printsupport5 #MINVER#
  _ZN12QCUPSSupport14setCupsOptionsEP8QPrinterRK11QStringList@Base 5.2.0~alpha1 1
  _ZN12QCUPSSupport14setJobPriorityEP8QPrinteri@Base 5.2.0~alpha1 1
  _ZN12QCUPSSupport15cupsOptionsListEP8QPrinter@Base 5.2.0~alpha1 1
+ _ZN12QCUPSSupport17setCurrentPrinterERK7QString@Base 5.2.0~beta1 1
  _ZN12QCUPSSupport17setCurrentPrinterEi@Base 5.0.2 1
  _ZN12QCUPSSupport21availableUnixPrintersEv@Base 5.0.2 1
  _ZN12QCUPSSupport22setPagesPerSheetLayoutEP8QPrinterNS_13PagesPerSheetENS_19PagesPerSheetLayoutE@Base 5.2.0~alpha1 1
