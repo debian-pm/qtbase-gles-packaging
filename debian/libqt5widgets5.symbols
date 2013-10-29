@@ -8066,10 +8066,6 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZTV9QTreeView@Base 5.0.2
  _ZTV9QUndoView@Base 5.0.2
  _ZTVN16QTreeViewPrivate17AnimatedOperationE@Base 5.0.2 1
- (optional=templinst|arch=amd64)_ZThn16_N16QKeySequenceEditD0Ev@Base 5.2.0~alpha1
- (optional=templinst|arch=amd64)_ZThn16_N16QKeySequenceEditD1Ev@Base 5.2.0~alpha1
- (optional=templinst|arch=!amd64)_ZThn8_N16QKeySequenceEditD0Ev@Base 5.2.0~alpha1
- (optional=templinst|arch=!amd64)_ZThn8_N16QKeySequenceEditD1Ev@Base 5.2.0~alpha1
  _ZZZNK18QFileDialogPrivate8rootPathEvENKUlvE_clEvE15qstring_literal@Base 5.2.0~beta1 1
  _Zls6QDebug6QFlagsIN13QGraphicsItem16GraphicsItemFlagEE@Base 5.0.2
  _Zls6QDebug6QFlagsIN6QStyle9StateFlagEE@Base 5.0.2
@@ -8228,6 +8224,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  (c++)"non-virtual thunk to QHBoxLayout::~QHBoxLayout()@Base" 5.0.2
  (c++)"non-virtual thunk to QHeaderView::~QHeaderView()@Base" 5.0.2
  (c++)"non-virtual thunk to QInputDialog::~QInputDialog()@Base" 5.0.2
+ (c++)"non-virtual thunk to QKeySequenceEdit::~QKeySequenceEdit()@Base" 5.2.0~alpha1
  (c++)"non-virtual thunk to QLCDNumber::~QLCDNumber()@Base" 5.0.2
  (c++)"non-virtual thunk to QLabel::~QLabel()@Base" 5.0.2
  (c++)"non-virtual thunk to QLayout::controlTypes() const@Base" 5.0.2
