@@ -1,10 +1,9 @@
-qtbase-opensource-src (5.1.1+dfsg-5) UNRELEASED; urgency=low
+qtbase-opensource-src (5.1.1+dfsg-5) unstable; urgency=low
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * Add mips64 and mipsel64 to the list of archs that should use linux-g++
     instead of linux-g++-64 (Closes: #727139).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 22 Oct 2013 13:57:00 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Fri, 01 Nov 2013 17:06:21 -0300
 
 qtbase-opensource-src (5.1.1+dfsg-4) unstable; urgency=low
 
