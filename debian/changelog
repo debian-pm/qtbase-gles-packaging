@@ -1,5 +1,9 @@
 qtbase-opensource-src (5.2.0~beta1+dfsg-2) UNRELEASED; urgency=low
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Qt switches qreal to double for all archs. In Debian's case we will only
+    keep armel and sh4 with qreal as float.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 01 Nov 2013 13:48:48 -0300
 
 qtbase-opensource-src (5.2.0~beta1+dfsg-1) experimental; urgency=low
