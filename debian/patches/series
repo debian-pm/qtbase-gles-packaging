@@ -3,3 +3,4 @@ linux_no_perf.diff
 hurd_opengl_incldir.diff
 
 # Debian specific.
+50_kfreebsd_Q_OS.diff
