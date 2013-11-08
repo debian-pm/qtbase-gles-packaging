@@ -4,8 +4,6 @@ qtbase-opensource-src (5.2.0~beta1+dfsg-2) UNRELEASED; urgency=low
   * Install KMS/EGL CMake's configuration files for armhf.
     - Create debian/qtbase5-dev.install-armhf.
     - Move debian/qtbase5-dev.install to debian/qtbase5-dev.install-common.
-  * Backport 50_kfreebsd_Q_OS.diff from Qt4's packaging in order to solve a
-    FTBFS in KFreeBSD.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 01 Nov 2013 13:48:48 -0300
 
