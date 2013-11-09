@@ -5,6 +5,9 @@ qtbase-opensource-src (5.2.0~beta1+dfsg-2) UNRELEASED; urgency=low
     - Create debian/qtbase5-dev.install-armhf.
     - Move debian/qtbase5-dev.install to debian/qtbase5-dev.install-common.
 
+  [ Dmitry Shachnev ]
+  * libqt5core5.symbols: Merge duplicate symbols into single entries.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 01 Nov 2013 13:48:48 -0300
 
 qtbase-opensource-src (5.2.0~beta1+dfsg-1) experimental; urgency=low
