@@ -7,6 +7,8 @@ qtbase-opensource-src (5.2.0~beta1+dfsg-2) UNRELEASED; urgency=low
   * Update symbols files.
   * Import upstream's fix_power_atomic_code.patch for fixing PowerPC's FTBFS
     (Closes: #729265). Thanks Aurelien Jarno for the patch.
+  * Import upstream's support_mips_atomic_on_pre-mips32_archs.patch for fixing
+    MIPS's FTBFS (Closes: #729187). Thanks Aurelien Jarno for the patch.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 01 Nov 2013 13:48:48 -0300
 
