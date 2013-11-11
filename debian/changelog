@@ -5,6 +5,8 @@ qtbase-opensource-src (5.2.0~beta1+dfsg-2) UNRELEASED; urgency=low
     - Create debian/qtbase5-dev.install-armhf.
     - Move debian/qtbase5-dev.install to debian/qtbase5-dev.install-common.
   * Update symbols files.
+  * Import upstream's fix_power_atomic_code.patch for fixing PowerPC's FTBFS
+    (Closes: #729265). Thanks Aurelien Jarno for the patch.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 01 Nov 2013 13:48:48 -0300
 
