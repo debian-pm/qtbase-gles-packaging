@@ -1,6 +1,5 @@
-qtbase-opensource-src (5.2.0~beta1+dfsg-2) UNRELEASED; urgency=low
+qtbase-opensource-src (5.2.0~beta1+dfsg-2) experimental; urgency=low
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * Install KMS/EGL CMake's configuration files for armhf.
     - Create debian/qtbase5-dev.install-armhf.
     - Move debian/qtbase5-dev.install to debian/qtbase5-dev.install-common.
@@ -10,7 +9,7 @@ qtbase-opensource-src (5.2.0~beta1+dfsg-2) UNRELEASED; urgency=low
   * Import upstream's support_mips_atomic_on_pre-mips32_archs.patch for fixing
     MIPS's FTBFS (Closes: #729187). Thanks Aurelien Jarno for the patch.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 01 Nov 2013 13:48:48 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 11 Nov 2013 11:22:49 -0300
 
 qtbase-opensource-src (5.2.0~beta1+dfsg-1) experimental; urgency=low
 
