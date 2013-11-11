@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.2.0~alpha1 i386 amd64
+# SymbolsHelper-Confirmed: 5.2.0~beta1 s390x
 libQt5Network.so.5 libqt5network5 #MINVER#
 | libqt5network5 #MINVER#, qtbase-abi-5-2-0
  _Z19qt_qhostinfo_lookupRK7QStringP7QObjectPKcPbPi@Base 5.0.2

@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.2.0~beta1 i386 amd64
+# SymbolsHelper-Confirmed: 5.2.0~beta1 amd64 i386 ia64 s390x
 libQt5Gui.so.5 libqt5gui5 #MINVER#
 | libqt5gui5 #MINVER#, qtbase-abi-5-2-0
  _Z11qDrawBorderP8QPainterRK5QRectPKN4QCss11BorderStyleEPKiPK6QBrushPK5QSize@Base 5.0.2
@@ -559,8 +559,8 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN11QTextEngine10LayoutDataD2Ev@Base 5.0.2 1
  _ZN11QTextEngine10freeMemoryEv@Base 5.0.2 1
  _ZN11QTextEngine10invalidateEv@Base 5.0.2 1
- (optional=gccinternal|arch=alpha powerpcspe s390 s390x)_ZN11QTextEngine11SpecialDataD1Ev@Base 5.0.2 1
- (optional=gccinternal|arch=alpha powerpcspe s390 s390x)_ZN11QTextEngine11SpecialDataD2Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=alpha ia64 powerpcspe s390 s390x)_ZN11QTextEngine11SpecialDataD1Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=alpha ia64 powerpcspe s390 s390x)_ZN11QTextEngine11SpecialDataD2Ev@Base 5.0.2 1
  _ZN11QTextEngine11addOverlineEP8QPainterRK6QLineF@Base 5.0.2 1
  _ZN11QTextEngine11bidiReorderEiPKhPi@Base 5.0.2 1
  _ZN11QTextEngine12addStrikeOutEP8QPainterRK6QLineF@Base 5.0.2 1
@@ -6034,7 +6034,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK8QRawFonteqERKS_@Base 5.0.2
  _ZNK8QSurface12surfaceClassEv@Base 5.0.2
  (optional=templinst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x)_ZNK8QVariant5valueI5QFontEET_v@Base 5.0.2
- (optional=templinst|arch=ia64)_ZNK8QVariant5valueI5QListIS_EEET_v@Base 5.0.2
  (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZNK8QVariant5valueI6QImageEET_v@Base 5.0.2
  (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZNK8QVariant5valueI7QPixmapEET_v@Base 5.0.2
  (optional=templinst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x)_ZNK8QVariant5valueI7QRegionEET_v@Base 5.0.2
@@ -6135,53 +6134,134 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK9QVector4D16toVector3DAffineEv@Base 5.0.2
  _ZNK9QVector4D6lengthEv@Base 5.0.2
  _ZNK9QVector4Dcv8QVariantEv@Base 5.0.2
+ (optional=templinst|arch=ia64 s390x)_ZNSt17_Temporary_bufferIP5QPairIP13QStandardItemiES3_EC1ES4_S4_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZNSt17_Temporary_bufferIP5QPairIP13QStandardItemiES3_EC2ES4_S4_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt11__push_heapIN5QListI9QTtfGlyphE8iteratorExS1_EvT_T0_S5_T1_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt11__push_heapIN5QListI9QTtfTableE8iteratorExS1_EvT_T0_S5_T1_@Base 5.2.0~beta1
+ (optional=templinst|arch=s390x)_ZSt11__push_heapIPN13QPathSegments12IntersectionElS1_EvT_T0_S4_T1_@Base 5.2.0~beta1
  (optional=templinst|arch=armhf powerpc powerpcspe s390)_ZSt11__push_heapIPN13QTriangulatorIjE15ComplexToSimple5EventEiS3_EvT_T0_S6_T1_@Base 5.0.2
  (optional=templinst|arch=armhf powerpc powerpcspe s390)_ZSt11__push_heapIPN13QTriangulatorItE15ComplexToSimple5EventEiS3_EvT_T0_S6_T1_@Base 5.0.2
+ (optional=templinst|arch=s390x)_ZSt11__push_heapIPN14QScanConverter4LineElS1_PFbRKS1_S4_EEvT_T0_S8_T1_T2_@Base 5.2.0~beta1
  (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt11lower_boundIN5QListI14QShortcutEntryE14const_iteratorES1_ET_S4_S4_RKT0_@Base 5.0.2
+ (optional=templinst|arch=ia64 s390x)_ZSt11lower_boundIN5QListIiE14const_iteratorE19QFragmentFindHelperET_S4_S4_RKT0_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt11lower_boundIN5QListIiE8iteratorE19QFragmentFindHelperET_S4_S4_RKT0_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt12__move_mergeIP5QPairIP13QStandardItemiES4_S4_26QStandardItemModelLessThanET1_T_S7_T0_S8_S6_T2_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt12__move_mergeIP5QPairIP13QStandardItemiES4_S4_29QStandardItemModelGreaterThanET1_T_S7_T0_S8_S6_T2_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt13__adjust_heapIN5QListI10QByteArrayE8iteratorExS1_EvT_T0_S5_T1_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt13__adjust_heapIN5QListI9QTtfGlyphE8iteratorExS1_EvT_T0_S5_T1_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt13__adjust_heapIN5QListI9QTtfTableE8iteratorExS1_EvT_T0_S5_T1_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt13__adjust_heapIN5QListIN13QFontDatabase13WritingSystemEE8iteratorExS2_EvT_T0_S6_T1_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt13__adjust_heapIN5QListIiE8iteratorExiEvT_T0_S4_T1_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt13__adjust_heapIP13QCrossingEdgelS0_EvT_T0_S3_T1_@Base 5.2.0~beta1
  (subst)_ZSt13__adjust_heapIPN11QFontEngine8KernPairE{ssize_t}S1_EvT_T0_S4_T1_@Base 5.2.0~alpha1 1
+ (optional=templinst|arch=ia64 s390x)_ZSt13__adjust_heapIPN13QPathSegments12IntersectionElS1_EvT_T0_S4_T1_@Base 5.2.0~beta1
  (optional=templinst|arch=s390)_ZSt13__adjust_heapIPN13QTriangulatorIjE15ComplexToSimple5EventEiS3_EvT_T0_S6_T1_@Base 5.0.2
  (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390x|subst)_ZSt13__adjust_heapIPN13QTriangulatorIjE15ComplexToSimple5EventE{ssize_t}S3_EvT_T0_S6_T1_@Base 5.0.2
  (optional=templinst|arch=s390)_ZSt13__adjust_heapIPN13QTriangulatorItE15ComplexToSimple5EventEiS3_EvT_T0_S6_T1_@Base 5.0.2
  (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390x|subst)_ZSt13__adjust_heapIPN13QTriangulatorItE15ComplexToSimple5EventE{ssize_t}S3_EvT_T0_S6_T1_@Base 5.0.2
+ (optional=templinst|arch=ia64 s390x)_ZSt13__adjust_heapIPN14QScanConverter4LineElS1_PFbRKS1_S4_EEvT_T0_S8_T1_T2_@Base 5.2.0~beta1
  (subst)_ZSt13__adjust_heapIPPK7QPointF{ssize_t}S2_PFbS2_S2_EEvT_T0_S7_T1_T2_@Base 5.2.0~alpha1
  (subst)_ZSt13__adjust_heapIPd{ssize_t}dEvT_T0_S2_T1_@Base 5.2.0~alpha1
  (optional=templinst|arch=s390)_ZSt13__adjust_heapIPiiiN13QTriangulatorIjE16SimpleToMonotone15CompareVerticesEEvT_T0_S6_T1_T2_@Base 5.0.2
  (optional=templinst|arch=s390)_ZSt13__adjust_heapIPiiiN13QTriangulatorItE16SimpleToMonotone15CompareVerticesEEvT_T0_S6_T1_T2_@Base 5.0.2
  (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390x|subst)_ZSt13__adjust_heapIPi{ssize_t}iN13QTriangulatorIjE16SimpleToMonotone15CompareVerticesEEvT_T0_S6_T1_T2_@Base 5.0.2
  (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390x|subst)_ZSt13__adjust_heapIPi{ssize_t}iN13QTriangulatorItE16SimpleToMonotone15CompareVerticesEEvT_T0_S6_T1_T2_@Base 5.0.2
- _ZSt13__heap_selectIPN11QFontEngine8KernPairEEvT_S3_S3_@Base 5.2.0~alpha1 1
+ (optional=templinst|arch=ia64 s390x)_ZSt13__heap_selectIN5QListIN13QFontDatabase13WritingSystemEE8iteratorEEvT_S5_S5_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt13__heap_selectIN5QListIiE8iteratorEEvT_S3_S3_@Base 5.2.0~beta1
+ (arch=amd64 i386)_ZSt13__heap_selectIPN11QFontEngine8KernPairEEvT_S3_S3_@Base 5.2.0~beta1 1
+ (optional=templinst|arch=ia64 s390x)_ZSt13__heap_selectIPN13QPathSegments12IntersectionEEvT_S3_S3_@Base 5.2.0~beta1
  (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt13__heap_selectIPN13QTriangulatorIjE15ComplexToSimple5EventEEvT_S5_S5_@Base 5.0.2
  (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt13__heap_selectIPN13QTriangulatorItE15ComplexToSimple5EventEEvT_S5_S5_@Base 5.0.2
+ (optional=templinst|arch=ia64 s390x)_ZSt13__heap_selectIPN14QScanConverter4LineEPFbRKS1_S4_EEvT_S7_S7_T0_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt13__heap_selectIPPK7QPointFPFbS2_S2_EEvT_S6_S6_T0_@Base 5.2.0~beta1
  (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt13__heap_selectIPiN13QTriangulatorIjE16SimpleToMonotone15CompareVerticesEEvT_S5_S5_T0_@Base 5.0.2
  (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt13__heap_selectIPiN13QTriangulatorItE16SimpleToMonotone15CompareVerticesEEvT_S5_S5_T0_@Base 5.0.2
+ (optional=templinst|arch=ia64 s390x)_ZSt16__insertion_sortIN5QListI10QByteArrayE8iteratorEEvT_S4_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt16__insertion_sortIN5QListI9QTtfGlyphE8iteratorEEvT_S4_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt16__insertion_sortIN5QListI9QTtfTableE8iteratorEEvT_S4_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt16__insertion_sortIN5QListIN13QFontDatabase13WritingSystemEE8iteratorEEvT_S5_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt16__insertion_sortIN5QListIiE8iteratorEEvT_S3_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt16__insertion_sortIP13QCrossingEdgeEvT_S2_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt16__insertion_sortIP5QPairIP13QStandardItemiE26QStandardItemModelLessThanEvT_S6_T0_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt16__insertion_sortIP5QPairIP13QStandardItemiE29QStandardItemModelGreaterThanEvT_S6_T0_@Base 5.2.0~beta1
  _ZSt16__insertion_sortIPN11QFontEngine8KernPairEEvT_S3_@Base 5.2.0~alpha1 1
+ (optional=templinst|arch=ia64 s390x)_ZSt16__insertion_sortIPN13QPathSegments12IntersectionEEvT_S3_@Base 5.2.0~beta1
  (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt16__insertion_sortIPN13QTriangulatorIjE15ComplexToSimple5EventEEvT_S5_@Base 5.0.2
  (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt16__insertion_sortIPN13QTriangulatorItE15ComplexToSimple5EventEEvT_S5_@Base 5.0.2
+ (optional=templinst|arch=ia64 s390x)_ZSt16__insertion_sortIPN14QScanConverter4LineEPFbRKS1_S4_EEvT_S7_T0_@Base 5.2.0~beta1
  _ZSt16__insertion_sortIPPK7QPointFPFbS2_S2_EEvT_S6_T0_@Base 5.2.0~alpha1
  _ZSt16__insertion_sortIPdEvT_S1_@Base 5.2.0~alpha1
  (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt16__insertion_sortIPiN13QTriangulatorIjE16SimpleToMonotone15CompareVerticesEEvT_S5_T0_@Base 5.0.2
  (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt16__insertion_sortIPiN13QTriangulatorItE16SimpleToMonotone15CompareVerticesEEvT_S5_T0_@Base 5.0.2
+ (optional=templinst|arch=ia64 s390x)_ZSt16__introsort_loopIN5QListI10QByteArrayE8iteratorEiEvT_S4_T0_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt16__introsort_loopIN5QListI9QTtfGlyphE8iteratorEiEvT_S4_T0_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt16__introsort_loopIN5QListI9QTtfTableE8iteratorEiEvT_S4_T0_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt16__introsort_loopIN5QListIN13QFontDatabase13WritingSystemEE8iteratorEiEvT_S5_T0_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt16__introsort_loopIN5QListIiE8iteratorEiEvT_S3_T0_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt16__introsort_loopIP13QCrossingEdgelEvT_S2_T0_@Base 5.2.0~beta1
  (subst)_ZSt16__introsort_loopIPN11QFontEngine8KernPairE{ssize_t}EvT_S3_T0_@Base 5.2.0~alpha1 1
+ (optional=templinst|arch=ia64 s390x)_ZSt16__introsort_loopIPN13QPathSegments12IntersectionElEvT_S3_T0_@Base 5.2.0~beta1
  (optional=templinst|arch=s390)_ZSt16__introsort_loopIPN13QTriangulatorIjE15ComplexToSimple5EventEiEvT_S5_T0_@Base 5.0.2
  (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390x|subst)_ZSt16__introsort_loopIPN13QTriangulatorIjE15ComplexToSimple5EventE{ssize_t}EvT_S5_T0_@Base 5.0.2
  (optional=templinst|arch=s390)_ZSt16__introsort_loopIPN13QTriangulatorItE15ComplexToSimple5EventEiEvT_S5_T0_@Base 5.0.2
  (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390x|subst)_ZSt16__introsort_loopIPN13QTriangulatorItE15ComplexToSimple5EventE{ssize_t}EvT_S5_T0_@Base 5.0.2
+ (optional=templinst|arch=ia64 s390x)_ZSt16__introsort_loopIPN14QScanConverter4LineElPFbRKS1_S4_EEvT_S7_T0_T1_@Base 5.2.0~beta1
  (subst)_ZSt16__introsort_loopIPPK7QPointF{ssize_t}PFbS2_S2_EEvT_S6_T0_T1_@Base 5.2.0~alpha1
  (subst)_ZSt16__introsort_loopIPd{ssize_t}EvT_S1_T0_@Base 5.2.0~alpha1
  (optional=templinst|arch=s390)_ZSt16__introsort_loopIPiiN13QTriangulatorIjE16SimpleToMonotone15CompareVerticesEEvT_S5_T0_T1_@Base 5.0.2
  (optional=templinst|arch=s390)_ZSt16__introsort_loopIPiiN13QTriangulatorItE16SimpleToMonotone15CompareVerticesEEvT_S5_T0_T1_@Base 5.0.2
  (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390x|subst)_ZSt16__introsort_loopIPi{ssize_t}N13QTriangulatorIjE16SimpleToMonotone15CompareVerticesEEvT_S5_T0_T1_@Base 5.0.2
  (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390x|subst)_ZSt16__introsort_loopIPi{ssize_t}N13QTriangulatorItE16SimpleToMonotone15CompareVerticesEEvT_S5_T0_T1_@Base 5.0.2
+ (optional=templinst|arch=ia64 s390x)_ZSt16__merge_adaptiveIP5QPairIP13QStandardItemiElS4_26QStandardItemModelLessThanEvT_S6_S6_T0_S7_T1_S7_T2_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt16__merge_adaptiveIP5QPairIP13QStandardItemiElS4_29QStandardItemModelGreaterThanEvT_S6_S6_T0_S7_T1_S7_T2_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt17__merge_sort_loopIP5QPairIP13QStandardItemiES4_l26QStandardItemModelLessThanEvT_S6_T0_T1_T2_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt17__merge_sort_loopIP5QPairIP13QStandardItemiES4_l29QStandardItemModelGreaterThanEvT_S6_T0_T1_T2_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt17__rotate_adaptiveIP5QPairIP13QStandardItemiES4_lET_S5_S5_S5_T1_S6_T0_S6_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt19__move_median_firstIN5QListI10QByteArrayE8iteratorEEvT_S4_S4_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt19__move_median_firstIN5QListI9QTtfGlyphE8iteratorEEvT_S4_S4_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt19__move_median_firstIN5QListI9QTtfTableE8iteratorEEvT_S4_S4_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt19__move_median_firstIN5QListIN13QFontDatabase13WritingSystemEE8iteratorEEvT_S5_S5_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt19__move_median_firstIN5QListIiE8iteratorEEvT_S3_S3_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt19__move_median_firstIP13QCrossingEdgeEvT_S2_S2_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt19__move_median_firstIPN11QFontEngine8KernPairEEvT_S3_S3_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt19__move_median_firstIPN13QPathSegments12IntersectionEEvT_S3_S3_@Base 5.2.0~beta1
  (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt19__move_median_firstIPN13QTriangulatorIjE15ComplexToSimple5EventEEvT_S5_S5_@Base 5.0.2
  (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt19__move_median_firstIPN13QTriangulatorItE15ComplexToSimple5EventEEvT_S5_S5_@Base 5.0.2
+ (optional=templinst|arch=ia64 s390x)_ZSt19__move_median_firstIPN14QScanConverter4LineEPFbRKS1_S4_EEvT_S7_S7_T0_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt19__move_median_firstIPPK7QPointFPFbS2_S2_EEvT_S6_S6_T0_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt19__move_median_firstIPdEvT_S1_S1_@Base 5.2.0~beta1
  (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt19__move_median_firstIPiN13QTriangulatorIjE16SimpleToMonotone15CompareVerticesEEvT_S5_S5_T0_@Base 5.0.2
  (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt19__move_median_firstIPiN13QTriangulatorItE16SimpleToMonotone15CompareVerticesEEvT_S5_S5_T0_@Base 5.0.2
+ (optional=templinst|arch=ia64 s390x)_ZSt21__unguarded_partitionIN5QListI10QByteArrayE8iteratorES1_ET_S4_S4_RKT0_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt21__unguarded_partitionIN5QListI9QTtfGlyphE8iteratorES1_ET_S4_S4_RKT0_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt21__unguarded_partitionIN5QListI9QTtfTableE8iteratorES1_ET_S4_S4_RKT0_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt21__unguarded_partitionIN5QListIN13QFontDatabase13WritingSystemEE8iteratorES2_ET_S5_S5_RKT0_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt22__final_insertion_sortIN5QListIN13QFontDatabase13WritingSystemEE8iteratorEEvT_S5_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt22__merge_without_bufferIP5QPairIP13QStandardItemiEl26QStandardItemModelLessThanEvT_S6_S6_T0_S7_T1_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt22__merge_without_bufferIP5QPairIP13QStandardItemiEl29QStandardItemModelGreaterThanEvT_S6_S6_T0_S7_T1_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt22__stable_sort_adaptiveIP5QPairIP13QStandardItemiES4_l26QStandardItemModelLessThanEvT_S6_T0_T1_T2_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt22__stable_sort_adaptiveIP5QPairIP13QStandardItemiES4_l29QStandardItemModelGreaterThanEvT_S6_T0_T1_T2_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt24__merge_sort_with_bufferIP5QPairIP13QStandardItemiES4_26QStandardItemModelLessThanEvT_S6_T0_T1_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt24__merge_sort_with_bufferIP5QPairIP13QStandardItemiES4_29QStandardItemModelGreaterThanEvT_S6_T0_T1_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt25__unguarded_linear_insertIN5QListI10QByteArrayE8iteratorEEvT_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt25__unguarded_linear_insertIN5QListI9QTtfGlyphE8iteratorEEvT_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt25__unguarded_linear_insertIN5QListI9QTtfTableE8iteratorEEvT_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt25__unguarded_linear_insertIP13QCrossingEdgeEvT_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt25__unguarded_linear_insertIPN13QPathSegments12IntersectionEEvT_@Base 5.2.0~beta1
  (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt25__unguarded_linear_insertIPN13QTriangulatorIjE15ComplexToSimple5EventEEvT_@Base 5.0.2
  (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt25__unguarded_linear_insertIPN13QTriangulatorItE15ComplexToSimple5EventEEvT_@Base 5.0.2
- _ZSt25__unguarded_linear_insertIPPK7QPointFPFbS2_S2_EEvT_T0_@Base 5.2.0~alpha1
+ (optional=templinst|arch=ia64 s390x)_ZSt25__unguarded_linear_insertIPN14QScanConverter4LineEPFbRKS1_S4_EEvT_T0_@Base 5.2.0~beta1
+ (arch=amd64 i386)_ZSt25__unguarded_linear_insertIPPK7QPointFPFbS2_S2_EEvT_T0_@Base 5.2.0~beta1
  (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt25__unguarded_linear_insertIPiN13QTriangulatorIjE16SimpleToMonotone15CompareVerticesEEvT_T0_@Base 5.0.2
  (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt25__unguarded_linear_insertIPiN13QTriangulatorItE16SimpleToMonotone15CompareVerticesEEvT_T0_@Base 5.0.2
+ (optional=templinst|arch=ia64 s390x)_ZSt30__move_merge_adaptive_backwardIP5QPairIP13QStandardItemiES4_S4_26QStandardItemModelLessThanEvT_S6_T0_S7_T1_T2_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt30__move_merge_adaptive_backwardIP5QPairIP13QStandardItemiES4_S4_29QStandardItemModelGreaterThanEvT_S6_T0_S7_T1_T2_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt4sortIN5QListIiE8iteratorEEvT_S3_@Base 5.2.0~beta1
  (optional=templinst|arch=armel hurd-i386 i386)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 5.0.2
+ (optional=templinst|arch=ia64 s390x)_ZSt8__rotateIP5QPairIP13QStandardItemiEEvT_S5_S5_St26random_access_iterator_tag@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt9make_heapIN5QListI10QByteArrayE8iteratorEEvT_S4_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt9make_heapIN5QListI9QTtfGlyphE8iteratorEEvT_S4_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 s390x)_ZSt9make_heapIN5QListI9QTtfTableE8iteratorEEvT_S4_@Base 5.2.0~beta1
  _ZTI10QBasicDrag@Base 5.1.0 1
  _ZTI10QBlittable@Base 5.0.2 1
  _ZTI10QClipboard@Base 5.0.2
