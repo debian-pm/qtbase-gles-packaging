@@ -1,0 +1,2 @@
+usr/lib/*/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake
+usr/lib/*/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake

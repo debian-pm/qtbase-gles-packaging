@@ -1506,8 +1506,6 @@ usr/lib/*/cmake/Qt5Gui/Qt5GuiConfig.cmake
 usr/lib/*/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake
 usr/lib/*/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake
 usr/lib/*/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake
-usr/lib/*/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake
-usr/lib/*/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake
 usr/lib/*/cmake/Qt5Gui/Qt5Gui_QGtk2ThemePlugin.cmake
 usr/lib/*/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake
 usr/lib/*/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake
