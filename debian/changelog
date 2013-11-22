@@ -5,6 +5,7 @@ qtbase-opensource-src (5.2.0~beta1+dfsg-3) UNRELEASED; urgency=low
     - Create debian/qtbase5-dev.install-armel.
   * Install the QEvdev CMake related files only in Linux, as they are not
     present in Hurd.
+  * Update symbols files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 22 Nov 2013 12:09:45 -0300
 
