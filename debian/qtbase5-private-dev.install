@@ -123,8 +123,8 @@ usr/include/qt5/QtCore/*/QtCore/private/qtextstream_p.h
 usr/include/qt5/QtCore/*/QtCore/private/qthread_p.h
 usr/include/qt5/QtCore/*/QtCore/private/qthreadpool_p.h
 usr/include/qt5/QtCore/*/QtCore/private/qtimerinfo_unix_p.h
-usr/include/qt5/QtCore/*/QtCore/private/qtimezoneprivate_p.h
 usr/include/qt5/QtCore/*/QtCore/private/qtimezoneprivate_data_p.h
+usr/include/qt5/QtCore/*/QtCore/private/qtimezoneprivate_p.h
 usr/include/qt5/QtCore/*/QtCore/private/qtldurl_p.h
 usr/include/qt5/QtCore/*/QtCore/private/qtools_p.h
 usr/include/qt5/QtCore/*/QtCore/private/qtranslator_p.h
