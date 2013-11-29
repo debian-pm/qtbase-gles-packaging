@@ -1,7 +1,10 @@
-qtbase-opensource-src (5.2.0~beta1+dfsg-4) UNRELEASED; urgency=low
+qtbase-opensource-src (5.2.0~rc1+dfsg-1) UNRELEASED; urgency=low
 
   [ Dmitry Shachnev ]
   * Fix two wrongly sorted lines in qtbase5-private-dev.install (thanks Timo).
+
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * New upstream release.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 26 Nov 2013 19:31:35 +0400
 
