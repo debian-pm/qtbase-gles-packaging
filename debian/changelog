@@ -8,6 +8,7 @@ qtbase-opensource-src (5.2.0~rc1+dfsg-1) UNRELEASED; urgency=low
   * Upstream switched qreal to double for all archs. In Debian's case we will only
     keep armel and sh4 with qreal as float.
   * Update install files.
+  * Update symbols files, marking private symbols as such.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 26 Nov 2013 19:31:35 +0400
 

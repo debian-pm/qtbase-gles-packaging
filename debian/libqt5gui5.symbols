@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.2.0~beta1 amd64 i386 ia64 ppc64 s390x
+# SymbolsHelper-Confirmed: 5.2.0~rc1 amd64
 libQt5Gui.so.5 libqt5gui5 #MINVER#
 | libqt5gui5 #MINVER#, qtbase-abi-5-2-0
  _Z11qDrawBorderP8QPainterRK5QRectPKN4QCss11BorderStyleEPKiPK6QBrushPK5QSize@Base 5.0.2
@@ -1413,6 +1413,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN14QTextTableCell9setFormatERK15QTextCharFormat@Base 5.0.2
  _ZN14QWindowPrivate11applyCursorEv@Base 5.0.2 1
  _ZN14QWindowPrivate13_q_clearAlertEv@Base 5.1.0 1
+ _ZN14QWindowPrivate16clearFocusObjectEv@Base 5.2.0~rc1 1
  _ZN14QWindowPrivate16updateVisibilityEv@Base 5.1.0 1
  _ZN14QWindowPrivate27maybeQuitOnLastWindowClosedEv@Base 5.0.2 1
  _ZN14QWindowPrivate9setCursorEPK7QCursor@Base 5.1.0 1
@@ -1469,6 +1470,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN15QGuiApplication25setQuitOnLastWindowClosedEb@Base 5.0.2
  _ZN15QGuiApplication4execEv@Base 5.0.2
  _ZN15QGuiApplication4fontEv@Base 5.0.2
+ _ZN15QGuiApplication4syncEv@Base 5.2.0~rc1
  _ZN15QGuiApplication5eventEP6QEvent@Base 5.0.2
  _ZN15QGuiApplication6notifyEP7QObjectP6QEvent@Base 5.0.2
  _ZN15QGuiApplication7paletteEv@Base 5.0.2
@@ -2196,8 +2198,8 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN19QOpenGLTextureCache12freeResourceEP14QOpenGLContext@Base 5.0.2 1
  _ZN19QOpenGLTextureCache15cacheForContextEP14QOpenGLContext@Base 5.0.2 1
  _ZN19QOpenGLTextureCache18invalidateResourceEv@Base 5.0.2 1
- _ZN19QOpenGLTextureCacheC1EP14QOpenGLContextb@Base 5.1.0 1
- _ZN19QOpenGLTextureCacheC2EP14QOpenGLContextb@Base 5.1.0 1
+ _ZN19QOpenGLTextureCacheC1EP14QOpenGLContext@Base 5.2.0~rc1 1
+ _ZN19QOpenGLTextureCacheC2EP14QOpenGLContext@Base 5.2.0~rc1 1
  _ZN19QOpenGLTextureCacheD0Ev@Base 5.0.2 1
  _ZN19QOpenGLTextureCacheD1Ev@Base 5.0.2 1
  _ZN19QOpenGLTextureCacheD2Ev@Base 5.0.2 1
@@ -2515,6 +2517,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN20QPlatformCursorImage3setERK6QImageii@Base 5.0.2 1
  _ZN20QPlatformIntegration10initializeEv@Base 5.2.0~beta1 1
  _ZN20QPlatformIntegration11screenAddedEP15QPlatformScreen@Base 5.0.2 1
+ _ZN20QPlatformIntegration4syncEv@Base 5.2.0~rc1 1
  _ZN20QPlatformThemePlugin11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
  _ZN20QPlatformThemePlugin11qt_metacastEPKc@Base 5.0.2 1
  _ZN20QPlatformThemePlugin16staticMetaObjectE@Base 5.0.2 1
@@ -2532,6 +2535,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN20QTextTableCellFormatC2Ev@Base 5.0.2
  _ZN21QGenericPluginFactory4keysEv@Base 5.0.2
  _ZN21QGenericPluginFactory6createERK7QStringS2_@Base 5.0.2
+ _ZN21QMessageDialogOptions10buttonRoleENS_14StandardButtonE@Base 5.2.0~rc1 1
  _ZN21QMessageDialogOptions14setWindowTitleERK7QString@Base 5.2.0~alpha1 1
  _ZN21QMessageDialogOptions15setDetailedTextERK7QString@Base 5.2.0~alpha1 1
  _ZN21QMessageDialogOptions18setInformativeTextERK7QString@Base 5.2.0~alpha1 1
@@ -2872,7 +2876,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN22QWindowSystemInterface19handleFileOpenEventERK4QUrl@Base 5.1.0 1
  _ZN22QWindowSystemInterface19handleFileOpenEventERK7QString@Base 5.0.2 1
  _ZN22QWindowSystemInterface19registerTouchDeviceEP12QTouchDevice@Base 5.0.2 1
- _ZN22QWindowSystemInterface20handleGeometryChangeEP7QWindowRK5QRect@Base 5.0.2 1
+ _ZN22QWindowSystemInterface20handleGeometryChangeEP7QWindowRK5QRectS4_@Base 5.2.0~rc1 1
  _ZN22QWindowSystemInterface21handleEnterLeaveEventEP7QWindowS1_RK7QPointFS4_@Base 5.0.2 1
  _ZN22QWindowSystemInterface21handleWindowActivatedEP7QWindowN2Qt11FocusReasonE@Base 5.1.0 1
  _ZN22QWindowSystemInterface22handleContextMenuEventEP7QWindowbRK6QPointS4_6QFlagsIN2Qt16KeyboardModifierEE@Base 5.0.2 1
@@ -3300,7 +3304,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN28QPlatformMessageDialogHelper11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.2.0~alpha1 1
  _ZN28QPlatformMessageDialogHelper11qt_metacastEPKc@Base 5.2.0~alpha1 1
  _ZN28QPlatformMessageDialogHelper16staticMetaObjectE@Base 5.2.0~alpha1 1
- _ZN28QPlatformMessageDialogHelper7clickedEN21QMessageDialogOptions14StandardButtonE@Base 5.2.0~alpha1 1
+ _ZN28QPlatformMessageDialogHelper7clickedEN21QMessageDialogOptions14StandardButtonENS0_10ButtonRoleE@Base 5.2.0~rc1 1
  _ZN28QPlatformMessageDialogHelperD0Ev@Base 5.2.0~alpha1 1
  _ZN28QPlatformMessageDialogHelperD1Ev@Base 5.2.0~alpha1 1
  _ZN28QPlatformMessageDialogHelperD2Ev@Base 5.2.0~alpha1 1
@@ -5152,6 +5156,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK15QTextCharFormat4fontEv@Base 5.0.2
  _ZNK15glyph_metrics_t11transformedERK10QTransform@Base 5.0.2
  _ZNK16QAccessibleEvent19accessibleInterfaceEv@Base 5.0.2
+ _ZNK16QAccessibleEvent8uniqueIdEv@Base 5.2.0~rc1
  _ZNK16QConicalGradient5angleEv@Base 5.0.2
  _ZNK16QConicalGradient6centerEv@Base 5.0.2
  _ZNK16QDoubleValidator10metaObjectEv@Base 5.0.2
@@ -5396,6 +5401,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK20QPlatformIntegration13accessibilityEv@Base 5.0.2 1
  _ZNK20QPlatformIntegration13hasCapabilityENS_10CapabilityE@Base 5.0.2 1
  _ZNK20QPlatformIntegration15nativeInterfaceEv@Base 5.0.2 1
+ _ZNK20QPlatformIntegration18defaultWindowStateE6QFlagsIN2Qt10WindowTypeEE@Base 5.2.0~rc1 1
  _ZNK20QPlatformIntegration19createPlatformThemeERK7QString@Base 5.0.2 1
  _ZNK20QPlatformIntegration20createPlatformPixmapEN15QPlatformPixmap9PixelTypeE@Base 5.0.2 1
  _ZNK20QPlatformIntegration22createImagePaintEngineEP12QPaintDevice@Base 5.0.2 1
@@ -6223,7 +6229,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  (optional=templinst|arch=ia64 ppc64 s390x)_ZSt19__move_median_firstIN5QListIN13QFontDatabase13WritingSystemEE8iteratorEEvT_S5_S5_@Base 5.2.0~beta1
  (optional=templinst|arch=ia64 ppc64 s390x)_ZSt19__move_median_firstIN5QListIiE8iteratorEEvT_S3_S3_@Base 5.2.0~beta1
  (optional=templinst|arch=ia64 ppc64 s390x)_ZSt19__move_median_firstIP13QCrossingEdgeEvT_S2_S2_@Base 5.2.0~beta1
- (optional=templinst|arch=ia64 ppc64 s390x)_ZSt19__move_median_firstIPN11QFontEngine8KernPairEEvT_S3_S3_@Base 5.2.0~beta1
+ (optional=templinst|arch=ia64 ppc64 s390x)_ZSt19__move_median_firstIPN11QFontEngine8KernPairEEvT_S3_S3_@Base 5.2.0~beta1 1
  (optional=templinst|arch=ia64 ppc64 s390x)_ZSt19__move_median_firstIPN13QPathSegments12IntersectionEEvT_S3_S3_@Base 5.2.0~beta1
  (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt19__move_median_firstIPN13QTriangulatorIjE15ComplexToSimple5EventEEvT_S5_S5_@Base 5.0.2
  (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt19__move_median_firstIPN13QTriangulatorItE15ComplexToSimple5EventEEvT_S5_S5_@Base 5.0.2

@@ -1,7 +1,6 @@
-# SymbolsHelper-Confirmed: 5.2.0~beta1 amd64 i386 ia64 ppc64 s390x
+# SymbolsHelper-Confirmed: 5.2.0~rc1 amd64
 libQt5Core.so.5 libqt5core5 #MINVER#
 | libqt5core5 #MINVER#, qtbase-abi-5-2-0
- (arch=amd64)(optional=gccinternal|QItemSelectionRangeD2Ev@Base 5.2.0~beta1
  _Z10forcepointR11QTextStream@Base 5.0.2
  _Z10noshowbaseR11QTextStream@Base 5.0.2
  _Z10qAllocMoreii@Base 5.0.2
@@ -498,11 +497,6 @@ libQt5Core.so.5 libqt5core5 #MINVER#
  _ZN11QTimerEventD0Ev@Base 5.0.2
  _ZN11QTimerEventD1Ev@Base 5.0.2
  _ZN11QTimerEventD2Ev@Base 5.0.2
- _ZN11QTraceGuard3endEv@Base 5.2.0~alpha1
- _ZN11QTraceGuard5startEv@Base 5.2.0~alpha1
- _ZN11QTraceGuardlsEPKc@Base 5.2.0~alpha1
- _ZN11QTraceGuardlsERK8QVariant@Base 5.2.0~alpha1
- _ZN11QTraceGuardlsEi@Base 5.2.0~alpha1
  _ZN11QTranslator11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN11QTranslator11qt_metacastEPKc@Base 5.0.2
  _ZN11QTranslator16staticMetaObjectE@Base 5.0.2
@@ -724,8 +718,8 @@ libQt5Core.so.5 libqt5core5 #MINVER#
  _ZN13QStateMachineD0Ev@Base 5.0.2
  _ZN13QStateMachineD1Ev@Base 5.0.2
  _ZN13QStateMachineD2Ev@Base 5.0.2
- (optional=gccinternal|arch=ia64 ppc64 s390x)_ZN13QSystemLocale24CurrencyToStringArgumentD1Ev@Base 5.2.0~beta1
- (optional=gccinternal|arch=ia64 ppc64 s390x)_ZN13QSystemLocale24CurrencyToStringArgumentD2Ev@Base 5.2.0~beta1
+ (optional=gccinternal|arch=ia64 ppc64 s390x)_ZN13QSystemLocale24CurrencyToStringArgumentD1Ev@Base 5.2.0~beta1 1
+ (optional=gccinternal|arch=ia64 ppc64 s390x)_ZN13QSystemLocale24CurrencyToStringArgumentD2Ev@Base 5.2.0~beta1 1
  _ZN13QSystemLocaleC1Eb@Base 5.2.0~alpha1 1
  _ZN13QSystemLocaleC1Ev@Base 5.2.0~alpha1 1
  _ZN13QSystemLocaleC2Eb@Base 5.2.0~alpha1 1
@@ -937,8 +931,8 @@ libQt5Core.so.5 libqt5core5 #MINVER#
  _ZN15QAnimationGroupD1Ev@Base 5.0.2
  _ZN15QAnimationGroupD2Ev@Base 5.0.2
  _ZN15QDateTimeParser11parseFormatERK7QString@Base 5.0.2 1
- (optional=gccinternal|arch=ia64 ppc64 s390x)_ZN15QDateTimeParser9StateNodeD1Ev@Base 5.2.0~beta1
- (optional=gccinternal|arch=ia64 ppc64 s390x)_ZN15QDateTimeParser9StateNodeD2Ev@Base 5.2.0~beta1
+ (optional=gccinternal|arch=ia64 ppc64 s390x)_ZN15QDateTimeParser9StateNodeD1Ev@Base 5.2.0~beta1 1
+ (optional=gccinternal|arch=ia64 ppc64 s390x)_ZN15QDateTimeParser9StateNodeD2Ev@Base 5.2.0~beta1 1
  _ZN15QIPAddressUtils8parseIp4ERjPK5QCharS3_@Base 5.0.2
  _ZN15QIPAddressUtils8parseIp6ERA16_hPK5QCharS4_@Base 5.0.2
  _ZN15QIPAddressUtils8toStringER7QStringPh@Base 5.0.2
@@ -967,7 +961,7 @@ libQt5Core.so.5 libqt5core5 #MINVER#
  _ZN15QSocketNotifier5eventEP6QEvent@Base 5.0.2
  _ZN15QSocketNotifier9activatedEiNS_14QPrivateSignalE@Base 5.0.2
  (subst)_ZN15QSocketNotifierC1E{qptrdiff}NS_4TypeEP7QObject@Base 5.0.2
- (subst|arch=i386 ia64 ppc64 s390x)_ZN15QSocketNotifierC2E{qptrdiff}NS_4TypeEP7QObject@Base 5.2.0~beta1
+ (subst|arch=amd64 i386 ia64 ppc64 s390x)_ZN15QSocketNotifierC2E{qptrdiff}NS_4TypeEP7QObject@Base 5.2.0~rc1
  _ZN15QSocketNotifierD0Ev@Base 5.0.2
  _ZN15QSocketNotifierD1Ev@Base 5.0.2
  _ZN15QSocketNotifierD2Ev@Base 5.0.2
@@ -1149,12 +1143,12 @@ libQt5Core.so.5 libqt5core5 #MINVER#
  _ZN16QTimeZonePrivate11invalidDataEv@Base 5.2.0~alpha1 1
  _ZN16QTimeZonePrivate12toOffsetDataERKNS_4DataE@Base 5.2.0~alpha1 1
  _ZN16QTimeZonePrivate15isoOffsetFormatEi@Base 5.2.0~alpha1 1
+ _ZN16QTimeZonePrivate17ianaIdToWindowsIdERK10QByteArray@Base 5.2.0~rc1 1
  _ZN16QTimeZonePrivate17invalidOffsetDataEv@Base 5.2.0~alpha1 1
- _ZN16QTimeZonePrivate18olsenIdToWindowsIdERK10QByteArray@Base 5.2.0~alpha1 1
- _ZN16QTimeZonePrivate19windowsIdToOlsenIdsERK10QByteArray@Base 5.2.0~alpha1 1
- _ZN16QTimeZonePrivate19windowsIdToOlsenIdsERK10QByteArrayN7QLocale7CountryE@Base 5.2.0~alpha1 1
- _ZN16QTimeZonePrivate25windowsIdToDefaultOlsenIdERK10QByteArray@Base 5.2.0~alpha1 1
- _ZN16QTimeZonePrivate25windowsIdToDefaultOlsenIdERK10QByteArrayN7QLocale7CountryE@Base 5.2.0~alpha1 1
+ _ZN16QTimeZonePrivate18windowsIdToIanaIdsERK10QByteArray@Base 5.2.0~rc1 1
+ _ZN16QTimeZonePrivate18windowsIdToIanaIdsERK10QByteArrayN7QLocale7CountryE@Base 5.2.0~rc1 1
+ _ZN16QTimeZonePrivate24windowsIdToDefaultIanaIdERK10QByteArray@Base 5.2.0~rc1 1
+ _ZN16QTimeZonePrivate24windowsIdToDefaultIanaIdERK10QByteArrayN7QLocale7CountryE@Base 5.2.0~rc1 1
  _ZN16QTimeZonePrivate5cloneEv@Base 5.2.0~alpha1 1
  _ZN16QTimeZonePrivate9isValidIdERK10QByteArray@Base 5.2.0~alpha1 1
  _ZN16QTimeZonePrivateC1ERKS_@Base 5.2.0~alpha1 1
@@ -2056,6 +2050,7 @@ libQt5Core.so.5 libqt5core5 #MINVER#
  _ZN23QRegularExpressionMatchaSERKS_@Base 5.0.2
  _ZN24QAbstractDeclarativeData13parentChangedE@Base 5.0.2 1
  _ZN24QAbstractDeclarativeData13signalEmittedE@Base 5.0.2 1
+ _ZN24QAbstractDeclarativeData14destroyed_qml1E@Base 5.2.0~rc1 1
  _ZN24QAbstractDeclarativeData17isSignalConnectedE@Base 5.0.2 1
  _ZN24QAbstractDeclarativeData9destroyedE@Base 5.0.2 1
  _ZN24QAbstractDeclarativeData9receiversE@Base 5.0.2 1
@@ -2671,7 +2666,6 @@ libQt5Core.so.5 libqt5core5 #MINVER#
  _ZN7QThreadD0Ev@Base 5.0.2
  _ZN7QThreadD1Ev@Base 5.0.2
  _ZN7QThreadD2Ev@Base 5.0.2
- _ZN7QTracer13addToCategoryER16QLoggingCategory@Base 5.2.0~alpha1
  _ZN8QLibrary11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN8QLibrary11qt_metacastEPKc@Base 5.0.2
  _ZN8QLibrary11setFileNameERK7QString@Base 5.0.2
@@ -3161,15 +3155,15 @@ libQt5Core.so.5 libqt5core5 #MINVER#
  (optional=gccinternal|arch=ia64 ppc64 s390x)_ZN9QTimeZone10OffsetDataD1Ev@Base 5.2.0~beta1
  (optional=gccinternal|arch=ia64 ppc64 s390x)_ZN9QTimeZone10OffsetDataD2Ev@Base 5.2.0~beta1
  _ZN9QTimeZone16systemTimeZoneIdEv@Base 5.2.0~alpha1
- _ZN9QTimeZone18olsenIdToWindowsIdERK10QByteArray@Base 5.2.0~alpha1
- _ZN9QTimeZone19windowsIdToOlsenIdsERK10QByteArray@Base 5.2.0~alpha1
- _ZN9QTimeZone19windowsIdToOlsenIdsERK10QByteArrayN7QLocale7CountryE@Base 5.2.0~alpha1
+ _ZN9QTimeZone17ianaIdToWindowsIdERK10QByteArray@Base 5.2.0~rc1
+ _ZN9QTimeZone18windowsIdToIanaIdsERK10QByteArray@Base 5.2.0~rc1
+ _ZN9QTimeZone18windowsIdToIanaIdsERK10QByteArrayN7QLocale7CountryE@Base 5.2.0~rc1
  _ZN9QTimeZone20availableTimeZoneIdsEN7QLocale7CountryE@Base 5.2.0~alpha1
  _ZN9QTimeZone20availableTimeZoneIdsEi@Base 5.2.0~alpha1
  _ZN9QTimeZone20availableTimeZoneIdsEv@Base 5.2.0~alpha1
  _ZN9QTimeZone21isTimeZoneIdAvailableERK10QByteArray@Base 5.2.0~alpha1
- _ZN9QTimeZone25windowsIdToDefaultOlsenIdERK10QByteArray@Base 5.2.0~alpha1
- _ZN9QTimeZone25windowsIdToDefaultOlsenIdERK10QByteArrayN7QLocale7CountryE@Base 5.2.0~alpha1
+ _ZN9QTimeZone24windowsIdToDefaultIanaIdERK10QByteArray@Base 5.2.0~rc1
+ _ZN9QTimeZone24windowsIdToDefaultIanaIdERK10QByteArrayN7QLocale7CountryE@Base 5.2.0~rc1
  _ZN9QTimeZoneC1ER16QTimeZonePrivate@Base 5.2.0~alpha1 1
  _ZN9QTimeZoneC1ERK10QByteArray@Base 5.2.0~alpha1
  _ZN9QTimeZoneC1ERK10QByteArrayiRK7QStringS5_N7QLocale7CountryES5_@Base 5.2.0~alpha1
@@ -3680,7 +3674,6 @@ libQt5Core.so.5 libqt5core5 #MINVER#
  _ZNK16QAnimationDriver9isRunningEv@Base 5.0.2
  _ZNK16QAnimationDriver9startTimeEv@Base 5.0.2
  _ZNK16QCollatorSortKey7compareERKS_@Base 5.2.0~alpha1
- _ZNK16QCollatorSortKeyltERKS_@Base 5.2.0~alpha1
  _ZNK16QCoreApplication10metaObjectEv@Base 5.0.2
  _ZNK16QEventTransition10metaObjectEv@Base 5.0.2
  _ZNK16QEventTransition11eventSourceEv@Base 5.0.2

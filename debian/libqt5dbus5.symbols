@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.2.0~beta1 armhf i386 ia64 s390x sparc
+# SymbolsHelper-Confirmed: 5.2.0~rc1 amd64
 libQt5DBus.so.5 libqt5dbus5 #MINVER#
 | libqt5dbus5 #MINVER#, qtbase-abi-5-2-0
  _Z14qDBusReplyFillRK12QDBusMessageR10QDBusErrorR8QVariant@Base 5.0.2
@@ -377,12 +377,6 @@ libQt5DBus.so.5 libqt5dbus5 #MINVER#
  _ZNK24QDBusConnectionInterface19isServiceRegisteredERK7QString@Base 5.0.2
  _ZNK24QDBusConnectionInterface22registeredServiceNamesEv@Base 5.0.2
  (optional=templinst|arch=!amd64 !armel !armhf !hurd-i386 !i386)_ZSt11lower_boundIPKN21QDBusAdaptorConnector11AdaptorDataE7QStringET_S5_S5_RKT0_@Base 5.0.2
- (optional=templinst|subst|arch=!armhf !i386)_ZSt13__adjust_heapIPN21QDBusAdaptorConnector11AdaptorDataE{ssize_t}S1_EvT_T0_S4_T1_@Base 5.2.0~beta1
- (optional=templinst|arch=!armhf !i386 !sparc)_ZSt13__heap_selectIPN21QDBusAdaptorConnector11AdaptorDataEEvT_S3_S3_@Base 5.2.0~beta1
- (optional=templinst|arch=!armhf !i386)_ZSt16__insertion_sortIPN21QDBusAdaptorConnector11AdaptorDataEEvT_S3_@Base 5.2.0~beta1
- (optional=templinst|subst|arch=!armhf !i386)_ZSt16__introsort_loopIPN21QDBusAdaptorConnector11AdaptorDataE{ssize_t}EvT_S3_T0_@Base 5.2.0~beta1
- (optional=templinst|arch=!armhf !i386)_ZSt19__move_median_firstIPN21QDBusAdaptorConnector11AdaptorDataEEvT_S3_S3_@Base 5.2.0~beta1
- (optional=templinst|arch=!armhf !i386)_ZSt25__unguarded_linear_insertIPN21QDBusAdaptorConnector11AdaptorDataEEvT_@Base 5.2.0~beta1
  _ZTI11QDBusServer@Base 5.0.2
  _ZTI14QDBusInterface@Base 5.0.2
  _ZTI16QDBusPendingCall@Base 5.0.2

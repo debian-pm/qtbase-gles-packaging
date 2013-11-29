@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.2.0~beta1 amd64 armhf i386 ia64 powerpc ppc64 s390x sparc
+# SymbolsHelper-Confirmed: 5.2.0~rc1 amd64
 libQt5Widgets.so.5 libqt5widgets5 #MINVER#
 | libqt5widgets5 #MINVER#, qtbase-abi-5-2-0
  _Z11qFadeEffectP7QWidgeti@Base 5.0.2
@@ -592,7 +592,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN11QHeaderView26sectionHandleDoubleClickedEi@Base 5.0.2
  _ZN11QHeaderView26setCascadingSectionResizesEb@Base 5.0.2
  _ZN11QHeaderView26setOffsetToSectionPositionEi@Base 5.0.2
- _ZN11QHeaderView26setResizeContentsPrecisionEib@Base 5.2.0~alpha1
+ _ZN11QHeaderView26setResizeContentsPrecisionEi@Base 5.2.0~rc1
  _ZN11QHeaderView5eventEP6QEvent@Base 5.0.2
  _ZN11QHeaderView5resetEv@Base 5.0.2
  _ZN11QHeaderView8scrollToERK11QModelIndexN17QAbstractItemView10ScrollHintE@Base 5.0.2
@@ -1069,14 +1069,11 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN12QColorDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN12QColorDialog11qt_metacastEPKc@Base 5.0.2
  _ZN12QColorDialog13colorSelectedERK6QColor@Base 5.0.2
- _ZN12QColorDialog13keyPressEventEP9QKeyEvent@Base 5.2.0~alpha1
  _ZN12QColorDialog13standardColorEi@Base 5.0.2
- _ZN12QColorDialog14mouseMoveEventEP11QMouseEvent@Base 5.2.0~alpha1
  _ZN12QColorDialog14setCustomColorEi6QColor@Base 5.0.2
  _ZN12QColorDialog15setCurrentColorERK6QColor@Base 5.0.2
  _ZN12QColorDialog16setStandardColorEi6QColor@Base 5.0.2
  _ZN12QColorDialog16staticMetaObjectE@Base 5.0.2
- _ZN12QColorDialog17mouseReleaseEventEP11QMouseEvent@Base 5.2.0~alpha1
  _ZN12QColorDialog19currentColorChangedERK6QColor@Base 5.0.2
  _ZN12QColorDialog4doneEi@Base 5.0.2
  _ZN12QColorDialog4openEP7QObjectPKc@Base 5.0.2
@@ -1713,6 +1710,12 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN14QDesktopWidgetD0Ev@Base 5.0.2
  _ZN14QDesktopWidgetD1Ev@Base 5.0.2
  _ZN14QDesktopWidgetD2Ev@Base 5.0.2
+ _ZN14QDialogPrivate10setDefaultEP11QPushButton@Base 5.2.0~rc1 1
+ _ZN14QDialogPrivate11hideDefaultEv@Base 5.2.0~rc1 1
+ _ZN14QDialogPrivate14setMainDefaultEP11QPushButton@Base 5.2.0~rc1 1
+ _ZN14QDialogPrivate20deletePlatformHelperEv@Base 5.2.0~rc1 1
+ _ZN14QDialogPrivate22resetModalitySetByOpenEv@Base 5.2.0~rc1 1
+ _ZN14QDialogPrivate22setNativeDialogVisibleEb@Base 5.2.0~rc1 1
  _ZN14QDoubleSpinBox10setMaximumEd@Base 5.0.2
  _ZN14QDoubleSpinBox10setMinimumEd@Base 5.0.2
  _ZN14QDoubleSpinBox11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
@@ -2887,7 +2890,6 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN18QFileDialogPrivate17_q_currentChangedERK11QModelIndex@Base 5.0.2 1
  _ZN18QFileDialogPrivate17_q_enterDirectoryERK11QModelIndex@Base 5.0.2 1
  _ZN18QFileDialogPrivate17_q_updateOkButtonEv@Base 5.0.2 1
- _ZN18QFileDialogPrivate17canBeNativeDialogEv@Base 5.0.2 1
  _ZN18QFileDialogPrivate17createMenuActionsEv@Base 5.0.2 1
  _ZN18QFileDialogPrivate17createToolButtonsEv@Base 5.0.2 1
  _ZN18QFileDialogPrivate17emitFilesSelectedERK11QStringList@Base 5.0.2 1
@@ -4159,9 +4161,9 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN7QDialog9setResultEi@Base 5.0.2
  _ZN7QDialog9showEventEP10QShowEvent@Base 5.0.2
  _ZN7QDialogC1EP7QWidget6QFlagsIN2Qt10WindowTypeEE@Base 5.0.2
- _ZN7QDialogC1ER14QDialogPrivateP7QWidget6QFlagsIN2Qt10WindowTypeEE@Base 5.0.2
+ _ZN7QDialogC1ER14QDialogPrivateP7QWidget6QFlagsIN2Qt10WindowTypeEE@Base 5.0.2 1
  _ZN7QDialogC2EP7QWidget6QFlagsIN2Qt10WindowTypeEE@Base 5.0.2
- _ZN7QDialogC2ER14QDialogPrivateP7QWidget6QFlagsIN2Qt10WindowTypeEE@Base 5.0.2
+ _ZN7QDialogC2ER14QDialogPrivateP7QWidget6QFlagsIN2Qt10WindowTypeEE@Base 5.0.2 1
  _ZN7QDialogD0Ev@Base 5.0.2
  _ZN7QDialogD1Ev@Base 5.0.2
  _ZN7QDialogD2Ev@Base 5.0.2
@@ -4179,7 +4181,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN7QLayout12removeWidgetEP7QWidget@Base 5.0.2
  _ZN7QLayout12setAlignmentEP7QWidget6QFlagsIN2Qt13AlignmentFlagEE@Base 5.0.2
  _ZN7QLayout12setAlignmentEPS_6QFlagsIN2Qt13AlignmentFlagEE@Base 5.0.2
- _ZN7QLayout13replaceWidgetEP7QWidgetS1_b@Base 5.2.0~alpha1
+ _ZN7QLayout13replaceWidgetEP7QWidgetS1_6QFlagsIN2Qt15FindChildOptionEE@Base 5.2.0~rc1
  _ZN7QLayout14addChildLayoutEPS_@Base 5.0.2
  _ZN7QLayout14addChildWidgetEP7QWidget@Base 5.0.2
  _ZN7QLayout16staticMetaObjectE@Base 5.0.2
@@ -4254,7 +4256,6 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN7QTabBar17tabCloseRequestedEi@Base 5.0.2
  _ZN7QTabBar19tabBarDoubleClickedEi@Base 5.2.0~alpha1
  _ZN7QTabBar20setUsesScrollButtonsEb@Base 5.0.2
- _ZN7QTabBar21mouseDoubleClickEventEP11QMouseEvent@Base 5.2.0~alpha1
  _ZN7QTabBar28setSelectionBehaviorOnRemoveENS_17SelectionBehaviorE@Base 5.0.2
  _ZN7QTabBar5eventEP6QEvent@Base 5.0.2
  _ZN7QTabBar6addTabERK5QIconRK7QString@Base 5.0.2
@@ -6047,6 +6048,10 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK14QDesktopWidget16isVirtualDesktopEv@Base 5.0.2
  _ZNK14QDesktopWidget17availableGeometryEPK7QWidget@Base 5.0.2
  _ZNK14QDesktopWidget17availableGeometryEi@Base 5.0.2
+ _ZNK14QDialogPrivate12parentWindowEv@Base 5.2.0~rc1 1
+ _ZNK14QDialogPrivate14platformHelperEv@Base 5.2.0~rc1 1
+ _ZNK14QDialogPrivate17canBeNativeDialogEv@Base 5.2.0~rc1 1
+ _ZNK14QDialogPrivate9styleHintEN21QPlatformDialogHelper9StyleHintE@Base 5.2.0~rc1 1
  _ZNK14QDoubleSpinBox10metaObjectEv@Base 5.0.2
  _ZNK14QDoubleSpinBox10singleStepEv@Base 5.0.2
  _ZNK14QDoubleSpinBox13textFromValueEd@Base 5.0.2
@@ -6360,6 +6365,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK16QTreeViewPrivate18startAndEndColumnsERK5QRect@Base 5.0.2 1
  _ZNK16QTreeViewPrivate19draggablePaintPairsERK5QListI11QModelIndexEP5QRect@Base 5.0.2 1
  _ZNK16QTreeViewPrivate19logicalIndexForTreeEv@Base 5.2.0~alpha1 1
+ _ZNK16QTreeViewPrivate20accessibleTree2IndexERK11QModelIndex@Base 5.2.0~rc1 1
  _ZNK16QTreeViewPrivate21drawAnimatedOperationEP8QPainter@Base 5.0.2 1
  _ZNK16QTreeViewPrivate25adjustViewOptionsForIndexEP20QStyleOptionViewItemRK11QModelIndex@Base 5.0.2 1
  _ZNK16QTreeViewPrivate25paintAlternatingRowColorsEP8QPainterP20QStyleOptionViewItemii@Base 5.0.2 1
@@ -6388,6 +6394,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK17QAbstractItemView16selectionCommandERK11QModelIndexPK6QEvent@Base 5.0.2
  _ZNK17QAbstractItemView16sizeHintForIndexERK11QModelIndex@Base 5.0.2
  _ZNK17QAbstractItemView16tabKeyNavigationEv@Base 5.0.2
+ _ZNK17QAbstractItemView16viewportSizeHintEv@Base 5.2.0~rc1
  _ZNK17QAbstractItemView17defaultDropActionEv@Base 5.0.2
  _ZNK17QAbstractItemView17dirtyRegionOffsetEv@Base 5.0.2
  _ZNK17QAbstractItemView17selectionBehaviorEv@Base 5.0.2
@@ -6516,6 +6523,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK18QCommandLinkButton8sizeHintEv@Base 5.0.2
  _ZNK18QFileDialogPrivate10typedFilesEv@Base 5.0.2 1
  _ZNK18QFileDialogPrivate11currentViewEv@Base 5.0.2 1
+ _ZNK18QFileDialogPrivate17canBeNativeDialogEv@Base 5.2.0~rc1 1
  _ZNK18QFileDialogPrivate17userSelectedFilesEv@Base 5.0.2 1
  _ZNK18QFileDialogPrivate22addDefaultSuffixToUrlsERK5QListI4QUrlE@Base 5.2.0~alpha1 1
  _ZNK18QFileDialogPrivate23addDefaultSuffixToFilesE11QStringList@Base 5.0.2 1
@@ -7313,6 +7321,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK9QListView15selectedIndexesEv@Base 5.0.2
  _ZNK9QListView16horizontalOffsetEv@Base 5.0.2
  _ZNK9QListView16uniformItemSizesEv@Base 5.0.2
+ _ZNK9QListView16viewportSizeHintEv@Base 5.2.0~rc1
  _ZNK9QListView22isSelectionRectVisibleEv@Base 5.0.2
  _ZNK9QListView24visualRegionForSelectionERK14QItemSelection@Base 5.0.2
  _ZNK9QListView4flowEv@Base 5.0.2
@@ -7419,7 +7428,6 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK9QTreeView17sizeHintForColumnEi@Base 5.0.2
  _ZNK9QTreeView17uniformRowHeightsEv@Base 5.0.2
  _ZNK9QTreeView19allColumnsShowFocusEv@Base 5.0.2
- _ZNK9QTreeView20accessibleTree2IndexERK11QModelIndex@Base 5.2.0~alpha1
  _ZNK9QTreeView20expandsOnDoubleClickEv@Base 5.0.2
  _ZNK9QTreeView20isFirstColumnSpannedEiRK11QModelIndex@Base 5.0.2
  _ZNK9QTreeView22columnViewportPositionEi@Base 5.0.2
@@ -7604,6 +7612,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZTI13QWidgetItemV2@Base 5.0.2
  _ZTI14QActionPrivate@Base 5.0.2 1
  _ZTI14QDesktopWidget@Base 5.0.2
+ _ZTI14QDialogPrivate@Base 5.2.0~rc1 1
  _ZTI14QDoubleSpinBox@Base 5.0.2
  _ZTI14QGraphicsScale@Base 5.0.2
  _ZTI14QGraphicsScene@Base 5.0.2
@@ -7612,7 +7621,6 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZTI14QStackedLayout@Base 5.0.2
  _ZTI14QStackedWidget@Base 5.0.2
  _ZTI14QWidgetPrivate@Base 5.0.2 1
- _ZTI14QWindowPrivate@Base 5.0.2 1
  _ZTI15QAbstractButton@Base 5.0.2
  _ZTI15QAbstractSlider@Base 5.0.2
  _ZTI15QCalendarWidget@Base 5.0.2
@@ -7802,6 +7810,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZTS13QWidgetItemV2@Base 5.0.2
  _ZTS14QActionPrivate@Base 5.0.2 1
  _ZTS14QDesktopWidget@Base 5.0.2
+ _ZTS14QDialogPrivate@Base 5.2.0~rc1 1
  _ZTS14QDoubleSpinBox@Base 5.0.2
  _ZTS14QGraphicsScale@Base 5.0.2
  _ZTS14QGraphicsScene@Base 5.0.2
@@ -7810,7 +7819,6 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZTS14QStackedLayout@Base 5.0.2
  _ZTS14QStackedWidget@Base 5.0.2
  _ZTS14QWidgetPrivate@Base 5.0.2 1
- _ZTS14QWindowPrivate@Base 5.0.2 1
  _ZTS15QAbstractButton@Base 5.0.2
  _ZTS15QAbstractSlider@Base 5.0.2
  _ZTS15QCalendarWidget@Base 5.0.2
@@ -8000,6 +8008,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZTV13QWidgetItemV2@Base 5.0.2
  _ZTV14QActionPrivate@Base 5.0.2 1
  _ZTV14QDesktopWidget@Base 5.0.2
+ _ZTV14QDialogPrivate@Base 5.2.0~rc1 1
  _ZTV14QDoubleSpinBox@Base 5.0.2
  _ZTV14QGraphicsScale@Base 5.0.2
  _ZTV14QGraphicsScene@Base 5.0.2
@@ -8008,7 +8017,6 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZTV14QStackedLayout@Base 5.0.2
  _ZTV14QStackedWidget@Base 5.0.2
  _ZTV14QWidgetPrivate@Base 5.0.2 1
- _ZTV14QWindowPrivate@Base 5.0.2 1
  _ZTV15QAbstractButton@Base 5.0.2
  _ZTV15QAbstractSlider@Base 5.0.2
  _ZTV15QCalendarWidget@Base 5.0.2

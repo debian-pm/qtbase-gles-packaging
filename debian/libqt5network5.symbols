@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.2.0~beta1 s390x
+# SymbolsHelper-Confirmed: 5.2.0~rc1 amd64
 libQt5Network.so.5 libqt5network5 #MINVER#
 | libqt5network5 #MINVER#, qtbase-abi-5-2-0
  _Z19qt_qhostinfo_lookupRK7QStringP7QObjectPKcPbPi@Base 5.0.2
@@ -475,10 +475,10 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZN17QNetworkInterfaceD2Ev@Base 5.0.2
  _ZN17QNetworkInterfaceaSERKS_@Base 5.0.2
  _ZN17QSslConfiguration10setCiphersERK5QListI10QSslCipherE@Base 5.0.2
- _ZN17QSslConfiguration10setSessionERK10QByteArray@Base 5.2.0~alpha1
  _ZN17QSslConfiguration11setProtocolEN4QSsl11SslProtocolE@Base 5.0.2
  _ZN17QSslConfiguration12setSslOptionEN4QSsl9SslOptionEb@Base 5.0.2
  _ZN17QSslConfiguration13setPrivateKeyERK7QSslKey@Base 5.0.2
+ _ZN17QSslConfiguration16setSessionTicketERK10QByteArray@Base 5.2.0~rc1
  _ZN17QSslConfiguration17setCaCertificatesERK5QListI15QSslCertificateE@Base 5.0.2
  _ZN17QSslConfiguration17setPeerVerifyModeEN10QSslSocket14PeerVerifyModeE@Base 5.0.2
  _ZN17QSslConfiguration18setPeerVerifyDepthEi@Base 5.0.2
@@ -1007,6 +1007,7 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZNK17QNetworkInterface7isValidEv@Base 5.0.2
  _ZNK17QSslConfiguration10privateKeyEv@Base 5.0.2
  _ZNK17QSslConfiguration13sessionCipherEv@Base 5.0.2
+ _ZNK17QSslConfiguration13sessionTicketEv@Base 5.2.0~rc1
  _ZNK17QSslConfiguration13testSslOptionEN4QSsl9SslOptionE@Base 5.0.2
  _ZNK17QSslConfiguration14caCertificatesEv@Base 5.0.2
  _ZNK17QSslConfiguration14peerVerifyModeEv@Base 5.0.2
@@ -1018,7 +1019,6 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZNK17QSslConfiguration25sessionTicketLifeTimeHintEv@Base 5.2.0~alpha1
  _ZNK17QSslConfiguration6isNullEv@Base 5.0.2
  _ZNK17QSslConfiguration7ciphersEv@Base 5.0.2
- _ZNK17QSslConfiguration7sessionEv@Base 5.2.0~alpha1
  _ZNK17QSslConfiguration8protocolEv@Base 5.0.2
  _ZNK17QSslConfigurationeqERKS_@Base 5.0.2
  _ZNK18QNetworkProxyQuery11protocolTagEv@Base 5.0.2
