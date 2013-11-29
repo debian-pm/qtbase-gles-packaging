@@ -65,6 +65,11 @@ else
 	extra_configure_opts += -opengl desktop
 endif
 
+qreal_as_float_architectures := armel sh4
+ifeq ($(DEB_HOST_ARCH),$(findstring $(DEB_HOST_ARCH), $(qreal_as_float_architectures)))
+	extra_configure_opts += -qreal float
+endif
+
 ifeq ($(DEB_HOST_ARCH_OS),linux)
   ifneq (,$(filter $(DEB_HOST_ARCH),alpha ia64 mips64 mips64el))
 	platform_arg = linux-g++
