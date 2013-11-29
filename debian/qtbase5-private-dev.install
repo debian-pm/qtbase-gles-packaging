@@ -359,6 +359,7 @@ usr/include/qt5/QtNetwork/*/QtNetwork/private/qnetworkreplydataimpl_p.h
 usr/include/qt5/QtNetwork/*/QtNetwork/private/qnetworkreplyfileimpl_p.h
 usr/include/qt5/QtNetwork/*/QtNetwork/private/qnetworkreplyhttpimpl_p.h
 usr/include/qt5/QtNetwork/*/QtNetwork/private/qnetworkreplyimpl_p.h
+usr/include/qt5/QtNetwork/*/QtNetwork/private/qnetworkreplynsurlconnectionimpl_p.h
 usr/include/qt5/QtNetwork/*/QtNetwork/private/qnetworkrequest_p.h
 usr/include/qt5/QtNetwork/*/QtNetwork/private/qnetworksession_p.h
 usr/include/qt5/QtNetwork/*/QtNetwork/private/qsharednetworksession_p.h
