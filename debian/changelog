@@ -2,6 +2,7 @@ qtbase-opensource-src (5.2.0~rc1+dfsg-1) UNRELEASED; urgency=low
 
   [ Dmitry Shachnev ]
   * Fix two wrongly sorted lines in qtbase5-private-dev.install (thanks Timo).
+  * Do not list armhf-specific paths in qtbase5-dev.install-armel.
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
