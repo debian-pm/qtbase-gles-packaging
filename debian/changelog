@@ -1,5 +1,9 @@
 qtbase-opensource-src (5.1.1+dfsg-6) UNRELEASED; urgency=low
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Backport Disallow_deep_or_widely_nested_entity_references.patch to fix
+    CVE-2013-4549: XML Entity Expansion Denial of Service.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 05 Dec 2013 11:59:03 -0300
 
 qtbase-opensource-src (5.1.1+dfsg-5) unstable; urgency=low
