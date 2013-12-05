@@ -3,5 +3,6 @@ linux_no_perf.diff
 hurd_opengl_incldir.diff
 fix_power_atomic_code.patch
 support_mips_atomic_on_pre-mips32_archs.patch
+Disallow_deep_or_widely_nested_entity_references.patch
 
 # Debian specific.

@@ -53,6 +53,15 @@ qtbase-opensource-src (5.2.0~beta1+dfsg-1) experimental; urgency=low
 
  -- Dmitry Shachnev <mitya57@gmail.com>  Thu, 31 Oct 2013 20:04:49 +0400
 
+qtbase-opensource-src (5.1.1+dfsg-6) unstable; urgency=high
+
+  * Backport Disallow_deep_or_widely_nested_entity_references.patch to fix
+    CVE-2013-4549: XML Entity Expansion Denial of Service. Set severity
+    to high.
+  * Update symbols files with buildds' logs.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 05 Dec 2013 13:43:42 -0300
+
 qtbase-opensource-src (5.1.1+dfsg-5) unstable; urgency=low
 
   * Add mips64 and mipsel64 to the list of archs that should use linux-g++
