@@ -3798,7 +3798,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN7QRegionoRERKS_@Base 5.0.2
  _ZN7QRegionpLERK5QRect@Base 5.0.2
  _ZN7QRegionpLERKS_@Base 5.0.2
- (subst|arch=i386)_ZN7QScreen10grabWindowE{quintptr}iiii@Base 5.0.2
+ (subst|arch=amd64 i386)_ZN7QScreen10grabWindowE{quintptr}iiii@Base 5.1.1
  _ZN7QScreen11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN7QScreen11qt_metacastEPKc@Base 5.0.2
  _ZN7QScreen15geometryChangedERK5QRect@Base 5.0.2

@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.1.1 armel armhf hurd-i386 i386 s390 s390x
+# SymbolsHelper-Confirmed: 5.1.1 amd64 armel armhf hurd-i386 i386 s390 s390x
 libQt5Widgets.so.5 libqt5widgets5 #MINVER#
 | libqt5widgets5 #MINVER#, qtbase-abi-5-1-0
  _Z11qFadeEffectP7QWidgeti@Base 5.0.2
@@ -1935,7 +1935,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN14QWidgetPrivate10updateFontERK5QFont@Base 5.0.2 1
  _ZN14QWidgetPrivate11adjustFlagsER6QFlagsIN2Qt10WindowTypeEEP7QWidget@Base 5.0.2 1
  _ZN14QWidgetPrivate11createExtraEv@Base 5.0.2 1
- (subst|arch=armhf i386 s390)_ZN14QWidgetPrivate11createWinIdE{quintptr}@Base 5.0.2 1
+ (subst|arch=amd64 armhf i386 s390)_ZN14QWidgetPrivate11createWinIdE{quintptr}@Base 5.1.1 1
  _ZN14QWidgetPrivate11deleteExtraEv@Base 5.0.2 1
  _ZN14QWidgetPrivate11hide_helperEv@Base 5.0.2 1
  _ZN14QWidgetPrivate11pointToRectERK6QPointRK5QRect@Base 5.0.2 1
@@ -4326,7 +4326,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN7QWidget21setShortcutAutoRepeatEib@Base 5.0.2
  _ZN7QWidget24setAccessibleDescriptionERK7QString@Base 5.0.2
  _ZN7QWidget26customContextMenuRequestedERK6QPoint@Base 5.0.2
- (subst|arch=armhf i386 s390)_ZN7QWidget4findE{quintptr}@Base 5.0.2
+ (subst|arch=amd64 armhf i386 s390)_ZN7QWidget4findE{quintptr}@Base 5.1.1
  _ZN7QWidget4grabERK5QRect@Base 5.0.2
  _ZN7QWidget4hideEv@Base 5.0.2
  _ZN7QWidget4moveERK6QPoint@Base 5.0.2

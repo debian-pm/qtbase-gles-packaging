@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.1.1 armel hurd-i386 i386 s390x
+# SymbolsHelper-Confirmed: 5.1.1 amd64 armel hurd-i386 i386 s390x
 libQt5Network.so.5 libqt5network5 #MINVER#
 | libqt5network5 #MINVER#, qtbase-abi-5-1-0
  _Z19qt_qhostinfo_lookupRK7QStringP7QObjectPKcPbPi@Base 5.0.2
@@ -64,7 +64,7 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZN10QSslSocket18setPeerVerifyDepthEi@Base 5.0.2
  _ZN10QSslSocket19setLocalCertificateERK15QSslCertificate@Base 5.0.2
  _ZN10QSslSocket19setLocalCertificateERK7QStringN4QSsl14EncodingFormatE@Base 5.0.2
- (subst|arch=i386)_ZN10QSslSocket19setSocketDescriptorE{qptrdiff}N15QAbstractSocket11SocketStateE6QFlagsIN9QIODevice12OpenModeFlagEE@Base 5.0.2
+ (subst|arch=amd64 i386)_ZN10QSslSocket19setSocketDescriptorE{qptrdiff}N15QAbstractSocket11SocketStateE6QFlagsIN9QIODevice12OpenModeFlagEE@Base 5.1.1
  _ZN10QSslSocket19setSslConfigurationERK17QSslConfiguration@Base 5.0.2
  _ZN10QSslSocket19waitForBytesWrittenEi@Base 5.0.2
  _ZN10QSslSocket19waitForDisconnectedEi@Base 5.0.2
@@ -102,8 +102,8 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZN10QTcpServer14pauseAcceptingEv@Base 5.0.2
  _ZN10QTcpServer15resumeAcceptingEv@Base 5.0.2
  _ZN10QTcpServer16staticMetaObjectE@Base 5.0.2
- (subst|arch=i386)_ZN10QTcpServer18incomingConnectionE{qptrdiff}@Base 5.0.2
- (subst|arch=i386)_ZN10QTcpServer19setSocketDescriptorE{qptrdiff}@Base 5.0.2
+ (subst|arch=amd64 i386)_ZN10QTcpServer18incomingConnectionE{qptrdiff}@Base 5.1.1
+ (subst|arch=amd64 i386)_ZN10QTcpServer19setSocketDescriptorE{qptrdiff}@Base 5.1.1
  _ZN10QTcpServer20addPendingConnectionEP10QTcpSocket@Base 5.0.2
  _ZN10QTcpServer20waitForNewConnectionEiPb@Base 5.0.2
  _ZN10QTcpServer21nextPendingConnectionEv@Base 5.0.2
@@ -175,13 +175,13 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZN12QLocalServer13newConnectionEv@Base 5.0.2
  _ZN12QLocalServer16setSocketOptionsE6QFlagsINS_12SocketOptionEE@Base 5.0.2
  _ZN12QLocalServer16staticMetaObjectE@Base 5.0.2
- (subst|arch=i386)_ZN12QLocalServer18incomingConnectionE{quintptr}@Base 5.0.2
+ (subst|arch=amd64 i386)_ZN12QLocalServer18incomingConnectionE{quintptr}@Base 5.1.1
  _ZN12QLocalServer20waitForNewConnectionEiPb@Base 5.0.2
  _ZN12QLocalServer21nextPendingConnectionEv@Base 5.0.2
  _ZN12QLocalServer24setMaxPendingConnectionsEi@Base 5.0.2
  _ZN12QLocalServer5closeEv@Base 5.0.2
  _ZN12QLocalServer6listenERK7QString@Base 5.0.2
- (subst|arch=i386)_ZN12QLocalServer6listenE{qptrdiff}@Base 5.0.2
+ (subst|arch=amd64 i386)_ZN12QLocalServer6listenE{qptrdiff}@Base 5.1.1
  _ZN12QLocalServerC1EP7QObject@Base 5.0.2
  _ZN12QLocalServerC2EP7QObject@Base 5.0.2
  _ZN12QLocalServerD0Ev@Base 5.0.2
@@ -348,7 +348,7 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZN15QAbstractSocket16waitForReadyReadEi@Base 5.0.2
  _ZN15QAbstractSocket17setReadBufferSizeEx@Base 5.0.2
  _ZN15QAbstractSocket18disconnectFromHostEv@Base 5.0.2
- (subst|arch=i386)_ZN15QAbstractSocket19setSocketDescriptorE{qptrdiff}NS_11SocketStateE6QFlagsIN9QIODevice12OpenModeFlagEE@Base 5.0.2
+ (subst|arch=amd64 i386)_ZN15QAbstractSocket19setSocketDescriptorE{qptrdiff}NS_11SocketStateE6QFlagsIN9QIODevice12OpenModeFlagEE@Base 5.1.1
  _ZN15QAbstractSocket19waitForBytesWrittenEi@Base 5.0.2
  _ZN15QAbstractSocket19waitForDisconnectedEi@Base 5.0.2
  _ZN15QAbstractSocket27proxyAuthenticationRequiredERK13QNetworkProxyP14QAuthenticator@Base 5.0.2

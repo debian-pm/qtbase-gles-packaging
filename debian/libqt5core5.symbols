@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.1.1 ia64 s390x
+# SymbolsHelper-Confirmed: 5.1.1 amd64 ia64 s390x
 libQt5Core.so.5 libqt5core5 #MINVER#
 | libqt5core5 #MINVER#, qtbase-abi-5-1-0
  _Z10forcepointR11QTextStream@Base 5.0.2
@@ -4495,7 +4495,7 @@ libQt5Core.so.5 libqt5core5 #MINVER#
  (optional=templinst|arch=amd64)_ZNSt20__copy_move_backwardILb1ELb1ESt26random_access_iterator_tagE13__copy_move_bIiEEPT_PKS3_S6_S4_@Base 5.0.2
  (optional=templinst|arch=!amd64)_ZNSt38__uninitialized_construct_buf_dispatchILb0EE5__ucrIP21QPersistentModelIndexS2_EEvT_S4_RT0_@Base 5.0.2
  (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZNSt38__uninitialized_construct_buf_dispatchILb0EE5__ucrIP5QPairI21QPersistentModelIndexjES4_EEvT_S6_RT0_@Base 5.0.2
- (optional=templinst|subst)_ZSt11__push_heapIN5QListI5QPairI7QStringiEE8iteratorE{qptrdiff}S3_PFbRKS3_S7_EEvT_T0_SB_T1_T2_@Base 5.0.2
+ (optional=templinst|subst|arch=!amd64)_ZSt11__push_heapIN5QListI5QPairI7QStringiEE8iteratorE{qptrdiff}S3_PFbRKS3_S7_EEvT_T0_SB_T1_T2_@Base 5.0.2
  (optional=templinst)_ZSt11lower_boundIP21QPersistentModelIndexS0_ET_S2_S2_RKT0_@Base 5.0.2
  (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt11lower_boundIP5QPairI21QPersistentModelIndexjES2_ET_S4_S4_RKT0_@Base 5.0.2
  (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt11lower_boundIP5QPairIiiES1_ET_S3_S3_RKT0_@Base 5.0.2
@@ -4511,7 +4511,7 @@ libQt5Core.so.5 libqt5core5 #MINVER#
  (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt12__move_mergeIPiS0_S0_29QSortFilterProxyModelLessThanET1_T_S3_T0_S4_S2_T2_@Base 5.0.2
  (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt12__move_mergeIPiS0_S0_32QSortFilterProxyModelGreaterThanET1_T_S3_T0_S4_S2_T2_@Base 5.0.2
  (optional=templinst)_ZSt12__move_mergeIPiS0_S0_ET1_T_S2_T0_S3_S1_@Base 5.0.2
- (optional=templinst|subst)_ZSt13__adjust_heapIN5QListI5QPairI7QStringiEE8iteratorE{qptrdiff}S3_PFbRKS3_S7_EEvT_T0_SB_T1_T2_@Base 5.0.2
+ (optional=templinst|subst|arch=!amd64)_ZSt13__adjust_heapIN5QListI5QPairI7QStringiEE8iteratorE{qptrdiff}S3_PFbRKS3_S7_EEvT_T0_SB_T1_T2_@Base 5.0.2
  (optional=templinst|arch=s390)_ZSt13__adjust_heapIPiiiEvT_T0_S2_T1_@Base 5.1.0
  (optional=templinst|subst|arch=!s390)_ZSt13__adjust_heapIPi{ssize_t}iEvT_T0_S2_T1_@Base 5.0.2
  (optional=templinst|arch=alpha armhf ia64 powerpc powerpcspe ppc64 s390 s390x)_ZSt13move_backwardIP21QPersistentModelIndexS1_ET0_T_S3_S2_@Base 5.0.2
