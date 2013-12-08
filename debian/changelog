@@ -12,11 +12,6 @@ qtbase-opensource-src (5.2.0~rc1+dfsg-1) UNRELEASED; urgency=low
   * Update symbols files, marking private symbols as such.
   * Remove Disallow_deep_or_widely_nested_entity_references.patch, it has been
     applied upstream.
-  * Split sql-related dev files to the new libqt5sql5-dev package
-    (Closes: #729602).
-    - Create the new package, splitting the files from qtbase5-dev.
-    - Make qtbase5-dev recommend libqt5sql5-dev.
-    - Make libqt5sql5-dev depend on the SQL backend's plugins.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 26 Nov 2013 19:31:35 +0400
 
