@@ -1,4 +1,4 @@
-qtbase-opensource-src (5.2.0+dfsg-1) UNRELEASED; urgency=low
+qtbase-opensource-src (5.2.0+dfsg-1) experimental; urgency=low
 
   [ Dmitry Shachnev ]
   * Fix two wrongly sorted lines in qtbase5-private-dev.install (thanks Timo).
@@ -21,7 +21,7 @@ qtbase-opensource-src (5.2.0+dfsg-1) UNRELEASED; urgency=low
   * A user of Qt built by a distro doesn't needs to find where the SQL plugins
     are via CMake. Do not install them (Closes: #729602).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 26 Nov 2013 19:31:35 +0400
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 12 Dec 2013 18:42:12 -0300
 
 qtbase-opensource-src (5.2.0~beta1+dfsg-3) experimental; urgency=low
 
