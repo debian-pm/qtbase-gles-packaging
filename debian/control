@@ -62,13 +62,15 @@ Homepage: http://qt-project.org/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/qt/qtbase.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/qt/qtbase.git;a=summary
 
-Package: libqt5core5
+Package: libqt5core5a
 Architecture: any
 Multi-Arch: same
 Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
 Provides: qtbase-abi-5-2-0
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Suggests: libthai0
+Breaks: libqt5core5 (<< 5.2.0+dfsg~)
+Replaces: libqt5core5 (<< 5.2.0+dfsg~)
 Description: Qt 5 core module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
