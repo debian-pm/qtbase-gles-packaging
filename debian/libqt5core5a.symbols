@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.2.0~rc1 amd64
+# SymbolsHelper-Confirmed: 5.2.0 amd64
 libQt5Core.so.5 libqt5core5a #MINVER#
 | libqt5core5a #MINVER#, qtbase-abi-5-2-0
  _Z10forcepointR11QTextStream@Base 5.0.2
@@ -519,14 +519,14 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZN12QDirIteratorC2ERK7QStringRK11QStringList6QFlagsIN4QDir6FilterEES6_INS_12IteratorFlagEE@Base 5.0.2
  _ZN12QDirIteratorD1Ev@Base 5.0.2
  _ZN12QDirIteratorD2Ev@Base 5.0.2
- (subst)_ZN12QEasingCurve12setAmplitudeE{qreal}@Base 5.0.2
- (subst)_ZN12QEasingCurve12setOvershootE{qreal}@Base 5.0.2
- (subst)_ZN12QEasingCurve13addTCBSegmentERK7QPointF{qreal}{qreal}{qreal}@Base 5.0.2
- (subst)_ZN12QEasingCurve13setCustomTypeEPF{qreal}{qreal}E@Base 5.0.2
+ _ZN12QEasingCurve12setAmplitudeEd@Base 5.2.0
+ _ZN12QEasingCurve12setOvershootEd@Base 5.2.0
+ _ZN12QEasingCurve13addTCBSegmentERK7QPointFddd@Base 5.2.0
+ _ZN12QEasingCurve13setCustomTypeEPFddE@Base 5.2.0
  _ZN12QEasingCurve16staticMetaObjectE@Base 5.0.2
  _ZN12QEasingCurve21addCubicBezierSegmentERK7QPointFS2_S2_@Base 5.0.2
  _ZN12QEasingCurve7setTypeENS_4TypeE@Base 5.0.2
- (subst)_ZN12QEasingCurve9setPeriodE{qreal}@Base 5.0.2
+ _ZN12QEasingCurve9setPeriodEd@Base 5.2.0
  _ZN12QEasingCurveC1ENS_4TypeE@Base 5.0.2
  _ZN12QEasingCurveC1ERKS_@Base 5.0.2
  _ZN12QEasingCurveC2ENS_4TypeE@Base 5.0.2
@@ -1255,15 +1255,15 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZN17QVariantAnimation11setDurationEi@Base 5.0.2
  _ZN17QVariantAnimation11setEndValueERK8QVariant@Base 5.0.2
  _ZN17QVariantAnimation11updateStateEN18QAbstractAnimation5StateES1_@Base 5.0.2
- (subst)_ZN17QVariantAnimation12setKeyValuesERK7QVectorI5QPairI{qreal}8QVariantEE@Base 5.0.2
+ _ZN17QVariantAnimation12setKeyValuesERK7QVectorI5QPairId8QVariantEE@Base 5.2.0
  _ZN17QVariantAnimation12valueChangedERK8QVariant@Base 5.0.2
- (subst)_ZN17QVariantAnimation13setKeyValueAtE{qreal}RK8QVariant@Base 5.0.2
+ _ZN17QVariantAnimation13setKeyValueAtEdRK8QVariant@Base 5.2.0
  _ZN17QVariantAnimation13setStartValueERK8QVariant@Base 5.0.2
  _ZN17QVariantAnimation14setEasingCurveERK12QEasingCurve@Base 5.0.2
  _ZN17QVariantAnimation16staticMetaObjectE@Base 5.0.2
  _ZN17QVariantAnimation17updateCurrentTimeEi@Base 5.0.2
  _ZN17QVariantAnimation18updateCurrentValueERK8QVariant@Base 5.0.2
- (subst)_ZN17QVariantAnimation20registerInterpolatorEPF8QVariantPKvS2_{qreal}Ei@Base 5.0.2
+ _ZN17QVariantAnimation20registerInterpolatorEPF8QVariantPKvS2_dEi@Base 5.2.0
  _ZN17QVariantAnimation5eventEP6QEvent@Base 5.0.2
  _ZN17QVariantAnimationC1EP7QObject@Base 5.0.2
  _ZN17QVariantAnimationC1ER24QVariantAnimationPrivateP7QObject@Base 5.0.2
@@ -2408,8 +2408,8 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZN6QEventD1Ev@Base 5.0.2
  _ZN6QEventD2Ev@Base 5.0.2
  _ZN6QEventaSERKS_@Base 5.0.2
- (subst)_ZN6QLineF8setAngleE{qreal}@Base 5.0.2
- (subst)_ZN6QLineF9fromPolarE{qreal}{qreal}@Base 5.0.2
+ _ZN6QLineF8setAngleEd@Base 5.2.0
+ _ZN6QLineF9fromPolarEdd@Base 5.2.0
  _ZN6QMutex4lockEv@Base 5.0.2
  _ZN6QMutex6unlockEv@Base 5.0.2
  _ZN6QMutex7tryLockEi@Base 5.0.2
@@ -3133,7 +3133,7 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZN9QTimeLine12setDirectionENS_9DirectionE@Base 5.0.2
  _ZN9QTimeLine12setLoopCountEi@Base 5.0.2
  _ZN9QTimeLine12stateChangedENS_5StateENS_14QPrivateSignalE@Base 5.0.2
- (subst)_ZN9QTimeLine12valueChangedE{qreal}NS_14QPrivateSignalE@Base 5.0.2
+ _ZN9QTimeLine12valueChangedEdNS_14QPrivateSignalE@Base 5.2.0
  _ZN9QTimeLine13setCurveShapeENS_10CurveShapeE@Base 5.0.2
  _ZN9QTimeLine13setFrameRangeEii@Base 5.0.2
  _ZN9QTimeLine13setStartFrameEi@Base 5.0.2
@@ -3468,7 +3468,7 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZNK12QDirIterator8filePathEv@Base 5.0.2
  _ZNK12QEasingCurve10customTypeEv@Base 5.0.2
  _ZNK12QEasingCurve13toCubicSplineEv@Base 5.0.2
- (subst)_ZNK12QEasingCurve16valueForProgressE{qreal}@Base 5.0.2
+ _ZNK12QEasingCurve16valueForProgressEd@Base 5.2.0
  _ZNK12QEasingCurve4typeEv@Base 5.0.2
  _ZNK12QEasingCurve6periodEv@Base 5.0.2
  _ZNK12QEasingCurve9amplitudeEv@Base 5.0.2
@@ -3761,12 +3761,12 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZNK17QSignalTransition10metaObjectEv@Base 5.0.2
  _ZNK17QSignalTransition12senderObjectEv@Base 5.0.2
  _ZNK17QSignalTransition6signalEv@Base 5.0.2
- (subst)_ZNK17QVariantAnimation10keyValueAtE{qreal}@Base 5.0.2
+ _ZNK17QVariantAnimation10keyValueAtEd@Base 5.2.0
  _ZNK17QVariantAnimation10metaObjectEv@Base 5.0.2
  _ZNK17QVariantAnimation10startValueEv@Base 5.0.2
  _ZNK17QVariantAnimation11easingCurveEv@Base 5.0.2
  _ZNK17QVariantAnimation12currentValueEv@Base 5.0.2
- (subst)_ZNK17QVariantAnimation12interpolatedERK8QVariantS2_{qreal}@Base 5.0.2
+ _ZNK17QVariantAnimation12interpolatedERK8QVariantS2_d@Base 5.2.0
  _ZNK17QVariantAnimation8durationEv@Base 5.0.2
  _ZNK17QVariantAnimation8endValueEv@Base 5.0.2
  _ZNK17QVariantAnimation9keyValuesEv@Base 5.0.2

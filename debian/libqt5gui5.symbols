@@ -1,10 +1,10 @@
-# SymbolsHelper-Confirmed: 5.2.0~rc1 amd64
+# SymbolsHelper-Confirmed: 5.2.0 amd64
 libQt5Gui.so.5 libqt5gui5 #MINVER#
 | libqt5gui5 #MINVER#, qtbase-abi-5-2-0
  _Z11qDrawBorderP8QPainterRK5QRectPKN4QCss11BorderStyleEPKiPK6QBrushPK5QSize@Base 5.0.2
- (subst)_Z12qTriangulatePK{qreal}ijRK10QTransform@Base 5.0.2
- (subst)_Z12qTriangulateRK11QVectorPathRK10QTransform{qreal}@Base 5.0.2 1
- (subst)_Z12qTriangulateRK12QPainterPathRK10QTransform{qreal}@Base 5.0.2
+ _Z12qTriangulatePKdijRK10QTransform@Base 5.2.0
+ _Z12qTriangulateRK11QVectorPathRK10QTransformd@Base 5.2.0
+ _Z12qTriangulateRK12QPainterPathRK10QTransformd@Base 5.2.0
  _Z13qt_defaultDpiv@Base 5.0.2
  _Z14qt_defaultDpiXv@Base 5.0.2
  _Z14qt_defaultDpiYv@Base 5.0.2
@@ -28,15 +28,15 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _Z17qHasPixmapTextureRK6QBrush@Base 5.0.2
  _Z17qt_handleKeyEventP7QWindowN6QEvent4TypeEi6QFlagsIN2Qt16KeyboardModifierEERK7QStringbt@Base 5.0.2
  _Z17qt_window_privateP7QWindow@Base 5.0.2
- (subst)_Z18qt_addBitmapToPath{qreal}{qreal}PKhiiiP12QPainterPath@Base 5.0.2
+ _Z18qt_addBitmapToPathddPKhiiiP12QPainterPath@Base 5.2.0
  _Z19qtVectorPathForPathRK12QPainterPath@Base 5.0.2
  _Z19qt_handleMouseEventP7QWindowRK7QPointFS3_6QFlagsIN2Qt11MouseButtonEES4_INS5_16KeyboardModifierEE@Base 5.0.2
  _Z19qt_handleTouchEventP7QWindowP12QTouchDeviceRK5QListIN11QTouchEvent10TouchPointEE6QFlagsIN2Qt16KeyboardModifierEE@Base 5.0.2
- (subst)_Z20qt_scaleForTransformRK10QTransformP{qreal}@Base 5.0.2
+ _Z20qt_scaleForTransformRK10QTransformPd@Base 5.2.0
  _Z20qt_scrollRectInImageR6QImageRK5QRectRK6QPoint@Base 5.0.2
  _Z21qAccessibleRoleStringN11QAccessible4RoleE@Base 5.0.2
  _Z22qAccessibleEventStringN11QAccessible5EventE@Base 5.0.2
- (subst)_Z22qt_find_ellipse_coordsRK6QRectF{qreal}{qreal}P7QPointFS3_@Base 5.0.2
+ _Z22qt_find_ellipse_coordsRK6QRectFddP7QPointFS3_@Base 5.2.0
  _Z22qt_fontdata_from_indexi@Base 5.0.2
  _Z22qt_gl_read_framebufferRK5QSizebb@Base 5.0.2
  _Z22qt_paint_device_metricPK12QPaintDeviceNS_17PaintDeviceMetricE@Base 5.0.2
@@ -52,7 +52,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _Z32qGamma_correct_back_to_linear_csP6QImage@Base 5.0.2
  (optional=gccinternal|arch=amd64 hurd-i386 i386 powerpcspe)_Z32qt_convert_rgb888_to_rgb32_ssse3PjPKhi@Base 5.0.2
  _Z5qHashRKN22QGuiApplicationPrivate20ActiveTouchPointsKeyE@Base 5.0.2 1
- (subst)_Z9qPolylineRK12QPainterPathRK10QTransform{qreal}@Base 5.0.2
+ _Z9qPolylineRK12QPainterPathRK10QTransformd@Base 5.2.0
  _ZN10QBasicDrag11eventFilterEP7QObjectP6QEvent@Base 5.1.0 1
  _ZN10QBasicDrag12updateCursorEN2Qt10DropActionE@Base 5.1.0 1
  _ZN10QBasicDrag13restoreCursorEv@Base 5.1.0 1
@@ -280,23 +280,23 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN10QTransform10quadToQuadERK9QPolygonFS2_RS_@Base 5.0.2
  _ZN10QTransform12quadToSquareERK9QPolygonFRS_@Base 5.0.2
  _ZN10QTransform12squareToQuadERK9QPolygonFRS_@Base 5.0.2
- (subst)_ZN10QTransform13fromTranslateE{qreal}{qreal}@Base 5.0.2
- (subst)_ZN10QTransform13rotateRadiansE{qreal}N2Qt4AxisE@Base 5.0.2
+ _ZN10QTransform13fromTranslateEdd@Base 5.2.0
+ _ZN10QTransform13rotateRadiansEdN2Qt4AxisE@Base 5.2.0
  _ZN10QTransform5resetEv@Base 5.0.2
- (subst)_ZN10QTransform5scaleE{qreal}{qreal}@Base 5.0.2
- (subst)_ZN10QTransform5shearE{qreal}{qreal}@Base 5.0.2
- (subst)_ZN10QTransform6rotateE{qreal}N2Qt4AxisE@Base 5.0.2
- (subst)_ZN10QTransform9fromScaleE{qreal}{qreal}@Base 5.0.2
- (subst)_ZN10QTransform9setMatrixE{qreal}{qreal}{qreal}{qreal}{qreal}{qreal}{qreal}{qreal}{qreal}@Base 5.0.2
- (subst)_ZN10QTransform9translateE{qreal}{qreal}@Base 5.0.2
+ _ZN10QTransform5scaleEdd@Base 5.2.0
+ _ZN10QTransform5shearEdd@Base 5.2.0
+ _ZN10QTransform6rotateEdN2Qt4AxisE@Base 5.2.0
+ _ZN10QTransform9fromScaleEdd@Base 5.2.0
+ _ZN10QTransform9setMatrixEddddddddd@Base 5.2.0
+ _ZN10QTransform9translateEdd@Base 5.2.0
  _ZN10QTransformC1ERK7QMatrix@Base 5.0.2
+ _ZN10QTransformC1Edddddd@Base 5.2.0
+ _ZN10QTransformC1Eddddddddd@Base 5.2.0
  _ZN10QTransformC1Ev@Base 5.0.2
- (subst)_ZN10QTransformC1E{qreal}{qreal}{qreal}{qreal}{qreal}{qreal}@Base 5.0.2
- (subst)_ZN10QTransformC1E{qreal}{qreal}{qreal}{qreal}{qreal}{qreal}{qreal}{qreal}{qreal}@Base 5.0.2
  _ZN10QTransformC2ERK7QMatrix@Base 5.0.2
+ _ZN10QTransformC2Edddddd@Base 5.2.0
+ _ZN10QTransformC2Eddddddddd@Base 5.2.0
  _ZN10QTransformC2Ev@Base 5.0.2
- (subst)_ZN10QTransformC2E{qreal}{qreal}{qreal}{qreal}{qreal}{qreal}@Base 5.0.2
- (subst)_ZN10QTransformC2E{qreal}{qreal}{qreal}{qreal}{qreal}{qreal}{qreal}{qreal}{qreal}@Base 5.0.2
  _ZN10QTransformaSERKS_@Base 5.0.2
  _ZN10QTransformmLERKS_@Base 5.0.2
  _ZN10QValidator11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
@@ -377,19 +377,19 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN11QFontEngine14bitmapForGlyphEj6QFixedRK10QTransform@Base 5.1.0 1
  _ZN11QFontEngine15addGlyphsToPathEPjP11QFixedPointiP12QPainterPath6QFlagsIN9QTextItem10RenderFlagEE@Base 5.0.2 1
  _ZN11QFontEngine15clearGlyphCacheEPKv@Base 5.2.0~beta1 1
- (subst)_ZN11QFontEngine16addOutlineToPathE{qreal}{qreal}RK12QGlyphLayoutP12QPainterPath6QFlagsIN9QTextItem10RenderFlagEE@Base 5.0.2 1
+ _ZN11QFontEngine16addOutlineToPathEddRK12QGlyphLayoutP12QPainterPath6QFlagsIN9QTextItem10RenderFlagEE@Base 5.2.0
  _ZN11QFontEngine16alphaMapForGlyphEj6QFixed@Base 5.0.2 1
  _ZN11QFontEngine16alphaMapForGlyphEj6QFixedRK10QTransform@Base 5.0.2 1
  _ZN11QFontEngine16alphaMapForGlyphEj@Base 5.0.2 1
  _ZN11QFontEngine16alphaMapForGlyphEjRK10QTransform@Base 5.0.2 1
- (subst)_ZN11QFontEngine16getGlyphBearingsEjP{qreal}S0_@Base 5.0.2 1
+ _ZN11QFontEngine16getGlyphBearingsEjPdS0_@Base 5.2.0
  _ZN11QFontEngine16getUnscaledGlyphEjP12QPainterPathP15glyph_metrics_t@Base 5.0.2 1
  _ZN11QFontEngine16lastRightBearingERK12QGlyphLayoutb@Base 5.0.2 1
  _ZN11QFontEngine16loadKerningPairsE6QFixed@Base 5.0.2 1
  _ZN11QFontEngine16tightBoundingBoxERK12QGlyphLayout@Base 5.0.2 1
  _ZN11QFontEngine17getGlyphPositionsERK12QGlyphLayoutRK10QTransform6QFlagsIN9QTextItem10RenderFlagEER15QVarLengthArrayIjLi256EERSA_I11QFixedPointLi256EE@Base 5.0.2 1
  _ZN11QFontEngine17getPointInOutlineEjijP6QFixedS1_Pj@Base 5.1.0 1
- (subst)_ZN11QFontEngine19addBitmapFontToPathE{qreal}{qreal}RK12QGlyphLayoutP12QPainterPath6QFlagsIN9QTextItem10RenderFlagEE@Base 5.0.2 1
+ _ZN11QFontEngine19addBitmapFontToPathEddRK12QGlyphLayoutP12QPainterPath6QFlagsIN9QTextItem10RenderFlagEE@Base 5.2.0
  _ZN11QFontEngine19alphaRGBMapForGlyphEj6QFixedRK10QTransform@Base 5.0.2 1
  _ZN11QFontEngine20removeGlyphFromCacheEj@Base 5.0.2 1
  _ZN11QFontEngine21getTrueTypeGlyphIndexEPKhj@Base 5.0.2 1
@@ -462,7 +462,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN11QSimpleDragD0Ev@Base 5.1.0 1
  _ZN11QSimpleDragD1Ev@Base 5.1.0 1
  _ZN11QSimpleDragD2Ev@Base 5.1.0 1
- (subst)_ZN11QStaticText12setTextWidthE{qreal}@Base 5.0.2
+ _ZN11QStaticText12setTextWidthEd@Base 5.2.0
  _ZN11QStaticText13setTextFormatEN2Qt10TextFormatE@Base 5.0.2
  _ZN11QStaticText13setTextOptionERK11QTextOption@Base 5.0.2
  _ZN11QStaticText18setPerformanceHintENS_15PerformanceHintE@Base 5.0.2
@@ -571,7 +571,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN11QTextEngine15FontEngineCacheC2Ev@Base 5.0.2 1
  _ZN11QTextEngine15beginningOfLineEi@Base 5.0.2 1
  _ZN11QTextEngine15drawDecorationsEP8QPainter@Base 5.0.2 1
- (subst)_ZN11QTextEngine16adjustUnderlinesEN5QListINS_14ItemDecorationEE8iteratorES3_{qreal}{qreal}@Base 5.0.2 1
+ _ZN11QTextEngine16adjustUnderlinesEN5QListINS_14ItemDecorationEE8iteratorES3_dd@Base 5.2.0
  _ZN11QTextEngine16adjustUnderlinesEv@Base 5.0.2 1
  _ZN11QTextEngine16clearDecorationsEv@Base 5.0.2 1
  _ZN11QTextEngine16getClusterLengthEPtPK15QCharAttributesiiiPi@Base 5.0.2 1
@@ -648,7 +648,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN11QTextObjectD0Ev@Base 5.0.2
  _ZN11QTextObjectD1Ev@Base 5.0.2
  _ZN11QTextObjectD2Ev@Base 5.0.2
- (subst)_ZN11QTextOption11setTabArrayERK5QListI{qreal}E@Base 5.0.2
+ _ZN11QTextOption11setTabArrayERK5QListIdE@Base 5.2.0
  _ZN11QTextOption7setTabsERK5QListINS_3TabEE@Base 5.0.2
  _ZN11QTextOptionC1E6QFlagsIN2Qt13AlignmentFlagEE@Base 5.0.2
  _ZN11QTextOptionC1ERKS_@Base 5.0.2
@@ -660,7 +660,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN11QTextOptionD2Ev@Base 5.0.2
  _ZN11QTextOptionaSERKS_@Base 5.0.2
  _ZN11QTouchEvent10TouchPoint10setLastPosERK7QPointF@Base 5.0.2
- (subst)_ZN11QTouchEvent10TouchPoint11setPressureE{qreal}@Base 5.0.2
+ _ZN11QTouchEvent10TouchPoint11setPressureEd@Base 5.2.0
  _ZN11QTouchEvent10TouchPoint11setScenePosERK7QPointF@Base 5.0.2
  _ZN11QTouchEvent10TouchPoint11setStartPosERK7QPointF@Base 5.0.2
  _ZN11QTouchEvent10TouchPoint11setVelocityERK9QVector2D@Base 5.0.2
@@ -891,10 +891,10 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN12QPainterPath12addRoundRectERK6QRectFii@Base 5.0.2
  _ZN12QPainterPath12closeSubpathEv@Base 5.0.2
  _ZN12QPainterPath13detach_helperEv@Base 5.0.2
- (subst)_ZN12QPainterPath14addRoundedRectERK6QRectF{qreal}{qreal}N2Qt8SizeModeE@Base 5.0.2
+ _ZN12QPainterPath14addRoundedRectERK6QRectFddN2Qt8SizeModeE@Base 5.2.0
  _ZN12QPainterPath17ensureData_helperEv@Base 5.0.2
- (subst)_ZN12QPainterPath20setElementPositionAtEi{qreal}{qreal}@Base 5.0.2
- (subst)_ZN12QPainterPath5arcToERK6QRectF{qreal}{qreal}@Base 5.0.2
+ _ZN12QPainterPath20setElementPositionAtEidd@Base 5.2.0
+ _ZN12QPainterPath5arcToERK6QRectFdd@Base 5.2.0
  _ZN12QPainterPath6detachEv@Base 5.0.2
  _ZN12QPainterPath6lineToERK7QPointF@Base 5.0.2
  _ZN12QPainterPath6moveToERK7QPointF@Base 5.0.2
@@ -905,8 +905,8 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN12QPainterPath7cubicToERK7QPointFS2_S2_@Base 5.0.2
  _ZN12QPainterPath8setDirtyEb@Base 5.0.2
  _ZN12QPainterPath9addRegionERK7QRegion@Base 5.0.2
- (subst)_ZN12QPainterPath9arcMoveToERK6QRectF{qreal}@Base 5.0.2
- (subst)_ZN12QPainterPath9translateE{qreal}{qreal}@Base 5.0.2
+ _ZN12QPainterPath9arcMoveToERK6QRectFd@Base 5.2.0
+ _ZN12QPainterPath9translateEdd@Base 5.2.0
  _ZN12QPainterPathC1ERK7QPointF@Base 5.0.2
  _ZN12QPainterPathC1ERKS_@Base 5.0.2
  _ZN12QPainterPathC1Ev@Base 5.0.2
@@ -921,7 +921,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN12QPainterPathoRERKS_@Base 5.0.2
  _ZN12QPainterPathpLERKS_@Base 5.0.2
  _ZN12QPathClipper10pathToRectERK12QPainterPathP6QRectF@Base 5.0.2 1
- (subst)_ZN12QPathClipper19handleCrossingEdgesER11QWingedEdge{qreal}NS_11ClipperModeE@Base 5.0.2 1
+ _ZN12QPathClipper19handleCrossingEdgesER11QWingedEdgedNS_11ClipperModeE@Base 5.2.0
  _ZN12QPathClipper4clipENS_9OperationE@Base 5.0.2 1
  _ZN12QPathClipper6doClipER11QWingedEdgeNS_11ClipperModeE@Base 5.0.2 1
  _ZN12QPathClipper8containsEv@Base 5.0.2 1
@@ -978,8 +978,8 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN12QShortcutMapC2Ev@Base 5.0.2 1
  _ZN12QShortcutMapD1Ev@Base 5.0.2 1
  _ZN12QShortcutMapD2Ev@Base 5.0.2 1
- (subst)_ZN12QTabletEventC1EN6QEvent4TypeERK7QPointFS4_ii{qreal}ii{qreal}{qreal}i6QFlagsIN2Qt16KeyboardModifierEEx@Base 5.0.2
- (subst)_ZN12QTabletEventC2EN6QEvent4TypeERK7QPointFS4_ii{qreal}ii{qreal}{qreal}i6QFlagsIN2Qt16KeyboardModifierEEx@Base 5.0.2
+ _ZN12QTabletEventC1EN6QEvent4TypeERK7QPointFS4_iidiiddi6QFlagsIN2Qt16KeyboardModifierEEx@Base 5.2.0
+ _ZN12QTabletEventC2EN6QEvent4TypeERK7QPointFS4_iidiiddi6QFlagsIN2Qt16KeyboardModifierEEx@Base 5.2.0
  _ZN12QTabletEventD0Ev@Base 5.0.2
  _ZN12QTabletEventD1Ev@Base 5.0.2
  _ZN12QTabletEventD2Ev@Base 5.0.2
@@ -1161,20 +1161,20 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN13QTextDocument12drawContentsEP8QPainterRK6QRectF@Base 5.0.2
  _ZN13QTextDocument12loadResourceEiRK4QUrl@Base 5.0.2
  _ZN13QTextDocument12setPlainTextERK7QString@Base 5.0.2
- (subst)_ZN13QTextDocument12setTextWidthE{qreal}@Base 5.0.2
+ _ZN13QTextDocument12setTextWidthEd@Base 5.2.0
  _ZN13QTextDocument13redoAvailableEb@Base 5.0.2
  _ZN13QTextDocument13undoAvailableEb@Base 5.0.2
  _ZN13QTextDocument14appendUndoItemEP17QAbstractUndoItem@Base 5.0.2
  _ZN13QTextDocument14contentsChangeEiii@Base 5.0.2
  _ZN13QTextDocument14setDefaultFontERK5QFont@Base 5.0.2
- (subst)_ZN13QTextDocument14setIndentWidthE{qreal}@Base 5.0.2
+ _ZN13QTextDocument14setIndentWidthEd@Base 5.2.0
  _ZN13QTextDocument15contentsChangedEv@Base 5.0.2
  _ZN13QTextDocument16staticMetaObjectE@Base 5.0.2
  _ZN13QTextDocument16undoCommandAddedEv@Base 5.0.2
  _ZN13QTextDocument17blockCountChangedEi@Base 5.0.2
  _ZN13QTextDocument17markContentsDirtyEii@Base 5.0.2
  _ZN13QTextDocument17setDocumentLayoutEP27QAbstractTextDocumentLayout@Base 5.0.2
- (subst)_ZN13QTextDocument17setDocumentMarginE{qreal}@Base 5.0.2
+ _ZN13QTextDocument17setDocumentMarginEd@Base 5.2.0
  _ZN13QTextDocument18setMetaInformationENS_15MetaInformationERK7QString@Base 5.0.2
  _ZN13QTextDocument18setUndoRedoEnabledEb@Base 5.0.2
  _ZN13QTextDocument19clearUndoRedoStacksENS_6StacksE@Base 5.0.2
@@ -1232,7 +1232,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN14QFontEngineQPA11boundingBoxERK12QGlyphLayout@Base 5.0.2 1
  _ZN14QFontEngineQPA11boundingBoxEj@Base 5.0.2 1
  _ZN14QFontEngineQPA12verifyHeaderEPKhi@Base 5.0.2 1
- (subst)_ZN14QFontEngineQPA16addOutlineToPathE{qreal}{qreal}RK12QGlyphLayoutP12QPainterPath6QFlagsIN9QTextItem10RenderFlagEE@Base 5.0.2 1
+ _ZN14QFontEngineQPA16addOutlineToPathEddRK12QGlyphLayoutP12QPainterPath6QFlagsIN9QTextItem10RenderFlagEE@Base 5.2.0
  _ZN14QFontEngineQPA16alphaMapForGlyphEj@Base 5.0.2 1
  _ZN14QFontEngineQPA18extractHeaderFieldEPKhNS_9HeaderTagE@Base 5.0.2 1
  _ZN14QFontEngineQPA9canRenderEPK5QChari@Base 5.0.2 1
@@ -1347,7 +1347,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN14QPaintEngineEx11drawPolygonEPK6QPointiN12QPaintEngine15PolygonDrawModeE@Base 5.0.2 1
  _ZN14QPaintEngineEx11drawPolygonEPK7QPointFiN12QPaintEngine15PolygonDrawModeE@Base 5.0.2 1
  _ZN14QPaintEngineEx11updateStateERK17QPaintEngineState@Base 5.0.2 1
- (subst)_ZN14QPaintEngineEx15drawRoundedRectERK6QRectF{qreal}{qreal}N2Qt8SizeModeE@Base 5.0.2 1
+ _ZN14QPaintEngineEx15drawRoundedRectERK6QRectFddN2Qt8SizeModeE@Base 5.2.0
  _ZN14QPaintEngineEx15drawTiledPixmapERK6QRectFRK7QPixmapRK7QPointF@Base 5.0.2 1
  _ZN14QPaintEngineEx18drawStaticTextItemEP15QStaticTextItem@Base 5.0.2 1
  _ZN14QPaintEngineEx19drawPixmapFragmentsEPKN8QPainter14PixmapFragmentEiRK7QPixmap6QFlagsINS0_18PixmapFragmentHintEE@Base 5.0.2 1
@@ -1500,11 +1500,11 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN15QLinearGradient12setFinalStopERK7QPointF@Base 5.0.2
  _ZN15QLinearGradient8setStartERK7QPointF@Base 5.0.2
  _ZN15QLinearGradientC1ERK7QPointFS2_@Base 5.0.2
+ _ZN15QLinearGradientC1Edddd@Base 5.2.0
  _ZN15QLinearGradientC1Ev@Base 5.0.2
- (subst)_ZN15QLinearGradientC1E{qreal}{qreal}{qreal}{qreal}@Base 5.0.2
  _ZN15QLinearGradientC2ERK7QPointFS2_@Base 5.0.2
+ _ZN15QLinearGradientC2Edddd@Base 5.2.0
  _ZN15QLinearGradientC2Ev@Base 5.0.2
- (subst)_ZN15QLinearGradientC2E{qreal}{qreal}{qreal}{qreal}@Base 5.0.2
  _ZN15QPlatformCursor6setPosERK6QPoint@Base 5.0.2 1
  _ZN15QPlatformCursorC1Ev@Base 5.0.2 1
  _ZN15QPlatformCursorC2Ev@Base 5.0.2 1
@@ -1533,7 +1533,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN15QPlatformScreenD0Ev@Base 5.0.2 1
  _ZN15QPlatformScreenD1Ev@Base 5.0.2 1
  _ZN15QPlatformScreenD2Ev@Base 5.0.2 1
- (subst)_ZN15QPlatformWindow10setOpacityE{qreal}@Base 5.0.2 1
+ _ZN15QPlatformWindow10setOpacityEd@Base 5.2.0
  _ZN15QPlatformWindow10setVisibleEb@Base 5.0.2 1
  _ZN15QPlatformWindow11setGeometryERK5QRect@Base 5.0.2 1
  _ZN15QPlatformWindow11windowEventEP6QEvent@Base 5.0.2 1
@@ -1563,26 +1563,26 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN15QPlatformWindowD1Ev@Base 5.0.2 1
  _ZN15QPlatformWindowD2Ev@Base 5.0.2 1
  _ZN15QRadialGradient13setFocalPointERK7QPointF@Base 5.0.2
- (subst)_ZN15QRadialGradient14setFocalRadiusE{qreal}@Base 5.0.2
- (subst)_ZN15QRadialGradient15setCenterRadiusE{qreal}@Base 5.0.2
+ _ZN15QRadialGradient14setFocalRadiusEd@Base 5.2.0
+ _ZN15QRadialGradient15setCenterRadiusEd@Base 5.2.0
  _ZN15QRadialGradient9setCenterERK7QPointF@Base 5.0.2
- (subst)_ZN15QRadialGradient9setRadiusE{qreal}@Base 5.0.2
- (subst)_ZN15QRadialGradientC1ERK7QPointF{qreal}@Base 5.0.2
- (subst)_ZN15QRadialGradientC1ERK7QPointF{qreal}S2_@Base 5.0.2
- (subst)_ZN15QRadialGradientC1ERK7QPointF{qreal}S2_{qreal}@Base 5.0.2
+ _ZN15QRadialGradient9setRadiusEd@Base 5.2.0
+ _ZN15QRadialGradientC1ERK7QPointFd@Base 5.2.0
+ _ZN15QRadialGradientC1ERK7QPointFdS2_@Base 5.2.0
+ _ZN15QRadialGradientC1ERK7QPointFdS2_d@Base 5.2.0
+ _ZN15QRadialGradientC1Eddd@Base 5.2.0
+ _ZN15QRadialGradientC1Eddddd@Base 5.2.0
+ _ZN15QRadialGradientC1Edddddd@Base 5.2.0
  _ZN15QRadialGradientC1Ev@Base 5.0.2
- (subst)_ZN15QRadialGradientC1E{qreal}{qreal}{qreal}@Base 5.0.2
- (subst)_ZN15QRadialGradientC1E{qreal}{qreal}{qreal}{qreal}{qreal}@Base 5.0.2
- (subst)_ZN15QRadialGradientC1E{qreal}{qreal}{qreal}{qreal}{qreal}{qreal}@Base 5.0.2
- (subst)_ZN15QRadialGradientC2ERK7QPointF{qreal}@Base 5.0.2
- (subst)_ZN15QRadialGradientC2ERK7QPointF{qreal}S2_@Base 5.0.2
- (subst)_ZN15QRadialGradientC2ERK7QPointF{qreal}S2_{qreal}@Base 5.0.2
+ _ZN15QRadialGradientC2ERK7QPointFd@Base 5.2.0
+ _ZN15QRadialGradientC2ERK7QPointFdS2_@Base 5.2.0
+ _ZN15QRadialGradientC2ERK7QPointFdS2_d@Base 5.2.0
+ _ZN15QRadialGradientC2Eddd@Base 5.2.0
+ _ZN15QRadialGradientC2Eddddd@Base 5.2.0
+ _ZN15QRadialGradientC2Edddddd@Base 5.2.0
  _ZN15QRadialGradientC2Ev@Base 5.0.2
- (subst)_ZN15QRadialGradientC2E{qreal}{qreal}{qreal}@Base 5.0.2
- (subst)_ZN15QRadialGradientC2E{qreal}{qreal}{qreal}{qreal}{qreal}@Base 5.0.2
- (subst)_ZN15QRadialGradientC2E{qreal}{qreal}{qreal}{qreal}{qreal}{qreal}@Base 5.0.2
  _ZN15QRawFontPrivate15platformCleanUpEv@Base 5.0.2 1
- (subst)_ZN15QRawFontPrivate20platformLoadFromDataERK10QByteArray{qreal}N5QFont17HintingPreferenceE@Base 5.0.2 1
+ _ZN15QRawFontPrivate20platformLoadFromDataERK10QByteArraydN5QFont17HintingPreferenceE@Base 5.2.0
  _ZN15QRawFontPrivate7cleanUpEv@Base 5.0.2 1
  _ZN15QSessionManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN15QSessionManager11qt_metacastEPKc@Base 5.0.2
@@ -1633,14 +1633,14 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN15QTextListFormatC1Ev@Base 5.0.2
  _ZN15QTextListFormatC2ERK11QTextFormat@Base 5.0.2
  _ZN15QTextListFormatC2Ev@Base 5.0.2
- (subst)_ZN16QConicalGradient8setAngleE{qreal}@Base 5.0.2
+ _ZN16QConicalGradient8setAngleEd@Base 5.2.0
  _ZN16QConicalGradient9setCenterERK7QPointF@Base 5.0.2
- (subst)_ZN16QConicalGradientC1ERK7QPointF{qreal}@Base 5.0.2
+ _ZN16QConicalGradientC1ERK7QPointFd@Base 5.2.0
+ _ZN16QConicalGradientC1Eddd@Base 5.2.0
  _ZN16QConicalGradientC1Ev@Base 5.0.2
- (subst)_ZN16QConicalGradientC1E{qreal}{qreal}{qreal}@Base 5.0.2
- (subst)_ZN16QConicalGradientC2ERK7QPointF{qreal}@Base 5.0.2
+ _ZN16QConicalGradientC2ERK7QPointFd@Base 5.2.0
+ _ZN16QConicalGradientC2Eddd@Base 5.2.0
  _ZN16QConicalGradientC2Ev@Base 5.0.2
- (subst)_ZN16QConicalGradientC2E{qreal}{qreal}{qreal}@Base 5.0.2
  (arch=armel)_ZN16QCoreApplication20sendSpontaneousEventEP7QObjectP6QEvent@Base 5.1.1
  _ZN16QDesktopServices13setUrlHandlerERK7QStringP7QObjectPKc@Base 5.0.2
  _ZN16QDesktopServices15unsetUrlHandlerERK7QString@Base 5.0.2
@@ -1667,12 +1667,12 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN16QDoubleValidatorD2Ev@Base 5.0.2
  _ZN16QFontEngineMulti11boundingBoxERK12QGlyphLayout@Base 5.0.2 1
  _ZN16QFontEngineMulti11boundingBoxEj@Base 5.0.2 1
- (subst)_ZN16QFontEngineMulti16addOutlineToPathE{qreal}{qreal}RK12QGlyphLayoutP12QPainterPath6QFlagsIN9QTextItem10RenderFlagEE@Base 5.0.2 1
+ _ZN16QFontEngineMulti16addOutlineToPathEddRK12QGlyphLayoutP12QPainterPath6QFlagsIN9QTextItem10RenderFlagEE@Base 5.2.0
  _ZN16QFontEngineMulti16alphaMapForGlyphEj6QFixed@Base 5.0.2 1
  _ZN16QFontEngineMulti16alphaMapForGlyphEj6QFixedRK10QTransform@Base 5.0.2 1
  _ZN16QFontEngineMulti16alphaMapForGlyphEj@Base 5.0.2 1
  _ZN16QFontEngineMulti16alphaMapForGlyphEjRK10QTransform@Base 5.0.2 1
- (subst)_ZN16QFontEngineMulti16getGlyphBearingsEjP{qreal}S0_@Base 5.0.2 1
+ _ZN16QFontEngineMulti16getGlyphBearingsEjPdS0_@Base 5.2.0
  _ZN16QFontEngineMulti19alphaRGBMapForGlyphEj6QFixedRK10QTransform@Base 5.0.2 1
  _ZN16QFontEngineMulti9canRenderEPK5QChari@Base 5.0.2 1
  _ZN16QFontEngineMultiC1Ei@Base 5.0.2 1
@@ -1718,7 +1718,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN16QTextBlockFormatC1Ev@Base 5.0.2
  _ZN16QTextBlockFormatC2ERK11QTextFormat@Base 5.0.2
  _ZN16QTextBlockFormatC2Ev@Base 5.0.2
- (subst)_ZN16QTextFrameFormat9setMarginE{qreal}@Base 5.0.2
+ _ZN16QTextFrameFormat9setMarginEd@Base 5.2.0
  _ZN16QTextFrameFormatC1ERK11QTextFormat@Base 5.0.2
  _ZN16QTextFrameFormatC1Ev@Base 5.0.2
  _ZN16QTextFrameFormatC2ERK11QTextFormat@Base 5.0.2
@@ -1869,9 +1869,9 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN17QTextImageHandlerD0Ev@Base 5.0.2 1
  _ZN17QTextImageHandlerD1Ev@Base 5.0.2 1
  _ZN17QTextImageHandlerD2Ev@Base 5.0.2 1
- (subst)_ZN17QTextInlineObject10setDescentE{qreal}@Base 5.0.2
- (subst)_ZN17QTextInlineObject8setWidthE{qreal}@Base 5.0.2
- (subst)_ZN17QTextInlineObject9setAscentE{qreal}@Base 5.0.2
+ _ZN17QTextInlineObject10setDescentEd@Base 5.2.0
+ _ZN17QTextInlineObject8setWidthEd@Base 5.2.0
+ _ZN17QTextInlineObject9setAscentEd@Base 5.2.0
  _ZN18QDistanceFieldData6createERK12QPainterPathb@Base 5.2.0~alpha1 1
  _ZN18QDistanceFieldData6createERK5QSize@Base 5.2.0~alpha1 1
  _ZN18QDistanceFieldDataC1ERKS_@Base 5.2.0~alpha1 1
@@ -1932,10 +1932,10 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN18QOpenGLDebugLoggerD1Ev@Base 5.1.0
  _ZN18QOpenGLDebugLoggerD2Ev@Base 5.1.0
  _ZN18QOpenGLPaintDevice15setPaintFlippedEb@Base 5.0.2
- (subst)_ZN18QOpenGLPaintDevice16setDotsPerMeterXE{qreal}@Base 5.0.2
- (subst)_ZN18QOpenGLPaintDevice16setDotsPerMeterYE{qreal}@Base 5.0.2
+ _ZN18QOpenGLPaintDevice16setDotsPerMeterXEd@Base 5.2.0
+ _ZN18QOpenGLPaintDevice16setDotsPerMeterYEd@Base 5.2.0
  _ZN18QOpenGLPaintDevice18ensureActiveTargetEv@Base 5.0.2
- (subst)_ZN18QOpenGLPaintDevice19setDevicePixelRatioE{qreal}@Base 5.1.0
+ _ZN18QOpenGLPaintDevice19setDevicePixelRatioEd@Base 5.2.0
  _ZN18QOpenGLPaintDevice7setSizeERK5QSize@Base 5.0.2
  _ZN18QOpenGLPaintDeviceC1ERK5QSize@Base 5.0.2
  _ZN18QOpenGLPaintDeviceC1Eii@Base 5.0.2
@@ -2206,12 +2206,12 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN19QPaintEnginePrivate15drawBoxTextItemERK7QPointFRK12QTextItemInt@Base 5.0.2 1
  _ZN19QPainterPathStroker11setCapStyleEN2Qt11PenCapStyleE@Base 5.0.2
  _ZN19QPainterPathStroker12setJoinStyleEN2Qt12PenJoinStyleE@Base 5.0.2
- (subst)_ZN19QPainterPathStroker13setDashOffsetE{qreal}@Base 5.0.2
- (subst)_ZN19QPainterPathStroker13setMiterLimitE{qreal}@Base 5.0.2
+ _ZN19QPainterPathStroker13setDashOffsetEd@Base 5.2.0
+ _ZN19QPainterPathStroker13setMiterLimitEd@Base 5.2.0
  _ZN19QPainterPathStroker14setDashPatternEN2Qt8PenStyleE@Base 5.0.2
- (subst)_ZN19QPainterPathStroker14setDashPatternERK7QVectorI{qreal}E@Base 5.0.2
- (subst)_ZN19QPainterPathStroker17setCurveThresholdE{qreal}@Base 5.0.2
- (subst)_ZN19QPainterPathStroker8setWidthE{qreal}@Base 5.0.2
+ _ZN19QPainterPathStroker14setDashPatternERK7QVectorIdE@Base 5.2.0
+ _ZN19QPainterPathStroker17setCurveThresholdEd@Base 5.2.0
+ _ZN19QPainterPathStroker8setWidthEd@Base 5.2.0
  _ZN19QPainterPathStrokerC1Ev@Base 5.0.2
  _ZN19QPainterPathStrokerC2Ev@Base 5.0.2
  _ZN19QPainterPathStrokerD1Ev@Base 5.0.2
@@ -2228,7 +2228,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN19QTextDocumentLayout11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
  _ZN19QTextDocumentLayout11qt_metacastEPKc@Base 5.0.2 1
  _ZN19QTextDocumentLayout11setViewportERK6QRectF@Base 5.0.2 1
- (subst)_ZN19QTextDocumentLayout14ensureLayoutedE{qreal}@Base 5.0.2 1
+ _ZN19QTextDocumentLayout14ensureLayoutedEd@Base 5.2.0
  _ZN19QTextDocumentLayout14layoutFinishedEv@Base 5.0.2 1
  _ZN19QTextDocumentLayout14setCursorWidthEi@Base 5.0.2 1
  _ZN19QTextDocumentLayout15documentChangedEiii@Base 5.0.2 1
@@ -2622,7 +2622,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN21QPlatformDialogHelperD0Ev@Base 5.0.2 1
  _ZN21QPlatformDialogHelperD1Ev@Base 5.0.2 1
  _ZN21QPlatformDialogHelperD2Ev@Base 5.0.2 1
- (subst)_ZN21QPlatformFontDatabase10fontEngineERK10QByteArray{qreal}N5QFont17HintingPreferenceE@Base 5.0.2 1
+ _ZN21QPlatformFontDatabase10fontEngineERK10QByteArraydN5QFont17HintingPreferenceE@Base 5.2.0
  _ZN21QPlatformFontDatabase10fontEngineERK8QFontDefN5QChar6ScriptEPv@Base 5.1.0 1
  _ZN21QPlatformFontDatabase12registerFontERK7QStringS2_S2_N5QFont6WeightENS3_5StyleENS3_7StretchEbbibRK24QSupportedWritingSystemsPv@Base 5.0.2 1
  _ZN21QPlatformFontDatabase13releaseHandleEPv@Base 5.0.2 1
@@ -2673,7 +2673,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN21QPlatformThemePrivateD1Ev@Base 5.1.0 1
  _ZN21QPlatformThemePrivateD2Ev@Base 5.1.0 1
  _ZN21QRasterPlatformPixmap15fromImageReaderEP12QImageReader6QFlagsIN2Qt19ImageConversionFlagEE@Base 5.0.2 1
- (subst)_ZN21QRasterPlatformPixmap19setDevicePixelRatioE{qreal}@Base 5.0.2 1
+ _ZN21QRasterPlatformPixmap19setDevicePixelRatioEd@Base 5.2.0
  _ZN21QRasterPlatformPixmap20createPixmapForImageER6QImage6QFlagsIN2Qt19ImageConversionFlagEEb@Base 5.0.2 1
  _ZN21QRasterPlatformPixmap4copyEPK15QPlatformPixmapRK5QRect@Base 5.0.2 1
  _ZN21QRasterPlatformPixmap4fillERK6QColor@Base 5.0.2 1
@@ -2711,11 +2711,11 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN21QTextFormatCollectionD1Ev@Base 5.0.2 1
  _ZN21QTextFormatCollectionD2Ev@Base 5.0.2 1
  _ZN21QTextFormatCollectionaSERKS_@Base 5.0.2 1
- (subst)_ZN21QTriangulatingStroker18endCapOrJoinClosedEPK{qreal}S1_bb@Base 5.0.2 1
- (subst)_ZN21QTriangulatingStroker4joinEPK{qreal}@Base 5.0.2 1
- (subst)_ZN21QTriangulatingStroker6endCapEPK{qreal}@Base 5.0.2 1
- (subst)_ZN21QTriangulatingStroker6moveToEPK{qreal}@Base 5.0.2 1
- (subst)_ZN21QTriangulatingStroker7cubicToEPK{qreal}@Base 5.0.2 1
+ _ZN21QTriangulatingStroker18endCapOrJoinClosedEPKdS1_bb@Base 5.2.0
+ _ZN21QTriangulatingStroker4joinEPKd@Base 5.2.0
+ _ZN21QTriangulatingStroker6endCapEPKd@Base 5.2.0
+ _ZN21QTriangulatingStroker6moveToEPKd@Base 5.2.0
+ _ZN21QTriangulatingStroker7cubicToEPKd@Base 5.2.0
  _ZN21QTriangulatingStroker7processERK11QVectorPathRK4QPenRK6QRectF6QFlagsIN8QPainter10RenderHintEE@Base 5.0.2 1
  _ZN21QTriangulatingStroker9arcPointsEffffffR15QVarLengthArrayIfLi256EE@Base 5.0.2 1
  _ZN22QAccessibleApplicationC1Ev@Base 5.0.2
@@ -2869,8 +2869,8 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN22QWindowSystemInterface16handleWheelEventEP7QWindowmRK7QPointFS4_iN2Qt11OrientationE6QFlagsINS5_16KeyboardModifierEE@Base 5.0.2 1
  _ZN22QWindowSystemInterface17handleExposeEventEP7QWindowRK7QRegion@Base 5.0.2 1
  _ZN22QWindowSystemInterface17handleNativeEventEP7QWindowRK10QByteArrayPvPl@Base 5.0.2 1
- (subst)_ZN22QWindowSystemInterface17handleTabletEventEP7QWindowbRK7QPointFS4_ii{qreal}ii{qreal}{qreal}ix6QFlagsIN2Qt16KeyboardModifierEE@Base 5.0.2 1
- (subst)_ZN22QWindowSystemInterface17handleTabletEventEP7QWindowmbRK7QPointFS4_ii{qreal}ii{qreal}{qreal}ix6QFlagsIN2Qt16KeyboardModifierEE@Base 5.0.2 1
+ _ZN22QWindowSystemInterface17handleTabletEventEP7QWindowbRK7QPointFS4_iidiiddix6QFlagsIN2Qt16KeyboardModifierEE@Base 5.2.0
+ _ZN22QWindowSystemInterface17handleTabletEventEP7QWindowmbRK7QPointFS4_iidiiddix6QFlagsIN2Qt16KeyboardModifierEE@Base 5.2.0
  _ZN22QWindowSystemInterface17handleThemeChangeEP7QWindow@Base 5.0.2 1
  _ZN22QWindowSystemInterface18handleGestureEventEP7QWindowmN2Qt17NativeGestureTypeER7QPointFS5_@Base 5.2.0~beta1 1
  _ZN22QWindowSystemInterface19handleFileOpenEventERK4QUrl@Base 5.1.0 1
@@ -2898,7 +2898,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN22QWindowSystemInterface26handleScreenGeometryChangeEP7QScreenRK5QRect@Base 5.0.2 1
  _ZN22QWindowSystemInterface29handleApplicationStateChangedEN2Qt16ApplicationStateE@Base 5.1.0 1
  _ZN22QWindowSystemInterface29handleScreenOrientationChangeEP7QScreenN2Qt17ScreenOrientationE@Base 5.0.2 1
- (subst)_ZN22QWindowSystemInterface29handleScreenRefreshRateChangeEP7QScreen{qreal}@Base 5.0.2 1
+ _ZN22QWindowSystemInterface29handleScreenRefreshRateChangeEP7QScreend@Base 5.2.0
  _ZN22QWindowSystemInterface30tryHandleExtendedShortcutEventEP7QWindowi6QFlagsIN2Qt16KeyboardModifierEEjjjRK7QStringbt@Base 5.0.2 1
  _ZN22QWindowSystemInterface30tryHandleExtendedShortcutEventEP7QWindowmi6QFlagsIN2Qt16KeyboardModifierEEjjjRK7QStringbt@Base 5.0.2 1
  _ZN22QWindowSystemInterface31deferredFlushWindowSystemEventsEv@Base 5.1.0 1
@@ -2909,7 +2909,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN22QWindowSystemInterface31handleTabletLeaveProximityEventEmiix@Base 5.0.2 1
  _ZN22QWindowSystemInterface33setSynchronousWindowsSystemEventsEb@Base 5.0.2 1
  _ZN22QWindowSystemInterface35handleScreenAvailableGeometryChangeEP7QScreenRK5QRect@Base 5.0.2 1
- (subst)_ZN22QWindowSystemInterface36handleScreenLogicalDotsPerInchChangeEP7QScreen{qreal}{qreal}@Base 5.0.2 1
+ _ZN22QWindowSystemInterface36handleScreenLogicalDotsPerInchChangeEP7QScreendd@Base 5.2.0
  _ZN22QWindowSystemInterface40handleGestureEventWithSequenceIdAndValueEP7QWindowmN2Qt17NativeGestureTypeEmyR7QPointFS5_@Base 5.2.0~beta1 1
  _ZN23QAccessibleBridgePlugin11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN23QAccessibleBridgePlugin11qt_metacastEPKc@Base 5.0.2
@@ -2964,7 +2964,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN23QWindowStateChangeEventD1Ev@Base 5.0.2
  _ZN23QWindowStateChangeEventD2Ev@Base 5.0.2
  _ZN24QBlittablePlatformPixmap12setBlittableEP10QBlittable@Base 5.0.2 1
- (subst)_ZN24QBlittablePlatformPixmap19setDevicePixelRatioE{qreal}@Base 5.0.2 1
+ _ZN24QBlittablePlatformPixmap19setDevicePixelRatioEd@Base 5.2.0
  _ZN24QBlittablePlatformPixmap4fillERK6QColor@Base 5.0.2 1
  _ZN24QBlittablePlatformPixmap6bufferEv@Base 5.0.2 1
  _ZN24QBlittablePlatformPixmap6resizeEii@Base 5.0.2 1
@@ -3575,22 +3575,22 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN4QPen11setCapStyleEN2Qt11PenCapStyleE@Base 5.0.2
  _ZN4QPen11setCosmeticEb@Base 5.0.2
  _ZN4QPen12setJoinStyleEN2Qt12PenJoinStyleE@Base 5.0.2
- (subst)_ZN4QPen13setDashOffsetE{qreal}@Base 5.0.2
- (subst)_ZN4QPen13setMiterLimitE{qreal}@Base 5.0.2
- (subst)_ZN4QPen14setDashPatternERK7QVectorI{qreal}E@Base 5.0.2
+ _ZN4QPen13setDashOffsetEd@Base 5.2.0
+ _ZN4QPen13setMiterLimitEd@Base 5.2.0
+ _ZN4QPen14setDashPatternERK7QVectorIdE@Base 5.2.0
  _ZN4QPen6detachEv@Base 5.0.2
  _ZN4QPen8setBrushERK6QBrush@Base 5.0.2
  _ZN4QPen8setColorERK6QColor@Base 5.0.2
  _ZN4QPen8setStyleEN2Qt8PenStyleE@Base 5.0.2
  _ZN4QPen8setWidthEi@Base 5.0.2
- (subst)_ZN4QPen9setWidthFE{qreal}@Base 5.0.2
+ _ZN4QPen9setWidthFEd@Base 5.2.0
  _ZN4QPenC1EN2Qt8PenStyleE@Base 5.0.2
- (subst)_ZN4QPenC1ERK6QBrush{qreal}N2Qt8PenStyleENS3_11PenCapStyleENS3_12PenJoinStyleE@Base 5.0.2
+ _ZN4QPenC1ERK6QBrushdN2Qt8PenStyleENS3_11PenCapStyleENS3_12PenJoinStyleE@Base 5.2.0
  _ZN4QPenC1ERK6QColor@Base 5.0.2
  _ZN4QPenC1ERKS_@Base 5.0.2
  _ZN4QPenC1Ev@Base 5.0.2
  _ZN4QPenC2EN2Qt8PenStyleE@Base 5.0.2
- (subst)_ZN4QPenC2ERK6QBrush{qreal}N2Qt8PenStyleENS3_11PenCapStyleENS3_12PenJoinStyleE@Base 5.0.2
+ _ZN4QPenC2ERK6QBrushdN2Qt8PenStyleENS3_11PenCapStyleENS3_12PenJoinStyleE@Base 5.2.0
  _ZN4QPenC2ERK6QColor@Base 5.0.2
  _ZN4QPenC2ERKS_@Base 5.0.2
  _ZN4QPenC2Ev@Base 5.0.2
@@ -3630,11 +3630,11 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN5QFont12setStyleNameERK7QString@Base 5.0.2
  _ZN5QFont12setUnderlineEb@Base 5.0.2
  _ZN5QFont13setFixedPitchEb@Base 5.0.2
- (subst)_ZN5QFont13setPointSizeFE{qreal}@Base 5.0.2
+ _ZN5QFont13setPointSizeFEd@Base 5.2.0
  _ZN5QFont13substitutionsEv@Base 5.0.2
- (subst)_ZN5QFont14setWordSpacingE{qreal}@Base 5.0.2
+ _ZN5QFont14setWordSpacingEd@Base 5.2.0
  _ZN5QFont15cacheStatisticsEv@Base 5.0.2
- (subst)_ZN5QFont16setLetterSpacingENS_11SpacingTypeE{qreal}@Base 5.0.2
+ _ZN5QFont16setLetterSpacingENS_11SpacingTypeEd@Base 5.2.0
  _ZN5QFont16setStyleStrategyENS_13StyleStrategyE@Base 5.0.2
  _ZN5QFont16staticMetaObjectE@Base 5.0.2
  _ZN5QFont17setCapitalizationENS_14CapitalizationE@Base 5.0.2
@@ -3731,24 +3731,24 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN6QColor7getCmykEPiS0_S0_S0_S0_@Base 5.0.2
  _ZN6QColor7setBlueEi@Base 5.0.2
  _ZN6QColor7setCmykEiiiii@Base 5.0.2
- (subst)_ZN6QColor7setHslFE{qreal}{qreal}{qreal}{qreal}@Base 5.0.2
- (subst)_ZN6QColor7setHsvFE{qreal}{qreal}{qreal}{qreal}@Base 5.0.2
- (subst)_ZN6QColor7setRedFE{qreal}@Base 5.0.2
- (subst)_ZN6QColor7setRgbFE{qreal}{qreal}{qreal}{qreal}@Base 5.0.2
+ _ZN6QColor7setHslFEdddd@Base 5.2.0
+ _ZN6QColor7setHsvFEdddd@Base 5.2.0
+ _ZN6QColor7setRedFEd@Base 5.2.0
+ _ZN6QColor7setRgbFEdddd@Base 5.2.0
  _ZN6QColor7setRgbaEj@Base 5.0.2
  _ZN6QColor8fromCmykEiiiii@Base 5.0.2
- (subst)_ZN6QColor8fromHslFE{qreal}{qreal}{qreal}{qreal}@Base 5.0.2
- (subst)_ZN6QColor8fromHsvFE{qreal}{qreal}{qreal}{qreal}@Base 5.0.2
- (subst)_ZN6QColor8fromRgbFE{qreal}{qreal}{qreal}{qreal}@Base 5.0.2
+ _ZN6QColor8fromHslFEdddd@Base 5.2.0
+ _ZN6QColor8fromHsvFEdddd@Base 5.2.0
+ _ZN6QColor8fromRgbFEdddd@Base 5.2.0
  _ZN6QColor8fromRgbaEj@Base 5.0.2
- (subst)_ZN6QColor8getCmykFEP{qreal}S0_S0_S0_S0_@Base 5.0.2
+ _ZN6QColor8getCmykFEPdS0_S0_S0_S0_@Base 5.2.0
  _ZN6QColor8setAlphaEi@Base 5.0.2
- (subst)_ZN6QColor8setBlueFE{qreal}@Base 5.0.2
- (subst)_ZN6QColor8setCmykFE{qreal}{qreal}{qreal}{qreal}{qreal}@Base 5.0.2
+ _ZN6QColor8setBlueFEd@Base 5.2.0
+ _ZN6QColor8setCmykFEddddd@Base 5.2.0
  _ZN6QColor8setGreenEi@Base 5.0.2
- (subst)_ZN6QColor9fromCmykFE{qreal}{qreal}{qreal}{qreal}{qreal}@Base 5.0.2
- (subst)_ZN6QColor9setAlphaFE{qreal}@Base 5.0.2
- (subst)_ZN6QColor9setGreenFE{qreal}@Base 5.0.2
+ _ZN6QColor9fromCmykFEddddd@Base 5.2.0
+ _ZN6QColor9setAlphaFEd@Base 5.2.0
+ _ZN6QColor9setGreenFEd@Base 5.2.0
  _ZN6QColorC1EN2Qt11GlobalColorE@Base 5.0.2
  _ZN6QColorC1ENS_4SpecE@Base 5.0.2
  _ZN6QColorC1Ej@Base 5.0.2
@@ -3766,7 +3766,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN6QImage15setAlphaChannelERKS_@Base 5.0.2
  _ZN6QImage16setDotsPerMeterXEi@Base 5.0.2
  _ZN6QImage16setDotsPerMeterYEi@Base 5.0.2
- (subst)_ZN6QImage19setDevicePixelRatioE{qreal}@Base 5.0.2
+ _ZN6QImage19setDevicePixelRatioEd@Base 5.2.0
  _ZN6QImage4bitsEv@Base 5.0.2
  _ZN6QImage4fillEN2Qt11GlobalColorE@Base 5.0.2
  _ZN6QImage4fillERK6QColor@Base 5.0.2
@@ -3873,17 +3873,17 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN7QCursorD2Ev@Base 5.0.2
  _ZN7QCursoraSERKS_@Base 5.0.2
  _ZN7QMatrix5resetEv@Base 5.0.2
- (subst)_ZN7QMatrix5scaleE{qreal}{qreal}@Base 5.0.2
- (subst)_ZN7QMatrix5shearE{qreal}{qreal}@Base 5.0.2
- (subst)_ZN7QMatrix6rotateE{qreal}@Base 5.0.2
- (subst)_ZN7QMatrix9setMatrixE{qreal}{qreal}{qreal}{qreal}{qreal}{qreal}@Base 5.0.2
- (subst)_ZN7QMatrix9translateE{qreal}{qreal}@Base 5.0.2
+ _ZN7QMatrix5scaleEdd@Base 5.2.0
+ _ZN7QMatrix5shearEdd@Base 5.2.0
+ _ZN7QMatrix6rotateEd@Base 5.2.0
+ _ZN7QMatrix9setMatrixEdddddd@Base 5.2.0
+ _ZN7QMatrix9translateEdd@Base 5.2.0
  _ZN7QMatrixC1ERKS_@Base 5.0.2
+ _ZN7QMatrixC1Edddddd@Base 5.2.0
  _ZN7QMatrixC1Ev@Base 5.0.2
- (subst)_ZN7QMatrixC1E{qreal}{qreal}{qreal}{qreal}{qreal}{qreal}@Base 5.0.2
  _ZN7QMatrixC2ERKS_@Base 5.0.2
+ _ZN7QMatrixC2Edddddd@Base 5.2.0
  _ZN7QMatrixC2Ev@Base 5.0.2
- (subst)_ZN7QMatrixC2E{qreal}{qreal}{qreal}{qreal}{qreal}{qreal}@Base 5.0.2
  _ZN7QMatrixaSERKS_@Base 5.0.2
  _ZN7QMatrixmLERKS_@Base 5.0.2
  _ZN7QPixmap10grabWidgetEP7QObjectRK5QRect@Base 5.0.2
@@ -3894,7 +3894,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN7QPixmap12loadFromDataEPKhjPKc6QFlagsIN2Qt19ImageConversionFlagEE@Base 5.0.2
  _ZN7QPixmap15fromImageReaderEP12QImageReader6QFlagsIN2Qt19ImageConversionFlagEE@Base 5.0.2
  _ZN7QPixmap16convertFromImageERK6QImage6QFlagsIN2Qt19ImageConversionFlagEE@Base 5.0.2
- (subst)_ZN7QPixmap19setDevicePixelRatioE{qreal}@Base 5.0.2
+ _ZN7QPixmap19setDevicePixelRatioEd@Base 5.2.0
  _ZN7QPixmap4fillEPK12QPaintDeviceRK6QPoint@Base 5.0.2
  _ZN7QPixmap4fillERK6QColor@Base 5.0.2
  _ZN7QPixmap4loadERK7QStringPKc6QFlagsIN2Qt19ImageConversionFlagEE@Base 5.0.2
@@ -3957,19 +3957,19 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN7QScreen15geometryChangedERK5QRect@Base 5.0.2
  _ZN7QScreen16staticMetaObjectE@Base 5.0.2
  _ZN7QScreen18orientationChangedEN2Qt17ScreenOrientationE@Base 5.0.2
- (subst)_ZN7QScreen18refreshRateChangedE{qreal}@Base 5.0.2
+ _ZN7QScreen18refreshRateChangedEd@Base 5.2.0
  _ZN7QScreen19physicalSizeChangedERK6QSizeF@Base 5.0.2
  _ZN7QScreen22virtualGeometryChangedERK5QRect@Base 5.0.2
  _ZN7QScreen24setOrientationUpdateMaskE6QFlagsIN2Qt17ScreenOrientationEE@Base 5.0.2
- (subst)_ZN7QScreen25logicalDotsPerInchChangedE{qreal}@Base 5.0.2
+ _ZN7QScreen25logicalDotsPerInchChangedEd@Base 5.2.0
  _ZN7QScreen25primaryOrientationChangedEN2Qt17ScreenOrientationE@Base 5.0.2
- (subst)_ZN7QScreen26physicalDotsPerInchChangedE{qreal}@Base 5.0.2
+ _ZN7QScreen26physicalDotsPerInchChangedEd@Base 5.2.0
  _ZN7QScreenC1EP15QPlatformScreen@Base 5.0.2 1
  _ZN7QScreenC2EP15QPlatformScreen@Base 5.0.2 1
  _ZN7QScreenD0Ev@Base 5.0.2
  _ZN7QScreenD1Ev@Base 5.0.2
  _ZN7QScreenD2Ev@Base 5.0.2
- (subst)_ZN7QWindow10setOpacityE{qreal}@Base 5.0.2
+ _ZN7QWindow10setOpacityEd@Base 5.2.0
  _ZN7QWindow10setVisibleEb@Base 5.0.2
  _ZN7QWindow10showNormalEv@Base 5.0.2
  _ZN7QWindow10touchEventEP11QTouchEvent@Base 5.0.2
@@ -3999,83 +3999,83 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN7QWindow13showMaximizedEv@Base 5.0.2
  _ZN7QWindow13showMinimizedEv@Base 5.0.2
  _ZN7QWindow14mouseMoveEventEP11QMouseEvent@Base 5.0.2
- (subst)_ZN7QWindow14opacityChangedE{qreal}@Base 5.1.0
- _ZN7QWindow14setMaximumSizeERK5QSize@Base 5.0.2
- _ZN7QWindow14setMinimumSizeERK5QSize@Base 5.0.2
- _ZN7QWindow14setSurfaceTypeEN8QSurface11SurfaceTypeE@Base 5.0.2
- _ZN7QWindow14setWindowStateEN2Qt11WindowStateE@Base 5.0.2
- _ZN7QWindow14showFullScreenEv@Base 5.0.2
- _ZN7QWindow14visibleChangedEb@Base 5.0.2
- _ZN7QWindow15keyReleaseEventEP9QKeyEvent@Base 5.0.2
- _ZN7QWindow15modalityChangedEN2Qt14WindowModalityE@Base 5.0.2
- _ZN7QWindow15mousePressEventEP11QMouseEvent@Base 5.0.2
- _ZN7QWindow15requestActivateEv@Base 5.0.2
- _ZN7QWindow15screenDestroyedEP7QObject@Base 5.0.2
- _ZN7QWindow15setMaximumWidthEi@Base 5.0.2
- _ZN7QWindow15setMinimumWidthEi@Base 5.0.2
- _ZN7QWindow16setFramePositionERK6QPoint@Base 5.0.2
- _ZN7QWindow16setMaximumHeightEi@Base 5.0.2
- _ZN7QWindow16setMinimumHeightEi@Base 5.0.2
- _ZN7QWindow16setSizeIncrementERK5QSize@Base 5.0.2
- _ZN7QWindow16staticMetaObjectE@Base 5.0.2
- _ZN7QWindow17mouseReleaseEventEP11QMouseEvent@Base 5.0.2
- _ZN7QWindow17visibilityChangedENS_10VisibilityE@Base 5.1.0
- _ZN7QWindow18focusObjectChangedEP7QObject@Base 5.0.2
- _ZN7QWindow18setTransientParentEPS_@Base 5.0.2
- _ZN7QWindow18windowStateChangedEN2Qt11WindowStateE@Base 5.0.2
- _ZN7QWindow19maximumWidthChangedEi@Base 5.0.2
- _ZN7QWindow19minimumWidthChangedEi@Base 5.0.2
- _ZN7QWindow19setMouseGrabEnabledEb@Base 5.0.2
- _ZN7QWindow20maximumHeightChangedEi@Base 5.0.2
- _ZN7QWindow20minimumHeightChangedEi@Base 5.0.2
- _ZN7QWindow21mouseDoubleClickEventEP11QMouseEvent@Base 5.0.2
- _ZN7QWindow22setKeyboardGrabEnabledEb@Base 5.0.2
- _ZN7QWindow25contentOrientationChangedEN2Qt17ScreenOrientationE@Base 5.0.2
- _ZN7QWindow30reportContentOrientationChangeEN2Qt17ScreenOrientationE@Base 5.0.2
- _ZN7QWindow4hideEv@Base 5.0.2
- _ZN7QWindow4setXEi@Base 5.0.2
- _ZN7QWindow4setYEi@Base 5.0.2
- _ZN7QWindow4showEv@Base 5.0.2
- _ZN7QWindow5alertEi@Base 5.1.0
- _ZN7QWindow5closeEv@Base 5.0.2
- _ZN7QWindow5eventEP6QEvent@Base 5.0.2
- _ZN7QWindow5lowerEv@Base 5.0.2
- _ZN7QWindow5raiseEv@Base 5.0.2
- _ZN7QWindow6createEv@Base 5.0.2
- _ZN7QWindow6resizeERK5QSize@Base 5.0.2
- _ZN7QWindow6resizeEii@Base 5.0.2
- _ZN7QWindow7destroyEv@Base 5.0.2
- _ZN7QWindow7setIconERK5QIcon@Base 5.0.2
- _ZN7QWindow7setMaskERK7QRegion@Base 5.1.0
- _ZN7QWindow8setFlagsE6QFlagsIN2Qt10WindowTypeEE@Base 5.0.2
- _ZN7QWindow8setTitleERK7QString@Base 5.0.2
- _ZN7QWindow8setWidthEi@Base 5.0.2
- _ZN7QWindow8xChangedEi@Base 5.0.2
- _ZN7QWindow8yChangedEi@Base 5.0.2
- (subst)_ZN7QWindow9fromWinIdE{quintptr}@Base 5.1.0
- _ZN7QWindow9hideEventEP10QHideEvent@Base 5.0.2
- _ZN7QWindow9moveEventEP10QMoveEvent@Base 5.0.2
- _ZN7QWindow9setCursorERK7QCursor@Base 5.0.2
- _ZN7QWindow9setFormatERK14QSurfaceFormat@Base 5.0.2
- _ZN7QWindow9setHeightEi@Base 5.0.2
- _ZN7QWindow9setParentEPS_@Base 5.0.2
- _ZN7QWindow9setScreenEP7QScreen@Base 5.0.2
- _ZN7QWindow9showEventEP10QShowEvent@Base 5.0.2
- _ZN7QWindowC1EP7QScreen@Base 5.0.2
- _ZN7QWindowC1EPS_@Base 5.0.2
- _ZN7QWindowC1ER14QWindowPrivatePS_@Base 5.0.2 1
- _ZN7QWindowC2EP7QScreen@Base 5.0.2
- _ZN7QWindowC2EPS_@Base 5.0.2
- _ZN7QWindowC2ER14QWindowPrivatePS_@Base 5.0.2 1
- _ZN7QWindowD0Ev@Base 5.0.2
- _ZN7QWindowD1Ev@Base 5.0.2
- _ZN7QWindowD2Ev@Base 5.0.2
- _ZN8QPainter10drawPixmapERK6QRectFRK7QPixmapS2_@Base 5.0.2
- _ZN8QPainter10drawPixmapERK7QPointFRK7QPixmap@Base 5.0.2
- _ZN8QPainter10drawPointsEPK6QPointi@Base 5.0.2
- _ZN8QPainter10drawPointsEPK7QPointFi@Base 5.0.2
- _ZN8QPainter10redirectedEPK12QPaintDeviceP6QPoint@Base 5.0.2
- (subst)_ZN8QPainter10setOpacityE{qreal}@Base 5.0.2
+ _ZN7QWindow14opacityChangedEd@Base 5.2.0
+ _ZN7QWindow14setMaximumSizeERK5QSize@Base 5.2.0
+ _ZN7QWindow14setMinimumSizeERK5QSize@Base 5.2.0
+ _ZN7QWindow14setSurfaceTypeEN8QSurface11SurfaceTypeE@Base 5.2.0
+ _ZN7QWindow14setWindowStateEN2Qt11WindowStateE@Base 5.2.0
+ _ZN7QWindow14showFullScreenEv@Base 5.2.0
+ _ZN7QWindow14visibleChangedEb@Base 5.2.0
+ _ZN7QWindow15keyReleaseEventEP9QKeyEvent@Base 5.2.0
+ _ZN7QWindow15modalityChangedEN2Qt14WindowModalityE@Base 5.2.0
+ _ZN7QWindow15mousePressEventEP11QMouseEvent@Base 5.2.0
+ _ZN7QWindow15requestActivateEv@Base 5.2.0
+ _ZN7QWindow15screenDestroyedEP7QObject@Base 5.2.0
+ _ZN7QWindow15setMaximumWidthEi@Base 5.2.0
+ _ZN7QWindow15setMinimumWidthEi@Base 5.2.0
+ _ZN7QWindow16setFramePositionERK6QPoint@Base 5.2.0
+ _ZN7QWindow16setMaximumHeightEi@Base 5.2.0
+ _ZN7QWindow16setMinimumHeightEi@Base 5.2.0
+ _ZN7QWindow16setSizeIncrementERK5QSize@Base 5.2.0
+ _ZN7QWindow16staticMetaObjectE@Base 5.2.0
+ _ZN7QWindow17mouseReleaseEventEP11QMouseEvent@Base 5.2.0
+ _ZN7QWindow17visibilityChangedENS_10VisibilityE@Base 5.2.0
+ _ZN7QWindow18focusObjectChangedEP7QObject@Base 5.2.0
+ _ZN7QWindow18setTransientParentEPS_@Base 5.2.0
+ _ZN7QWindow18windowStateChangedEN2Qt11WindowStateE@Base 5.2.0
+ _ZN7QWindow19maximumWidthChangedEi@Base 5.2.0
+ _ZN7QWindow19minimumWidthChangedEi@Base 5.2.0
+ _ZN7QWindow19setMouseGrabEnabledEb@Base 5.2.0
+ _ZN7QWindow20maximumHeightChangedEi@Base 5.2.0
+ _ZN7QWindow20minimumHeightChangedEi@Base 5.2.0
+ _ZN7QWindow21mouseDoubleClickEventEP11QMouseEvent@Base 5.2.0
+ _ZN7QWindow22setKeyboardGrabEnabledEb@Base 5.2.0
+ _ZN7QWindow25contentOrientationChangedEN2Qt17ScreenOrientationE@Base 5.2.0
+ _ZN7QWindow30reportContentOrientationChangeEN2Qt17ScreenOrientationE@Base 5.2.0
+ _ZN7QWindow4hideEv@Base 5.2.0
+ _ZN7QWindow4setXEi@Base 5.2.0
+ _ZN7QWindow4setYEi@Base 5.2.0
+ _ZN7QWindow4showEv@Base 5.2.0
+ _ZN7QWindow5alertEi@Base 5.2.0
+ _ZN7QWindow5closeEv@Base 5.2.0
+ _ZN7QWindow5eventEP6QEvent@Base 5.2.0
+ _ZN7QWindow5lowerEv@Base 5.2.0
+ _ZN7QWindow5raiseEv@Base 5.2.0
+ _ZN7QWindow6createEv@Base 5.2.0
+ _ZN7QWindow6resizeERK5QSize@Base 5.2.0
+ _ZN7QWindow6resizeEii@Base 5.2.0
+ _ZN7QWindow7destroyEv@Base 5.2.0
+ _ZN7QWindow7setIconERK5QIcon@Base 5.2.0
+ _ZN7QWindow7setMaskERK7QRegion@Base 5.2.0
+ _ZN7QWindow8setFlagsE6QFlagsIN2Qt10WindowTypeEE@Base 5.2.0
+ _ZN7QWindow8setTitleERK7QString@Base 5.2.0
+ _ZN7QWindow8setWidthEi@Base 5.2.0
+ _ZN7QWindow8xChangedEi@Base 5.2.0
+ _ZN7QWindow8yChangedEi@Base 5.2.0
+ _ZN7QWindow9fromWinIdEy@Base 5.2.0
+ _ZN7QWindow9hideEventEP10QHideEvent@Base 5.2.0
+ _ZN7QWindow9moveEventEP10QMoveEvent@Base 5.2.0
+ _ZN7QWindow9setCursorERK7QCursor@Base 5.2.0
+ _ZN7QWindow9setFormatERK14QSurfaceFormat@Base 5.2.0
+ _ZN7QWindow9setHeightEi@Base 5.2.0
+ _ZN7QWindow9setParentEPS_@Base 5.2.0
+ _ZN7QWindow9setScreenEP7QScreen@Base 5.2.0
+ _ZN7QWindow9showEventEP10QShowEvent@Base 5.2.0
+ _ZN7QWindowC1EP7QScreen@Base 5.2.0
+ _ZN7QWindowC1EPS_@Base 5.2.0
+ _ZN7QWindowC1ER14QWindowPrivatePS_@Base 5.2.0
+ _ZN7QWindowC2EP7QScreen@Base 5.2.0
+ _ZN7QWindowC2EPS_@Base 5.2.0
+ _ZN7QWindowC2ER14QWindowPrivatePS_@Base 5.2.0
+ _ZN7QWindowD0Ev@Base 5.2.0
+ _ZN7QWindowD1Ev@Base 5.2.0
+ _ZN7QWindowD2Ev@Base 5.2.0
+ _ZN8QPainter10drawPixmapERK6QRectFRK7QPixmapS2_@Base 5.2.0
+ _ZN8QPainter10drawPixmapERK7QPointFRK7QPixmap@Base 5.2.0
+ _ZN8QPainter10drawPointsEPK6QPointi@Base 5.2.0
+ _ZN8QPainter10drawPointsEPK7QPointFi@Base 5.2.0
+ _ZN8QPainter10redirectedEPK12QPaintDeviceP6QPoint@Base 5.2.0
+ _ZN8QPainter10setOpacityEd@Base 5.2.0
  _ZN8QPainter10strokePathERK12QPainterPathRK4QPen@Base 5.0.2
  _ZN8QPainter11drawEllipseERK5QRect@Base 5.0.2
  _ZN8QPainter11drawEllipseERK6QRectF@Base 5.0.2
@@ -4101,13 +4101,13 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN8QPainter13setClipRegionERK7QRegionN2Qt13ClipOperationE@Base 5.0.2
  _ZN8QPainter13setRedirectedEPK12QPaintDevicePS0_RK6QPoint@Base 5.0.2
  _ZN8QPainter13setRenderHintENS_10RenderHintEb@Base 5.0.2
- (subst)_ZN8QPainter14PixmapFragment6createERK7QPointFRK6QRectF{qreal}{qreal}{qreal}{qreal}@Base 5.0.2
+ _ZN8QPainter14PixmapFragment6createERK7QPointFRK6QRectFdddd@Base 5.2.0
  _ZN8QPainter14drawStaticTextERK7QPointFRK11QStaticText@Base 5.0.2
  _ZN8QPainter14resetTransformEv@Base 5.0.2
  _ZN8QPainter14setBrushOriginERK7QPointF@Base 5.0.2
  _ZN8QPainter14setRenderHintsE6QFlagsINS_10RenderHintEEb@Base 5.0.2
  _ZN8QPainter14setWorldMatrixERK7QMatrixb@Base 5.0.2
- (subst)_ZN8QPainter15drawRoundedRectERK6QRectF{qreal}{qreal}N2Qt8SizeModeE@Base 5.0.2
+ _ZN8QPainter15drawRoundedRectERK6QRectFddN2Qt8SizeModeE@Base 5.2.0
  _ZN8QPainter15drawTiledPixmapERK6QRectFRK7QPixmapRK7QPointF@Base 5.0.2
  _ZN8QPainter16setMatrixEnabledEb@Base 5.0.2
  _ZN8QPainter16staticMetaObjectE@Base 5.0.2
@@ -4126,9 +4126,9 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN8QPainter3endEv@Base 5.0.2
  _ZN8QPainter4saveEv@Base 5.0.2
  _ZN8QPainter5beginEP12QPaintDevice@Base 5.0.2
- (subst)_ZN8QPainter5scaleE{qreal}{qreal}@Base 5.0.2
- (subst)_ZN8QPainter5shearE{qreal}{qreal}@Base 5.0.2
- (subst)_ZN8QPainter6rotateE{qreal}@Base 5.0.2
+ _ZN8QPainter5scaleEdd@Base 5.2.0
+ _ZN8QPainter5shearEdd@Base 5.2.0
+ _ZN8QPainter6rotateEd@Base 5.2.0
  _ZN8QPainter6setPenEN2Qt8PenStyleE@Base 5.0.2
  _ZN8QPainter6setPenERK4QPen@Base 5.0.2
  _ZN8QPainter6setPenERK6QColor@Base 5.0.2
@@ -4227,22 +4227,22 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN8QPolygonC1EiPKi@Base 5.0.2
  _ZN8QPolygonC2ERK5QRectb@Base 5.0.2
  _ZN8QPolygonC2EiPKi@Base 5.0.2
- (subst)_ZN8QRawFont12loadFromDataERK10QByteArray{qreal}N5QFont17HintingPreferenceE@Base 5.0.2
- (subst)_ZN8QRawFont12loadFromFileERK7QString{qreal}N5QFont17HintingPreferenceE@Base 5.0.2
- (subst)_ZN8QRawFont12setPixelSizeE{qreal}@Base 5.0.2
+ _ZN8QRawFont12loadFromDataERK10QByteArraydN5QFont17HintingPreferenceE@Base 5.2.0
+ _ZN8QRawFont12loadFromFileERK7QStringdN5QFont17HintingPreferenceE@Base 5.2.0
+ _ZN8QRawFont12setPixelSizeEd@Base 5.2.0
  _ZN8QRawFont8fromFontERK5QFontN13QFontDatabase13WritingSystemE@Base 5.0.2
- (subst)_ZN8QRawFontC1ERK10QByteArray{qreal}N5QFont17HintingPreferenceE@Base 5.0.2
- (subst)_ZN8QRawFontC1ERK7QString{qreal}N5QFont17HintingPreferenceE@Base 5.0.2
+ _ZN8QRawFontC1ERK10QByteArraydN5QFont17HintingPreferenceE@Base 5.2.0
+ _ZN8QRawFontC1ERK7QStringdN5QFont17HintingPreferenceE@Base 5.2.0
  _ZN8QRawFontC1ERKS_@Base 5.0.2
  _ZN8QRawFontC1Ev@Base 5.0.2
- (subst)_ZN8QRawFontC2ERK10QByteArray{qreal}N5QFont17HintingPreferenceE@Base 5.0.2
- (subst)_ZN8QRawFontC2ERK7QString{qreal}N5QFont17HintingPreferenceE@Base 5.0.2
+ _ZN8QRawFontC2ERK10QByteArraydN5QFont17HintingPreferenceE@Base 5.2.0
+ _ZN8QRawFontC2ERK7QStringdN5QFont17HintingPreferenceE@Base 5.2.0
  _ZN8QRawFontC2ERKS_@Base 5.0.2
  _ZN8QRawFontC2Ev@Base 5.0.2
  _ZN8QRawFontD1Ev@Base 5.0.2
  _ZN8QRawFontD2Ev@Base 5.0.2
  _ZN8QRawFontaSERKS_@Base 5.0.2
- (subst)_ZN8QStroker10joinPointsE{qreal}{qreal}RK6QLineFNS_12LineJoinModeE@Base 5.0.2 1
+ _ZN8QStroker10joinPointsEddRK6QLineFNS_12LineJoinModeE@Base 5.2.0
  _ZN8QStroker14capForJoinModeENS_12LineJoinModeE@Base 5.0.2 1
  _ZN8QStroker14joinModeForCapEN2Qt11PenCapStyleE@Base 5.0.2 1
  _ZN8QStroker15joinForJoinModeENS_12LineJoinModeE@Base 5.0.2 1
@@ -4286,11 +4286,11 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN9QGlyphRunD1Ev@Base 5.0.2
  _ZN9QGlyphRunD2Ev@Base 5.0.2
  _ZN9QGlyphRunaSERKS_@Base 5.0.2
- (subst)_ZN9QGradient10setColorAtE{qreal}RK6QColor@Base 5.0.2
+ _ZN9QGradient10setColorAtEdRK6QColor@Base 5.2.0
  _ZN9QGradient16staticMetaObjectE@Base 5.0.2
  _ZN9QGradient17setCoordinateModeENS_14CoordinateModeE@Base 5.0.2
  _ZN9QGradient20setInterpolationModeENS_17InterpolationModeE@Base 5.0.2
- (subst)_ZN9QGradient8setStopsERK7QVectorI5QPairI{qreal}6QColorEE@Base 5.0.2
+ _ZN9QGradient8setStopsERK7QVectorI5QPairId6QColorEE@Base 5.2.0
  _ZN9QGradientC1Ev@Base 5.0.2
  _ZN9QGradientC2Ev@Base 5.0.2
  _ZN9QKeyEventC1EN6QEvent4TypeEi6QFlagsIN2Qt16KeyboardModifierEERK7QStringbt@Base 5.0.2
@@ -4306,10 +4306,10 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN9QPolygonFC2ERK6QRectF@Base 5.0.2
  _ZN9QPolygonFC2ERK8QPolygon@Base 5.0.2
  _ZN9QTextLine11setPositionERK7QPointF@Base 5.0.2
- (subst)_ZN9QTextLine12setLineWidthE{qreal}@Base 5.0.2
+ _ZN9QTextLine12setLineWidthEd@Base 5.2.0
  _ZN9QTextLine13layout_helperEi@Base 5.0.2
  _ZN9QTextLine13setNumColumnsEi@Base 5.0.2
- (subst)_ZN9QTextLine13setNumColumnsEi{qreal}@Base 5.0.2
+ _ZN9QTextLine13setNumColumnsEid@Base 5.2.0
  _ZN9QTextLine18setLeadingIncludedEb@Base 5.0.2
  _ZN9QTextList10removeItemEi@Base 5.0.2
  _ZN9QTextList11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
@@ -4452,8 +4452,8 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK10QTransform3mapERK7QRegion@Base 5.0.2
  _ZNK10QTransform3mapERK8QPolygon@Base 5.0.2
  _ZNK10QTransform3mapERK9QPolygonF@Base 5.0.2
+ _ZNK10QTransform3mapEddPdS0_@Base 5.2.0
  _ZNK10QTransform3mapEiiPiS0_@Base 5.0.2
- (subst)_ZNK10QTransform3mapE{qreal}{qreal}P{qreal}S0_@Base 5.0.2
  _ZNK10QTransform4typeEv@Base 5.0.2
  _ZNK10QTransform7adjointEv@Base 5.0.2
  _ZNK10QTransform7mapRectERK5QRect@Base 5.0.2
@@ -4787,19 +4787,19 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK12QPainterPath10simplifiedEv@Base 5.0.2
  _ZNK12QPainterPath10subtractedERKS_@Base 5.0.2
  _ZNK12QPainterPath10toReversedEv@Base 5.0.2
- (subst)_ZNK12QPainterPath10translatedE{qreal}{qreal}@Base 5.0.2
+ _ZNK12QPainterPath10translatedEdd@Base 5.2.0
  _ZNK12QPainterPath11intersectedERKS_@Base 5.0.2
  _ZNK12QPainterPath12boundingRectEv@Base 5.0.2
  _ZNK12QPainterPath12elementCountEv@Base 5.0.2
  _ZNK12QPainterPath13toFillPolygonERK10QTransform@Base 5.0.2
  _ZNK12QPainterPath13toFillPolygonERK7QMatrix@Base 5.0.2
- (subst)_ZNK12QPainterPath14angleAtPercentE{qreal}@Base 5.0.2
- (subst)_ZNK12QPainterPath14pointAtPercentE{qreal}@Base 5.0.2
- (subst)_ZNK12QPainterPath14slopeAtPercentE{qreal}@Base 5.0.2
+ _ZNK12QPainterPath14angleAtPercentEd@Base 5.2.0
+ _ZNK12QPainterPath14pointAtPercentEd@Base 5.2.0
+ _ZNK12QPainterPath14slopeAtPercentEd@Base 5.2.0
  _ZNK12QPainterPath14toFillPolygonsERK10QTransform@Base 5.0.2
  _ZNK12QPainterPath14toFillPolygonsERK7QMatrix@Base 5.0.2
  _ZNK12QPainterPath15currentPositionEv@Base 5.0.2
- (subst)_ZNK12QPainterPath15percentAtLengthE{qreal}@Base 5.0.2
+ _ZNK12QPainterPath15percentAtLengthEd@Base 5.2.0
  _ZNK12QPainterPath16controlPointRectEv@Base 5.0.2
  _ZNK12QPainterPath17toSubpathPolygonsERK10QTransform@Base 5.0.2
  _ZNK12QPainterPath17toSubpathPolygonsERK7QMatrix@Base 5.0.2
@@ -4849,7 +4849,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK13QFontDatabase6weightERK7QStringS2_@Base 5.0.2
  _ZNK13QFontDatabase8familiesENS_13WritingSystemE@Base 5.0.2
  _ZNK13QFontDatabase9hasFamilyERK7QString@Base 5.0.2
- (subst)_ZNK13QFontMetricsF10elidedTextERK7QStringN2Qt13TextElideModeE{qreal}i@Base 5.0.2
+ _ZNK13QFontMetricsF10elidedTextERK7QStringN2Qt13TextElideModeEdi@Base 5.2.0
  _ZNK13QFontMetricsF10inFontUcs4Ej@Base 5.0.2
  _ZNK13QFontMetricsF11leftBearingE5QChar@Base 5.0.2
  _ZNK13QFontMetricsF11lineSpacingEv@Base 5.0.2
@@ -5580,7 +5580,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK4QCss11Declaration8intValueEPiPKc@Base 5.0.2
  _ZNK4QCss11Declaration8uriValueEv@Base 5.0.2
  _ZNK4QCss11Declaration9iconValueEv@Base 5.0.2
- (subst)_ZNK4QCss11Declaration9realValueEP{qreal}PKc@Base 5.0.2
+ _ZNK4QCss11Declaration9realValueEPdPKc@Base 5.2.0
  _ZNK4QCss11Declaration9rectValueEv@Base 5.0.2
  _ZNK4QCss11Declaration9sizeValueEv@Base 5.0.2
  _ZNK4QCss13StyleSelector14nodeNameEqualsENS0_7NodePtrERK7QString@Base 5.0.2 1
@@ -5704,9 +5704,9 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK6QColor6toCmykEv@Base 5.0.2
  _ZNK6QColor6valueFEv@Base 5.0.2
  _ZNK6QColor6yellowEv@Base 5.0.2
- (subst)_ZNK6QColor7getHslFEP{qreal}S0_S0_S0_@Base 5.0.2
- (subst)_ZNK6QColor7getHsvFEP{qreal}S0_S0_S0_@Base 5.0.2
- (subst)_ZNK6QColor7getRgbFEP{qreal}S0_S0_S0_@Base 5.0.2
+ _ZNK6QColor7getHslFEPdS0_S0_S0_@Base 5.2.0
+ _ZNK6QColor7getHsvFEPdS0_S0_S0_@Base 5.2.0
+ _ZNK6QColor7getRgbFEPdS0_S0_S0_@Base 5.2.0
  _ZNK6QColor7hslHueFEv@Base 5.0.2
  _ZNK6QColor7hsvHueFEv@Base 5.0.2
  _ZNK6QColor7magentaEv@Base 5.0.2
@@ -5786,19 +5786,19 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK6QMovie9cacheModeEv@Base 5.0.2
  _ZNK6QMovie9frameRectEv@Base 5.0.2
  _ZNK6QMovie9loopCountEv@Base 5.0.2
- (subst)_ZNK7QBezier10addIfCloseEP{qreal}{qreal}@Base 5.0.2 1
- (subst)_ZNK7QBezier11getSubRangeE{qreal}{qreal}@Base 5.0.2 1
- (subst)_ZNK7QBezier12addToPolygonEP9QPolygonF{qreal}@Base 5.0.2 1
- (subst)_ZNK7QBezier12addToPolygonER11QDataBufferI7QPointFE{qreal}@Base 5.0.2 1
- (subst)_ZNK7QBezier16bezierOnIntervalE{qreal}{qreal}@Base 5.0.2 1
- (subst)_ZNK7QBezier17stationaryYPointsER{qreal}S0_@Base 5.0.2 1
+ _ZNK7QBezier10addIfCloseEPdd@Base 5.2.0
+ _ZNK7QBezier11getSubRangeEdd@Base 5.2.0
+ _ZNK7QBezier12addToPolygonEP9QPolygonFd@Base 5.2.0
+ _ZNK7QBezier12addToPolygonER11QDataBufferI7QPointFEd@Base 5.2.0
+ _ZNK7QBezier16bezierOnIntervalEdd@Base 5.2.0
+ _ZNK7QBezier17stationaryYPointsERdS0_@Base 5.2.0
  _ZNK7QBezier5mapByERK10QTransform@Base 5.0.2 1
- (subst)_ZNK7QBezier5tForYE{qreal}{qreal}{qreal}@Base 5.0.2 1
+ _ZNK7QBezier5tForYEddd@Base 5.2.0
  _ZNK7QBezier6boundsEv@Base 5.0.2 1
- (subst)_ZNK7QBezier6lengthE{qreal}@Base 5.0.2 1
- (subst)_ZNK7QBezier7shiftedEPS_i{qreal}f@Base 5.0.2 1
- (subst)_ZNK7QBezier9tAtLengthE{qreal}@Base 5.0.2 1
- (subst)_ZNK7QBezier9toPolygonE{qreal}@Base 5.0.2 1
+ _ZNK7QBezier6lengthEd@Base 5.2.0
+ _ZNK7QBezier7shiftedEPS_idf@Base 5.2.0
+ _ZNK7QBezier9tAtLengthEd@Base 5.2.0
+ _ZNK7QBezier9toPolygonEd@Base 5.2.0
  _ZNK7QBitmap11transformedERK10QTransform@Base 5.0.2
  _ZNK7QBitmap11transformedERK7QMatrix@Base 5.0.2
  _ZNK7QBitmapcv8QVariantEv@Base 5.0.2
@@ -5817,8 +5817,8 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK7QMatrix3mapERK7QRegion@Base 5.0.2
  _ZNK7QMatrix3mapERK8QPolygon@Base 5.0.2
  _ZNK7QMatrix3mapERK9QPolygonF@Base 5.0.2
+ _ZNK7QMatrix3mapEddPdS0_@Base 5.2.0
  _ZNK7QMatrix3mapEiiPiS0_@Base 5.0.2
- (subst)_ZNK7QMatrix3mapE{qreal}{qreal}P{qreal}S0_@Base 5.0.2
  _ZNK7QMatrix7mapRectERK5QRect@Base 5.0.2
  _ZNK7QMatrix7mapRectERK6QRectF@Base 5.0.2
  _ZNK7QMatrix8invertedEPb@Base 5.0.2
@@ -6108,7 +6108,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK9QTextLine9cursorToXEPiNS_4EdgeE@Base 5.0.2
  _ZNK9QTextLine9glyphRunsEii@Base 5.0.2
  _ZNK9QTextLine9textStartEv@Base 5.0.2
- (subst)_ZNK9QTextLine9xToCursorE{qreal}NS_14CursorPositionE@Base 5.0.2
+ _ZNK9QTextLine9xToCursorEdNS_14CursorPositionE@Base 5.2.0
  _ZNK9QTextList10itemNumberERK10QTextBlock@Base 5.0.2
  _ZNK9QTextList10metaObjectEv@Base 5.0.2
  _ZNK9QTextList4itemEi@Base 5.0.2
