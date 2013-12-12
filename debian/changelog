@@ -13,6 +13,7 @@ qtbase-opensource-src (5.2.0+dfsg-1) UNRELEASED; urgency=low
   * Upstream made all archs use double for qreal (see #731261 for more
     context). Rename libqt5core5 to libqt5core5a to help in the transition:
     - Make libqt5core5a break and replace libqt5core5 << 5.2.0+dfsg~.
+    - Rename the associated files (install, lintian-overrides and symbols).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 26 Nov 2013 19:31:35 +0400
 
