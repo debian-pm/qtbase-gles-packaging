@@ -267,7 +267,7 @@ Depends: libgl1-mesa-dev [!armel !armhf] | libgl-dev [!armel !armhf],
          libgles2-mesa-dev [armel armhf] | libgles2-dev [armel armhf],
          libglu1-mesa-dev [!armel !armhf] | libglu-dev [!armel !armhf],
          libqt5concurrent5 (= ${binary:Version}),
-         libqt5core5 (= ${binary:Version}),
+         libqt5core5a (= ${binary:Version}),
          libqt5dbus5 (= ${binary:Version}),
          libqt5gui5 (= ${binary:Version}),
          libqt5network5 (= ${binary:Version}),
@@ -375,7 +375,7 @@ Priority: extra
 Architecture: any
 Multi-Arch: same
 Section: debug
-Depends: libqt5core5 (= ${binary:Version}), ${misc:Depends}
+Depends: libqt5core5a (= ${binary:Version}), ${misc:Depends}
 Description: Qt 5 base library debugging symbols
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
