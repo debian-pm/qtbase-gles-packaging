@@ -1523,11 +1523,6 @@ usr/lib/*/cmake/Qt5PrintSupport/Qt5PrintSupportConfig.cmake
 usr/lib/*/cmake/Qt5PrintSupport/Qt5PrintSupportConfigVersion.cmake
 usr/lib/*/cmake/Qt5Sql/Qt5SqlConfig.cmake
 usr/lib/*/cmake/Qt5Sql/Qt5SqlConfigVersion.cmake
-usr/lib/*/cmake/Qt5Sql/Qt5Sql_QMYSQLDriverPlugin.cmake
-usr/lib/*/cmake/Qt5Sql/Qt5Sql_QODBCDriverPlugin.cmake
-usr/lib/*/cmake/Qt5Sql/Qt5Sql_QPSQLDriverPlugin.cmake
-usr/lib/*/cmake/Qt5Sql/Qt5Sql_QSQLiteDriverPlugin.cmake
-usr/lib/*/cmake/Qt5Sql/Qt5Sql_QTDSDriverPlugin.cmake
 usr/lib/*/cmake/Qt5Test/Qt5TestConfig.cmake
 usr/lib/*/cmake/Qt5Test/Qt5TestConfigVersion.cmake
 usr/lib/*/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake
