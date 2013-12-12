@@ -16,6 +16,7 @@ qtbase-opensource-src (5.2.0+dfsg-1) UNRELEASED; urgency=low
       - Make libqt5core5a break and replace libqt5core5 << 5.2.0+dfsg~.
       - Rename the associated files (install, lintian-overrides and symbols).
       - Adjust dependencies in debian/control.
+      - Add lintian override for package not matching SONAME.
     - Re create symbols that used the qreal subst, they are now all doubles.
   * A user of Qt built by a distro doesn't needs to find where the SQL plugins
     are via CMake. Do not install them (Closes: #729602).
