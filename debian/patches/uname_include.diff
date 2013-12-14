@@ -1,0 +1,18 @@
+Author: Pino Toscano <toscano.pino@tiscali.it>
+Description: include sys/utsname.h on Unix
+ It is needed for using uname(3).
+Last-Update: 2013-12-14
+Forwarded: no
+
+--- a/src/corelib/io/qfileselector.cpp
++++ b/src/corelib/io/qfileselector.cpp
+@@ -50,6 +50,9 @@
+ #include <QtCore/QFileInfo>
+ #include <QtCore/QLocale>
+ #include <QtCore/QDebug>
++#if defined(Q_OS_UNIX)
++# include <sys/utsname.h>
++#endif
+ 
+ QT_BEGIN_NAMESPACE
+ 
