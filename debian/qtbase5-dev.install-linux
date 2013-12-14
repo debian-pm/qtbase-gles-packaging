@@ -1,0 +1,3 @@
+usr/lib/*/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake
+usr/lib/*/cmake/Qt5Network/Qt5Network_QConnmanEnginePlugin.cmake
+usr/lib/*/cmake/Qt5Network/Qt5Network_QNetworkManagerEnginePlugin.cmake

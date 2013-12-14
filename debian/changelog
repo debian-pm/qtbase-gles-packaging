@@ -3,6 +3,8 @@ qtbase-opensource-src (5.2.0+dfsg-2) UNRELEASED; urgency=medium
   [ Pino Toscano ]
   * Simplify and sort qtbase5-dev.install-armel and qtbase5-dev.install-armhf.
   * Include sys/utsname.h for uname(3); patch uname_include.diff.
+  * Move few Linux-only files from qtbase5-dev.install-common to
+    qtbase5-dev.install-linux.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 14 Dec 2013 10:06:56 +0100
 
