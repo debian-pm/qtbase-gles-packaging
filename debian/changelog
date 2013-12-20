@@ -1,4 +1,4 @@
-qtbase-opensource-src (5.2.0+dfsg-2) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.2.0+dfsg-2) experimental; urgency=medium
 
   [ Pino Toscano ]
   * Simplify and sort qtbase5-dev.install-armel and qtbase5-dev.install-armhf.
@@ -8,7 +8,7 @@ qtbase-opensource-src (5.2.0+dfsg-2) UNRELEASED; urgency=medium
   * Remove the cmake files of QtSql plugins on dh_auto_install phase instead
     of dh_install.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 14 Dec 2013 10:06:56 +0100
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 19 Dec 2013 21:37:00 -0300
 
 qtbase-opensource-src (5.2.0+dfsg-1) experimental; urgency=low
 
