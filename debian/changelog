@@ -1,5 +1,8 @@
 qtbase-opensource-src (5.2.0+dfsg-3) UNRELEASED; urgency=low
 
+  [ Pino Toscano ]
+  * Further fix for MIPS, also in the orderedMemoryFence implementation;
+    patch mips_more_pre-mips32.diff.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 20 Dec 2013 21:31:31 +0100
 
