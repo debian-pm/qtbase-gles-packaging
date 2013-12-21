@@ -65,7 +65,7 @@ Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/qt/qtbase.git;a=summary
 Package: libqt5core5a
 Architecture: any
 Multi-Arch: same
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: ${misc:Pre-Depends}
 Provides: qtbase-abi-5-2-0
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Suggests: libthai0
@@ -80,7 +80,7 @@ Description: Qt 5 core module
 Package: libqt5gui5
 Architecture: any
 Multi-Arch: same
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: ${misc:Pre-Depends}
 Depends: fontconfig, ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 GUI module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -91,7 +91,7 @@ Description: Qt 5 GUI module
 Package: libqt5network5
 Architecture: any
 Multi-Arch: same
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 network module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -103,7 +103,7 @@ Description: Qt 5 network module
 Package: libqt5opengl5
 Architecture: any
 Multi-Arch: same
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 OpenGL module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -118,7 +118,7 @@ Description: Qt 5 OpenGL module
 Package: libqt5sql5
 Architecture: any
 Multi-Arch: same
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: libqt5sql5-sqlite | libqt5sql5-mysql | libqt5sql5-odbc | libqt5sql5-psql | libqt5sql5-ibase [amd64 armel i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sh4 sparc]
 Description: Qt 5 SQL module
@@ -131,7 +131,7 @@ Description: Qt 5 SQL module
 Package: libqt5sql5-mysql
 Architecture: any
 Multi-Arch: same
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 MySQL database driver
  This package contains the MySQL plugin for Qt 5.
@@ -142,7 +142,7 @@ Description: Qt 5 MySQL database driver
 Package: libqt5sql5-odbc
 Architecture: any
 Multi-Arch: same
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 ODBC database driver
  This package contains the ODBC plugin for Qt 5.
@@ -153,7 +153,7 @@ Description: Qt 5 ODBC database driver
 Package: libqt5sql5-psql
 Architecture: any
 Multi-Arch: same
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 PostgreSQL database driver
  This package contains the PostgreSQL plugin for Qt 5.
@@ -164,7 +164,7 @@ Description: Qt 5 PostgreSQL database driver
 Package: libqt5sql5-sqlite
 Architecture: any
 Multi-Arch: same
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 SQLite 3 database driver
  This package contains the SQLite 3 plugin for Qt 5.
@@ -175,7 +175,7 @@ Description: Qt 5 SQLite 3 database driver
 Package: libqt5sql5-tds
 Architecture: any
 Multi-Arch: same
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 FreeTDS database driver
  This package contains the FreeTDS plugin for Qt 5.
@@ -186,7 +186,7 @@ Description: Qt 5 FreeTDS database driver
 Package: libqt5xml5
 Architecture: any
 Multi-Arch: same
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 XML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -198,7 +198,7 @@ Description: Qt 5 XML module
 Package: libqt5dbus5
 Architecture: any
 Multi-Arch: same
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 D-Bus module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -214,7 +214,7 @@ Description: Qt 5 D-Bus module
 Package: libqt5test5
 Architecture: any
 Multi-Arch: same
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 test module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -226,7 +226,7 @@ Description: Qt 5 test module
 Package: libqt5concurrent5
 Architecture: any
 Multi-Arch: same
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 concurrent module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -238,7 +238,7 @@ Description: Qt 5 concurrent module
 Package: libqt5widgets5
 Architecture: any
 Multi-Arch: same
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 widgets module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -249,7 +249,7 @@ Description: Qt 5 widgets module
 Package: libqt5printsupport5
 Architecture: any
 Multi-Arch: same
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: libcups2
 Description: Qt 5 print support module
@@ -262,7 +262,6 @@ Description: Qt 5 print support module
 Package: qtbase5-dev
 Architecture: any
 Section: libdevel
-Pre-Depends: dpkg (>= 1.15.6~)
 Depends: libgl1-mesa-dev [!armel !armhf] | libgl-dev [!armel !armhf],
          libgles2-mesa-dev [armel armhf] | libgles2-dev [armel armhf],
          libglu1-mesa-dev [!armel !armhf] | libglu-dev [!armel !armhf],
@@ -296,7 +295,6 @@ Description: Qt 5 base development files
 Package: qtbase5-private-dev
 Architecture: any
 Section: libdevel
-Pre-Depends: dpkg (>= 1.15.6~)
 Depends: qtbase5-dev (= ${binary:Version}), ${misc:Depends}
 Breaks: qtbase5-dev (<< 5.0.2+dfsg1-3~)
 Replaces: qtbase5-dev (<< 5.0.2+dfsg1-3~)
@@ -312,7 +310,6 @@ Description: Qt 5 base private development files
 Package: libqt5opengl5-dev
 Architecture: any
 Section: libdevel
-Pre-Depends: dpkg (>= 1.15.6~)
 Depends: libqt5opengl5 (= ${binary:Version}),
          qtbase5-dev (= ${binary:Version}),
          ${misc:Depends}
@@ -327,7 +324,6 @@ Package: qtbase5-dev-tools
 Architecture: any
 Multi-Arch: foreign
 Section: devel
-Pre-Depends: dpkg (>= 1.15.6~)
 Depends: qtchooser, ${misc:Depends}, ${perl:Depends}, ${shlibs:Depends}
 Description: Qt 5 base development programs
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -341,7 +337,6 @@ Package: qt5-qmake
 Architecture: any
 Multi-Arch: foreign
 Section: devel
-Pre-Depends: dpkg (>= 1.15.6~)
 Depends: qtchooser, ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 qmake Makefile generator tool
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -362,7 +357,6 @@ Package: qtbase5-examples
 Architecture: any
 Multi-Arch: foreign
 Section: x11
-Pre-Depends: dpkg (>= 1.15.6~)
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 base examples
  Qt is a cross-platform C++ application framework. Qt's primary feature

@@ -10,6 +10,8 @@ qtbase-opensource-src (5.2.0+dfsg-3) UNRELEASED; urgency=low
   * Get rid of our glibc-g++ qmake mkspec: it was a mistake with Qt4 (3?)
     already, and it is no more working with non-Linux OSes; as a consequence,
     error out for OSes with no qmake mkspec explicitly set in rules.
+  * Remove the Pre-Depends on dpkg >= 1.15.6~, since that version is available
+    in Squeeze already.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 20 Dec 2013 21:31:31 +0100
 
