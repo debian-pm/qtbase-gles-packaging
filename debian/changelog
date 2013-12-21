@@ -16,6 +16,10 @@ qtbase-opensource-src (5.2.0+dfsg-3) UNRELEASED; urgency=low
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Update symbols files with buildds' logs.
 
+  [ Dmitry Shachnev ]
+  * Explicitly define all DEB_HOST_ARCH{,_BITS} variables and remove duplicate
+    variables.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 20 Dec 2013 21:31:31 +0100
 
 qtbase-opensource-src (5.2.0+dfsg-2) experimental; urgency=medium

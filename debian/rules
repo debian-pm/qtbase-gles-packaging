@@ -4,7 +4,9 @@
 #export DH_VERBOSE=1
 
 DEB_HOST_MULTIARCH ?= $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
+DEB_HOST_ARCH ?= $(shell dpkg-architecture -qDEB_HOST_ARCH)
 DEB_HOST_ARCH_OS ?= $(shell dpkg-architecture -qDEB_HOST_ARCH_OS)
+DEB_HOST_ARCH_BITS ?= $(shell dpkg-architecture -qDEB_HOST_ARCH_BITS)
 
 export PATH := $(PATH):$(shell pwd)/bin
 export CFLAGS := $(shell dpkg-buildflags --get CFLAGS) $(shell dpkg-buildflags --get CPPFLAGS)
@@ -32,15 +34,12 @@ vendor := $(shell dpkg-vendor --query Vendor)
 # I've opened a bug in debhelper to allow this:
 # http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=703201
 
-arch= $(shell dpkg-architecture -qDEB_HOST_ARCH)
-os= $(shell dpkg-architecture -qDEB_HOST_ARCH_OS)
-
 # Retrieve packages that have a .install-common file
 pkgs_with_common = $(patsubst debian/%.install-common,%,$(wildcard debian/*.install-common))
 # Retrieve packages that have a .install-$arch file
-pkgs_with_arch = $(patsubst debian/%.install-$(arch),%,$(wildcard debian/*.install-$(arch)))
+pkgs_with_arch = $(patsubst debian/%.install-$(DEB_HOST_ARCH),%,$(wildcard debian/*.install-$(DEB_HOST_ARCH)))
 # Retrieve packages that have a .install-$os file
-pkgs_with_os = $(patsubst debian/%.install-$(os),%,$(wildcard debian/*.install-$(os)))
+pkgs_with_os = $(patsubst debian/%.install-$(DEB_HOST_ARCH_OS),%,$(wildcard debian/*.install-$(DEB_HOST_ARCH)))
 
 
 ifneq (,$(filter %-sql-ibase,$(shell dh_listpackages)))
@@ -249,11 +248,11 @@ override_dh_install:
 	done
 
 	set -e; for pkg in $(pkgs_with_arch); do \
-		cat debian/$$pkg.install-$(arch) >> debian/$$pkg.install ; \
+		cat debian/$$pkg.install-$(DEB_HOST_ARCH) >> debian/$$pkg.install ; \
 	done
 
 	set -e; for pkg in $(pkgs_with_os); do \
-		cat debian/$$pkg.install-$(os) >> debian/$$pkg.install ; \
+		cat debian/$$pkg.install-$(DEB_HOST_ARCH_OS) >> debian/$$pkg.install ; \
 	done
 
 	# Call dh_install normally. It will process .install, .install.ARCH
