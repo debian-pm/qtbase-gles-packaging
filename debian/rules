@@ -75,6 +75,8 @@ ifeq ($(DEB_HOST_ARCH_OS),linux)
   endif
 else ifeq ($(DEB_HOST_ARCH_OS),hurd)
 	platform_arg = hurd-g++
+else ifeq ($(DEB_HOST_ARCH_OS),kfreebsd)
+	platform_arg = gnukfreebsd-g++
 else
 	platform_arg = glibc-g++
 endif

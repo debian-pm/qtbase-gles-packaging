@@ -4,6 +4,9 @@ qtbase-opensource-src (5.2.0+dfsg-3) UNRELEASED; urgency=low
   * Further fix for MIPS, also in the orderedMemoryFence implementation;
     patch mips_more_pre-mips32.diff.
   * rules: small simplification in the platform_arg (mkspec) selection.
+  * Initial support for GNU/kFreeBSD:
+    - provide qmake mkspec, and use LD_LIBRARY_PATH; patch gnukfreebsd.diff
+    - rules: use the gnukfreebsd-g++ when configure'ing
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 20 Dec 2013 21:31:31 +0100
 
