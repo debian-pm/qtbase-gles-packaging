@@ -25,8 +25,8 @@ shlibs_version := $(shell dpkg-parsechangelog | sed -n 's/^Version: //p' | cut -
 vendor := $(shell dpkg-vendor --query Vendor)
 
 # To easier the files installation according OSes and archs, we create three
-# kinds of install files: foo.install-common, foo.install-$arch and
-# foo.install.$os. In this case we can fine-tune what we install.
+# kinds of install files: foo.install-common, foo.install-$DEB_HOST_ARCH and
+# foo.install.$DEB_HOST_OS. In this case we can fine-tune what we install.
 #
 # Note that if any foo.install-* file exists and foo.install exist too, the
 # later will get overwritten.
@@ -36,9 +36,9 @@ vendor := $(shell dpkg-vendor --query Vendor)
 
 # Retrieve packages that have a .install-common file
 pkgs_with_common = $(patsubst debian/%.install-common,%,$(wildcard debian/*.install-common))
-# Retrieve packages that have a .install-$arch file
+# Retrieve packages that have a .install-$DEB_HOST_ARCH file
 pkgs_with_arch = $(patsubst debian/%.install-$(DEB_HOST_ARCH),%,$(wildcard debian/*.install-$(DEB_HOST_ARCH)))
-# Retrieve packages that have a .install-$os file
+# Retrieve packages that have a .install-$DEB_HOST_OS file
 pkgs_with_os = $(patsubst debian/%.install-$(DEB_HOST_ARCH_OS),%,$(wildcard debian/*.install-$(DEB_HOST_ARCH)))
 
 
