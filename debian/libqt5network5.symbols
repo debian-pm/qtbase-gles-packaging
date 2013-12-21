@@ -1,10 +1,9 @@
-# SymbolsHelper-Confirmed: 5.2.0~rc1 amd64
+# SymbolsHelper-Confirmed: 5.2.0 s390x
 libQt5Network.so.5 libqt5network5 #MINVER#
 | libqt5network5 #MINVER#, qtbase-abi-5-2-0
  _Z19qt_qhostinfo_lookupRK7QStringP7QObjectPKcPbPi@Base 5.0.2
  _Z35qNetworkConfigurationManagerPrivatev@Base 5.0.2
  _Z5qHashRK12QHostAddressj@Base 5.0.2
- (arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc)_ZN10QByteArray4dataEv@Base 5.1.0
  _ZN10QDnsLookup11nameChangedERK7QString@Base 5.0.2
  _ZN10QDnsLookup11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN10QDnsLookup11qt_metacastEPKc@Base 5.0.2
@@ -770,7 +769,6 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZN9QSslErrorD1Ev@Base 5.0.2
  _ZN9QSslErrorD2Ev@Base 5.0.2
  _ZN9QSslErroraSERKS_@Base 5.0.2
- (arch=!amd64 !armel !armhf !hurd-i386 !i386)_ZNK10QByteArray8containsEPKc@Base 5.0.2
  _ZNK10QDnsLookup10isFinishedEv@Base 5.0.2
  _ZNK10QDnsLookup10metaObjectEv@Base 5.0.2
  _ZNK10QDnsLookup11errorStringEv@Base 5.0.2
@@ -1128,27 +1126,6 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZNK9QSslError11errorStringEv@Base 5.0.2
  _ZNK9QSslError5errorEv@Base 5.0.2
  _ZNK9QSslErroreqERKS_@Base 5.0.2
- (optional=templinst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc|subst)_ZSt13__adjust_heapIN5QListI17QDnsServiceRecordE8iteratorE{qptrdiff}S1_PFbRKS1_S5_EEvT_T0_S9_T1_T2_@Base 5.0.2
- (optional=templinst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc|subst)_ZSt13__adjust_heapIN5QListI22QDnsMailExchangeRecordE8iteratorE{qptrdiff}S1_PFbRKS1_S5_EEvT_T0_S9_T1_T2_@Base 5.0.2
- (optional=templinst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc|subst)_ZSt13__adjust_heapIN5QListI7QStringE8iteratorE{qptrdiff}S1_PFbRKS1_S5_EEvT_T0_S9_T1_T2_@Base 5.0.2
- (optional=templinst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc)_ZSt16__insertion_sortIN5QListI17QDnsServiceRecordE8iteratorEPFbRKS1_S5_EEvT_S8_T0_@Base 5.0.2
- (optional=templinst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc)_ZSt16__insertion_sortIN5QListI22QDnsMailExchangeRecordE8iteratorEPFbRKS1_S5_EEvT_S8_T0_@Base 5.0.2
- (optional=templinst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc)_ZSt16__insertion_sortIN5QListI7QStringE8iteratorEPFbRKS1_S5_EEvT_S8_T0_@Base 5.0.2
- (optional=templinst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc)_ZSt16__introsort_loopIN5QListI17QDnsServiceRecordE8iteratorEiPFbRKS1_S5_EEvT_S8_T0_T1_@Base 5.0.2
- (optional=templinst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc)_ZSt16__introsort_loopIN5QListI22QDnsMailExchangeRecordE8iteratorEiPFbRKS1_S5_EEvT_S8_T0_T1_@Base 5.0.2
- (optional=templinst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc)_ZSt16__introsort_loopIN5QListI7QStringE8iteratorEiPFbRKS1_S5_EEvT_S8_T0_T1_@Base 5.0.2
- (optional=templinst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc)_ZSt19__move_median_firstIN5QListI17QDnsServiceRecordE8iteratorEPFbRKS1_S5_EEvT_S8_S8_T0_@Base 5.0.2
- (optional=templinst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc)_ZSt19__move_median_firstIN5QListI22QDnsMailExchangeRecordE8iteratorEPFbRKS1_S5_EEvT_S8_S8_T0_@Base 5.0.2
- (optional=templinst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc)_ZSt19__move_median_firstIN5QListI7QStringE8iteratorEPFbRKS1_S5_EEvT_S8_S8_T0_@Base 5.0.2
- (optional=templinst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc)_ZSt21__unguarded_partitionIN5QListI17QDnsServiceRecordE8iteratorES1_PFbRKS1_S5_EET_S8_S8_RKT0_T1_@Base 5.0.2
- (optional=templinst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc)_ZSt21__unguarded_partitionIN5QListI22QDnsMailExchangeRecordE8iteratorES1_PFbRKS1_S5_EET_S8_S8_RKT0_T1_@Base 5.0.2
- (optional=templinst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc)_ZSt21__unguarded_partitionIN5QListI7QStringE8iteratorES1_PFbRKS1_S5_EET_S8_S8_RKT0_T1_@Base 5.0.2
- (optional=templinst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc)_ZSt25__unguarded_linear_insertIN5QListI17QDnsServiceRecordE8iteratorEPFbRKS1_S5_EEvT_T0_@Base 5.0.2
- (optional=templinst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc)_ZSt25__unguarded_linear_insertIN5QListI22QDnsMailExchangeRecordE8iteratorEPFbRKS1_S5_EEvT_T0_@Base 5.0.2
- (optional=templinst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc)_ZSt25__unguarded_linear_insertIN5QListI7QStringE8iteratorEPFbRKS1_S5_EEvT_T0_@Base 5.0.2
- (optional=templinst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc)_ZSt9make_heapIN5QListI17QDnsServiceRecordE8iteratorEPFbRKS1_S5_EEvT_S8_T0_@Base 5.0.2
- (optional=templinst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc)_ZSt9make_heapIN5QListI22QDnsMailExchangeRecordE8iteratorEPFbRKS1_S5_EEvT_S8_T0_@Base 5.0.2
- (optional=templinst|arch=alpha ia64 powerpc powerpcspe ppc64 s390 s390x sparc)_ZSt9make_heapIN5QListI7QStringE8iteratorEPFbRKS1_S5_EEvT_S8_T0_@Base 5.0.2
  _ZTI10QDnsLookup@Base 5.0.2
  _ZTI10QSslSocket@Base 5.0.2
  _ZTI10QTcpServer@Base 5.0.2

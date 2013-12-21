@@ -13,6 +13,9 @@ qtbase-opensource-src (5.2.0+dfsg-3) UNRELEASED; urgency=low
   * Remove the Pre-Depends on dpkg >= 1.15.6~, since that version is available
     in Squeeze already.
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Update symbols files with buildds' logs.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 20 Dec 2013 21:31:31 +0100
 
 qtbase-opensource-src (5.2.0+dfsg-2) experimental; urgency=medium
