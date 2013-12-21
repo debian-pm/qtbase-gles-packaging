@@ -78,18 +78,13 @@ else ifeq ($(DEB_HOST_ARCH_OS),hurd)
 else ifeq ($(DEB_HOST_ARCH_OS),kfreebsd)
 	platform_arg = gnukfreebsd-g++
 else
-	platform_arg = glibc-g++
+	$(error Unknown qmake mkspec for $(DEB_HOST_ARCH_OS))
 endif
 
 %:
 	dh $@ --parallel --with pkgkde_symbolshelper
 
 override_dh_auto_configure:
-	# Create mkspecs/glibc-g++ from mkspecs/linux-g++, needed by GNU/kFreeBSD
-	# we cannot use directly linux-g++ due to src/corelib/io/io.pri
-	rm -rf mkspecs/glibc-g++
-	cp -a mkspecs/linux-g++ mkspecs/glibc-g++
-
 	./configure -confirm-license \
 	            -prefix "/usr" \
 	            -bindir "/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/bin" \
@@ -155,7 +150,6 @@ override_dh_auto_clean:
 	  examples/tools/plugandpaint/plugins/ \
 	  examples/tools/styleplugin/styles/ \
 	  lib/ \
-	  mkspecs/glibc-g++/ \
 	  plugins/ \
 	;
 
