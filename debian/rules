@@ -53,11 +53,6 @@ ifeq ($(DEB_HOST_ARCH),$(findstring $(DEB_HOST_ARCH), $(no_pch_architectures)))
 	extra_configure_opts += -no-pch
 endif
 
-armv6_architectures := armhf
-ifeq ($(vendor),Ubuntu)
-	armv6_architectures += armel
-endif
-
 gles2_architectures := armel armhf
 ifeq ($(DEB_HOST_ARCH),$(findstring $(DEB_HOST_ARCH), $(gles2_architectures)))
 	extra_configure_opts += -opengl es2
