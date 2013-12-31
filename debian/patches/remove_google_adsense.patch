@@ -1,0 +1,17 @@
+--- a/examples/xml/htmlinfo/trolltech_com.html
++++ b/examples/xml/htmlinfo/trolltech_com.html
+@@ -23,14 +23,6 @@
+               content="Trolltech creates application development platforms for desktop and mobile device innovation." />
+         <meta name="keywords" content="" />
+     
+-<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"><!-- &nbsp;--></script>
+-<script type="text/javascript">
+-    <!-- Urchin script
+-                _uacct = "UA-4457116-1";
+-                urchinTracker();
+-    -->
+-	</script>
+-      
+         <base href="http://trolltech.com/homepage" />
+       
+     

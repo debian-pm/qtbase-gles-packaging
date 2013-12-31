@@ -7,6 +7,7 @@ qtbase-opensource-src (5.2.0+dfsg-4) UNRELEASED; urgency=medium
   * Enable processor detection for s390[x] and sparc.
     - Do not use Wcast-align on header's tests on sparc, thus avoiding a FTBFS.
   * Update symbols files using buildds' logs.
+  * Patch out Google-AdSense tracker from examples.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 26 Dec 2013 21:21:17 +0400
 
