@@ -1,3 +1,7 @@
+Description: remove Google AdSense's code from examples.
+Author: Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
+
+
 --- a/examples/xml/htmlinfo/trolltech_com.html
 +++ b/examples/xml/htmlinfo/trolltech_com.html
 @@ -23,14 +23,6 @@
