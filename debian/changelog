@@ -3,6 +3,9 @@ qtbase-opensource-src (5.2.0+dfsg-4) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * Remove unused piece of code in debian/rules.
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Enable proecessor detection for s390[x].
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 26 Dec 2013 21:21:17 +0400
 
 qtbase-opensource-src (5.2.0+dfsg-3) experimental; urgency=low

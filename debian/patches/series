@@ -8,3 +8,4 @@ mips_more_pre-mips32.diff
 gnukfreebsd.diff
 
 # Debian specific.
+enable_s390_detection.patch
