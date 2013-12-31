@@ -1,3 +1,7 @@
+Description: do not pass Wcast-align on sparc.
+Author: Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
+Forwarded: https://codereview.qt-project.org/#change,74516
+
 diff --git a/mkspecs/features/qt_headersclean.prf b/mkspecs/features/qt_headersclean.prf
 index ab0a722..1e420b0 100644
 --- a/mkspecs/features/qt_headersclean.prf
