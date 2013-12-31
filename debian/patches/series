@@ -6,6 +6,8 @@ support_mips_atomic_on_pre-mips32_archs.patch
 uname_include.diff
 mips_more_pre-mips32.diff
 gnukfreebsd.diff
+enable_s390_detection.patch
+enable_sparc_detection.patch
+do_not_pass_wcast-align_on_sparc.patch
 
 # Debian specific.
-enable_s390_detection.patch
