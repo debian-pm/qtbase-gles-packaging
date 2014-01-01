@@ -1,4 +1,4 @@
-qtbase-opensource-src (5.2.0+dfsg-4) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.2.0+dfsg-4) experimental; urgency=medium
 
   [ Dmitry Shachnev ]
   * Remove unused piece of code in debian/rules.
@@ -10,7 +10,7 @@ qtbase-opensource-src (5.2.0+dfsg-4) UNRELEASED; urgency=medium
   * Patch out Google-AdSense tracker from examples.
   * Update Standars-Version to 3.9.5, no changes required.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 26 Dec 2013 21:21:17 +0400
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Tue, 31 Dec 2013 19:22:00 -0300
 
 qtbase-opensource-src (5.2.0+dfsg-3) experimental; urgency=low
 
