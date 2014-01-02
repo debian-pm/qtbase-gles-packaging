@@ -2024,7 +2024,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN14QWidgetPrivate20setLayoutItemMarginsEN6QStyle10SubElementEPK12QStyleOption@Base 5.0.2 1
  _ZN14QWidgetPrivate20setLayoutItemMarginsEiiii@Base 5.0.2 1
  _ZN14QWidgetPrivate20setWindowIcon_helperEv@Base 5.0.2 1
- _ZN14QWidgetPrivate20setWindowOpacity_sysEd@Base 5.2.0
+ _ZN14QWidgetPrivate20setWindowOpacity_sysEd@Base 5.2.0 1
  _ZN14QWidgetPrivate21setMaximumSize_helperERiS0_@Base 5.0.2 1
  _ZN14QWidgetPrivate21setMinimumSize_helperERiS0_@Base 5.0.2 1
  _ZN14QWidgetPrivate21setWindowFilePath_sysERK7QString@Base 5.0.2 1
@@ -2844,7 +2844,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN17QPixmapBlurFilter11qt_metacastEPKc@Base 5.0.2 1
  _ZN17QPixmapBlurFilter12setBlurHintsE6QFlagsIN19QGraphicsBlurEffect8BlurHintEE@Base 5.0.2 1
  _ZN17QPixmapBlurFilter16staticMetaObjectE@Base 5.0.2 1
- _ZN17QPixmapBlurFilter9setRadiusEd@Base 5.2.0
+ _ZN17QPixmapBlurFilter9setRadiusEd@Base 5.2.0 1
  _ZN17QPixmapBlurFilterC1EP7QObject@Base 5.0.2 1
  _ZN17QPixmapBlurFilterC2EP7QObject@Base 5.0.2 1
  _ZN17QPixmapBlurFilterD0Ev@Base 5.0.2 1
@@ -3046,7 +3046,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN18QWidgetTextControl12processEventEP6QEventRK7QMatrixP7QWidget@Base 5.0.2 1
  _ZN18QWidgetTextControl12processEventEP6QEventRK7QPointFP7QWidget@Base 5.0.2 1
  _ZN18QWidgetTextControl12setPlainTextERK7QString@Base 5.0.2 1
- _ZN18QWidgetTextControl12setTextWidthEd@Base 5.2.0
+ _ZN18QWidgetTextControl12setTextWidthEd@Base 5.2.0 1
  _ZN18QWidgetTextControl13copyAvailableEb@Base 5.0.2 1
  _ZN18QWidgetTextControl13linkActivatedERK7QString@Base 5.0.2 1
  _ZN18QWidgetTextControl13redoAvailableEb@Base 5.0.2 1
@@ -3399,8 +3399,8 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN20QGraphicsItemPrivate42invalidateParentGraphicsEffectsRecursivelyEv@Base 5.0.2 1
  _ZN20QGraphicsItemPrivate44updateChildWithGraphicsEffectFlagRecursivelyEv@Base 5.0.2 1
  _ZN20QGraphicsItemPrivate8addChildEP13QGraphicsItem@Base 5.0.2 1
- _ZN20QGraphicsItemPrivate8setWidthEd@Base 5.2.0
- _ZN20QGraphicsItemPrivate9setHeightEd@Base 5.2.0
+ _ZN20QGraphicsItemPrivate8setWidthEd@Base 5.2.0 1
+ _ZN20QGraphicsItemPrivate9setHeightEd@Base 5.2.0 1
  _ZN20QGraphicsPolygonItem10setPolygonERK9QPolygonF@Base 5.0.2
  _ZN20QGraphicsPolygonItem11setFillRuleEN2Qt8FillRuleE@Base 5.0.2
  _ZN20QGraphicsPolygonItem12setExtensionEN13QGraphicsItem9ExtensionERK8QVariant@Base 5.0.2
@@ -3603,7 +3603,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN21QMouseEventTransitionD2Ev@Base 5.0.2
  _ZN21QPixmapColorizeFilter11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
  _ZN21QPixmapColorizeFilter11qt_metacastEPKc@Base 5.0.2 1
- _ZN21QPixmapColorizeFilter11setStrengthEd@Base 5.2.0
+ _ZN21QPixmapColorizeFilter11setStrengthEd@Base 5.2.0 1
  _ZN21QPixmapColorizeFilter16staticMetaObjectE@Base 5.0.2 1
  _ZN21QPixmapColorizeFilter8setColorERK6QColor@Base 5.0.2 1
  _ZN21QPixmapColorizeFilterC1EP7QObject@Base 5.0.2 1
@@ -3715,7 +3715,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN23QGraphicsSimpleTextItemD2Ev@Base 5.0.2
  _ZN23QPixmapDropShadowFilter11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
  _ZN23QPixmapDropShadowFilter11qt_metacastEPKc@Base 5.0.2 1
- _ZN23QPixmapDropShadowFilter13setBlurRadiusEd@Base 5.2.0
+ _ZN23QPixmapDropShadowFilter13setBlurRadiusEd@Base 5.2.0 1
  _ZN23QPixmapDropShadowFilter16staticMetaObjectE@Base 5.0.2 1
  _ZN23QPixmapDropShadowFilter8setColorERK6QColor@Base 5.0.2 1
  _ZN23QPixmapDropShadowFilter9setOffsetERK7QPointF@Base 5.0.2 1
@@ -3787,7 +3787,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN24QPixmapConvolutionFilter11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
  _ZN24QPixmapConvolutionFilter11qt_metacastEPKc@Base 5.0.2 1
  _ZN24QPixmapConvolutionFilter16staticMetaObjectE@Base 5.0.2 1
- _ZN24QPixmapConvolutionFilter20setConvolutionKernelEPKdii@Base 5.2.0
+ _ZN24QPixmapConvolutionFilter20setConvolutionKernelEPKdii@Base 5.2.0 1
  _ZN24QPixmapConvolutionFilterC1EP7QObject@Base 5.0.2 1
  _ZN24QPixmapConvolutionFilterC2EP7QObject@Base 5.0.2 1
  _ZN24QPixmapConvolutionFilterD0Ev@Base 5.0.2 1

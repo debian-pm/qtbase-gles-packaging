@@ -52,7 +52,7 @@ libQt5Test.so.5 libqt5test5 #MINVER#
  _ZN24QBenchmarkTestMethodData12beginDataRunEv@Base 5.0.2 1
  _ZN24QBenchmarkTestMethodData20adjustIterationCountEi@Base 5.0.2 1
  _ZN24QBenchmarkTestMethodData7currentE@Base 5.0.2 1
- _ZN24QBenchmarkTestMethodData9setResultEdN5QTest16QBenchmarkMetricEb@Base 5.2.0
+ _ZN24QBenchmarkTestMethodData9setResultEdN5QTest16QBenchmarkMetricEb@Base 5.2.0 1
  _ZN24QBenchmarkTestMethodDataC1Ev@Base 5.0.2 1
  _ZN24QBenchmarkTestMethodDataC2Ev@Base 5.0.2 1
  _ZN24QBenchmarkTestMethodDataD1Ev@Base 5.0.2 1
