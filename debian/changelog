@@ -2,6 +2,7 @@ qtbase-opensource-src (5.2.0+dfsg-5) UNRELEASED; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Workaround sparc's FTBFS due to it's qatomic code.
+  * Build Qt against system's harfbuzz (Closes: #733972).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 02 Jan 2014 16:38:35 -0300
 
