@@ -1,5 +1,8 @@
 qtbase-opensource-src (5.2.0+dfsg-5) UNRELEASED; urgency=medium
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Workaround sparc's FTBFS due to it's qatomic code.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 02 Jan 2014 16:38:35 -0300
 
 qtbase-opensource-src (5.2.0+dfsg-4) experimental; urgency=medium
