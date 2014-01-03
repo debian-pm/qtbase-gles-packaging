@@ -1,5 +1,7 @@
 qtbase-opensource-src (5.2.0+dfsg-6) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Build-depend on libxcb-xkb-dev, to get more input languages support.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 03 Jan 2014 22:44:50 +0400
 
