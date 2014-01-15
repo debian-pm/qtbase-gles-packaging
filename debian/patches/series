@@ -9,6 +9,7 @@ gnukfreebsd.diff
 enable_s390_detection.patch
 enable_sparc_detection.patch
 do_not_pass_wcast-align_on_sparc.patch
+fix_crash_stale_pointer_dereferencing.patch
 
 # Debian specific.
 change_sparc_qatomic.patch
