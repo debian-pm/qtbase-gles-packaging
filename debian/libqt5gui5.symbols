@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.2.0 amd64 hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390x sparc
+# SymbolsHelper-Confirmed: 5.2.0 amd64 armel hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390x sparc
 libQt5Gui.so.5 libqt5gui5 #MINVER#
 | libqt5gui5 #MINVER#, qtbase-abi-5-2-0
  _Z11qDrawBorderP8QPainterRK5QRectPKN4QCss11BorderStyleEPKiPK6QBrushPK5QSize@Base 5.0.2
@@ -32,23 +32,23 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _Z19qtVectorPathForPathRK12QPainterPath@Base 5.0.2
  _Z19qt_handleMouseEventP7QWindowRK7QPointFS3_6QFlagsIN2Qt11MouseButtonEES4_INS5_16KeyboardModifierEE@Base 5.0.2
  _Z19qt_handleTouchEventP7QWindowP12QTouchDeviceRK5QListIN11QTouchEvent10TouchPointEE6QFlagsIN2Qt16KeyboardModifierEE@Base 5.0.2
- (arch=amd64)_Z20hb_qt_get_font_funcsv@Base 5.2.0
+ _Z20hb_qt_get_font_funcsv@Base 5.2.0
  _Z20qt_scaleForTransformRK10QTransformPd@Base 5.2.0
  _Z20qt_scrollRectInImageR6QImageRK5QRectRK6QPoint@Base 5.0.2
  _Z21qAccessibleRoleStringN11QAccessible4RoleE@Base 5.0.2
- (arch=amd64)_Z22hb_qt_script_to_scriptN5QChar6ScriptE@Base 5.2.0
+ _Z22hb_qt_script_to_scriptN5QChar6ScriptE@Base 5.2.0
  _Z22qAccessibleEventStringN11QAccessible5EventE@Base 5.0.2
  _Z22qt_find_ellipse_coordsRK6QRectFddP7QPointFS3_@Base 5.2.0
  _Z22qt_fontdata_from_indexi@Base 5.0.2
  _Z22qt_gl_read_framebufferRK5QSizebb@Base 5.0.2
  _Z22qt_paint_device_metricPK12QPaintDeviceNS_17PaintDeviceMetricE@Base 5.0.2
- (arch=amd64)_Z23hb_qt_get_unicode_funcsv@Base 5.2.0
- (arch=amd64)_Z24hb_qt_script_from_script11hb_script_t@Base 5.2.0
+ _Z23hb_qt_get_unicode_funcsv@Base 5.2.0
+ _Z24hb_qt_script_from_script11hb_script_t@Base 5.2.0
  _Z24qt_fontHasNarrowOutlinesP11QFontEngine@Base 5.0.2 1
  _Z24qt_fontHasNarrowOutlinesRK8QRawFont@Base 5.0.2
  _Z24qt_region_strictContainsRK7QRegionRK5QRect@Base 5.0.2
- (arch=amd64)_Z25hb_qt_face_get_for_engineP11QFontEngine@Base 5.2.0 1
- (arch=amd64)_Z25hb_qt_font_get_for_engineP11QFontEngine@Base 5.2.0 1
+ _Z25hb_qt_face_get_for_engineP11QFontEngine@Base 5.2.0 1
+ _Z25hb_qt_font_get_for_engineP11QFontEngine@Base 5.2.0 1
  _Z27qt_isExtendedRadialGradientRK6QBrush@Base 5.0.2
  _Z28qt_painterPathFromVectorPathRK11QVectorPath@Base 5.0.2 1
  _Z29qt_draw_decoration_for_glyphsP8QPainterPKjPK11QFixedPointiP11QFontEngineRK5QFontRK15QTextCharFormat@Base 5.0.2 1
@@ -57,8 +57,8 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  (arch=armhf)_Z31qt_convert_rgb888_to_rgb32_neonPjPKhi@Base 5.0.2
  _Z32qGamma_correct_back_to_linear_csP6QImage@Base 5.0.2
  (optional=gccinternal|arch=amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 powerpcspe)_Z32qt_convert_rgb888_to_rgb32_ssse3PjPKhi@Base 5.0.2
- (arch=amd64)_Z33hb_qt_font_get_use_design_metricsP9hb_font_t@Base 5.2.0
- (arch=amd64)_Z33hb_qt_font_set_use_design_metricsP9hb_font_tj@Base 5.2.0
+ _Z33hb_qt_font_get_use_design_metricsP9hb_font_t@Base 5.2.0
+ _Z33hb_qt_font_set_use_design_metricsP9hb_font_tj@Base 5.2.0
  _Z5qHashRKN22QGuiApplicationPrivate20ActiveTouchPointsKeyE@Base 5.0.2 1
  _Z9qPolylineRK12QPainterPathRK10QTransformd@Base 5.2.0
  _ZN10QBasicDrag11eventFilterEP7QObjectP6QEvent@Base 5.1.0 1
@@ -4592,7 +4592,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK11QTextEngine21addRequiredBoundariesEv@Base 5.0.2 1
  _ZNK11QTextEngine21shapeTextWithHarfbuzzERK11QScriptItemPKtiP11QFontEngineRK7QVectorIjEb@Base 5.2.0~alpha1 1
  _ZNK11QTextEngine23previousLogicalPositionEi@Base 5.0.2 1
- (arch=amd64)_ZNK11QTextEngine23shapeTextWithHarfbuzzNGERK11QScriptItemPKtiP11QFontEngineRK7QVectorIjEb@Base 5.2.0 1
+ _ZNK11QTextEngine23shapeTextWithHarfbuzzNGERK11QScriptItemPKtiP11QFontEngineRK7QVectorIjEb@Base 5.2.0 1
  _ZNK11QTextEngine24resolveAdditionalFormatsEv@Base 5.0.2 1
  _ZNK11QTextEngine4fontERK11QScriptItem@Base 5.0.2 1
  _ZNK11QTextEngine5shapeEi@Base 5.0.2 1
