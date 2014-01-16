@@ -4,6 +4,7 @@ qtbase-opensource-src (5.2.0+dfsg-6) UNRELEASED; urgency=medium
   * Build-depend on libxcb-xkb-dev, to get more input languages support.
   * Also, build-depend on libxcb-sync-dev instead of removed libxcb-sync0-dev.
   * Fix misspelled DEB_HOST_ARCH_OS in debian/rules comments.
+  * Re-introduce qtbase5-doc-html package.
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Backport fix_crash_stale_pointer_dereferencing.patch to solve a crash
