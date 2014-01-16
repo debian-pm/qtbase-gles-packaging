@@ -1,4 +1,4 @@
-qtbase-opensource-src (5.2.0+dfsg-6) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.2.0+dfsg-6) experimental; urgency=medium
 
   [ Dmitry Shachnev ]
   * Build-depend on libxcb-xkb-dev, to get more input languages support.
@@ -11,7 +11,7 @@ qtbase-opensource-src (5.2.0+dfsg-6) UNRELEASED; urgency=medium
     while using harfbuzz-ng.
   * Update symbols files with buildd's logs.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 03 Jan 2014 22:44:50 +0400
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 16 Jan 2014 14:54:26 -0300
 
 qtbase-opensource-src (5.2.0+dfsg-5) experimental; urgency=medium
 
