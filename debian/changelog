@@ -1,4 +1,4 @@
-qtbase-opensource-src (5.2.0+dfsg-7) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.2.0+dfsg-7) unstable; urgency=medium
 
   [ Dmitry Shachnev ]
   * Use canonical Vcs-Browser field.
@@ -6,8 +6,9 @@ qtbase-opensource-src (5.2.0+dfsg-7) UNRELEASED; urgency=medium
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Install qmake's arch-specific data in an arch-specific path by using the
     hostdatadir option while calling configure.
+  * Upload to unstable.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 20 Jan 2014 20:09:33 +0400
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Fri, 31 Jan 2014 12:35:55 -0300
 
 qtbase-opensource-src (5.2.0+dfsg-6) experimental; urgency=medium
 
