@@ -4,6 +4,7 @@ qtbase-opensource-src (5.2.1+dfsg-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Remove sha3_64bit_BE.diff, uname_include.diff and
     fix_crash_stale_pointer_dereferencing.patch, applied upstream.
+  * Update symbols files with buildd's logs.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 07 Feb 2014 13:06:24 -0300
 

@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.2.0 armel hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 s390x sparc
+# SymbolsHelper-Confirmed: 5.2.0 alpha armel armhf hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 s390x sparc
 libQt5Concurrent.so.5 libqt5concurrent5 #MINVER#
 | libqt5concurrent5 #MINVER#, qtbase-abi-5-2-0
  _ZN12QtConcurrent16BlockSizeManager13timeAfterUserEv@Base 5.0.2
@@ -26,13 +26,12 @@ libQt5Concurrent.so.5 libqt5concurrent5 #MINVER#
  _ZN12QtConcurrent16ThreadEngineBaseD0Ev@Base 5.0.2
  _ZN12QtConcurrent16ThreadEngineBaseD1Ev@Base 5.0.2
  _ZN12QtConcurrent16ThreadEngineBaseD2Ev@Base 5.0.2
- (optional=templinst|arch=!amd64 !ia64 !kfreebsd-amd64 !ppc64 !s390x)_ZSt13__adjust_heapIPdidEvT_T0_S2_T1_@Base 5.2.0~alpha1
- (optional=templinst|arch=amd64 ia64 kfreebsd-amd64 ppc64 s390x)_ZSt13__adjust_heapIPdldEvT_T0_S2_T1_@Base 5.2.0~alpha1
- (optional=templinst|arch=powerpc)_ZSt13__heap_selectIPdEvT_S1_S1_@Base 5.2.0~beta1
- (optional=templinst|arch=amd64 armel hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel ppc64 s390x|subst)_ZSt13__introselectIPd{ssize_t}EvT_S1_S1_T0_@Base 5.2.0~alpha1
- (optional=templinst|arch=ia64 powerpc sparc)_ZSt16__insertion_sortIPdEvT_S1_@Base 5.2.0
- (optional=templinst|arch=ia64 powerpc sparc|subst)_ZSt16__introsort_loopIPd{ssize_t}EvT_S1_T0_@Base 5.2.0
- (optional=templinst|arch=ia64 powerpc sparc)_ZSt19__move_median_firstIPdEvT_S1_S1_@Base 5.2.0
+ (optional=templinst|arch=!alpha !amd64 !ia64 !kfreebsd-amd64 !ppc64 !s390x)_ZSt13__adjust_heapIPdidEvT_T0_S2_T1_@Base 5.2.0~alpha1
+ (optional=templinst|arch=alpha amd64 ia64 kfreebsd-amd64 ppc64 s390x)_ZSt13__adjust_heapIPdldEvT_T0_S2_T1_@Base 5.2.0~alpha1
+ (optional=templinst|arch=alpha amd64 armel armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 s390x|subst)_ZSt13__introselectIPd{ssize_t}EvT_S1_S1_T0_@Base 5.2.0~alpha1
+ (optional=templinst|arch=ia64 sparc)_ZSt16__insertion_sortIPdEvT_S1_@Base 5.2.0
+ (optional=templinst|arch=ia64 sparc|subst)_ZSt16__introsort_loopIPd{ssize_t}EvT_S1_T0_@Base 5.2.0
+ (optional=templinst|arch=ia64 sparc)_ZSt19__move_median_firstIPdEvT_S1_S1_@Base 5.2.0
  _ZTIN12QtConcurrent16ThreadEngineBaseE@Base 5.0.2
  _ZTSN12QtConcurrent16ThreadEngineBaseE@Base 5.0.2
  _ZTVN12QtConcurrent16ThreadEngineBaseE@Base 5.0.2
