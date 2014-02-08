@@ -1503,15 +1503,8 @@ usr/lib/*/cmake/Qt5DBus/Qt5DBusMacros.cmake
 usr/lib/*/cmake/Qt5Gui/Qt5GuiConfig.cmake
 usr/lib/*/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake
 usr/lib/*/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake
-usr/lib/*/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake
-usr/lib/*/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake
-usr/lib/*/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake
-usr/lib/*/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake
-usr/lib/*/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake
-usr/lib/*/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake
 usr/lib/*/cmake/Qt5Network/Qt5NetworkConfig.cmake
 usr/lib/*/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake
-usr/lib/*/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake
 usr/lib/*/cmake/Qt5OpenGL/Qt5OpenGLConfig.cmake
 usr/lib/*/cmake/Qt5OpenGL/Qt5OpenGLConfigVersion.cmake
 usr/lib/*/cmake/Qt5OpenGLExtensions/Qt5OpenGLExtensionsConfig.cmake
