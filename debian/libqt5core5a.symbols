@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.2.0 alpha amd64 armel armhf hppa hurd-i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel ppc64 s390x
+# SymbolsHelper-Confirmed: 5.2.1 amd64
 libQt5Core.so.5 libqt5core5a #MINVER#
 | libqt5core5a #MINVER#, qtbase-abi-5-2-0
  _Z10forcepointR11QTextStream@Base 5.0.2
@@ -1114,9 +1114,8 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZN16QMetaEnumBuilder9setIsFlagEb@Base 5.0.2 1
  _ZN16QMetaStringTable18preferredAlignmentEv@Base 5.0.2 1
  _ZN16QMetaStringTable5enterERK10QByteArray@Base 5.0.2 1
- _ZN16QMetaStringTable9writeBlobEPc@Base 5.0.2 1
- _ZN16QMetaStringTableC1Ev@Base 5.0.2 1
- _ZN16QMetaStringTableC2Ev@Base 5.0.2 1
+ _ZN16QMetaStringTableC1ERK10QByteArray@Base 5.2.1 1
+ _ZN16QMetaStringTableC2ERK10QByteArray@Base 5.2.1 1
  _ZN16QSegfaultHandler10initializeEPPci@Base 5.0.2 1
  _ZN16QSegfaultHandler8callbackE@Base 5.0.2 1
  _ZN16QStringListModel10insertRowsEiiRK11QModelIndex@Base 5.0.2
@@ -2003,6 +2002,8 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZN23QCoreApplicationPrivate20eventDispatcherReadyEv@Base 5.2.0~beta1 1
  _ZN23QCoreApplicationPrivate21createEventDispatcherEv@Base 5.0.2 1
  _ZN23QCoreApplicationPrivate21isTranslatorInstalledEP11QTranslator@Base 5.0.2 1
+ _ZN23QCoreApplicationPrivate22setApplicationFilePathERK7QString@Base 5.2.1 1
+ _ZN23QCoreApplicationPrivate25cachedApplicationFilePathE@Base 5.2.1 1
  _ZN23QCoreApplicationPrivate27processCommandLineArgumentsEv@Base 5.0.2 1
  _ZN23QCoreApplicationPrivate29sendThroughObjectEventFiltersEP7QObjectP6QEvent@Base 5.0.2 1
  _ZN23QCoreApplicationPrivate34sendThroughApplicationEventFiltersEP7QObjectP6QEvent@Base 5.0.2 1
@@ -3685,6 +3686,7 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZNK16QMetaEnumBuilder6isFlagEv@Base 5.0.2 1
  _ZNK16QMetaEnumBuilder8keyCountEv@Base 5.0.2 1
  _ZNK16QMetaStringTable8blobSizeEv@Base 5.0.2 1
+ _ZNK16QMetaStringTable9writeBlobEPc@Base 5.2.1 1
  _ZNK16QStringListModel10metaObjectEv@Base 5.0.2
  _ZNK16QStringListModel10stringListEv@Base 5.0.2
  _ZNK16QStringListModel20supportedDropActionsEv@Base 5.0.2

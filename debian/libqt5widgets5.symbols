@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.2.0 alpha amd64 armel hppa hurd-i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 s390x
+# SymbolsHelper-Confirmed: 5.2.1 amd64
 libQt5Widgets.so.5 libqt5widgets5 #MINVER#
 | libqt5widgets5 #MINVER#, qtbase-abi-5-2-0
  _Z11qFadeEffectP7QWidgeti@Base 5.0.2
@@ -6159,7 +6159,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK14QWidgetPrivate19clipToEffectiveMaskER7QRegion@Base 5.0.2 1
  _ZNK14QWidgetPrivate20getLayoutItemMarginsEPiS0_S0_S0_@Base 5.0.2 1
  _ZNK14QWidgetPrivate20naturalWidgetPaletteEj@Base 5.0.2 1
- _ZNK14QWidgetPrivate22childAtRecursiveHelperERK6QPointbb@Base 5.0.2 1
+ _ZNK14QWidgetPrivate22childAtRecursiveHelperERK6QPointb@Base 5.2.1 1
  _ZNK14QWidgetPrivate22subtractOpaqueChildrenER7QRegionRK5QRect@Base 5.0.2 1
  _ZNK14QWidgetPrivate22subtractOpaqueSiblingsER7QRegionPbb@Base 5.0.2 1
  _ZNK14QWidgetPrivate8clipRectEv@Base 5.0.2 1

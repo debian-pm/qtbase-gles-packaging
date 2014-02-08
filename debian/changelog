@@ -11,6 +11,8 @@ qtbase-opensource-src (5.2.1+dfsg-1) UNRELEASED; urgency=medium
   * Remove private headers no longer installed.
   * QtCore's QNoImplicitBoolCast header is no longer installed. It only had an
     include to qtglobal.h in it and no public symbols are missing.
+  * Update symbols files with current build log. All missing symbols where
+    private. Private symbols where [re]marked in symbols files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 07 Feb 2014 13:06:24 -0300
 
