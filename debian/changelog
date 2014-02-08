@@ -8,6 +8,7 @@ qtbase-opensource-src (5.2.1+dfsg-1) UNRELEASED; urgency=medium
   * Do not install any CMake file for any plugin.
   * The egl/kms plugins have been built on amd64 too. Move them to the linux
     install files and see what happens with other archs.
+  * Remove private headers no longer installed.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 07 Feb 2014 13:06:24 -0300
 

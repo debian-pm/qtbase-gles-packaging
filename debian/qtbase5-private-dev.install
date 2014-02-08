@@ -160,7 +160,6 @@ usr/include/qt5/QtDBus/*/QtDBus/private/qdbusthreaddebug_p.h
 usr/include/qt5/QtDBus/*/QtDBus/private/qdbusutil_p.h
 usr/include/qt5/QtDBus/*/QtDBus/private/qdbusxmlparser_p.h
 usr/include/qt5/QtGui/*/QtGui/private/qabstracttextdocumentlayout_p.h
-usr/include/qt5/QtGui/*/QtGui/private/qaccessible2_p.h
 usr/include/qt5/QtGui/*/QtGui/private/qaccessiblecache_p.h
 usr/include/qt5/QtGui/*/QtGui/private/qbezier_p.h
 usr/include/qt5/QtGui/*/QtGui/private/qblendfunctions_p.h
@@ -490,7 +489,6 @@ usr/include/qt5/QtWidgets/*/QtWidgets/private/qbasickeyeventtransition_p.h
 usr/include/qt5/QtWidgets/*/QtWidgets/private/qbasicmouseeventtransition_p.h
 usr/include/qt5/QtWidgets/*/QtWidgets/private/qbsptree_p.h
 usr/include/qt5/QtWidgets/*/QtWidgets/private/qcalendartextnavigator_p.h
-usr/include/qt5/QtWidgets/*/QtWidgets/private/qcocoatoolbardelegate_mac_p.h
 usr/include/qt5/QtWidgets/*/QtWidgets/private/qcolordialog_p.h
 usr/include/qt5/QtWidgets/*/QtWidgets/private/qcolumnview_p.h
 usr/include/qt5/QtWidgets/*/QtWidgets/private/qcolumnviewgrip_p.h
