@@ -1,6 +1,6 @@
 # SymbolsHelper-Confirmed: 5.2.0 alpha amd64 armel armhf hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 s390x sparc
 libQt5DBus.so.5 libqt5dbus5 #MINVER#
-| libqt5dbus5 #MINVER#, qtbase-abi-5-2-0
+| libqt5dbus5 #MINVER#, qtbase-abi-5-2-1
  _Z14qDBusReplyFillRK12QDBusMessageR10QDBusErrorR8QVariant@Base 5.0.2
  _Z15qDBusAddSpyHookPFvRK12QDBusMessageE@Base 5.0.2
  _Z18qDBusCheckAsyncTagPKc@Base 5.1.0
