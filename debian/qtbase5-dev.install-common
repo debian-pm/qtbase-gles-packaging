@@ -176,7 +176,6 @@ usr/include/qt5/QtCore/QMutableVectorIterator
 usr/include/qt5/QtCore/QMutex
 usr/include/qt5/QtCore/QMutexLocker
 usr/include/qt5/QtCore/QNoDebug
-usr/include/qt5/QtCore/QNoImplicitBoolCast
 usr/include/qt5/QtCore/QObject
 usr/include/qt5/QtCore/QObjectCleanupHandler
 usr/include/qt5/QtCore/QObjectData

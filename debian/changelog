@@ -9,6 +9,8 @@ qtbase-opensource-src (5.2.1+dfsg-1) UNRELEASED; urgency=medium
   * The egl/kms plugins have been built on amd64 too. Move them to the linux
     install files and see what happens with other archs.
   * Remove private headers no longer installed.
+  * QtCore's QNoImplicitBoolCast header is no longer installed. It only had an
+    include to qtglobal.h in it and no public symbols are missing.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 07 Feb 2014 13:06:24 -0300
 
