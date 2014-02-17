@@ -4,6 +4,9 @@ qtbase-opensource-src (5.2.1+dfsg-2) UNRELEASED; urgency=medium
   * Disable eglfs on any non-Linux architecture; while the dependencies
     for it might be satisfied, the code seems tied to/requiring Linux stuff.
 
+  [ Dmitry Shachnev ]
+  * Update remove_google_adsense.patch to also remove ProspectXtractor tracker script.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 17 Feb 2014 09:09:16 +0100
 
 qtbase-opensource-src (5.2.1+dfsg-1) experimental; urgency=medium
