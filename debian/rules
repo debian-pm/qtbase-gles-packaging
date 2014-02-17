@@ -60,6 +60,10 @@ else
 	extra_configure_opts += -opengl desktop
 endif
 
+ifneq ($(DEB_HOST_ARCH_OS),linux)
+	extra_configure_opts += -no-eglfs
+endif
+
 ifeq ($(DEB_HOST_ARCH_OS),linux)
   ifneq (,$(filter $(DEB_HOST_ARCH),alpha ia64 mips64 mips64el))
 	platform_arg = linux-g++
