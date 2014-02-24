@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.2.0 alpha amd64 armel armhf hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390x sparc
+# SymbolsHelper-Confirmed: 5.2.1 ia64 ppc64 s390x sparc
 libQt5Gui.so.5 libqt5gui5 #MINVER#
 | libqt5gui5 #MINVER#, qtbase-abi-5-2-1
  _Z11qDrawBorderP8QPainterRK5QRectPKN4QCss11BorderStyleEPKiPK6QBrushPK5QSize@Base 5.0.2
@@ -1649,7 +1649,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN16QConicalGradientC2ERK7QPointFd@Base 5.2.0
  _ZN16QConicalGradientC2Eddd@Base 5.2.0
  _ZN16QConicalGradientC2Ev@Base 5.0.2
- (arch=alpha armel hppa mips mipsel)_ZN16QCoreApplication20sendSpontaneousEventEP7QObjectP6QEvent@Base 5.2.0
+ (arch=alpha armel hppa mips mipsel ppc64 s390x)_ZN16QCoreApplication20sendSpontaneousEventEP7QObjectP6QEvent@Base 5.2.1
  _ZN16QDesktopServices13setUrlHandlerERK7QStringP7QObjectPKc@Base 5.0.2
  _ZN16QDesktopServices15unsetUrlHandlerERK7QString@Base 5.0.2
  _ZN16QDesktopServices19storageLocationImplEN14QStandardPaths16StandardLocationE@Base 5.0.2
@@ -6262,6 +6262,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  (optional=templinst|arch=ia64 sparc)_ZSt30__move_merge_adaptive_backwardIP5QPairIP13QStandardItemiES4_S4_29QStandardItemModelGreaterThanEvT_S6_T0_S7_T1_T2_@Base 5.2.0
  (optional=templinst|arch=ia64 sparc)_ZSt4sortIN5QListIiE8iteratorEEvT_S3_@Base 5.2.0
  (optional=templinst|arch=armel armhf hurd-i386 i386 kfreebsd-i386 mips mipsel powerpc)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 5.0.2
+ (optional=templinst|arch=ia64 sparc)_ZSt6__findIPKiiET_S2_S2_RKT0_St26random_access_iterator_tag@Base 5.2.1
  (optional=templinst|arch=ia64 sparc)_ZSt8__rotateIP5QPairIP13QStandardItemiEEvT_S5_S5_St26random_access_iterator_tag@Base 5.2.0
  (optional=templinst|arch=ia64)_ZSt9make_heapIN5QListI10QByteArrayE8iteratorEEvT_S4_@Base 5.2.0
  (optional=templinst|arch=ia64 sparc)_ZSt9make_heapIN5QListI9QTtfGlyphE8iteratorEEvT_S4_@Base 5.2.0

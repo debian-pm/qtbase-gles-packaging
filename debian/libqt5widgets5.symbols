@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.2.1 amd64
+# SymbolsHelper-Confirmed: 5.2.1 amd64 powerpc sparc
 libQt5Widgets.so.5 libqt5widgets5 #MINVER#
 | libqt5widgets5 #MINVER#, qtbase-abi-5-2-1
  _Z11qFadeEffectP7QWidgeti@Base 5.0.2
@@ -2481,7 +2481,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN16QAbstractSpinBoxD0Ev@Base 5.0.2
  _ZN16QAbstractSpinBoxD1Ev@Base 5.0.2
  _ZN16QAbstractSpinBoxD2Ev@Base 5.0.2
- (arch=alpha armel armhf hppa mips mipsel s390x)_ZN16QCoreApplication9sendEventEP7QObjectP6QEvent@Base 5.2.0
+ (arch=alpha armel armhf hppa mips mipsel powerpc s390x)_ZN16QCoreApplication9sendEventEP7QObjectP6QEvent@Base 5.2.1
  _ZN16QDialogButtonBox11changeEventEP6QEvent@Base 5.0.2
  _ZN16QDialogButtonBox11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN16QDialogButtonBox11qt_metacastEPKc@Base 5.0.2
@@ -4566,6 +4566,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN8QMenuBarD0Ev@Base 5.0.2
  _ZN8QMenuBarD1Ev@Base 5.0.2
  _ZN8QMenuBarD2Ev@Base 5.0.2
+ (arch=sparc)_ZN8QPolygon8setPointEiii@Base 5.2.1
  _ZN8QSpinBox10setMaximumEi@Base 5.0.2
  _ZN8QSpinBox10setMinimumEi@Base 5.0.2
  _ZN8QSpinBox11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
@@ -7447,20 +7448,27 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !s390x)_ZNSt17_Temporary_bufferIP5QPairIP16QTableWidgetItemiES3_EC1ES4_S4_@Base 5.2.0~beta1
  (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !s390x)_ZNSt17_Temporary_bufferIP5QPairIP16QTableWidgetItemiES3_EC2ES4_S4_@Base 5.2.0~beta1
  (optional=templinst|subst|arch=ia64 powerpcspe s390)_ZSt11__push_heapIN5QListI5QPairIPN23QFileSystemModelPrivate15QFileSystemNodeEiEE8iteratorE{qptrdiff}S5_22QFileSystemModelSorterEvT_T0_SA_T1_T2_@Base 5.0.2 1
+ (optional=templinst|arch=sparc)_ZSt11__push_heapIN5QListIN29QGraphicsItemAnimationPrivate4PairEE8iteratorEiS2_EvT_T0_S6_T1_@Base 5.2.1
  (optional=templinst|arch=ia64)_ZSt11__push_heapIN5QListIN29QGraphicsItemAnimationPrivate4PairEE8iteratorExS2_EvT_T0_S6_T1_@Base 5.2.0
  (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !s390x)_ZSt12__move_mergeIP5QPairIP15QTreeWidgetItemiES4_S4_PFbRKS3_S6_EET1_T_SA_T0_SB_S9_T2_@Base 5.2.0~beta1
  (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !s390x)_ZSt12__move_mergeIP5QPairIP16QTableWidgetItemiES4_S4_PFbRKS3_S6_EET1_T_SA_T0_SB_S9_T2_@Base 5.2.0~beta1
+ (optional=templinst|arch=sparc)_ZSt13__adjust_heapIN5QListI21QPersistentModelIndexE8iteratorEiS1_EvT_T0_S5_T1_@Base 5.2.1
  (optional=templinst|arch=ia64)_ZSt13__adjust_heapIN5QListI21QPersistentModelIndexE8iteratorExS1_EvT_T0_S5_T1_@Base 5.2.0
  (optional=templinst|arch=ia64 sparc|subst)_ZSt13__adjust_heapIN5QListI5QPairIPN23QFileSystemModelPrivate15QFileSystemNodeEiEE8iteratorE{qptrdiff}S5_22QFileSystemModelSorterEvT_T0_SA_T1_T2_@Base 5.0.2 1
+ (optional=templinst|arch=sparc)_ZSt13__adjust_heapIN5QListI7QStringE8iteratorEiS1_EvT_T0_S5_T1_@Base 5.2.1
  (optional=templinst|arch=ia64)_ZSt13__adjust_heapIN5QListI7QStringE8iteratorExS1_EvT_T0_S5_T1_@Base 5.2.0
+ (optional=templinst|arch=sparc)_ZSt13__adjust_heapIN5QListIN29QGraphicsItemAnimationPrivate4PairEE8iteratorEiS2_EvT_T0_S6_T1_@Base 5.2.1
  (optional=templinst|arch=ia64)_ZSt13__adjust_heapIN5QListIN29QGraphicsItemAnimationPrivate4PairEE8iteratorExS2_EvT_T0_S6_T1_@Base 5.2.0
  (optional=templinst|arch=ia64 sparc|subst)_ZSt13__adjust_heapIN5QListIP13QGraphicsItemE8iteratorE{qptrdiff}S2_PFbPKS1_S6_EEvT_T0_SA_T1_T2_@Base 5.0.2
  (optional=templinst|subst|arch=ia64 sparc)_ZSt13__adjust_heapIN5QListIP13QGraphicsItemE8iteratorE{qptrdiff}S2_PFbS2_S2_EEvT_T0_S8_T1_T2_@Base 5.0.2
  (optional=templinst|arch=ia64 powerpcspe s390 sparc|subst)_ZSt13__adjust_heapIN5QListIP15QGraphicsObjectE8iteratorE{qptrdiff}S2_PFbPK13QGraphicsItemS7_EEvT_T0_SB_T1_T2_@Base 5.0.2
+ (optional=templinst|arch=sparc)_ZSt13__adjust_heapIN5QListIiE8iteratorEiiEvT_T0_S4_T1_@Base 5.2.1
  (optional=templinst|arch=ia64)_ZSt13__adjust_heapIN5QListIiE8iteratorExiEvT_T0_S4_T1_@Base 5.2.0
  (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !s390x|subst)_ZSt13__adjust_heapIP5QPairIP15QListWidgetItemiE{ssize_t}S3_PFbRKS3_S6_EEvT_T0_SA_T1_T2_@Base 5.2.0~beta1
  (subst)_ZSt13__adjust_heapIP7QString{ssize_t}S0_EvT_T0_S3_T1_@Base 5.2.0~alpha1
+ (optional=templinst|arch=sparc)_ZSt13__heap_selectIN5QListI21QPersistentModelIndexE8iteratorEEvT_S4_S4_@Base 5.2.1
  (optional=templinst|arch=ia64 powerpcspe s390 sparc)_ZSt13__heap_selectIN5QListI5QPairIPN23QFileSystemModelPrivate15QFileSystemNodeEiEE8iteratorE22QFileSystemModelSorterEvT_S9_S9_T0_@Base 5.0.2 1
+ (optional=templinst|arch=sparc)_ZSt13__heap_selectIN5QListI7QStringE8iteratorEEvT_S4_S4_@Base 5.2.1
  (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !s390x)_ZSt13__heap_selectIN5QListIN29QGraphicsItemAnimationPrivate4PairEE8iteratorEEvT_S5_S5_@Base 5.2.0~beta1
  (optional=templinst|arch=ia64 powerpcspe s390 sparc)_ZSt13__heap_selectIN5QListIP13QGraphicsItemE8iteratorEPFbPKS1_S6_EEvT_S9_S9_T0_@Base 5.0.2
  (optional=templinst|arch=ia64 powerpcspe s390 sparc)_ZSt13__heap_selectIN5QListIP13QGraphicsItemE8iteratorEPFbS2_S2_EEvT_S7_S7_T0_@Base 5.0.2

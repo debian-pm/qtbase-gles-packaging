@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.2.1 amd64
+# SymbolsHelper-Confirmed: 5.2.1 amd64 ia64
 libQt5Core.so.5 libqt5core5a #MINVER#
 | libqt5core5a #MINVER#, qtbase-abi-5-2-1
  _Z10forcepointR11QTextStream@Base 5.0.2
@@ -1116,6 +1116,8 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZN16QMetaStringTable5enterERK10QByteArray@Base 5.0.2 1
  _ZN16QMetaStringTableC1ERK10QByteArray@Base 5.2.1 1
  _ZN16QMetaStringTableC2ERK10QByteArray@Base 5.2.1 1
+ (arch=ia64)_ZN16QMetaStringTableD1Ev@Base 5.2.1
+ (arch=ia64)_ZN16QMetaStringTableD2Ev@Base 5.2.1
  _ZN16QSegfaultHandler10initializeEPPci@Base 5.0.2 1
  _ZN16QSegfaultHandler8callbackE@Base 5.0.2 1
  _ZN16QStringListModel10insertRowsEiiRK11QModelIndex@Base 5.0.2

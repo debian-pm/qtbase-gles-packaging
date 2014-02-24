@@ -1,7 +1,6 @@
-# SymbolsHelper-Confirmed: 5.2.0 hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 s390x sparc
+# SymbolsHelper-Confirmed: 5.2.1 sparc
 libQt5Xml.so.5 libqt5xml5 #MINVER#
 | libqt5xml5 #MINVER#, qtbase-abi-5-2-1
- (optional=gccinternal|arch=sparc)_ZN10QByteArray4dataEv@Base 5.2.0
  _ZN10QDomEntityC1EP17QDomEntityPrivate@Base 5.0.2
  _ZN10QDomEntityC1ERKS_@Base 5.0.2
  _ZN10QDomEntityC1Ev@Base 5.0.2

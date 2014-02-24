@@ -7,6 +7,9 @@ qtbase-opensource-src (5.2.1+dfsg-2) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * Update remove_google_adsense.patch to also remove ProspectXtractor tracker script.
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Update symbols files with buildd's logs.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 17 Feb 2014 09:09:16 +0100
 
 qtbase-opensource-src (5.2.1+dfsg-1) experimental; urgency=medium
