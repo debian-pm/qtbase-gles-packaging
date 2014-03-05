@@ -1,5 +1,9 @@
 qtbase-opensource-src (5.2.1+dfsg-3) UNRELEASED; urgency=medium
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Add license to mark_private_symbols.sh and corresponding entry in
+    debian/copyright.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 05 Mar 2014 15:21:04 -0300
 
 qtbase-opensource-src (5.2.1+dfsg-2) experimental; urgency=medium
