@@ -1,4 +1,3 @@
-linux_no_perf.diff
 hurd_opengl_incldir.diff
 fix_power_atomic_code.patch
 support_mips_atomic_on_pre-mips32_archs.patch
