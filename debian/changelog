@@ -1,12 +1,12 @@
-qtbase-opensource-src (5.2.1+dfsg-3) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.2.1+dfsg-3) unstable; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Release to unstable.
   * Add license to mark_private_symbols.sh and corresponding entry in
     debian/copyright.
   * Remove linux_no_perf.diff used to disable perf events on Linux/IA64. We no
     longer have IA64 around.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 05 Mar 2014 15:21:04 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 24 Mar 2014 20:05:31 -0300
 
 qtbase-opensource-src (5.2.1+dfsg-2) experimental; urgency=medium
 
