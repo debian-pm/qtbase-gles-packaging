@@ -1,5 +1,9 @@
 qtbase-opensource-src (5.2.1+dfsg-4) UNRELEASED; urgency=medium
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Backport Add_better_support_for_keymap_update_handling.patch to improve
+    keymap update handling.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 29 Mar 2014 10:10:09 -0300
 
 qtbase-opensource-src (5.2.1+dfsg-3) unstable; urgency=medium

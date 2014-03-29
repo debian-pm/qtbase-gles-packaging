@@ -1,0 +1,679 @@
+From 18e162e8640d96f2d7f2a85ef35d00350360903d Mon Sep 17 00:00:00 2001
+From: Gatis Paeglis <gatis.paeglis@digia.com>
+Date: Thu, 27 Feb 2014 18:05:14 +0100
+Subject: [PATCH] Add better support for keymap update handling
+
+Use the new X11 support API xkb_x11_* released in libxkbcommon version 0.4.0.
+
+From the commit message where this API was introduced:
+
+"These are function to create an xkb_keymap directly from XKB requests
+to the X server. This opens up the possibility for X clients to use
+xcb + xcb-xkb + xkbcommon as a proper replacement for Xlib + xkbfile for
+keyboard support.
+
+Why not just use the RMLVO that the server puts in the _XKB_RULES_NAMES
+property? This does not account for custom keymaps, on-the-fly keymap
+modifications, remote clients, etc., so is not a proper solution in
+practice. Also, some servers don't even set it. Now, the client just
+needs to recreate the keymap in response to a change in the server's
+keymap (as Xlib clients do with XRefreshKeyboardMapping() and friends)."
+
+This patch moves XKEYBOARD presence decision from compile time to runtime
+for a proper remote X client support.
+
+Task-number: QTBUG-31527
+Task-number: QTBUG-32760
+Change-Id: I4d402668cda2126ef180b27022154f96b1874b1d
+---
+ src/plugins/platforms/xcb/qxcbconnection.cpp |  61 ++++----
+ src/plugins/platforms/xcb/qxcbconnection.h   |   2 +-
+ src/plugins/platforms/xcb/qxcbkeyboard.cpp   | 220 +++++++++++----------------
+ src/plugins/platforms/xcb/qxcbkeyboard.h     |  35 ++---
+ src/plugins/platforms/xcb/xcb-plugin.pro     |   8 +-
+ 5 files changed, 136 insertions(+), 190 deletions(-)
+
+diff --git a/src/plugins/platforms/xcb/qxcbconnection.cpp b/src/plugins/platforms/xcb/qxcbconnection.cpp
+index a68ae8c..5f396e0 100644
+--- a/src/plugins/platforms/xcb/qxcbconnection.cpp
++++ b/src/plugins/platforms/xcb/qxcbconnection.cpp
+@@ -766,6 +766,7 @@ namespace {
+             xcb_timestamp_t time;
+             uint8_t deviceID;
+         } any;
++        xcb_xkb_new_keyboard_notify_event_t new_keyboard_notify;
+         xcb_xkb_map_notify_event_t map_notify;
+         xcb_xkb_state_notify_event_t state_notify;
+     } _xkb_event;
+@@ -796,15 +797,11 @@ void QXcbConnection::handleXcbEvent(xcb_generic_event_t *event)
+         case XCB_EXPOSE:
+             HANDLE_PLATFORM_WINDOW_EVENT(xcb_expose_event_t, window, handleExposeEvent);
+         case XCB_BUTTON_PRESS:
+-#ifdef QT_NO_XKB
+             m_keyboard->updateXKBStateFromCore(((xcb_button_press_event_t *)event)->state);
+-#endif
+             handleButtonPress(event);
+             HANDLE_PLATFORM_WINDOW_EVENT(xcb_button_press_event_t, event, handleButtonPressEvent);
+         case XCB_BUTTON_RELEASE:
+-#ifdef QT_NO_XKB
+             m_keyboard->updateXKBStateFromCore(((xcb_button_release_event_t *)event)->state);
+-#endif
+             handleButtonRelease(event);
+             HANDLE_PLATFORM_WINDOW_EVENT(xcb_button_release_event_t, event, handleButtonReleaseEvent);
+         case XCB_MOTION_NOTIFY:
+@@ -812,9 +809,7 @@ void QXcbConnection::handleXcbEvent(xcb_generic_event_t *event)
+                 xcb_motion_notify_event_t *mev = (xcb_motion_notify_event_t *)event;
+                 qDebug("xcb: moved mouse to %4d, %4d; button state %X", mev->event_x, mev->event_y, static_cast<unsigned int>(m_buttons));
+             }
+-#ifdef QT_NO_XKB
+             m_keyboard->updateXKBStateFromCore(((xcb_motion_notify_event_t *)event)->state);
+-#endif
+             HANDLE_PLATFORM_WINDOW_EVENT(xcb_motion_notify_event_t, event, handleMotionNotifyEvent);
+         case XCB_CONFIGURE_NOTIFY:
+             HANDLE_PLATFORM_WINDOW_EVENT(xcb_configure_notify_event_t, event, handleConfigureNotifyEvent);
+@@ -830,29 +825,21 @@ void QXcbConnection::handleXcbEvent(xcb_generic_event_t *event)
+         case XCB_ENTER_NOTIFY:
+             HANDLE_PLATFORM_WINDOW_EVENT(xcb_enter_notify_event_t, event, handleEnterNotifyEvent);
+         case XCB_LEAVE_NOTIFY:
+-#ifdef QT_NO_XKB
+             m_keyboard->updateXKBStateFromCore(((xcb_leave_notify_event_t *)event)->state);
+-#endif
+             HANDLE_PLATFORM_WINDOW_EVENT(xcb_leave_notify_event_t, event, handleLeaveNotifyEvent);
+         case XCB_FOCUS_IN:
+             HANDLE_PLATFORM_WINDOW_EVENT(xcb_focus_in_event_t, event, handleFocusInEvent);
+         case XCB_FOCUS_OUT:
+             HANDLE_PLATFORM_WINDOW_EVENT(xcb_focus_out_event_t, event, handleFocusOutEvent);
+         case XCB_KEY_PRESS:
+-#ifdef QT_NO_XKB
+             m_keyboard->updateXKBStateFromCore(((xcb_key_press_event_t *)event)->state);
+-#endif
+             HANDLE_KEYBOARD_EVENT(xcb_key_press_event_t, handleKeyPressEvent);
+         case XCB_KEY_RELEASE:
+-#ifdef QT_NO_XKB
+             m_keyboard->updateXKBStateFromCore(((xcb_key_release_event_t *)event)->state);
+-#endif
+             HANDLE_KEYBOARD_EVENT(xcb_key_release_event_t, handleKeyReleaseEvent);
+-#ifdef QT_NO_XKB
+         case XCB_MAPPING_NOTIFY:
+             m_keyboard->handleMappingNotifyEvent((xcb_mapping_notify_event_t *)event);
+             break;
+-#endif
+         case XCB_SELECTION_REQUEST:
+         {
+             xcb_selection_request_event_t *sr = (xcb_selection_request_event_t *)event;
+@@ -920,6 +907,8 @@ void QXcbConnection::handleXcbEvent(xcb_generic_event_t *event)
+             _xkb_event *xkb_event = reinterpret_cast<_xkb_event *>(event);
+             if (xkb_event->any.deviceID == m_keyboard->coreDeviceId()) {
+                 switch (xkb_event->any.xkbType) {
++                    // XkbNewKkdNotify and XkbMapNotify together capture all sorts of keymap
++                    // updates (e.g. xmodmap, xkbcomp, setxkbmap), with minimal redundent recompilations.
+                     case XCB_XKB_STATE_NOTIFY:
+                         m_keyboard->updateXKBState(&xkb_event->state_notify);
+                         handled = true;
+@@ -928,6 +917,12 @@ void QXcbConnection::handleXcbEvent(xcb_generic_event_t *event)
+                         m_keyboard->handleMappingNotifyEvent(&xkb_event->map_notify);
+                         handled = true;
+                         break;
++                    case XCB_XKB_NEW_KEYBOARD_NOTIFY: {
++                        xcb_xkb_new_keyboard_notify_event_t *ev = &xkb_event->new_keyboard_notify;
++                        if (ev->changed & XCB_XKB_NKN_DETAIL_KEYCODES)
++                            m_keyboard->updateKeymap();
++                        break;
++                    }
+                     default:
+                         break;
+                 }
+@@ -1661,6 +1656,7 @@ void QXcbConnection::initializeXKB()
+ #ifndef QT_NO_XKB
+     const xcb_query_extension_reply_t *reply = xcb_get_extension_data(m_connection, &xcb_xkb_id);
+     if (!reply || !reply->present) {
++        qWarning() << "Qt: XKEYBOARD extension not present on the X server.";
+         xkb_first_event = 0;
+         return;
+     }
+@@ -1670,14 +1666,14 @@ void QXcbConnection::initializeXKB()
+     xcb_xkb_use_extension_cookie_t xkb_query_cookie;
+     xcb_xkb_use_extension_reply_t *xkb_query;
+ 
+-    xkb_query_cookie = xcb_xkb_use_extension(c, XCB_XKB_MAJOR_VERSION, XCB_XKB_MINOR_VERSION);
++    xkb_query_cookie = xcb_xkb_use_extension(c, XKB_X11_MIN_MAJOR_XKB_VERSION, XKB_X11_MIN_MINOR_XKB_VERSION);
+     xkb_query = xcb_xkb_use_extension_reply(c, xkb_query_cookie, 0);
+ 
+     if (!xkb_query) {
+         qWarning("Qt: Failed to initialize XKB extension");
+         return;
+     } else if (!xkb_query->supported) {
+-        qWarning("Qt: Unsupported XKB version (want %d %d, has %d %d)",
++        qWarning("Qt: Unsupported XKB version (We want %d %d, but X server has %d %d)",
+                  XCB_XKB_MAJOR_VERSION, XCB_XKB_MINOR_VERSION,
+                  xkb_query->serverMajor, xkb_query->serverMinor);
+         free(xkb_query);
+@@ -1687,25 +1683,28 @@ void QXcbConnection::initializeXKB()
+     has_xkb = true;
+     free(xkb_query);
+ 
+-    uint affectMap, map;
+-    affectMap = map = XCB_XKB_MAP_PART_KEY_TYPES |
+-            XCB_XKB_MAP_PART_KEY_SYMS |
+-            XCB_XKB_MAP_PART_MODIFIER_MAP |
+-            XCB_XKB_MAP_PART_EXPLICIT_COMPONENTS |
+-            XCB_XKB_MAP_PART_KEY_ACTIONS |
+-            XCB_XKB_MAP_PART_KEY_BEHAVIORS |
+-            XCB_XKB_MAP_PART_VIRTUAL_MODS |
+-            XCB_XKB_MAP_PART_VIRTUAL_MOD_MAP;
+-
+-    // Xkb events are reported to all interested clients without regard
++    const uint16_t required_map_parts = (XCB_XKB_MAP_PART_KEY_TYPES |
++        XCB_XKB_MAP_PART_KEY_SYMS |
++        XCB_XKB_MAP_PART_MODIFIER_MAP |
++        XCB_XKB_MAP_PART_EXPLICIT_COMPONENTS |
++        XCB_XKB_MAP_PART_KEY_ACTIONS |
++        XCB_XKB_MAP_PART_KEY_BEHAVIORS |
++        XCB_XKB_MAP_PART_VIRTUAL_MODS |
++        XCB_XKB_MAP_PART_VIRTUAL_MOD_MAP);
++
++    const uint16_t required_events = (XCB_XKB_EVENT_TYPE_NEW_KEYBOARD_NOTIFY |
++        XCB_XKB_EVENT_TYPE_MAP_NOTIFY |
++        XCB_XKB_EVENT_TYPE_STATE_NOTIFY);
++
++    // XKB events are reported to all interested clients without regard
+     // to the current keyboard input focus or grab state
+     xcb_void_cookie_t select = xcb_xkb_select_events_checked(c,
+                        XCB_XKB_ID_USE_CORE_KBD,
+-                       XCB_XKB_EVENT_TYPE_STATE_NOTIFY | XCB_XKB_EVENT_TYPE_MAP_NOTIFY,
++                       required_events,
+                        0,
+-                       XCB_XKB_EVENT_TYPE_STATE_NOTIFY | XCB_XKB_EVENT_TYPE_MAP_NOTIFY,
+-                       affectMap,
+-                       map,
++                       required_events,
++                       required_map_parts,
++                       required_map_parts,
+                        0);
+ 
+     xcb_generic_error_t *error = xcb_request_check(c, select);
+diff --git a/src/plugins/platforms/xcb/qxcbconnection.h b/src/plugins/platforms/xcb/qxcbconnection.h
+index 71f5ce1..a994c51 100644
+--- a/src/plugins/platforms/xcb/qxcbconnection.h
++++ b/src/plugins/platforms/xcb/qxcbconnection.h
+@@ -54,7 +54,7 @@
+ #include <qpa/qwindowsysteminterface.h>
+ 
+ // This is needed to make Qt compile together with XKB. xkb.h is using a variable
+-// which is called 'explicit', this is a reserved keyword in c++ */
++// which is called 'explicit', this is a reserved keyword in c++
+ #ifndef QT_NO_XKB
+ #define explicit dont_use_cxx_explicit
+ #include <xcb/xkb.h>
+diff --git a/src/plugins/platforms/xcb/qxcbkeyboard.cpp b/src/plugins/platforms/xcb/qxcbkeyboard.cpp
+index 0a52640..5de5530 100644
+--- a/src/plugins/platforms/xcb/qxcbkeyboard.cpp
++++ b/src/plugins/platforms/xcb/qxcbkeyboard.cpp
+@@ -658,6 +658,7 @@ void QXcbKeyboard::clearXKBConfig()
+ void QXcbKeyboard::updateKeymap()
+ {
+     m_config = true;
++    // set xkb context object
+     if (!xkb_context) {
+         xkb_context = xkb_context_new((xkb_context_flags)0);
+         if (!xkb_context) {
+@@ -666,67 +667,50 @@ void QXcbKeyboard::updateKeymap()
+             return;
+         }
+     }
+-    readXKBConfig();
+-    // Compile a keymap from RMLVO (rules, models, layouts, variants and options) names
+-    if (xkb_keymap)
+-        xkb_keymap_unref(xkb_keymap);
++    // update xkb keymap object
++    xkb_keymap_unref(xkb_keymap);
++    xkb_keymap = 0;
+ 
+-    xkb_keymap = xkb_keymap_new_from_names(xkb_context, &xkb_names, (xkb_keymap_compile_flags)0);
++    struct xkb_state *new_state = 0;
++#ifndef QT_NO_XKB
++    if (connection()->hasXKB()) {
++        xkb_keymap = xkb_x11_keymap_new_from_device(xkb_context, xcb_connection(), core_device_id, (xkb_keymap_compile_flags)0);
++        if (xkb_keymap) {
++            // Create a new keyboard state object for a keymap
++            new_state = xkb_x11_state_new_from_device(xkb_keymap, xcb_connection(), core_device_id);
++        }
++    }
++#endif
++    if (!xkb_keymap) {
++        // Compile a keymap from RMLVO (rules, models, layouts, variants and options) names
++        readXKBConfig();
++        xkb_keymap = xkb_keymap_new_from_names(xkb_context, &xkb_names, (xkb_keymap_compile_flags)0);
++        if (xkb_keymap)
++            new_state = xkb_state_new(xkb_keymap);
++    }
+ 
+     if (!xkb_keymap) {
+         qWarning("Qt: Failed to compile a keymap");
+         m_config = false;
+-        return;
+     }
+-    // Create a new keyboard state object for a keymap
+-    struct xkb_state *new_state = xkb_state_new(xkb_keymap);
+     if (!new_state) {
+-        qWarning("Qt: Failed to create a new keyboard state");
++        qWarning("Qt: Failed to create xkb state");
+         m_config = false;
+-        return;
+     }
++    if (!m_config)
++        return;
+ 
+-    if (xkb_state) {
+-        xkb_state_unref(xkb_state);
+-        xkb_state = new_state;
+-    } else {
+-        xkb_state = new_state;
+-#ifndef QT_NO_XKB
+-        // get initial state from the X server (and keep it up-to-date at all times)
+-        xcb_xkb_get_state_cookie_t state;
+-        xcb_xkb_get_state_reply_t *init_state;
+-
+-        xcb_connection_t *c = xcb_connection();
+-        state = xcb_xkb_get_state(c, XCB_XKB_ID_USE_CORE_KBD);
+-        init_state = xcb_xkb_get_state_reply(c, state, 0);
+-        if (!init_state) {
+-            qWarning("Qt: couldn't retrieve an initial keyboard state");
+-            return;
+-        }
+-        /* The xkb keyboard state is comprised of the state of all keyboard modifiers,
+-           the keyboard group, and the state of the pointer buttons */
+-        xkb_state_update_mask(xkb_state,
+-                              init_state->baseMods,
+-                              init_state->latchedMods,
+-                              init_state->lockedMods,
+-                              init_state->baseGroup,
+-                              init_state->latchedGroup,
+-                              init_state->lockedGroup);
+-        free(init_state);
+-#else
++    // update xkb state object
++    xkb_state_unref(xkb_state);
++    xkb_state = new_state;
++    if (!connection()->hasXKB())
+         updateXKBMods();
+-#endif
+-    }
+ }
+ 
+ #ifndef QT_NO_XKB
+ void QXcbKeyboard::updateXKBState(xcb_xkb_state_notify_event_t *state)
+ {
+-    if (!m_config)
+-        return;
+-
+-    if (connection()->hasXKB()) {
+-
++    if (m_config && connection()->hasXKB()) {
+         const xkb_state_component newState
+                 = xkb_state_update_mask(xkb_state,
+                                   state->baseMods,
+@@ -741,35 +725,34 @@ void QXcbKeyboard::updateXKBState(xcb_xkb_state_notify_event_t *state)
+         }
+     }
+ }
++#endif
+ 
+-#else
+ void QXcbKeyboard::updateXKBStateFromCore(quint16 state)
+ {
+-    if (!m_config)
+-        return;
++    if (m_config && !connection()->hasXKB()) {
++        const quint32 modsDepressed = xkb_state_serialize_mods(xkb_state, XKB_STATE_MODS_DEPRESSED);
++        const quint32 modsLatched = xkb_state_serialize_mods(xkb_state, XKB_STATE_MODS_LATCHED);
++        const quint32 modsLocked = xkb_state_serialize_mods(xkb_state, XKB_STATE_MODS_LOCKED);
++        const quint32 xkbMask = xkbModMask(state);
++
++        const quint32 latched = modsLatched & xkbMask;
++        const quint32 locked = modsLocked & xkbMask;
++        quint32 depressed = modsDepressed & xkbMask;
++        // set modifiers in depressed if they don't appear in any of the final masks
++        depressed |= ~(depressed | latched | locked) & xkbMask;
++
++        const xkb_state_component newState
++                = xkb_state_update_mask(xkb_state,
++                              depressed,
++                              latched,
++                              locked,
++                              0,
++                              0,
++                              (state >> 13) & 3); // bits 13 and 14 report the state keyboard group
+ 
+-    const quint32 modsDepressed = xkb_state_serialize_mods(xkb_state, XKB_STATE_MODS_DEPRESSED);
+-    const quint32 modsLatched = xkb_state_serialize_mods(xkb_state, XKB_STATE_MODS_LATCHED);
+-    const quint32 modsLocked = xkb_state_serialize_mods(xkb_state, XKB_STATE_MODS_LOCKED);
+-    const quint32 xkbMask = xkbModMask(state);
+-
+-    const quint32 latched = modsLatched & xkbMask;
+-    const quint32 locked = modsLocked & xkbMask;
+-    quint32 depressed = modsDepressed & xkbMask;
+-    // set modifiers in depressed if they don't appear in any of the final masks
+-    depressed |= ~(depressed | latched | locked) & xkbMask;
+-
+-    const xkb_state_component newState
+-            = xkb_state_update_mask(xkb_state,
+-                          depressed,
+-                          latched,
+-                          locked,
+-                          0,
+-                          0,
+-                          (state >> 13) & 3); // bits 13 and 14 report the state keyboard group
+-
+-    if ((newState & XKB_STATE_LAYOUT_EFFECTIVE) == XKB_STATE_LAYOUT_EFFECTIVE) {
+-        //qWarning("TODO: Support KeyboardLayoutChange on QPA (QTBUG-27681)");
++        if ((newState & XKB_STATE_LAYOUT_EFFECTIVE) == XKB_STATE_LAYOUT_EFFECTIVE) {
++            //qWarning("TODO: Support KeyboardLayoutChange on QPA (QTBUG-27681)");
++        }
+     }
+ }
+ 
+@@ -799,16 +782,15 @@ quint32 QXcbKeyboard::xkbModMask(quint16 state)
+ 
+ void QXcbKeyboard::updateXKBMods()
+ {
+-    xkb_mods.shift = xkb_map_mod_get_index(xkb_keymap, XKB_MOD_NAME_SHIFT);
+-    xkb_mods.lock = xkb_map_mod_get_index(xkb_keymap, XKB_MOD_NAME_CAPS);
+-    xkb_mods.control = xkb_map_mod_get_index(xkb_keymap, XKB_MOD_NAME_CTRL);
+-    xkb_mods.mod1 = xkb_map_mod_get_index(xkb_keymap, "Mod1");
+-    xkb_mods.mod2 = xkb_map_mod_get_index(xkb_keymap, "Mod2");
+-    xkb_mods.mod3 = xkb_map_mod_get_index(xkb_keymap, "Mod3");
+-    xkb_mods.mod4 = xkb_map_mod_get_index(xkb_keymap, "Mod4");
+-    xkb_mods.mod5 = xkb_map_mod_get_index(xkb_keymap, "Mod5");
++    xkb_mods.shift = xkb_keymap_mod_get_index(xkb_keymap, XKB_MOD_NAME_SHIFT);
++    xkb_mods.lock = xkb_keymap_mod_get_index(xkb_keymap, XKB_MOD_NAME_CAPS);
++    xkb_mods.control = xkb_keymap_mod_get_index(xkb_keymap, XKB_MOD_NAME_CTRL);
++    xkb_mods.mod1 = xkb_keymap_mod_get_index(xkb_keymap, "Mod1");
++    xkb_mods.mod2 = xkb_keymap_mod_get_index(xkb_keymap, "Mod2");
++    xkb_mods.mod3 = xkb_keymap_mod_get_index(xkb_keymap, "Mod3");
++    xkb_mods.mod4 = xkb_keymap_mod_get_index(xkb_keymap, "Mod4");
++    xkb_mods.mod5 = xkb_keymap_mod_get_index(xkb_keymap, "Mod5");
+ }
+-#endif
+ 
+ QList<int> QXcbKeyboard::possibleKeys(const QKeyEvent *event) const
+ {
+@@ -893,10 +875,8 @@ QList<int> QXcbKeyboard::possibleKeys(const QKeyEvent *event) const
+             result += (qtKey + mods);
+         }
+     }
+-    if (kb_state)
+-        xkb_state_unref(kb_state);
+-    if (fallback_keymap)
+-        xkb_keymap_unref(fallback_keymap);
++    xkb_state_unref(kb_state);
++    xkb_keymap_unref(fallback_keymap);
+ 
+     return result;
+  }
+@@ -963,58 +943,41 @@ QXcbKeyboard::QXcbKeyboard(QXcbConnection *connection)
+     , xkb_context(0)
+     , xkb_keymap(0)
+     , xkb_state(0)
+-#ifndef QT_NO_XKB
+     , core_device_id(0)
+-#endif
+ {
+     memset(&xkb_names, 0, sizeof(xkb_names));
+-    updateKeymap();
+ #ifndef QT_NO_XKB
+     if (connection->hasXKB()) {
+-
+         updateVModMapping();
+         updateVModToRModMapping();
+-
+-        // get the core keyboard id
+-        xcb_xkb_get_device_info_cookie_t device_id_cookie;
+-        xcb_xkb_get_device_info_reply_t *device_id;
+-
+-        device_id_cookie = xcb_xkb_get_device_info(xcb_connection(),
+-                                            XCB_XKB_ID_USE_CORE_KBD,
+-                                            0, 0, 0, 0, 0, 0);
+-
+-        device_id = xcb_xkb_get_device_info_reply(xcb_connection(), device_id_cookie, 0);
+-        if (!device_id) {
++        core_device_id = xkb_x11_get_core_keyboard_device_id(xcb_connection());
++        if (core_device_id == -1) {
+             qWarning("Qt: couldn't get core keyboard device info");
+             return;
+         }
+-
+-        core_device_id = device_id->deviceID;
+-        free(device_id);
++    } else {
++#endif
++        m_key_symbols = xcb_key_symbols_alloc(xcb_connection());
++        updateModifiers();
++#ifndef QT_NO_XKB
+     }
+-#else
+-    m_key_symbols = xcb_key_symbols_alloc(xcb_connection());
+-    updateModifiers();
+ #endif
++    updateKeymap();
+ }
+ 
+ QXcbKeyboard::~QXcbKeyboard()
+ {
+-    if (xkb_state)
+-        xkb_state_unref(xkb_state);
+-    if (xkb_keymap)
+-        xkb_keymap_unref(xkb_keymap);
+-    if (xkb_context)
+-        xkb_context_unref(xkb_context);
+-#ifdef QT_NO_XKB
+-    xcb_key_symbols_free(m_key_symbols);
+-#endif
++    xkb_state_unref(xkb_state);
++    xkb_keymap_unref(xkb_keymap);
++    xkb_context_unref(xkb_context);
++    if (!connection()->hasXKB())
++        xcb_key_symbols_free(m_key_symbols);
+     clearXKBConfig();
+ }
+ 
+-#ifndef QT_NO_XKB
+ void QXcbKeyboard::updateVModMapping()
+ {
++#ifndef QT_NO_XKB
+     xcb_xkb_get_names_cookie_t names_cookie;
+     xcb_xkb_get_names_reply_t *name_reply;
+     xcb_xkb_get_names_value_list_t names_list;
+@@ -1078,10 +1041,12 @@ void QXcbKeyboard::updateVModMapping()
+     }
+ 
+     free(name_reply);
++#endif
+ }
+ 
+ void QXcbKeyboard::updateVModToRModMapping()
+ {
++#ifndef QT_NO_XKB
+     xcb_xkb_get_map_cookie_t map_cookie;
+     xcb_xkb_get_map_reply_t *map_reply;
+     xcb_xkb_get_map_map_t map;
+@@ -1144,8 +1109,9 @@ void QXcbKeyboard::updateVModToRModMapping()
+ 
+     free(map_reply);
+     resolveMaskConflicts();
++#endif
+ }
+-#else
++
+ void QXcbKeyboard::updateModifiers()
+ {
+     // The core protocol does not provide a convenient way to determine the mapping
+@@ -1209,7 +1175,6 @@ void QXcbKeyboard::updateModifiers()
+     free(modMapReply);
+     resolveMaskConflicts();
+ }
+-#endif
+ 
+ void QXcbKeyboard::resolveMaskConflicts()
+ {
+@@ -1292,17 +1257,9 @@ void QXcbKeyboard::handleKeyEvent(QWindow *window, QEvent::Type type, xcb_keycod
+ 
+     if (!m_config)
+         return;
+-    // It is crucial the order of xkb_state_key_get_one_sym &
+-    // xkb_state_update_key operations is not reversed!
++
++    // It is crucial the order of xkb_state_key_get_one_sym & xkb_state_update_key operations is not reversed!
+     xcb_keysym_t sym = xkb_state_key_get_one_sym(xkb_state, code);
+-#ifdef QT_NO_XKB
+-    enum xkb_key_direction direction;
+-    if (type == QEvent::KeyPress)
+-        direction = XKB_KEY_DOWN;
+-    else
+-        direction = XKB_KEY_UP;
+-    xkb_state_update_key(xkb_state, code, direction);
+-#endif
+ 
+     QPlatformInputContext *inputContext = QGuiApplicationPrivate::platformIntegration()->inputContext();
+     QMetaMethod method;
+@@ -1422,17 +1379,14 @@ void QXcbKeyboard::handleKeyReleaseEvent(QXcbWindowEventListener *eventListener,
+ void QXcbKeyboard::handleMappingNotifyEvent(const void *event)
+ {
+     updateKeymap();
+-#ifdef QT_NO_XKB
+-    void *ev = const_cast<void *>(event);
+-    xcb_refresh_keyboard_mapping(m_key_symbols, static_cast<xcb_mapping_notify_event_t *>(ev));
+-    updateModifiers();
+-#else
+-    Q_UNUSED(event)
+     if (connection()->hasXKB()) {
+         updateVModMapping();
+         updateVModToRModMapping();
++    } else {
++        void *ev = const_cast<void *>(event);
++        xcb_refresh_keyboard_mapping(m_key_symbols, static_cast<xcb_mapping_notify_event_t *>(ev));
++        updateModifiers();
+     }
+-#endif
+ }
+ 
+ QT_END_NAMESPACE
+diff --git a/src/plugins/platforms/xcb/qxcbkeyboard.h b/src/plugins/platforms/xcb/qxcbkeyboard.h
+index 0256602..2eeaff9 100644
+--- a/src/plugins/platforms/xcb/qxcbkeyboard.h
++++ b/src/plugins/platforms/xcb/qxcbkeyboard.h
+@@ -44,11 +44,15 @@
+ 
+ #include "qxcbobject.h"
+ 
+-#ifdef QT_NO_XKB
+ #include <xcb/xcb_keysyms.h>
+-#endif
+ 
+ #include <xkbcommon/xkbcommon.h>
++#ifndef QT_NO_XKB
++// note: extern won't be needed from libxkbcommon 0.4.1 and above
++extern "C" {
++#include <xkbcommon/xkbcommon-x11.h>
++}
++#endif
+ 
+ #include <QEvent>
+ 
+@@ -65,41 +69,37 @@ public:
+ 
+     void handleKeyPressEvent(QXcbWindowEventListener *eventListener, const xcb_key_press_event_t *event);
+     void handleKeyReleaseEvent(QXcbWindowEventListener *eventListener, const xcb_key_release_event_t *event);
+-
+     void handleMappingNotifyEvent(const void *event);
+ 
+     Qt::KeyboardModifiers translateModifiers(int s) const;
+-
+     void updateKeymap();
+     QList<int> possibleKeys(const QKeyEvent *e) const;
+ 
+-#ifdef QT_NO_XKB
+-    void updateXKBStateFromCore(quint16 state);
++    // when XKEYBOARD not present on the X server
+     void updateXKBMods();
+     quint32 xkbModMask(quint16 state);
+-#else
+-    int coreDeviceId() { return core_device_id; }
++    void updateXKBStateFromCore(quint16 state);
++    // when XKEYBOARD is present on the X server
++    int coreDeviceId() const { return core_device_id; }
++#ifndef QT_NO_XKB
+     void updateXKBState(xcb_xkb_state_notify_event_t *state);
+ #endif
+ 
+ protected:
+     void handleKeyEvent(QWindow *window, QEvent::Type type, xcb_keycode_t code, quint16 state, xcb_timestamp_t time);
+-    void resolveMaskConflicts();
+ 
++    void resolveMaskConflicts();
+     QString keysymToUnicode(xcb_keysym_t sym) const;
+-
+     int keysymToQtKey(xcb_keysym_t keysym) const;
+     int keysymToQtKey(xcb_keysym_t keysym, Qt::KeyboardModifiers &modifiers, QString text) const;
+ 
+     void readXKBConfig();
+     void clearXKBConfig();
+-
+-#ifdef QT_NO_XKB
++    // when XKEYBOARD not present on the X server
+     void updateModifiers();
+-#else
++    // when XKEYBOARD is present on the X server
+     void updateVModMapping();
+     void updateVModToRModMapping();
+-#endif
+ 
+ private:
+     bool m_config;
+@@ -120,9 +120,8 @@ private:
+ 
+     _mod_masks rmod_masks;
+ 
+-#ifdef QT_NO_XKB
++    // when XKEYBOARD not present on the X server
+     xcb_key_symbols_t *m_key_symbols;
+-
+     struct _xkb_mods {
+         xkb_mod_index_t shift;
+         xkb_mod_index_t lock;
+@@ -133,12 +132,10 @@ private:
+         xkb_mod_index_t mod4;
+         xkb_mod_index_t mod5;
+     };
+-
+     _xkb_mods xkb_mods;
+-#else
++    // when XKEYBOARD is present on the X server
+     _mod_masks vmod_masks;
+     int core_device_id;
+-#endif
+ };
+ 
+ QT_END_NAMESPACE
+diff --git a/src/plugins/platforms/xcb/xcb-plugin.pro b/src/plugins/platforms/xcb/xcb-plugin.pro
+index e19bb92..9e4e997 100644
+--- a/src/plugins/platforms/xcb/xcb-plugin.pro
++++ b/src/plugins/platforms/xcb/xcb-plugin.pro
+@@ -121,12 +121,8 @@ contains(QT_CONFIG, xcb-qt) {
+     INCLUDEPATH += $$XCB_DIR/include $$XCB_DIR/sysinclude
+     LIBS += -lxcb -L$$OUT_PWD/xcb-static -lxcb-static
+ } else {
+-    LIBS += -lxcb -lxcb-image -lxcb-icccm -lxcb-sync -lxcb-xfixes -lxcb-shm -lxcb-randr -lxcb-shape
+-    contains(DEFINES, QT_NO_XKB) {
+-        LIBS += -lxcb-keysyms
+-    } else {
+-        LIBS += -lxcb-xkb
+-    }
++    LIBS += -lxcb -lxcb-image -lxcb-icccm -lxcb-sync -lxcb-xfixes -lxcb-shm -lxcb-randr -lxcb-shape -lxcb-keysyms
++    !contains(DEFINES, QT_NO_XKB):LIBS += -lxcb-xkb
+ }
+ 
+ # libxkbcommon
+-- 
+1.9.1
+
