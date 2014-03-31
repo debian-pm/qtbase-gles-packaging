@@ -337,7 +337,7 @@ Description: Qt 5 base development programs
 
 Package: qt5-qmake
 Architecture: any
-Multi-Arch: foreign
+Multi-Arch: same
 Section: devel
 Depends: qtchooser, ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 qmake Makefile generator tool
