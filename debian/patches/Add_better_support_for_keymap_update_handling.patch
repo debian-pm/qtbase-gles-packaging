@@ -659,7 +659,7 @@ Change-Id: I4d402668cda2126ef180b27022154f96b1874b1d
 -    } else {
 -        LIBS += -lxcb-xkb
 -    }
-+    !contains(DEFINES, QT_NO_XKB):LIBS += -lxcb-xkb
++    !contains(DEFINES, QT_NO_XKB):LIBS += -lxcb-xkb -lxkbcommon-x11
  }
  
  # libxkbcommon
