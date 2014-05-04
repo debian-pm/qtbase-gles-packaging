@@ -10,6 +10,7 @@ qtbase-opensource-src (5.2.1+dfsg-4) UNRELEASED; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Install the headers in a Multi-Arch qualified directory (Closes: #734677).
+    - Fix related install files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 29 Mar 2014 10:10:09 -0300
 
