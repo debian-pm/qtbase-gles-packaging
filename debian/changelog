@@ -8,6 +8,9 @@ qtbase-opensource-src (5.2.1+dfsg-4) UNRELEASED; urgency=medium
   * Build-depend on libxkbcommon-x11-dev, as the new patch includes
     <xkbcommon/xkbcommon-x11.h>.
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Install the headers in a Multi-Arch qualified directory (Closes: #734677).
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 29 Mar 2014 10:10:09 -0300
 
 qtbase-opensource-src (5.2.1+dfsg-3) unstable; urgency=medium

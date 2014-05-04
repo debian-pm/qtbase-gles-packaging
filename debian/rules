@@ -89,7 +89,7 @@ override_dh_auto_configure:
 	            -bindir "/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/bin" \
 	            -libdir "/usr/lib/$(DEB_HOST_MULTIARCH)" \
 	            -docdir "/usr/share/qt5/doc" \
-	            -headerdir "/usr/include/qt5" \
+	            -headerdir "/usr/include/$(DEB_HOST_MULTIARCH)/qt5" \
 	            -datadir "/usr/share/qt5" \
 	            -archdatadir "/usr/lib/$(DEB_HOST_MULTIARCH)/qt5" \
 	            -hostdatadir "/usr/share/qt5" \
