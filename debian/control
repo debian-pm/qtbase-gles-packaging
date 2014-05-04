@@ -264,6 +264,7 @@ Description: Qt 5 print support module
 
 Package: qtbase5-dev
 Architecture: any
+Multi-Arch: same
 Section: libdevel
 Depends: libgl1-mesa-dev [!armel !armhf] | libgl-dev [!armel !armhf],
          libgles2-mesa-dev [armel armhf] | libgles2-dev [armel armhf],
@@ -297,6 +298,7 @@ Description: Qt 5 base development files
 
 Package: qtbase5-private-dev
 Architecture: any
+Multi-Arch: same
 Section: libdevel
 Depends: qtbase5-dev (= ${binary:Version}), ${misc:Depends}
 Breaks: qtbase5-dev (<< 5.0.2+dfsg1-3~)
@@ -312,6 +314,7 @@ Description: Qt 5 base private development files
 
 Package: libqt5opengl5-dev
 Architecture: any
+Multi-Arch: same
 Section: libdevel
 Depends: libqt5opengl5 (= ${binary:Version}),
          qtbase5-dev (= ${binary:Version}),
