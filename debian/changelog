@@ -23,6 +23,7 @@ qtbase-opensource-src (5.3.0+dfsg-1) UNRELEASED; urgency=medium
     - hurd_opengl_incldir.diff
     - support_mips_atomic_on_pre-mips32_archs.patch
     - qatomic_mips.h
+    - enable_sparc_detection.patch
   * Remove patches:
     - fix_power_atomic_code.patch, the code it patches has been removed.
     - enable_s390_detection.patch, applied upstream.

@@ -2,11 +2,13 @@ Description: enable sparc processor detection
 Author: Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
 Forwarded: https://codereview.qt-project.org/#change,74515
 
-diff --git a/src/corelib/global/qprocessordetection.h b/src/corelib/global/qprocessordetection.h
-index 623e30a..684b7b5 100644
+---
+ src/corelib/global/qprocessordetection.h |   12 ++++++------
+ 1 file changed, 6 insertions(+), 6 deletions(-)
+
 --- a/src/corelib/global/qprocessordetection.h
 +++ b/src/corelib/global/qprocessordetection.h
-@@ -292,12 +292,12 @@
+@@ -294,12 +294,12 @@
      SPARC is big-endian only prior to V9, while V9 is bi-endian with big-endian
      as the default byte order. Assume all SPARC systems are big-endian.
  */
