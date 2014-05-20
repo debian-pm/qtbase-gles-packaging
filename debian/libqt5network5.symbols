@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.2.1 sparc64
+# SymbolsHelper-Confirmed: 5.3.0 amd64
 libQt5Network.so.5 libqt5network5 #MINVER#
 | libqt5network5 #MINVER#, qtbase-abi-5-2-1
  _Z19qt_qhostinfo_lookupRK7QStringP7QObjectPKcPbPi@Base 5.0.2
@@ -8,7 +8,9 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZN10QDnsLookup11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN10QDnsLookup11qt_metacastEPKc@Base 5.0.2
  _ZN10QDnsLookup11typeChangedENS_4TypeE@Base 5.0.2
+ _ZN10QDnsLookup13setNameserverERK12QHostAddress@Base 5.3.0
  _ZN10QDnsLookup16staticMetaObjectE@Base 5.0.2
+ _ZN10QDnsLookup17nameserverChangedERK12QHostAddress@Base 5.3.0
  _ZN10QDnsLookup5abortEv@Base 5.0.2
  _ZN10QDnsLookup6lookupEv@Base 5.0.2
  _ZN10QDnsLookup7setNameERK7QString@Base 5.0.2
@@ -21,9 +23,11 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZN10QDnsLookupD0Ev@Base 5.0.2
  _ZN10QDnsLookupD1Ev@Base 5.0.2
  _ZN10QDnsLookupD2Ev@Base 5.0.2
+ _ZN10QSslCipherC1ERK7QString@Base 5.3.0
  _ZN10QSslCipherC1ERK7QStringN4QSsl11SslProtocolE@Base 5.0.2
  _ZN10QSslCipherC1ERKS_@Base 5.0.2
  _ZN10QSslCipherC1Ev@Base 5.0.2
+ _ZN10QSslCipherC2ERK7QString@Base 5.3.0
  _ZN10QSslCipherC2ERK7QStringN4QSsl11SslProtocolE@Base 5.0.2
  _ZN10QSslCipherC2ERKS_@Base 5.0.2
  _ZN10QSslCipherC2Ev@Base 5.0.2
@@ -481,8 +485,11 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZN17QSslConfiguration17setCaCertificatesERK5QListI15QSslCertificateE@Base 5.0.2
  _ZN17QSslConfiguration17setPeerVerifyModeEN10QSslSocket14PeerVerifyModeE@Base 5.0.2
  _ZN17QSslConfiguration18setPeerVerifyDepthEi@Base 5.0.2
+ _ZN17QSslConfiguration19NextProtocolHttp1_1E@Base 5.3.0
+ _ZN17QSslConfiguration19NextProtocolSpdy3_0E@Base 5.3.0
  _ZN17QSslConfiguration19setLocalCertificateERK15QSslCertificate@Base 5.0.2
  _ZN17QSslConfiguration20defaultConfigurationEv@Base 5.0.2
+ _ZN17QSslConfiguration23setAllowedNextProtocolsE5QListI10QByteArrayE@Base 5.3.0
  _ZN17QSslConfiguration23setDefaultConfigurationERKS_@Base 5.0.2
  _ZN17QSslConfiguration24setLocalCertificateChainERK5QListI15QSslCertificateE@Base 5.1.0
  _ZN17QSslConfigurationC1ERKS_@Base 5.0.2
@@ -771,6 +778,7 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZN9QSslErroraSERKS_@Base 5.0.2
  _ZNK10QDnsLookup10isFinishedEv@Base 5.0.2
  _ZNK10QDnsLookup10metaObjectEv@Base 5.0.2
+ _ZNK10QDnsLookup10nameserverEv@Base 5.3.0
  _ZNK10QDnsLookup11errorStringEv@Base 5.0.2
  _ZNK10QDnsLookup11textRecordsEv@Base 5.0.2
  _ZNK10QDnsLookup14pointerRecordsEv@Base 5.0.2
@@ -1012,9 +1020,12 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZNK17QSslConfiguration15peerCertificateEv@Base 5.0.2
  _ZNK17QSslConfiguration15peerVerifyDepthEv@Base 5.0.2
  _ZNK17QSslConfiguration16localCertificateEv@Base 5.0.2
+ _ZNK17QSslConfiguration20allowedNextProtocolsEv@Base 5.3.0
  _ZNK17QSslConfiguration20peerCertificateChainEv@Base 5.0.2
  _ZNK17QSslConfiguration21localCertificateChainEv@Base 5.1.0
+ _ZNK17QSslConfiguration22nextNegotiatedProtocolEv@Base 5.3.0
  _ZNK17QSslConfiguration25sessionTicketLifeTimeHintEv@Base 5.2.0~alpha1
+ _ZNK17QSslConfiguration29nextProtocolNegotiationStatusEv@Base 5.3.0
  _ZNK17QSslConfiguration6isNullEv@Base 5.0.2
  _ZNK17QSslConfiguration7ciphersEv@Base 5.0.2
  _ZNK17QSslConfiguration8protocolEv@Base 5.0.2

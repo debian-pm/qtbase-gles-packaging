@@ -1,37 +1,29 @@
-# SymbolsHelper-Confirmed: 5.2.1 amd64
+# SymbolsHelper-Confirmed: 5.3.0 amd64
 libQt5PrintSupport.so.5 libqt5printsupport5 #MINVER#
 | libqt5printsupport5 #MINVER#, qtbase-abi-5-2-1
  _Z19qt_printerPaperSizeN8QPrinter11OrientationEN17QPagedPaintDevice8PageSizeENS_4UnitEi@Base 5.0.2
  _Z20qt_multiplierForUnitN8QPrinter4UnitEi@Base 5.0.2
- _Z27qt_SizeFromUnitToMillimeterRK6QSizeFN8QPrinter4UnitEd@Base 5.2.0~alpha1
- _ZN12QCUPSSupport10markOptionEPKcS1_@Base 5.0.2 1
  _ZN12QCUPSSupport10setJobHoldEP8QPrinterNS_12JobHoldUntilERK5QTime@Base 5.2.0~alpha1 1
  _ZN12QCUPSSupport10setPageSetEP8QPrinterNS_7PageSetE@Base 5.2.0~alpha1 1
- _ZN12QCUPSSupport11isAvailableEv@Base 5.0.2 1
- _ZN12QCUPSSupport11saveOptionsE5QListIPK12ppd_option_sES0_IPKcE@Base 5.0.2 1
  _ZN12QCUPSSupport12setPageRangeEP8QPrinterii@Base 5.2.0~alpha1 1
- _ZN12QCUPSSupport13printerHasPPDEPKc@Base 5.0.2 1
  _ZN12QCUPSSupport13setCupsOptionER11QStringListRK7QStringS4_@Base 5.2.0~alpha1 1
  _ZN12QCUPSSupport13setJobBillingEP8QPrinterRK7QString@Base 5.2.0~alpha1 1
- _ZN12QCUPSSupport13unicodeStringEPKc@Base 5.0.2 1
  _ZN12QCUPSSupport14setBannerPagesEP8QPrinterNS_10BannerPageES2_@Base 5.2.0~alpha1 1
  _ZN12QCUPSSupport14setCupsOptionsEP8QPrinterRK11QStringList@Base 5.2.0~alpha1 1
  _ZN12QCUPSSupport14setJobPriorityEP8QPrinteri@Base 5.2.0~alpha1 1
  _ZN12QCUPSSupport15cupsOptionsListEP8QPrinter@Base 5.2.0~alpha1 1
- _ZN12QCUPSSupport17setCurrentPrinterERK7QString@Base 5.2.0~beta1 1
- _ZN12QCUPSSupport17setCurrentPrinterEi@Base 5.0.2 1
- _ZN12QCUPSSupport21availableUnixPrintersEv@Base 5.0.2 1
  _ZN12QCUPSSupport22setPagesPerSheetLayoutEP8QPrinterNS_13PagesPerSheetENS_19PagesPerSheetLayoutE@Base 5.2.0~alpha1 1
- _ZN12QCUPSSupport24getCupsPrinterPaperSizesEi@Base 5.0.2 1
- _ZN12QCUPSSupport33getCupsPrinterPaperSizesWithNamesEi@Base 5.1.0 1
- _ZN12QCUPSSupport6tempFdEv@Base 5.0.2 1
- _ZN12QCUPSSupport7PrinterC1ERK7QString@Base 5.0.2 1
- _ZN12QCUPSSupport7PrinterC2ERK7QString@Base 5.0.2 1
- _ZN12QCUPSSupport9printFileEPKcS1_S1_iP13cups_option_s@Base 5.0.2 1
- _ZN12QCUPSSupportC1Ev@Base 5.0.2 1
- _ZN12QCUPSSupportC2Ev@Base 5.0.2 1
- _ZN12QCUPSSupportD1Ev@Base 5.0.2 1
- _ZN12QCUPSSupportD2Ev@Base 5.0.2 1
+ _ZN12QPrintDeviceC1EP20QPlatformPrintDevice@Base 5.3.0
+ _ZN12QPrintDeviceC1ERK7QString@Base 5.3.0
+ _ZN12QPrintDeviceC1ERKS_@Base 5.3.0
+ _ZN12QPrintDeviceC1Ev@Base 5.3.0
+ _ZN12QPrintDeviceC2EP20QPlatformPrintDevice@Base 5.3.0
+ _ZN12QPrintDeviceC2ERK7QString@Base 5.3.0
+ _ZN12QPrintDeviceC2ERKS_@Base 5.3.0
+ _ZN12QPrintDeviceC2Ev@Base 5.3.0
+ _ZN12QPrintDeviceD1Ev@Base 5.3.0
+ _ZN12QPrintDeviceD2Ev@Base 5.3.0
+ _ZN12QPrintDeviceaSERKS_@Base 5.3.0
  _ZN12QPrintDialog10setOptionsE6QFlagsIN20QAbstractPrintDialog17PrintDialogOptionEE@Base 5.0.2
  _ZN12QPrintDialog10setVisibleEb@Base 5.0.2
  _ZN12QPrintDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
@@ -53,6 +45,8 @@ libQt5PrintSupport.so.5 libqt5printsupport5 #MINVER#
  _ZN12QPrinterInfo11printerInfoERK7QString@Base 5.0.2
  _ZN12QPrinterInfo14defaultPrinterEv@Base 5.0.2
  _ZN12QPrinterInfo17availablePrintersEv@Base 5.0.2
+ _ZN12QPrinterInfo18defaultPrinterNameEv@Base 5.3.0
+ _ZN12QPrinterInfo21availablePrinterNamesEv@Base 5.3.0
  _ZN12QPrinterInfoC1ERK7QString@Base 5.0.2
  _ZN12QPrinterInfoC1ERK8QPrinter@Base 5.0.2
  _ZN12QPrinterInfoC1ERKS_@Base 5.0.2
@@ -170,23 +164,28 @@ libQt5PrintSupport.so.5 libqt5printsupport5 #MINVER#
  _ZN20QAbstractPrintDialogD0Ev@Base 5.0.2
  _ZN20QAbstractPrintDialogD1Ev@Base 5.0.2
  _ZN20QAbstractPrintDialogD2Ev@Base 5.0.2
+ _ZN20QPlatformPrintDevice14createPageSizeERK7QStringRK5QSizeS2_@Base 5.3.0
+ _ZN20QPlatformPrintDevice14createPageSizeEiRK5QSizeRK7QString@Base 5.3.0
+ _ZN20QPlatformPrintDeviceC1ERK7QString@Base 5.3.0
+ _ZN20QPlatformPrintDeviceC1Ev@Base 5.3.0
+ _ZN20QPlatformPrintDeviceC2ERK7QString@Base 5.3.0
+ _ZN20QPlatformPrintDeviceC2Ev@Base 5.3.0
+ _ZN20QPlatformPrintDeviceD0Ev@Base 5.3.0
+ _ZN20QPlatformPrintDeviceD1Ev@Base 5.3.0
+ _ZN20QPlatformPrintDeviceD2Ev@Base 5.3.0
  _ZN22QPdfPrintEnginePrivate15openPrintDeviceEv@Base 5.0.2 1
- _ZN22QPdfPrintEnginePrivate15updatePaperSizeEv@Base 5.0.2 1
  _ZN22QPdfPrintEnginePrivate16closePrintDeviceEv@Base 5.0.2 1
  _ZN22QPdfPrintEnginePrivateC1EN8QPrinter11PrinterModeE@Base 5.0.2 1
  _ZN22QPdfPrintEnginePrivateC2EN8QPrinter11PrinterModeE@Base 5.0.2 1
  _ZN22QPdfPrintEnginePrivateD0Ev@Base 5.0.2 1
  _ZN22QPdfPrintEnginePrivateD1Ev@Base 5.0.2 1
  _ZN22QPdfPrintEnginePrivateD2Ev@Base 5.0.2 1
- _ZN23QPlatformPrinterSupport11printerInfoERK7QString@Base 5.0.2 1
- _ZN23QPlatformPrinterSupport12printerIndexERK12QPrinterInfo@Base 5.0.2 1
- _ZN23QPlatformPrinterSupport14defaultPrinterEv@Base 5.0.2 1
- _ZN23QPlatformPrinterSupport17availablePrintersEv@Base 5.0.2 1
+ _ZN23QPlatformPrinterSupport14createPageSizeERK7QString5QSizeS2_@Base 5.3.0
  _ZN23QPlatformPrinterSupport17createPaintEngineEP12QPrintEngineN8QPrinter11PrinterModeE@Base 5.0.2 1
- _ZN23QPlatformPrinterSupport17createPrinterInfoERK7QStringS2_S2_S2_bi@Base 5.0.2 1
+ _ZN23QPlatformPrinterSupport17createPrintDeviceEP20QPlatformPrintDevice@Base 5.3.0
+ _ZN23QPlatformPrinterSupport17createPrintDeviceERK7QString@Base 5.3.0
  _ZN23QPlatformPrinterSupport23createNativePrintEngineEN8QPrinter11PrinterModeE@Base 5.0.2 1
- _ZN23QPlatformPrinterSupport24convertPaperSizeToQSizeFEN17QPagedPaintDevice8PageSizeE@Base 5.0.2 1
- _ZN23QPlatformPrinterSupport24convertQSizeFToPaperSizeERK6QSizeF@Base 5.0.2 1
+ _ZN23QPlatformPrinterSupport24createDefaultPrintDeviceEv@Base 5.3.0
  _ZN23QPlatformPrinterSupportC1Ev@Base 5.0.2 1
  _ZN23QPlatformPrinterSupportC2Ev@Base 5.0.2 1
  _ZN23QPlatformPrinterSupportD0Ev@Base 5.0.2 1
@@ -201,8 +200,6 @@ libQt5PrintSupport.so.5 libqt5printsupport5 #MINVER#
  _ZN29QPlatformPrinterSupportPluginD0Ev@Base 5.0.2 1
  _ZN29QPlatformPrinterSupportPluginD1Ev@Base 5.0.2 1
  _ZN29QPlatformPrinterSupportPluginD2Ev@Base 5.0.2 1
- _ZN4QPdf17paperSizeToStringEN17QPagedPaintDevice8PageSizeE@Base 5.0.2
- _ZN4QPdf9paperSizeEN17QPagedPaintDevice8PageSizeE@Base 5.0.2
  _ZN8QPrinter10setCreatorERK7QString@Base 5.0.2
  _ZN8QPrinter10setDocNameERK7QString@Base 5.0.2
  _ZN8QPrinter10setEnginesEP12QPrintEngineP12QPaintEngine@Base 5.0.2
@@ -223,6 +220,7 @@ libQt5PrintSupport.so.5 libqt5printsupport5 #MINVER#
  _ZN8QPrinter14setPageMarginsEddddNS_4UnitE@Base 5.2.0
  _ZN8QPrinter14setPaperSourceENS_11PaperSourceE@Base 5.0.2
  _ZN8QPrinter14setPrinterNameERK7QString@Base 5.0.2
+ _ZN8QPrinter14setWinPageSizeEi@Base 5.3.0
  _ZN8QPrinter15setOutputFormatENS_12OutputFormatE@Base 5.0.2
  _ZN8QPrinter15setPrintProgramERK7QString@Base 5.0.2
  _ZN8QPrinter16setCollateCopiesEb@Base 5.0.2
@@ -241,27 +239,57 @@ libQt5PrintSupport.so.5 libqt5printsupport5 #MINVER#
  _ZN8QPrinterD0Ev@Base 5.0.2
  _ZN8QPrinterD1Ev@Base 5.0.2
  _ZN8QPrinterD2Ev@Base 5.0.2
- _ZNK12QCUPSSupport10currentPPDEv@Base 5.0.2 1
- _ZNK12QCUPSSupport13printerOptionERK7QString@Base 5.0.2 1
- _ZNK12QCUPSSupport17availablePrintersEv@Base 5.0.2 1
- _ZNK12QCUPSSupport19currentPrinterIndexEv@Base 5.0.2 1
- _ZNK12QCUPSSupport20collectMarkedOptionsER11QStringListPK11ppd_group_s@Base 5.0.2 1
- _ZNK12QCUPSSupport22availablePrintersCountEv@Base 5.0.2 1
- _ZNK12QCUPSSupport26collectMarkedOptionsHelperER11QStringListPK11ppd_group_s@Base 5.0.2 1
- _ZNK12QCUPSSupport7optionsEv@Base 5.0.2 1
- _ZNK12QCUPSSupport8pageRectEPKc@Base 5.0.2 1
- _ZNK12QCUPSSupport9pageSizesEv@Base 5.0.2 1
- _ZNK12QCUPSSupport9paperRectEPKc@Base 5.0.2 1
- _ZNK12QCUPSSupport9ppdOptionEPKc@Base 5.0.2 1
+ _ZNK12QPrintDevice12makeAndModelEv@Base 5.3.0
+ _ZNK12QPrintDevice15defaultPageSizeEv@Base 5.3.0
+ _ZNK12QPrintDevice16defaultColorModeEv@Base 5.3.0
+ _ZNK12QPrintDevice16defaultInputSlotEv@Base 5.3.0
+ _ZNK12QPrintDevice16defaultOutputBinEv@Base 5.3.0
+ _ZNK12QPrintDevice16printableMarginsERK9QPageSizeN11QPageLayout11OrientationEi@Base 5.3.0
+ _ZNK12QPrintDevice17defaultDuplexModeEv@Base 5.3.0
+ _ZNK12QPrintDevice17defaultResolutionEv@Base 5.3.0
+ _ZNK12QPrintDevice17isValidPageLayoutERK11QPageLayouti@Base 5.3.0
+ _ZNK12QPrintDevice17supportedPageSizeEN9QPageSize10PageSizeIdE@Base 5.3.0
+ _ZNK12QPrintDevice17supportedPageSizeERK5QSize@Base 5.3.0
+ _ZNK12QPrintDevice17supportedPageSizeERK6QSizeFN9QPageSize4UnitE@Base 5.3.0
+ _ZNK12QPrintDevice17supportedPageSizeERK7QString@Base 5.3.0
+ _ZNK12QPrintDevice17supportedPageSizeERK9QPageSize@Base 5.3.0
+ _ZNK12QPrintDevice18supportedMimeTypesEv@Base 5.3.0
+ _ZNK12QPrintDevice18supportedPageSizesEv@Base 5.3.0
+ _ZNK12QPrintDevice19supportedColorModesEv@Base 5.3.0
+ _ZNK12QPrintDevice19supportedInputSlotsEv@Base 5.3.0
+ _ZNK12QPrintDevice19supportedOutputBinsEv@Base 5.3.0
+ _ZNK12QPrintDevice20supportedDuplexModesEv@Base 5.3.0
+ _ZNK12QPrintDevice20supportedResolutionsEv@Base 5.3.0
+ _ZNK12QPrintDevice21supportsCollateCopiesEv@Base 5.3.0
+ _ZNK12QPrintDevice22supportsMultipleCopiesEv@Base 5.3.0
+ _ZNK12QPrintDevice23maximumPhysicalPageSizeEv@Base 5.3.0
+ _ZNK12QPrintDevice23minimumPhysicalPageSizeEv@Base 5.3.0
+ _ZNK12QPrintDevice23supportsCustomPageSizesEv@Base 5.3.0
+ _ZNK12QPrintDevice2idEv@Base 5.3.0
+ _ZNK12QPrintDevice4nameEv@Base 5.3.0
+ _ZNK12QPrintDevice5stateEv@Base 5.3.0
+ _ZNK12QPrintDevice7isValidEv@Base 5.3.0
+ _ZNK12QPrintDevice8isRemoteEv@Base 5.3.0
+ _ZNK12QPrintDevice8locationEv@Base 5.3.0
+ _ZNK12QPrintDevice9isDefaultEv@Base 5.3.0
+ _ZNK12QPrintDeviceeqERKS_@Base 5.3.0
  _ZNK12QPrintDialog10metaObjectEv@Base 5.0.2
  _ZNK12QPrintDialog10testOptionEN20QAbstractPrintDialog17PrintDialogOptionE@Base 5.0.2
  _ZNK12QPrintDialog7optionsEv@Base 5.0.2
  _ZNK12QPrinterInfo11descriptionEv@Base 5.0.2
  _ZNK12QPrinterInfo11printerNameEv@Base 5.0.2
  _ZNK12QPrinterInfo12makeAndModelEv@Base 5.0.2
+ _ZNK12QPrinterInfo15defaultPageSizeEv@Base 5.3.0
+ _ZNK12QPrinterInfo18supportedPageSizesEv@Base 5.3.0
  _ZNK12QPrinterInfo19supportedPaperSizesEv@Base 5.0.2
+ _ZNK12QPrinterInfo20supportedResolutionsEv@Base 5.3.0
+ _ZNK12QPrinterInfo23maximumPhysicalPageSizeEv@Base 5.3.0
+ _ZNK12QPrinterInfo23minimumPhysicalPageSizeEv@Base 5.3.0
  _ZNK12QPrinterInfo23supportedSizesWithNamesEv@Base 5.1.0
+ _ZNK12QPrinterInfo23supportsCustomPageSizesEv@Base 5.3.0
+ _ZNK12QPrinterInfo5stateEv@Base 5.3.0
  _ZNK12QPrinterInfo6isNullEv@Base 5.0.2
+ _ZNK12QPrinterInfo8isRemoteEv@Base 5.3.0
  _ZNK12QPrinterInfo8locationEv@Base 5.0.2
  _ZNK12QPrinterInfo9isDefaultEv@Base 5.0.2
  _ZNK15QPdfPrintEngine6metricEN12QPaintDevice17PaintDeviceMetricE@Base 5.0.2 1
@@ -287,10 +315,50 @@ libQt5PrintSupport.so.5 libqt5printsupport5 #MINVER#
  _ZNK20QAbstractPrintDialog7minPageEv@Base 5.0.2
  _ZNK20QAbstractPrintDialog7printerEv@Base 5.0.2
  _ZNK20QAbstractPrintDialog8fromPageEv@Base 5.0.2
- _ZNK23QPlatformPrinterSupport13printerOptionERK12QPrinterInfoRK7QString@Base 5.0.2 1
- _ZNK23QPlatformPrinterSupport14printerOptionsERK12QPrinterInfo@Base 5.0.2 1
- _ZNK23QPlatformPrinterSupport19supportedPaperSizesERK12QPrinterInfo@Base 5.0.2 1
- _ZNK23QPlatformPrinterSupport23supportedSizesWithNamesERK12QPrinterInfo@Base 5.1.0 1
+ _ZNK20QPlatformPrintDevice12makeAndModelEv@Base 5.3.0
+ _ZNK20QPlatformPrintDevice13loadMimeTypesEv@Base 5.3.0
+ _ZNK20QPlatformPrintDevice13loadPageSizesEv@Base 5.3.0
+ _ZNK20QPlatformPrintDevice14loadColorModesEv@Base 5.3.0
+ _ZNK20QPlatformPrintDevice14loadInputSlotsEv@Base 5.3.0
+ _ZNK20QPlatformPrintDevice14loadOutputBinsEv@Base 5.3.0
+ _ZNK20QPlatformPrintDevice15defaultPageSizeEv@Base 5.3.0
+ _ZNK20QPlatformPrintDevice15loadDuplexModesEv@Base 5.3.0
+ _ZNK20QPlatformPrintDevice15loadResolutionsEv@Base 5.3.0
+ _ZNK20QPlatformPrintDevice16defaultColorModeEv@Base 5.3.0
+ _ZNK20QPlatformPrintDevice16defaultInputSlotEv@Base 5.3.0
+ _ZNK20QPlatformPrintDevice16defaultOutputBinEv@Base 5.3.0
+ _ZNK20QPlatformPrintDevice16printableMarginsERK9QPageSizeN11QPageLayout11OrientationEi@Base 5.3.0
+ _ZNK20QPlatformPrintDevice17defaultDuplexModeEv@Base 5.3.0
+ _ZNK20QPlatformPrintDevice17defaultResolutionEv@Base 5.3.0
+ _ZNK20QPlatformPrintDevice17isValidPageLayoutERK11QPageLayouti@Base 5.3.0
+ _ZNK20QPlatformPrintDevice17supportedPageSizeEN9QPageSize10PageSizeIdE@Base 5.3.0
+ _ZNK20QPlatformPrintDevice17supportedPageSizeERK5QSize@Base 5.3.0
+ _ZNK20QPlatformPrintDevice17supportedPageSizeERK6QSizeFN9QPageSize4UnitE@Base 5.3.0
+ _ZNK20QPlatformPrintDevice17supportedPageSizeERK7QString@Base 5.3.0
+ _ZNK20QPlatformPrintDevice17supportedPageSizeERK9QPageSize@Base 5.3.0
+ _ZNK20QPlatformPrintDevice18supportedMimeTypesEv@Base 5.3.0
+ _ZNK20QPlatformPrintDevice18supportedPageSizesEv@Base 5.3.0
+ _ZNK20QPlatformPrintDevice19supportedColorModesEv@Base 5.3.0
+ _ZNK20QPlatformPrintDevice19supportedInputSlotsEv@Base 5.3.0
+ _ZNK20QPlatformPrintDevice19supportedOutputBinsEv@Base 5.3.0
+ _ZNK20QPlatformPrintDevice20supportedDuplexModesEv@Base 5.3.0
+ _ZNK20QPlatformPrintDevice20supportedResolutionsEv@Base 5.3.0
+ _ZNK20QPlatformPrintDevice21supportsCollateCopiesEv@Base 5.3.0
+ _ZNK20QPlatformPrintDevice22supportedPageSizeMatchERK9QPageSize@Base 5.3.0
+ _ZNK20QPlatformPrintDevice22supportsMultipleCopiesEv@Base 5.3.0
+ _ZNK20QPlatformPrintDevice23maximumPhysicalPageSizeEv@Base 5.3.0
+ _ZNK20QPlatformPrintDevice23minimumPhysicalPageSizeEv@Base 5.3.0
+ _ZNK20QPlatformPrintDevice23supportsCustomPageSizesEv@Base 5.3.0
+ _ZNK20QPlatformPrintDevice2idEv@Base 5.3.0
+ _ZNK20QPlatformPrintDevice4nameEv@Base 5.3.0
+ _ZNK20QPlatformPrintDevice5stateEv@Base 5.3.0
+ _ZNK20QPlatformPrintDevice7isValidEv@Base 5.3.0
+ _ZNK20QPlatformPrintDevice8isRemoteEv@Base 5.3.0
+ _ZNK20QPlatformPrintDevice8locationEv@Base 5.3.0
+ _ZNK20QPlatformPrintDevice9isDefaultEv@Base 5.3.0
+ _ZNK20QPlatformPrintDeviceeqERKS_@Base 5.3.0
+ _ZNK23QPlatformPrinterSupport20defaultPrintDeviceIdEv@Base 5.3.0
+ _ZNK23QPlatformPrinterSupport23availablePrintDeviceIdsEv@Base 5.3.0
  _ZNK29QPlatformPrinterSupportPlugin10metaObjectEv@Base 5.0.2 1
  _ZNK8QPrinter10printRangeEv@Base 5.0.2
  _ZNK8QPrinter10resolutionEv@Base 5.0.2
@@ -299,6 +367,7 @@ libQt5PrintSupport.so.5 libqt5printsupport5 #MINVER#
  _ZNK8QPrinter11paperSourceEv@Base 5.0.2
  _ZNK8QPrinter11printEngineEv@Base 5.0.2
  _ZNK8QPrinter11printerNameEv@Base 5.0.2
+ _ZNK8QPrinter11winPageSizeEv@Base 5.3.0
  _ZNK8QPrinter12outputFormatEv@Base 5.0.2
  _ZNK8QPrinter12printProgramEv@Base 5.0.2
  _ZNK8QPrinter12printerStateEv@Base 5.0.2
@@ -332,6 +401,7 @@ libQt5PrintSupport.so.5 libqt5printsupport5 #MINVER#
  _ZNK8QPrinter9paperRectEv@Base 5.0.2
  _ZNK8QPrinter9paperSizeENS_4UnitE@Base 5.0.2
  _ZNK8QPrinter9paperSizeEv@Base 5.0.2
+ _ZTI11QSharedData@Base 5.3.0
  _ZTI12QPrintDialog@Base 5.0.2
  _ZTI12QPrintEngine@Base 5.0.2
  _ZTI15QPdfPrintEngine@Base 5.0.2 1
@@ -341,10 +411,13 @@ libQt5PrintSupport.so.5 libqt5printsupport5 #MINVER#
  _ZTI19QPrintPreviewDialog@Base 5.0.2
  _ZTI19QPrintPreviewWidget@Base 5.0.2
  _ZTI20QAbstractPrintDialog@Base 5.0.2
+ _ZTI20QPlatformPrintDevice@Base 5.3.0
  _ZTI22QPdfPrintEnginePrivate@Base 5.0.2 1
  _ZTI23QPlatformPrinterSupport@Base 5.0.2 1
+ _ZTI24QPagedPaintDevicePrivate@Base 5.3.0
  _ZTI29QPlatformPrinterSupportPlugin@Base 5.0.2 1
  _ZTI8QPrinter@Base 5.0.2
+ _ZTS11QSharedData@Base 5.3.0
  _ZTS12QPrintDialog@Base 5.0.2
  _ZTS12QPrintEngine@Base 5.0.2
  _ZTS15QPdfPrintEngine@Base 5.0.2 1
@@ -354,8 +427,10 @@ libQt5PrintSupport.so.5 libqt5printsupport5 #MINVER#
  _ZTS19QPrintPreviewDialog@Base 5.0.2
  _ZTS19QPrintPreviewWidget@Base 5.0.2
  _ZTS20QAbstractPrintDialog@Base 5.0.2
+ _ZTS20QPlatformPrintDevice@Base 5.3.0
  _ZTS22QPdfPrintEnginePrivate@Base 5.0.2 1
  _ZTS23QPlatformPrinterSupport@Base 5.0.2 1
+ _ZTS24QPagedPaintDevicePrivate@Base 5.3.0
  _ZTS29QPlatformPrinterSupportPlugin@Base 5.0.2 1
  _ZTS8QPrinter@Base 5.0.2
  _ZTV12QPrintDialog@Base 5.0.2
@@ -367,8 +442,10 @@ libQt5PrintSupport.so.5 libqt5printsupport5 #MINVER#
  _ZTV19QPrintPreviewDialog@Base 5.0.2
  _ZTV19QPrintPreviewWidget@Base 5.0.2
  _ZTV20QAbstractPrintDialog@Base 5.0.2
+ _ZTV20QPlatformPrintDevice@Base 5.3.0
  _ZTV22QPdfPrintEnginePrivate@Base 5.0.2 1
  _ZTV23QPlatformPrinterSupport@Base 5.0.2 1
+ _ZTV24QPagedPaintDevicePrivate@Base 5.3.0
  _ZTV29QPlatformPrinterSupportPlugin@Base 5.0.2 1
  _ZTV8QPrinter@Base 5.0.2
  (c++)"non-virtual thunk to QAbstractPrintDialog::~QAbstractPrintDialog()@Base" 5.0.2

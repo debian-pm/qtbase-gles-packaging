@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.2.1 sparc64
+# SymbolsHelper-Confirmed: 5.3.0 amd64
 libQt5DBus.so.5 libqt5dbus5 #MINVER#
 | libqt5dbus5 #MINVER#, qtbase-abi-5-2-1
  _Z14qDBusReplyFillRK12QDBusMessageR10QDBusErrorR8QVariant@Base 5.0.2
@@ -24,6 +24,7 @@ libQt5DBus.so.5 libqt5dbus5 #MINVER#
  _ZN11QDBusServer11qt_metacastEPKc@Base 5.0.2
  _ZN11QDBusServer13newConnectionERK15QDBusConnection@Base 5.0.2
  _ZN11QDBusServer16staticMetaObjectE@Base 5.0.2
+ _ZN11QDBusServer33setAnonymousAuthenticationAllowedEb@Base 5.3.0
  _ZN11QDBusServerC1EP7QObject@Base 5.0.2
  _ZN11QDBusServerC1ERK7QStringP7QObject@Base 5.0.2
  _ZN11QDBusServerC2EP7QObject@Base 5.0.2
@@ -273,6 +274,7 @@ libQt5DBus.so.5 libqt5dbus5 #MINVER#
  _ZNK10QDBusError7messageEv@Base 5.0.2
  _ZNK11QDBusServer10metaObjectEv@Base 5.0.2
  _ZNK11QDBusServer11isConnectedEv@Base 5.0.2
+ _ZNK11QDBusServer32isAnonymousAuthenticationAllowedEv@Base 5.3.0
  _ZNK11QDBusServer7addressEv@Base 5.0.2
  _ZNK11QDBusServer9lastErrorEv@Base 5.0.2
  _ZNK12QDBusContext10connectionEv@Base 5.0.2

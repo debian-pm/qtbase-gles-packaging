@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.2.0~alpha1 i386 amd64
+# SymbolsHelper-Confirmed: 5.3.0 amd64
 libQt5Sql.so.5 libqt5sql5 #MINVER#
 | libqt5sql5 #MINVER#, qtbase-abi-5-2-1
  _ZN10QSqlDriver11cancelQueryEv@Base 5.0.2
@@ -227,8 +227,10 @@ libQt5Sql.so.5 libqt5sql5 #MINVER#
  _ZN9QSqlError15setDatabaseTextERK7QString@Base 5.0.2
  _ZN9QSqlError7setTypeENS_9ErrorTypeE@Base 5.0.2
  _ZN9QSqlError9setNumberEi@Base 5.0.2
+ _ZN9QSqlErrorC1ERK7QStringS2_NS_9ErrorTypeES2_@Base 5.3.0
  _ZN9QSqlErrorC1ERK7QStringS2_NS_9ErrorTypeEi@Base 5.0.2
  _ZN9QSqlErrorC1ERKS_@Base 5.0.2
+ _ZN9QSqlErrorC2ERK7QStringS2_NS_9ErrorTypeES2_@Base 5.3.0
  _ZN9QSqlErrorC2ERK7QStringS2_NS_9ErrorTypeEi@Base 5.0.2
  _ZN9QSqlErrorC2ERKS_@Base 5.0.2
  _ZN9QSqlErrorD1Ev@Base 5.0.2
@@ -407,6 +409,7 @@ libQt5Sql.so.5 libqt5sql5 #MINVER#
  _ZNK24QSqlRelationalTableModel8relationEi@Base 5.0.2
  _ZNK9QSqlError10driverTextEv@Base 5.0.2
  _ZNK9QSqlError12databaseTextEv@Base 5.0.2
+ _ZNK9QSqlError15nativeErrorCodeEv@Base 5.3.0
  _ZNK9QSqlError4textEv@Base 5.0.2
  _ZNK9QSqlError4typeEv@Base 5.0.2
  _ZNK9QSqlError6numberEv@Base 5.0.2
@@ -441,6 +444,7 @@ libQt5Sql.so.5 libqt5sql5 #MINVER#
  _ZNK9QSqlQuery5valueERK7QString@Base 5.0.2
  _ZNK9QSqlQuery5valueEi@Base 5.0.2
  _ZNK9QSqlQuery6driverEv@Base 5.0.2
+ _ZNK9QSqlQuery6isNullERK7QString@Base 5.3.0
  _ZNK9QSqlQuery6isNullEi@Base 5.0.2
  _ZNK9QSqlQuery6recordEv@Base 5.0.2
  _ZNK9QSqlQuery6resultEv@Base 5.0.2

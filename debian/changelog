@@ -18,7 +18,7 @@ qtbase-opensource-src (5.3.0+dfsg-1) UNRELEASED; urgency=medium
   * Override Lintian warning about torrent.qdoc being under an RFC license,
     it's just a false positive coming from the fact that the documentation is
     listing the license, but it's really not licensed under the RFC license.
-  * Update symbols files with buildds' logs.
+  * Update symbols files with buildds' and current logs.
   * Refresh patches:
     - hurd_opengl_incldir.diff
     - support_mips_atomic_on_pre-mips32_archs.patch

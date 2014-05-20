@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.2.1 amd64 ia64 sparc64
+# SymbolsHelper-Confirmed: 5.3.0 amd64
 libQt5Core.so.5 libqt5core5a #MINVER#
 | libqt5core5a #MINVER#, qtbase-abi-5-2-1
  _Z10forcepointR11QTextStream@Base 5.0.2
@@ -31,6 +31,8 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _Z13uppercasebaseR11QTextStream@Base 5.0.2
  _Z14qAddPreRoutinePFvvE@Base 5.1.0
  _Z14qDecodeDataUrlRK4QUrlR7QStringR10QByteArray@Base 5.0.2
+ _Z14qFloatDistancedd@Base 5.3.0
+ _Z14qFloatDistanceff@Base 5.3.0
  (subst)_Z14qMallocAligned{size_t}{size_t}@Base 5.0.2
  _Z14qt_safe_selectiP6fd_setS0_S0_PK8timespec@Base 5.1.0
  _Z15lowercasedigitsR11QTextStream@Base 5.0.2
@@ -88,6 +90,9 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _Z5qHashRK7QStringj@Base 5.0.2
  _Z5qHashRK9QBitArrayj@Base 5.0.2
  _Z5qHashRK9QDateTimej@Base 5.0.2
+ _Z5qHashdj@Base 5.3.0
+ _Z5qHashej@Base 5.3.0
+ _Z5qHashfj@Base 5.3.0
  _Z5qQNaNv@Base 5.0.2
  _Z5qSNaNv@Base 5.0.2
  _Z5qdtoadiiPiS_PPcS1_@Base 5.0.2
@@ -221,6 +226,7 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZN10QJsonArrayaSERKS_@Base 5.0.2
  _ZN10QJsonArrayixEi@Base 5.0.2
  _ZN10QJsonValue11fromVariantERK8QVariant@Base 5.0.2
+ _ZN10QJsonValue27stringDataFromQStringHelperERK7QString@Base 5.3.0
  _ZN10QJsonValue6detachEv@Base 5.0.2
  _ZN10QJsonValueC1E13QLatin1String@Base 5.0.2
  _ZN10QJsonValueC1ENS_4TypeE@Base 5.0.2
@@ -381,6 +387,9 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZN11QJsonObjectD2Ev@Base 5.0.2
  _ZN11QJsonObjectaSERKS_@Base 5.0.2
  _ZN11QJsonObjectixERK7QString@Base 5.0.2
+ _ZN11QLocaleData17bytearrayToDoubleEPKcPbS2_@Base 5.3.0
+ _ZN11QLocaleData19bytearrayToLongLongEPKciPbS2_@Base 5.3.0
+ _ZN11QLocaleData22bytearrayToUnsLongLongEPKciPb@Base 5.3.0
  (optional=templinst|arch=ia64)_ZN11QMetaMethod10fromSignalIM9QIODeviceFvxEEES_T_@Base 5.2.0
  _ZN11QMetaMethod14fromSignalImplEPK11QMetaObjectPPv@Base 5.0.2
  _ZN11QMetaObject10ConnectionC1ERKS0_@Base 5.0.2
@@ -536,6 +545,8 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZN12QEasingCurveD2Ev@Base 5.0.2
  _ZN12QLibraryInfo12isDebugBuildEv@Base 5.0.2
  _ZN12QLibraryInfo16licensedProductsEv@Base 5.0.2
+ _ZN12QLibraryInfo23platformPluginArgumentsERK7QString@Base 5.3.0
+ _ZN12QLibraryInfo5buildEv@Base 5.3.0
  _ZN12QLibraryInfo8licenseeEv@Base 5.0.2
  _ZN12QLibraryInfo8locationENS_15LibraryLocationE@Base 5.0.2
  _ZN12QLibraryInfo9buildDateEv@Base 5.0.2
@@ -801,15 +812,9 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZN14QLocalePrivate13codeToCountryERK7QString@Base 5.0.2 1
  _ZN14QLocalePrivate13countryToCodeEN7QLocale7CountryE@Base 5.1.0 1
  _ZN14QLocalePrivate14codeToLanguageERK7QString@Base 5.0.2 1
- _ZN14QLocalePrivate14doubleToStringE5QCharS0_S0_S0_S0_S0_diNS_10DoubleFormEij@Base 5.0.2 1
  _ZN14QLocalePrivate14languageToCodeEN7QLocale8LanguageE@Base 5.1.0 1
- _ZN14QLocalePrivate16longLongToStringE5QCharS0_S0_S0_xiiij@Base 5.0.2 1
- _ZN14QLocalePrivate17bytearrayToDoubleEPKcPbS2_@Base 5.0.2 1
  _ZN14QLocalePrivate17getLangAndCountryERK7QStringRN7QLocale8LanguageERNS3_6ScriptERNS3_7CountryE@Base 5.0.2 1
- _ZN14QLocalePrivate19bytearrayToLongLongEPKciPbS2_@Base 5.0.2 1
- _ZN14QLocalePrivate19unsLongLongToStringE5QCharS0_S0_yiiij@Base 5.0.2 1
  _ZN14QLocalePrivate19updateSystemPrivateEv@Base 5.0.2 1
- _ZN14QLocalePrivate22bytearrayToUnsLongLongEPKciPb@Base 5.0.2 1
  _ZN14QMetaCallEvent13placeMetaCallEP7QObject@Base 5.0.2 1
  _ZN14QMetaCallEventC1EPN9QtPrivate15QSlotObjectBaseEPK7QObjectiiPiPPvP10QSemaphore@Base 5.0.2 1
  _ZN14QMetaCallEventC1EttPFvP7QObjectN11QMetaObject4CallEiPPvEPKS0_iiPiS5_P10QSemaphore@Base 5.0.2 1
@@ -1018,11 +1023,13 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZN16QCoreApplication14notifyInternalEP7QObjectP6QEvent@Base 5.0.2
  _ZN16QCoreApplication15applicationNameEv@Base 5.0.2
  _ZN16QCoreApplication15eventDispatcherEv@Base 5.0.2
+ _ZN16QCoreApplication15isSetuidAllowedEv@Base 5.3.0
  _ZN16QCoreApplication15setLibraryPathsERK11QStringList@Base 5.0.2
  _ZN16QCoreApplication16hasPendingEventsEv@Base 5.0.2
  _ZN16QCoreApplication16organizationNameEv@Base 5.0.2
  _ZN16QCoreApplication16removeTranslatorEP11QTranslator@Base 5.0.2
  _ZN16QCoreApplication16sendPostedEventsEP7QObjecti@Base 5.0.2
+ _ZN16QCoreApplication16setSetuidAllowedEb@Base 5.3.0
  _ZN16QCoreApplication16staticMetaObjectE@Base 5.0.2
  _ZN16QCoreApplication17installTranslatorEP11QTranslator@Base 5.0.2
  _ZN16QCoreApplication17isQuitLockEnabledEv@Base 5.0.2
@@ -1924,6 +1931,7 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZN20QStateMachinePrivateD2Ev@Base 5.0.2 1
  _ZN20QXmlStreamAttributes6appendERK7QStringS2_@Base 5.0.2
  _ZN20QXmlStreamAttributes6appendERK7QStringS2_S2_@Base 5.0.2
+ _ZN21QAbstractConcatenable14appendLatin1ToEPKciP5QChar@Base 5.3.0
  _ZN21QAbstractConcatenable16convertFromAsciiEPKciRP5QChar@Base 5.0.2
  _ZN21QObjectCleanupHandler11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN21QObjectCleanupHandler11qt_metacastEPKc@Base 5.0.2
@@ -1993,6 +2001,7 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZN23QCoreApplicationPrivate10mainThreadEv@Base 5.0.2 1
  _ZN23QCoreApplicationPrivate13checkInstanceEPKc@Base 5.0.2 1
  _ZN23QCoreApplicationPrivate13notify_helperEP7QObjectP6QEvent@Base 5.0.2 1
+ _ZN23QCoreApplicationPrivate13setuidAllowedE@Base 5.3.0
  _ZN23QCoreApplicationPrivate13theMainThreadE@Base 5.0.2 1
  _ZN23QCoreApplicationPrivate14is_app_closingE@Base 5.0.2 1
  _ZN23QCoreApplicationPrivate14is_app_runningE@Base 5.0.2 1
@@ -2001,6 +2010,7 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZN23QCoreApplicationPrivate17cleanupThreadDataEv@Base 5.0.2 1
  _ZN23QCoreApplicationPrivate17removePostedEventEP6QEvent@Base 5.0.2 1
  _ZN23QCoreApplicationPrivate19app_compile_versionE@Base 5.0.2 1
+ _ZN23QCoreApplicationPrivate19checkReceiverThreadEP7QObject@Base 5.3.0
  _ZN23QCoreApplicationPrivate20eventDispatcherReadyEv@Base 5.2.0~beta1 1
  _ZN23QCoreApplicationPrivate21createEventDispatcherEv@Base 5.0.2 1
  _ZN23QCoreApplicationPrivate21isTranslatorInstalledEP11QTranslator@Base 5.0.2 1
@@ -2310,6 +2320,7 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZN4QUrlaSERKS_@Base 5.0.2
  _ZN5QChar10digitValueEj@Base 5.0.2
  _ZN5QChar11hasMirroredEj@Base 5.0.2
+ _ZN5QChar11joiningTypeEj@Base 5.3.0
  _ZN5QChar11toTitleCaseEj@Base 5.0.2
  _ZN5QChar12mirroredCharEj@Base 5.0.2
  _ZN5QChar12toCaseFoldedEj@Base 5.0.2
@@ -2569,14 +2580,21 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZN7QString11fromRawDataEPK5QChari@Base 5.0.2
  _ZN7QString11reallocDataEjb@Base 5.0.2
  _ZN7QString13toUcs4_helperEPKtiPj@Base 5.0.2
+ _ZN7QString13toUtf8_helperERKS_@Base 5.3.0
  _ZN7QString14compare_helperEPK5QChari13QLatin1StringN2Qt15CaseSensitivityE@Base 5.0.2
  _ZN7QString14compare_helperEPK5QChariPKciN2Qt15CaseSensitivityE@Base 5.0.2
  _ZN7QString14compare_helperEPK5QChariS2_iN2Qt15CaseSensitivityE@Base 5.0.2
  _ZN7QString14replace_helperEPjiiPK5QChari@Base 5.0.2
  _ZN7QString15fromUtf8_helperEPKci@Base 5.0.2
+ _ZN7QString15toLatin1_helperEPK5QChari@Base 5.3.0
+ _ZN7QString15toLatin1_helperERKS_@Base 5.3.0
  _ZN7QString16fromAscii_helperEPKci@Base 5.0.2
  _ZN7QString17fromLatin1_helperEPKci@Base 5.0.2
+ _ZN7QString17toIntegral_helperEPK5QChariPbi@Base 5.3.0
+ _ZN7QString17toIntegral_helperEPK5QCharjPbi@Base 5.3.0
+ _ZN7QString18toLocal8Bit_helperEPK5QChari@Base 5.3.0
  _ZN7QString20fromLocal8Bit_helperEPKci@Base 5.0.2
+ _ZN7QString23toLatin1_helper_inplaceERS_@Base 5.3.0
  _ZN7QString25localeAwareCompare_helperEPK5QChariS2_i@Base 5.0.2
  _ZN7QString4chopEi@Base 5.0.2
  _ZN7QString4fillE5QChari@Base 5.0.2
@@ -2932,7 +2950,7 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZN9QHashData6rehashEi@Base 5.0.2
  _ZN9QHashData8freeNodeEPv@Base 5.0.2
  _ZN9QHashData8nextNodeEPNS_4NodeE@Base 5.0.2
- (arch=alpha armel armhf hppa ia64 mips mipsel ppc64 s390x sparc64)_ZN9QHashData9hasShrunkEv@Base 5.2.1
+ (arch=alpha amd64 armel armhf hppa ia64 mips mipsel ppc64 s390x sparc64)_ZN9QHashData9hasShrunkEv@Base 5.3.0
  _ZN9QIODevice11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN9QIODevice11qt_metacastEPKc@Base 5.0.2
  _ZN9QIODevice11setOpenModeE6QFlagsINS_12OpenModeFlagEE@Base 5.0.2
@@ -3395,6 +3413,7 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZNK11QJsonObjecteqERKS_@Base 5.0.2
  _ZNK11QJsonObjectixERK7QString@Base 5.0.2
  _ZNK11QJsonObjectneERKS_@Base 5.0.2
+ _ZNK11QLocaleData13validateCharsERK7QStringNS_10NumberModeEP10QByteArrayi@Base 5.3.0
  _ZNK11QMetaMethod10attributesEv@Base 5.0.2
  _ZNK11QMetaMethod10methodTypeEv@Base 5.0.2
  _ZNK11QMetaMethod10returnTypeEv@Base 5.0.2
@@ -3593,34 +3612,34 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZNK14QFactoryLoader8metaDataEv@Base 5.0.2 1
  _ZNK14QItemSelection7indexesEv@Base 5.0.2
  _ZNK14QItemSelection8containsERK11QModelIndex@Base 5.0.2
- _ZNK14QLocalePrivate13validateCharsERK7QStringNS_10NumberModeEP10QByteArrayi@Base 5.0.2 1
- _ZNK14QLocalePrivate14doubleToStringEdiNS_10DoubleFormEij@Base 5.0.2 1
- _ZNK14QLocalePrivate14stringToDoubleERK10QStringRefPbNS_18GroupSeparatorModeE@Base 5.1.0 1
- _ZNK14QLocalePrivate14stringToDoubleERK7QStringPbNS_18GroupSeparatorModeE@Base 5.0.2 1
- _ZNK14QLocalePrivate15numberToCLocaleEPK5QChariNS_18GroupSeparatorModeEP15QVarLengthArrayIcLi256EE@Base 5.1.0 1
  _ZNK14QLocalePrivate16dateTimeToStringERK7QStringRK9QDateTimeRK5QDateRK5QTimePK7QLocale@Base 5.2.0~alpha1 1
- _ZNK14QLocalePrivate16longLongToStringExiiij@Base 5.0.2 1
- _ZNK14QLocalePrivate16stringToLongLongERK10QStringRefiPbNS_18GroupSeparatorModeE@Base 5.1.0 1
- _ZNK14QLocalePrivate16stringToLongLongERK7QStringiPbNS_18GroupSeparatorModeE@Base 5.0.2 1
  _ZNK14QLocalePrivate17measurementSystemEv@Base 5.0.2 1
- _ZNK14QLocalePrivate19stringToUnsLongLongERK10QStringRefiPbNS_18GroupSeparatorModeE@Base 5.1.0 1
- _ZNK14QLocalePrivate19stringToUnsLongLongERK7QStringiPbNS_18GroupSeparatorModeE@Base 5.0.2 1
- _ZNK14QLocalePrivate19unsLongLongToStringEyiiij@Base 5.0.2 1
  _ZNK14QLocalePrivate9bcp47NameEc@Base 5.1.0 1
+ _ZNK14QMessageLogger5debugEPFRK16QLoggingCategoryvE@Base 5.3.0
+ _ZNK14QMessageLogger5debugEPFRK16QLoggingCategoryvEPKcz@Base 5.3.0
  _ZNK14QMessageLogger5debugEPKcz@Base 5.0.2
+ _ZNK14QMessageLogger5debugERK16QLoggingCategory@Base 5.3.0
+ _ZNK14QMessageLogger5debugERK16QLoggingCategoryPKcz@Base 5.3.0
  _ZNK14QMessageLogger5debugEv@Base 5.0.2
  _ZNK14QMessageLogger5fatalEPKcz@Base 5.0.2
  _ZNK14QMessageLogger7noDebugEv@Base 5.0.2
+ _ZNK14QMessageLogger7warningEPFRK16QLoggingCategoryvE@Base 5.3.0
+ _ZNK14QMessageLogger7warningEPFRK16QLoggingCategoryvEPKcz@Base 5.3.0
  _ZNK14QMessageLogger7warningEPKcz@Base 5.0.2
+ _ZNK14QMessageLogger7warningERK16QLoggingCategory@Base 5.3.0
+ _ZNK14QMessageLogger7warningERK16QLoggingCategoryPKcz@Base 5.3.0
  _ZNK14QMessageLogger7warningEv@Base 5.0.2
+ _ZNK14QMessageLogger8criticalEPFRK16QLoggingCategoryvE@Base 5.3.0
+ _ZNK14QMessageLogger8criticalEPFRK16QLoggingCategoryvEPKcz@Base 5.3.0
  _ZNK14QMessageLogger8criticalEPKcz@Base 5.0.2
+ _ZNK14QMessageLogger8criticalERK16QLoggingCategory@Base 5.3.0
+ _ZNK14QMessageLogger8criticalERK16QLoggingCategoryPKcz@Base 5.3.0
  _ZNK14QMessageLogger8criticalEv@Base 5.0.2
  _ZNK14QMetaClassInfo4nameEv@Base 5.0.2
  _ZNK14QMetaClassInfo5valueEv@Base 5.0.2
  _ZNK14QObjectPrivate10senderListEv@Base 5.0.2 1
  _ZNK14QObjectPrivate11signalIndexEPKcPPK11QMetaObject@Base 5.0.2 1
  _ZNK14QObjectPrivate12receiverListEPKc@Base 5.0.2 1
- _ZNK14QObjectPrivate17senderSignalIndexEv@Base 5.0.2 1
  _ZNK14QObjectPrivate8isSenderEPK7QObjectPKc@Base 5.0.2 1
  _ZNK14QStringMatcher7indexInEPK5QCharii@Base 5.0.2
  _ZNK14QStringMatcher7indexInERK7QStringi@Base 5.0.2
@@ -4491,6 +4510,7 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZNK8QProcess7programEv@Base 5.0.2
  _ZNK8QProcess8exitCodeEv@Base 5.0.2
  _ZNK8QProcess9argumentsEv@Base 5.0.2
+ _ZNK8QProcess9processIdEv@Base 5.3.0
  _ZNK8QVariant10canConvertEi@Base 5.0.2
  _ZNK8QVariant10toBitArrayEv@Base 5.0.2
  _ZNK8QVariant10toDateTimeEv@Base 5.0.2
@@ -4769,6 +4789,7 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZNK9QtPrivate18ResultIteratorBase9batchSizeEv@Base 5.0.2
  _ZNK9QtPrivate18ResultIteratorBaseeqERKS0_@Base 5.0.2
  _ZNK9QtPrivate18ResultIteratorBaseneERKS0_@Base 5.0.2
+ (optional=templinst)_ZNSt11__copy_moveILb1ELb1ESt26random_access_iterator_tagE8__copy_mIiEEPT_PKS3_S6_S4_@Base 5.3.0
  (optional=templinst|arch=ia64)_ZNSt17_Temporary_bufferIP21QPersistentModelIndexS0_EC1ES1_S1_@Base 5.2.0
  (optional=templinst|arch=ia64)_ZNSt17_Temporary_bufferIP21QPersistentModelIndexS0_EC2ES1_S1_@Base 5.2.0
  (optional=templinst)_ZNSt17_Temporary_bufferIP21QPersistentModelIndexS0_ED1Ev@Base 5.0.2
@@ -4787,12 +4808,10 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  (optional=templinst|arch=ia64)_ZSt10__pop_heapIP5QPairId8QVariantEPFbRKS2_S5_EEvT_S8_S8_T0_@Base 5.2.0
  (optional=templinst|arch=ia64)_ZSt11__push_heapIN5QListI5QPairI7QStringiEE8iteratorExS3_PFbRKS3_S7_EEvT_T0_SB_T1_T2_@Base 5.2.0
  (optional=templinst|arch=ia64)_ZSt11__push_heapIP12QDirSortItemlS0_22QDirSortItemComparatorEvT_T0_S4_T1_T2_@Base 5.2.0
- (optional=templinst)_ZSt11lower_boundIP21QPersistentModelIndexS0_ET_S2_S2_RKT0_@Base 5.0.2
  (optional=templinst|arch=ia64)_ZSt11lower_boundIP5QPairI21QPersistentModelIndexjES2_ET_S4_S4_RKT0_@Base 5.2.0
  (optional=templinst|arch=ia64)_ZSt11lower_boundIP5QPairIiiES1_ET_S3_S3_RKT0_@Base 5.2.0
  (optional=templinst|arch=ia64)_ZSt11stable_sortIP21QPersistentModelIndexEvT_S2_@Base 5.2.0
  (optional=templinst|arch=ia64)_ZSt11stable_sortIP5QPairI21QPersistentModelIndexjEEvT_S4_@Base 5.2.0
- (optional=templinst)_ZSt11upper_boundIP21QPersistentModelIndexS0_ET_S2_S2_RKT0_@Base 5.0.2
  (optional=templinst|arch=ia64)_ZSt11upper_boundIP5QPairI21QPersistentModelIndexjES2_ET_S4_S4_RKT0_@Base 5.2.0
  (optional=templinst|arch=ia64)_ZSt11upper_boundIP5QPairIiiES1_ET_S3_S3_RKT0_@Base 5.2.0
  (optional=templinst)_ZSt12__move_mergeIP21QPersistentModelIndexS1_S1_ET1_T_S3_T0_S4_S2_@Base 5.0.2
@@ -4800,7 +4819,6 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  (optional=templinst|arch=ia64)_ZSt12__move_mergeIP5QPairIiiES2_S2_ET1_T_S4_T0_S5_S3_@Base 5.2.0
  (optional=templinst|arch=ia64)_ZSt12__move_mergeIPiS0_S0_29QSortFilterProxyModelLessThanET1_T_S3_T0_S4_S2_T2_@Base 5.2.0
  (optional=templinst|arch=ia64)_ZSt12__move_mergeIPiS0_S0_32QSortFilterProxyModelGreaterThanET1_T_S3_T0_S4_S2_T2_@Base 5.2.0
- (optional=templinst)_ZSt12__move_mergeIPiS0_S0_ET1_T_S2_T0_S3_S1_@Base 5.0.2
  (optional=templinst|arch=ia64)_ZSt13__adjust_heapIN5QListI10QByteArrayE8iteratorExS1_EvT_T0_S5_T1_@Base 5.2.0
  (optional=templinst|arch=ia64)_ZSt13__adjust_heapIN5QListI5QPairI7QStringiEE8iteratorExS3_PFbRKS3_S7_EEvT_T0_SB_T1_T2_@Base 5.2.0
  (optional=templinst|arch=ia64)_ZSt13__adjust_heapIN5QListI7QStringE8iteratorExS1_EvT_T0_S5_T1_@Base 5.2.0
@@ -4849,7 +4867,6 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  (optional=templinst|arch=ia64)_ZSt16__merge_adaptiveIPilS0_32QSortFilterProxyModelGreaterThanEvT_S2_S2_T0_S3_T1_S3_T2_@Base 5.2.0
  (optional=templinst|subst|arch=!s390)_ZSt16__merge_adaptiveIPi{ssize_t}S0_EvT_S1_S1_T0_S2_T1_S2_@Base 5.0.2
  (optional=templinst|arch=armel hurd-i386 i386 s390)_ZSt17__merge_sort_loopIP21QPersistentModelIndexS1_iEvT_S2_T0_T1_@Base 5.1.0
- (optional=templinst|subst|arch=!s390)_ZSt17__merge_sort_loopIP21QPersistentModelIndexS1_{ssize_t}EvT_S2_T0_T1_@Base 5.0.2
  (optional=templinst|arch=powerpc s390)_ZSt17__merge_sort_loopIP5QPairI21QPersistentModelIndexjES3_iEvT_S4_T0_T1_@Base 5.0.2
  (optional=templinst|arch=ia64)_ZSt17__merge_sort_loopIP5QPairI21QPersistentModelIndexjES3_lEvT_S4_T0_T1_@Base 5.2.0
  (optional=templinst|arch=s390)_ZSt17__merge_sort_loopIP5QPairIiiES2_iEvT_S3_T0_T1_@Base 5.0.2
@@ -4876,7 +4893,6 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  (optional=templinst|arch=ia64)_ZSt19__move_median_firstIP12QDirSortItem22QDirSortItemComparatorEvT_S3_S3_T0_@Base 5.2.0
  (optional=templinst|arch=ia64)_ZSt19__move_median_firstIP15QSettingsIniKeyEvT_S2_S2_@Base 5.2.0
  (optional=templinst|arch=ia64)_ZSt19__move_median_firstIP5QPairId8QVariantEPFbRKS2_S5_EEvT_S8_S8_T0_@Base 5.2.0
- (optional=templinst|arch=!alpha !armel !armhf !hurd-i386 !i386 !ia64 !kfreebsd-i386 !mips !mipsel !powerpc !powerpcspe !ppc64 !s390 !s390x|subst)_ZSt20get_temporary_bufferI21QPersistentModelIndexESt4pairIPT_{ssize_t}E{ssize_t}@Base 5.0.2
  (optional=templinst)_ZSt21__inplace_stable_sortIP21QPersistentModelIndexEvT_S2_@Base 5.0.2
  (optional=templinst|arch=ia64)_ZSt21__inplace_stable_sortIP5QPairI21QPersistentModelIndexjEEvT_S4_@Base 5.2.0
  (optional=templinst|arch=ia64)_ZSt21__inplace_stable_sortIP5QPairIiiEEvT_S3_@Base 5.2.0
@@ -5276,6 +5292,7 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _Zls6QDebugRK8QVariant@Base 5.0.2
  _Zls6QDebugRK9QBitArray@Base 5.0.2
  _Zls6QDebugRK9QDateTime@Base 5.0.2
+ _Zls6QDebugRK9QMarginsF@Base 5.3.0
  _Zls6QDebugRK9QTimeZone@Base 5.2.0~alpha1
  _ZlsR11QDataStream5QChar@Base 5.0.2
  _ZlsR11QDataStreamN8QVariant4TypeE@Base 5.0.2
@@ -5301,6 +5318,7 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZlsR11QDataStreamRK8QVariant@Base 5.0.2
  _ZlsR11QDataStreamRK9QBitArray@Base 5.0.2
  _ZlsR11QDataStreamRK9QDateTime@Base 5.0.2
+ _ZlsR11QDataStreamRK9QMarginsF@Base 5.3.0
  _ZlsR11QDataStreamRK9QTimeZone@Base 5.2.0~alpha1
  _ZltRK10QStringRefS1_@Base 5.0.2
  _ZltRK13QElapsedTimerS1_@Base 5.0.2
@@ -5329,6 +5347,7 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZrsR11QDataStreamR8QVariant@Base 5.0.2
  _ZrsR11QDataStreamR9QBitArray@Base 5.0.2
  _ZrsR11QDataStreamR9QDateTime@Base 5.0.2
+ _ZrsR11QDataStreamR9QMarginsF@Base 5.3.0
  _ZrsR11QDataStreamR9QTimeZone@Base 5.2.0~alpha1
  _ZrsR11QDataStreamRN8QVariant4TypeE@Base 5.0.2
  qMetaObjectWidgetsHelper@Base 5.0.2

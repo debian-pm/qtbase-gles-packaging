@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.2.1 sparc64
+# SymbolsHelper-Confirmed: 5.3.0 amd64
 libQt5Test.so.5 libqt5test5 #MINVER#
 | libqt5test5 #MINVER#, qtbase-abi-5-2-1
  _ZN10QTestTable15globalTestTableEv@Base 5.0.2 1
@@ -64,6 +64,7 @@ libQt5Test.so.5 libqt5test5 #MINVER#
  _ZN5QTest11qGlobalDataEPKci@Base 5.0.2
  _ZN5QTest12qElementDataEPKci@Base 5.0.2
  _ZN5QTest13ignoreMessageE9QtMsgTypePKc@Base 5.0.2
+ _ZN5QTest13ignoreMessageE9QtMsgTypeRK18QRegularExpression@Base 5.3.0
  _ZN5QTest13qFindTestDataEPKcS1_iS1_@Base 5.0.2
  _ZN5QTest13qFindTestDataERK7QStringPKciS4_@Base 5.0.2
  _ZN5QTest13testFunctionsE@Base 5.0.2
@@ -71,6 +72,7 @@ libQt5Test.so.5 libqt5test5 #MINVER#
  _ZN5QTest14currentAppNameEv@Base 5.2.0~beta1
  _ZN5QTest14currentDataTagEv@Base 5.0.2
  _ZN5QTest15defaultKeyDelayEv@Base 5.0.2
+ _ZN5QTest15toPrettyUnicodeEPKti@Base 5.3.0
  _ZN5QTest16qtest_qParseArgsEiPPcb@Base 5.0.2
  _ZN5QTest17addColumnInternalEiPKc@Base 5.0.2
  _ZN5QTest17currentTestFailedEv@Base 5.0.2
@@ -121,6 +123,7 @@ libQt5Test.so.5 libqt5test5 #MINVER#
  _ZN8QTestLog12startLoggingEv@Base 5.0.2 1
  _ZN8QTestLog12verboseLevelEv@Base 5.0.2 1
  _ZN8QTestLog13ignoreMessageE9QtMsgTypePKc@Base 5.0.2 1
+ _ZN8QTestLog13ignoreMessageE9QtMsgTypeRK18QRegularExpression@Base 5.3.0
  _ZN8QTestLog13resetCountersEv@Base 5.0.2 1
  _ZN8QTestLog14setMaxWarningsEi@Base 5.0.2 1
  _ZN8QTestLog15setVerboseLevelEi@Base 5.0.2 1
