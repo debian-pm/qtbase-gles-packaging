@@ -246,7 +246,7 @@ libQt5OpenGL.so.5 libqt5opengl5 #MINVER#
  _ZN17QGL2PaintEngineEx12brushChangedEv@Base 5.0.2 1
  _ZN17QGL2PaintEngineEx12drawTextItemERK7QPointFRK9QTextItem@Base 5.0.2 1
  _ZN17QGL2PaintEngineEx12ensureActiveEv@Base 5.0.2 1
- _ZN17QGL2PaintEngineEx13setTranslateZEf@Base 5.3.0
+ _ZN17QGL2PaintEngineEx13setTranslateZEf@Base 5.3.0 1
  _ZN17QGL2PaintEngineEx14opacityChangedEv@Base 5.0.2 1
  _ZN17QGL2PaintEngineEx15invalidateStateEv@Base 5.0.2 1
  _ZN17QGL2PaintEngineEx16transformChangedEv@Base 5.0.2 1
@@ -307,8 +307,8 @@ libQt5OpenGL.so.5 libqt5opengl5 #MINVER#
  _ZN20QGLTextureGlyphCache17createTextureDataEii@Base 5.0.2 1
  _ZN20QGLTextureGlyphCache17resizeTextureDataEii@Base 5.0.2 1
  _ZN20QGLTextureGlyphCache5clearEv@Base 5.0.2 1
- _ZN20QGLTextureGlyphCacheC1EN11QFontEngine11GlyphFormatERK10QTransform@Base 5.3.0
- _ZN20QGLTextureGlyphCacheC2EN11QFontEngine11GlyphFormatERK10QTransform@Base 5.3.0
+ _ZN20QGLTextureGlyphCacheC1EN11QFontEngine11GlyphFormatERK10QTransform@Base 5.3.0 1
+ _ZN20QGLTextureGlyphCacheC2EN11QFontEngine11GlyphFormatERK10QTransform@Base 5.3.0 1
  _ZN20QGLTextureGlyphCacheD0Ev@Base 5.0.2 1
  _ZN20QGLTextureGlyphCacheD1Ev@Base 5.0.2 1
  _ZN20QGLTextureGlyphCacheD2Ev@Base 5.0.2 1

@@ -123,7 +123,7 @@ libQt5Test.so.5 libqt5test5 #MINVER#
  _ZN8QTestLog12startLoggingEv@Base 5.0.2 1
  _ZN8QTestLog12verboseLevelEv@Base 5.0.2 1
  _ZN8QTestLog13ignoreMessageE9QtMsgTypePKc@Base 5.0.2 1
- _ZN8QTestLog13ignoreMessageE9QtMsgTypeRK18QRegularExpression@Base 5.3.0
+ _ZN8QTestLog13ignoreMessageE9QtMsgTypeRK18QRegularExpression@Base 5.3.0 1
  _ZN8QTestLog13resetCountersEv@Base 5.0.2 1
  _ZN8QTestLog14setMaxWarningsEi@Base 5.0.2 1
  _ZN8QTestLog15setVerboseLevelEi@Base 5.0.2 1

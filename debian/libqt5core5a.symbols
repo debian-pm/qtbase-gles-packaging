@@ -1123,8 +1123,8 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZN16QMetaStringTable5enterERK10QByteArray@Base 5.0.2 1
  _ZN16QMetaStringTableC1ERK10QByteArray@Base 5.2.1 1
  _ZN16QMetaStringTableC2ERK10QByteArray@Base 5.2.1 1
- (arch=ia64)_ZN16QMetaStringTableD1Ev@Base 5.2.1
- (arch=ia64)_ZN16QMetaStringTableD2Ev@Base 5.2.1
+ (arch=ia64)_ZN16QMetaStringTableD1Ev@Base 5.2.1 1
+ (arch=ia64)_ZN16QMetaStringTableD2Ev@Base 5.2.1 1
  _ZN16QSegfaultHandler10initializeEPPci@Base 5.0.2 1
  _ZN16QSegfaultHandler8callbackE@Base 5.0.2 1
  _ZN16QStringListModel10insertRowsEiiRK11QModelIndex@Base 5.0.2
@@ -2001,7 +2001,7 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZN23QCoreApplicationPrivate10mainThreadEv@Base 5.0.2 1
  _ZN23QCoreApplicationPrivate13checkInstanceEPKc@Base 5.0.2 1
  _ZN23QCoreApplicationPrivate13notify_helperEP7QObjectP6QEvent@Base 5.0.2 1
- _ZN23QCoreApplicationPrivate13setuidAllowedE@Base 5.3.0
+ _ZN23QCoreApplicationPrivate13setuidAllowedE@Base 5.3.0 1
  _ZN23QCoreApplicationPrivate13theMainThreadE@Base 5.0.2 1
  _ZN23QCoreApplicationPrivate14is_app_closingE@Base 5.0.2 1
  _ZN23QCoreApplicationPrivate14is_app_runningE@Base 5.0.2 1
@@ -2010,7 +2010,7 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZN23QCoreApplicationPrivate17cleanupThreadDataEv@Base 5.0.2 1
  _ZN23QCoreApplicationPrivate17removePostedEventEP6QEvent@Base 5.0.2 1
  _ZN23QCoreApplicationPrivate19app_compile_versionE@Base 5.0.2 1
- _ZN23QCoreApplicationPrivate19checkReceiverThreadEP7QObject@Base 5.3.0
+ _ZN23QCoreApplicationPrivate19checkReceiverThreadEP7QObject@Base 5.3.0 1
  _ZN23QCoreApplicationPrivate20eventDispatcherReadyEv@Base 5.2.0~beta1 1
  _ZN23QCoreApplicationPrivate21createEventDispatcherEv@Base 5.0.2 1
  _ZN23QCoreApplicationPrivate21isTranslatorInstalledEP11QTranslator@Base 5.0.2 1
