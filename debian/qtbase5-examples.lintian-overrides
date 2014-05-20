@@ -1,4 +1,4 @@
-# the images are part of the examples
+# The images are part of the examples
 qtbase5-examples: image-file-in-usr-lib
 # This is an HTML file shipped just to be parsed by an example which
 # does not renders nor retrieves anything from the HTML page at all.
