@@ -1,4 +1,4 @@
-qtbase-opensource-src (5.2.1+dfsg-4) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.3.0+dfsg-1) UNRELEASED; urgency=medium
 
   [ Timo Jyrinki ]
   * Make qt5-qmake Multi-Arch: same since it moved from shipping files in
@@ -10,6 +10,7 @@ qtbase-opensource-src (5.2.1+dfsg-4) UNRELEASED; urgency=medium
   * Add arm64 to no_pch_architectures.
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
+  * New upstream release.
   * Install the headers in a Multi-Arch qualified directory (Closes: #734677).
     - Fix related install files.
     - Mark qtbase5-dev, qtbase5-private-dev and libqt5opengl5-dev
