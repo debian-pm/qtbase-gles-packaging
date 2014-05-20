@@ -1,6 +1,6 @@
 # SymbolsHelper-Confirmed: 5.3.0 amd64
 libQt5DBus.so.5 libqt5dbus5 #MINVER#
-| libqt5dbus5 #MINVER#, qtbase-abi-5-2-1
+| libqt5dbus5 #MINVER#, qtbase-abi-5-3-0
  _Z14qDBusReplyFillRK12QDBusMessageR10QDBusErrorR8QVariant@Base 5.0.2
  _Z15qDBusAddSpyHookPFvRK12QDBusMessageE@Base 5.0.2
  _Z18qDBusCheckAsyncTagPKc@Base 5.1.0
