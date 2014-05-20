@@ -33,6 +33,9 @@ qtbase-opensource-src (5.3.0+dfsg-1) UNRELEASED; urgency=medium
   * Bump qtbase-abi to qtbase-abi-5-3-0 due to private symbols changes.
   * Make qtbase5-dev-tools-dbg Multi-Arch: same due to qt5-qmake also becoming
     Multi-Arch: same.
+  * Add a lintian override for qtbase5-examples: there is no possibility of
+    privacy breach in the way trolltech_com.html is used, as it is just parsed,
+    but not rendered nor any of the things it points at it's retrieved.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 29 Mar 2014 10:10:09 -0300
 
