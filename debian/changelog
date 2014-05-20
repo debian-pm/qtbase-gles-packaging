@@ -19,6 +19,7 @@ qtbase-opensource-src (5.3.0+dfsg-1) UNRELEASED; urgency=medium
     it's just a false positive coming from the fact that the documentation is
     listing the license, but it's really not licensed under the RFC license.
   * Update symbols files with buildds' logs.
+  * Refresh hurd_opengl_incldir.diff.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 29 Mar 2014 10:10:09 -0300
 
