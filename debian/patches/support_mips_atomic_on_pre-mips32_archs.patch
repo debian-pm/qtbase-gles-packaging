@@ -20,14 +20,12 @@ doesn't choke on it.
 
 Change-Id: I9cc984bd55b5f172736ce9e638a6f4e271b79fe7
 ---
- src/corelib/arch/qatomic_mips.h | 10 ++++++++--
+ src/corelib/arch/qatomic_mips.h |   10 ++++++++--
  1 file changed, 8 insertions(+), 2 deletions(-)
 
-diff --git a/src/corelib/arch/qatomic_mips.h b/src/corelib/arch/qatomic_mips.h
-index 6eb9613..dab72a2 100644
 --- a/src/corelib/arch/qatomic_mips.h
 +++ b/src/corelib/arch/qatomic_mips.h
-@@ -119,13 +119,19 @@ template <typename T> struct QAtomicOps : QBasicAtomicOps<sizeof(T)>
+@@ -110,13 +110,19 @@ template <typename T> struct QAtomicOps
  template <int size> template <typename T> inline
  void QBasicAtomicOps<size>::acquireMemoryFence(const T &) Q_DECL_NOTHROW
  {
@@ -49,6 +47,3 @@ index 6eb9613..dab72a2 100644
  }
  
  template <int size> template <typename T> inline
--- 
-1.8.4.2
-
