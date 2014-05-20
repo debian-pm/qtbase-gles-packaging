@@ -4,9 +4,13 @@ Description: Support atomic on pre-MIPS32 archs, also in orderedMemoryFence
 Last-Update: 2013-12-20
 Forwarded: no
 
+---
+ src/corelib/arch/qatomic_mips.h |    5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
 --- a/src/corelib/arch/qatomic_mips.h
 +++ b/src/corelib/arch/qatomic_mips.h
-@@ -137,7 +137,10 @@ void QBasicAtomicOps<size>::releaseMemor
+@@ -128,7 +128,10 @@ void QBasicAtomicOps<size>::releaseMemor
  template <int size> template <typename T> inline
  void QBasicAtomicOps<size>::orderedMemoryFence(const T &) Q_DECL_NOTHROW
  {

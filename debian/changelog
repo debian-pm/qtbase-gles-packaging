@@ -22,6 +22,7 @@ qtbase-opensource-src (5.3.0+dfsg-1) UNRELEASED; urgency=medium
   * Refresh patches:
     - hurd_opengl_incldir.diff
     - support_mips_atomic_on_pre-mips32_archs.patch
+    - qatomic_mips.h
   * Remove fix_power_atomic_code.patch, the code it patches has been removed.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 29 Mar 2014 10:10:09 -0300
