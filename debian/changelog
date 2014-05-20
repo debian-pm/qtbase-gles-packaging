@@ -17,6 +17,7 @@ qtbase-opensource-src (5.2.1+dfsg-4) UNRELEASED; urgency=medium
   * Override Lintian warning about torrent.qdoc being under an RFC license,
     it's just a false positive coming from the fact that the documentation is
     listing the license, but it's really not licensed under the RFC license.
+  * Update symbols files with buildds' logs.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 29 Mar 2014 10:10:09 -0300
 

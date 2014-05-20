@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.2.1 amd64 ia64
+# SymbolsHelper-Confirmed: 5.2.1 amd64 ia64 sparc64
 libQt5Core.so.5 libqt5core5a #MINVER#
 | libqt5core5a #MINVER#, qtbase-abi-5-2-1
  _Z10forcepointR11QTextStream@Base 5.0.2
@@ -11,7 +11,7 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  (arch=hurd-i386 i386 kfreebsd-i386)_Z10qvsnprintfPcjPKcS_@Base 5.2.0
  (arch=armel armhf)_Z10qvsnprintfPcjPKcSt9__va_list@Base 5.2.0
  (arch=alpha)_Z10qvsnprintfPcmPKc13__va_list_tag@Base 5.1.0
- (arch=ia64)_Z10qvsnprintfPcmPKcPv@Base 5.0.2
+ (arch=ia64 sparc64)_Z10qvsnprintfPcmPKcPv@Base 5.2.1
  (arch=ppc64)_Z10qvsnprintfPcmPKcS_@Base 5.0.2
  (arch=amd64 kfreebsd-amd64 powerpc powerpcspe s390 s390x|subst)_Z10qvsnprintfPc{size_t}PKcP13__va_list_tag@Base 5.2.0
  _Z10scientificR11QTextStream@Base 5.0.2
@@ -2623,7 +2623,7 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  (arch=alpha)_ZN7QString8vsprintfEPKc13__va_list_tag@Base 5.1.0
  (arch=amd64 kfreebsd-amd64 powerpc powerpcspe s390 s390x)_ZN7QString8vsprintfEPKcP13__va_list_tag@Base 5.2.0
  (arch=hurd-i386 i386 kfreebsd-i386 ppc64)_ZN7QString8vsprintfEPKcPc@Base 5.2.0
- (arch=hppa ia64 mips mipsel)_ZN7QString8vsprintfEPKcPv@Base 5.2.0
+ (arch=hppa ia64 mips mipsel sparc64)_ZN7QString8vsprintfEPKcPv@Base 5.2.1
  (arch=armel armhf)_ZN7QString8vsprintfEPKcSt9__va_list@Base 5.2.0
  _ZN7QString9fromUtf16EPKti@Base 5.0.2
  _ZN7QStringC1E5QChar@Base 5.0.2
@@ -2932,7 +2932,7 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZN9QHashData6rehashEi@Base 5.0.2
  _ZN9QHashData8freeNodeEPv@Base 5.0.2
  _ZN9QHashData8nextNodeEPNS_4NodeE@Base 5.0.2
- (arch=alpha armel armhf hppa ia64 mips mipsel ppc64 s390x)_ZN9QHashData9hasShrunkEv@Base 5.2.0
+ (arch=alpha armel armhf hppa ia64 mips mipsel ppc64 s390x sparc64)_ZN9QHashData9hasShrunkEv@Base 5.2.1
  _ZN9QIODevice11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN9QIODevice11qt_metacastEPKc@Base 5.0.2
  _ZN9QIODevice11setOpenModeE6QFlagsINS_12OpenModeFlagEE@Base 5.0.2

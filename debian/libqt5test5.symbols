@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.2.0 alpha amd64 armel hppa hurd-i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 s390x sparc
+# SymbolsHelper-Confirmed: 5.2.1 sparc64
 libQt5Test.so.5 libqt5test5 #MINVER#
 | libqt5test5 #MINVER#, qtbase-abi-5-2-1
  _ZN10QTestTable15globalTestTableEv@Base 5.0.2 1
@@ -167,12 +167,7 @@ libQt5Test.so.5 libqt5test5 #MINVER#
  (optional=templinst|arch=ia64)_ZSt11__push_heapIN5QListI16QBenchmarkResultE8iteratorExS1_EvT_T0_S5_T1_@Base 5.2.0
  (optional=templinst|arch=sparc)_ZSt13__adjust_heapIN5QListI16QBenchmarkResultE8iteratorEiS1_EvT_T0_S5_T1_@Base 5.2.0~beta1
  (optional=templinst|arch=ia64)_ZSt13__adjust_heapIN5QListI16QBenchmarkResultE8iteratorExS1_EvT_T0_S5_T1_@Base 5.2.0
- (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !s390x)_ZSt16__insertion_sortIN5QListI16QBenchmarkResultE8iteratorEEvT_S4_@Base 5.2.0~beta1
  (optional=templinst|arch=ia64 sparc)_ZSt16__introsort_loopIN5QListI16QBenchmarkResultE8iteratorEiEvT_S4_T0_@Base 5.2.0
- (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !s390x)_ZSt19__move_median_firstIN5QListI16QBenchmarkResultE8iteratorEEvT_S4_S4_@Base 5.2.0~beta1
- (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !s390x)_ZSt21__unguarded_partitionIN5QListI16QBenchmarkResultE8iteratorES1_ET_S4_S4_RKT0_@Base 5.2.0~beta1
- (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !s390x)_ZSt25__unguarded_linear_insertIN5QListI16QBenchmarkResultE8iteratorEEvT_@Base 5.2.0~beta1
- (optional=templinst|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !s390x)_ZSt9make_heapIN5QListI16QBenchmarkResultE8iteratorEEvT_S4_@Base 5.2.0~beta1
  _ZTI14QTestEventLoop@Base 5.0.2
  _ZTS14QTestEventLoop@Base 5.0.2
  _ZTV14QTestEventLoop@Base 5.0.2
