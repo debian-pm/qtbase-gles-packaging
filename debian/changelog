@@ -27,6 +27,7 @@ qtbase-opensource-src (5.3.0+dfsg-1) UNRELEASED; urgency=medium
   * Remove patches:
     - fix_power_atomic_code.patch, the code it patches has been removed.
     - enable_s390_detection.patch, applied upstream.
+    - change_sparc_qatomic.patch, the code it patches has been removed.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 29 Mar 2014 10:10:09 -0300
 

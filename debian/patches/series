@@ -6,5 +6,4 @@ enable_sparc_detection.patch
 do_not_pass_wcast-align_on_sparc.patch
 
 # Debian specific.
-change_sparc_qatomic.patch
 remove_google_adsense.patch
