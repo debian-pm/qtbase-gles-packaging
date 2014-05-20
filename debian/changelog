@@ -11,6 +11,7 @@ qtbase-opensource-src (5.3.0+dfsg-1) UNRELEASED; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
+    - Fixes CVE-2014-0190.
   * Install the headers in a Multi-Arch qualified directory (Closes: #734677).
     - Fix related install files.
     - Mark qtbase5-dev, qtbase5-private-dev and libqt5opengl5-dev
