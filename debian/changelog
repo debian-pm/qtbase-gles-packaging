@@ -31,6 +31,8 @@ qtbase-opensource-src (5.3.0+dfsg-1) UNRELEASED; urgency=medium
     - change_sparc_qatomic.patch, the code it patches has been removed.
   * Adjust install files.
   * Bump qtbase-abi to qtbase-abi-5-3-0 due to private symbols changes.
+  * Make qtbase5-dev-tools-dbg Multi-Arch: same due to qt5-qmake also becoming
+    Multi-Arch: same.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 29 Mar 2014 10:10:09 -0300
 
