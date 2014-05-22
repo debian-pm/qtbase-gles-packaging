@@ -13,6 +13,7 @@ License: BSD-3-clause
 
 Files: debian/mark_private_symbols.sh
 Copyright: 2013 Sune Vuorela <sune@debian.org>
+           2014 Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
 License: Expat
 
 Files: debian/*

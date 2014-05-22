@@ -1,5 +1,11 @@
 qtbase-opensource-src (5.3.0+dfsg-3) UNRELEASED; urgency=medium
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Search for private symbols at build time and produce a diff so as to be
+    able to get the changes from build logs.
+    - Modify mark_private_symbols.sh.
+    - Run mark_private_symbols.sh from debian/rules.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 22 May 2014 00:31:54 -0300
 
 qtbase-opensource-src (5.3.0+dfsg-2) experimental; urgency=medium

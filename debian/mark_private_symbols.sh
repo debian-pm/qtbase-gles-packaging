@@ -1,5 +1,6 @@
 #! /bin/sh
 # Copyright (c) 2013 Sune Vuorela <sune@debian.org>
+# Copyright (c) 2014 Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
 #
 # Permission is hereby granted, free of charge, to any person obtaining
 # a copy of this software and associated documentation files (the
@@ -20,7 +21,11 @@
 # TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 # SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-PRIVATE_HEADERS=qtbase5-private-dev/usr/include
+# Usage:
+# Define DEBUG to see which symbols is being processed.
+# Define WRITERESULTS to actually mark the real symbols files.
+
+PRIVATE_HEADERS=debian/qtbase5-private-dev/usr/include
 
 error() {
 	echo $@
@@ -36,6 +41,15 @@ then
 	error "Private headers not found"
 fi
 
+if [ ! -n "${WRITERESULTS}" ]
+then
+	# Create a backup copy of the original symbols file.
+	for symbols_file in `ls debian/*.symbols`
+	do
+		cp $symbols_file $symbols_file.mps
+	done
+fi
+
 grep -rh class ${PRIVATE_HEADERS} |
 	grep EXPORT | 
 	while read class export classname rest 
@@ -44,7 +58,20 @@ grep -rh class ${PRIVATE_HEADERS} |
 	done | 
 	while read privateclass 
 	do
-		debug marking ${privateclass} as private
-		sed -i "s/\(.*${privateclass}[^ ]* *[^ ]*\)$/\1 1/" *.symbols 
+		debug Marking ${privateclass} as private
+		if [ -n "${WRITERESULTS}" ]
+		then
+			sed -i "s/\(.*${privateclass}[^ ]* *[^ ]*\)$/\1 1/" debian/*.symbols
+		else
+			sed -i "s/\(.*${privateclass}[^ ]* *[^ ]*\)$/\1 1/" debian/*.symbols.mps
+		fi
 	done 
 
+if [ ! -n "${WRITERESULTS}" ]
+then
+	# Diff the symbols files and output it's differences.
+	for symbols_file in `ls debian/*.symbols`
+	do
+		diff -Nau $symbols_file $symbols_file.mps
+	done
+fi
