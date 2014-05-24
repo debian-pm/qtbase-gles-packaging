@@ -6,6 +6,10 @@ qtbase-opensource-src (5.3.0+dfsg-3) UNRELEASED; urgency=medium
     - Modify mark_private_symbols.sh.
     - Run mark_private_symbols.sh from debian/rules.
   * Do not override dh_builddeb: xz compression is now the default method.
+  * Backport Remove-Wcast-align-from-QMAKE_CXXFLAGS.patch. This totally
+    disables -Wcast-align (Closes: #744311).
+    - Remove do_not_pass_wcast-align_on_sparc.patch, it s now not needed
+      anymore.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 22 May 2014 00:31:54 -0300
 

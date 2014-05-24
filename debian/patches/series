@@ -3,7 +3,7 @@ support_mips_atomic_on_pre-mips32_archs.patch
 mips_more_pre-mips32.diff
 gnukfreebsd.diff
 enable_sparc_detection.patch
-do_not_pass_wcast-align_on_sparc.patch
+Remove-Wcast-align-from-QMAKE_CXXFLAGS.patch
 
 # Debian specific.
 remove_google_adsense.patch
