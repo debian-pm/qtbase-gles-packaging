@@ -10,6 +10,7 @@ qtbase-opensource-src (5.3.0+dfsg-3) UNRELEASED; urgency=medium
     disables -Wcast-align (Closes: #744311).
     - Remove do_not_pass_wcast-align_on_sparc.patch, it s now not needed
       anymore.
+  * Update symbols files with buildds' logs.
 
   [ Peter Michael Green ]
   * arm64 changes cherry picked from ubuntu (Closes: #750047).

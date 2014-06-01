@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.3.0 amd64
+# SymbolsHelper-Confirmed: 5.3.0 alpha amd64 armhf hppa mips mipsel powerpc ppc64 s390x
 libQt5Widgets.so.5 libqt5widgets5 #MINVER#
 | libqt5widgets5 #MINVER#, qtbase-abi-5-3-0
  _Z11qFadeEffectP7QWidgeti@Base 5.0.2
@@ -262,8 +262,8 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN10QTableViewD0Ev@Base 5.0.2
  _ZN10QTableViewD1Ev@Base 5.0.2
  _ZN10QTableViewD2Ev@Base 5.0.2
- (arch=alpha armel armhf hppa mips mipsel s390x)_ZN10QTransformC1ERKS_@Base 5.2.0
- (arch=alpha armel armhf hppa mips mipsel s390x)_ZN10QTransformC2ERKS_@Base 5.2.0
+ (arch=alpha armel armhf hppa mips mipsel powerpc ppc64 s390x)_ZN10QTransformC1ERKS_@Base 5.3.0
+ (arch=alpha armel armhf hppa mips mipsel powerpc ppc64 s390x)_ZN10QTransformC2ERKS_@Base 5.3.0
  _ZN10QUndoGroup11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN10QUndoGroup11qt_metacastEPKc@Base 5.0.2
  _ZN10QUndoGroup11removeStackEP10QUndoStack@Base 5.0.2
@@ -2501,7 +2501,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN16QAbstractSpinBoxD0Ev@Base 5.0.2
  _ZN16QAbstractSpinBoxD1Ev@Base 5.0.2
  _ZN16QAbstractSpinBoxD2Ev@Base 5.0.2
- (arch=alpha armel armhf hppa mips mipsel powerpc s390x)_ZN16QCoreApplication9sendEventEP7QObjectP6QEvent@Base 5.2.1
+ (arch=alpha armel armhf hppa mips mipsel powerpc ppc64 s390x)_ZN16QCoreApplication9sendEventEP7QObjectP6QEvent@Base 5.3.0
  _ZN16QDialogButtonBox11changeEventEP6QEvent@Base 5.0.2
  _ZN16QDialogButtonBox11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN16QDialogButtonBox11qt_metacastEPKc@Base 5.0.2
@@ -3849,7 +3849,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN24QStyleOptionGraphicsItemC1Ev@Base 5.0.2
  _ZN24QStyleOptionGraphicsItemC2Ei@Base 5.0.2
  _ZN24QStyleOptionGraphicsItemC2Ev@Base 5.0.2
- (arch=alpha armel armhf hppa mips mipsel s390x sparc)_ZN24QStyleOptionGraphicsItemaSERKS_@Base 5.2.0
+ (arch=alpha armel armhf hppa mips mipsel powerpc ppc64 s390x sparc)_ZN24QStyleOptionGraphicsItemaSERKS_@Base 5.3.0
  _ZN25QAbstractItemModelPrivateD0Ev@Base 5.0.2 1
  _ZN25QAbstractItemModelPrivateD1Ev@Base 5.0.2 1
  _ZN25QAbstractItemModelPrivateD2Ev@Base 5.0.2 1
@@ -4692,8 +4692,8 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN8QToolTip8showTextERK6QPointRK7QStringP7QWidgetRK5QRect@Base 5.0.2
  _ZN8QToolTip8showTextERK6QPointRK7QStringP7QWidgetRK5QRecti@Base 5.2.0~alpha1
  _ZN8QToolTip9isVisibleEv@Base 5.0.2
- (arch=alpha armel armhf hppa ia64 mips mipsel powerpcspe ppc64 s390 s390x sparc)_ZN9QBitArray6setBitEib@Base 5.2.0
- (arch=!ia64 !powerpcspe !s390 !sparc)_ZN9QBitArray8clearBitEi@Base 5.2.0
+ (arch=!amd64 !armhf !mips !mipsel)_ZN9QBitArray6setBitEi@Base 5.3.0
+ (arch=!armhf !ia64 !powerpcspe !s390 !sparc)_ZN9QBitArray8clearBitEi@Base 5.2.0
  _ZN9QCheckBox10paintEventEP11QPaintEvent@Base 5.0.2
  _ZN9QCheckBox11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN9QCheckBox11qt_metacastEPKc@Base 5.0.2
@@ -4825,7 +4825,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN9QDirModelD0Ev@Base 5.0.2
  _ZN9QDirModelD1Ev@Base 5.0.2
  _ZN9QDirModelD2Ev@Base 5.0.2
- (arch=armel armhf)_ZN9QGradientaSEOS_@Base 5.2.0~beta1
+ (arch=armel hppa)_ZN9QGradientaSEOS_@Base 5.3.0
  _ZN9QGroupBox10childEventEP11QChildEvent@Base 5.0.2
  _ZN9QGroupBox10paintEventEP11QPaintEvent@Base 5.0.2
  _ZN9QGroupBox10setCheckedEb@Base 5.0.2

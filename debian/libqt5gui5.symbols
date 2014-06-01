@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.3.0 amd64
+# SymbolsHelper-Confirmed: 5.3.0 alpha amd64 armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 s390x
 libQt5Gui.so.5 libqt5gui5 #MINVER#
 | libqt5gui5 #MINVER#, qtbase-abi-5-3-0
  _Z11qDrawBorderP8QPainterRK5QRectPKN4QCss11BorderStyleEPKiPK6QBrushPK5QSize@Base 5.0.2
@@ -57,7 +57,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _Z28qt_script_for_writing_systemN13QFontDatabase13WritingSystemE@Base 5.3.0
  _Z29qt_draw_decoration_for_glyphsP8QPainterPKjPK11QFixedPointiP11QFontEngineRK5QFontRK15QTextCharFormat@Base 5.0.2 1
  _Z29qt_set_sequence_auto_mnemonicb@Base 5.0.2
- (arch=armhf)_Z31qt_convert_rgb888_to_rgb32_neonPjPKhi@Base 5.0.2
  _Z32qGamma_correct_back_to_linear_csP6QImage@Base 5.0.2
  (optional=gccinternal|arch=amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 powerpcspe)_Z32qt_convert_rgb888_to_rgb32_ssse3PjPKhi@Base 5.0.2
  _Z33hb_qt_font_get_use_design_metricsP9hb_font_t@Base 5.2.0
@@ -308,10 +307,12 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN10QTransform9setMatrixEddddddddd@Base 5.2.0
  _ZN10QTransform9translateEdd@Base 5.2.0
  _ZN10QTransformC1ERK7QMatrix@Base 5.0.2
+ (arch=alpha hppa powerpc ppc64 s390x)_ZN10QTransformC1ERKS_@Base 5.3.0
  _ZN10QTransformC1Edddddd@Base 5.2.0
  _ZN10QTransformC1Eddddddddd@Base 5.2.0
  _ZN10QTransformC1Ev@Base 5.0.2
  _ZN10QTransformC2ERK7QMatrix@Base 5.0.2
+ (arch=alpha hppa powerpc ppc64 s390x)_ZN10QTransformC2ERKS_@Base 5.3.0
  _ZN10QTransformC2Edddddd@Base 5.2.0
  _ZN10QTransformC2Eddddddddd@Base 5.2.0
  _ZN10QTransformC2Ev@Base 5.0.2
@@ -1731,7 +1732,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN16QConicalGradientC2ERK7QPointFd@Base 5.2.0
  _ZN16QConicalGradientC2Eddd@Base 5.2.0
  _ZN16QConicalGradientC2Ev@Base 5.0.2
- (arch=alpha amd64 armel hppa mips mipsel ppc64 s390x)_ZN16QCoreApplication20sendSpontaneousEventEP7QObjectP6QEvent@Base 5.3.0
+ _ZN16QCoreApplication20sendSpontaneousEventEP7QObjectP6QEvent@Base 5.3.0
  _ZN16QDesktopServices13setUrlHandlerERK7QStringP7QObjectPKc@Base 5.0.2
  _ZN16QDesktopServices15unsetUrlHandlerERK7QString@Base 5.0.2
  _ZN16QDesktopServices19storageLocationImplEN14QStandardPaths16StandardLocationE@Base 5.0.2
@@ -2938,8 +2939,8 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN22QGuiApplicationPrivate21createEventDispatcherEv@Base 5.0.2 1
  _ZN22QGuiApplicationPrivate21obey_desktop_settingsE@Base 5.0.2 1
  _ZN22QGuiApplicationPrivate21processActivatedEventEPN29QWindowSystemInterfacePrivate20ActivatedWindowEventE@Base 5.0.2 1
- (arch=s390x)_ZN22QGuiApplicationPrivate22ActiveTouchPointsValueC1ERKS0_@Base 5.2.0 1
- (arch=s390x)_ZN22QGuiApplicationPrivate22ActiveTouchPointsValueC2ERKS0_@Base 5.2.0 1
+ (arch=armhf mips mipsel)_ZN22QGuiApplicationPrivate22ActiveTouchPointsValueC1ERKS0_@Base 5.3.0 1
+ (arch=armhf mips mipsel)_ZN22QGuiApplicationPrivate22ActiveTouchPointsValueC2ERKS0_@Base 5.3.0 1
  _ZN22QGuiApplicationPrivate23notifyWindowIconChangedEv@Base 5.3.0 1
  _ZN22QGuiApplicationPrivate23processContextMenuEventEPN29QWindowSystemInterfacePrivate16ContextMenuEventE@Base 5.0.2 1
  _ZN22QGuiApplicationPrivate23reportRefreshRateChangeEPN29QWindowSystemInterfacePrivate22ScreenRefreshRateEventE@Base 5.0.2 1
@@ -4424,7 +4425,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN8QSurfaceD1Ev@Base 5.0.2
  _ZN8QSurfaceD2Ev@Base 5.0.2
  (optional=templinst|arch=ia64 sparc)_ZN8QVariant9fromValueIN4QCss10BorderDataEEES_RKT_@Base 5.2.0
- _ZN9QBitArray8clearBitEi@Base 5.3.0
+ (arch=!armhf)_ZN9QBitArray8clearBitEi@Base 5.3.0
  _ZN9QFontInfoC1ERK5QFont@Base 5.0.2
  _ZN9QFontInfoC1ERKS_@Base 5.0.2
  _ZN9QFontInfoC2ERK5QFont@Base 5.0.2
