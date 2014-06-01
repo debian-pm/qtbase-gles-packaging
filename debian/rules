@@ -65,7 +65,7 @@ ifneq ($(DEB_HOST_ARCH_OS),linux)
 endif
 
 ifeq ($(DEB_HOST_ARCH_OS),linux)
-  ifneq (,$(filter $(DEB_HOST_ARCH),alpha ia64 mips64 mips64el))
+  ifneq (,$(filter $(DEB_HOST_ARCH),alpha ia64 mips64 mips64el arm64))
 	platform_arg = linux-g++
   else ifeq ($(DEB_HOST_ARCH_BITS),64)
 	platform_arg = linux-g++-64
@@ -197,6 +197,9 @@ override_dh_auto_clean:
 	# Generated on build
 	rm -f debian/shlibs.local
 	rm -f debian/stamp-makefile-build-tools
+
+	# more leftovers
+	rm -f .device.vars .qmake.vars
 
 ifeq ($(vendor),Ubuntu)
 	rm -rf po
