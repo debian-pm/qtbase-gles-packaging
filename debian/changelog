@@ -1,4 +1,4 @@
-qtbase-opensource-src (5.3.0+dfsg-3) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.3.0+dfsg-3) experimental; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Search for private symbols at build time and produce a diff so as to be
@@ -17,7 +17,7 @@ qtbase-opensource-src (5.3.0+dfsg-3) UNRELEASED; urgency=medium
     + Add arm64 to list of 64-bit architectures that should not use -m64
   * Remove .device.vars and .qmake.vars in clean target.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 22 May 2014 00:31:54 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 02 Jun 2014 14:21:16 -0300
 
 qtbase-opensource-src (5.3.0+dfsg-2) experimental; urgency=medium
 
