@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.3.0 alpha amd64 armhf hppa mips mipsel powerpc ppc64 s390x
+# SymbolsHelper-Confirmed: 5.3.0 alpha amd64 armhf hppa i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 s390x
 libQt5Widgets.so.5 libqt5widgets5 #MINVER#
 | libqt5widgets5 #MINVER#, qtbase-abi-5-3-0
  _Z11qFadeEffectP7QWidgeti@Base 5.0.2
@@ -4692,7 +4692,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN8QToolTip8showTextERK6QPointRK7QStringP7QWidgetRK5QRect@Base 5.0.2
  _ZN8QToolTip8showTextERK6QPointRK7QStringP7QWidgetRK5QRecti@Base 5.2.0~alpha1
  _ZN8QToolTip9isVisibleEv@Base 5.0.2
- (arch=!amd64 !armhf !mips !mipsel)_ZN9QBitArray6setBitEi@Base 5.3.0
+ (arch=!amd64 !armhf !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel)_ZN9QBitArray6setBitEi@Base 5.3.0
  (arch=!armhf !ia64 !powerpcspe !s390 !sparc)_ZN9QBitArray8clearBitEi@Base 5.2.0
  _ZN9QCheckBox10paintEventEP11QPaintEvent@Base 5.0.2
  _ZN9QCheckBox11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
