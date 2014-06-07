@@ -7524,6 +7524,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  (optional=templinst|arch=ia64 powerpcspe s390 sparc)_ZSt16__introsort_loopIN5QListIP13QGraphicsItemE8iteratorEiPFbPKS1_S6_EEvT_S9_T0_T1_@Base 5.0.2
  (optional=templinst|arch=ia64 powerpcspe s390 sparc)_ZSt16__introsort_loopIN5QListIP13QGraphicsItemE8iteratorEiPFbS2_S2_EEvT_S7_T0_T1_@Base 5.0.2
  (optional=templinst|arch=ia64 powerpcspe s390 sparc)_ZSt16__introsort_loopIN5QListIP15QGraphicsObjectE8iteratorEiPFbPK13QGraphicsItemS7_EEvT_SA_T0_T1_@Base 5.0.2
+ (optional=templinst|arch=amd64)_ZSt16__introsort_loopIP7QStringlEvT_S2_T0_@Base 5.3.0
  (optional=templinst|arch=ia64 powerpcspe s390 sparc)_ZSt19__move_median_firstIN5QListI5QPairIPN23QFileSystemModelPrivate15QFileSystemNodeEiEE8iteratorE22QFileSystemModelSorterEvT_S9_S9_T0_@Base 5.0.2 1
  (optional=templinst|arch=ia64 powerpcspe s390 sparc)_ZSt19__move_median_firstIN5QListIP13QGraphicsItemE8iteratorEPFbPKS1_S6_EEvT_S9_S9_T0_@Base 5.0.2
  (optional=templinst|arch=ia64 powerpcspe s390 sparc)_ZSt19__move_median_firstIN5QListIP13QGraphicsItemE8iteratorEPFbS2_S2_EEvT_S7_S7_T0_@Base 5.0.2

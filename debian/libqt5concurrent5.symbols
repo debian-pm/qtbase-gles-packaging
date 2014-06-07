@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.3.0 alpha arm64 armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390x
+# SymbolsHelper-Confirmed: 5.3.0 alpha amd64 arm64 armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390x
 libQt5Concurrent.so.5 libqt5concurrent5 #MINVER#
 | libqt5concurrent5 #MINVER#, qtbase-abi-5-3-0
  _ZN12QtConcurrent16BlockSizeManager13timeAfterUserEv@Base 5.0.2
@@ -26,7 +26,7 @@ libQt5Concurrent.so.5 libqt5concurrent5 #MINVER#
  _ZN12QtConcurrent16ThreadEngineBaseD0Ev@Base 5.0.2
  _ZN12QtConcurrent16ThreadEngineBaseD1Ev@Base 5.0.2
  _ZN12QtConcurrent16ThreadEngineBaseD2Ev@Base 5.0.2
- (optional=templinst|arch=!alpha !arm64 !kfreebsd-amd64 !s390x)_ZSt13__adjust_heapIPdidEvT_T0_S2_T1_@Base 5.3.0
+ (optional=templinst|arch=!alpha !amd64 !arm64 !kfreebsd-amd64 !s390x)_ZSt13__adjust_heapIPdidEvT_T0_S2_T1_@Base 5.3.0
  (optional=templinst|arch=alpha amd64 arm64 ia64 kfreebsd-amd64 ppc64 s390x sparc64)_ZSt13__adjust_heapIPdldEvT_T0_S2_T1_@Base 5.2.0~alpha1
  (optional=templinst|subst)_ZSt13__introselectIPd{ssize_t}EvT_S1_S1_T0_@Base 5.2.0~alpha1
  (optional=templinst|arch=ia64 sparc)_ZSt16__insertion_sortIPdEvT_S1_@Base 5.2.0

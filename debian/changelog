@@ -4,7 +4,7 @@ qtbase-opensource-src (5.3.0+dfsg-5) UNRELEASED; urgency=medium
   * Remove enable_sparc_detection.patch. This is causing a FTBFS in sparc now.
     I've contacted upstream to know the best way to go from here, in the
     meantime we just don't detect it.
-  * Update symbols files with buildds' logs.
+  * Update symbols files with buildds' and current logs.
   * Install only the last (and more relevant) changelog. We were trying (and
     failing) to install all of them, but only the first one would end up as
     changelog. As the listing order varies between archs, the final changelog
