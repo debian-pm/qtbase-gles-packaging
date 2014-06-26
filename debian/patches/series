@@ -1,3 +1,4 @@
+remove_icon_from_example.patch
 hurd_opengl_incldir.diff
 support_mips_atomic_on_pre-mips32_archs.patch
 mips_more_pre-mips32.diff

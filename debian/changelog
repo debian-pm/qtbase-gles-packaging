@@ -1,12 +1,14 @@
-qtbase-opensource-src (5.3.1+dfsg-1) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.3.1+dfsg-1) unstable; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
   * Update symbols files with buildds' and current logs.
   * Clear the list of archs that should not use pre compiled headers. We've
     been told that with GCC 4.9 this should not be necessary anymore.
+  * Remove link to a favicon in a dead url, part of an example.
+    The Trolltech site is down and so there is no possible privacy breach in
+    it, so just removing the link should suffice.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 22 Jun 2014 12:49:27 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 25 Jun 2014 23:24:49 -0300
 
 qtbase-opensource-src (5.3.0+dfsg-5) unstable; urgency=medium
 
