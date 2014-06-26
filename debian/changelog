@@ -1,6 +1,7 @@
-qtbase-opensource-src (5.3.0+dfsg-6) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.3.1+dfsg-1) UNRELEASED; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
+  * New upstream release.
   * Update symbols files with buildds' logs.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 22 Jun 2014 12:49:27 -0300
