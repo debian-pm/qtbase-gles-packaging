@@ -8,7 +8,7 @@ qtbase-opensource-src (5.3.1+dfsg-1) unstable; urgency=medium
     The Trolltech site is down and so there is no possible privacy breach in
     it, so just removing the link should suffice.
 
- -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 25 Jun 2014 23:24:49 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 26 Jun 2014 00:31:45 -0300
 
 qtbase-opensource-src (5.3.0+dfsg-5) unstable; urgency=medium
 
