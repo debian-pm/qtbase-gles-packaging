@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.3.0 amd64 sparc
+# SymbolsHelper-Confirmed: 5.3.1 amd64
 libQt5Network.so.5 libqt5network5 #MINVER#
 | libqt5network5 #MINVER#, qtbase-abi-5-3-0
  _Z19qt_qhostinfo_lookupRK7QStringP7QObjectPKcPbPi@Base 5.0.2
@@ -677,12 +677,12 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZN35QNetworkConfigurationManagerPrivate11qt_metacastEPKc@Base 5.0.2 1
  _ZN35QNetworkConfigurationManagerPrivate12startPollingEv@Base 5.0.2 1
  _ZN35QNetworkConfigurationManagerPrivate13enablePollingEv@Base 5.0.2 1
- _ZN35QNetworkConfigurationManagerPrivate14addPostRoutineEv@Base 5.0.2 1
  _ZN35QNetworkConfigurationManagerPrivate14disablePollingEv@Base 5.0.2 1
  _ZN35QNetworkConfigurationManagerPrivate16staticMetaObjectE@Base 5.0.2 1
  _ZN35QNetworkConfigurationManagerPrivate18configurationAddedE28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateE@Base 5.0.2 1
  _ZN35QNetworkConfigurationManagerPrivate18configurationAddedERK21QNetworkConfiguration@Base 5.0.2 1
  _ZN35QNetworkConfigurationManagerPrivate18onlineStateChangedEb@Base 5.0.2 1
+ _ZN35QNetworkConfigurationManagerPrivate20addPreAndPostRoutineEv@Base 5.3.1
  _ZN35QNetworkConfigurationManagerPrivate20configurationChangedE28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateE@Base 5.0.2 1
  _ZN35QNetworkConfigurationManagerPrivate20configurationChangedERK21QNetworkConfiguration@Base 5.0.2 1
  _ZN35QNetworkConfigurationManagerPrivate20configurationRemovedE28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateE@Base 5.0.2 1

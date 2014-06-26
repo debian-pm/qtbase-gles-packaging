@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.3.0 alpha amd64 arm64 armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 s390x sparc sparc64
+# SymbolsHelper-Confirmed: 5.3.1 amd64
 libQt5Gui.so.5 libqt5gui5 #MINVER#
 | libqt5gui5 #MINVER#, qtbase-abi-5-3-0
  _Z11qDrawBorderP8QPainterRK5QRectPKN4QCss11BorderStyleEPKiPK6QBrushPK5QSize@Base 5.0.2
@@ -1157,9 +1157,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN13QPlatformMenu11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
  _ZN13QPlatformMenu11qt_metacastEPKc@Base 5.0.2 1
  _ZN13QPlatformMenu16staticMetaObjectE@Base 5.0.2 1
- (optional=gccinternal|arch=!hurd-i386 !ppc64)_ZN13QPlatformMenuD0Ev@Base 5.3.0 1
- (optional=gccinternal|arch=!hurd-i386 !ppc64)_ZN13QPlatformMenuD1Ev@Base 5.3.0 1
- (optional=gccinternal|arch=!hurd-i386 !ppc64)_ZN13QPlatformMenuD2Ev@Base 5.3.0 1
  _ZN13QStandardItem10insertRowsEiRK5QListIPS_E@Base 5.0.2
  _ZN13QStandardItem10insertRowsEii@Base 5.0.2
  _ZN13QStandardItem10removeRowsEii@Base 5.0.2
@@ -1435,9 +1432,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN14QPaintEngineExC1Ev@Base 5.0.2 1
  _ZN14QPaintEngineExC2ER21QPaintEngineExPrivate@Base 5.0.2 1
  _ZN14QPaintEngineExC2Ev@Base 5.0.2 1
- (optional=gccinternal|arch=!hurd-i386 !ppc64)_ZN14QPaintEngineExD0Ev@Base 5.3.0 1
- (optional=gccinternal|arch=!hurd-i386 !ppc64)_ZN14QPaintEngineExD1Ev@Base 5.3.0 1
- (optional=gccinternal|arch=!hurd-i386 !ppc64)_ZN14QPaintEngineExD2Ev@Base 5.3.0 1
  _ZN14QPlatformTheme16defaultThemeHintENS_9ThemeHintE@Base 5.0.2 1
  _ZN14QPlatformTheme25defaultStandardButtonTextEi@Base 5.3.0 1
  _ZN14QPlatformThemeC1EP21QPlatformThemePrivate@Base 5.1.0 1
@@ -1588,9 +1582,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN15QPlatformCursor6setPosERK6QPoint@Base 5.0.2 1
  _ZN15QPlatformCursorC1Ev@Base 5.0.2 1
  _ZN15QPlatformCursorC2Ev@Base 5.0.2 1
- (optional=gccinternal|arch=!hurd-i386 !ppc64)_ZN15QPlatformCursorD0Ev@Base 5.3.0 1
- (optional=gccinternal|arch=!hurd-i386 !ppc64)_ZN15QPlatformCursorD1Ev@Base 5.3.0 1
- (optional=gccinternal|arch=!hurd-i386 !ppc64)_ZN15QPlatformCursorD2Ev@Base 5.3.0 1
  _ZN15QPlatformPixmap15fromImageReaderEP12QImageReader6QFlagsIN2Qt19ImageConversionFlagEE@Base 5.0.2 1
  _ZN15QPlatformPixmap15setDetachNumberEi@Base 5.1.0 1
  _ZN15QPlatformPixmap15setSerialNumberEi@Base 5.0.2 1
@@ -1781,9 +1772,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN16QPlatformMenuBar11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
  _ZN16QPlatformMenuBar11qt_metacastEPKc@Base 5.0.2 1
  _ZN16QPlatformMenuBar16staticMetaObjectE@Base 5.0.2 1
- (optional=gccinternal|arch=!hurd-i386 !ppc64)_ZN16QPlatformMenuBarD0Ev@Base 5.3.0 1
- (optional=gccinternal|arch=!hurd-i386 !ppc64)_ZN16QPlatformMenuBarD1Ev@Base 5.3.0 1
- (optional=gccinternal|arch=!hurd-i386 !ppc64)_ZN16QPlatformMenuBarD2Ev@Base 5.3.0 1
  _ZN16QPlatformSurfaceC1EP8QSurface@Base 5.0.2 1
  _ZN16QPlatformSurfaceC2EP8QSurface@Base 5.0.2 1
  _ZN16QPlatformSurfaceD0Ev@Base 5.0.2 1
@@ -1969,9 +1957,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN17QPlatformMenuItem16staticMetaObjectE@Base 5.0.2 1
  _ZN17QPlatformMenuItem7hoveredEv@Base 5.0.2 1
  _ZN17QPlatformMenuItem9activatedEv@Base 5.0.2 1
- (optional=gccinternal|arch=!hurd-i386 !ppc64)_ZN17QPlatformMenuItemD0Ev@Base 5.3.0 1
- (optional=gccinternal|arch=!hurd-i386 !ppc64)_ZN17QPlatformMenuItemD1Ev@Base 5.3.0 1
- (optional=gccinternal|arch=!hurd-i386 !ppc64)_ZN17QPlatformMenuItemD2Ev@Base 5.3.0 1
  _ZN17QPlatformServices12openDocumentERK4QUrl@Base 5.0.2 1
  _ZN17QPlatformServices7openUrlERK4QUrl@Base 5.0.2 1
  _ZN17QTextImageHandler10drawObjectEP8QPainterRK6QRectFP13QTextDocumentiRK11QTextFormat@Base 5.0.2 1
@@ -3295,18 +3280,12 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN25QPlatformFileDialogHelper15cleanFilterListERK7QString@Base 5.0.2 1
  _ZN25QPlatformFileDialogHelper16directoryEnteredERK4QUrl@Base 5.2.0~alpha1 1
  _ZN25QPlatformFileDialogHelper16staticMetaObjectE@Base 5.0.2 1
- (optional=gccinternal|arch=!hurd-i386 !ppc64)_ZN25QPlatformFileDialogHelperD0Ev@Base 5.3.0 1
- (optional=gccinternal|arch=!hurd-i386 !ppc64)_ZN25QPlatformFileDialogHelperD1Ev@Base 5.3.0 1
- (optional=gccinternal|arch=!hurd-i386 !ppc64)_ZN25QPlatformFileDialogHelperD2Ev@Base 5.3.0 1
  _ZN25QPlatformFontDialogHelper10setOptionsERK14QSharedPointerI18QFontDialogOptionsE@Base 5.0.2 1
  _ZN25QPlatformFontDialogHelper11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
  _ZN25QPlatformFontDialogHelper11qt_metacastEPKc@Base 5.0.2 1
  _ZN25QPlatformFontDialogHelper12fontSelectedERK5QFont@Base 5.0.2 1
  _ZN25QPlatformFontDialogHelper16staticMetaObjectE@Base 5.0.2 1
  _ZN25QPlatformFontDialogHelper18currentFontChangedERK5QFont@Base 5.0.2 1
- (optional=gccinternal|arch=!hurd-i386 !ppc64)_ZN25QPlatformFontDialogHelperD0Ev@Base 5.3.0 1
- (optional=gccinternal|arch=!hurd-i386 !ppc64)_ZN25QPlatformFontDialogHelperD1Ev@Base 5.3.0 1
- (optional=gccinternal|arch=!hurd-i386 !ppc64)_ZN25QPlatformFontDialogHelperD2Ev@Base 5.3.0 1
  _ZN25QPlatformOffscreenSurfaceC1EP17QOffscreenSurface@Base 5.1.0
  _ZN25QPlatformOffscreenSurfaceC2EP17QOffscreenSurface@Base 5.1.0
  _ZN25QPlatformOffscreenSurfaceD0Ev@Base 5.1.0
@@ -3368,9 +3347,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN26QPlatformColorDialogHelper13colorSelectedERK6QColor@Base 5.0.2 1
  _ZN26QPlatformColorDialogHelper16staticMetaObjectE@Base 5.0.2 1
  _ZN26QPlatformColorDialogHelper19currentColorChangedERK6QColor@Base 5.0.2 1
- (optional=gccinternal|arch=!hurd-i386 !ppc64)_ZN26QPlatformColorDialogHelperD0Ev@Base 5.3.0 1
- (optional=gccinternal|arch=!hurd-i386 !ppc64)_ZN26QPlatformColorDialogHelperD1Ev@Base 5.3.0 1
- (optional=gccinternal|arch=!hurd-i386 !ppc64)_ZN26QPlatformColorDialogHelperD2Ev@Base 5.3.0 1
  _ZN26QPlatformIntegrationPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
  _ZN26QPlatformIntegrationPlugin11qt_metacastEPKc@Base 5.0.2 1
  _ZN26QPlatformIntegrationPlugin16staticMetaObjectE@Base 5.0.2 1
@@ -3388,9 +3364,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN26QPlatformScreenPageFlipper16staticMetaObjectE@Base 5.0.2 1
  _ZN26QPlatformScreenPageFlipperC1EP7QObject@Base 5.0.2 1
  _ZN26QPlatformScreenPageFlipperC2EP7QObject@Base 5.0.2 1
- (optional=gccinternal|arch=!hurd-i386 !ppc64)_ZN26QPlatformScreenPageFlipperD0Ev@Base 5.3.0 1
- (optional=gccinternal|arch=!hurd-i386 !ppc64)_ZN26QPlatformScreenPageFlipperD1Ev@Base 5.3.0 1
- (optional=gccinternal|arch=!hurd-i386 !ppc64)_ZN26QPlatformScreenPageFlipperD2Ev@Base 5.3.0 1
  _ZN27QAbstractTextDocumentLayout11formatIndexEi@Base 5.0.2
  _ZN27QAbstractTextDocumentLayout11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN27QAbstractTextDocumentLayout11qt_metacastEPKc@Base 5.0.2
@@ -3466,9 +3439,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN28QPlatformMessageDialogHelper11qt_metacastEPKc@Base 5.2.0~alpha1 1
  _ZN28QPlatformMessageDialogHelper16staticMetaObjectE@Base 5.2.0~alpha1 1
  _ZN28QPlatformMessageDialogHelper7clickedEN21QPlatformDialogHelper14StandardButtonENS0_10ButtonRoleE@Base 5.3.0 1
- (optional=gccinternal|arch=!hurd-i386 !ppc64)_ZN28QPlatformMessageDialogHelperD0Ev@Base 5.3.0 1
- (optional=gccinternal|arch=!hurd-i386 !ppc64)_ZN28QPlatformMessageDialogHelperD1Ev@Base 5.3.0 1
- (optional=gccinternal|arch=!hurd-i386 !ppc64)_ZN28QPlatformMessageDialogHelperD2Ev@Base 5.3.0 1
  _ZN28QPlatformSharedGraphicsCache11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN28QPlatformSharedGraphicsCache11qt_metacastEPKc@Base 5.0.2
  _ZN28QPlatformSharedGraphicsCache12itemsMissingERK10QByteArrayRK7QVectorIjE@Base 5.0.2
@@ -3476,9 +3446,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN28QPlatformSharedGraphicsCache14itemsAvailableERK10QByteArrayPvRK7QVectorIjERKS4_I6QPointE@Base 5.0.2
  _ZN28QPlatformSharedGraphicsCache16itemsInvalidatedERK10QByteArrayRK7QVectorIjE@Base 5.0.2
  _ZN28QPlatformSharedGraphicsCache16staticMetaObjectE@Base 5.0.2
- (optional=gccinternal|arch=!hurd-i386 !ppc64)_ZN28QPlatformSharedGraphicsCacheD0Ev@Base 5.3.0
- (optional=gccinternal|arch=!hurd-i386 !ppc64)_ZN28QPlatformSharedGraphicsCacheD1Ev@Base 5.3.0
- (optional=gccinternal|arch=!hurd-i386 !ppc64)_ZN28QPlatformSharedGraphicsCacheD2Ev@Base 5.3.0
  _ZN29QScreenOrientationChangeEventC1EP7QScreenN2Qt17ScreenOrientationE@Base 5.0.2
  _ZN29QScreenOrientationChangeEventC2EP7QScreenN2Qt17ScreenOrientationE@Base 5.0.2
  _ZN29QScreenOrientationChangeEventD0Ev@Base 5.0.2
@@ -4422,7 +4389,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN8QSurfaceD0Ev@Base 5.0.2
  _ZN8QSurfaceD1Ev@Base 5.0.2
  _ZN8QSurfaceD2Ev@Base 5.0.2
- (optional=gccinternal|arch=!armhf !hurd-i386 !ppc64 !sparc)_ZN9QBitArray8clearBitEi@Base 5.3.0
  _ZN9QFontInfoC1ERK5QFont@Base 5.0.2
  _ZN9QFontInfoC1ERKS_@Base 5.0.2
  _ZN9QFontInfoC2ERK5QFont@Base 5.0.2
@@ -4695,6 +4661,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK11QFontEngine17underlinePositionEv@Base 5.0.2 1
  _ZNK11QFontEngine20subPixelPositionForXE6QFixed@Base 5.0.2 1
  _ZNK11QFontEngine22supportsTransformationERK10QTransform@Base 5.1.0 1
+ _ZNK11QFontEngine25hasUnreliableGlyphOutlineEv@Base 5.3.1
  _ZNK11QFontEngine7xHeightEv@Base 5.0.2 1
  _ZNK11QFontEngine9canRenderEPK5QChari@Base 5.3.0 1
  _ZNK11QFontEngine9doKerningEP12QGlyphLayout6QFlagsINS_10ShaperFlagEE@Base 5.0.2 1
@@ -6448,11 +6415,9 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  (optional=templinst|arch=ia64 sparc|subst)_ZSt13__adjust_heapIN5QListI10QByteArrayE8iteratorE{qptrdiff}S1_EvT_T0_S5_T1_@Base 5.2.0
  (optional=templinst|arch=ia64 sparc|subst)_ZSt13__adjust_heapIN5QListI9QTtfGlyphE8iteratorE{qptrdiff}S1_EvT_T0_S5_T1_@Base 5.2.0
  (optional=templinst|arch=ia64 sparc|subst)_ZSt13__adjust_heapIP13QCrossingEdge{ssize_t}S0_EvT_T0_S3_T1_@Base 5.2.0
- (subst|arch=!hurd-i386 !ppc64)_ZSt13__adjust_heapIPN11QFontEngine8KernPairE{ssize_t}S1_EvT_T0_S4_T1_@Base 5.3.0 1
  (optional=templinst|arch=ia64 sparc|subst)_ZSt13__adjust_heapIPN13QPathSegments12IntersectionE{ssize_t}S1_EvT_T0_S4_T1_@Base 5.2.0
  (optional=templinst|arch=ia64 s390 sparc|subst)_ZSt13__adjust_heapIPN13QTriangulatorIjE15ComplexToSimple5EventE{ssize_t}S3_EvT_T0_S6_T1_@Base 5.2.0
  (optional=templinst|arch=ia64 s390 sparc|subst)_ZSt13__adjust_heapIPN13QTriangulatorItE15ComplexToSimple5EventE{ssize_t}S3_EvT_T0_S6_T1_@Base 5.2.0
- (subst|arch=!hurd-i386 !ppc64)_ZSt13__adjust_heapIPd{ssize_t}dEvT_T0_S2_T1_@Base 5.3.0
  (optional=templinst|arch=ia64 s390 sparc|subst)_ZSt13__adjust_heapIPi{ssize_t}iN13QTriangulatorIjE16SimpleToMonotone15CompareVerticesEEvT_T0_S6_T1_T2_@Base 5.2.0
  (optional=templinst|arch=ia64 s390 sparc|subst)_ZSt13__adjust_heapIPi{ssize_t}iN13QTriangulatorItE16SimpleToMonotone15CompareVerticesEEvT_T0_S6_T1_T2_@Base 5.2.0
  (optional=templinst|arch=ia64 sparc)_ZSt13__heap_selectIN5QListIN13QFontDatabase13WritingSystemEE8iteratorEEvT_S5_S5_@Base 5.2.0
@@ -6475,11 +6440,9 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  (optional=templinst|arch=ia64 sparc)_ZSt16__insertion_sortIPiN13QTriangulatorIjE16SimpleToMonotone15CompareVerticesEEvT_S5_T0_@Base 5.2.0
  (optional=templinst|arch=ia64 sparc)_ZSt16__insertion_sortIPiN13QTriangulatorItE16SimpleToMonotone15CompareVerticesEEvT_S5_T0_@Base 5.2.0
  (optional=templinst|arch=ia64 sparc|subst)_ZSt16__introsort_loopIP13QCrossingEdge{ssize_t}EvT_S2_T0_@Base 5.2.0
- (subst|arch=!hurd-i386 !ppc64)_ZSt16__introsort_loopIPN11QFontEngine8KernPairE{ssize_t}EvT_S3_T0_@Base 5.3.0 1
  (optional=templinst|arch=ia64 sparc|subst)_ZSt16__introsort_loopIPN13QPathSegments12IntersectionE{ssize_t}EvT_S3_T0_@Base 5.2.0
  (optional=templinst|arch=ia64 s390 sparc|subst)_ZSt16__introsort_loopIPN13QTriangulatorIjE15ComplexToSimple5EventE{ssize_t}EvT_S5_T0_@Base 5.2.0
  (optional=templinst|arch=ia64 s390 sparc|subst)_ZSt16__introsort_loopIPN13QTriangulatorItE15ComplexToSimple5EventE{ssize_t}EvT_S5_T0_@Base 5.2.0
- (subst|arch=!hurd-i386 !ppc64)_ZSt16__introsort_loopIPd{ssize_t}EvT_S1_T0_@Base 5.3.0
  (optional=templinst|arch=ia64 s390 sparc|subst)_ZSt16__introsort_loopIPi{ssize_t}N13QTriangulatorIjE16SimpleToMonotone15CompareVerticesEEvT_S5_T0_T1_@Base 5.2.0
  (optional=templinst|arch=ia64 s390 sparc|subst)_ZSt16__introsort_loopIPi{ssize_t}N13QTriangulatorItE16SimpleToMonotone15CompareVerticesEEvT_S5_T0_T1_@Base 5.2.0
  (optional=templinst|arch=ia64 sparc|subst)_ZSt16__merge_adaptiveIP5QPairIP13QStandardItemiE{ssize_t}S4_26QStandardItemModelLessThanEvT_S6_S6_T0_S7_T1_S7_T2_@Base 5.2.0

@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.3.0 alpha amd64 arm64 armel armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 s390x sparc sparc64
+# SymbolsHelper-Confirmed: 5.3.1 amd64
 libQt5Widgets.so.5 libqt5widgets5 #MINVER#
 | libqt5widgets5 #MINVER#, qtbase-abi-5-3-0
  _Z11qFadeEffectP7QWidgeti@Base 5.0.2
@@ -2003,7 +2003,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN14QWidgetPrivate13setCursor_sysERK7QCursor@Base 5.0.2 1
  _ZN14QWidgetPrivate13setParent_sysEP7QWidget6QFlagsIN2Qt10WindowTypeEE@Base 5.0.2 1
  _ZN14QWidgetPrivate13setSystemClipEP12QPaintDeviceRK7QRegion@Base 5.0.2 1
- _ZN14QWidgetPrivate13setWSGeometryEbRK5QRect@Base 5.0.2 1
+ _ZN14QWidgetPrivate13setWSGeometryEv@Base 5.3.1
  _ZN14QWidgetPrivate14createSysExtraEv@Base 5.0.2 1
  _ZN14QWidgetPrivate14deleteSysExtraEv@Base 5.0.2 1
  _ZN14QWidgetPrivate14resolvePaletteEv@Base 5.0.2 1
@@ -2398,8 +2398,6 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN15QStyleOptionTabC1Ev@Base 5.0.2
  _ZN15QStyleOptionTabC2Ei@Base 5.0.2
  _ZN15QStyleOptionTabC2Ev@Base 5.0.2
- (optional=gccinternal|arch=!hurd-i386 !sparc)_ZN15QStyleOptionTabD1Ev@Base 5.0.2
- (optional=gccinternal|arch=!hurd-i386 !sparc)_ZN15QStyleOptionTabD2Ev@Base 5.0.2
  _ZN15QSystemTrayIcon10setToolTipERK7QString@Base 5.0.2
  _ZN15QSystemTrayIcon10setVisibleEb@Base 5.0.2
  _ZN15QSystemTrayIcon11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
@@ -3216,6 +3214,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN19QApplicationPrivate20translateTouchCancelEP12QTouchDevicem@Base 5.0.2 1
  _ZN19QApplicationPrivate21cleanupMultitouch_sysEv@Base 5.0.2 1
  _ZN19QApplicationPrivate21createEventDispatcherEv@Base 5.0.2 1
+ _ZN19QApplicationPrivate22overrides_native_styleE@Base 5.3.1
  _ZN19QApplicationPrivate22translateRawTouchEventEP7QWidgetP12QTouchDeviceRK5QListIN11QTouchEvent10TouchPointEEm@Base 5.0.2 1
  _ZN19QApplicationPrivate23notifyWindowIconChangedEv@Base 5.3.0 1
  _ZN19QApplicationPrivate23sendSyntheticEnterLeaveEP7QWidget@Base 5.0.2 1
@@ -3368,8 +3367,6 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN19QStyleOptionToolBoxC1Ev@Base 5.0.2
  _ZN19QStyleOptionToolBoxC2Ei@Base 5.0.2
  _ZN19QStyleOptionToolBoxC2Ev@Base 5.0.2
- (optional=gccinternal|arch=!hurd-i386 !sparc)_ZN19QStyleOptionToolBoxD1Ev@Base 5.0.2
- (optional=gccinternal|arch=!hurd-i386 !sparc)_ZN19QStyleOptionToolBoxD2Ev@Base 5.0.2
  _ZN19QStyledItemDelegate11editorEventEP6QEventP18QAbstractItemModelRK20QStyleOptionViewItemRK11QModelIndex@Base 5.0.2
  _ZN19QStyledItemDelegate11eventFilterEP7QObjectP6QEvent@Base 5.0.2
  _ZN19QStyledItemDelegate11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
@@ -3521,8 +3518,6 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN20QStyleOptionComboBoxC1Ev@Base 5.0.2
  _ZN20QStyleOptionComboBoxC2Ei@Base 5.0.2
  _ZN20QStyleOptionComboBoxC2Ev@Base 5.0.2
- (optional=gccinternal|arch=!hurd-i386 !ia64 !s390 !sparc)_ZN20QStyleOptionComboBoxD1Ev@Base 5.0.2
- (optional=gccinternal|arch=!hurd-i386 !ia64 !s390 !sparc)_ZN20QStyleOptionComboBoxD2Ev@Base 5.0.2
  _ZN20QStyleOptionGroupBoxC1Ei@Base 5.0.2
  _ZN20QStyleOptionGroupBoxC1Ev@Base 5.0.2
  _ZN20QStyleOptionGroupBoxC2Ei@Base 5.0.2
@@ -4693,7 +4688,6 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN8QToolTip8showTextERK6QPointRK7QStringP7QWidgetRK5QRecti@Base 5.2.0~alpha1
  _ZN8QToolTip9isVisibleEv@Base 5.0.2
  (arch=!amd64 !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !ppc64 !sparc)_ZN9QBitArray6setBitEi@Base 5.3.0
- (arch=!armhf !hurd-i386 !ia64 !powerpcspe !ppc64 !s390 !sparc)_ZN9QBitArray8clearBitEi@Base 5.2.0
  _ZN9QCheckBox10paintEventEP11QPaintEvent@Base 5.0.2
  _ZN9QCheckBox11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN9QCheckBox11qt_metacastEPKc@Base 5.0.2
@@ -7514,7 +7508,6 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  (optional=templinst|arch=sparc)_ZSt13__adjust_heapIN5QListIiE8iteratorEiiEvT_T0_S4_T1_@Base 5.2.1
  (optional=templinst|arch=ia64)_ZSt13__adjust_heapIN5QListIiE8iteratorExiEvT_T0_S4_T1_@Base 5.2.0
  (optional=templinst|arch=sparc)_ZSt13__adjust_heapIP5QPairIP15QListWidgetItemiEiS3_PFbRKS3_S6_EEvT_T0_SA_T1_T2_@Base 5.3.0
- (subst|arch=!hurd-i386 !ppc64)_ZSt13__adjust_heapIP7QString{ssize_t}S0_EvT_T0_S3_T1_@Base 5.3.0
  (optional=templinst|arch=sparc)_ZSt13__heap_selectIN5QListI21QPersistentModelIndexE8iteratorEEvT_S4_S4_@Base 5.2.1
  (optional=templinst|arch=ia64 powerpcspe s390 sparc)_ZSt13__heap_selectIN5QListI5QPairIPN23QFileSystemModelPrivate15QFileSystemNodeEiEE8iteratorE22QFileSystemModelSorterEvT_S9_S9_T0_@Base 5.0.2 1
  (optional=templinst|arch=sparc)_ZSt13__heap_selectIN5QListI7QStringE8iteratorEEvT_S4_S4_@Base 5.2.1
@@ -7524,7 +7517,6 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  (optional=templinst|arch=ia64 powerpcspe s390 sparc)_ZSt13__heap_selectIN5QListIP15QGraphicsObjectE8iteratorEPFbPK13QGraphicsItemS7_EEvT_SA_SA_T0_@Base 5.0.2
  (optional=templinst|arch=sparc)_ZSt13__heap_selectIN5QListIiE8iteratorEEvT_S3_S3_@Base 5.3.0
  (optional=templinst|arch=sparc)_ZSt13__heap_selectIP5QPairIP15QListWidgetItemiEPFbRKS3_S6_EEvT_S9_S9_T0_@Base 5.3.0
- (arch=!hurd-i386 !ppc64)_ZSt13__heap_selectIP7QStringEvT_S2_S2_@Base 5.3.0
  (optional=templinst|arch=sparc)_ZSt16__insertion_sortIN5QListI21QPersistentModelIndexE8iteratorEEvT_S4_@Base 5.3.0
  (optional=templinst|arch=ia64 powerpcspe s390 sparc)_ZSt16__insertion_sortIN5QListI5QPairIPN23QFileSystemModelPrivate15QFileSystemNodeEiEE8iteratorE22QFileSystemModelSorterEvT_S9_T0_@Base 5.0.2 1
  (optional=templinst|arch=sparc)_ZSt16__insertion_sortIN5QListI7QStringE8iteratorEEvT_S4_@Base 5.3.0
@@ -7536,7 +7528,6 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  (optional=templinst|arch=sparc)_ZSt16__insertion_sortIP5QPairIP15QListWidgetItemiEPFbRKS3_S6_EEvT_S9_T0_@Base 5.3.0
  (optional=templinst|arch=sparc)_ZSt16__insertion_sortIP5QPairIP15QTreeWidgetItemiEPFbRKS3_S6_EEvT_S9_T0_@Base 5.3.0
  (optional=templinst|arch=sparc)_ZSt16__insertion_sortIP5QPairIP16QTableWidgetItemiEPFbRKS3_S6_EEvT_S9_T0_@Base 5.3.0
- (arch=!hurd-i386 !ppc64)_ZSt16__insertion_sortIP7QStringEvT_S2_@Base 5.3.0
  (optional=templinst|arch=sparc)_ZSt16__introsort_loopIN5QListI21QPersistentModelIndexE8iteratorEiEvT_S4_T0_@Base 5.3.0
  (optional=templinst|arch=ia64 powerpcspe s390 sparc)_ZSt16__introsort_loopIN5QListI5QPairIPN23QFileSystemModelPrivate15QFileSystemNodeEiEE8iteratorEi22QFileSystemModelSorterEvT_S9_T0_T1_@Base 5.0.2 1
  (optional=templinst|arch=sparc)_ZSt16__introsort_loopIN5QListI7QStringE8iteratorEiEvT_S4_T0_@Base 5.3.0
@@ -7547,7 +7538,6 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  (optional=templinst|arch=sparc)_ZSt16__introsort_loopIN5QListIiE8iteratorEiEvT_S3_T0_@Base 5.3.0
  (optional=templinst|arch=sparc)_ZSt16__introsort_loopIP5QPairIP15QListWidgetItemiEiPFbRKS3_S6_EEvT_S9_T0_T1_@Base 5.3.0
  (optional=templinst|arch=armel armhf i386 kfreebsd-i386 mips mipsel powerpc sparc)_ZSt16__introsort_loopIP7QStringiEvT_S2_T0_@Base 5.3.0
- (optional=templinst|arch=alpha amd64 arm64 kfreebsd-amd64 s390x sparc64)_ZSt16__introsort_loopIP7QStringlEvT_S2_T0_@Base 5.3.0
  (optional=templinst|arch=sparc)_ZSt16__merge_adaptiveIP5QPairIP15QTreeWidgetItemiEiS4_PFbRKS3_S6_EEvT_S9_S9_T0_SA_T1_SA_T2_@Base 5.3.0
  (optional=templinst|arch=sparc)_ZSt16__merge_adaptiveIP5QPairIP16QTableWidgetItemiEiS4_PFbRKS3_S6_EEvT_S9_S9_T0_SA_T1_SA_T2_@Base 5.3.0
  (optional=templinst|arch=sparc)_ZSt17__merge_sort_loopIP5QPairIP15QTreeWidgetItemiES4_iPFbRKS3_S6_EEvT_S9_T0_T1_T2_@Base 5.3.0
@@ -7587,7 +7577,6 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  (optional=templinst|arch=sparc)_ZSt25__unguarded_linear_insertIN5QListIN29QGraphicsItemAnimationPrivate4PairEE8iteratorEEvT_@Base 5.3.0
  (optional=templinst|arch=ia64 powerpcspe s390 sparc)_ZSt25__unguarded_linear_insertIN5QListIP15QGraphicsObjectE8iteratorEPFbPK13QGraphicsItemS7_EEvT_T0_@Base 5.0.2
  (optional=templinst|arch=ia64)_ZSt25__unguarded_linear_insertIP5QPairIP15QListWidgetItemiEPFbRKS3_S6_EEvT_T0_@Base 5.2.0~beta1
- (arch=!hurd-i386 !ppc64)_ZSt25__unguarded_linear_insertIP7QStringEvT_@Base 5.3.0
  (optional=templinst|arch=sparc)_ZSt30__move_merge_adaptive_backwardIP5QPairIP15QTreeWidgetItemiES4_S4_PFbRKS3_S6_EEvT_S9_T0_SA_T1_T2_@Base 5.3.0
  (optional=templinst|arch=sparc)_ZSt30__move_merge_adaptive_backwardIP5QPairIP16QTableWidgetItemiES4_S4_PFbRKS3_S6_EEvT_S9_T0_SA_T1_T2_@Base 5.3.0
  (optional=templinst|arch=ia64 powerpcspe s390 sparc)_ZSt4sortIN5QListIP15QGraphicsObjectE8iteratorEPFbPK13QGraphicsItemS7_EEvT_SA_T0_@Base 5.0.2
