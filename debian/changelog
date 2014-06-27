@@ -8,6 +8,7 @@ qtbase-opensource-src (5.3.1+dfsg-2) UNRELEASED; urgency=medium
   * Bump qtbase-abi to 5-3-1. Sune found that there is a runtime check that
     forces us to do a transition for private symbols even on point releases
     without symbols changes (Closes: #752889).
+  * Update symbols files with buildds' and mips64el's logs.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 26 Jun 2014 10:10:31 -0300
 
