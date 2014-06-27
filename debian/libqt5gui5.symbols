@@ -1155,9 +1155,9 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN13QPlatformMenu11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
  _ZN13QPlatformMenu11qt_metacastEPKc@Base 5.0.2 1
  _ZN13QPlatformMenu16staticMetaObjectE@Base 5.0.2 1
- (optional=gccinternal|arch=powerpc)_ZN13QPlatformMenuD0Ev@Base 5.3.1
- (optional=gccinternal|arch=powerpc)_ZN13QPlatformMenuD1Ev@Base 5.3.1
- (optional=gccinternal|arch=powerpc)_ZN13QPlatformMenuD2Ev@Base 5.3.1
+ (optional=gccinternal|arch=powerpc)_ZN13QPlatformMenuD0Ev@Base 5.3.1 1
+ (optional=gccinternal|arch=powerpc)_ZN13QPlatformMenuD1Ev@Base 5.3.1 1
+ (optional=gccinternal|arch=powerpc)_ZN13QPlatformMenuD2Ev@Base 5.3.1 1
  _ZN13QStandardItem10insertRowsEiRK5QListIPS_E@Base 5.0.2
  _ZN13QStandardItem10insertRowsEii@Base 5.0.2
  _ZN13QStandardItem10removeRowsEii@Base 5.0.2
@@ -1433,9 +1433,9 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN14QPaintEngineExC1Ev@Base 5.0.2 1
  _ZN14QPaintEngineExC2ER21QPaintEngineExPrivate@Base 5.0.2 1
  _ZN14QPaintEngineExC2Ev@Base 5.0.2 1
- (optional=gccinternal|arch=powerpc)_ZN14QPaintEngineExD0Ev@Base 5.3.1
- (optional=gccinternal|arch=powerpc)_ZN14QPaintEngineExD1Ev@Base 5.3.1
- (optional=gccinternal|arch=powerpc)_ZN14QPaintEngineExD2Ev@Base 5.3.1
+ (optional=gccinternal|arch=powerpc)_ZN14QPaintEngineExD0Ev@Base 5.3.1 1
+ (optional=gccinternal|arch=powerpc)_ZN14QPaintEngineExD1Ev@Base 5.3.1 1
+ (optional=gccinternal|arch=powerpc)_ZN14QPaintEngineExD2Ev@Base 5.3.1 1
  _ZN14QPlatformTheme16defaultThemeHintENS_9ThemeHintE@Base 5.0.2 1
  _ZN14QPlatformTheme25defaultStandardButtonTextEi@Base 5.3.0 1
  _ZN14QPlatformThemeC1EP21QPlatformThemePrivate@Base 5.1.0 1
@@ -1586,9 +1586,9 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN15QPlatformCursor6setPosERK6QPoint@Base 5.0.2 1
  _ZN15QPlatformCursorC1Ev@Base 5.0.2 1
  _ZN15QPlatformCursorC2Ev@Base 5.0.2 1
- (optional=gccinternal|arch=powerpc)_ZN15QPlatformCursorD0Ev@Base 5.3.1
- (optional=gccinternal|arch=powerpc)_ZN15QPlatformCursorD1Ev@Base 5.3.1
- (optional=gccinternal|arch=powerpc)_ZN15QPlatformCursorD2Ev@Base 5.3.1
+ (optional=gccinternal|arch=powerpc)_ZN15QPlatformCursorD0Ev@Base 5.3.1 1
+ (optional=gccinternal|arch=powerpc)_ZN15QPlatformCursorD1Ev@Base 5.3.1 1
+ (optional=gccinternal|arch=powerpc)_ZN15QPlatformCursorD2Ev@Base 5.3.1 1
  _ZN15QPlatformPixmap15fromImageReaderEP12QImageReader6QFlagsIN2Qt19ImageConversionFlagEE@Base 5.0.2 1
  _ZN15QPlatformPixmap15setDetachNumberEi@Base 5.1.0 1
  _ZN15QPlatformPixmap15setSerialNumberEi@Base 5.0.2 1
@@ -1779,9 +1779,9 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN16QPlatformMenuBar11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
  _ZN16QPlatformMenuBar11qt_metacastEPKc@Base 5.0.2 1
  _ZN16QPlatformMenuBar16staticMetaObjectE@Base 5.0.2 1
- (optional=gccinternal|arch=powerpc)_ZN16QPlatformMenuBarD0Ev@Base 5.3.1
- (optional=gccinternal|arch=powerpc)_ZN16QPlatformMenuBarD1Ev@Base 5.3.1
- (optional=gccinternal|arch=powerpc)_ZN16QPlatformMenuBarD2Ev@Base 5.3.1
+ (optional=gccinternal|arch=powerpc)_ZN16QPlatformMenuBarD0Ev@Base 5.3.1 1
+ (optional=gccinternal|arch=powerpc)_ZN16QPlatformMenuBarD1Ev@Base 5.3.1 1
+ (optional=gccinternal|arch=powerpc)_ZN16QPlatformMenuBarD2Ev@Base 5.3.1 1
  _ZN16QPlatformSurfaceC1EP8QSurface@Base 5.0.2 1
  _ZN16QPlatformSurfaceC2EP8QSurface@Base 5.0.2 1
  _ZN16QPlatformSurfaceD0Ev@Base 5.0.2 1
@@ -1967,9 +1967,9 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN17QPlatformMenuItem16staticMetaObjectE@Base 5.0.2 1
  _ZN17QPlatformMenuItem7hoveredEv@Base 5.0.2 1
  _ZN17QPlatformMenuItem9activatedEv@Base 5.0.2 1
- (optional=gccinternal|arch=powerpc)_ZN17QPlatformMenuItemD0Ev@Base 5.3.1
- (optional=gccinternal|arch=powerpc)_ZN17QPlatformMenuItemD1Ev@Base 5.3.1
- (optional=gccinternal|arch=powerpc)_ZN17QPlatformMenuItemD2Ev@Base 5.3.1
+ (optional=gccinternal|arch=powerpc)_ZN17QPlatformMenuItemD0Ev@Base 5.3.1 1
+ (optional=gccinternal|arch=powerpc)_ZN17QPlatformMenuItemD1Ev@Base 5.3.1 1
+ (optional=gccinternal|arch=powerpc)_ZN17QPlatformMenuItemD2Ev@Base 5.3.1 1
  _ZN17QPlatformServices12openDocumentERK4QUrl@Base 5.0.2 1
  _ZN17QPlatformServices7openUrlERK4QUrl@Base 5.0.2 1
  _ZN17QTextImageHandler10drawObjectEP8QPainterRK6QRectFP13QTextDocumentiRK11QTextFormat@Base 5.0.2 1
@@ -3291,18 +3291,18 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN25QPlatformFileDialogHelper15cleanFilterListERK7QString@Base 5.0.2 1
  _ZN25QPlatformFileDialogHelper16directoryEnteredERK4QUrl@Base 5.2.0~alpha1 1
  _ZN25QPlatformFileDialogHelper16staticMetaObjectE@Base 5.0.2 1
- (optional=gccinternal|arch=powerpc)_ZN25QPlatformFileDialogHelperD0Ev@Base 5.3.1
- (optional=gccinternal|arch=powerpc)_ZN25QPlatformFileDialogHelperD1Ev@Base 5.3.1
- (optional=gccinternal|arch=powerpc)_ZN25QPlatformFileDialogHelperD2Ev@Base 5.3.1
+ (optional=gccinternal|arch=powerpc)_ZN25QPlatformFileDialogHelperD0Ev@Base 5.3.1 1
+ (optional=gccinternal|arch=powerpc)_ZN25QPlatformFileDialogHelperD1Ev@Base 5.3.1 1
+ (optional=gccinternal|arch=powerpc)_ZN25QPlatformFileDialogHelperD2Ev@Base 5.3.1 1
  _ZN25QPlatformFontDialogHelper10setOptionsERK14QSharedPointerI18QFontDialogOptionsE@Base 5.0.2 1
  _ZN25QPlatformFontDialogHelper11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
  _ZN25QPlatformFontDialogHelper11qt_metacastEPKc@Base 5.0.2 1
  _ZN25QPlatformFontDialogHelper12fontSelectedERK5QFont@Base 5.0.2 1
  _ZN25QPlatformFontDialogHelper16staticMetaObjectE@Base 5.0.2 1
  _ZN25QPlatformFontDialogHelper18currentFontChangedERK5QFont@Base 5.0.2 1
- (optional=gccinternal|arch=powerpc)_ZN25QPlatformFontDialogHelperD0Ev@Base 5.3.1
- (optional=gccinternal|arch=powerpc)_ZN25QPlatformFontDialogHelperD1Ev@Base 5.3.1
- (optional=gccinternal|arch=powerpc)_ZN25QPlatformFontDialogHelperD2Ev@Base 5.3.1
+ (optional=gccinternal|arch=powerpc)_ZN25QPlatformFontDialogHelperD0Ev@Base 5.3.1 1
+ (optional=gccinternal|arch=powerpc)_ZN25QPlatformFontDialogHelperD1Ev@Base 5.3.1 1
+ (optional=gccinternal|arch=powerpc)_ZN25QPlatformFontDialogHelperD2Ev@Base 5.3.1 1
  _ZN25QPlatformOffscreenSurfaceC1EP17QOffscreenSurface@Base 5.1.0
  _ZN25QPlatformOffscreenSurfaceC2EP17QOffscreenSurface@Base 5.1.0
  _ZN25QPlatformOffscreenSurfaceD0Ev@Base 5.1.0
@@ -3364,9 +3364,9 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN26QPlatformColorDialogHelper13colorSelectedERK6QColor@Base 5.0.2 1
  _ZN26QPlatformColorDialogHelper16staticMetaObjectE@Base 5.0.2 1
  _ZN26QPlatformColorDialogHelper19currentColorChangedERK6QColor@Base 5.0.2 1
- (optional=gccinternal|arch=powerpc)_ZN26QPlatformColorDialogHelperD0Ev@Base 5.3.1
- (optional=gccinternal|arch=powerpc)_ZN26QPlatformColorDialogHelperD1Ev@Base 5.3.1
- (optional=gccinternal|arch=powerpc)_ZN26QPlatformColorDialogHelperD2Ev@Base 5.3.1
+ (optional=gccinternal|arch=powerpc)_ZN26QPlatformColorDialogHelperD0Ev@Base 5.3.1 1
+ (optional=gccinternal|arch=powerpc)_ZN26QPlatformColorDialogHelperD1Ev@Base 5.3.1 1
+ (optional=gccinternal|arch=powerpc)_ZN26QPlatformColorDialogHelperD2Ev@Base 5.3.1 1
  _ZN26QPlatformIntegrationPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
  _ZN26QPlatformIntegrationPlugin11qt_metacastEPKc@Base 5.0.2 1
  _ZN26QPlatformIntegrationPlugin16staticMetaObjectE@Base 5.0.2 1
@@ -3384,9 +3384,9 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN26QPlatformScreenPageFlipper16staticMetaObjectE@Base 5.0.2 1
  _ZN26QPlatformScreenPageFlipperC1EP7QObject@Base 5.0.2 1
  _ZN26QPlatformScreenPageFlipperC2EP7QObject@Base 5.0.2 1
- (optional=gccinternal|arch=powerpc)_ZN26QPlatformScreenPageFlipperD0Ev@Base 5.3.1
- (optional=gccinternal|arch=powerpc)_ZN26QPlatformScreenPageFlipperD1Ev@Base 5.3.1
- (optional=gccinternal|arch=powerpc)_ZN26QPlatformScreenPageFlipperD2Ev@Base 5.3.1
+ (optional=gccinternal|arch=powerpc)_ZN26QPlatformScreenPageFlipperD0Ev@Base 5.3.1 1
+ (optional=gccinternal|arch=powerpc)_ZN26QPlatformScreenPageFlipperD1Ev@Base 5.3.1 1
+ (optional=gccinternal|arch=powerpc)_ZN26QPlatformScreenPageFlipperD2Ev@Base 5.3.1 1
  _ZN27QAbstractTextDocumentLayout11formatIndexEi@Base 5.0.2
  _ZN27QAbstractTextDocumentLayout11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN27QAbstractTextDocumentLayout11qt_metacastEPKc@Base 5.0.2
@@ -3462,9 +3462,9 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN28QPlatformMessageDialogHelper11qt_metacastEPKc@Base 5.2.0~alpha1 1
  _ZN28QPlatformMessageDialogHelper16staticMetaObjectE@Base 5.2.0~alpha1 1
  _ZN28QPlatformMessageDialogHelper7clickedEN21QPlatformDialogHelper14StandardButtonENS0_10ButtonRoleE@Base 5.3.0 1
- (optional=gccinternal|arch=powerpc)_ZN28QPlatformMessageDialogHelperD0Ev@Base 5.3.1
- (optional=gccinternal|arch=powerpc)_ZN28QPlatformMessageDialogHelperD1Ev@Base 5.3.1
- (optional=gccinternal|arch=powerpc)_ZN28QPlatformMessageDialogHelperD2Ev@Base 5.3.1
+ (optional=gccinternal|arch=powerpc)_ZN28QPlatformMessageDialogHelperD0Ev@Base 5.3.1 1
+ (optional=gccinternal|arch=powerpc)_ZN28QPlatformMessageDialogHelperD1Ev@Base 5.3.1 1
+ (optional=gccinternal|arch=powerpc)_ZN28QPlatformMessageDialogHelperD2Ev@Base 5.3.1 1
  _ZN28QPlatformSharedGraphicsCache11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN28QPlatformSharedGraphicsCache11qt_metacastEPKc@Base 5.0.2
  _ZN28QPlatformSharedGraphicsCache12itemsMissingERK10QByteArrayRK7QVectorIjE@Base 5.0.2
@@ -4689,7 +4689,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK11QFontEngine17underlinePositionEv@Base 5.0.2 1
  _ZNK11QFontEngine20subPixelPositionForXE6QFixed@Base 5.0.2 1
  _ZNK11QFontEngine22supportsTransformationERK10QTransform@Base 5.1.0 1
- _ZNK11QFontEngine25hasUnreliableGlyphOutlineEv@Base 5.3.1
+ _ZNK11QFontEngine25hasUnreliableGlyphOutlineEv@Base 5.3.1 1
  _ZNK11QFontEngine7xHeightEv@Base 5.0.2 1
  _ZNK11QFontEngine9canRenderEPK5QChari@Base 5.3.0 1
  _ZNK11QFontEngine9doKerningEP12QGlyphLayout6QFlagsINS_10ShaperFlagEE@Base 5.0.2 1
@@ -6431,9 +6431,9 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK9QVector4D16toVector3DAffineEv@Base 5.0.2
  _ZNK9QVector4D6lengthEv@Base 5.0.2
  _ZNK9QVector4Dcv8QVariantEv@Base 5.0.2
- (optional=templinst|arch=powerpc)_ZSt13__adjust_heapIPN11QFontEngine8KernPairEiS1_EvT_T0_S4_T1_@Base 5.3.1
+ (optional=templinst|arch=powerpc)_ZSt13__adjust_heapIPN11QFontEngine8KernPairEiS1_EvT_T0_S4_T1_@Base 5.3.1 1
  (optional=templinst|arch=powerpc)_ZSt13__adjust_heapIPdidEvT_T0_S2_T1_@Base 5.3.1
- (optional=templinst|arch=powerpc)_ZSt16__introsort_loopIPN11QFontEngine8KernPairEiEvT_S3_T0_@Base 5.3.1
+ (optional=templinst|arch=powerpc)_ZSt16__introsort_loopIPN11QFontEngine8KernPairEiEvT_S3_T0_@Base 5.3.1 1
  (optional=templinst|arch=powerpc)_ZSt16__introsort_loopIPdiEvT_S1_T0_@Base 5.3.1
  (optional=templinst|arch=armel armhf hurd-i386 i386 kfreebsd-i386 mips mipsel powerpc)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 5.0.2
  (optional=templinst|arch=ia64)_ZSt9make_heapIN5QListI10QByteArrayE8iteratorEEvT_S4_@Base 5.2.0

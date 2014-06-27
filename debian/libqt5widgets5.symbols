@@ -2003,7 +2003,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN14QWidgetPrivate13setCursor_sysERK7QCursor@Base 5.0.2 1
  _ZN14QWidgetPrivate13setParent_sysEP7QWidget6QFlagsIN2Qt10WindowTypeEE@Base 5.0.2 1
  _ZN14QWidgetPrivate13setSystemClipEP12QPaintDeviceRK7QRegion@Base 5.0.2 1
- _ZN14QWidgetPrivate13setWSGeometryEv@Base 5.3.1
+ _ZN14QWidgetPrivate13setWSGeometryEv@Base 5.3.1 1
  _ZN14QWidgetPrivate14createSysExtraEv@Base 5.0.2 1
  _ZN14QWidgetPrivate14deleteSysExtraEv@Base 5.0.2 1
  _ZN14QWidgetPrivate14resolvePaletteEv@Base 5.0.2 1
@@ -3216,7 +3216,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN19QApplicationPrivate20translateTouchCancelEP12QTouchDevicem@Base 5.0.2 1
  _ZN19QApplicationPrivate21cleanupMultitouch_sysEv@Base 5.0.2 1
  _ZN19QApplicationPrivate21createEventDispatcherEv@Base 5.0.2 1
- _ZN19QApplicationPrivate22overrides_native_styleE@Base 5.3.1
+ _ZN19QApplicationPrivate22overrides_native_styleE@Base 5.3.1 1
  _ZN19QApplicationPrivate22translateRawTouchEventEP7QWidgetP12QTouchDeviceRK5QListIN11QTouchEvent10TouchPointEEm@Base 5.0.2 1
  _ZN19QApplicationPrivate23notifyWindowIconChangedEv@Base 5.3.0 1
  _ZN19QApplicationPrivate23sendSyntheticEnterLeaveEP7QWidget@Base 5.0.2 1
