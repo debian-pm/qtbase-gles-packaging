@@ -1,6 +1,6 @@
 # SymbolsHelper-Confirmed: 5.3.1 amd64
 libQt5Concurrent.so.5 libqt5concurrent5 #MINVER#
-| libqt5concurrent5 #MINVER#, qtbase-abi-5-3-0
+| libqt5concurrent5 #MINVER#, qtbase-abi-5-3-1
  _ZN12QtConcurrent16BlockSizeManager13timeAfterUserEv@Base 5.0.2
  _ZN12QtConcurrent16BlockSizeManager14timeBeforeUserEv@Base 5.0.2
  _ZN12QtConcurrent16BlockSizeManager9blockSizeEv@Base 5.0.2

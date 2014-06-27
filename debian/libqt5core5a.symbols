@@ -1,6 +1,6 @@
 # SymbolsHelper-Confirmed: 5.3.1 amd64
 libQt5Core.so.5 libqt5core5a #MINVER#
-| libqt5core5a #MINVER#, qtbase-abi-5-3-0
+| libqt5core5a #MINVER#, qtbase-abi-5-3-1
  _Z10forcepointR11QTextStream@Base 5.0.2
  _Z10noshowbaseR11QTextStream@Base 5.0.2
  _Z10qAllocMoreii@Base 5.0.2
