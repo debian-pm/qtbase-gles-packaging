@@ -285,6 +285,8 @@ Depends: libgl1-mesa-dev [!armel !armhf] | libgl-dev [!armel !armhf],
          ${misc:Depends}
 Recommends: libqt5opengl5-dev (= ${binary:Version})
 Suggests: firebird-dev,
+          libegl1-mesa-dev,
+          libgl1-mesa-dev,
           libmysqlclient-dev,
           libpq-dev,
           libsqlite3-dev,
