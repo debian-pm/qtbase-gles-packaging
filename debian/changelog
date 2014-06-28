@@ -1,4 +1,4 @@
-qtbase-opensource-src (5.3.1+dfsg-2) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.3.1+dfsg-2) unstable; urgency=medium
 
   * Enable using system network proxies by default.
     - Add NEWS file with this information.
@@ -10,7 +10,7 @@ qtbase-opensource-src (5.3.1+dfsg-2) UNRELEASED; urgency=medium
   * Update symbols files with buildds' and mips64el's logs.
   * Add multitouch protocol translation support.
 
- -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Fri, 27 Jun 2014 16:57:26 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Fri, 27 Jun 2014 19:52:42 -0300
 
 qtbase-opensource-src (5.3.1+dfsg-1) unstable; urgency=medium
 
