@@ -1,3 +1,7 @@
+qtbase-opensource-src (5.3.1+dfsg-3) UNRELEASED; urgency=medium
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 01 Jul 2014 01:15:10 -0300
+
 qtbase-opensource-src (5.3.1+dfsg-2) unstable; urgency=medium
 
   * Enable using system network proxies by default.
