@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.3.1 amd64 armel armhf hppa hurd-i386 i386 kfreebsd-i386 mips mips64el mipsel s390x sparc sparc64
+# SymbolsHelper-Confirmed: 5.3.1 amd64 arm64 armel armhf hppa hurd-i386 i386 kfreebsd-i386 mips mips64el mipsel ppc64 s390x sparc sparc64
 libQt5Core.so.5 libqt5core5a #MINVER#
 | libqt5core5a #MINVER#, qtbase-abi-5-3-1
  _Z10forcepointR11QTextStream@Base 5.0.2
@@ -4915,10 +4915,10 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  (optional=templinst|arch=ia64)_ZSt30__move_merge_adaptive_backwardIPiS0_S0_32QSortFilterProxyModelGreaterThanEvT_S2_T0_S3_T1_T2_@Base 5.2.0
  (optional=templinst|arch=ia64)_ZSt6__findIN5QListIP18QAbstractAnimationE14const_iteratorEP7QObjectET_S7_S7_RKT0_St26random_access_iterator_tag@Base 5.2.0
  (optional=templinst|arch=ia64)_ZSt6__findIPKPKcS1_ET_S4_S4_RKT0_St26random_access_iterator_tag@Base 5.2.0
- (optional=templinst|arch=mips mips64el mipsel s390x)_ZSt8__rotateIP21QPersistentModelIndexEvT_S2_S2_St26random_access_iterator_tag@Base 5.3.1
+ (optional=templinst|arch=mips mips64el mipsel ppc64 s390x)_ZSt8__rotateIP21QPersistentModelIndexEvT_S2_S2_St26random_access_iterator_tag@Base 5.3.1
  (optional=templinst|arch=ia64)_ZSt8__rotateIP5QPairI21QPersistentModelIndexjEEvT_S4_S4_St26random_access_iterator_tag@Base 5.2.0
  (optional=templinst|arch=ia64)_ZSt8__rotateIP5QPairIiiEEvT_S3_S3_St26random_access_iterator_tag@Base 5.2.0
- (optional=templinst|arch=mips mips64el mipsel s390x)_ZSt8__rotateIPiEvT_S1_S1_St26random_access_iterator_tag@Base 5.3.1
+ (optional=templinst|arch=mips mips64el mipsel ppc64 s390x)_ZSt8__rotateIPiEvT_S1_S1_St26random_access_iterator_tag@Base 5.3.1
  (optional=templinst|arch=ia64)_ZSt9make_heapIN5QListI10QByteArrayE8iteratorEEvT_S4_@Base 5.2.0
  (optional=templinst|arch=ia64)_ZSt9make_heapIN5QListI5QPairI7QStringiEE8iteratorEPFbRKS3_S7_EEvT_SA_T0_@Base 5.2.0
  (optional=templinst|arch=ia64)_ZSt9make_heapIN5QListI7QStringE8iteratorEEvT_S4_@Base 5.2.0

@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.3.1 amd64 armel armhf hppa i386 kfreebsd-i386 mips mips64el mipsel powerpc s390x sparc sparc64
+# SymbolsHelper-Confirmed: 5.3.1 alpha amd64 arm64 armel armhf hppa i386 kfreebsd-i386 mips mips64el mipsel powerpc ppc64 s390x sparc sparc64
 libQt5Widgets.so.5 libqt5widgets5 #MINVER#
 | libqt5widgets5 #MINVER#, qtbase-abi-5-3-1
  _Z11qFadeEffectP7QWidgeti@Base 5.0.2
@@ -262,8 +262,8 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN10QTableViewD0Ev@Base 5.0.2
  _ZN10QTableViewD1Ev@Base 5.0.2
  _ZN10QTableViewD2Ev@Base 5.0.2
- (arch=alpha arm64 armel mips mipsel powerpc)_ZN10QTransformC1ERKS_@Base 5.3.0
- (arch=alpha arm64 armel mips mipsel powerpc)_ZN10QTransformC2ERKS_@Base 5.3.0
+ (arch=armel mips mipsel powerpc)_ZN10QTransformC1ERKS_@Base 5.3.0
+ (arch=armel mips mipsel powerpc)_ZN10QTransformC2ERKS_@Base 5.3.0
  _ZN10QUndoGroup11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN10QUndoGroup11qt_metacastEPKc@Base 5.0.2
  _ZN10QUndoGroup11removeStackEP10QUndoStack@Base 5.0.2
@@ -2398,8 +2398,8 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN15QStyleOptionTabC1Ev@Base 5.0.2
  _ZN15QStyleOptionTabC2Ei@Base 5.0.2
  _ZN15QStyleOptionTabC2Ev@Base 5.0.2
- (arch=armel hppa powerpc s390x sparc sparc64)_ZN15QStyleOptionTabD1Ev@Base 5.3.1
- (arch=armel hppa powerpc s390x sparc sparc64)_ZN15QStyleOptionTabD2Ev@Base 5.3.1
+ (arch=alpha arm64 armel hppa powerpc ppc64 s390x sparc sparc64)_ZN15QStyleOptionTabD1Ev@Base 5.3.1
+ (arch=alpha arm64 armel hppa powerpc ppc64 s390x sparc sparc64)_ZN15QStyleOptionTabD2Ev@Base 5.3.1
  _ZN15QSystemTrayIcon10setToolTipERK7QString@Base 5.0.2
  _ZN15QSystemTrayIcon10setVisibleEb@Base 5.0.2
  _ZN15QSystemTrayIcon11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
@@ -3369,8 +3369,8 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN19QStyleOptionToolBoxC1Ev@Base 5.0.2
  _ZN19QStyleOptionToolBoxC2Ei@Base 5.0.2
  _ZN19QStyleOptionToolBoxC2Ev@Base 5.0.2
- (arch=armel hppa powerpc s390x sparc sparc64)_ZN19QStyleOptionToolBoxD1Ev@Base 5.3.1
- (arch=armel hppa powerpc s390x sparc sparc64)_ZN19QStyleOptionToolBoxD2Ev@Base 5.3.1
+ (arch=alpha arm64 armel hppa powerpc ppc64 s390x sparc sparc64)_ZN19QStyleOptionToolBoxD1Ev@Base 5.3.1
+ (arch=alpha arm64 armel hppa powerpc ppc64 s390x sparc sparc64)_ZN19QStyleOptionToolBoxD2Ev@Base 5.3.1
  _ZN19QStyledItemDelegate11editorEventEP6QEventP18QAbstractItemModelRK20QStyleOptionViewItemRK11QModelIndex@Base 5.0.2
  _ZN19QStyledItemDelegate11eventFilterEP7QObjectP6QEvent@Base 5.0.2
  _ZN19QStyledItemDelegate11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
@@ -3522,8 +3522,8 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN20QStyleOptionComboBoxC1Ev@Base 5.0.2
  _ZN20QStyleOptionComboBoxC2Ei@Base 5.0.2
  _ZN20QStyleOptionComboBoxC2Ev@Base 5.0.2
- (arch=armel hppa powerpc s390x sparc sparc64)_ZN20QStyleOptionComboBoxD1Ev@Base 5.3.1
- (arch=armel hppa powerpc s390x sparc sparc64)_ZN20QStyleOptionComboBoxD2Ev@Base 5.3.1
+ (arch=alpha arm64 armel hppa powerpc ppc64 s390x sparc sparc64)_ZN20QStyleOptionComboBoxD1Ev@Base 5.3.1
+ (arch=alpha arm64 armel hppa powerpc ppc64 s390x sparc sparc64)_ZN20QStyleOptionComboBoxD2Ev@Base 5.3.1
  _ZN20QStyleOptionGroupBoxC1Ei@Base 5.0.2
  _ZN20QStyleOptionGroupBoxC1Ev@Base 5.0.2
  _ZN20QStyleOptionGroupBoxC2Ei@Base 5.0.2
@@ -4692,7 +4692,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN8QToolTip8showTextERK6QPointRK7QStringP7QWidgetRK5QRect@Base 5.0.2
  _ZN8QToolTip8showTextERK6QPointRK7QStringP7QWidgetRK5QRecti@Base 5.2.0~alpha1
  _ZN8QToolTip9isVisibleEv@Base 5.0.2
- (arch=!amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mips64el !mipsel !ppc64 !s390x !sparc !sparc64)_ZN9QBitArray6setBitEi@Base 5.3.0
+ (arch=!alpha !amd64 !arm64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mips64el !mipsel !ppc64 !s390x !sparc !sparc64)_ZN9QBitArray6setBitEi@Base 5.3.0
  (arch=powerpc)_ZN9QBitArray8clearBitEi@Base 5.3.1
  _ZN9QCheckBox10paintEventEP11QPaintEvent@Base 5.0.2
  _ZN9QCheckBox11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2

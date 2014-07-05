@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.3.1 amd64 armhf hppa mips mipsel powerpc s390x sparc sparc64
+# SymbolsHelper-Confirmed: 5.3.1 alpha amd64 arm64 armhf hppa mips mipsel powerpc s390x sparc sparc64
 libQt5Gui.so.5 libqt5gui5 #MINVER#
 | libqt5gui5 #MINVER#, qtbase-abi-5-3-1
  _Z11qDrawBorderP8QPainterRK5QRectPKN4QCss11BorderStyleEPKiPK6QBrushPK5QSize@Base 5.0.2
@@ -307,12 +307,12 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN10QTransform9setMatrixEddddddddd@Base 5.2.0
  _ZN10QTransform9translateEdd@Base 5.2.0
  _ZN10QTransformC1ERK7QMatrix@Base 5.0.2
- (optional=gccinternal|arch=alpha arm64 powerpc)_ZN10QTransformC1ERKS_@Base 5.3.0
+ (optional=gccinternal|arch=powerpc)_ZN10QTransformC1ERKS_@Base 5.3.0
  _ZN10QTransformC1Edddddd@Base 5.2.0
  _ZN10QTransformC1Eddddddddd@Base 5.2.0
  _ZN10QTransformC1Ev@Base 5.0.2
  _ZN10QTransformC2ERK7QMatrix@Base 5.0.2
- (optional=gccinternal|arch=alpha arm64 powerpc)_ZN10QTransformC2ERKS_@Base 5.3.0
+ (optional=gccinternal|arch=powerpc)_ZN10QTransformC2ERKS_@Base 5.3.0
  _ZN10QTransformC2Edddddd@Base 5.2.0
  _ZN10QTransformC2Eddddddddd@Base 5.2.0
  _ZN10QTransformC2Ev@Base 5.0.2
