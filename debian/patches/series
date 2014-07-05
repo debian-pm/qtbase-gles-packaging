@@ -4,6 +4,7 @@ support_mips_atomic_on_pre-mips32_archs.patch
 mips_more_pre-mips32.diff
 gnukfreebsd.diff
 Remove-Wcast-align-from-QMAKE_CXXFLAGS.patch
+cmake_dont_check_existence_of_gl_filesin_qt5gui.patch
 
 # Debian specific.
 remove_google_adsense.patch

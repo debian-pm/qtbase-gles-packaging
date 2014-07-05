@@ -2,6 +2,8 @@ qtbase-opensource-src (5.3.1+dfsg-3) UNRELEASED; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Improve NEWS wording.
+  * Add cmake_dont_check_existence_of_gl_filesin_qt5gui.patch to avoid Qt GUI
+    requiring libegl1-mesa-dev (Closes: #752847).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 01 Jul 2014 01:15:10 -0300
 
