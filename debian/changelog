@@ -3,6 +3,10 @@ qtbase-opensource-src (5.3.1+dfsg-5) UNRELEASED; urgency=medium
   [ Julián Moreno Patiño ]
   * Add support for non-sse2 processors.
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Disable the usage of system proxies by default due to
+    https://bugreports.qt-project.org/browse/QTBUG-41053
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 29 Aug 2014 14:38:34 -0300
 
 qtbase-opensource-src (5.3.1+dfsg-3) unstable; urgency=medium

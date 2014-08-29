@@ -118,7 +118,6 @@ override_dh_auto_configure:
 	            -system-zlib \
 	            -system-libpng \
 	            -system-libjpeg \
-	            -system-proxies \
 	            -openssl \
 	            -no-rpath \
 	            -verbose \
