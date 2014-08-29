@@ -1,9 +1,9 @@
-qtbase-opensource-src (5.3.1+dfsg-4) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.3.1+dfsg-5) UNRELEASED; urgency=medium
 
-  * Team upload.
+  [ Julián Moreno Patiño ]
   * Add support for non-sse2 processors.
 
- -- Julián Moreno Patiño <julian@debian.org>  Thu, 28 Aug 2014 17:23:19 -0500
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 29 Aug 2014 14:38:34 -0300
 
 qtbase-opensource-src (5.3.1+dfsg-3) unstable; urgency=medium
 
