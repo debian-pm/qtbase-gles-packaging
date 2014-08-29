@@ -1,3 +1,10 @@
+qtbase-opensource-src (5.3.1+dfsg-4) unstable; urgency=medium
+
+  * Team upload.
+  * Add support for non-sse2 processors.
+
+ -- Julián Moreno Patiño <julian@debian.org>  Thu, 28 Aug 2014 17:23:19 -0500
+
 qtbase-opensource-src (5.3.1+dfsg-3) unstable; urgency=medium
 
   * Improve NEWS wording.

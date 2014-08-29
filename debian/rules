@@ -7,6 +7,7 @@ DEB_HOST_MULTIARCH ?= $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
 DEB_HOST_ARCH ?= $(shell dpkg-architecture -qDEB_HOST_ARCH)
 DEB_HOST_ARCH_OS ?= $(shell dpkg-architecture -qDEB_HOST_ARCH_OS)
 DEB_HOST_ARCH_BITS ?= $(shell dpkg-architecture -qDEB_HOST_ARCH_BITS)
+DEB_HOST_ARCH_CPU ?= $(shell dpkg-architecture -qDEB_HOST_ARCH_CPU)
 
 export PATH := $(PATH):$(shell pwd)/bin
 export CFLAGS := $(shell dpkg-buildflags --get CFLAGS) $(shell dpkg-buildflags --get CPPFLAGS)
@@ -62,6 +63,11 @@ endif
 
 ifneq ($(DEB_HOST_ARCH_OS),linux)
 	extra_configure_opts += -no-eglfs
+endif
+
+# Compile by default without sse2 support
+ifeq ($(DEB_HOST_ARCH_CPU),i386)
+	cpu_opt = -no-sse2
 endif
 
 ifeq ($(DEB_HOST_ARCH_OS),linux)
@@ -128,7 +134,8 @@ override_dh_auto_configure:
 	            -accessibility \
 	            -compile-examples \
 	            -no-directfb \
-	            $(extra_configure_opts)
+                   $(extra_configure_opts) \
+	            $(cpu_opt)
 
 override_dh_auto_clean:
 	[ ! -f Makefile ] || $(MAKE) confclean distclean
@@ -211,6 +218,10 @@ override_dh_auto_build-indep:
 	cd $(CURDIR)/src/corelib; ../../bin/qmake
 	cd $(CURDIR)/src/xml; ../../bin/qmake
 	dh_auto_build -Smakefile -- html_docs
+ifeq ($(DEB_HOST_ARCH_CPU),i386)
+	cd $(CURDIR)/src/corelib; ../../bin/qmake -config sse2; make
+	cd $(CURDIR)/src/xml; ../../bin/qmake -config sse2; make
+endif
 
 override_dh_auto_install-arch:
 	dh_auto_install -Smakefile -- INSTALL_ROOT=$(CURDIR)/debian/tmp/
