@@ -133,7 +133,7 @@ override_dh_auto_configure:
 	            -accessibility \
 	            -compile-examples \
 	            -no-directfb \
-                   $(extra_configure_opts) \
+	            $(extra_configure_opts) \
 	            $(cpu_opt)
 
 override_dh_auto_clean:
