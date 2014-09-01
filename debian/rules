@@ -65,7 +65,7 @@ ifneq ($(DEB_HOST_ARCH_OS),linux)
 	extra_configure_opts += -no-eglfs
 endif
 
-# Compile by default without sse2 support
+# Compile without sse2 support on i386
 ifeq ($(DEB_HOST_ARCH_CPU),i386)
 	cpu_opt = -no-sse2
 endif
