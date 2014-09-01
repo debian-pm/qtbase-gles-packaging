@@ -8,6 +8,8 @@ qtbase-opensource-src (5.3.1+dfsg-5) UNRELEASED; urgency=medium
     https://bugreports.qt-project.org/browse/QTBUG-41053
   * Make libqt5core5a recommend qttranslations5-l10n. Thanks Felix Geyer
     for the pointer.
+  * Build SSE2 enabled libraries in override_dh_auto_install-arch in order to
+    avoid rewriting the previously built versions before installing them.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 29 Aug 2014 14:38:34 -0300
 
