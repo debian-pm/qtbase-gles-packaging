@@ -12,6 +12,7 @@ qtbase-opensource-src (5.3.1+dfsg-5) UNRELEASED; urgency=medium
     avoid rewriting the previously built versions before installing them.
   * Disable pre compiled headers support when building both non SEE2 and SSE2
     libraries, as it is not compatible.
+  * Create new install files for archs which uses i386 processor.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 29 Aug 2014 14:38:34 -0300
 
