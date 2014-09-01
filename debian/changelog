@@ -1,7 +1,7 @@
 qtbase-opensource-src (5.3.1+dfsg-5) UNRELEASED; urgency=medium
 
   [ Julián Moreno Patiño ]
-  * Add support for non-sse2 processors.
+  * Add support for non-sse2 processors (Closes: #754894).
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Disable the usage of system proxies by default due to
