@@ -1,4 +1,4 @@
-qtbase-opensource-src (5.3.1+dfsg-5) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.3.1+dfsg-5) experimental; urgency=medium
 
   [ Julián Moreno Patiño ]
   * Add support for non-sse2 processors (Closes: #754894).
@@ -14,7 +14,7 @@ qtbase-opensource-src (5.3.1+dfsg-5) UNRELEASED; urgency=medium
     libraries, as it is not compatible.
   * Create new install files for archs which uses i386 processor.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 29 Aug 2014 14:38:34 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 01 Sep 2014 18:53:46 -0300
 
 qtbase-opensource-src (5.3.1+dfsg-3) unstable; urgency=medium
 
