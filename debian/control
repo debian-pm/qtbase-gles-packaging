@@ -72,6 +72,7 @@ Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Provides: qtbase-abi-5-3-1
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Recommends: qttranslations5-l10n
 Suggests: libthai0
 Breaks: libqt5core5 (<< 5.2.0+dfsg~)
 Replaces: libqt5core5 (<< 5.2.0+dfsg~)
