@@ -20,6 +20,7 @@ qtbase-opensource-src (5.3.2+dfsg-1) experimental; urgency=medium
   * Update symbols files with buildds' and current logs.
   * Build conflict against libmariadbclient-dev until the fix for #759309
     enters unstable.
+  * Mark private symbols as such.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 07 Sep 2014 14:58:47 +0400
 
