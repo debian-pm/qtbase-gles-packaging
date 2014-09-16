@@ -2,6 +2,10 @@ Description: remove tracking javascript from examples
 Author: Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
 Last-Update: 2014-02-17
 
+---
+ examples/xml/htmlinfo/trolltech_com.html |   45 -------------------------------
+ 1 file changed, 45 deletions(-)
+
 --- a/examples/xml/htmlinfo/trolltech_com.html
 +++ b/examples/xml/htmlinfo/trolltech_com.html
 @@ -23,14 +23,6 @@
@@ -19,7 +23,7 @@ Last-Update: 2014-02-17
          <base href="http://trolltech.com/homepage" />
        
      
-@@ -913,43 +905,6 @@
+@@ -910,43 +902,6 @@ are here:</span>
      </div>
        
      </div>

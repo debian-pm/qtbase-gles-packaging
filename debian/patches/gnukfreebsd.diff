@@ -5,6 +5,12 @@ Description: Initial GNU/kFreeBSD support
 Last-Update: 2013-12-21
 Forwarded: no
 
+---
+ mkspecs/features/qt_functions.prf       |    2 
+ mkspecs/gnukfreebsd-g++/qmake.conf      |   52 ++++++++++++++++++
+ mkspecs/gnukfreebsd-g++/qplatformdefs.h |   92 ++++++++++++++++++++++++++++++++
+ 3 files changed, 146 insertions(+)
+
 --- /dev/null
 +++ b/mkspecs/gnukfreebsd-g++/qmake.conf
 @@ -0,0 +1,52 @@
@@ -157,7 +163,7 @@ Forwarded: no
 +#endif // QPLATFORMDEFS_H
 --- a/mkspecs/features/qt_functions.prf
 +++ b/mkspecs/features/qt_functions.prf
-@@ -259,6 +259,8 @@ defineTest(qtAddTargetEnv) {
+@@ -265,6 +265,8 @@ defineTest(qtAddTargetEnv) {
              deppath.name = PATH
          } else:contains(QMAKE_HOST.os, Linux|FreeBSD|OpenBSD|NetBSD|DragonFly|SunOS|HP-UX|QNX|GNU) {
              deppath.name = LD_LIBRARY_PATH
