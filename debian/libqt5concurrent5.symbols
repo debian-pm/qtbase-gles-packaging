@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.3.1 amd64 armel armhf hppa i386 kfreebsd-i386 mips mips64el mipsel powerpc sparc
+# SymbolsHelper-Confirmed: 5.3.1 amd64 armel armhf hppa i386 kfreebsd-i386 mips mips64el mipsel powerpc ppc64el sparc x32
 libQt5Concurrent.so.5 libqt5concurrent5 #MINVER#
 | libqt5concurrent5 #MINVER#, qtbase-abi-5-3-2
  _ZN12QtConcurrent16BlockSizeManager13timeAfterUserEv@Base 5.0.2
@@ -26,8 +26,6 @@ libQt5Concurrent.so.5 libqt5concurrent5 #MINVER#
  _ZN12QtConcurrent16ThreadEngineBaseD0Ev@Base 5.0.2
  _ZN12QtConcurrent16ThreadEngineBaseD1Ev@Base 5.0.2
  _ZN12QtConcurrent16ThreadEngineBaseD2Ev@Base 5.0.2
- (optional=templinst|arch=!alpha !amd64 !arm64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mips64el !mipsel !ppc64 !s390x !sparc !sparc64)_ZSt13__adjust_heapIPdidEvT_T0_S2_T1_@Base 5.3.0
- (optional=templinst|arch=powerpc)_ZSt13__introselectIPdiEvT_S1_S1_T0_@Base 5.3.1
  _ZTIN12QtConcurrent16ThreadEngineBaseE@Base 5.0.2
  _ZTSN12QtConcurrent16ThreadEngineBaseE@Base 5.0.2
  _ZTVN12QtConcurrent16ThreadEngineBaseE@Base 5.0.2
