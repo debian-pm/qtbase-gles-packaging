@@ -635,3 +635,4 @@ usr/include/*/qt5/QtWidgets/*/QtWidgets/private/qwindowsvistastyle_p_p.h
 usr/include/*/qt5/QtWidgets/*/QtWidgets/private/qwindowsxpstyle_p.h
 usr/include/*/qt5/QtWidgets/*/QtWidgets/private/qwindowsxpstyle_p_p.h
 usr/include/*/qt5/QtWidgets/*/QtWidgets/private/qwizard_win_p.h
+usr/include/*/qt5/QtXml/*/QtXml/private/qxml_p.h
