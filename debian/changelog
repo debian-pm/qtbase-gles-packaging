@@ -22,7 +22,7 @@ qtbase-opensource-src (5.3.2+dfsg-1) experimental; urgency=medium
     enters unstable.
   * Mark private symbols as such.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 07 Sep 2014 14:58:47 +0400
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Tue, 16 Sep 2014 13:38:11 -0300
 
 qtbase-opensource-src (5.3.1+dfsg-6) unstable; urgency=medium
 
