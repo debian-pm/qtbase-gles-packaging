@@ -17,7 +17,7 @@ qtbase-opensource-src (5.3.2+dfsg-1) UNRELEASED; urgency=medium
   * Remove libgstreamer* build dependencies, they are not really needed as
     there is no usage of them by grepping the code.
   * Update install files.
-  * Update symbols files with buildds' logs.
+  * Update symbols files with buildds' and current logs.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 07 Sep 2014 14:58:47 +0400
 

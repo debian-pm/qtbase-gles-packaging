@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.3.1 alpha amd64 arm64 armhf hppa hurd-i386 i386 kfreebsd-i386 mips mipsel powerpc s390x sparc sparc64 x32
+# SymbolsHelper-Confirmed: 5.3.2 amd64
 libQt5Gui.so.5 libqt5gui5 #MINVER#
 | libqt5gui5 #MINVER#, qtbase-abi-5-3-2
  _Z11qDrawBorderP8QPainterRK5QRectPKN4QCss11BorderStyleEPKiPK6QBrushPK5QSize@Base 5.0.2
@@ -1069,7 +1069,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN13QFontDatabase26addApplicationFontFromDataERK10QByteArray@Base 5.0.2
  _ZN13QFontDatabase29supportsThreadedFontRenderingEv@Base 5.2.0~beta1
  _ZN13QFontDatabase4loadEPK12QFontPrivatei@Base 5.0.2 1
- _ZN13QFontDatabase8findFontEiPK12QFontPrivateRK8QFontDefb@Base 5.0.2 1
+ _ZN13QFontDatabase8findFontEiPK12QFontPrivateRK8QFontDefbb@Base 5.3.2
  _ZN13QFontDatabaseC1Ev@Base 5.0.2
  _ZN13QFontDatabaseC2Ev@Base 5.0.2
  _ZN13QFontMetricsFC1ERK12QFontMetrics@Base 5.0.2
@@ -1477,6 +1477,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN14QWindowPrivate16updateVisibilityEv@Base 5.1.0 1
  _ZN14QWindowPrivate27maybeQuitOnLastWindowClosedEv@Base 5.0.2 1
  _ZN14QWindowPrivate4initEv@Base 5.3.0 1
+ _ZN14QWindowPrivate6createEb@Base 5.3.2
  _ZN14QWindowPrivate9setCursorEPK7QCursor@Base 5.1.0 1
  _ZN14QWindowPrivate9setScreenEP7QScreenb@Base 5.1.0 1
  _ZN15QDragEnterEventC1ERK6QPoint6QFlagsIN2Qt10DropActionEEPK9QMimeDataS3_INS4_11MouseButtonEES3_INS4_16KeyboardModifierEE@Base 5.0.2
@@ -5678,6 +5679,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK21QPlatformFontDatabase13standardSizesEv@Base 5.0.2 1
  _ZNK21QPlatformFontDatabase18fallbacksForFamilyERK7QStringN5QFont5StyleENS3_9StyleHintEN5QChar6ScriptE@Base 5.1.0 1
  _ZNK21QPlatformFontDatabase19fontsAlwaysScalableEv@Base 5.0.2 1
+ _ZNK21QPlatformFontDatabase19isPrivateFontFamilyERK7QString@Base 5.3.2
  _ZNK21QPlatformFontDatabase22resolveFontFamilyAliasERK7QString@Base 5.0.2 1
  _ZNK21QPlatformFontDatabase7fontDirEv@Base 5.0.2 1
  _ZNK21QPlatformInputContext10metaObjectEv@Base 5.0.2 1
