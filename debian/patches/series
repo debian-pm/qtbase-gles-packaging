@@ -2,7 +2,6 @@ remove_icon_from_example.patch
 hurd_opengl_incldir.diff
 mips_more_pre-mips32.diff
 gnukfreebsd.diff
-cmake_dont_check_existence_of_gl_filesin_qt5gui.patch
 
 # Debian specific.
 remove_google_adsense.patch

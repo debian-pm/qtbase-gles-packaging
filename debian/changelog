@@ -11,6 +11,7 @@ qtbase-opensource-src (5.3.2+dfsg-1) UNRELEASED; urgency=medium
     - support_mips_atomic_on_pre-mips32_archs.patch, applied upstream with a
       fix.
     - Remove-Wcast-align-from-QMAKE_CXXFLAGS.patch.
+    - cmake_dont_check_existence_of_gl_filesin_qt5gui.patch.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 07 Sep 2014 14:58:47 +0400
 
