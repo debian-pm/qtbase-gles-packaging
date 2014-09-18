@@ -1,0 +1,35 @@
+From c6718f01c20779da00689b3ef66ede7af5fe8ce5 Mon Sep 17 00:00:00 2001
+From: Thiago Macieira <thiago.macieira@intel.com>
+Date: Tue, 12 Aug 2014 09:47:41 -0700
+Subject: [PATCH] Correct the SYNC hint for the release barrier
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+The MIPS32 manual I have says 0x11 is SYNC_ACQUIRE and 0x12 is
+SYNC_RELEASE. The change was an unintentional mistake in commit
+60b6b28c213a420ee40e254ff1823876098e0a04.
+
+Thanks to Spencer Schumann for spotting this.
+
+Change-Id: I16885e4e86e8befa8931733d0b5a54ac9942f176
+Reviewed-by: Spencer Schumann <spencer.schumann@echostar.com>
+Reviewed-by: Olivier Goffart <ogoffart@woboq.com>
+Reviewed-by: Lisandro Damián Nicanor Pérez Meyer <perezmeyer@gmail.com>
+---
+ src/corelib/arch/qatomic_mips.h | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Index: qtbase/src/corelib/arch/qatomic_mips.h
+===================================================================
+--- qtbase.orig/src/corelib/arch/qatomic_mips.h	2014-09-17 22:52:52.884106628 -0500
++++ qtbase/src/corelib/arch/qatomic_mips.h	2014-09-17 22:52:52.880106627 -0500
+@@ -112,7 +112,7 @@
+ {
+     asm volatile (".set push\n"
+                   ".set mips32\n"
+-                  "sync 0x11\n"
++                  "sync 0x12\n"
+                   ".set pop\n" ::: "memory");
+ }
+ 
