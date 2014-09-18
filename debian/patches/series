@@ -3,9 +3,8 @@ hurd_opengl_incldir.diff
 mips_more_pre-mips32.diff
 gnukfreebsd.diff
 
-# Patches that were upstreamed for 5.3.3
+# Patches that need to be upstreamed
 fix_sparc_atomics.patch
-mips32_wrong_hint.patch
 
 # Debian specific.
 remove_google_adsense.patch
