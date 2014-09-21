@@ -4,6 +4,8 @@ qtbase-opensource-src (5.3.2+dfsg-2) UNRELEASED; urgency=medium
   * Add Adam Majer's fix_sparc_atomics.patch to let Sparc use C++11's atomics.
   * Add libxext-dev as build dependency: it's currently being pulled by
     something else, but adding it here will make things more robust.
+  * Make qtbase5-dev depend on libxext-dev. Some mkspecs require it and it
+    seems it's not a false positive.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 17 Sep 2014 15:49:52 -0300
 
