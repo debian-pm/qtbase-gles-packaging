@@ -6,6 +6,7 @@ qtbase-opensource-src (5.3.2+dfsg-2) UNRELEASED; urgency=medium
     something else, but adding it here will make things more robust.
   * Make qtbase5-dev depend on libxext-dev. Some mkspecs require it and it
     seems it's not a false positive.
+  * Update symbols files with buildds' logs.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 17 Sep 2014 15:49:52 -0300
 
