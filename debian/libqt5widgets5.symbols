@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.3.2 amd64 x32
+# SymbolsHelper-Confirmed: 5.3.2 alpha amd64 armel hppa kfreebsd-amd64 mips mipsel ppc64 ppc64el s390x sparc x32
 libQt5Widgets.so.5 libqt5widgets5 #MINVER#
 | libqt5widgets5 #MINVER#, qtbase-abi-5-3-2
  _Z11qFadeEffectP7QWidgeti@Base 5.0.2
@@ -3849,6 +3849,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN24QStyleOptionGraphicsItemC1Ev@Base 5.0.2
  _ZN24QStyleOptionGraphicsItemC2Ei@Base 5.0.2
  _ZN24QStyleOptionGraphicsItemC2Ev@Base 5.0.2
+ (arch=!amd64 !x32)_ZN24QStyleOptionGraphicsItemaSERKS_@Base 5.3.2
  _ZN25QAbstractItemModelPrivateD0Ev@Base 5.0.2 1
  _ZN25QAbstractItemModelPrivateD1Ev@Base 5.0.2 1
  _ZN25QAbstractItemModelPrivateD2Ev@Base 5.0.2 1
