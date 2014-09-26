@@ -281,7 +281,7 @@ Depends: libgl1-mesa-dev [!armel !armhf] | libgl-dev [!armel !armhf],
          libqt5test5 (= ${binary:Version}),
          libqt5widgets5 (= ${binary:Version}),
          libqt5xml5 (= ${binary:Version}),
-         libxext-dev
+         libxext-dev,
          ${misc:Depends},
          qt5-qmake (= ${binary:Version}),
          qtbase5-dev-tools (= ${binary:Version}),
