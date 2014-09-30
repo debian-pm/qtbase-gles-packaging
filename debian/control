@@ -282,10 +282,10 @@ Depends: libgl1-mesa-dev [!armel !armhf] | libgl-dev [!armel !armhf],
          libqt5widgets5 (= ${binary:Version}),
          libqt5xml5 (= ${binary:Version}),
          libxext-dev,
-         ${misc:Depends},
          qt5-qmake (= ${binary:Version}),
          qtbase5-dev-tools (= ${binary:Version}),
-         qtchooser
+         qtchooser,
+         ${misc:Depends}
 Recommends: libqt5opengl5-dev (= ${binary:Version})
 Suggests: firebird-dev,
           libegl1-mesa-dev,
