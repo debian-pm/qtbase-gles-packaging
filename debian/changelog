@@ -1,10 +1,9 @@
-qtbase-opensource-src (5.3.2+dfsg-3) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.3.2+dfsg-3) unstable; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * Do not use precompiled headers on arm64 (Closes: #762702).
   * Update symbols files with buildds' logs.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 24 Sep 2014 19:48:04 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Tue, 30 Sep 2014 00:38:45 -0300
 
 qtbase-opensource-src (5.3.2+dfsg-2) unstable; urgency=medium
 
