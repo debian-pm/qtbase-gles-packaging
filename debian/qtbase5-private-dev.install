@@ -449,6 +449,10 @@ usr/include/*/qt5/QtPlatformSupport/*/QtPlatformSupport/private/qmacmime_p.h
 usr/include/*/qt5/QtPlatformSupport/*/QtPlatformSupport/private/qunixeventdispatcher_qpa_p.h
 usr/include/*/qt5/QtPlatformSupport/*/QtPlatformSupport/private/qxlibeglintegration_p.h
 usr/include/*/qt5/QtPlatformSupport/*/QtPlatformSupport/private/struct_marshallers_p.h
+usr/include/*/qt5/QtPlatformSupport/QtPlatformSupport
+usr/include/*/qt5/QtPlatformSupport/QtPlatformSupportDepends
+usr/include/*/qt5/QtPlatformSupport/QtPlatformSupportVersion
+usr/include/*/qt5/QtPlatformSupport/qtplatformsupportversion.h
 usr/include/*/qt5/QtPrintSupport/*/QtPrintSupport/private/qabstractprintdialog_p.h
 usr/include/*/qt5/QtPrintSupport/*/QtPrintSupport/private/qcups_p.h
 usr/include/*/qt5/QtPrintSupport/*/QtPrintSupport/private/qcupsjobwidget_p.h
@@ -636,3 +640,6 @@ usr/include/*/qt5/QtWidgets/*/QtWidgets/private/qwindowsxpstyle_p.h
 usr/include/*/qt5/QtWidgets/*/QtWidgets/private/qwindowsxpstyle_p_p.h
 usr/include/*/qt5/QtWidgets/*/QtWidgets/private/qwizard_win_p.h
 usr/include/*/qt5/QtXml/*/QtXml/private/qxml_p.h
+usr/lib/*/libQt5PlatformSupport.a
+usr/lib/*/libQt5PlatformSupport.prl
+usr/lib/*/pkgconfig/Qt5PlatformSupport.pc

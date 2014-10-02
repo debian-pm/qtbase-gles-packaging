@@ -1,5 +1,9 @@
 qtbase-opensource-src (5.3.2+dfsg-4) UNRELEASED; urgency=medium
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Move QPlatformSupport stuff from qtbase5-dev to qtbase5-private-dev, as it
+    belongs there. Update Breaks+Replaces.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 02 Oct 2014 17:39:20 -0300
 
 qtbase-opensource-src (5.3.2+dfsg-3) unstable; urgency=medium

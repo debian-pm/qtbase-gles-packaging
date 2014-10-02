@@ -1000,10 +1000,6 @@ usr/include/*/qt5/QtOpenGLExtensions/QtOpenGLExtensionsDepends
 usr/include/*/qt5/QtOpenGLExtensions/QtOpenGLExtensionsVersion
 usr/include/*/qt5/QtOpenGLExtensions/qopenglextensions.h
 usr/include/*/qt5/QtOpenGLExtensions/qtopenglextensionsversion.h
-usr/include/*/qt5/QtPlatformSupport/QtPlatformSupport
-usr/include/*/qt5/QtPlatformSupport/QtPlatformSupportDepends
-usr/include/*/qt5/QtPlatformSupport/QtPlatformSupportVersion
-usr/include/*/qt5/QtPlatformSupport/qtplatformsupportversion.h
 usr/include/*/qt5/QtPrintSupport/QAbstractPrintDialog
 usr/include/*/qt5/QtPrintSupport/QPageSetupDialog
 usr/include/*/qt5/QtPrintSupport/QPrintDialog
@@ -1534,8 +1530,6 @@ usr/lib/*/libQt5Network.prl
 usr/lib/*/libQt5Network.so
 usr/lib/*/libQt5OpenGLExtensions.a
 usr/lib/*/libQt5OpenGLExtensions.prl
-usr/lib/*/libQt5PlatformSupport.a
-usr/lib/*/libQt5PlatformSupport.prl
 usr/lib/*/libQt5PrintSupport.prl
 usr/lib/*/libQt5PrintSupport.so
 usr/lib/*/libQt5Sql.prl
@@ -1553,7 +1547,6 @@ usr/lib/*/pkgconfig/Qt5DBus.pc
 usr/lib/*/pkgconfig/Qt5Gui.pc
 usr/lib/*/pkgconfig/Qt5Network.pc
 usr/lib/*/pkgconfig/Qt5OpenGLExtensions.pc
-usr/lib/*/pkgconfig/Qt5PlatformSupport.pc
 usr/lib/*/pkgconfig/Qt5PrintSupport.pc
 usr/lib/*/pkgconfig/Qt5Sql.pc
 usr/lib/*/pkgconfig/Qt5Test.pc
