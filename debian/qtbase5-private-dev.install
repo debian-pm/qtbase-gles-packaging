@@ -55,6 +55,7 @@ usr/include/*/qt5/QtCore/*/QtCore/private/qfuturewatcher_p.h
 usr/include/*/qt5/QtCore/*/QtCore/private/qgb18030codec_p.h
 usr/include/*/qt5/QtCore/*/QtCore/private/qharfbuzz_p.h
 usr/include/*/qt5/QtCore/*/QtCore/private/qhistorystate_p.h
+usr/include/*/qt5/QtCore/*/QtCore/private/qhooks_p.h
 usr/include/*/qt5/QtCore/*/QtCore/private/qiconvcodec_p.h
 usr/include/*/qt5/QtCore/*/QtCore/private/qicucodec_p.h
 usr/include/*/qt5/QtCore/*/QtCore/private/qiodevice_p.h
@@ -74,7 +75,6 @@ usr/include/*/qt5/QtCore/*/QtCore/private/qlocale_data_p.h
 usr/include/*/qt5/QtCore/*/QtCore/private/qlocale_p.h
 usr/include/*/qt5/QtCore/*/QtCore/private/qlocale_tools_p.h
 usr/include/*/qt5/QtCore/*/QtCore/private/qlockfile_p.h
-usr/include/*/qt5/QtCore/*/QtCore/private/qloggingcategory_p.h
 usr/include/*/qt5/QtCore/*/QtCore/private/qloggingregistry_p.h
 usr/include/*/qt5/QtCore/*/QtCore/private/qmachparser_p.h
 usr/include/*/qt5/QtCore/*/QtCore/private/qmetaobject_moc_p.h
@@ -119,6 +119,7 @@ usr/include/*/qt5/QtCore/*/QtCore/private/qsimplecodec_p.h
 usr/include/*/qt5/QtCore/*/QtCore/private/qsjiscodec_p.h
 usr/include/*/qt5/QtCore/*/QtCore/private/qstate_p.h
 usr/include/*/qt5/QtCore/*/QtCore/private/qstatemachine_p.h
+usr/include/*/qt5/QtCore/*/QtCore/private/qstorageinfo_p.h
 usr/include/*/qt5/QtCore/*/QtCore/private/qstringiterator_p.h
 usr/include/*/qt5/QtCore/*/QtCore/private/qsystemerror_p.h
 usr/include/*/qt5/QtCore/*/QtCore/private/qsystemlibrary_p.h
@@ -143,12 +144,14 @@ usr/include/*/qt5/QtCore/*/QtCore/private/qurltlds_p.h
 usr/include/*/qt5/QtCore/*/QtCore/private/qutfcodec_p.h
 usr/include/*/qt5/QtCore/*/QtCore/private/qvariant_p.h
 usr/include/*/qt5/QtCore/*/QtCore/private/qvariantanimation_p.h
+usr/include/*/qt5/QtCore/*/QtCore/private/qversionnumber_p.h
 usr/include/*/qt5/QtCore/*/QtCore/private/qwindowscodec_p.h
 usr/include/*/qt5/QtCore/*/QtCore/private/qwindowspipereader_p.h
 usr/include/*/qt5/QtCore/*/QtCore/private/qwindowspipewriter_p.h
 usr/include/*/qt5/QtCore/*/QtCore/private/qwinoverlappedionotifier_p.h
 usr/include/*/qt5/QtCore/*/QtCore/private/qxmlstream_p.h
 usr/include/*/qt5/QtCore/*/QtCore/private/qxmlutils_p.h
+usr/include/*/qt5/QtDBus/*/QtDBus/private/dbus_minimal_p.h
 usr/include/*/qt5/QtDBus/*/QtDBus/private/qdbus_symbols_p.h
 usr/include/*/qt5/QtDBus/*/QtDBus/private/qdbusabstractadaptor_p.h
 usr/include/*/qt5/QtDBus/*/QtDBus/private/qdbusabstractinterface_p.h
@@ -193,7 +196,7 @@ usr/include/*/qt5/QtGui/*/QtGui/private/qfixed_p.h
 usr/include/*/qt5/QtGui/*/QtGui/private/qfont_p.h
 usr/include/*/qt5/QtGui/*/QtGui/private/qfontengine_ft_p.h
 usr/include/*/qt5/QtGui/*/QtGui/private/qfontengine_p.h
-usr/include/*/qt5/QtGui/*/QtGui/private/qfontengine_qpa_p.h
+usr/include/*/qt5/QtGui/*/QtGui/private/qfontengine_qpf2_p.h
 usr/include/*/qt5/QtGui/*/QtGui/private/qfontengineglyphcache_p.h
 usr/include/*/qt5/QtGui/*/QtGui/private/qfontsubset_p.h
 usr/include/*/qt5/QtGui/*/QtGui/private/qfragmentmap_p.h
@@ -226,6 +229,7 @@ usr/include/*/qt5/QtGui/*/QtGui/private/qopenglengineshadersource_p.h
 usr/include/*/qt5/QtGui/*/QtGui/private/qopenglextensions_p.h
 usr/include/*/qt5/QtGui/*/QtGui/private/qopenglframebufferobject_p.h
 usr/include/*/qt5/QtGui/*/QtGui/private/qopenglgradientcache_p.h
+usr/include/*/qt5/QtGui/*/QtGui/private/qopenglpaintdevice_p.h
 usr/include/*/qt5/QtGui/*/QtGui/private/qopenglpaintengine_p.h
 usr/include/*/qt5/QtGui/*/QtGui/private/qopenglqueryhelper_p.h
 usr/include/*/qt5/QtGui/*/QtGui/private/qopenglshadercache_meego_p.h
@@ -236,9 +240,11 @@ usr/include/*/qt5/QtGui/*/QtGui/private/qopengltexturecache_p.h
 usr/include/*/qt5/QtGui/*/QtGui/private/qopengltextureglyphcache_p.h
 usr/include/*/qt5/QtGui/*/QtGui/private/qopengltexturehelper_p.h
 usr/include/*/qt5/QtGui/*/QtGui/private/qopenglversionfunctionsfactory_p.h
+usr/include/*/qt5/QtGui/*/QtGui/private/qopenglvertexarrayobject_p.h
 usr/include/*/qt5/QtGui/*/QtGui/private/qoutlinemapper_p.h
 usr/include/*/qt5/QtGui/*/QtGui/private/qpagedpaintdevice_p.h
 usr/include/*/qt5/QtGui/*/QtGui/private/qpaintbuffer_p.h
+usr/include/*/qt5/QtGui/*/QtGui/private/qpaintdevicewindow_p.h
 usr/include/*/qt5/QtGui/*/QtGui/private/qpaintengine_blitter_p.h
 usr/include/*/qt5/QtGui/*/QtGui/private/qpaintengine_p.h
 usr/include/*/qt5/QtGui/*/QtGui/private/qpaintengine_pic_p.h
@@ -312,7 +318,6 @@ usr/include/*/qt5/QtGui/*/QtGui/qpa/qplatformopenglcontext.h
 usr/include/*/qt5/QtGui/*/QtGui/qpa/qplatformpixmap.h
 usr/include/*/qt5/QtGui/*/QtGui/qpa/qplatformscreen.h
 usr/include/*/qt5/QtGui/*/QtGui/qpa/qplatformscreen_p.h
-usr/include/*/qt5/QtGui/*/QtGui/qpa/qplatformscreenpageflipper.h
 usr/include/*/qt5/QtGui/*/QtGui/qpa/qplatformservices.h
 usr/include/*/qt5/QtGui/*/QtGui/qpa/qplatformsessionmanager.h
 usr/include/*/qt5/QtGui/*/QtGui/qpa/qplatformsharedgraphicscache.h
@@ -330,6 +335,7 @@ usr/include/*/qt5/QtNetwork/*/QtNetwork/private/qabstractnetworkcache_p.h
 usr/include/*/qt5/QtNetwork/*/QtNetwork/private/qabstractprotocolhandler_p.h
 usr/include/*/qt5/QtNetwork/*/QtNetwork/private/qabstractsocket_p.h
 usr/include/*/qt5/QtNetwork/*/QtNetwork/private/qabstractsocketengine_p.h
+usr/include/*/qt5/QtNetwork/*/QtNetwork/private/qasn1element_p.h
 usr/include/*/qt5/QtNetwork/*/QtNetwork/private/qauthenticator_p.h
 usr/include/*/qt5/QtNetwork/*/QtNetwork/private/qbearerengine_p.h
 usr/include/*/qt5/QtNetwork/*/QtNetwork/private/qbearerplugin_p.h
@@ -382,11 +388,12 @@ usr/include/*/qt5/QtNetwork/*/QtNetwork/private/qsslcertificate_p.h
 usr/include/*/qt5/QtNetwork/*/QtNetwork/private/qsslcertificateextension_p.h
 usr/include/*/qt5/QtNetwork/*/QtNetwork/private/qsslcipher_p.h
 usr/include/*/qt5/QtNetwork/*/QtNetwork/private/qsslconfiguration_p.h
-usr/include/*/qt5/QtNetwork/*/QtNetwork/private/qsslcontext_p.h
+usr/include/*/qt5/QtNetwork/*/QtNetwork/private/qsslcontext_openssl_p.h
 usr/include/*/qt5/QtNetwork/*/QtNetwork/private/qsslkey_p.h
 usr/include/*/qt5/QtNetwork/*/QtNetwork/private/qsslsocket_openssl_p.h
 usr/include/*/qt5/QtNetwork/*/QtNetwork/private/qsslsocket_openssl_symbols_p.h
 usr/include/*/qt5/QtNetwork/*/QtNetwork/private/qsslsocket_p.h
+usr/include/*/qt5/QtNetwork/*/QtNetwork/private/qsslsocket_winrt_p.h
 usr/include/*/qt5/QtNetwork/*/QtNetwork/private/qtcpsocket_p.h
 usr/include/*/qt5/QtNetwork/*/QtNetwork/private/qurlinfo_p.h
 usr/include/*/qt5/QtOpenGL/*/QtOpenGL/private/qgl2pexvertexarray_p.h
@@ -410,6 +417,7 @@ usr/include/*/qt5/QtPlatformSupport/*/QtPlatformSupport/private/cache_p.h
 usr/include/*/qt5/QtPlatformSupport/*/QtPlatformSupport/private/cglconvenience_p.h
 usr/include/*/qt5/QtPlatformSupport/*/QtPlatformSupport/private/constant_mappings_p.h
 usr/include/*/qt5/QtPlatformSupport/*/QtPlatformSupport/private/dbusconnection_p.h
+usr/include/*/qt5/QtPlatformSupport/*/QtPlatformSupport/private/qaccessiblebridgeutils_p.h
 usr/include/*/qt5/QtPlatformSupport/*/QtPlatformSupport/private/qbasicfontdatabase_p.h
 usr/include/*/qt5/QtPlatformSupport/*/QtPlatformSupport/private/qcfsocketnotifier_p.h
 usr/include/*/qt5/QtPlatformSupport/*/QtPlatformSupport/private/qcoretextfontdatabase_p.h
@@ -497,6 +505,7 @@ usr/include/*/qt5/QtTest/*/QtTest/private/qbenchmarkvalgrind_p.h
 usr/include/*/qt5/QtTest/*/QtTest/private/qcsvbenchmarklogger_p.h
 usr/include/*/qt5/QtTest/*/QtTest/private/qplaintestlogger_p.h
 usr/include/*/qt5/QtTest/*/QtTest/private/qsignaldumper_p.h
+usr/include/*/qt5/QtTest/*/QtTest/private/qtestblacklist_p.h
 usr/include/*/qt5/QtTest/*/QtTest/private/qtestcoreelement_p.h
 usr/include/*/qt5/QtTest/*/QtTest/private/qtestcorelist_p.h
 usr/include/*/qt5/QtTest/*/QtTest/private/qtestelement_p.h
@@ -513,13 +522,13 @@ usr/include/*/qt5/QtWidgets/*/QtWidgets/private/qabstractitemview_p.h
 usr/include/*/qt5/QtWidgets/*/QtWidgets/private/qabstractscrollarea_p.h
 usr/include/*/qt5/QtWidgets/*/QtWidgets/private/qabstractslider_p.h
 usr/include/*/qt5/QtWidgets/*/QtWidgets/private/qabstractspinbox_p.h
+usr/include/*/qt5/QtWidgets/*/QtWidgets/private/qaccessiblewidgetfactory_p.h
 usr/include/*/qt5/QtWidgets/*/QtWidgets/private/qaction_p.h
 usr/include/*/qt5/QtWidgets/*/QtWidgets/private/qandroidstyle_p.h
 usr/include/*/qt5/QtWidgets/*/QtWidgets/private/qapplication_p.h
 usr/include/*/qt5/QtWidgets/*/QtWidgets/private/qbasickeyeventtransition_p.h
 usr/include/*/qt5/QtWidgets/*/QtWidgets/private/qbasicmouseeventtransition_p.h
 usr/include/*/qt5/QtWidgets/*/QtWidgets/private/qbsptree_p.h
-usr/include/*/qt5/QtWidgets/*/QtWidgets/private/qcalendartextnavigator_p.h
 usr/include/*/qt5/QtWidgets/*/QtWidgets/private/qcolordialog_p.h
 usr/include/*/qt5/QtWidgets/*/QtWidgets/private/qcolumnview_p.h
 usr/include/*/qt5/QtWidgets/*/QtWidgets/private/qcolumnviewgrip_p.h
@@ -528,7 +537,7 @@ usr/include/*/qt5/QtWidgets/*/QtWidgets/private/qcommonstyle_p.h
 usr/include/*/qt5/QtWidgets/*/QtWidgets/private/qcommonstylepixmaps_p.h
 usr/include/*/qt5/QtWidgets/*/QtWidgets/private/qcompleter_p.h
 usr/include/*/qt5/QtWidgets/*/QtWidgets/private/qdatetimeedit_p.h
-usr/include/*/qt5/QtWidgets/*/QtWidgets/private/qdesktopwidget_qpa_p.h
+usr/include/*/qt5/QtWidgets/*/QtWidgets/private/qdesktopwidget_p.h
 usr/include/*/qt5/QtWidgets/*/QtWidgets/private/qdialog_p.h
 usr/include/*/qt5/QtWidgets/*/QtWidgets/private/qdockarealayout_p.h
 usr/include/*/qt5/QtWidgets/*/QtWidgets/private/qdockwidget_p.h
@@ -585,7 +594,6 @@ usr/include/*/qt5/QtWidgets/*/QtWidgets/private/qmdisubwindow_p.h
 usr/include/*/qt5/QtWidgets/*/QtWidgets/private/qmenu_p.h
 usr/include/*/qt5/QtWidgets/*/QtWidgets/private/qmenu_wince_resource_p.h
 usr/include/*/qt5/QtWidgets/*/QtWidgets/private/qmenubar_p.h
-usr/include/*/qt5/QtWidgets/*/QtWidgets/private/qopenglwidget_p.h
 usr/include/*/qt5/QtWidgets/*/QtWidgets/private/qpixmapfilter_p.h
 usr/include/*/qt5/QtWidgets/*/QtWidgets/private/qplaintextedit_p.h
 usr/include/*/qt5/QtWidgets/*/QtWidgets/private/qproxystyle_p.h
@@ -626,7 +634,7 @@ usr/include/*/qt5/QtWidgets/*/QtWidgets/private/qwidgetlinecontrol_p.h
 usr/include/*/qt5/QtWidgets/*/QtWidgets/private/qwidgetresizehandler_p.h
 usr/include/*/qt5/QtWidgets/*/QtWidgets/private/qwidgettextcontrol_p.h
 usr/include/*/qt5/QtWidgets/*/QtWidgets/private/qwidgettextcontrol_p_p.h
-usr/include/*/qt5/QtWidgets/*/QtWidgets/private/qwidgetwindow_qpa_p.h
+usr/include/*/qt5/QtWidgets/*/QtWidgets/private/qwidgetwindow_p.h
 usr/include/*/qt5/QtWidgets/*/QtWidgets/private/qwindowcontainer_p.h
 usr/include/*/qt5/QtWidgets/*/QtWidgets/private/qwindowscestyle_p.h
 usr/include/*/qt5/QtWidgets/*/QtWidgets/private/qwindowscestyle_p_p.h
