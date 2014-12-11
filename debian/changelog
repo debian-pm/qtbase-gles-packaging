@@ -2,6 +2,8 @@ qtbase-opensource-src (5.4.0+dfsg-1) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * New upstream release.
+  * Drop fix_bug_in_internal_comparison_operator.patch, applied upstream.
+  * Drop fix_sparc_atomics.patch, applied upstream.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 11 Dec 2014 15:52:26 +0300
 

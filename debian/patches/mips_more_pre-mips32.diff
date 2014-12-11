@@ -10,7 +10,7 @@ Forwarded: no
 
 --- a/src/corelib/arch/qatomic_mips.h
 +++ b/src/corelib/arch/qatomic_mips.h
-@@ -128,7 +128,10 @@ void QBasicAtomicOps<size>::releaseMemor
+@@ -120,7 +120,10 @@
  template <int size> template <typename T> inline
  void QBasicAtomicOps<size>::orderedMemoryFence(const T &) Q_DECL_NOTHROW
  {
