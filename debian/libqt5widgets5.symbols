@@ -2,7 +2,6 @@
 libQt5Widgets.so.5 libqt5widgets5 #MINVER#
 | libqt5widgets5 #MINVER#, qtbase-abi-5-4-0
  _Z11qFadeEffectP7QWidgeti@Base 5.0.2
- _Z12qt_accHotKeyRK7QString@Base 5.0.2
  _Z12qt_blurImageP8QPainterR6QImagedbbi@Base 5.2.0
  _Z12qt_blurImageR6QImagedbi@Base 5.2.0
  _Z13qDrawWinPanelP8QPainterRK5QRectRK8QPalettebPK6QBrush@Base 5.0.2
@@ -24,7 +23,6 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _Z14qDrawShadeRectP8QPainteriiiiRK8QPalettebiiPK6QBrush@Base 5.0.2
  _Z14qDrawWinButtonP8QPainterRK5QRectRK8QPalettebPK6QBrush@Base 5.0.2
  _Z14qDrawWinButtonP8QPainteriiiiRK8QPalettebPK6QBrush@Base 5.0.2
- _Z14qt_accStripAmpRK7QString@Base 5.0.2
  _Z15qDrawShadePanelP8QPainterRK5QRectRK8QPalettebiPK6QBrush@Base 5.0.2
  _Z15qDrawShadePanelP8QPainteriiiiRK8QPalettebiPK6QBrush@Base 5.0.2
  _Z15qt_qwidget_dataP7QWidget@Base 5.0.2
@@ -189,6 +187,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN10QTabWidget15setTabsClosableEb@Base 5.0.2
  _ZN10QTabWidget16setCurrentWidgetEP7QWidget@Base 5.0.2
  _ZN10QTabWidget16staticMetaObjectE@Base 5.0.2
+ _ZN10QTabWidget17setTabBarAutoHideEb@Base 5.4.0
  _ZN10QTabWidget17tabCloseRequestedEi@Base 5.0.2
  _ZN10QTabWidget19tabBarDoubleClickedEi@Base 5.2.0~alpha1
  _ZN10QTabWidget20setUsesScrollButtonsEb@Base 5.0.2
@@ -1614,11 +1613,17 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN13QOpenGLWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.3.0 1
  _ZN13QOpenGLWidget11qt_metacastEPKc@Base 5.3.0 1
  _ZN13QOpenGLWidget11resizeEventEP12QResizeEvent@Base 5.3.0 1
+ _ZN13QOpenGLWidget12frameSwappedEv@Base 5.4.0
  _ZN13QOpenGLWidget12initializeGLEv@Base 5.3.0 1
+ _ZN13QOpenGLWidget13aboutToResizeEv@Base 5.4.0
+ _ZN13QOpenGLWidget14aboutToComposeEv@Base 5.4.0
+ _ZN13QOpenGLWidget15grabFramebufferEv@Base 5.4.0
  _ZN13QOpenGLWidget16staticMetaObjectE@Base 5.3.0 1
+ _ZN13QOpenGLWidget5eventEP6QEvent@Base 5.4.0
  _ZN13QOpenGLWidget7paintGLEv@Base 5.3.0 1
+ _ZN13QOpenGLWidget7resizedEv@Base 5.4.0
  _ZN13QOpenGLWidget8resizeGLEii@Base 5.3.0 1
- _ZN13QOpenGLWidget8updateGLEv@Base 5.3.0 1
+ _ZN13QOpenGLWidget9setFormatERK14QSurfaceFormat@Base 5.4.0
  _ZN13QOpenGLWidgetC1EP7QWidget6QFlagsIN2Qt10WindowTypeEE@Base 5.3.0 1
  _ZN13QOpenGLWidgetC2EP7QWidget6QFlagsIN2Qt10WindowTypeEE@Base 5.3.0 1
  _ZN13QOpenGLWidgetD0Ev@Base 5.3.0 1
@@ -1812,6 +1817,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN14QGraphicsScene18setForegroundBrushERK6QBrush@Base 5.0.2
  _ZN14QGraphicsScene18setItemIndexMethodENS_15ItemIndexMethodE@Base 5.0.2
  _ZN14QGraphicsScene19setSortCacheEnabledEb@Base 5.0.2
+ _ZN14QGraphicsScene20setMinimumRenderSizeEd@Base 5.4.0
  _ZN14QGraphicsScene21mouseDoubleClickEventEP24QGraphicsSceneMouseEvent@Base 5.0.2
  _ZN14QGraphicsScene5clearEv@Base 5.0.2
  _ZN14QGraphicsScene5eventEP6QEvent@Base 5.0.2
@@ -1922,6 +1928,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN14QPlainTextEdit5eventEP6QEvent@Base 5.0.2
  _ZN14QPlainTextEdit5pasteEv@Base 5.0.2
  _ZN14QPlainTextEdit6zoomInEi@Base 5.1.0
+ _ZN14QPlainTextEdit7zoomInFEf@Base 5.4.0
  _ZN14QPlainTextEdit7zoomOutEi@Base 5.1.0
  _ZN14QPlainTextEdit9dropEventEP10QDropEvent@Base 5.0.2
  _ZN14QPlainTextEdit9selectAllEv@Base 5.0.2
@@ -2008,6 +2015,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN14QWidgetPrivate14deleteSysExtraEv@Base 5.0.2 1
  _ZN14QWidgetPrivate14resolvePaletteEv@Base 5.0.2 1
  _ZN14QWidgetPrivate14scrollChildrenEii@Base 5.0.2 1
+ _ZN14QWidgetPrivate14sendPaintEventERK7QRegion@Base 5.4.0 1
  _ZN14QWidgetPrivate14setWindowFlagsE6QFlagsIN2Qt10WindowTypeEE@Base 5.3.0 1
  _ZN14QWidgetPrivate14show_recursiveEv@Base 5.0.2 1
  _ZN14QWidgetPrivate14stackUnder_sysEP7QWidget@Base 5.0.2 1
@@ -2029,6 +2037,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN14QWidgetPrivate16updateFocusChildEv@Base 5.0.2 1
  _ZN14QWidgetPrivate16updateFrameStrutEv@Base 5.0.2 1
  _ZN14QWidgetPrivate17createRecursivelyEv@Base 5.0.2 1
+ _ZN14QWidgetPrivate17sendComposeStatusEP7QWidgetb@Base 5.4.0 1
  _ZN14QWidgetPrivate17setEnabled_helperEb@Base 5.0.2 1
  _ZN14QWidgetPrivate17setPalette_helperERK8QPalette@Base 5.0.2 1
  _ZN14QWidgetPrivate17setWindowIcon_sysEv@Base 5.0.2 1
@@ -2501,7 +2510,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN16QAbstractSpinBoxD0Ev@Base 5.0.2
  _ZN16QAbstractSpinBoxD1Ev@Base 5.0.2
  _ZN16QAbstractSpinBoxD2Ev@Base 5.0.2
- (arch=alpha arm64 armel armhf hppa mips64el powerpc ppc64 ppc64el s390x sparc sparc64)_ZN16QCoreApplication9sendEventEP7QObjectP6QEvent@Base 5.3.1
+ _ZN16QCoreApplication9sendEventEP7QObjectP6QEvent@Base 5.3.1
  _ZN16QDialogButtonBox11changeEventEP6QEvent@Base 5.0.2
  _ZN16QDialogButtonBox11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN16QDialogButtonBox11qt_metacastEPKc@Base 5.0.2
@@ -2614,6 +2623,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN16QTreeViewPrivate24prepareAnimatedOperationEiN18QAbstractAnimation9DirectionE@Base 5.0.2 1
  _ZN16QTreeViewPrivate25expandOrCollapseItemAtPosERK6QPoint@Base 5.0.2 1
  _ZN16QTreeViewPrivate26_q_columnsAboutToBeRemovedERK11QModelIndexii@Base 5.0.2 1
+ _ZN16QTreeViewPrivate26updateIndentationFromStyleEv@Base 5.4.0 1
  _ZN16QTreeViewPrivate6expandEib@Base 5.0.2 1
  _ZN16QTreeViewPrivate6layoutEibb@Base 5.0.2 1
  _ZN16QTreeViewPrivate6selectERK11QModelIndexS2_6QFlagsIN19QItemSelectionModel13SelectionFlagEE@Base 5.0.2 1
@@ -2919,8 +2929,8 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN18QFileDialogPrivate16_q_goToDirectoryERK7QString@Base 5.0.2 1
  _ZN18QFileDialogPrivate16_q_renameCurrentEv@Base 5.0.2 1
  _ZN18QFileDialogPrivate16_q_useNameFilterEi@Base 5.0.2 1
- _ZN18QFileDialogPrivate16initialSelectionERK7QString@Base 5.0.2 1
- _ZN18QFileDialogPrivate16workingDirectoryERK7QString@Base 5.0.2 1
+ _ZN18QFileDialogPrivate16initialSelectionERK4QUrl@Base 5.4.0 1
+ _ZN18QFileDialogPrivate16workingDirectoryERK4QUrl@Base 5.4.0 1
  _ZN18QFileDialogPrivate17_q_currentChangedERK11QModelIndex@Base 5.0.2 1
  _ZN18QFileDialogPrivate17_q_enterDirectoryERK11QModelIndex@Base 5.0.2 1
  _ZN18QFileDialogPrivate17_q_updateOkButtonEv@Base 5.0.2 1
@@ -2929,26 +2939,26 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN18QFileDialogPrivate17emitFilesSelectedERK11QStringList@Base 5.0.2 1
  _ZN18QFileDialogPrivate17helperPrepareShowEP21QPlatformDialogHelper@Base 5.0.2 1
  _ZN18QFileDialogPrivate18_q_createDirectoryEv@Base 5.0.2 1
+ _ZN18QFileDialogPrivate18_q_emitUrlSelectedERK4QUrl@Base 5.4.0 1
  _ZN18QFileDialogPrivate18_q_navigateForwardEv@Base 5.0.2 1
  _ZN18QFileDialogPrivate18_q_showContextMenuERK6QPoint@Base 5.0.2 1
  _ZN18QFileDialogPrivate18_q_showDetailsViewEv@Base 5.0.2 1
  _ZN18QFileDialogPrivate18retranslateStringsEv@Base 5.0.2 1
  _ZN18QFileDialogPrivate18updateOkButtonTextEb@Base 5.0.2 1
+ _ZN18QFileDialogPrivate19_q_emitUrlsSelectedERK5QListI4QUrlE@Base 5.4.0 1
  _ZN18QFileDialogPrivate19_q_navigateBackwardEv@Base 5.0.2 1
  _ZN18QFileDialogPrivate19_q_navigateToParentEv@Base 5.0.2 1
  _ZN18QFileDialogPrivate19_q_selectionChangedEv@Base 5.0.2 1
  _ZN18QFileDialogPrivate19setLabelTextControlEN11QFileDialog11DialogLabelERK7QString@Base 5.0.2 1
- _ZN18QFileDialogPrivate21_q_nativeFileSelectedERK4QUrl@Base 5.2.0~alpha1 1
  _ZN18QFileDialogPrivate21itemViewKeyboardEventEP9QKeyEvent@Base 5.0.2 1
- _ZN18QFileDialogPrivate22_q_nativeFilesSelectedERK5QListI4QUrlE@Base 5.2.0~alpha1 1
  _ZN18QFileDialogPrivate22getEnvironmentVariableERK7QString@Base 5.0.2 1
  _ZN18QFileDialogPrivate22retranslateWindowTitleEv@Base 5.0.2 1
  _ZN18QFileDialogPrivate22updateCancelButtonTextEv@Base 5.2.0~beta1 1
  _ZN18QFileDialogPrivate23_q_autoCompleteFileNameERK7QString@Base 5.0.2 1
  _ZN18QFileDialogPrivate23_q_nativeCurrentChangedERK4QUrl@Base 5.2.0~alpha1 1
  _ZN18QFileDialogPrivate23_q_nativeEnterDirectoryERK4QUrl@Base 5.2.0~alpha1 1
- _ZN18QFileDialogPrivate23setLastVisitedDirectoryERK7QString@Base 5.0.2 1
- _ZN18QFileDialogPrivate4initERK7QStringS2_S2_@Base 5.0.2 1
+ _ZN18QFileDialogPrivate23setLastVisitedDirectoryERK4QUrl@Base 5.4.0 1
+ _ZN18QFileDialogPrivate4initERK4QUrlRK7QStringS5_@Base 5.4.0 1
  _ZN18QFileDialogPrivate9_q_goHomeEv@Base 5.0.2 1
  _ZN18QFileDialogPrivateC1Ev@Base 5.0.2 1
  _ZN18QFileDialogPrivateC2Ev@Base 5.0.2 1
@@ -3802,7 +3812,9 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN24QGraphicsSceneMouseEvent21setButtonDownScenePosEN2Qt11MouseButtonERK7QPointF@Base 5.0.2
  _ZN24QGraphicsSceneMouseEvent22setButtonDownScreenPosEN2Qt11MouseButtonERK6QPoint@Base 5.0.2
  _ZN24QGraphicsSceneMouseEvent6setPosERK7QPointF@Base 5.0.2
+ _ZN24QGraphicsSceneMouseEvent8setFlagsE6QFlagsIN2Qt14MouseEventFlagEE@Base 5.4.0
  _ZN24QGraphicsSceneMouseEvent9setButtonEN2Qt11MouseButtonE@Base 5.0.2
+ _ZN24QGraphicsSceneMouseEvent9setSourceEN2Qt16MouseEventSourceE@Base 5.4.0
  _ZN24QGraphicsSceneMouseEventC1EN6QEvent4TypeE@Base 5.0.2
  _ZN24QGraphicsSceneMouseEventC2EN6QEvent4TypeE@Base 5.0.2
  _ZN24QGraphicsSceneMouseEventD0Ev@Base 5.0.2
@@ -3849,7 +3861,6 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN24QStyleOptionGraphicsItemC1Ev@Base 5.0.2
  _ZN24QStyleOptionGraphicsItemC2Ei@Base 5.0.2
  _ZN24QStyleOptionGraphicsItemC2Ev@Base 5.0.2
- (arch=!amd64 !x32)_ZN24QStyleOptionGraphicsItemaSERKS_@Base 5.3.2
  _ZN25QAbstractItemModelPrivateD0Ev@Base 5.0.2 1
  _ZN25QAbstractItemModelPrivateD1Ev@Base 5.0.2 1
  _ZN25QAbstractItemModelPrivateD2Ev@Base 5.0.2 1
@@ -3962,9 +3973,6 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN32QAccessibleTableModelChangeEventD2Ev@Base 5.0.2
  (optional=gccinternal|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !x32)_ZN4QCss10StyleSheetC1ERKS0_@Base 5.0.2
  (optional=gccinternal|arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !x32)_ZN4QCss10StyleSheetC2ERKS0_@Base 5.0.2
- _ZN4QCss10StyleSheetD1Ev@Base 5.0.2
- _ZN4QCss10StyleSheetD2Ev@Base 5.0.2
- _ZN4QCss10StyleSheetaSERKS0_@Base 5.0.2
  _ZN5QDial10paintEventEP11QPaintEvent@Base 5.0.2
  _ZN5QDial11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN5QDial11qt_metacastEPKc@Base 5.0.2
@@ -4264,11 +4272,13 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN7QTabBar10setTabIconEiRK5QIcon@Base 5.0.2
  _ZN7QTabBar10setTabTextEiRK7QString@Base 5.0.2
  _ZN7QTabBar10tabRemovedEi@Base 5.0.2
+ _ZN7QTabBar10timerEventEP11QTimerEvent@Base 5.4.0
  _ZN7QTabBar10wheelEventEP11QWheelEvent@Base 5.0.2
  _ZN7QTabBar11changeEventEP6QEvent@Base 5.0.2
  _ZN7QTabBar11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN7QTabBar11qt_metacastEPKc@Base 5.0.2
  _ZN7QTabBar11resizeEventEP12QResizeEvent@Base 5.0.2
+ _ZN7QTabBar11setAutoHideEb@Base 5.4.0
  _ZN7QTabBar11setDrawBaseEb@Base 5.0.2
  _ZN7QTabBar11setIconSizeERK5QSize@Base 5.0.2
  _ZN7QTabBar11tabInsertedEi@Base 5.0.2
@@ -4293,6 +4303,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN7QTabBar17tabCloseRequestedEi@Base 5.0.2
  _ZN7QTabBar19tabBarDoubleClickedEi@Base 5.2.0~alpha1
  _ZN7QTabBar20setUsesScrollButtonsEb@Base 5.0.2
+ _ZN7QTabBar22setChangeCurrentOnDragEb@Base 5.4.0
  _ZN7QTabBar28setSelectionBehaviorOnRemoveENS_17SelectionBehaviorE@Base 5.0.2
  _ZN7QTabBar5eventEP6QEvent@Base 5.0.2
  _ZN7QTabBar6addTabERK5QIconRK7QString@Base 5.0.2
@@ -5144,6 +5155,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN9QTextEdit6zoomInEi@Base 5.0.2
  _ZN9QTextEdit7setHtmlERK7QString@Base 5.0.2
  _ZN9QTextEdit7setTextERK7QString@Base 5.0.2
+ _ZN9QTextEdit7zoomInFEf@Base 5.4.0
  _ZN9QTextEdit7zoomOutEi@Base 5.0.2
  _ZN9QTextEdit9dropEventEP10QDropEvent@Base 5.0.2
  _ZN9QTextEdit9selectAllEv@Base 5.0.2
@@ -5203,6 +5215,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN9QTreeView15setColumnHiddenEib@Base 5.0.2
  _ZN9QTreeView15setHeaderHiddenEb@Base 5.0.2
  _ZN9QTreeView15setTreePositionEi@Base 5.2.0~alpha1
+ _ZN9QTreeView16resetIndentationEv@Base 5.4.0
  _ZN9QTreeView16scrollContentsByEii@Base 5.0.2
  _ZN9QTreeView16selectionChangedERK14QItemSelectionS2_@Base 5.0.2
  _ZN9QTreeView16staticMetaObjectE@Base 5.0.2
@@ -5316,6 +5329,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK10QTabWidget12tabsClosableEv@Base 5.0.2
  _ZNK10QTabWidget13currentWidgetEv@Base 5.0.2
  _ZNK10QTabWidget14heightForWidthEi@Base 5.0.2
+ _ZNK10QTabWidget14tabBarAutoHideEv@Base 5.4.0
  _ZNK10QTabWidget15initStyleOptionEP26QStyleOptionTabWidgetFrame@Base 5.0.2
  _ZNK10QTabWidget15minimumSizeHintEv@Base 5.0.2
  _ZNK10QTabWidget17hasHeightForWidthEv@Base 5.0.2
@@ -6042,8 +6056,12 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK13QMdiSubWindow8isShadedEv@Base 5.0.2
  _ZNK13QMdiSubWindow8sizeHintEv@Base 5.0.2
  _ZNK13QOpenGLWidget10metaObjectEv@Base 5.3.0 1
+ _ZNK13QOpenGLWidget10redirectedEP6QPoint@Base 5.4.0
+ _ZNK13QOpenGLWidget11paintEngineEv@Base 5.4.0
  _ZNK13QOpenGLWidget24defaultFramebufferObjectEv@Base 5.3.0 1
  _ZNK13QOpenGLWidget6formatEv@Base 5.3.0 1
+ _ZNK13QOpenGLWidget6metricEN12QPaintDevice17PaintDeviceMetricE@Base 5.4.0
+ _ZNK13QOpenGLWidget7contextEv@Base 5.4.0
  _ZNK13QOpenGLWidget7isValidEv@Base 5.3.0 1
  _ZNK13QPinchGesture10metaObjectEv@Base 5.0.2
  _ZNK13QPinchGesture11centerPointEv@Base 5.0.2
@@ -6122,6 +6140,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK14QGraphicsScene16inputMethodQueryEN2Qt16InputMethodQueryE@Base 5.0.2
  _ZNK14QGraphicsScene16mouseGrabberItemEv@Base 5.0.2
  _ZNK14QGraphicsScene17itemsBoundingRectEv@Base 5.0.2
+ _ZNK14QGraphicsScene17minimumRenderSizeEv@Base 5.4.0
  _ZNK14QGraphicsScene18isSortCacheEnabledEv@Base 5.0.2
  _ZNK14QGraphicsScene4fontEv@Base 5.0.2
  _ZNK14QGraphicsScene5itemsEN2Qt9SortOrderE@Base 5.0.2
@@ -6137,6 +6156,8 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK14QGraphicsScene8isActiveEv@Base 5.0.2
  _ZNK14QGraphicsScene9focusItemEv@Base 5.0.2
  _ZNK14QGraphicsScene9sceneRectEv@Base 5.0.2
+ _ZNK14QLayoutPrivate11checkLayoutEP7QLayout@Base 5.4.0 1
+ _ZNK14QLayoutPrivate11checkWidgetEP7QWidget@Base 5.4.0 1
  _ZNK14QLayoutPrivate9getMarginEPiiN6QStyle11PixelMetricE@Base 5.0.2 1
  _ZNK14QPlainTextEdit10blockCountEv@Base 5.0.2
  _ZNK14QPlainTextEdit10cursorRectERK11QTextCursor@Base 5.0.2
@@ -6854,7 +6875,9 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK24QGraphicsSceneMouseEvent18buttonDownScenePosEN2Qt11MouseButtonE@Base 5.0.2
  _ZNK24QGraphicsSceneMouseEvent19buttonDownScreenPosEN2Qt11MouseButtonE@Base 5.0.2
  _ZNK24QGraphicsSceneMouseEvent3posEv@Base 5.0.2
+ _ZNK24QGraphicsSceneMouseEvent5flagsEv@Base 5.4.0
  _ZNK24QGraphicsSceneMouseEvent6buttonEv@Base 5.0.2
+ _ZNK24QGraphicsSceneMouseEvent6sourceEv@Base 5.4.0
  _ZNK24QGraphicsSceneMouseEvent7buttonsEv@Base 5.0.2
  _ZNK24QGraphicsSceneMouseEvent7lastPosEv@Base 5.0.2
  _ZNK24QGraphicsSceneMouseEvent8scenePosEv@Base 5.0.2
@@ -7045,6 +7068,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK7QTabBar15minimumSizeHintEv@Base 5.0.2
  _ZNK7QTabBar17usesScrollButtonsEv@Base 5.0.2
  _ZNK7QTabBar18minimumTabSizeHintEi@Base 5.0.2
+ _ZNK7QTabBar19changeCurrentOnDragEv@Base 5.4.0
  _ZNK7QTabBar25selectionBehaviorOnRemoveEv@Base 5.0.2
  _ZNK7QTabBar5countEv@Base 5.0.2
  _ZNK7QTabBar5shapeEv@Base 5.0.2
@@ -7053,6 +7077,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK7QTabBar7tabIconEi@Base 5.0.2
  _ZNK7QTabBar7tabRectEi@Base 5.0.2
  _ZNK7QTabBar7tabTextEi@Base 5.0.2
+ _ZNK7QTabBar8autoHideEv@Base 5.4.0
  _ZNK7QTabBar8drawBaseEv@Base 5.0.2
  _ZNK7QTabBar8iconSizeEv@Base 5.0.2
  _ZNK7QTabBar8sizeHintEv@Base 5.0.2
@@ -7651,8 +7676,12 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZTI24QPixmapConvolutionFilter@Base 5.0.2 1
  _ZTI24QPlainTextDocumentLayout@Base 5.0.2
  _ZTI25QAbstractItemModelPrivate@Base 5.0.2 1
+ _ZTI25QAccessibleImageInterface@Base 5.4.0
+ _ZTI25QAccessibleTableInterface@Base 5.4.0
+ _ZTI25QAccessibleValueInterface@Base 5.4.0
  _ZTI25QGraphicsDropShadowEffect@Base 5.0.2
  _ZTI25QGraphicsSceneResizeEvent@Base 5.0.2
+ _ZTI25QOpenGLPaintDevicePrivate@Base 5.4.0 1
  _ZTI26QAbstractGraphicsShapeItem@Base 5.0.2
  _ZTI26QAbstractScrollAreaPrivate@Base 5.0.2
  _ZTI26QAccessibleTextCursorEvent@Base 5.0.2
@@ -7662,8 +7691,10 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZTI27QAccessibleStateChangeEvent@Base 5.0.2
  _ZTI27QAccessibleValueChangeEvent@Base 5.0.2
  _ZTI27QGraphicsSceneDragDropEvent@Base 5.0.2
+ _ZTI29QAccessibleTableCellInterface@Base 5.4.0
  _ZTI29QAccessibleTextSelectionEvent@Base 5.0.2
  _ZTI30QGraphicsSceneContextMenuEvent@Base 5.0.2
+ _ZTI32QAccessibleEditableTextInterface@Base 5.4.0
  _ZTI32QAccessibleTableModelChangeEvent@Base 5.0.2
  _ZTI5QDial@Base 5.0.2
  _ZTI5QMenu@Base 5.0.2
@@ -7852,8 +7883,12 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZTS24QPixmapConvolutionFilter@Base 5.0.2 1
  _ZTS24QPlainTextDocumentLayout@Base 5.0.2
  _ZTS25QAbstractItemModelPrivate@Base 5.0.2 1
+ _ZTS25QAccessibleImageInterface@Base 5.4.0
+ _ZTS25QAccessibleTableInterface@Base 5.4.0
+ _ZTS25QAccessibleValueInterface@Base 5.4.0
  _ZTS25QGraphicsDropShadowEffect@Base 5.0.2
  _ZTS25QGraphicsSceneResizeEvent@Base 5.0.2
+ _ZTS25QOpenGLPaintDevicePrivate@Base 5.4.0 1
  _ZTS26QAbstractGraphicsShapeItem@Base 5.0.2
  _ZTS26QAbstractScrollAreaPrivate@Base 5.0.2
  _ZTS26QAccessibleTextCursorEvent@Base 5.0.2
@@ -7863,8 +7898,10 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZTS27QAccessibleStateChangeEvent@Base 5.0.2
  _ZTS27QAccessibleValueChangeEvent@Base 5.0.2
  _ZTS27QGraphicsSceneDragDropEvent@Base 5.0.2
+ _ZTS29QAccessibleTableCellInterface@Base 5.4.0
  _ZTS29QAccessibleTextSelectionEvent@Base 5.0.2
  _ZTS30QGraphicsSceneContextMenuEvent@Base 5.0.2
+ _ZTS32QAccessibleEditableTextInterface@Base 5.4.0
  _ZTS32QAccessibleTableModelChangeEvent@Base 5.0.2
  _ZTS5QDial@Base 5.0.2
  _ZTS5QMenu@Base 5.0.2
@@ -8053,8 +8090,12 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZTV24QPixmapConvolutionFilter@Base 5.0.2 1
  _ZTV24QPlainTextDocumentLayout@Base 5.0.2
  _ZTV25QAbstractItemModelPrivate@Base 5.0.2 1
+ _ZTV25QAccessibleImageInterface@Base 5.4.0
+ _ZTV25QAccessibleTableInterface@Base 5.4.0
+ _ZTV25QAccessibleValueInterface@Base 5.4.0
  _ZTV25QGraphicsDropShadowEffect@Base 5.0.2
  _ZTV25QGraphicsSceneResizeEvent@Base 5.0.2
+ _ZTV25QOpenGLPaintDevicePrivate@Base 5.4.0 1
  _ZTV26QAbstractGraphicsShapeItem@Base 5.0.2
  _ZTV26QAbstractScrollAreaPrivate@Base 5.0.2
  _ZTV26QAccessibleTextCursorEvent@Base 5.0.2
@@ -8064,8 +8105,10 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZTV27QAccessibleStateChangeEvent@Base 5.0.2
  _ZTV27QAccessibleValueChangeEvent@Base 5.0.2
  _ZTV27QGraphicsSceneDragDropEvent@Base 5.0.2
+ _ZTV29QAccessibleTableCellInterface@Base 5.4.0
  _ZTV29QAccessibleTextSelectionEvent@Base 5.0.2
  _ZTV30QGraphicsSceneContextMenuEvent@Base 5.0.2
+ _ZTV32QAccessibleEditableTextInterface@Base 5.4.0
  _ZTV32QAccessibleTableModelChangeEvent@Base 5.0.2
  _ZTV5QDial@Base 5.0.2
  _ZTV5QMenu@Base 5.0.2
@@ -8101,6 +8144,9 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZTV9QTreeView@Base 5.0.2
  _ZTV9QUndoView@Base 5.0.2
  _ZTVN16QTreeViewPrivate17AnimatedOperationE@Base 5.0.2 1
+ _ZThn8_NK13QOpenGLWidget10redirectedEP6QPoint@Base 5.4.0
+ _ZThn8_NK13QOpenGLWidget11paintEngineEv@Base 5.4.0
+ _ZThn8_NK13QOpenGLWidget6metricEN12QPaintDevice17PaintDeviceMetricE@Base 5.4.0
  _ZZZNK18QFileDialogPrivate8rootPathEvENKUlvE_clEvE15qstring_literal@Base 5.2.0~beta1 1
  _Zls6QDebug6QFlagsIN13QGraphicsItem16GraphicsItemFlagEE@Base 5.0.2
  _Zls6QDebug6QFlagsIN6QStyle9StateFlagEE@Base 5.0.2

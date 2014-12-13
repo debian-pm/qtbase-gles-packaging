@@ -632,7 +632,9 @@ libQt5OpenGL.so.5 libqt5opengl5 #MINVER#
  _ZTI14QGLSignalProxy@Base 5.0.2 1
  _ZTI16QGLShaderProgram@Base 5.0.2
  _ZTI16QGLWidgetPrivate@Base 5.0.2 1
+ _ZTI16QOpenGLFunctions@Base 5.4.0
  _ZTI17QGL2PaintEngineEx@Base 5.0.2 1
+ _ZTI17QOpenGLExtensions@Base 5.4.0 1
  _ZTI18QTextureGlyphCache@Base 5.0.2 1
  _ZTI20QGLCustomShaderStage@Base 5.0.2 1
  _ZTI20QGLFramebufferObject@Base 5.0.2
@@ -651,7 +653,9 @@ libQt5OpenGL.so.5 libqt5opengl5 #MINVER#
  _ZTS14QGLSignalProxy@Base 5.0.2 1
  _ZTS16QGLShaderProgram@Base 5.0.2
  _ZTS16QGLWidgetPrivate@Base 5.0.2 1
+ _ZTS16QOpenGLFunctions@Base 5.4.0
  _ZTS17QGL2PaintEngineEx@Base 5.0.2 1
+ _ZTS17QOpenGLExtensions@Base 5.4.0 1
  _ZTS18QTextureGlyphCache@Base 5.0.2 1
  _ZTS20QGLCustomShaderStage@Base 5.0.2 1
  _ZTS20QGLFramebufferObject@Base 5.0.2

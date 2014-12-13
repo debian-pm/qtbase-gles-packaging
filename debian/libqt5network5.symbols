@@ -4,6 +4,8 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _Z19qt_qhostinfo_lookupRK7QStringP7QObjectPKcPbPi@Base 5.0.2
  _Z35qNetworkConfigurationManagerPrivatev@Base 5.0.2
  _Z5qHashRK12QHostAddressj@Base 5.0.2
+ _Z5qHashRK15QSslCertificatej@Base 5.4.0
+ _Z5qHashRK9QSslErrorj@Base 5.4.0
  _ZN10QDnsLookup11nameChangedERK7QString@Base 5.0.2
  _ZN10QDnsLookup11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN10QDnsLookup11qt_metacastEPKc@Base 5.0.2
@@ -17,8 +19,10 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZN10QDnsLookup7setTypeENS_4TypeE@Base 5.0.2
  _ZN10QDnsLookup8finishedEv@Base 5.0.2
  _ZN10QDnsLookupC1ENS_4TypeERK7QStringP7QObject@Base 5.0.2
+ _ZN10QDnsLookupC1ENS_4TypeERK7QStringRK12QHostAddressP7QObject@Base 5.4.0
  _ZN10QDnsLookupC1EP7QObject@Base 5.0.2
  _ZN10QDnsLookupC2ENS_4TypeERK7QStringP7QObject@Base 5.0.2
+ _ZN10QDnsLookupC2ENS_4TypeERK7QStringRK12QHostAddressP7QObject@Base 5.4.0
  _ZN10QDnsLookupC2EP7QObject@Base 5.0.2
  _ZN10QDnsLookupD0Ev@Base 5.0.2
  _ZN10QDnsLookupD1Ev@Base 5.0.2
@@ -85,6 +89,8 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZN10QSslSocket24addDefaultCaCertificatesERK7QStringN4QSsl14EncodingFormatEN7QRegExp13PatternSyntaxE@Base 5.0.2
  _ZN10QSslSocket24setDefaultCaCertificatesERK5QListI15QSslCertificateE@Base 5.0.2
  _ZN10QSslSocket24setLocalCertificateChainERK5QListI15QSslCertificateE@Base 5.1.0
+ _ZN10QSslSocket28sslLibraryBuildVersionNumberEv@Base 5.4.0
+ _ZN10QSslSocket28sslLibraryBuildVersionStringEv@Base 5.4.0
  _ZN10QSslSocket5abortEv@Base 5.0.2
  _ZN10QSslSocket5closeEv@Base 5.0.2
  _ZN10QSslSocket5flushEv@Base 5.0.2
@@ -285,6 +291,7 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZN14QAuthenticator11setPasswordERK7QString@Base 5.0.2
  _ZN14QAuthenticator6detachEv@Base 5.0.2
  _ZN14QAuthenticator7setUserERK7QString@Base 5.0.2
+ _ZN14QAuthenticator8setRealmERK7QString@Base 5.4.0
  _ZN14QAuthenticator9setOptionERK7QStringRK8QVariant@Base 5.0.2
  _ZN14QAuthenticatorC1ERKS_@Base 5.0.2
  _ZN14QAuthenticatorC1Ev@Base 5.0.2
@@ -415,6 +422,7 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZN15QNetworkSessionD1Ev@Base 5.0.2
  _ZN15QNetworkSessionD2Ev@Base 5.0.2
  _ZN15QSslCertificate10fromDeviceEP9QIODeviceN4QSsl14EncodingFormatE@Base 5.0.2
+ _ZN15QSslCertificate12importPkcs12EP9QIODeviceP7QSslKeyPS_P5QListIS_ERK10QByteArray@Base 5.4.0
  _ZN15QSslCertificate5clearEv@Base 5.0.2
  _ZN15QSslCertificate6verifyE5QListIS_ERK7QString@Base 5.0.2
  _ZN15QSslCertificate8fromDataERK10QByteArrayN4QSsl14EncodingFormatE@Base 5.0.2
@@ -812,6 +820,7 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZNK10QSslSocket14peerVerifyNameEv@Base 5.0.2
  _ZNK10QSslSocket15peerCertificateEv@Base 5.0.2
  _ZNK10QSslSocket15peerVerifyDepthEv@Base 5.0.2
+ _ZNK10QSslSocket15sessionProtocolEv@Base 5.4.0
  _ZNK10QSslSocket16localCertificateEv@Base 5.0.2
  _ZNK10QSslSocket16sslConfigurationEv@Base 5.0.2
  _ZNK10QSslSocket20peerCertificateChainEv@Base 5.0.2
@@ -974,6 +983,7 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZNK15QSslCertificate10issuerInfoERK10QByteArray@Base 5.0.2
  _ZNK15QSslCertificate11subjectInfoENS_11SubjectInfoE@Base 5.0.2
  _ZNK15QSslCertificate11subjectInfoERK10QByteArray@Base 5.0.2
+ _ZNK15QSslCertificate12isSelfSignedEv@Base 5.4.0
  _ZNK15QSslCertificate12serialNumberEv@Base 5.0.2
  _ZNK15QSslCertificate13effectiveDateEv@Base 5.0.2
  _ZNK15QSslCertificate13isBlacklistedEv@Base 5.0.2
@@ -1019,6 +1029,7 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZNK17QSslConfiguration14peerVerifyModeEv@Base 5.0.2
  _ZNK17QSslConfiguration15peerCertificateEv@Base 5.0.2
  _ZNK17QSslConfiguration15peerVerifyDepthEv@Base 5.0.2
+ _ZNK17QSslConfiguration15sessionProtocolEv@Base 5.4.0
  _ZNK17QSslConfiguration16localCertificateEv@Base 5.0.2
  _ZNK17QSslConfiguration20allowedNextProtocolsEv@Base 5.3.0
  _ZNK17QSslConfiguration20peerCertificateChainEv@Base 5.0.2

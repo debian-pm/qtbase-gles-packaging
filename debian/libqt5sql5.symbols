@@ -310,6 +310,7 @@ libQt5Sql.so.5 libqt5sql5 #MINVER#
  _ZNK10QSqlDriver6isOpenEv@Base 5.0.2
  _ZNK10QSqlDriver6recordERK7QString@Base 5.0.2
  _ZNK10QSqlDriver6tablesEN4QSql9TableTypeE@Base 5.0.2
+ _ZNK10QSqlDriver8dbmsTypeEv@Base 5.4.0
  _ZNK10QSqlDriver9lastErrorEv@Base 5.0.2
  _ZNK10QSqlRecord11isGeneratedERK7QString@Base 5.0.2
  _ZNK10QSqlRecord11isGeneratedEi@Base 5.0.2

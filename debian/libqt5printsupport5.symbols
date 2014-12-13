@@ -280,8 +280,10 @@ libQt5PrintSupport.so.5 libqt5printsupport5 #MINVER#
  _ZNK12QPrinterInfo11printerNameEv@Base 5.0.2
  _ZNK12QPrinterInfo12makeAndModelEv@Base 5.0.2
  _ZNK12QPrinterInfo15defaultPageSizeEv@Base 5.3.0
+ _ZNK12QPrinterInfo17defaultDuplexModeEv@Base 5.4.0
  _ZNK12QPrinterInfo18supportedPageSizesEv@Base 5.3.0
  _ZNK12QPrinterInfo19supportedPaperSizesEv@Base 5.0.2
+ _ZNK12QPrinterInfo20supportedDuplexModesEv@Base 5.4.0
  _ZNK12QPrinterInfo20supportedResolutionsEv@Base 5.3.0
  _ZNK12QPrinterInfo23maximumPhysicalPageSizeEv@Base 5.3.0
  _ZNK12QPrinterInfo23minimumPhysicalPageSizeEv@Base 5.3.0
