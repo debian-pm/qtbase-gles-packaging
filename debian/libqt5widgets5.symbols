@@ -8144,9 +8144,6 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZTV9QTreeView@Base 5.0.2
  _ZTV9QUndoView@Base 5.0.2
  _ZTVN16QTreeViewPrivate17AnimatedOperationE@Base 5.0.2 1
- _ZThn8_NK13QOpenGLWidget10redirectedEP6QPoint@Base 5.4.0
- _ZThn8_NK13QOpenGLWidget11paintEngineEv@Base 5.4.0
- _ZThn8_NK13QOpenGLWidget6metricEN12QPaintDevice17PaintDeviceMetricE@Base 5.4.0
  _ZZZNK18QFileDialogPrivate8rootPathEvENKUlvE_clEvE15qstring_literal@Base 5.2.0~beta1 1
  _Zls6QDebug6QFlagsIN13QGraphicsItem16GraphicsItemFlagEE@Base 5.0.2
  _Zls6QDebug6QFlagsIN6QStyle9StateFlagEE@Base 5.0.2
@@ -8327,6 +8324,9 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  (c++)"non-virtual thunk to QMenu::~QMenu()@Base" 5.0.2
  (c++)"non-virtual thunk to QMenuBar::~QMenuBar()@Base" 5.0.2
  (c++)"non-virtual thunk to QMessageBox::~QMessageBox()@Base" 5.0.2
+ (c++)"non-virtual thunk to QOpenGLWidget::metric(QPaintDevice::PaintDeviceMetric) const@Base" 5.4.0
+ (c++)"non-virtual thunk to QOpenGLWidget::paintEngine() const@Base" 5.4.0
+ (c++)"non-virtual thunk to QOpenGLWidget::redirected(QPoint*) const@Base" 5.4.0
  (c++)"non-virtual thunk to QOpenGLWidget::~QOpenGLWidget()@Base" 5.3.0
  (c++)"non-virtual thunk to QPlainTextEdit::~QPlainTextEdit()@Base" 5.0.2
  (c++)"non-virtual thunk to QProgressBar::~QProgressBar()@Base" 5.0.2

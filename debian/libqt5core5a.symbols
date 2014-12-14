@@ -132,7 +132,7 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _Z9qBadAllocv@Base 5.0.2
  _Z9qChecksumPKcj@Base 5.0.2
  _Z9qCompressPKhii@Base 5.0.2
- _Z9qHashBitsPKvjj@Base 5.4.0
+ (subst)_Z9qHashBitsPKv{size_t}j@Base 5.4.0
  _Z9qIsFinited@Base 5.0.2
  _Z9qIsFinitef@Base 5.0.2
  (subst)_Z9qsnprintfPc{size_t}PKcz@Base 5.0.2
