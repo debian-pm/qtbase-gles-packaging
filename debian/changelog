@@ -8,6 +8,7 @@ qtbase-opensource-src (5.4.0+dfsg-1) UNRELEASED; urgency=medium
   * Bump ABI version to 5.4.0.
   * Update debian/copyright to reflect LGPLv3 addition.
   * Update .symbols files for new release.
+  * Bump Standards-Version to 3.9.6, no changes needed.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 11 Dec 2014 15:52:26 +0300
 

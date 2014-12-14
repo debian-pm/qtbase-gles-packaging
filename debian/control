@@ -61,7 +61,7 @@ Build-Depends: debhelper (>= 9),
                unixodbc-dev,
                zlib1g-dev
 Build-Conflicts: libmariadbclient-dev
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 Homepage: http://qt-project.org/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/qt/qtbase.git
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/qt/qtbase.git
