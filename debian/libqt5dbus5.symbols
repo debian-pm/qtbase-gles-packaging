@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.3.1 sparc
+# SymbolsHelper-Confirmed: 5.4.0 amd64 i386
 libQt5DBus.so.5 libqt5dbus5 #MINVER#
 | libqt5dbus5 #MINVER#, qtbase-abi-5-4-0
  _Z14qDBusReplyFillRK12QDBusMessageR10QDBusErrorR8QVariant@Base 5.0.2

@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.3.1 amd64 arm64 armel armhf hppa hurd-i386 i386 kfreebsd-i386 mips mips64el mipsel ppc64 ppc64el s390x sparc sparc64 x32
+# SymbolsHelper-Confirmed: 5.4.0 amd64 i386
 libQt5Core.so.5 libqt5core5a #MINVER#
 | libqt5core5a #MINVER#, qtbase-abi-5-4-0
  _Z10forcepointR11QTextStream@Base 5.0.2

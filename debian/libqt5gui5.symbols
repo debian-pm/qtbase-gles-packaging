@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.3.2 amd64
+# SymbolsHelper-Confirmed: 5.4.0 amd64 i386
 libQt5Gui.so.5 libqt5gui5 #MINVER#
 | libqt5gui5 #MINVER#, qtbase-abi-5-4-0
  _Z11qDrawBorderP8QPainterRK5QRectPKN4QCss11BorderStyleEPKiPK6QBrushPK5QSize@Base 5.0.2

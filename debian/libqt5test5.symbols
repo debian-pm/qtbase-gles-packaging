@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.3.1 sparc
+# SymbolsHelper-Confirmed: 5.4.0 amd64 i386
 libQt5Test.so.5 libqt5test5 #MINVER#
 | libqt5test5 #MINVER#, qtbase-abi-5-4-0
  _ZN10QTestTable15globalTestTableEv@Base 5.0.2 1

@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.3.2 alpha amd64 armel hppa kfreebsd-amd64 mips mipsel ppc64 ppc64el s390x sparc x32
+# SymbolsHelper-Confirmed: 5.4.0 amd64 i386
 libQt5Widgets.so.5 libqt5widgets5 #MINVER#
 | libqt5widgets5 #MINVER#, qtbase-abi-5-4-0
  _Z11qFadeEffectP7QWidgeti@Base 5.0.2
