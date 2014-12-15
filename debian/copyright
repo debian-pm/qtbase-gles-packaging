@@ -28,8 +28,6 @@ License: LGPL-2.1-or-3 with Digia-1.1 exception
 
 Files: src/testlib/3rdparty/callgrind_p.h
        src/testlib/3rdparty/valgrind_p.h
-       tests/auto/other/exceptionsafety_objects/3rdparty/memcheck.h
-       tests/auto/other/exceptionsafety_objects/3rdparty/valgrind.h
 Copyright: 2003-2007 Josef Weidendorfer
            2000-2008 Julian Seward
 License: Hybrid-BSD
@@ -37,7 +35,7 @@ License: Hybrid-BSD
 Files: tests/auto/cmake/*
        src/gui/kernel/qplatformmenu.h
        src/gui/kernel/qplatformsystemtrayicon.h
-       src/gui/kernel/qplatformsystemtrayicon_qpa.cpp
+       src/gui/kernel/qplatformsystemtrayicon.cpp
        src/corelib/global/qtypetraits.h
        src/corelib/itemmodels/qidentityproxymodel.cpp
        src/corelib/itemmodels/qidentityproxymodel.h
@@ -200,8 +198,6 @@ Files: config.tests/qpa/directfb/directfb.cpp
        config.tests/common/avx2/avx2.cpp
        src/printsupport/kernel/qtprintsupportglobal.h
        src/xml/qtxmlglobal.h
-       src/gui/image/qimage_avx.cpp
-       src/gui/painting/qdrawhelper_avx.cpp
        src/corelib/thread/qmutex.cpp
        src/corelib/thread/qmutex_linux.cpp
        src/corelib/thread/qmutex_p.h
@@ -234,9 +230,6 @@ Copyright: 2012-2013 Intel Corporation
 License: LGPL-2.1-or-3 with Digia-1.1 exception or GPL-3
 
 Files: mkspecs/common/android/qplatformdefs.h
-       mkspecs/unsupported/linux-android-armeabi-v7a-g++/qplatformdefs.h
-       mkspecs/unsupported/linux-android-armeabi-g++/qplatformdefs.h
-       mkspecs/unsupported/linux-android-x86-g++/qplatformdefs.h
        src/network/kernel/qdnslookup_android.cpp
        src/corelib/kernel/qsharedmemory_android.cpp
        src/corelib/kernel/qsystemsemaphore_android.cpp
@@ -321,7 +314,7 @@ License: Bitstream
  .
  BITSTREAM CHARTER is a registered trademark of Bitstream Inc.
 
-Files: lib/fonts/DejaVu* lib/fonts/dejavu/* lib/fonts/Vera*
+Files: lib/fonts/DejaVu* lib/fonts/Vera*
 Copyright: 2003 Bitstream, Inc.
            2006 Tavmjong Bah
 License: Bitstream-Vera
@@ -528,10 +521,6 @@ Files: src/testlib/3rdparty/cycle_p.h
 Copyright: 2003, 2006 Matteo Frigo
            2003, 2006 Massachusetts Institute of Technology
 License: Expat
-
-Files: src/3rdparty/ce-compat/*
-Copyright: 2002 Michael Ringgaard
-License: BSD-3-clause
 
 Files: src/3rdparty/des/des.cpp
 Copyright: 1997-2005 Simon Tatham
