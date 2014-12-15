@@ -10,6 +10,9 @@ qtbase-opensource-src (5.4.0+dfsg-1) UNRELEASED; urgency=medium
   * Update .symbols files for new release.
   * Bump Standards-Version to 3.9.6, no changes needed.
 
+  [ Timo Jyrinki ]
+  * Bump ABI also in the lintian overrides.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 11 Dec 2014 15:52:26 +0300
 
 qtbase-opensource-src (5.3.2+dfsg-4) unstable; urgency=medium
