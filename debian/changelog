@@ -1,4 +1,4 @@
-qtbase-opensource-src (5.4.0+dfsg-1) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.4.0+dfsg-1) experimental; urgency=medium
 
   [ Dmitry Shachnev ]
   * New upstream release.
@@ -13,7 +13,7 @@ qtbase-opensource-src (5.4.0+dfsg-1) UNRELEASED; urgency=medium
   [ Timo Jyrinki ]
   * Bump ABI also in the lintian overrides.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 11 Dec 2014 15:52:26 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Mon, 15 Dec 2014 16:45:50 +0300
 
 qtbase-opensource-src (5.3.2+dfsg-4) unstable; urgency=medium
 
