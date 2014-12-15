@@ -1632,6 +1632,7 @@ usr/lib/*/pkgconfig/Qt5Widgets.pc
 usr/lib/*/pkgconfig/Qt5Xml.pc
 usr/share/qt5/doc/global/compat.qdocconf
 usr/share/qt5/doc/global/config.qdocconf
+usr/share/qt5/doc/global/externalsites.qdocconf
 usr/share/qt5/doc/global/externalsites/external-resources.qdoc
 usr/share/qt5/doc/global/externalsites/qch-urls.qdoc
 usr/share/qt5/doc/global/externalsites/qt-webpages.qdoc
@@ -1639,9 +1640,11 @@ usr/share/qt5/doc/global/externalsites/qtcreator.qdoc
 usr/share/qt5/doc/global/externalsites/rfc.qdoc
 usr/share/qt5/doc/global/fileextensions.qdocconf
 usr/share/qt5/doc/global/html-config.qdocconf
+usr/share/qt5/doc/global/html-footer-online.qdocconf
 usr/share/qt5/doc/global/html-footer.qdocconf
 usr/share/qt5/doc/global/html-header-offline.qdocconf
 usr/share/qt5/doc/global/html-header-online.qdocconf
+usr/share/qt5/doc/global/includes-online/search.qdoc
 usr/share/qt5/doc/global/includes/examples-run.qdocinc
 usr/share/qt5/doc/global/macros.qdocconf
 usr/share/qt5/doc/global/manifest-meta.qdocconf
@@ -1649,6 +1652,7 @@ usr/share/qt5/doc/global/qt-cpp-defines.qdocconf
 usr/share/qt5/doc/global/qt-html-templates-offline.qdocconf
 usr/share/qt5/doc/global/qt-html-templates-online.qdocconf
 usr/share/qt5/doc/global/qt-module-defaults-offline.qdocconf
+usr/share/qt5/doc/global/qt-module-defaults-online-commercial.qdocconf
 usr/share/qt5/doc/global/qt-module-defaults-online.qdocconf
 usr/share/qt5/doc/global/qt-module-defaults.qdocconf
 usr/share/qt5/doc/global/template/images/Qt-dark_gradient.png
@@ -1687,5 +1691,14 @@ usr/share/qt5/doc/global/template/images/page.png
 usr/share/qt5/doc/global/template/images/page_bg.png
 usr/share/qt5/doc/global/template/images/spinner.gif
 usr/share/qt5/doc/global/template/images/sprites-combined.png
+usr/share/qt5/doc/global/template/scripts/extras.js
+usr/share/qt5/doc/global/template/scripts/main.js
+usr/share/qt5/doc/global/template/style/doc_search.png
+usr/share/qt5/doc/global/template/style/gsc.css
+usr/share/qt5/doc/global/template/style/icomoon.eot
+usr/share/qt5/doc/global/template/style/icomoon.svg
+usr/share/qt5/doc/global/template/style/icomoon.ttf
+usr/share/qt5/doc/global/template/style/icomoon.woff
+usr/share/qt5/doc/global/template/style/list_arrow.png
 usr/share/qt5/doc/global/template/style/offline.css
 usr/share/qt5/doc/global/template/style/online.css
