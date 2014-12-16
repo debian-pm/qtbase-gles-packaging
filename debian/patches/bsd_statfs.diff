@@ -1,0 +1,15 @@
+Description: add a missing include to use statfs on kFreeBSD
+Author: Dmitry Shachnev <mitya57@debian.org>
+Forwarded: not-yet
+Last-Update: 2014-12-16
+
+--- a/src/corelib/io/qstorageinfo_unix.cpp
++++ b/src/corelib/io/qstorageinfo_unix.cpp
+@@ -51,6 +51,7 @@
+ #include <sys/stat.h>
+ 
+ #if defined(Q_OS_BSD4)
++#  include <sys/param.h>
+ #  include <sys/mount.h>
+ #elif defined(Q_OS_ANDROID)
+ #  include <sys/mount.h>

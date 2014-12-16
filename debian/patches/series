@@ -2,6 +2,7 @@ remove_icon_from_example.patch
 hurd_opengl_incldir.diff
 mips_more_pre-mips32.diff
 gnukfreebsd.diff
+bsd_statfs.diff
 
 # Debian specific.
 remove_google_adsense.patch
