@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.4.0 amd64 i386
+# SymbolsHelper-Confirmed: 5.4.0 amd64 armel armhf i386 mipsel ppc64el
 libQt5Core.so.5 libqt5core5a #MINVER#
 | libqt5core5a #MINVER#, qtbase-abi-5-4-0
  _Z10forcepointR11QTextStream@Base 5.0.2
@@ -183,7 +183,6 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZN10QByteArray7replaceEiiPKc@Base 5.0.2
  _ZN10QByteArray7replaceEiiPKci@Base 5.0.2
  _ZN10QByteArray7replaceEiiRKS_@Base 5.0.2
- (arch=!amd64 !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !x32)_ZN10QByteArray7reserveEi@Base 5.3.0
  _ZN10QByteArray8truncateEi@Base 5.0.2
  _ZN10QByteArrayC1EPKci@Base 5.0.2
  _ZN10QByteArrayC1EiN2Qt14InitializationE@Base 5.0.2
@@ -5001,13 +5000,13 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  (optional=templinst|arch=powerpc s390)_ZSt17__merge_sort_loopIPiS0_i32QSortFilterProxyModelGreaterThanEvT_S2_T0_T1_T2_@Base 5.0.2
  (optional=templinst|arch=ia64)_ZSt17__merge_sort_loopIPiS0_l29QSortFilterProxyModelLessThanEvT_S2_T0_T1_T2_@Base 5.2.0
  (optional=templinst|arch=ia64)_ZSt17__merge_sort_loopIPiS0_l32QSortFilterProxyModelGreaterThanEvT_S2_T0_T1_T2_@Base 5.2.0
- (optional=templinst|arch=armel armhf hppa hurd-i386 i386 kfreebsd-i386 mips mipsel powerpc s390 sparc)_ZSt17__rotate_adaptiveIP21QPersistentModelIndexS1_iET_S2_S2_S2_T1_S3_T0_S3_@Base 5.0.2
+ (optional=templinst|arch=i386)_ZSt17__rotate_adaptiveIP21QPersistentModelIndexS1_iET_S2_S2_S2_T1_S3_T0_S3_@Base 5.0.2
  (optional=templinst|subst)_ZSt17__rotate_adaptiveIP21QPersistentModelIndexS1_{ssize_t}ET_S2_S2_S2_T1_S3_T0_S3_@Base 5.0.2
  (optional=templinst|arch=powerpc s390)_ZSt17__rotate_adaptiveIP5QPairI21QPersistentModelIndexjES3_iET_S4_S4_S4_T1_S5_T0_S5_@Base 5.0.2
  (optional=templinst|arch=ia64)_ZSt17__rotate_adaptiveIP5QPairI21QPersistentModelIndexjES3_lET_S4_S4_S4_T1_S5_T0_S5_@Base 5.2.0
  (optional=templinst|arch=s390)_ZSt17__rotate_adaptiveIP5QPairIiiES2_iET_S3_S3_S3_T1_S4_T0_S4_@Base 5.0.2
  (optional=templinst|arch=ia64)_ZSt17__rotate_adaptiveIP5QPairIiiES2_lET_S3_S3_S3_T1_S4_T0_S4_@Base 5.2.0
- (optional=templinst|arch=arm64 armel armhf hppa hurd-i386 i386 kfreebsd-i386 mips mipsel s390 sparc x32)_ZSt17__rotate_adaptiveIPiS0_iET_S1_S1_S1_T1_S2_T0_S2_@Base 5.1.0
+ (optional=templinst|arch=i386)_ZSt17__rotate_adaptiveIPiS0_iET_S1_S1_S1_T1_S2_T0_S2_@Base 5.1.0
  (optional=templinst|subst|arch=!s390)_ZSt17__rotate_adaptiveIPiS0_{ssize_t}ET_S1_S1_S1_T1_S2_T0_S2_@Base 5.0.2
  (optional=templinst|arch=ia64)_ZSt19__move_median_firstIN5QListI10QByteArrayE8iteratorEEvT_S4_S4_@Base 5.2.0
  (optional=templinst|arch=ia64)_ZSt19__move_median_firstIN5QListI5QPairI7QStringiEE8iteratorEPFbRKS3_S7_EEvT_SA_SA_T0_@Base 5.2.0
