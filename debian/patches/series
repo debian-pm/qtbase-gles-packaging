@@ -3,6 +3,7 @@ hurd_opengl_incldir.diff
 mips_more_pre-mips32.diff
 gnukfreebsd.diff
 bsd_statfs.diff
+bigendian_qimage_conversions.diff
 
 # Debian specific.
 remove_google_adsense.patch
