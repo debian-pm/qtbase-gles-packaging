@@ -1,12 +1,11 @@
-qtbase-opensource-src (5.4.0+dfsg-2) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.4.0+dfsg-2) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * Add a patch to fix qstorageinfo_unix.cpp build on kFreeBSD.
   * Add a patch to fix qimage_conversions.cpp build on big endian
     systems.
   * Update symbols files with buildds’ logs.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 16 Dec 2014 13:32:15 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Tue, 16 Dec 2014 14:42:27 +0300
 
 qtbase-opensource-src (5.4.0+dfsg-1) experimental; urgency=medium
 
