@@ -2,6 +2,9 @@ qtbase-opensource-src (5.4.0+dfsg-3) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * More debian/copyright updates.
+  * Do not ship htmlinfo example which contains non-free HTML pages.
+  * Drop remove_icon_from_example.patch and remove_google_adsense.patch,
+    no longer needed with the above change.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 17 Dec 2014 21:05:31 +0300
 

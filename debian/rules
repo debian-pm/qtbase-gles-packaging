@@ -349,3 +349,5 @@ prune-nonfree:
 	rm -fv lib/fonts/l*
 	# Delete Adobe's Utopia fonts. They do not seem to allow modification.
 	rm -fv lib/fonts/U*
+	# Contains non-free copies of webpages like youtube.com, etc
+	rm -fv examples/xml/htmlinfo/
