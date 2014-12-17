@@ -1,3 +1,8 @@
+qtbase-opensource-src (5.4.0+dfsg-3) UNRELEASED; urgency=medium
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 17 Dec 2014 21:05:31 +0300
+
 qtbase-opensource-src (5.4.0+dfsg-2) experimental; urgency=medium
 
   * Add a patch to fix qstorageinfo_unix.cpp build on kFreeBSD.
