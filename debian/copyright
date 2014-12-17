@@ -490,8 +490,7 @@ License: Unicode
  use or other dealings in these Data Files or Software without prior
  written authorization of the copyright holder.
 
-Files: src/gui/text/qharfbuzz_copy_p.h
-       src/3rdparty/harfbuzz/*
+Files: src/3rdparty/harfbuzz/*
 Copyright: 1998-2005 David Turner
            1998-2004 Werner Lemberg
            2000-2007 Red Hat, Inc
@@ -516,6 +515,11 @@ License: Harfbuzz
  FITNESS FOR A PARTICULAR PURPOSE.  THE SOFTWARE PROVIDED HEREUNDER IS
  ON AN "AS IS" BASIS, AND THE COPYRIGHT HOLDER HAS NO OBLIGATION TO
  PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
+
+Files: src/gui/text/qharfbuzzng.cpp
+       src/gui/text/qharfbuzzng_p.h
+Copyright: 2013 Konstantin Ritt
+License: LGPL-2.1-or-3 with Digia-1.1 exception
 
 Files: src/testlib/3rdparty/cycle_p.h
 Copyright: 2003, 2006 Matteo Frigo

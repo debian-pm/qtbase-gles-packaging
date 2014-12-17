@@ -1,5 +1,7 @@
 qtbase-opensource-src (5.4.0+dfsg-3) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * More debian/copyright updates.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 17 Dec 2014 21:05:31 +0300
 
