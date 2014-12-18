@@ -6,6 +6,8 @@ qtbase-opensource-src (5.4.0+dfsg-3) UNRELEASED; urgency=medium
   * Drop remove_icon_from_example.patch and remove_google_adsense.patch,
     no longer needed with the above change.
   * Update symbols files with buildds’ logs.
+  * debian/patches/bsd_statfs.diff: Second attempt to fix the build
+    failure.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 17 Dec 2014 21:05:31 +0300
 

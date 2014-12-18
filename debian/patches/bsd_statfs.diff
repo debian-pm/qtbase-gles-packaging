@@ -1,15 +1,16 @@
-Description: add a missing include to use statfs on kFreeBSD
+Description: fix qstorageinfo build failure on kFreeBSD
 Author: Dmitry Shachnev <mitya57@debian.org>
 Forwarded: not-yet
-Last-Update: 2014-12-16
+Last-Update: 2014-12-18
 
 --- a/src/corelib/io/qstorageinfo_unix.cpp
 +++ b/src/corelib/io/qstorageinfo_unix.cpp
-@@ -51,6 +51,7 @@
- #include <sys/stat.h>
- 
+@@ -118,7 +118,7 @@
+     inline QByteArray device() const;
+ private:
  #if defined(Q_OS_BSD4)
-+#  include <sys/param.h>
- #  include <sys/mount.h>
- #elif defined(Q_OS_ANDROID)
- #  include <sys/mount.h>
+-    statfs *stat_buf;
++    struct statfs *stat_buf;
+     int entryCount;
+     int currentIndex;
+ #elif defined(Q_OS_SOLARIS)
