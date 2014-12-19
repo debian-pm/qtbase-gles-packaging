@@ -1,6 +1,5 @@
-qtbase-opensource-src (5.4.0+dfsg-3) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.4.0+dfsg-3) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * More debian/copyright updates.
   * Do not ship htmlinfo example which contains non-free HTML pages.
   * Drop remove_icon_from_example.patch and remove_google_adsense.patch,
@@ -9,7 +8,7 @@ qtbase-opensource-src (5.4.0+dfsg-3) UNRELEASED; urgency=medium
   * debian/patches/bsd_statfs.diff: Second attempt to fix the build
     failure.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 17 Dec 2014 21:05:31 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 19 Dec 2014 16:06:58 +0300
 
 qtbase-opensource-src (5.4.0+dfsg-2) experimental; urgency=medium
 
