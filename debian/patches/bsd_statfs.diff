@@ -1,10 +1,26 @@
-Description: fix qstorageinfo build failure on kFreeBSD
+Description: fix qstorageinfo build failure on kFreeBSD and Hurd
 Author: Dmitry Shachnev <mitya57@debian.org>
 Forwarded: not-yet
-Last-Update: 2014-12-18
+Last-Update: 2014-12-19
 
 --- a/src/corelib/io/qstorageinfo_unix.cpp
 +++ b/src/corelib/io/qstorageinfo_unix.cpp
+@@ -56,13 +56,13 @@
+ #  include <sys/mount.h>
+ #  include <sys/vfs.h>
+ #  include <mntent.h>
+-#elif defined(Q_OS_QNX)
+-#  include <sys/statvfs.h>
+ #elif defined(Q_OS_LINUX)
+ #  include <mntent.h>
+ #  include <sys/statvfs.h>
+ #elif defined(Q_OS_SOLARIS)
+ #  include <sys/mnttab.h>
++#else
++#  include <sys/statvfs.h>
+ #endif
+ 
+ #if defined(Q_OS_BSD4)
 @@ -118,7 +118,7 @@
      inline QByteArray device() const;
  private:
