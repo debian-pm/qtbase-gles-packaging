@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.4.0 alpha amd64 arm64 armel armhf i386 mipsel powerpc ppc64 ppc64el s390x x32
+# SymbolsHelper-Confirmed: 5.4.0 alpha amd64 arm64 armel armhf i386 mips mipsel powerpc ppc64 ppc64el s390x x32
 libQt5Test.so.5 libqt5test5 #MINVER#
 | libqt5test5 #MINVER#, qtbase-abi-5-4-0
  _ZN10QTestTable15globalTestTableEv@Base 5.0.2 1
@@ -171,7 +171,7 @@ libQt5Test.so.5 libqt5test5 #MINVER#
  _ZNK9QTestData7dataTagEv@Base 5.0.2
  _ZNK9QTestData9dataCountEv@Base 5.0.2
  _ZNSt8_Rb_treeI10QByteArrayS0_St9_IdentityIS0_ESt4lessIS0_ESaIS0_EE16_M_insert_uniqueIRKS0_EESt4pairISt17_Rb_tree_iteratorIS0_EbEOT_@Base 5.4.0
- (optional=templinst|arch=!alpha !armel !armhf !i386 !mipsel !powerpc !ppc64 !s390x)_ZNSt8_Rb_treeI10QByteArrayS0_St9_IdentityIS0_ESt4lessIS0_ESaIS0_EE16_M_insert_uniqueIS0_EESt4pairISt17_Rb_tree_iteratorIS0_EbEOT_@Base 5.4.0
+ (optional=templinst|arch=!alpha !armel !armhf !i386 !mips !mipsel !powerpc !ppc64 !s390x)_ZNSt8_Rb_treeI10QByteArrayS0_St9_IdentityIS0_ESt4lessIS0_ESaIS0_EE16_M_insert_uniqueIS0_EESt4pairISt17_Rb_tree_iteratorIS0_EbEOT_@Base 5.4.0
  _ZNSt8_Rb_treeI10QByteArrayS0_St9_IdentityIS0_ESt4lessIS0_ESaIS0_EE24_M_get_insert_unique_posERKS0_@Base 5.4.0
  _ZNSt8_Rb_treeI10QByteArrayS0_St9_IdentityIS0_ESt4lessIS0_ESaIS0_EE4findERKS0_@Base 5.4.0
  _ZNSt8_Rb_treeI10QByteArrayS0_St9_IdentityIS0_ESt4lessIS0_ESaIS0_EE8_M_eraseEPSt13_Rb_tree_nodeIS0_E@Base 5.4.0

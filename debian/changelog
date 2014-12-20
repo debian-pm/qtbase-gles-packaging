@@ -3,6 +3,7 @@ qtbase-opensource-src (5.4.0+dfsg-4) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * debian/patches/bsd_statfs.diff: Third attempt to fix the build
     failure on kfreebsd.
+  * Update symbols files for mips.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 20 Dec 2014 12:45:21 +0300
 
