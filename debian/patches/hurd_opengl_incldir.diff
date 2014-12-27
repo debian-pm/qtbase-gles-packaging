@@ -4,7 +4,7 @@ Description: hurd mkspec: remove X11R6-related library and include dirs
  issues in cmake-based projects (as they make cmake look in those directories
  for extra stuff like libGL)
 Last-Update: 2014-05-20
-Forwarded: no
+Forwarded: https://codereview.qt-project.org/#/c/74467/
 
 ---
  mkspecs/hurd-g++/qmake.conf |    8 ++++----
