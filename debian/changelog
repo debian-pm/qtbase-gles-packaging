@@ -1,5 +1,9 @@
 qtbase-opensource-src (5.4.0+dfsg-5) UNRELEASED; urgency=medium
 
+  [ Pino Toscano ]
+  * Replace patch hurd_opengl_incldir.diff with
+    upstream_small-improvements-to-the-hurd-g-mkspec.patch, backport of
+    upstream commit 8f0e84bec513ad28c3ec479053fbc59add3959e1.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 30 Dec 2014 23:42:00 +0100
 

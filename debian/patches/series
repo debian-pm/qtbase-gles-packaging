@@ -1,4 +1,4 @@
-hurd_opengl_incldir.diff
+upstream_small-improvements-to-the-hurd-g-mkspec.patch
 mips_more_pre-mips32.diff
 gnukfreebsd.diff
 bsd_statfs.diff
