@@ -1,3 +1,8 @@
+qtbase-opensource-src (5.4.0+dfsg-5) UNRELEASED; urgency=medium
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 30 Dec 2014 23:42:00 +0100
+
 qtbase-opensource-src (5.4.0+dfsg-4) experimental; urgency=medium
 
   * debian/patches/bsd_statfs.diff: Third attempt to fix the build
