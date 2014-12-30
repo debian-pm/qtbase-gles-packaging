@@ -1,5 +1,5 @@
 upstream_small-improvements-to-the-hurd-g-mkspec.patch
-mips_more_pre-mips32.diff
+upstream_Complete-MIPS-atomic-support-on-pre-MIPS32-architect.patch
 gnukfreebsd.diff
 bsd_statfs.diff
 bigendian_qimage_conversions.diff
