@@ -1,0 +1,57 @@
+From 13972476ad2c3178fe89f2d96f398de10394c6f6 Mon Sep 17 00:00:00 2001
+From: Dmitry Shachnev <mitya57@gmail.com>
+Date: Mon, 22 Dec 2014 13:44:45 +0300
+Subject: [PATCH] qstorageinfo_unix.cpp: Fix build on BSD and other unices
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+* Include statvfs.h on all non-Linux and non-Solaris systems.
+* Fix type of stat_buf structure on BSD.
+
+Change-Id: I6336503082fafd7f6108cf95c079bdd329d2ea0f
+Reviewed-by: Gabriel de Dietrich <gabriel.dedietrich@theqtcompany.com>
+Reviewed-by: Lisandro Damián Nicanor Pérez Meyer <perezmeyer@gmail.com>
+Reviewed-by: Allan Sandfeld Jensen <allan.jensen@theqtcompany.com>
+Reviewed-by: Shawn Rutledge <shawn.rutledge@digia.com>
+---
+ src/corelib/io/qstorageinfo_unix.cpp | 7 ++++---
+ 1 file changed, 4 insertions(+), 3 deletions(-)
+
+diff --git a/src/corelib/io/qstorageinfo_unix.cpp b/src/corelib/io/qstorageinfo_unix.cpp
+index e82737c..857464f 100644
+--- a/src/corelib/io/qstorageinfo_unix.cpp
++++ b/src/corelib/io/qstorageinfo_unix.cpp
+@@ -52,17 +52,18 @@
+ 
+ #if defined(Q_OS_BSD4)
+ #  include <sys/mount.h>
++#  include <sys/statvfs.h>
+ #elif defined(Q_OS_ANDROID)
+ #  include <sys/mount.h>
+ #  include <sys/vfs.h>
+ #  include <mntent.h>
+-#elif defined(Q_OS_QNX)
+-#  include <sys/statvfs.h>
+ #elif defined(Q_OS_LINUX)
+ #  include <mntent.h>
+ #  include <sys/statvfs.h>
+ #elif defined(Q_OS_SOLARIS)
+ #  include <sys/mnttab.h>
++#else
++#  include <sys/statvfs.h>
+ #endif
+ 
+ #if defined(Q_OS_BSD4)
+@@ -118,7 +119,7 @@ public:
+     inline QByteArray device() const;
+ private:
+ #if defined(Q_OS_BSD4)
+-    statfs *stat_buf;
++    struct statfs *stat_buf;
+     int entryCount;
+     int currentIndex;
+ #elif defined(Q_OS_SOLARIS)
+-- 
+2.1.4
+
