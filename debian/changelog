@@ -10,6 +10,8 @@ qtbase-opensource-src (5.4.0+dfsg-5) UNRELEASED; urgency=medium
   * Replace patch bsd_statfs.diff with
     upstream_qstorageinfo_unix.cpp-Fix-build-on-BSD-and-other-uni.patch,
     backport of upstream commit 13972476ad2c3178fe89f2d96f398de10394c6f6.
+  * Replace (rename) patch bigendian_qimage_conversions.diff with
+    upstream_qimage_conversions.cpp-Fix-build-on-big-endian-syste.patch.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 30 Dec 2014 23:42:00 +0100
 
