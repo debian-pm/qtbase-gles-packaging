@@ -15,7 +15,8 @@ qtbase-opensource-src (5.4.0+dfsg-5) UNRELEASED; urgency=medium
   * Update gnukfreebsd.diff according to the more recent hurd-g++ mkspec.
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
-  * Add a note for packagers in qtbase5-dev's long description.
+  * Add a note for packagers in qtbase5-dev and qt5-default's long
+    descriptions.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 30 Dec 2014 23:42:00 +0100
 
