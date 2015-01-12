@@ -300,6 +300,9 @@ Description: Qt 5 base development files
  .
  This package contains the header development files used for building Qt 5
  applications.
+ .
+ If you are interested in packaging Qt 5 stuff please take a look at
+ http://pkg-kde.alioth.debian.org/packagingqtstuff.html
 
 Package: qtbase5-private-dev
 Architecture: any
