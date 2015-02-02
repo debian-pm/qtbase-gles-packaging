@@ -19,8 +19,7 @@ qtbase-opensource-src (5.4.0+dfsg-5) UNRELEASED; urgency=medium
     descriptions.
 
   [ Dmitry Shachnev ]
-  * debian/libqt5widgets5.symbols: Drop private mark from QOpenGLWidget
-    symbols. That class had been made public in Qt 5.4.
+  * Drop private marks from QCollator and QOpenGLWidget symbols.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 30 Dec 2014 23:42:00 +0100
 

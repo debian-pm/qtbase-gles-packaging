@@ -2972,18 +2972,18 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZN9QBitArrayaNERKS_@Base 5.0.2
  _ZN9QBitArrayeOERKS_@Base 5.0.2
  _ZN9QBitArrayoRERKS_@Base 5.0.2
- _ZN9QCollator14setNumericModeEb@Base 5.0.2 1
+ _ZN9QCollator14setNumericModeEb@Base 5.0.2
  _ZN9QCollator18setCaseSensitivityEN2Qt15CaseSensitivityE@Base 5.2.0~alpha1
- _ZN9QCollator20setIgnorePunctuationEb@Base 5.0.2 1
+ _ZN9QCollator20setIgnorePunctuationEb@Base 5.0.2
  _ZN9QCollator6detachEv@Base 5.0.2 1
- _ZN9QCollator9setLocaleERK7QLocale@Base 5.0.2 1
+ _ZN9QCollator9setLocaleERK7QLocale@Base 5.0.2
  _ZN9QCollatorC1ERK7QLocale@Base 5.2.0~alpha1
- _ZN9QCollatorC1ERKS_@Base 5.0.2 1
+ _ZN9QCollatorC1ERKS_@Base 5.0.2
  _ZN9QCollatorC2ERK7QLocale@Base 5.2.0~alpha1
- _ZN9QCollatorC2ERKS_@Base 5.0.2 1
- _ZN9QCollatorD1Ev@Base 5.0.2 1
- _ZN9QCollatorD2Ev@Base 5.0.2 1
- _ZN9QCollatoraSERKS_@Base 5.0.2 1
+ _ZN9QCollatorC2ERKS_@Base 5.0.2
+ _ZN9QCollatorD1Ev@Base 5.0.2
+ _ZN9QCollatorD2Ev@Base 5.0.2
+ _ZN9QCollatoraSERKS_@Base 5.0.2
  _ZN9QDateTime10fromStringERK7QStringN2Qt10DateFormatE@Base 5.0.2
  _ZN9QDateTime10fromStringERK7QStringS2_@Base 5.0.2
  _ZN9QDateTime10fromTime_tEj@Base 5.0.2
@@ -4702,14 +4702,14 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZNK8QVariant9constDataEv@Base 5.0.2
  _ZNK9QBitArray5countEb@Base 5.0.2
  _ZNK9QBitArraycoEv@Base 5.0.2
- _ZNK9QCollator11numericModeEv@Base 5.0.2 1
+ _ZNK9QCollator11numericModeEv@Base 5.0.2
  _ZNK9QCollator15caseSensitivityEv@Base 5.2.0~alpha1
- _ZNK9QCollator17ignorePunctuationEv@Base 5.0.2 1
- _ZNK9QCollator6localeEv@Base 5.0.2 1
- _ZNK9QCollator7compareEPK5QChariS2_i@Base 5.0.2 1
- _ZNK9QCollator7compareERK10QStringRefS2_@Base 5.0.2 1
- _ZNK9QCollator7compareERK7QStringS2_@Base 5.0.2 1
- _ZNK9QCollator7sortKeyERK7QString@Base 5.0.2 1
+ _ZNK9QCollator17ignorePunctuationEv@Base 5.0.2
+ _ZNK9QCollator6localeEv@Base 5.0.2
+ _ZNK9QCollator7compareEPK5QChariS2_i@Base 5.0.2
+ _ZNK9QCollator7compareERK10QStringRefS2_@Base 5.0.2
+ _ZNK9QCollator7compareERK7QStringS2_@Base 5.0.2
+ _ZNK9QCollator7sortKeyERK7QString@Base 5.0.2
  _ZNK9QDateTime10toTimeSpecEN2Qt8TimeSpecE@Base 5.0.2
  _ZNK9QDateTime10toTimeZoneERK9QTimeZone@Base 5.2.0~alpha1
  _ZNK9QDateTime13offsetFromUtcEv@Base 5.2.0~alpha1
