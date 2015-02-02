@@ -1607,28 +1607,28 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN13QMdiSubWindowD0Ev@Base 5.0.2
  _ZN13QMdiSubWindowD1Ev@Base 5.0.2
  _ZN13QMdiSubWindowD2Ev@Base 5.0.2
- _ZN13QOpenGLWidget10paintEventEP11QPaintEvent@Base 5.3.0 1
- _ZN13QOpenGLWidget11doneCurrentEv@Base 5.3.0 1
- _ZN13QOpenGLWidget11makeCurrentEv@Base 5.3.0 1
- _ZN13QOpenGLWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.3.0 1
- _ZN13QOpenGLWidget11qt_metacastEPKc@Base 5.3.0 1
- _ZN13QOpenGLWidget11resizeEventEP12QResizeEvent@Base 5.3.0 1
+ _ZN13QOpenGLWidget10paintEventEP11QPaintEvent@Base 5.3.0
+ _ZN13QOpenGLWidget11doneCurrentEv@Base 5.3.0
+ _ZN13QOpenGLWidget11makeCurrentEv@Base 5.3.0
+ _ZN13QOpenGLWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.3.0
+ _ZN13QOpenGLWidget11qt_metacastEPKc@Base 5.3.0
+ _ZN13QOpenGLWidget11resizeEventEP12QResizeEvent@Base 5.3.0
  _ZN13QOpenGLWidget12frameSwappedEv@Base 5.4.0
- _ZN13QOpenGLWidget12initializeGLEv@Base 5.3.0 1
+ _ZN13QOpenGLWidget12initializeGLEv@Base 5.3.0
  _ZN13QOpenGLWidget13aboutToResizeEv@Base 5.4.0
  _ZN13QOpenGLWidget14aboutToComposeEv@Base 5.4.0
  _ZN13QOpenGLWidget15grabFramebufferEv@Base 5.4.0
- _ZN13QOpenGLWidget16staticMetaObjectE@Base 5.3.0 1
+ _ZN13QOpenGLWidget16staticMetaObjectE@Base 5.3.0
  _ZN13QOpenGLWidget5eventEP6QEvent@Base 5.4.0
- _ZN13QOpenGLWidget7paintGLEv@Base 5.3.0 1
+ _ZN13QOpenGLWidget7paintGLEv@Base 5.3.0
  _ZN13QOpenGLWidget7resizedEv@Base 5.4.0
- _ZN13QOpenGLWidget8resizeGLEii@Base 5.3.0 1
+ _ZN13QOpenGLWidget8resizeGLEii@Base 5.3.0
  _ZN13QOpenGLWidget9setFormatERK14QSurfaceFormat@Base 5.4.0
- _ZN13QOpenGLWidgetC1EP7QWidget6QFlagsIN2Qt10WindowTypeEE@Base 5.3.0 1
- _ZN13QOpenGLWidgetC2EP7QWidget6QFlagsIN2Qt10WindowTypeEE@Base 5.3.0 1
- _ZN13QOpenGLWidgetD0Ev@Base 5.3.0 1
- _ZN13QOpenGLWidgetD1Ev@Base 5.3.0 1
- _ZN13QOpenGLWidgetD2Ev@Base 5.3.0 1
+ _ZN13QOpenGLWidgetC1EP7QWidget6QFlagsIN2Qt10WindowTypeEE@Base 5.3.0
+ _ZN13QOpenGLWidgetC2EP7QWidget6QFlagsIN2Qt10WindowTypeEE@Base 5.3.0
+ _ZN13QOpenGLWidgetD0Ev@Base 5.3.0
+ _ZN13QOpenGLWidgetD1Ev@Base 5.3.0
+ _ZN13QOpenGLWidgetD2Ev@Base 5.3.0
  _ZN13QPinchGesture11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN13QPinchGesture11qt_metacastEPKc@Base 5.0.2
  _ZN13QPinchGesture14setCenterPointERK7QPointF@Base 5.0.2
@@ -6054,14 +6054,14 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK13QMdiSubWindow7mdiAreaEv@Base 5.0.2
  _ZNK13QMdiSubWindow8isShadedEv@Base 5.0.2
  _ZNK13QMdiSubWindow8sizeHintEv@Base 5.0.2
- _ZNK13QOpenGLWidget10metaObjectEv@Base 5.3.0 1
+ _ZNK13QOpenGLWidget10metaObjectEv@Base 5.3.0
  _ZNK13QOpenGLWidget10redirectedEP6QPoint@Base 5.4.0
  _ZNK13QOpenGLWidget11paintEngineEv@Base 5.4.0
- _ZNK13QOpenGLWidget24defaultFramebufferObjectEv@Base 5.3.0 1
- _ZNK13QOpenGLWidget6formatEv@Base 5.3.0 1
+ _ZNK13QOpenGLWidget24defaultFramebufferObjectEv@Base 5.3.0
+ _ZNK13QOpenGLWidget6formatEv@Base 5.3.0
  _ZNK13QOpenGLWidget6metricEN12QPaintDevice17PaintDeviceMetricE@Base 5.4.0
  _ZNK13QOpenGLWidget7contextEv@Base 5.4.0
- _ZNK13QOpenGLWidget7isValidEv@Base 5.3.0 1
+ _ZNK13QOpenGLWidget7isValidEv@Base 5.3.0
  _ZNK13QPinchGesture10metaObjectEv@Base 5.0.2
  _ZNK13QPinchGesture11centerPointEv@Base 5.0.2
  _ZNK13QPinchGesture11changeFlagsEv@Base 5.0.2
@@ -7578,7 +7578,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZTI13QGraphicsView@Base 5.0.2
  _ZTI13QItemDelegate@Base 5.0.2
  _ZTI13QMdiSubWindow@Base 5.0.2
- _ZTI13QOpenGLWidget@Base 5.3.0 1
+ _ZTI13QOpenGLWidget@Base 5.3.0
  _ZTI13QPinchGesture@Base 5.0.2
  _ZTI13QPixmapFilter@Base 5.0.2 1
  _ZTI13QSplashScreen@Base 5.0.2
@@ -7785,7 +7785,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZTS13QGraphicsView@Base 5.0.2
  _ZTS13QItemDelegate@Base 5.0.2
  _ZTS13QMdiSubWindow@Base 5.0.2
- _ZTS13QOpenGLWidget@Base 5.3.0 1
+ _ZTS13QOpenGLWidget@Base 5.3.0
  _ZTS13QPinchGesture@Base 5.0.2
  _ZTS13QPixmapFilter@Base 5.0.2 1
  _ZTS13QSplashScreen@Base 5.0.2
@@ -7992,7 +7992,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZTV13QGraphicsView@Base 5.0.2
  _ZTV13QItemDelegate@Base 5.0.2
  _ZTV13QMdiSubWindow@Base 5.0.2
- _ZTV13QOpenGLWidget@Base 5.3.0 1
+ _ZTV13QOpenGLWidget@Base 5.3.0
  _ZTV13QPinchGesture@Base 5.0.2
  _ZTV13QPixmapFilter@Base 5.0.2 1
  _ZTV13QSplashScreen@Base 5.0.2
