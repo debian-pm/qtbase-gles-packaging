@@ -17,6 +17,8 @@ qtbase-opensource-src (5.4.0+dfsg-5) UNRELEASED; urgency=medium
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Add a note for packagers in qtbase5-dev and qt5-default's long
     descriptions.
+  * Change LDFLAGS for LFLAGS in debian/rules. Thanks Sune Vuorela for the
+    pointer.
 
   [ Dmitry Shachnev ]
   * Drop private marks from QCollator and QOpenGLWidget symbols.
