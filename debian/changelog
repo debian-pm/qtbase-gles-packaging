@@ -13,8 +13,9 @@ qtbase-opensource-src (5.3.2+dfsg-5) UNRELEASED; urgency=medium
   * Use the latest version of debian/mark_private_symbols.sh:
     - Strip trailing colon from symbols names.
     - Unmark private symbols before processing them.
-
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 26 Apr 2015 21:56:26 +0300
+  * Symbols files:
+    - Remove references to ia64 and s390 from the symbols files.
+      Build logs for these architectures are no longer available.
 
 qtbase-opensource-src (5.3.2+dfsg-4) unstable; urgency=medium
 

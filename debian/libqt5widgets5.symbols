@@ -2993,8 +2993,8 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN18QStyleOptionButtonC1Ev@Base 5.0.2
  _ZN18QStyleOptionButtonC2Ei@Base 5.0.2
  _ZN18QStyleOptionButtonC2Ev@Base 5.0.2
- (arch=!ia64)_ZN18QStyleOptionButtonD1Ev@Base 5.0.2
- (arch=!ia64)_ZN18QStyleOptionButtonD2Ev@Base 5.0.2
+ _ZN18QStyleOptionButtonD1Ev@Base 5.0.2
+ _ZN18QStyleOptionButtonD2Ev@Base 5.0.2
  _ZN18QStyleOptionHeaderC1Ei@Base 5.0.2
  _ZN18QStyleOptionHeaderC1Ev@Base 5.0.2
  _ZN18QStyleOptionHeaderC2Ei@Base 5.0.2
@@ -3706,8 +3706,8 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN22QStyleOptionToolButtonC1Ev@Base 5.0.2
  _ZN22QStyleOptionToolButtonC2Ei@Base 5.0.2
  _ZN22QStyleOptionToolButtonC2Ev@Base 5.0.2
- (arch=!ia64)_ZN22QStyleOptionToolButtonD1Ev@Base 5.0.2
- (arch=!ia64)_ZN22QStyleOptionToolButtonD2Ev@Base 5.0.2
+ _ZN22QStyleOptionToolButtonD1Ev@Base 5.0.2
+ _ZN22QStyleOptionToolButtonD2Ev@Base 5.0.2
  _ZN23QEventTransitionPrivateD0Ev@Base 5.0.2 1
  _ZN23QEventTransitionPrivateD1Ev@Base 5.0.2 1
  _ZN23QEventTransitionPrivateD2Ev@Base 5.0.2 1
@@ -7488,16 +7488,8 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK9QUndoView5groupEv@Base 5.0.2
  _ZNK9QUndoView5stackEv@Base 5.0.2
  _ZNK9QUndoView9cleanIconEv@Base 5.0.2
- (optional=templinst|subst|arch=ia64 powerpcspe s390)_ZSt11__push_heapIN5QListI5QPairIPN23QFileSystemModelPrivate15QFileSystemNodeEiEE8iteratorE{qptrdiff}S5_22QFileSystemModelSorterEvT_T0_SA_T1_T2_@Base 5.0.2 1
- (optional=templinst|arch=ia64)_ZSt11__push_heapIN5QListIN29QGraphicsItemAnimationPrivate4PairEE8iteratorExS2_EvT_T0_S6_T1_@Base 5.2.0
- (optional=templinst|arch=ia64)_ZSt13__adjust_heapIN5QListI21QPersistentModelIndexE8iteratorExS1_EvT_T0_S5_T1_@Base 5.2.0
- (optional=templinst|arch=ia64)_ZSt13__adjust_heapIN5QListI7QStringE8iteratorExS1_EvT_T0_S5_T1_@Base 5.2.0
- (optional=templinst|arch=ia64)_ZSt13__adjust_heapIN5QListIN29QGraphicsItemAnimationPrivate4PairEE8iteratorExS2_EvT_T0_S6_T1_@Base 5.2.0
- (optional=templinst|arch=ia64)_ZSt13__adjust_heapIN5QListIiE8iteratorExiEvT_T0_S4_T1_@Base 5.2.0
- (optional=templinst|arch=ia64)_ZSt25__unguarded_linear_insertIP5QPairIP15QListWidgetItemiEPFbRKS3_S6_EEvT_T0_@Base 5.2.0~beta1
+ (optional=templinst|subst|arch=powerpcspe)_ZSt11__push_heapIN5QListI5QPairIPN23QFileSystemModelPrivate15QFileSystemNodeEiEE8iteratorE{qptrdiff}S5_22QFileSystemModelSorterEvT_T0_SA_T1_T2_@Base 5.0.2 1
  (optional=templinst|arch=armel armhf hurd-i386 i386 kfreebsd-i386 mips mipsel powerpc)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 5.0.2
- (optional=templinst|arch=ia64)_ZSt9make_heapIN5QListI21QPersistentModelIndexE8iteratorEEvT_S4_@Base 5.2.0
- (optional=templinst|arch=ia64)_ZSt9make_heapIN5QListI7QStringE8iteratorEEvT_S4_@Base 5.2.0
  _ZTI10QBoxLayout@Base 5.0.2
  _ZTI10QCompleter@Base 5.0.2
  _ZTI10QLCDNumber@Base 5.0.2
