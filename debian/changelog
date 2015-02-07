@@ -19,6 +19,9 @@ qtbase-opensource-src (5.4.0+dfsg-5) UNRELEASED; urgency=medium
     descriptions.
   * Change LDFLAGS for LFLAGS in debian/rules. Thanks Sune Vuorela for the
     pointer.
+  * Remove libopenvg1-mesa-dev as a build dependency because mesa does not
+    builds it anymore (Closes: #777341).
+    Thanks Andreas Beckmann for the report.
 
   [ Dmitry Shachnev ]
   * Drop private marks from QCollator and QOpenGLWidget symbols.
