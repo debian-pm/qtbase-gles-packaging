@@ -25,6 +25,7 @@ qtbase-opensource-src (5.4.0+dfsg-5) UNRELEASED; urgency=medium
   * Remove the patches Pino replaced above as they are already present
     in this version of the code.
   * Update gnukfreebsd.diff to continue applying.
+  * Add libinput-dev as build dependency, a test is looking for it.
 
   [ Dmitry Shachnev ]
   * Drop private marks from QCollator and QOpenGLWidget symbols.
