@@ -22,6 +22,8 @@ qtbase-opensource-src (5.4.0+dfsg-5) UNRELEASED; urgency=medium
   * Remove libopenvg1-mesa-dev as a build dependency because mesa does not
     builds it anymore (Closes: #777341).
     Thanks Andreas Beckmann for the report.
+  * Remove the patches Pino replaced above as they are already present
+    in this version of the code.
 
   [ Dmitry Shachnev ]
   * Drop private marks from QCollator and QOpenGLWidget symbols.
