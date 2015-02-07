@@ -1,5 +1,9 @@
 qtbase-opensource-src (5.3.2+dfsg-5) UNRELEASED; urgency=medium
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Remove libopenvg1-mesa-dev as a build dependency because mesa does not
+    build it anymore (Closes: #777341).
+    Thanks Andreas Beckmann for the report.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 26 Apr 2015 21:56:26 +0300
 
