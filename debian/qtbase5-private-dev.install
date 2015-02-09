@@ -422,7 +422,6 @@ usr/include/*/qt5/QtPlatformSupport/*/QtPlatformSupport/private/qbasicfontdataba
 usr/include/*/qt5/QtPlatformSupport/*/QtPlatformSupport/private/qcfsocketnotifier_p.h
 usr/include/*/qt5/QtPlatformSupport/*/QtPlatformSupport/private/qcoretextfontdatabase_p.h
 usr/include/*/qt5/QtPlatformSupport/*/QtPlatformSupport/private/qdevicediscovery_p.h
-usr/include/*/qt5/QtPlatformSupport/*/QtPlatformSupport/private/qeglcompositor_p.h
 usr/include/*/qt5/QtPlatformSupport/*/QtPlatformSupport/private/qeglconvenience_p.h
 usr/include/*/qt5/QtPlatformSupport/*/QtPlatformSupport/private/qeglpbuffer_p.h
 usr/include/*/qt5/QtPlatformSupport/*/QtPlatformSupport/private/qeglplatformbackingstore_p.h
