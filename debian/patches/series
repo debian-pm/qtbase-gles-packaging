@@ -1,3 +1,7 @@
+upstream_small-improvements-to-the-hurd-g-mkspec.patch
+upstream_Complete-MIPS-atomic-support-on-pre-MIPS32-architect.patch
+upstream_qstorageinfo_unix.cpp-Fix-build-on-BSD-and-other-uni.patch
+upstream_qimage_conversions.cpp-Fix-build-on-big-endian-syste.patch
 gnukfreebsd.diff
 
 # Debian specific.
