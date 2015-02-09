@@ -22,8 +22,6 @@ qtbase-opensource-src (5.4.0+dfsg-5) UNRELEASED; urgency=medium
   * Remove libopenvg1-mesa-dev as a build dependency because mesa does not
     builds it anymore (Closes: #777341).
     Thanks Andreas Beckmann for the report.
-    - Fix qtbase5-private-dev.install, qeglcompositor_p.h is no longer
-      installed.
   * Remove the patches Pino replaced above as they are already present
     in this version of the code.
   * Update gnukfreebsd.diff to continue applying.
