@@ -1578,8 +1578,6 @@ usr/lib/*/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake
 usr/lib/*/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake
 usr/lib/*/cmake/Qt5Network/Qt5NetworkConfig.cmake
 usr/lib/*/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake
-usr/lib/*/cmake/Qt5OpenGL/Qt5OpenGLConfig.cmake
-usr/lib/*/cmake/Qt5OpenGL/Qt5OpenGLConfigVersion.cmake
 usr/lib/*/cmake/Qt5OpenGLExtensions/Qt5OpenGLExtensionsConfig.cmake
 usr/lib/*/cmake/Qt5OpenGLExtensions/Qt5OpenGLExtensionsConfigVersion.cmake
 usr/lib/*/cmake/Qt5PrintSupport/Qt5PrintSupportConfig.cmake

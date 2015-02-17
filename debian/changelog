@@ -26,6 +26,7 @@ qtbase-opensource-src (5.4.0+dfsg-5) UNRELEASED; urgency=medium
   * Drop private marks from QCollator and QOpenGLWidget symbols.
   * Remove references to ia64 and s390 from the symbols files.
     Build logs for these architectures are no longer available.
+  * Move QtOpenGL CMake files from qtbase5-dev to libqt5opengl5-dev.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 30 Dec 2014 23:42:00 +0100
 

@@ -22,6 +22,8 @@ usr/include/*/qt5/QtOpenGL/qglpixelbuffer.h
 usr/include/*/qt5/QtOpenGL/qglshaderprogram.h
 usr/include/*/qt5/QtOpenGL/qtopenglglobal.h
 usr/include/*/qt5/QtOpenGL/qtopenglversion.h
+usr/lib/*/cmake/Qt5OpenGL/Qt5OpenGLConfig.cmake
+usr/lib/*/cmake/Qt5OpenGL/Qt5OpenGLConfigVersion.cmake
 usr/lib/*/libQt5OpenGL.prl
 usr/lib/*/libQt5OpenGL.so
 usr/lib/*/pkgconfig/Qt5OpenGL.pc
