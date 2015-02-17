@@ -23,7 +23,8 @@ qtbase-opensource-src (5.4.0+dfsg-5) UNRELEASED; urgency=medium
   * Add libinput-dev as build dependency, a test is looking for it.
 
   [ Dmitry Shachnev ]
-  * Drop private marks from QCollator and QOpenGLWidget symbols.
+  * Drop private marks from QCollator, QOpenGLWidget and QAccessible*
+    symbols.
   * Remove references to ia64 and s390 from the symbols files.
     Build logs for these architectures are no longer available.
   * Move QtOpenGL CMake files from qtbase5-dev to libqt5opengl5-dev.
