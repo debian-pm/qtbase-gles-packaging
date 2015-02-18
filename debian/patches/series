@@ -7,3 +7,4 @@ gnukfreebsd.diff
 # Debian specific.
 revert_upstream_bsymbolic_change.patch
 no_htmlinfo_example.diff
+remove_privacy_breachs.diff
