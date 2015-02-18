@@ -21,6 +21,8 @@ qtbase-opensource-src (5.4.0+dfsg-5) UNRELEASED; urgency=medium
     builds it anymore (Closes: #777341).
     Thanks Andreas Beckmann for the report.
   * Add libinput-dev as build dependency, a test is looking for it.
+  * Simplify debian/qtbase5-dev.install-common. It will easy the development
+    of the packages.
 
   [ Dmitry Shachnev ]
   * Drop private marks from QCollator, QOpenGLWidget and QAccessible*
