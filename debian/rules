@@ -268,6 +268,11 @@ endif
 	# are via CMake, so don't install them.
 	rm -fv debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/cmake/Qt5*/Q*Plugin.cmake
 
+	# There is also no need to install libQtBootstrap. As it's name indicates it's
+	# only used to bootstrap qt.
+	rm -fv debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/libQt5Bootstrap*
+	rm -fv debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/pkgconfig/Qt5Bootstrap.pc
+
 	# Remove bogus exec bits from some data files in mkspecs, docs, examples
 	find debian/tmp/usr/share/qt5/ debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/ \
 		-perm /u+x,g+x,o+x -type f \

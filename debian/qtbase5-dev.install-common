@@ -13,8 +13,6 @@ usr/include/*/qt5/QtTest/*
 usr/include/*/qt5/QtWidgets/*
 usr/include/*/qt5/QtXml/*
 usr/lib/*/cmake/*
-usr/lib/*/libQt5Bootstrap.a
-usr/lib/*/libQt5Bootstrap.prl
 usr/lib/*/libQt5Concurrent.prl
 usr/lib/*/libQt5Concurrent.so
 usr/lib/*/libQt5Core.prl
@@ -37,7 +35,6 @@ usr/lib/*/libQt5Widgets.prl
 usr/lib/*/libQt5Widgets.so
 usr/lib/*/libQt5Xml.prl
 usr/lib/*/libQt5Xml.so
-usr/lib/*/pkgconfig/Qt5Bootstrap.pc
 usr/lib/*/pkgconfig/Qt5Concurrent.pc
 usr/lib/*/pkgconfig/Qt5Core.pc
 usr/lib/*/pkgconfig/Qt5DBus.pc

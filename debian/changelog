@@ -28,6 +28,7 @@ qtbase-opensource-src (5.4.0+dfsg-5) UNRELEASED; urgency=medium
   * Add remove_privacy_breachs.diff in order to remove some non-used javascript
     code. It is not really needed, but it's the best way to calm down Lintian
     and be sure nothing will break in the future.
+  * Do not ship libQt5Bootstrap, it's only used internally (Closes: #778717).
 
   [ Dmitry Shachnev ]
   * Drop private marks from QCollator, QOpenGLWidget and QAccessible*
