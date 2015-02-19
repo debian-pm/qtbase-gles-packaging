@@ -12,6 +12,7 @@ qtbase-opensource-src (5.4.0+dfsg-6) UNRELEASED; urgency=medium
     always start with 5 during Qt 5's lifetime.
   * Make mark_private_symbols.sh unmark private symbols before processing them.
     This will help us detect symbols that became public.
+    - Unmark new public symbols.
   * Mark libinput-dev as a linux-any build dependency. It is not available on
     hurd or kfreebsd.
   * Update symbols files with buildds' logs.
