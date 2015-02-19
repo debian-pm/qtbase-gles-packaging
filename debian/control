@@ -294,8 +294,6 @@ Suggests: firebird-dev,
           libpq-dev,
           libsqlite3-dev,
           unixodbc-dev
-Breaks: qtbase5-dev (<< 5.4.0+dfsg-6~)
-Replaces: qtbase5-dev (<< 5.4.0+dfsg-6~)
 Description: Qt 5 base development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -329,8 +327,8 @@ Section: libdevel
 Depends: libqt5opengl5 (= ${binary:Version}),
          qtbase5-dev (= ${binary:Version}),
          ${misc:Depends}
-Breaks: qtbase5-dev (<< 5.4.0+dfsg-5~)
-Replaces: qtbase5-dev (<< 5.4.0+dfsg-5~)
+Breaks: qtbase5-dev (<< 5.4.0+dfsg-6~)
+Replaces: qtbase5-dev (<< 5.4.0+dfsg-6~)
 Description: Qt 5 OpenGL library development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
