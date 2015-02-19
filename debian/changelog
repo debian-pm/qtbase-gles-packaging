@@ -10,6 +10,8 @@ qtbase-opensource-src (5.4.0+dfsg-6) UNRELEASED; urgency=medium
   * Headers installed into a versioned directory are always private. Simplify
     even further qtbase5-private-dev.install. Moreover this directories will
     always start with 5 during Qt 5's lifetime.
+  * Make mark_private_symbols.sh unmark private symbols before processing them.
+    This will help us detect symbols that became public.
 
   [ Rohan Garg ]
   * Make sure we strip out the 'git' keyword when looking for changelogs to install
