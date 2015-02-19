@@ -1,4 +1,4 @@
-qtbase-opensource-src (5.4.0+dfsg-5) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.4.0+dfsg-5) experimental; urgency=medium
 
   [ Pino Toscano ]
   * Replace patch hurd_opengl_incldir.diff with
@@ -41,7 +41,7 @@ qtbase-opensource-src (5.4.0+dfsg-5) UNRELEASED; urgency=medium
   * Move QtOpenGL CMake files from qtbase5-dev to libqt5opengl5-dev.
   * Update debian/copyright.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 30 Dec 2014 23:42:00 +0100
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 19 Feb 2015 00:12:25 -0300
 
 qtbase-opensource-src (5.4.0+dfsg-4) experimental; urgency=medium
 
