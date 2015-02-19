@@ -14,6 +14,7 @@ qtbase-opensource-src (5.4.0+dfsg-6) UNRELEASED; urgency=medium
     This will help us detect symbols that became public.
   * Mark libinput-dev as a linux-any build dependency. It is not available on
     hurd or kfreebsd.
+  * Update symbols files with buildds' logs.
 
   [ Rohan Garg ]
   * Make sure we strip out the 'git' keyword when looking for changelogs to install

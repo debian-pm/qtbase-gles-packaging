@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.4.0 alpha amd64 arm64 armel armhf i386 mips mipsel powerpc ppc64 ppc64el
+# SymbolsHelper-Confirmed: 5.4.0 alpha amd64 arm64 armel armhf hppa i386 mips mipsel powerpc ppc64 ppc64el
 libQt5Widgets.so.5 libqt5widgets5 #MINVER#
 | libqt5widgets5 #MINVER#, qtbase-abi-5-4-0
  _Z11qFadeEffectP7QWidgeti@Base 5.0.2
@@ -261,8 +261,8 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN10QTableViewD0Ev@Base 5.0.2
  _ZN10QTableViewD1Ev@Base 5.0.2
  _ZN10QTableViewD2Ev@Base 5.0.2
- (arch=armel powerpc)_ZN10QTransformC1ERKS_@Base 5.3.0
- (arch=armel powerpc)_ZN10QTransformC2ERKS_@Base 5.3.0
+ (arch=armel mips mipsel powerpc)_ZN10QTransformC1ERKS_@Base 5.4.0
+ (arch=armel mips mipsel powerpc)_ZN10QTransformC2ERKS_@Base 5.4.0
  _ZN10QUndoGroup11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN10QUndoGroup11qt_metacastEPKc@Base 5.0.2
  _ZN10QUndoGroup11removeStackEP10QUndoStack@Base 5.0.2
@@ -3861,7 +3861,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN24QStyleOptionGraphicsItemC1Ev@Base 5.0.2
  _ZN24QStyleOptionGraphicsItemC2Ei@Base 5.0.2
  _ZN24QStyleOptionGraphicsItemC2Ev@Base 5.0.2
- (arch=alpha armel mips mipsel powerpc ppc64 ppc64el)_ZN24QStyleOptionGraphicsItemaSERKS_@Base 5.4.0
+ (arch=alpha armel hppa powerpc ppc64 ppc64el)_ZN24QStyleOptionGraphicsItemaSERKS_@Base 5.4.0
  _ZN25QAbstractItemModelPrivateD0Ev@Base 5.0.2 1
  _ZN25QAbstractItemModelPrivateD1Ev@Base 5.0.2 1
  _ZN25QAbstractItemModelPrivateD2Ev@Base 5.0.2 1
