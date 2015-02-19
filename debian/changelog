@@ -21,8 +21,10 @@ qtbase-opensource-src (5.4.0+dfsg-5) UNRELEASED; urgency=medium
     builds it anymore (Closes: #777341).
     Thanks Andreas Beckmann for the report.
   * Add libinput-dev as build dependency, a test is looking for it.
-  * Simplify debian/qtbase5-dev.install-common. It will easy the development
-    of the packages.
+  * Simplify qtbase5-dev.install-common and qtbase5-private-dev.install. It
+    will easy the development of the packages.
+    - Update qtbase5-private-dev's break+replaces against qtbase5-dev, files
+      where moved between them.
   * Add remove_privacy_breachs.diff in order to remove some non-used javascript
     code. It is not really needed, but it's the best way to calm down Lintian
     and be sure nothing will break in the future.
