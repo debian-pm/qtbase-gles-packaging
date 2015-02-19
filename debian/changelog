@@ -4,6 +4,9 @@ qtbase-opensource-src (5.4.0+dfsg-6) UNRELEASED; urgency=medium
   * Fix qtbase5-dev.install-common. I screwed up in the last upload and pushed
     private headers into it.
     - Bump qtbase5-private-dev's Breaks and Replaces.
+  * Move some OpenGL-related headers from qtbase5-dev.install-common to
+    libqt5opengl5-dev.install.
+    - Add proper Breaks and Replaces to libqt5opengl5-dev.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 19 Feb 2015 11:13:59 -0300
 

@@ -12,6 +12,7 @@ usr/include/*/qt5/QtOpenGL/QGLShader
 usr/include/*/qt5/QtOpenGL/QGLShaderProgram
 usr/include/*/qt5/QtOpenGL/QGLWidget
 usr/include/*/qt5/QtOpenGL/QtOpenGL
+usr/include/*/qt5/QtOpenGL/QtOpenGLDepends
 usr/include/*/qt5/QtOpenGL/QtOpenGLVersion
 usr/include/*/qt5/QtOpenGL/qgl.h
 usr/include/*/qt5/QtOpenGL/qglbuffer.h
