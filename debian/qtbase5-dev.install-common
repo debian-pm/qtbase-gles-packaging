@@ -1,4 +1,16 @@
-usr/include/*/qt5/*
+usr/include/*/qt5/QtConcurrent/*
+usr/include/*/qt5/QtCore/*
+usr/include/*/qt5/QtDBus/*
+usr/include/*/qt5/QtGui/q*
+usr/include/*/qt5/QtGui/Q*
+usr/include/*/qt5/QtNetwork/*
+usr/include/*/qt5/QtOpenGL/*
+usr/include/*/qt5/QtOpenGLExtensions/*
+usr/include/*/qt5/QtPlatformHeaders/*
+usr/include/*/qt5/QtPrintSupport/*
+usr/include/*/qt5/QtSql/*
+usr/include/*/qt5/QtTest/*
+usr/include/*/qt5/QtWidgets/*
 usr/include/*/qt5/QtXml/*
 usr/lib/*/cmake/*
 usr/lib/*/libQt5Bootstrap.a
