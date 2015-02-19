@@ -275,6 +275,7 @@ endif
 
 	# Remove bogus exec bits from some data files in mkspecs, docs, examples
 	find debian/tmp/usr/share/qt5/ debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/ \
+	     debian/tmp/usr/share/qt5/doc/ \
 		-perm /u+x,g+x,o+x -type f \
 		-regex '.*\.\(app\|conf\|cpp\|h\|js\|php\|png\|pro\|xml\|xsl\)$$' \
 		-exec chmod a-x {} \;

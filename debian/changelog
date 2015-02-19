@@ -31,6 +31,7 @@ qtbase-opensource-src (5.4.0+dfsg-5) UNRELEASED; urgency=medium
     and be sure nothing will break in the future.
   * Do not ship libQt5Bootstrap, it's only used internally (Closes: #778717).
   * Do not ship docs' scripts empty directories.
+  * Remove bogus exec bits from debian/tmp/usr/share/qt5/doc/*.
 
   [ Dmitry Shachnev ]
   * Drop private marks from QCollator, QOpenGLWidget and QAccessible*
