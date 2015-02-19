@@ -13,6 +13,7 @@ qtbase-opensource-src (5.4.0+dfsg-6) UNRELEASED; urgency=medium
 
   [ Rohan Garg ]
   * Make sure we strip out the 'git' keyword when looking for changelogs to install
+  * Improve globbing for the qtbase5-dev install file
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 19 Feb 2015 11:13:59 -0300
 

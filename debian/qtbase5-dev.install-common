@@ -1626,11 +1626,7 @@ usr/lib/*/pkgconfig/Qt5Xml.pc
 usr/share/qt5/doc/global/compat.qdocconf
 usr/share/qt5/doc/global/config.qdocconf
 usr/share/qt5/doc/global/externalsites.qdocconf
-usr/share/qt5/doc/global/externalsites/external-resources.qdoc
-usr/share/qt5/doc/global/externalsites/qch-urls.qdoc
-usr/share/qt5/doc/global/externalsites/qt-webpages.qdoc
-usr/share/qt5/doc/global/externalsites/qtcreator.qdoc
-usr/share/qt5/doc/global/externalsites/rfc.qdoc
+usr/share/qt5/doc/global/externalsites/*
 usr/share/qt5/doc/global/fileextensions.qdocconf
 usr/share/qt5/doc/global/html-config.qdocconf
 usr/share/qt5/doc/global/html-footer-online.qdocconf
