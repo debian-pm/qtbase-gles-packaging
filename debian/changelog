@@ -18,7 +18,8 @@ qtbase-opensource-src (5.4.0+dfsg-6) UNRELEASED; urgency=medium
   * Update symbols files with buildds' logs.
 
   [ Rohan Garg ]
-  * Make sure we strip out the 'git' keyword when looking for changelogs to install
+  * Make sure we strip out the 'git' keyword when looking for changelogs to
+    install
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 19 Feb 2015 11:13:59 -0300
 
