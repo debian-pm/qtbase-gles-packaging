@@ -281,6 +281,9 @@ endif
 
 override_dh_auto_install-indep:
 	make INSTALL_ROOT=$(CURDIR)/debian/tmp install_html_docs
+	# Docs are shipping empty directories, most probably for scripts only present
+	# when building online-html.
+	find $(CURDIR)/debian/tmp/usr/share/qt5/doc/ -type d -empty -delete -print
 
 override_dh_install:
 	# Now flush all the .install-* files as .install files.
