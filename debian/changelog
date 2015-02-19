@@ -25,6 +25,7 @@ qtbase-opensource-src (5.4.0+dfsg-5) UNRELEASED; urgency=medium
     will easy the development of the packages.
     - Update qtbase5-private-dev's break+replaces against qtbase5-dev, files
       where moved between them.
+    - Update symbols files to mark the new private symbols.
   * Add remove_privacy_breachs.diff in order to remove some non-used javascript
     code. It is not really needed, but it's the best way to calm down Lintian
     and be sure nothing will break in the future.

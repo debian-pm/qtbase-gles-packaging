@@ -3343,11 +3343,11 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN25QPlatformFontDialogHelper12fontSelectedERK5QFont@Base 5.0.2 1
  _ZN25QPlatformFontDialogHelper16staticMetaObjectE@Base 5.0.2 1
  _ZN25QPlatformFontDialogHelper18currentFontChangedERK5QFont@Base 5.0.2 1
- _ZN25QPlatformOffscreenSurfaceC1EP17QOffscreenSurface@Base 5.1.0
- _ZN25QPlatformOffscreenSurfaceC2EP17QOffscreenSurface@Base 5.1.0
- _ZN25QPlatformOffscreenSurfaceD0Ev@Base 5.1.0
- _ZN25QPlatformOffscreenSurfaceD1Ev@Base 5.1.0
- _ZN25QPlatformOffscreenSurfaceD2Ev@Base 5.1.0
+ _ZN25QPlatformOffscreenSurfaceC1EP17QOffscreenSurface@Base 5.1.0 1
+ _ZN25QPlatformOffscreenSurfaceC2EP17QOffscreenSurface@Base 5.1.0 1
+ _ZN25QPlatformOffscreenSurfaceD0Ev@Base 5.1.0 1
+ _ZN25QPlatformOffscreenSurfaceD1Ev@Base 5.1.0 1
+ _ZN25QPlatformOffscreenSurfaceD2Ev@Base 5.1.0 1
  _ZN26QAccessibleActionInterface11pressActionEv@Base 5.0.2
  _ZN26QAccessibleActionInterface12toggleActionEv@Base 5.0.2
  _ZN26QAccessibleActionInterface14decreaseActionEv@Base 5.0.2
@@ -5840,10 +5840,10 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK25QPlatformFileDialogHelper7optionsEv@Base 5.0.2 1
  _ZNK25QPlatformFontDialogHelper10metaObjectEv@Base 5.0.2 1
  _ZNK25QPlatformFontDialogHelper7optionsEv@Base 5.0.2 1
- _ZNK25QPlatformOffscreenSurface16offscreenSurfaceEv@Base 5.1.0
- _ZNK25QPlatformOffscreenSurface6formatEv@Base 5.1.0
- _ZNK25QPlatformOffscreenSurface6screenEv@Base 5.1.0
- _ZNK25QPlatformOffscreenSurface7isValidEv@Base 5.1.0
+ _ZNK25QPlatformOffscreenSurface16offscreenSurfaceEv@Base 5.1.0 1
+ _ZNK25QPlatformOffscreenSurface6formatEv@Base 5.1.0 1
+ _ZNK25QPlatformOffscreenSurface6screenEv@Base 5.1.0 1
+ _ZNK25QPlatformOffscreenSurface7isValidEv@Base 5.1.0 1
  _ZNK26QAccessibleActionInterface19localizedActionNameERK7QString@Base 5.0.2
  _ZNK26QAccessibleActionInterface26localizedActionDescriptionERK7QString@Base 5.0.2
  _ZNK26QOpenGLEngineShaderManager10metaObjectEv@Base 5.0.2 1
@@ -6647,7 +6647,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTI25QPaintDeviceWindowPrivate@Base 5.4.0 1
  _ZTI25QPlatformFileDialogHelper@Base 5.0.2 1
  _ZTI25QPlatformFontDialogHelper@Base 5.0.2 1
- _ZTI25QPlatformOffscreenSurface@Base 5.1.0
+ _ZTI25QPlatformOffscreenSurface@Base 5.1.0 1
  _ZTI26QAccessibleActionInterface@Base 5.0.2
  _ZTI26QOpenGLContextGroupPrivate@Base 5.0.2 1
  _ZTI26QOpenGLEngineShaderManager@Base 5.0.2 1
@@ -6885,7 +6885,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTS25QPaintDeviceWindowPrivate@Base 5.4.0 1
  _ZTS25QPlatformFileDialogHelper@Base 5.0.2 1
  _ZTS25QPlatformFontDialogHelper@Base 5.0.2 1
- _ZTS25QPlatformOffscreenSurface@Base 5.1.0
+ _ZTS25QPlatformOffscreenSurface@Base 5.1.0 1
  _ZTS26QAccessibleActionInterface@Base 5.0.2
  _ZTS26QOpenGLContextGroupPrivate@Base 5.0.2 1
  _ZTS26QOpenGLEngineShaderManager@Base 5.0.2 1
@@ -7121,7 +7121,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTV25QPaintDeviceWindowPrivate@Base 5.4.0 1
  _ZTV25QPlatformFileDialogHelper@Base 5.0.2 1
  _ZTV25QPlatformFontDialogHelper@Base 5.0.2 1
- _ZTV25QPlatformOffscreenSurface@Base 5.1.0
+ _ZTV25QPlatformOffscreenSurface@Base 5.1.0 1
  _ZTV26QAccessibleActionInterface@Base 5.0.2
  _ZTV26QOpenGLContextGroupPrivate@Base 5.0.2 1
  _ZTV26QOpenGLEngineShaderManager@Base 5.0.2 1
