@@ -2962,7 +2962,7 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZN9QCollator14setNumericModeEb@Base 5.0.2
  _ZN9QCollator18setCaseSensitivityEN2Qt15CaseSensitivityE@Base 5.2.0~alpha1
  _ZN9QCollator20setIgnorePunctuationEb@Base 5.0.2
- _ZN9QCollator6detachEv@Base 5.0.2
+ _ZN9QCollator6detachEv@Base 5.0.2 1
  _ZN9QCollator9setLocaleERK7QLocale@Base 5.0.2
  _ZN9QCollatorC1ERK7QLocale@Base 5.2.0~alpha1
  _ZN9QCollatorC1ERKS_@Base 5.0.2
