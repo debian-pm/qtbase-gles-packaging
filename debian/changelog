@@ -7,6 +7,9 @@ qtbase-opensource-src (5.4.0+dfsg-6) UNRELEASED; urgency=medium
   * Move some OpenGL-related headers from qtbase5-dev.install-common to
     libqt5opengl5-dev.install.
     - Add proper Breaks and Replaces to libqt5opengl5-dev.
+  * Headers installed into a versioned directory are always private. Simplify
+    even further qtbase5-private-dev.install. Moreover this directories will
+    always start with 5 during Qt 5's lifetime.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 19 Feb 2015 11:13:59 -0300
 
