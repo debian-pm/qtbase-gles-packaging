@@ -1,6 +1,5 @@
-qtbase-opensource-src (5.4.1+dfsg-1) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.4.1+dfsg-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Update debian/watch to use https://download.qt.io/.
   * Drop patches that have been applied upstream:
@@ -10,7 +9,7 @@ qtbase-opensource-src (5.4.1+dfsg-1) UNRELEASED; urgency=medium
   * Bump ABI version for the new release.
   * Use Files-Excluded copyright field for repacking source tarball.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 24 Feb 2015 15:18:59 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Tue, 24 Feb 2015 19:08:44 +0300
 
 qtbase-opensource-src (5.4.0+dfsg-6) experimental; urgency=medium
 
