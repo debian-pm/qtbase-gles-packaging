@@ -1,6 +1,8 @@
 qtbase-opensource-src (5.4.1+dfsg-1) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
   * New upstream release.
+  * Update debian/watch to use https://download.qt.io/.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 24 Feb 2015 15:18:59 +0300
 
