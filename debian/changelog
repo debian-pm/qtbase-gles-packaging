@@ -8,6 +8,7 @@ qtbase-opensource-src (5.4.1+dfsg-1) UNRELEASED; urgency=medium
     - upstream_qimage_conversions.cpp-Fix-build-on-big-endian-syste.patch.
   * Update symbols files.
   * Bump ABI version for the new release.
+  * Use Files-Excluded copyright field for repacking source tarball.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 24 Feb 2015 15:18:59 +0300
 

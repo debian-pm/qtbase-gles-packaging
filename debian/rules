@@ -344,19 +344,3 @@ override_dh_clean:
 	for pkg in $(pkgs_with_os); do \
 		rm -f debian/$$pkg.install ; \
 	done
-
-# See upstream bugs
-# https://bugreports.qt-project.org/browse/QTBUG-30544
-# https://bugreports.qt-project.org/browse/QTBUG-30545
-prune-nonfree:
-	# Delete zlib's RFCs.
-	find \( -name rfc????.txt \) -print -delete
-	rm -fv tests/manual/network_stresstest/qtest/bigfile
-	rm -fv tests/auto/network/access/qnetworkreply/bigfile
-	rm -fv tests/auto/network/access/qnetworkreply/resource
-	# Delete Luxi-font licensed fonts, they are not DFSG compatible.
-	rm -fv lib/fonts/l*
-	# Delete Adobe's Utopia fonts. They do not seem to allow modification.
-	rm -fv lib/fonts/U*
-	# Contains non-free copies of webpages like youtube.com, etc
-	rm -fv examples/xml/htmlinfo/
