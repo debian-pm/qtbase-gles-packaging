@@ -3067,6 +3067,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN18QWidgetLineControl3delEv@Base 5.0.2 1
  _ZN18QWidgetLineControl4drawEP8QPainterRK6QPointRK5QRecti@Base 5.0.2 1
  _ZN18QWidgetLineControl4initERK7QString@Base 5.0.2 1
+ _ZN18QWidgetLineControl4undoEv@Base 5.4.1 1
  _ZN18QWidgetLineControl5clearEv@Base 5.0.2 1
  _ZN18QWidgetLineControl5fixupEv@Base 5.0.2 1
  _ZN18QWidgetLineControl5pasteEN10QClipboard4ModeE@Base 5.0.2 1

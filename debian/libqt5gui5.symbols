@@ -1937,6 +1937,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN17QOffscreenSurfaceD0Ev@Base 5.1.0
  _ZN17QOffscreenSurfaceD1Ev@Base 5.1.0
  _ZN17QOffscreenSurfaceD2Ev@Base 5.1.0
+ _ZN17QOpenGLExtensions11gles3HelperEv@Base 5.4.1 1
  _ZN17QOpenGLExtensions16openGLExtensionsEv@Base 5.0.2 1
  _ZN17QOpenGLExtensionsC1EP14QOpenGLContext@Base 5.0.2 1
  _ZN17QOpenGLExtensionsC1Ev@Base 5.0.2 1
