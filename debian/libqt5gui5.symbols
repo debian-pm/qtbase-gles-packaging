@@ -1,6 +1,6 @@
 # SymbolsHelper-Confirmed: 5.4.1 amd64
 libQt5Gui.so.5 libqt5gui5 #MINVER#
-| libqt5gui5 #MINVER#, qtbase-abi-5-4-0
+| libqt5gui5 #MINVER#, qtbase-abi-5-4-1
  _Z11qDrawBorderP8QPainterRK5QRectPKN4QCss11BorderStyleEPKiPK6QBrushPK5QSize@Base 5.0.2
  _Z12qTriangulatePKdijRK10QTransform@Base 5.2.0
  _Z12qTriangulateRK11QVectorPathRK10QTransformd@Base 5.2.0 1

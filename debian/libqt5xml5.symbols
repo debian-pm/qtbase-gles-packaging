@@ -1,6 +1,6 @@
-# SymbolsHelper-Confirmed: 5.4.0 amd64 i386
+# SymbolsHelper-Confirmed: 5.4.1 amd64
 libQt5Xml.so.5 libqt5xml5 #MINVER#
-| libqt5xml5 #MINVER#, qtbase-abi-5-4-0
+| libqt5xml5 #MINVER#, qtbase-abi-5-4-1
  _ZN10QDomEntityC1EP17QDomEntityPrivate@Base 5.0.2
  _ZN10QDomEntityC1ERKS_@Base 5.0.2
  _ZN10QDomEntityC1Ev@Base 5.0.2
