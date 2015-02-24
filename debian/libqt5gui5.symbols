@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.4.0 amd64 i386
+# SymbolsHelper-Confirmed: 5.4.1 amd64
 libQt5Gui.so.5 libqt5gui5 #MINVER#
 | libqt5gui5 #MINVER#, qtbase-abi-5-4-0
  _Z11qDrawBorderP8QPainterRK5QRectPKN4QCss11BorderStyleEPKiPK6QBrushPK5QSize@Base 5.0.2
@@ -1699,7 +1699,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN15QRadialGradientC2Edddddd@Base 5.2.0
  _ZN15QRadialGradientC2Ev@Base 5.0.2
  _ZN15QRawFontPrivate12loadFromDataERK10QByteArraydN5QFont17HintingPreferenceE@Base 5.4.0 1
- _ZN15QRawFontPrivate7cleanUpEv@Base 5.0.2 1
  _ZN15QSessionManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN15QSessionManager11qt_metacastEPKc@Base 5.0.2
  _ZN15QSessionManager13requestPhase2Ev@Base 5.0.2
@@ -2003,6 +2002,8 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN17QPlatformMenuItem9activatedEv@Base 5.0.2 1
  _ZN17QPlatformServices12openDocumentERK4QUrl@Base 5.0.2 1
  _ZN17QPlatformServices7openUrlERK4QUrl@Base 5.0.2 1
+ _ZN17QPlatformServicesC1Ev@Base 5.4.1 1
+ _ZN17QPlatformServicesC2Ev@Base 5.4.1 1
  _ZN17QTextImageHandler10drawObjectEP8QPainterRK6QRectFP13QTextDocumentiRK11QTextFormat@Base 5.0.2 1
  _ZN17QTextImageHandler11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
  _ZN17QTextImageHandler11qt_metacastEPKc@Base 5.0.2 1
@@ -2674,11 +2675,12 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN20QPlatformIntegration4syncEv@Base 5.2.0~rc1 1
  _ZN20QPlatformTextureList11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.3.0 1
  _ZN20QPlatformTextureList11qt_metacastEPKc@Base 5.3.0 1
- _ZN20QPlatformTextureList13appendTextureEjRK5QRectb@Base 5.4.0 1
+ _ZN20QPlatformTextureList13appendTextureEP7QWidgetjRK5QRect6QFlagsINS_4FlagEE@Base 5.4.1 1
  _ZN20QPlatformTextureList16staticMetaObjectE@Base 5.3.0 1
  _ZN20QPlatformTextureList4lockEb@Base 5.3.0 1
  _ZN20QPlatformTextureList5clearEv@Base 5.3.0 1
  _ZN20QPlatformTextureList6lockedEb@Base 5.3.0 1
+ _ZN20QPlatformTextureList6widgetEi@Base 5.4.1 1
  _ZN20QPlatformTextureListC1EP7QObject@Base 5.3.0 1
  _ZN20QPlatformTextureListC2EP7QObject@Base 5.3.0 1
  _ZN20QPlatformTextureListD0Ev@Base 5.3.0 1
@@ -2991,7 +2993,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN22QGuiApplicationPrivate37synthesizeMouseFromTouchEventsEnabledEv@Base 5.1.0 1
  _ZN22QGuiApplicationPrivate4initEv@Base 5.0.2 1
  _ZN22QGuiApplicationPrivate4selfE@Base 5.0.2 1
- _ZN22QGuiApplicationPrivate6noGrabE@Base 5.0.2 1
  _ZN22QGuiApplicationPrivate7app_palE@Base 5.0.2 1
  _ZN22QGuiApplicationPrivate7buttonsE@Base 5.0.2 1
  _ZN22QGuiApplicationPrivate8app_fontE@Base 5.0.2 1
@@ -5139,6 +5140,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK13QOpenGLWindow7isValidEv@Base 5.4.0
  _ZNK13QPlatformDrag11currentDragEv@Base 5.0.2 1
  _ZNK13QPlatformDrag13defaultActionE6QFlagsIN2Qt10DropActionEES0_INS1_16KeyboardModifierEE@Base 5.0.2 1
+ _ZNK13QPlatformDrag14ownsDragObjectEv@Base 5.4.1 1
  _ZNK13QPlatformMenu10metaObjectEv@Base 5.0.2 1
  _ZNK13QPlatformMenu14createMenuItemEv@Base 5.3.0 1
  _ZNK13QRasterWindow10metaObjectEv@Base 5.4.0
@@ -5334,6 +5336,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK14QTextTableCell6formatEv@Base 5.0.2
  _ZNK14QTextTableCell7rowSpanEv@Base 5.0.2
  _ZNK14QWindowPrivate14topLevelWindowEv@Base 5.3.0 1
+ _ZNK14QWindowPrivate25closestAcceptableGeometryERK6QRectF@Base 5.4.1 1
  _ZNK15QFontEngineQPF210glyphIndexEj@Base 5.4.0 1
  _ZNK15QFontEngineQPF212maxCharWidthEv@Base 5.4.0 1
  _ZNK15QFontEngineQPF212stringToCMapEPK5QChariP12QGlyphLayoutPi6QFlagsIN11QFontEngine10ShaperFlagEE@Base 5.4.0 1
@@ -5722,8 +5725,8 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK20QPlatformIntegration9clipboardEv@Base 5.0.2 1
  _ZNK20QPlatformIntegration9styleHintENS_9StyleHintE@Base 5.0.2 1
  _ZNK20QPlatformTextureList10metaObjectEv@Base 5.3.0 1
- _ZNK20QPlatformTextureList11stacksOnTopEi@Base 5.4.0 1
  _ZNK20QPlatformTextureList5countEv@Base 5.3.0 1
+ _ZNK20QPlatformTextureList5flagsEi@Base 5.4.1 1
  _ZNK20QPlatformTextureList8geometryEi@Base 5.3.0 1
  _ZNK20QPlatformTextureList8isLockedEv@Base 5.3.0 1
  _ZNK20QPlatformTextureList9textureIdEi@Base 5.3.0 1
@@ -5759,6 +5762,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK21QPlatformInputContext10metaObjectEv@Base 5.0.2 1
  _ZNK21QPlatformInputContext11isAnimatingEv@Base 5.0.2 1
  _ZNK21QPlatformInputContext12keyboardRectEv@Base 5.0.2 1
+ _ZNK21QPlatformInputContext13hasCapabilityENS_10CapabilityE@Base 5.4.1 1
  _ZNK21QPlatformInputContext14inputDirectionEv@Base 5.0.2 1
  _ZNK21QPlatformInputContext19inputMethodAcceptedEv@Base 5.0.2 1
  _ZNK21QPlatformInputContext19isInputPanelVisibleEv@Base 5.0.2 1

@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.4.0 amd64 armel armhf i386 mipsel powerpc ppc64el
+# SymbolsHelper-Confirmed: 5.4.1 amd64
 libQt5Core.so.5 libqt5core5a #MINVER#
 | libqt5core5a #MINVER#, qtbase-abi-5-4-0
  _Z10forcepointR11QTextStream@Base 5.0.2
@@ -3502,7 +3502,7 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZNK11QJsonObjecteqERKS_@Base 5.0.2
  _ZNK11QJsonObjectixERK7QString@Base 5.0.2
  _ZNK11QJsonObjectneERKS_@Base 5.0.2
- _ZNK11QLocaleData13validateCharsERK7QStringNS_10NumberModeEP10QByteArrayi@Base 5.3.0
+ _ZNK11QLocaleData13validateCharsERK7QStringNS_10NumberModeEP10QByteArrayib@Base 5.4.1
  _ZNK11QMetaMethod10attributesEv@Base 5.0.2
  _ZNK11QMetaMethod10methodTypeEv@Base 5.0.2
  _ZNK11QMetaMethod10returnTypeEv@Base 5.0.2
@@ -4271,6 +4271,7 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZNK25QSequentialAnimationGroup10metaObjectEv@Base 5.0.2
  _ZNK25QSequentialAnimationGroup16currentAnimationEv@Base 5.0.2
  _ZNK25QSequentialAnimationGroup8durationEv@Base 5.0.2
+ _ZNK26QAbstractProxyModelPrivate26mapDropCoordinatesToSourceEiiRK11QModelIndexPiS3_PS0_@Base 5.4.1 1
  _ZNK26QAbstractTransitionPrivate11sourceStateEv@Base 5.0.2 1
  _ZNK26QAbstractTransitionPrivate7machineEv@Base 5.0.2 1
  _ZNK26QMessageAuthenticationCode6resultEv@Base 5.1.0
