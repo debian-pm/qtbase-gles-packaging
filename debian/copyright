@@ -9,7 +9,6 @@ Files-Excluded: src/3rdparty/zlib/doc/rfc*.txt
                 tests/manual/network_stresstest/qtest/bigfile
                 tests/auto/network/access/qnetworkreply/bigfile
                 tests/auto/network/access/qnetworkreply/resource
-                tests/auto/network/access/qnetworkreply/resource
                 lib/fonts/l*t.pfa
                 lib/fonts/UT*.pfa
                 examples/xml/htmlinfo
