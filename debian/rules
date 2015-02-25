@@ -14,14 +14,8 @@ export CFLAGS := $(shell dpkg-buildflags --get CFLAGS) $(shell dpkg-buildflags -
 export CXXFLAGS := $(shell dpkg-buildflags --get CXXFLAGS) $(shell dpkg-buildflags --get CPPFLAGS)
 export LDFLAGS := $(shell dpkg-buildflags --get LDFLAGS) -Wl,--as-needed
 
-# Library package list for override_dh_makeshlibs, excludes -dev -dbg
-pkgs_lib := $(filter-out %-dev %-dbg,$(filter lib%,$(shell dh_listpackages)))
 # Upstream changelog
 upstream_changes := dist/changes-$(shell dpkg-parsechangelog | sed -n 's/^Version: //p' | cut -f1 -d '-' | sed -e 's/+dfsg//' | sed -e 's/+git.*//')
-# Current debian version (e.g.: 4:4.5.2-1)
-current_version := $(shell dpkg-parsechangelog | sed -n 's/^Version: //p')
-# Specific shlibs version (e.g.: 4:4.5.2)
-shlibs_version := $(shell dpkg-parsechangelog | sed -n 's/^Version: //p' | cut -f1 -d '-')
 # Distribution vendor
 vendor := $(shell dpkg-vendor --query Vendor)
 
@@ -204,7 +198,6 @@ override_dh_auto_clean:
 	| cut -d ':' -f 1 | xargs rm -f
 
 	# Generated on build
-	rm -f debian/shlibs.local
 	rm -f debian/stamp-makefile-build-tools
 
 	# more leftovers
@@ -317,14 +310,7 @@ override_dh_strip:
 	dh_strip --remaining-packages --dbg-package=qtbase5-dbg
 
 override_dh_makeshlibs:
-	# Specific shlibs version (e.g.: 4:4.5.2)
-	$(foreach pkg,$(pkgs_lib),dh_makeshlibs -p$(pkg) -V '$(pkg) (>= $(shlibs_version))' -- -c0;)
-	# Generate shlibs local files
-	for pkg in $(pkgs_lib); do \
-		if test -e debian/$${pkg}/DEBIAN/shlibs ; then \
-			sed 's/>=[^)]*/= $(current_version)/' debian/$${pkg}/DEBIAN/shlibs >> debian/shlibs.local ;\
-		fi \
-	done
+	dh_makeshlibs
 
 	# Check for private symbols not marked as such. Be verbose.
 	DEBUG=1 debian/mark_private_symbols.sh
