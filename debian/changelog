@@ -5,6 +5,7 @@ qtbase-opensource-src (5.4.1+dfsg-2) UNRELEASED; urgency=medium
     - Update from buildds’ logs.
     - Mark symbols missing with GCC 5 as optional.
   * Drop obsolete override_dh_makeshlibs code, no longer needed.
+    Just use dh_makeshlibs -V instead.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 25 Feb 2015 10:39:31 +0300
 
