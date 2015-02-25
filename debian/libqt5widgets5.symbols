@@ -1101,9 +1101,9 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN12QCommonStyleD0Ev@Base 5.0.2
  _ZN12QCommonStyleD1Ev@Base 5.0.2
  _ZN12QCommonStyleD2Ev@Base 5.0.2
- _ZN12QFSCompleterD0Ev@Base 5.0.2 1
- _ZN12QFSCompleterD1Ev@Base 5.0.2 1
- _ZN12QFSCompleterD2Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN12QFSCompleterD0Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN12QFSCompleterD1Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN12QFSCompleterD2Ev@Base 5.0.2 1
  _ZN12QInputDialog10setIntStepEi@Base 5.0.2
  _ZN12QInputDialog10setOptionsE6QFlagsINS_17InputDialogOptionEE@Base 5.0.2
  _ZN12QInputDialog10setVisibleEb@Base 5.0.2
@@ -1856,9 +1856,9 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN14QLayoutPrivate8doResizeERK5QSize@Base 5.0.2 1
  _ZN14QLayoutPrivateC1Ev@Base 5.0.2 1
  _ZN14QLayoutPrivateC2Ev@Base 5.0.2 1
- _ZN14QLayoutPrivateD0Ev@Base 5.0.2 1
- _ZN14QLayoutPrivateD1Ev@Base 5.0.2 1
- _ZN14QLayoutPrivateD2Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN14QLayoutPrivateD0Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN14QLayoutPrivateD1Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN14QLayoutPrivateD2Ev@Base 5.0.2 1
  _ZN14QPlainTextEdit10appendHtmlERK7QString@Base 5.0.2
  _ZN14QPlainTextEdit10moveCursorEN11QTextCursor13MoveOperationENS0_8MoveModeE@Base 5.0.2
  _ZN14QPlainTextEdit10paintEventEP11QPaintEvent@Base 5.0.2
@@ -2510,7 +2510,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN16QAbstractSpinBoxD0Ev@Base 5.0.2
  _ZN16QAbstractSpinBoxD1Ev@Base 5.0.2
  _ZN16QAbstractSpinBoxD2Ev@Base 5.0.2
- _ZN16QCoreApplication9sendEventEP7QObjectP6QEvent@Base 5.3.1
+ (optional=inline)_ZN16QCoreApplication9sendEventEP7QObjectP6QEvent@Base 5.3.1
  _ZN16QDialogButtonBox11changeEventEP6QEvent@Base 5.0.2
  _ZN16QDialogButtonBox11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN16QDialogButtonBox11qt_metacastEPKc@Base 5.0.2
@@ -2611,9 +2611,9 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN16QTreeViewPrivate15insertViewItemsEiiRK13QTreeViewItem@Base 5.0.2 1
  _ZN16QTreeViewPrivate15removeViewItemsEii@Base 5.0.2 1
  _ZN16QTreeViewPrivate16updateScrollBarsEv@Base 5.0.2 1
- _ZN16QTreeViewPrivate17AnimatedOperationD0Ev@Base 5.0.2 1
- _ZN16QTreeViewPrivate17AnimatedOperationD1Ev@Base 5.0.2 1
- _ZN16QTreeViewPrivate17AnimatedOperationD2Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN16QTreeViewPrivate17AnimatedOperationD0Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN16QTreeViewPrivate17AnimatedOperationD1Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN16QTreeViewPrivate17AnimatedOperationD2Ev@Base 5.0.2 1
  _ZN16QTreeViewPrivate17_q_columnsRemovedERK11QModelIndexii@Base 5.0.2 1
  _ZN16QTreeViewPrivate17_q_modelDestroyedEv@Base 5.0.2 1
  _ZN16QTreeViewPrivate22_q_modelAboutToBeResetEv@Base 5.0.2 1
@@ -3003,14 +3003,14 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN18QStyleOptionButtonC1Ev@Base 5.0.2
  _ZN18QStyleOptionButtonC2Ei@Base 5.0.2
  _ZN18QStyleOptionButtonC2Ev@Base 5.0.2
- _ZN18QStyleOptionButtonD1Ev@Base 5.0.2
- _ZN18QStyleOptionButtonD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18QStyleOptionButtonD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN18QStyleOptionButtonD2Ev@Base 5.0.2
  _ZN18QStyleOptionHeaderC1Ei@Base 5.0.2
  _ZN18QStyleOptionHeaderC1Ev@Base 5.0.2
  _ZN18QStyleOptionHeaderC2Ei@Base 5.0.2
  _ZN18QStyleOptionHeaderC2Ev@Base 5.0.2
- _ZN18QStyleOptionHeaderD1Ev@Base 5.3.1
- _ZN18QStyleOptionHeaderD2Ev@Base 5.3.1
+ (optional=gccinternal)_ZN18QStyleOptionHeaderD1Ev@Base 5.3.1
+ (optional=gccinternal)_ZN18QStyleOptionHeaderD2Ev@Base 5.3.1
  _ZN18QStyleOptionSliderC1Ei@Base 5.0.2
  _ZN18QStyleOptionSliderC1Ev@Base 5.0.2
  _ZN18QStyleOptionSliderC2Ei@Base 5.0.2
@@ -3521,9 +3521,9 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN20QGraphicsViewPrivate28updateInputMethodSensitivityEv@Base 5.0.2 1
  _ZN20QGraphicsViewPrivateC1Ev@Base 5.0.2 1
  _ZN20QGraphicsViewPrivateC2Ev@Base 5.0.2 1
- _ZN20QGraphicsViewPrivateD0Ev@Base 5.0.2 1
- _ZN20QGraphicsViewPrivateD1Ev@Base 5.0.2 1
- _ZN20QGraphicsViewPrivateD2Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN20QGraphicsViewPrivateD0Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN20QGraphicsViewPrivateD1Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN20QGraphicsViewPrivateD2Ev@Base 5.0.2 1
  _ZN20QStyleHintReturnMaskC1Ev@Base 5.0.2
  _ZN20QStyleHintReturnMaskC2Ev@Base 5.0.2
  _ZN20QStyleHintReturnMaskD1Ev@Base 5.0.2
@@ -3542,8 +3542,8 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN20QStyleOptionMenuItemC1Ev@Base 5.0.2
  _ZN20QStyleOptionMenuItemC2Ei@Base 5.0.2
  _ZN20QStyleOptionMenuItemC2Ev@Base 5.0.2
- _ZN20QStyleOptionMenuItemD1Ev@Base 5.0.2
- _ZN20QStyleOptionMenuItemD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN20QStyleOptionMenuItemD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN20QStyleOptionMenuItemD2Ev@Base 5.0.2
  _ZN20QStyleOptionSizeGripC1Ei@Base 5.0.2
  _ZN20QStyleOptionSizeGripC1Ev@Base 5.0.2
  _ZN20QStyleOptionSizeGripC2Ei@Base 5.0.2
@@ -3556,8 +3556,8 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN20QStyleOptionViewItemC1Ev@Base 5.0.2
  _ZN20QStyleOptionViewItemC2Ei@Base 5.0.2
  _ZN20QStyleOptionViewItemC2Ev@Base 5.0.2
- _ZN20QStyleOptionViewItemD1Ev@Base 5.0.2
- _ZN20QStyleOptionViewItemD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN20QStyleOptionViewItemD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN20QStyleOptionViewItemD2Ev@Base 5.0.2
  _ZN20QWidgetResizeHandler11eventFilterEP7QObjectP6QEvent@Base 5.0.2 1
  _ZN20QWidgetResizeHandler11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
  _ZN20QWidgetResizeHandler11qt_metacastEPKc@Base 5.0.2 1
@@ -3571,9 +3571,9 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN20QWidgetResizeHandler9setActiveENS_6ActionEb@Base 5.0.2 1
  _ZN20QWidgetResizeHandlerC1EP7QWidgetS1_@Base 5.0.2 1
  _ZN20QWidgetResizeHandlerC2EP7QWidgetS1_@Base 5.0.2 1
- _ZN20QWidgetResizeHandlerD0Ev@Base 5.0.2 1
- _ZN20QWidgetResizeHandlerD1Ev@Base 5.0.2 1
- _ZN20QWidgetResizeHandlerD2Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN20QWidgetResizeHandlerD0Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN20QWidgetResizeHandlerD1Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN20QWidgetResizeHandlerD2Ev@Base 5.0.2 1
  _ZN21QAbstractItemDelegate10commitDataEP7QWidget@Base 5.0.2
  _ZN21QAbstractItemDelegate10elidedTextERK12QFontMetricsiN2Qt13TextElideModeERK7QString@Base 5.0.2
  _ZN21QAbstractItemDelegate11closeEditorEP7QWidgetNS_11EndEditHintE@Base 5.0.2
@@ -3655,16 +3655,16 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN21QPixmapColorizeFilter8setColorERK6QColor@Base 5.0.2 1
  _ZN21QPixmapColorizeFilterC1EP7QObject@Base 5.0.2 1
  _ZN21QPixmapColorizeFilterC2EP7QObject@Base 5.0.2 1
- _ZN21QPixmapColorizeFilterD0Ev@Base 5.0.2 1
- _ZN21QPixmapColorizeFilterD1Ev@Base 5.0.2 1
- _ZN21QPixmapColorizeFilterD2Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN21QPixmapColorizeFilterD0Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN21QPixmapColorizeFilterD1Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN21QPixmapColorizeFilterD2Ev@Base 5.0.2 1
  _ZN21QStyleOptionFocusRectC1Ei@Base 5.0.2
  _ZN21QStyleOptionFocusRectC1Ev@Base 5.0.2
  _ZN21QStyleOptionFocusRectC2Ei@Base 5.0.2
  _ZN21QStyleOptionFocusRectC2Ev@Base 5.0.2
- _ZN22QGraphicsEffectPrivateD0Ev@Base 5.0.2 1
- _ZN22QGraphicsEffectPrivateD1Ev@Base 5.0.2 1
- _ZN22QGraphicsEffectPrivateD2Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN22QGraphicsEffectPrivateD0Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN22QGraphicsEffectPrivateD1Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN22QGraphicsEffectPrivateD2Ev@Base 5.0.2 1
  _ZN22QGraphicsItemAnimation10setScaleAtEddd@Base 5.2.0
  _ZN22QGraphicsItemAnimation10setShearAtEddd@Base 5.2.0
  _ZN22QGraphicsItemAnimation11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
@@ -3717,11 +3717,11 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN22QStyleOptionToolButtonC1Ev@Base 5.0.2
  _ZN22QStyleOptionToolButtonC2Ei@Base 5.0.2
  _ZN22QStyleOptionToolButtonC2Ev@Base 5.0.2
- _ZN22QStyleOptionToolButtonD1Ev@Base 5.0.2
- _ZN22QStyleOptionToolButtonD2Ev@Base 5.0.2
- _ZN23QEventTransitionPrivateD0Ev@Base 5.0.2 1
- _ZN23QEventTransitionPrivateD1Ev@Base 5.0.2 1
- _ZN23QEventTransitionPrivateD2Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN22QStyleOptionToolButtonD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN22QStyleOptionToolButtonD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN23QEventTransitionPrivateD0Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN23QEventTransitionPrivateD1Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN23QEventTransitionPrivateD2Ev@Base 5.0.2 1
  _ZN23QGraphicsColorizeEffect11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN23QGraphicsColorizeEffect11qt_metacastEPKc@Base 5.0.2
  _ZN23QGraphicsColorizeEffect11setStrengthEd@Base 5.2.0
@@ -3863,9 +3863,9 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN24QStyleOptionGraphicsItemC2Ei@Base 5.0.2
  _ZN24QStyleOptionGraphicsItemC2Ev@Base 5.0.2
  (arch=alpha armel hppa powerpc ppc64 ppc64el)_ZN24QStyleOptionGraphicsItemaSERKS_@Base 5.4.0
- _ZN25QAbstractItemModelPrivateD0Ev@Base 5.0.2 1
- _ZN25QAbstractItemModelPrivateD1Ev@Base 5.0.2 1
- _ZN25QAbstractItemModelPrivateD2Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN25QAbstractItemModelPrivateD0Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN25QAbstractItemModelPrivateD1Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN25QAbstractItemModelPrivateD2Ev@Base 5.0.2 1
  _ZN25QGraphicsDropShadowEffect11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN25QGraphicsDropShadowEffect11qt_metacastEPKc@Base 5.0.2
  _ZN25QGraphicsDropShadowEffect12colorChangedERK6QColor@Base 5.0.2
@@ -3908,21 +3908,21 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN26QAbstractScrollAreaPrivate9_q_vslideEi@Base 5.0.2
  _ZN26QAbstractScrollAreaPrivateC1Ev@Base 5.0.2
  _ZN26QAbstractScrollAreaPrivateC2Ev@Base 5.0.2
- _ZN26QAbstractScrollAreaPrivateD0Ev@Base 5.0.2
- _ZN26QAbstractScrollAreaPrivateD1Ev@Base 5.0.2
- _ZN26QAbstractScrollAreaPrivateD2Ev@Base 5.0.2
- _ZN26QAccessibleTextCursorEventD0Ev@Base 5.0.2
- _ZN26QAccessibleTextCursorEventD1Ev@Base 5.0.2
- _ZN26QAccessibleTextCursorEventD2Ev@Base 5.0.2
- _ZN26QAccessibleTextInsertEventD0Ev@Base 5.0.2
- _ZN26QAccessibleTextInsertEventD1Ev@Base 5.0.2
- _ZN26QAccessibleTextInsertEventD2Ev@Base 5.0.2
- _ZN26QAccessibleTextRemoveEventD0Ev@Base 5.0.2
- _ZN26QAccessibleTextRemoveEventD1Ev@Base 5.0.2
- _ZN26QAccessibleTextRemoveEventD2Ev@Base 5.0.2
- _ZN26QAccessibleTextUpdateEventD0Ev@Base 5.0.2
- _ZN26QAccessibleTextUpdateEventD1Ev@Base 5.0.2
- _ZN26QAccessibleTextUpdateEventD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN26QAbstractScrollAreaPrivateD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN26QAbstractScrollAreaPrivateD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN26QAbstractScrollAreaPrivateD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN26QAccessibleTextCursorEventD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN26QAccessibleTextCursorEventD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN26QAccessibleTextCursorEventD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN26QAccessibleTextInsertEventD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN26QAccessibleTextInsertEventD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN26QAccessibleTextInsertEventD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN26QAccessibleTextRemoveEventD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN26QAccessibleTextRemoveEventD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN26QAccessibleTextRemoveEventD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN26QAccessibleTextUpdateEventD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN26QAccessibleTextUpdateEventD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN26QAccessibleTextUpdateEventD2Ev@Base 5.0.2
  _ZN26QStyleOptionTabWidgetFrameC1Ei@Base 5.0.2
  _ZN26QStyleOptionTabWidgetFrameC1Ev@Base 5.0.2
  _ZN26QStyleOptionTabWidgetFrameC2Ei@Base 5.0.2
@@ -3935,12 +3935,12 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN26QTableWidgetSelectionRangeC2Ev@Base 5.0.2
  _ZN26QTableWidgetSelectionRangeD1Ev@Base 5.0.2
  _ZN26QTableWidgetSelectionRangeD2Ev@Base 5.0.2
- _ZN27QAccessibleStateChangeEventD0Ev@Base 5.0.2
- _ZN27QAccessibleStateChangeEventD1Ev@Base 5.0.2
- _ZN27QAccessibleStateChangeEventD2Ev@Base 5.0.2
- _ZN27QAccessibleValueChangeEventD0Ev@Base 5.0.2
- _ZN27QAccessibleValueChangeEventD1Ev@Base 5.0.2
- _ZN27QAccessibleValueChangeEventD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN27QAccessibleStateChangeEventD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN27QAccessibleStateChangeEventD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN27QAccessibleStateChangeEventD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN27QAccessibleValueChangeEventD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN27QAccessibleValueChangeEventD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN27QAccessibleValueChangeEventD2Ev@Base 5.0.2
  _ZN27QGraphicsSceneDragDropEvent10setButtonsE6QFlagsIN2Qt11MouseButtonEE@Base 5.0.2
  _ZN27QGraphicsSceneDragDropEvent11setMimeDataEPK9QMimeData@Base 5.0.2
  _ZN27QGraphicsSceneDragDropEvent11setScenePosERK7QPointF@Base 5.0.2
@@ -3957,9 +3957,9 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN27QGraphicsSceneDragDropEventD0Ev@Base 5.0.2
  _ZN27QGraphicsSceneDragDropEventD1Ev@Base 5.0.2
  _ZN27QGraphicsSceneDragDropEventD2Ev@Base 5.0.2
- _ZN29QAccessibleTextSelectionEventD0Ev@Base 5.0.2
- _ZN29QAccessibleTextSelectionEventD1Ev@Base 5.0.2
- _ZN29QAccessibleTextSelectionEventD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN29QAccessibleTextSelectionEventD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN29QAccessibleTextSelectionEventD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN29QAccessibleTextSelectionEventD2Ev@Base 5.0.2
  _ZN30QGraphicsSceneContextMenuEvent11setScenePosERK7QPointF@Base 5.0.2
  _ZN30QGraphicsSceneContextMenuEvent12setModifiersE6QFlagsIN2Qt16KeyboardModifierEE@Base 5.0.2
  _ZN30QGraphicsSceneContextMenuEvent12setScreenPosERK6QPoint@Base 5.0.2
@@ -3970,9 +3970,9 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN30QGraphicsSceneContextMenuEventD0Ev@Base 5.0.2
  _ZN30QGraphicsSceneContextMenuEventD1Ev@Base 5.0.2
  _ZN30QGraphicsSceneContextMenuEventD2Ev@Base 5.0.2
- _ZN32QAccessibleTableModelChangeEventD0Ev@Base 5.0.2
- _ZN32QAccessibleTableModelChangeEventD1Ev@Base 5.0.2
- _ZN32QAccessibleTableModelChangeEventD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN32QAccessibleTableModelChangeEventD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN32QAccessibleTableModelChangeEventD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN32QAccessibleTableModelChangeEventD2Ev@Base 5.0.2
  _ZN5QDial10paintEventEP11QPaintEvent@Base 5.0.2
  _ZN5QDial11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN5QDial11qt_metacastEPKc@Base 5.0.2
