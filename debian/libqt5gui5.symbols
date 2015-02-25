@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.4.1 amd64
+# SymbolsHelper-Confirmed: 5.4.1 amd64 hurd-i386 i386 kfreebsd-i386
 libQt5Gui.so.5 libqt5gui5 #MINVER#
 | libqt5gui5 #MINVER#, qtbase-abi-5-4-1
  _Z11qDrawBorderP8QPainterRK5QRectPKN4QCss11BorderStyleEPKiPK6QBrushPK5QSize@Base 5.0.2
@@ -1766,7 +1766,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN16QConicalGradientC2ERK7QPointFd@Base 5.2.0
  _ZN16QConicalGradientC2Eddd@Base 5.2.0
  _ZN16QConicalGradientC2Ev@Base 5.0.2
- (optional=gccinternal)_ZN16QCoreApplication20sendSpontaneousEventEP7QObjectP6QEvent@Base 5.3.0
+ (optional=gccinternal|arch=!hurd-i386 !i386 !kfreebsd-i386)_ZN16QCoreApplication20sendSpontaneousEventEP7QObjectP6QEvent@Base 5.3.0
  _ZN16QDesktopServices13setUrlHandlerERK7QStringP7QObjectPKc@Base 5.0.2
  _ZN16QDesktopServices15unsetUrlHandlerERK7QString@Base 5.0.2
  _ZN16QDesktopServices19storageLocationImplEN14QStandardPaths16StandardLocationE@Base 5.0.2
@@ -7293,16 +7293,10 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  (c++)"non-virtual thunk to QOffscreenSurface::surfaceType() const@Base" 5.1.0
  (c++)"non-virtual thunk to QOffscreenSurface::~QOffscreenSurface()@Base" 5.1.0
  (c++)"non-virtual thunk to QOpenGLWindow::metric(QPaintDevice::PaintDeviceMetric) const@Base" 5.4.0
- (c++)"non-virtual thunk to QOpenGLWindow::~QOpenGLWindow()@Base" 5.4.0
- (c++)"non-virtual thunk to QOpenGLWindow::~QOpenGLWindow()@Base" 5.4.0
- (c++)"non-virtual thunk to QOpenGLWindow::~QOpenGLWindow()@Base" 5.4.0
- (c++)"non-virtual thunk to QOpenGLWindow::~QOpenGLWindow()@Base" 5.4.0
  (c++)"non-virtual thunk to QOpenGLWindow::redirected(QPoint*) const@Base" 5.4.0
+ (c++)"non-virtual thunk to QOpenGLWindow::~QOpenGLWindow()@Base" 5.4.0
  (c++)"non-virtual thunk to QPaintDeviceWindow::metric(QPaintDevice::PaintDeviceMetric) const@Base" 5.4.0
  (c++)"non-virtual thunk to QPaintDeviceWindow::paintEngine() const@Base" 5.4.0
- (c++)"non-virtual thunk to QPaintDeviceWindow::~QPaintDeviceWindow()@Base" 5.4.0
- (c++)"non-virtual thunk to QPaintDeviceWindow::~QPaintDeviceWindow()@Base" 5.4.0
- (c++)"non-virtual thunk to QPaintDeviceWindow::~QPaintDeviceWindow()@Base" 5.4.0
  (c++)"non-virtual thunk to QPaintDeviceWindow::~QPaintDeviceWindow()@Base" 5.4.0
  (c++)"non-virtual thunk to QPdfWriter::metric(QPaintDevice::PaintDeviceMetric) const@Base" 5.0.2
  (c++)"non-virtual thunk to QPdfWriter::newPage()@Base" 5.0.2
@@ -7312,11 +7306,8 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  (c++)"non-virtual thunk to QPdfWriter::setPageSizeMM(QSizeF const&)@Base" 5.0.2
  (c++)"non-virtual thunk to QPdfWriter::~QPdfWriter()@Base" 5.0.2
  (c++)"non-virtual thunk to QRasterWindow::metric(QPaintDevice::PaintDeviceMetric) const@Base" 5.4.0
- (c++)"non-virtual thunk to QRasterWindow::~QRasterWindow()@Base" 5.4.0
- (c++)"non-virtual thunk to QRasterWindow::~QRasterWindow()@Base" 5.4.0
- (c++)"non-virtual thunk to QRasterWindow::~QRasterWindow()@Base" 5.4.0
- (c++)"non-virtual thunk to QRasterWindow::~QRasterWindow()@Base" 5.4.0
  (c++)"non-virtual thunk to QRasterWindow::redirected(QPoint*) const@Base" 5.4.0
+ (c++)"non-virtual thunk to QRasterWindow::~QRasterWindow()@Base" 5.4.0
  (c++)"non-virtual thunk to QSimpleDrag::~QSimpleDrag()@Base" 5.1.0
  (c++)"non-virtual thunk to QTextImageHandler::drawObject(QPainter*, QRectF const&, QTextDocument*, int, QTextFormat const&)@Base" 5.0.2
  (c++)"non-virtual thunk to QTextImageHandler::intrinsicSize(QTextDocument*, int, QTextFormat const&)@Base" 5.0.2
