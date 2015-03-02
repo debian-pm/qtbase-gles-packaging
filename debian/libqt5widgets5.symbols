@@ -3182,9 +3182,9 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN19QAbstractScrollArea5eventEP6QEvent@Base 5.0.2
  _ZN19QAbstractScrollArea9dropEventEP10QDropEvent@Base 5.0.2
  _ZN19QAbstractScrollAreaC1EP7QWidget@Base 5.0.2
- _ZN19QAbstractScrollAreaC1ER26QAbstractScrollAreaPrivateP7QWidget@Base 5.0.2
+ _ZN19QAbstractScrollAreaC1ER26QAbstractScrollAreaPrivateP7QWidget@Base 5.0.2 1
  _ZN19QAbstractScrollAreaC2EP7QWidget@Base 5.0.2
- _ZN19QAbstractScrollAreaC2ER26QAbstractScrollAreaPrivateP7QWidget@Base 5.0.2
+ _ZN19QAbstractScrollAreaC2ER26QAbstractScrollAreaPrivateP7QWidget@Base 5.0.2 1
  _ZN19QAbstractScrollAreaD0Ev@Base 5.0.2
  _ZN19QAbstractScrollAreaD1Ev@Base 5.0.2
  _ZN19QAbstractScrollAreaD2Ev@Base 5.0.2
@@ -3897,20 +3897,20 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN26QAbstractGraphicsShapeItemD0Ev@Base 5.0.2
  _ZN26QAbstractGraphicsShapeItemD1Ev@Base 5.0.2
  _ZN26QAbstractGraphicsShapeItemD2Ev@Base 5.0.2
- _ZN26QAbstractScrollAreaPrivate14layoutChildrenEv@Base 5.0.2
- _ZN26QAbstractScrollAreaPrivate15flashScrollBarsEv@Base 5.0.2
- _ZN26QAbstractScrollAreaPrivate16replaceScrollBarEP10QScrollBarN2Qt11OrientationE@Base 5.0.2
- _ZN26QAbstractScrollAreaPrivate19canStartScrollingAtERK6QPoint@Base 5.0.2
- _ZN26QAbstractScrollAreaPrivate21setScrollBarTransientEP10QScrollBarb@Base 5.0.2
- _ZN26QAbstractScrollAreaPrivate23_q_showOrHideScrollBarsEv@Base 5.0.2
- _ZN26QAbstractScrollAreaPrivate4initEv@Base 5.0.2
- _ZN26QAbstractScrollAreaPrivate9_q_hslideEi@Base 5.0.2
- _ZN26QAbstractScrollAreaPrivate9_q_vslideEi@Base 5.0.2
- _ZN26QAbstractScrollAreaPrivateC1Ev@Base 5.0.2
- _ZN26QAbstractScrollAreaPrivateC2Ev@Base 5.0.2
- (optional=gccinternal)_ZN26QAbstractScrollAreaPrivateD0Ev@Base 5.0.2
- (optional=gccinternal)_ZN26QAbstractScrollAreaPrivateD1Ev@Base 5.0.2
- (optional=gccinternal)_ZN26QAbstractScrollAreaPrivateD2Ev@Base 5.0.2
+ _ZN26QAbstractScrollAreaPrivate14layoutChildrenEv@Base 5.0.2 1
+ _ZN26QAbstractScrollAreaPrivate15flashScrollBarsEv@Base 5.0.2 1
+ _ZN26QAbstractScrollAreaPrivate16replaceScrollBarEP10QScrollBarN2Qt11OrientationE@Base 5.0.2 1
+ _ZN26QAbstractScrollAreaPrivate19canStartScrollingAtERK6QPoint@Base 5.0.2 1
+ _ZN26QAbstractScrollAreaPrivate21setScrollBarTransientEP10QScrollBarb@Base 5.0.2 1
+ _ZN26QAbstractScrollAreaPrivate23_q_showOrHideScrollBarsEv@Base 5.0.2 1
+ _ZN26QAbstractScrollAreaPrivate4initEv@Base 5.0.2 1
+ _ZN26QAbstractScrollAreaPrivate9_q_hslideEi@Base 5.0.2 1
+ _ZN26QAbstractScrollAreaPrivate9_q_vslideEi@Base 5.0.2 1
+ _ZN26QAbstractScrollAreaPrivateC1Ev@Base 5.0.2 1
+ _ZN26QAbstractScrollAreaPrivateC2Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN26QAbstractScrollAreaPrivateD0Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN26QAbstractScrollAreaPrivateD1Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN26QAbstractScrollAreaPrivateD2Ev@Base 5.0.2 1
  (optional=gccinternal)_ZN26QAccessibleTextCursorEventD0Ev@Base 5.0.2
  (optional=gccinternal)_ZN26QAccessibleTextCursorEventD1Ev@Base 5.0.2
  (optional=gccinternal)_ZN26QAccessibleTextCursorEventD2Ev@Base 5.0.2
@@ -6917,7 +6917,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK26QAbstractGraphicsShapeItem12isObscuredByEPK13QGraphicsItem@Base 5.0.2
  _ZNK26QAbstractGraphicsShapeItem3penEv@Base 5.0.2
  _ZNK26QAbstractGraphicsShapeItem5brushEv@Base 5.0.2
- _ZNK26QAbstractScrollAreaPrivate14contentsOffsetEv@Base 5.0.2
+ _ZNK26QAbstractScrollAreaPrivate14contentsOffsetEv@Base 5.0.2 1
  _ZNK27QGraphicsSceneDragDropEvent10dropActionEv@Base 5.0.2
  _ZNK27QGraphicsSceneDragDropEvent14proposedActionEv@Base 5.0.2
  _ZNK27QGraphicsSceneDragDropEvent15possibleActionsEv@Base 5.0.2
@@ -7675,7 +7675,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZTI25QGraphicsSceneResizeEvent@Base 5.0.2
  _ZTI25QOpenGLPaintDevicePrivate@Base 5.4.0 1
  _ZTI26QAbstractGraphicsShapeItem@Base 5.0.2
- _ZTI26QAbstractScrollAreaPrivate@Base 5.0.2
+ _ZTI26QAbstractScrollAreaPrivate@Base 5.0.2 1
  _ZTI26QAccessibleTextCursorEvent@Base 5.0.2
  _ZTI26QAccessibleTextInsertEvent@Base 5.0.2
  _ZTI26QAccessibleTextRemoveEvent@Base 5.0.2
@@ -7882,7 +7882,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZTS25QGraphicsSceneResizeEvent@Base 5.0.2
  _ZTS25QOpenGLPaintDevicePrivate@Base 5.4.0 1
  _ZTS26QAbstractGraphicsShapeItem@Base 5.0.2
- _ZTS26QAbstractScrollAreaPrivate@Base 5.0.2
+ _ZTS26QAbstractScrollAreaPrivate@Base 5.0.2 1
  _ZTS26QAccessibleTextCursorEvent@Base 5.0.2
  _ZTS26QAccessibleTextInsertEvent@Base 5.0.2
  _ZTS26QAccessibleTextRemoveEvent@Base 5.0.2
@@ -8089,7 +8089,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZTV25QGraphicsSceneResizeEvent@Base 5.0.2
  _ZTV25QOpenGLPaintDevicePrivate@Base 5.4.0 1
  _ZTV26QAbstractGraphicsShapeItem@Base 5.0.2
- _ZTV26QAbstractScrollAreaPrivate@Base 5.0.2
+ _ZTV26QAbstractScrollAreaPrivate@Base 5.0.2 1
  _ZTV26QAccessibleTextCursorEvent@Base 5.0.2
  _ZTV26QAccessibleTextInsertEvent@Base 5.0.2
  _ZTV26QAccessibleTextRemoveEvent@Base 5.0.2

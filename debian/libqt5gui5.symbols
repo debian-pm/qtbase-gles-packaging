@@ -3491,13 +3491,13 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN28QPlatformMessageDialogHelper11qt_metacastEPKc@Base 5.2.0~alpha1 1
  _ZN28QPlatformMessageDialogHelper16staticMetaObjectE@Base 5.2.0~alpha1 1
  _ZN28QPlatformMessageDialogHelper7clickedEN21QPlatformDialogHelper14StandardButtonENS0_10ButtonRoleE@Base 5.3.0 1
- _ZN28QPlatformSharedGraphicsCache11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
- _ZN28QPlatformSharedGraphicsCache11qt_metacastEPKc@Base 5.0.2
- _ZN28QPlatformSharedGraphicsCache12itemsMissingERK10QByteArrayRK7QVectorIjE@Base 5.0.2
- _ZN28QPlatformSharedGraphicsCache12itemsUpdatedERK10QByteArrayPvRK7QVectorIjERKS4_I6QPointE@Base 5.0.2
- _ZN28QPlatformSharedGraphicsCache14itemsAvailableERK10QByteArrayPvRK7QVectorIjERKS4_I6QPointE@Base 5.0.2
- _ZN28QPlatformSharedGraphicsCache16itemsInvalidatedERK10QByteArrayRK7QVectorIjE@Base 5.0.2
- _ZN28QPlatformSharedGraphicsCache16staticMetaObjectE@Base 5.0.2
+ _ZN28QPlatformSharedGraphicsCache11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
+ _ZN28QPlatformSharedGraphicsCache11qt_metacastEPKc@Base 5.0.2 1
+ _ZN28QPlatformSharedGraphicsCache12itemsMissingERK10QByteArrayRK7QVectorIjE@Base 5.0.2 1
+ _ZN28QPlatformSharedGraphicsCache12itemsUpdatedERK10QByteArrayPvRK7QVectorIjERKS4_I6QPointE@Base 5.0.2 1
+ _ZN28QPlatformSharedGraphicsCache14itemsAvailableERK10QByteArrayPvRK7QVectorIjERKS4_I6QPointE@Base 5.0.2 1
+ _ZN28QPlatformSharedGraphicsCache16itemsInvalidatedERK10QByteArrayRK7QVectorIjE@Base 5.0.2 1
+ _ZN28QPlatformSharedGraphicsCache16staticMetaObjectE@Base 5.0.2 1
  _ZN29QScreenOrientationChangeEventC1EP7QScreenN2Qt17ScreenOrientationE@Base 5.0.2
  _ZN29QScreenOrientationChangeEventC2EP7QScreenN2Qt17ScreenOrientationE@Base 5.0.2
  _ZN29QScreenOrientationChangeEventD0Ev@Base 5.0.2
@@ -5875,7 +5875,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK28QApplicationStateChangeEvent16applicationStateEv@Base 5.1.0
  _ZNK28QPlatformMessageDialogHelper10metaObjectEv@Base 5.2.0~alpha1 1
  _ZNK28QPlatformMessageDialogHelper7optionsEv@Base 5.2.0~alpha1 1
- _ZNK28QPlatformSharedGraphicsCache10metaObjectEv@Base 5.0.2
+ _ZNK28QPlatformSharedGraphicsCache10metaObjectEv@Base 5.0.2 1
  _ZNK29QScreenOrientationChangeEvent11orientationEv@Base 5.0.2
  _ZNK29QScreenOrientationChangeEvent6screenEv@Base 5.0.2
  _ZNK30QOpenGLFramebufferObjectFormat10attachmentEv@Base 5.0.2
@@ -6665,7 +6665,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTI27QRegularExpressionValidator@Base 5.1.0
  _ZTI28QApplicationStateChangeEvent@Base 5.1.0
  _ZTI28QPlatformMessageDialogHelper@Base 5.2.0~alpha1 1
- _ZTI28QPlatformSharedGraphicsCache@Base 5.0.2
+ _ZTI28QPlatformSharedGraphicsCache@Base 5.0.2 1
  _ZTI29QScreenOrientationChangeEvent@Base 5.0.2
  (arch=!armel !armhf)_ZTI34QOpenGLFunctions_3_2_Compatibility@Base 5.1.0
  (arch=!armel !armhf)_ZTI34QOpenGLFunctions_3_3_Compatibility@Base 5.1.0
@@ -6903,7 +6903,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTS27QRegularExpressionValidator@Base 5.1.0
  _ZTS28QApplicationStateChangeEvent@Base 5.1.0
  _ZTS28QPlatformMessageDialogHelper@Base 5.2.0~alpha1 1
- _ZTS28QPlatformSharedGraphicsCache@Base 5.0.2
+ _ZTS28QPlatformSharedGraphicsCache@Base 5.0.2 1
  _ZTS29QScreenOrientationChangeEvent@Base 5.0.2
  (arch=!armel !armhf)_ZTS34QOpenGLFunctions_3_2_Compatibility@Base 5.1.0
  (arch=!armel !armhf)_ZTS34QOpenGLFunctions_3_3_Compatibility@Base 5.1.0
@@ -7139,7 +7139,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTV27QRegularExpressionValidator@Base 5.1.0
  _ZTV28QApplicationStateChangeEvent@Base 5.1.0
  _ZTV28QPlatformMessageDialogHelper@Base 5.2.0~alpha1 1
- _ZTV28QPlatformSharedGraphicsCache@Base 5.0.2
+ _ZTV28QPlatformSharedGraphicsCache@Base 5.0.2 1
  _ZTV29QScreenOrientationChangeEvent@Base 5.0.2
  (arch=!armel !armhf)_ZTV34QOpenGLFunctions_3_2_Compatibility@Base 5.1.0
  (arch=!armel !armhf)_ZTV34QOpenGLFunctions_3_3_Compatibility@Base 5.1.0
