@@ -1,6 +1,5 @@
-qtbase-opensource-src (5.4.1+dfsg-2) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.4.1+dfsg-2) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * mark_private_symbols.sh: Strip trailing colon from symbols names.
   * Symbols files:
     - Update from buildds’ logs.
@@ -10,7 +9,7 @@ qtbase-opensource-src (5.4.1+dfsg-2) UNRELEASED; urgency=medium
     Just use dh_makeshlibs -V instead.
   * Fix CVE-2015-0295 vulnerability in BMP parser (closes: #779580).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 25 Feb 2015 10:39:31 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Tue, 03 Mar 2015 10:29:07 +0300
 
 qtbase-opensource-src (5.4.1+dfsg-1) experimental; urgency=medium
 
