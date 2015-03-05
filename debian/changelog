@@ -1,5 +1,8 @@
 qtbase-opensource-src (5.4.1+dfsg-3) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Update debian/README.source for new upstream code location
+    and branching schemes.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 05 Mar 2015 10:26:29 +0300
 
