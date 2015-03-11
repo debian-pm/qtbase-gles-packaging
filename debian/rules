@@ -82,11 +82,16 @@ else
 	$(error Unknown qmake mkspec for $(DEB_HOST_ARCH_OS))
 endif
 
+ifneq (,$(filter parallel=%,$(DEB_BUILD_OPTIONS)))
+	NUMJOBS = $(patsubst parallel=%,%,$(filter parallel=%,$(DEB_BUILD_OPTIONS)))
+endif
+
 %:
 	dh $@ --parallel --with pkgkde_symbolshelper
 
 override_dh_auto_configure:
-	./configure -confirm-license \
+	MAKEFLAGS="-j$(NUMJOBS)" ./configure \
+	            -confirm-license \
 	            -prefix "/usr" \
 	            -bindir "/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/bin" \
 	            -libdir "/usr/lib/$(DEB_HOST_MULTIARCH)" \
