@@ -1,4 +1,4 @@
-qtbase-opensource-src (5.4.1+dfsg-3ubuntu1) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.4.1+dfsg-3) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * Update debian/README.source for new upstream code location
