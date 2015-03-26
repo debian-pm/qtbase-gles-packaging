@@ -1,4 +1,4 @@
-qtbase-opensource-src (5.4.1+dfsg-3) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.4.1+dfsg-3ubuntu1) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * Update debian/README.source for new upstream code location
@@ -9,7 +9,10 @@ qtbase-opensource-src (5.4.1+dfsg-3) UNRELEASED; urgency=medium
   * Add libpcre3-dev as build dependency in order to use the new pcre16 library
     instead of the embedded one.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 05 Mar 2015 10:26:29 +0300
+  [ Rohan Garg ]
+  * Remove cve-2015-0295.diff, not required for git build
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 26 Mar 2015 14:57:24 +0100
 
 qtbase-opensource-src (5.4.1+dfsg-2) experimental; urgency=medium
 
