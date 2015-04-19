@@ -205,7 +205,8 @@ override_dh_auto_clean:
 	| cut -d ':' -f 1 | xargs rm -f
 
 	# Generated on build
-	rm -f debian/stamp-makefile-build-tools
+	rm -vf debian/stamp-makefile-build-tools
+	rm -vf debian/qtbase5-doc-html.links
 
 	# more leftovers
 	rm -f .device.vars .qmake.vars
@@ -303,6 +304,13 @@ override_dh_install:
 	# Call dh_install normally. It will process .install, .install.ARCH
 	# and/or .install.OS files.
 	dh_install --fail-missing
+
+	# Expose documentation in /usr/share/doc/<package>/html/
+	rm -vf debian/qtbase5-doc-html.links
+	for submodule in `find debian/qtbase5-doc-html/usr/share/qt5/doc/ -mindepth 1 -maxdepth 1 -type d -exec basename {} \;`; \
+	do \
+	echo usr/share/qt5/doc/$$submodule usr/share/qtbase5-doc-html/html/$$submodule >> debian/qtbase5-doc-html.links; \
+	done
 
 override_dh_installdocs:
 	dh_installdocs --all LGPL_EXCEPTION.txt
