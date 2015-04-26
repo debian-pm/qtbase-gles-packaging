@@ -50,10 +50,23 @@ then
 	done
 fi
 
+# Unmark private symbols from the copies. This will
+# help us find symbols that might have become public.
+for symbols_file in `ls debian/*.symbols`
+do
+	if [ ! -n "${WRITERESULTS}" ]
+	then
+		sed -i 's/ 1$//g' $symbols_file.mps
+	else
+		sed -i 's/ 1$//g' $symbols_file
+	fi
+done
+
 grep -rh class ${PRIVATE_HEADERS} |
 	grep EXPORT | 
 	while read class export classname rest 
 	do
+		classname=$(echo $classname | sed 's/://')
 		echo ${#classname}${classname} 
 	done | 
 	while read privateclass 

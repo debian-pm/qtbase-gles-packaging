@@ -10,6 +10,9 @@ qtbase-opensource-src (5.3.2+dfsg-5) UNRELEASED; urgency=medium
     - CVE-2015-0295, CVE-2015-1858, CVE-2015-1859, CVE-2015-1860.
     - Closes: #779580.
   * Fix HTTP upload corruptions when server closes connection.
+  * Use the latest version of debian/mark_private_symbols.sh:
+    - Strip trailing colon from symbols names.
+    - Unmark private symbols before processing them.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 26 Apr 2015 21:56:26 +0300
 
