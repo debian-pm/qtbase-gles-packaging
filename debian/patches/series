@@ -4,6 +4,7 @@ mips_more_pre-mips32.diff
 gnukfreebsd.diff
 fix_bug_in_internal_comparison_operator.patch
 fix_imagehandlers_cves.diff
+fix_upload_corruptions.diff
 
 # Patches that need to be upstreamed
 fix_sparc_atomics.patch
