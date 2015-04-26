@@ -1,3 +1,8 @@
+qtbase-opensource-src (5.3.2+dfsg-5) UNRELEASED; urgency=medium
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 26 Apr 2015 21:56:26 +0300
+
 qtbase-opensource-src (5.3.2+dfsg-4) unstable; urgency=medium
 
   * Move QPlatformSupport stuff from qtbase5-dev to qtbase5-private-dev, as it
