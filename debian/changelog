@@ -1,4 +1,4 @@
-qtbase-opensource-src (5.3.2+dfsg-5) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.3.2+dfsg-5) unstable; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Remove libopenvg1-mesa-dev as a build dependency because mesa does not
@@ -18,7 +18,7 @@ qtbase-opensource-src (5.3.2+dfsg-5) UNRELEASED; urgency=medium
       Build logs for these architectures are no longer available.
     - Update for the mark_private_symbols.sh change.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 26 Apr 2015 21:56:26 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Mon, 27 Apr 2015 11:54:20 +0300
 
 qtbase-opensource-src (5.3.2+dfsg-4) unstable; urgency=medium
 
