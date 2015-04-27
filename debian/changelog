@@ -16,6 +16,7 @@ qtbase-opensource-src (5.3.2+dfsg-5) UNRELEASED; urgency=medium
   * Symbols files:
     - Remove references to ia64 and s390 from the symbols files.
       Build logs for these architectures are no longer available.
+    - Update for the mark_private_symbols.sh change.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 26 Apr 2015 21:56:26 +0300
 

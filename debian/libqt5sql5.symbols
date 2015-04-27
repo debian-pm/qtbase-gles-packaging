@@ -173,26 +173,26 @@ libQt5Sql.so.5 libqt5sql5 #MINVER#
  _ZN14QSqlTableModelD0Ev@Base 5.0.2
  _ZN14QSqlTableModelD1Ev@Base 5.0.2
  _ZN14QSqlTableModelD2Ev@Base 5.0.2
- _ZN16QSqlCachedResult10fetchFirstEv@Base 5.0.2
- _ZN16QSqlCachedResult11clearValuesEv@Base 5.0.2
- _ZN16QSqlCachedResult12virtual_hookEiPv@Base 5.0.2
- _ZN16QSqlCachedResult13fetchPreviousEv@Base 5.0.2
- _ZN16QSqlCachedResult19detachFromResultSetEv@Base 5.0.2
- _ZN16QSqlCachedResult27setNumericalPrecisionPolicyEN4QSql24NumericalPrecisionPolicyE@Base 5.0.2
- _ZN16QSqlCachedResult4dataEi@Base 5.0.2
- _ZN16QSqlCachedResult4initEi@Base 5.0.2
- _ZN16QSqlCachedResult5cacheEv@Base 5.0.2
- _ZN16QSqlCachedResult5fetchEi@Base 5.0.2
- _ZN16QSqlCachedResult6isNullEi@Base 5.0.2
- _ZN16QSqlCachedResult7cleanupEv@Base 5.0.2
- _ZN16QSqlCachedResult9cacheNextEv@Base 5.0.2
- _ZN16QSqlCachedResult9fetchLastEv@Base 5.0.2
- _ZN16QSqlCachedResult9fetchNextEv@Base 5.0.2
- _ZN16QSqlCachedResultC1EPK10QSqlDriver@Base 5.0.2
- _ZN16QSqlCachedResultC2EPK10QSqlDriver@Base 5.0.2
- _ZN16QSqlCachedResultD0Ev@Base 5.0.2
- _ZN16QSqlCachedResultD1Ev@Base 5.0.2
- _ZN16QSqlCachedResultD2Ev@Base 5.0.2
+ _ZN16QSqlCachedResult10fetchFirstEv@Base 5.0.2 1
+ _ZN16QSqlCachedResult11clearValuesEv@Base 5.0.2 1
+ _ZN16QSqlCachedResult12virtual_hookEiPv@Base 5.0.2 1
+ _ZN16QSqlCachedResult13fetchPreviousEv@Base 5.0.2 1
+ _ZN16QSqlCachedResult19detachFromResultSetEv@Base 5.0.2 1
+ _ZN16QSqlCachedResult27setNumericalPrecisionPolicyEN4QSql24NumericalPrecisionPolicyE@Base 5.0.2 1
+ _ZN16QSqlCachedResult4dataEi@Base 5.0.2 1
+ _ZN16QSqlCachedResult4initEi@Base 5.0.2 1
+ _ZN16QSqlCachedResult5cacheEv@Base 5.0.2 1
+ _ZN16QSqlCachedResult5fetchEi@Base 5.0.2 1
+ _ZN16QSqlCachedResult6isNullEi@Base 5.0.2 1
+ _ZN16QSqlCachedResult7cleanupEv@Base 5.0.2 1
+ _ZN16QSqlCachedResult9cacheNextEv@Base 5.0.2 1
+ _ZN16QSqlCachedResult9fetchLastEv@Base 5.0.2 1
+ _ZN16QSqlCachedResult9fetchNextEv@Base 5.0.2 1
+ _ZN16QSqlCachedResultC1EPK10QSqlDriver@Base 5.0.2 1
+ _ZN16QSqlCachedResultC2EPK10QSqlDriver@Base 5.0.2 1
+ _ZN16QSqlCachedResultD0Ev@Base 5.0.2 1
+ _ZN16QSqlCachedResultD1Ev@Base 5.0.2 1
+ _ZN16QSqlCachedResultD2Ev@Base 5.0.2 1
  _ZN16QSqlDriverPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN16QSqlDriverPlugin11qt_metacastEPKc@Base 5.0.2
  _ZN16QSqlDriverPlugin16staticMetaObjectE@Base 5.0.2
@@ -396,7 +396,7 @@ libQt5Sql.so.5 libqt5sql5 #MINVER#
  _ZNK14QSqlTableModel8databaseEv@Base 5.0.2
  _ZNK14QSqlTableModel8rowCountERK11QModelIndex@Base 5.0.2
  _ZNK14QSqlTableModel9tableNameEv@Base 5.0.2
- _ZNK16QSqlCachedResult8colCountEv@Base 5.0.2
+ _ZNK16QSqlCachedResult8colCountEv@Base 5.0.2 1
  _ZNK16QSqlDriverPlugin10metaObjectEv@Base 5.0.2
  _ZNK17QSqlResultPrivate11fieldSerialEi@Base 5.1.0 1
  _ZNK17QSqlResultPrivate24positionalToNamedBindingERK7QString@Base 5.1.0 1
@@ -457,7 +457,7 @@ libQt5Sql.so.5 libqt5sql5 #MINVER#
  _ZTI10QSqlResult@Base 5.0.2
  _ZTI14QSqlQueryModel@Base 5.0.2
  _ZTI14QSqlTableModel@Base 5.0.2
- _ZTI16QSqlCachedResult@Base 5.0.2
+ _ZTI16QSqlCachedResult@Base 5.0.2 1
  _ZTI16QSqlDriverPlugin@Base 5.0.2
  _ZTI17QSqlResultPrivate@Base 5.1.0 1
  _ZTI24QSqlRelationalTableModel@Base 5.0.2
@@ -466,7 +466,7 @@ libQt5Sql.so.5 libqt5sql5 #MINVER#
  _ZTS10QSqlResult@Base 5.0.2
  _ZTS14QSqlQueryModel@Base 5.0.2
  _ZTS14QSqlTableModel@Base 5.0.2
- _ZTS16QSqlCachedResult@Base 5.0.2
+ _ZTS16QSqlCachedResult@Base 5.0.2 1
  _ZTS16QSqlDriverPlugin@Base 5.0.2
  _ZTS17QSqlResultPrivate@Base 5.1.0 1
  _ZTS24QSqlRelationalTableModel@Base 5.0.2
@@ -475,7 +475,7 @@ libQt5Sql.so.5 libqt5sql5 #MINVER#
  _ZTV10QSqlResult@Base 5.0.2
  _ZTV14QSqlQueryModel@Base 5.0.2
  _ZTV14QSqlTableModel@Base 5.0.2
- _ZTV16QSqlCachedResult@Base 5.0.2
+ _ZTV16QSqlCachedResult@Base 5.0.2 1
  _ZTV16QSqlDriverPlugin@Base 5.0.2
  _ZTV17QSqlResultPrivate@Base 5.1.0 1
  _ZTV24QSqlRelationalTableModel@Base 5.0.2

@@ -3286,12 +3286,12 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN25QPlatformOffscreenSurfaceD0Ev@Base 5.1.0
  _ZN25QPlatformOffscreenSurfaceD1Ev@Base 5.1.0
  _ZN25QPlatformOffscreenSurfaceD2Ev@Base 5.1.0
- _ZN26QAccessibleActionInterface11pressActionEv@Base 5.0.2 1
- _ZN26QAccessibleActionInterface12toggleActionEv@Base 5.0.2 1
- _ZN26QAccessibleActionInterface14decreaseActionEv@Base 5.0.2 1
- _ZN26QAccessibleActionInterface14increaseActionEv@Base 5.0.2 1
- _ZN26QAccessibleActionInterface14setFocusActionEv@Base 5.0.2 1
- _ZN26QAccessibleActionInterface14showMenuActionEv@Base 5.0.2 1
+ _ZN26QAccessibleActionInterface11pressActionEv@Base 5.0.2
+ _ZN26QAccessibleActionInterface12toggleActionEv@Base 5.0.2
+ _ZN26QAccessibleActionInterface14decreaseActionEv@Base 5.0.2
+ _ZN26QAccessibleActionInterface14increaseActionEv@Base 5.0.2
+ _ZN26QAccessibleActionInterface14setFocusActionEv@Base 5.0.2
+ _ZN26QAccessibleActionInterface14showMenuActionEv@Base 5.0.2
  _ZN26QOpenGLContextGroupPrivate10addContextEP14QOpenGLContext@Base 5.0.2 1
  _ZN26QOpenGLContextGroupPrivate13removeContextEP14QOpenGLContext@Base 5.0.2 1
  _ZN26QOpenGLContextGroupPrivate22deletePendingResourcesEP14QOpenGLContext@Base 5.0.2 1
@@ -3434,13 +3434,13 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN28QPlatformMessageDialogHelper11qt_metacastEPKc@Base 5.2.0~alpha1 1
  _ZN28QPlatformMessageDialogHelper16staticMetaObjectE@Base 5.2.0~alpha1 1
  _ZN28QPlatformMessageDialogHelper7clickedEN21QPlatformDialogHelper14StandardButtonENS0_10ButtonRoleE@Base 5.3.0 1
- _ZN28QPlatformSharedGraphicsCache11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
- _ZN28QPlatformSharedGraphicsCache11qt_metacastEPKc@Base 5.0.2
- _ZN28QPlatformSharedGraphicsCache12itemsMissingERK10QByteArrayRK7QVectorIjE@Base 5.0.2
- _ZN28QPlatformSharedGraphicsCache12itemsUpdatedERK10QByteArrayPvRK7QVectorIjERKS4_I6QPointE@Base 5.0.2
- _ZN28QPlatformSharedGraphicsCache14itemsAvailableERK10QByteArrayPvRK7QVectorIjERKS4_I6QPointE@Base 5.0.2
- _ZN28QPlatformSharedGraphicsCache16itemsInvalidatedERK10QByteArrayRK7QVectorIjE@Base 5.0.2
- _ZN28QPlatformSharedGraphicsCache16staticMetaObjectE@Base 5.0.2
+ _ZN28QPlatformSharedGraphicsCache11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
+ _ZN28QPlatformSharedGraphicsCache11qt_metacastEPKc@Base 5.0.2 1
+ _ZN28QPlatformSharedGraphicsCache12itemsMissingERK10QByteArrayRK7QVectorIjE@Base 5.0.2 1
+ _ZN28QPlatformSharedGraphicsCache12itemsUpdatedERK10QByteArrayPvRK7QVectorIjERKS4_I6QPointE@Base 5.0.2 1
+ _ZN28QPlatformSharedGraphicsCache14itemsAvailableERK10QByteArrayPvRK7QVectorIjERKS4_I6QPointE@Base 5.0.2 1
+ _ZN28QPlatformSharedGraphicsCache16itemsInvalidatedERK10QByteArrayRK7QVectorIjE@Base 5.0.2 1
+ _ZN28QPlatformSharedGraphicsCache16staticMetaObjectE@Base 5.0.2 1
  _ZN29QScreenOrientationChangeEventC1EP7QScreenN2Qt17ScreenOrientationE@Base 5.0.2
  _ZN29QScreenOrientationChangeEventC2EP7QScreenN2Qt17ScreenOrientationE@Base 5.0.2
  _ZN29QScreenOrientationChangeEventD0Ev@Base 5.0.2
@@ -5732,9 +5732,9 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK23QPlatformSystemTrayIcon10metaObjectEv@Base 5.0.2 1
  _ZNK23QWindowStateChangeEvent10isOverrideEv@Base 5.0.2
  _ZNK24QAbstractLayoutStyleInfo10hasChangedEv@Base 5.3.0 1
- _ZNK24QAccessibleTextInterface12textAtOffsetEiN11QAccessible16TextBoundaryTypeEPiS2_@Base 5.1.0 1
- _ZNK24QAccessibleTextInterface15textAfterOffsetEiN11QAccessible16TextBoundaryTypeEPiS2_@Base 5.1.0 1
- _ZNK24QAccessibleTextInterface16textBeforeOffsetEiN11QAccessible16TextBoundaryTypeEPiS2_@Base 5.1.0 1
+ _ZNK24QAccessibleTextInterface12textAtOffsetEiN11QAccessible16TextBoundaryTypeEPiS2_@Base 5.1.0
+ _ZNK24QAccessibleTextInterface15textAfterOffsetEiN11QAccessible16TextBoundaryTypeEPiS2_@Base 5.1.0
+ _ZNK24QAccessibleTextInterface16textBeforeOffsetEiN11QAccessible16TextBoundaryTypeEPiS2_@Base 5.1.0
  _ZNK24QBlittablePlatformPixmap11paintEngineEv@Base 5.0.2 1
  _ZNK24QBlittablePlatformPixmap15hasAlphaChannelEv@Base 5.0.2 1
  _ZNK24QBlittablePlatformPixmap16devicePixelRatioEv@Base 5.0.2 1
@@ -5770,8 +5770,8 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK25QPlatformOffscreenSurface6formatEv@Base 5.1.0
  _ZNK25QPlatformOffscreenSurface6screenEv@Base 5.1.0
  _ZNK25QPlatformOffscreenSurface7isValidEv@Base 5.1.0
- _ZNK26QAccessibleActionInterface19localizedActionNameERK7QString@Base 5.0.2 1
- _ZNK26QAccessibleActionInterface26localizedActionDescriptionERK7QString@Base 5.0.2 1
+ _ZNK26QAccessibleActionInterface19localizedActionNameERK7QString@Base 5.0.2
+ _ZNK26QAccessibleActionInterface26localizedActionDescriptionERK7QString@Base 5.0.2
  _ZNK26QOpenGLEngineShaderManager10metaObjectEv@Base 5.0.2 1
  _ZNK26QPlatformColorDialogHelper10metaObjectEv@Base 5.0.2 1
  _ZNK26QPlatformColorDialogHelper7optionsEv@Base 5.0.2 1
@@ -5797,7 +5797,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK28QApplicationStateChangeEvent16applicationStateEv@Base 5.1.0
  _ZNK28QPlatformMessageDialogHelper10metaObjectEv@Base 5.2.0~alpha1 1
  _ZNK28QPlatformMessageDialogHelper7optionsEv@Base 5.2.0~alpha1 1
- _ZNK28QPlatformSharedGraphicsCache10metaObjectEv@Base 5.0.2
+ _ZNK28QPlatformSharedGraphicsCache10metaObjectEv@Base 5.0.2 1
  _ZNK29QScreenOrientationChangeEvent11orientationEv@Base 5.0.2
  _ZNK29QScreenOrientationChangeEvent6screenEv@Base 5.0.2
  _ZNK30QOpenGLFramebufferObjectFormat10attachmentEv@Base 5.0.2
@@ -6552,7 +6552,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTI23QPlatformSessionManager@Base 5.2.0~alpha1 1
  _ZTI23QPlatformSystemTrayIcon@Base 5.0.2 1
  _ZTI23QWindowStateChangeEvent@Base 5.0.2
- _ZTI24QAccessibleTextInterface@Base 5.0.2 1
+ _ZTI24QAccessibleTextInterface@Base 5.0.2
  _ZTI24QBlittablePlatformPixmap@Base 5.0.2 1
  _ZTI24QOffscreenSurfacePrivate@Base 5.1.0
  _ZTI24QOpenGLCustomShaderStage@Base 5.0.2 1
@@ -6571,7 +6571,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTI25QPlatformFileDialogHelper@Base 5.0.2 1
  _ZTI25QPlatformFontDialogHelper@Base 5.0.2 1
  _ZTI25QPlatformOffscreenSurface@Base 5.1.0
- _ZTI26QAccessibleActionInterface@Base 5.0.2 1
+ _ZTI26QAccessibleActionInterface@Base 5.0.2
  _ZTI26QOpenGLContextGroupPrivate@Base 5.0.2 1
  _ZTI26QOpenGLEngineShaderManager@Base 5.0.2 1
  _ZTI26QOpenGLSharedResourceGuard@Base 5.0.2 1
@@ -6584,7 +6584,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTI27QRegularExpressionValidator@Base 5.1.0
  _ZTI28QApplicationStateChangeEvent@Base 5.1.0
  _ZTI28QPlatformMessageDialogHelper@Base 5.2.0~alpha1 1
- _ZTI28QPlatformSharedGraphicsCache@Base 5.0.2
+ _ZTI28QPlatformSharedGraphicsCache@Base 5.0.2 1
  _ZTI29QScreenOrientationChangeEvent@Base 5.0.2
  (arch=!armel !armhf)_ZTI34QOpenGLFunctions_3_2_Compatibility@Base 5.1.0
  (arch=!armel !armhf)_ZTI34QOpenGLFunctions_3_3_Compatibility@Base 5.1.0
@@ -6789,7 +6789,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTS23QPlatformSessionManager@Base 5.2.0~alpha1 1
  _ZTS23QPlatformSystemTrayIcon@Base 5.0.2 1
  _ZTS23QWindowStateChangeEvent@Base 5.0.2
- _ZTS24QAccessibleTextInterface@Base 5.0.2 1
+ _ZTS24QAccessibleTextInterface@Base 5.0.2
  _ZTS24QBlittablePlatformPixmap@Base 5.0.2 1
  _ZTS24QOffscreenSurfacePrivate@Base 5.1.0
  _ZTS24QOpenGLCustomShaderStage@Base 5.0.2 1
@@ -6808,7 +6808,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTS25QPlatformFileDialogHelper@Base 5.0.2 1
  _ZTS25QPlatformFontDialogHelper@Base 5.0.2 1
  _ZTS25QPlatformOffscreenSurface@Base 5.1.0
- _ZTS26QAccessibleActionInterface@Base 5.0.2 1
+ _ZTS26QAccessibleActionInterface@Base 5.0.2
  _ZTS26QOpenGLContextGroupPrivate@Base 5.0.2 1
  _ZTS26QOpenGLEngineShaderManager@Base 5.0.2 1
  _ZTS26QOpenGLSharedResourceGuard@Base 5.0.2 1
@@ -6821,7 +6821,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTS27QRegularExpressionValidator@Base 5.1.0
  _ZTS28QApplicationStateChangeEvent@Base 5.1.0
  _ZTS28QPlatformMessageDialogHelper@Base 5.2.0~alpha1 1
- _ZTS28QPlatformSharedGraphicsCache@Base 5.0.2
+ _ZTS28QPlatformSharedGraphicsCache@Base 5.0.2 1
  _ZTS29QScreenOrientationChangeEvent@Base 5.0.2
  (arch=!armel !armhf)_ZTS34QOpenGLFunctions_3_2_Compatibility@Base 5.1.0
  (arch=!armel !armhf)_ZTS34QOpenGLFunctions_3_3_Compatibility@Base 5.1.0
@@ -7024,7 +7024,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTV23QPlatformSessionManager@Base 5.2.0~alpha1 1
  _ZTV23QPlatformSystemTrayIcon@Base 5.0.2 1
  _ZTV23QWindowStateChangeEvent@Base 5.0.2
- _ZTV24QAccessibleTextInterface@Base 5.0.2 1
+ _ZTV24QAccessibleTextInterface@Base 5.0.2
  _ZTV24QBlittablePlatformPixmap@Base 5.0.2 1
  _ZTV24QOffscreenSurfacePrivate@Base 5.1.0
  _ZTV24QOpenGLCustomShaderStage@Base 5.0.2 1
@@ -7043,7 +7043,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTV25QPlatformFileDialogHelper@Base 5.0.2 1
  _ZTV25QPlatformFontDialogHelper@Base 5.0.2 1
  _ZTV25QPlatformOffscreenSurface@Base 5.1.0
- _ZTV26QAccessibleActionInterface@Base 5.0.2 1
+ _ZTV26QAccessibleActionInterface@Base 5.0.2
  _ZTV26QOpenGLContextGroupPrivate@Base 5.0.2 1
  _ZTV26QOpenGLEngineShaderManager@Base 5.0.2 1
  _ZTV26QOpenGLSharedResourceGuard@Base 5.0.2 1
@@ -7056,7 +7056,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTV27QRegularExpressionValidator@Base 5.1.0
  _ZTV28QApplicationStateChangeEvent@Base 5.1.0
  _ZTV28QPlatformMessageDialogHelper@Base 5.2.0~alpha1 1
- _ZTV28QPlatformSharedGraphicsCache@Base 5.0.2
+ _ZTV28QPlatformSharedGraphicsCache@Base 5.0.2 1
  _ZTV29QScreenOrientationChangeEvent@Base 5.0.2
  (arch=!armel !armhf)_ZTV34QOpenGLFunctions_3_2_Compatibility@Base 5.1.0
  (arch=!armel !armhf)_ZTV34QOpenGLFunctions_3_3_Compatibility@Base 5.1.0
