@@ -9,6 +9,9 @@ qtbase-opensource-src (5.4.1+dfsg-3) UNRELEASED; urgency=medium
   * Add libpcre3-dev as build dependency in order to use the new pcre16 library
     instead of the embedded one.
   * Expose documentation in /usr/share/doc (Closes: #751084).
+  * Clear up the list in Uploaders removing people who hasn't commited to the
+    repo in more than a year. They can re add themselves whenever they want
+    (and we really hope to see you back really soon!).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 05 Mar 2015 10:26:29 +0300
 
