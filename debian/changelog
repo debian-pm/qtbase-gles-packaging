@@ -1,16 +1,16 @@
 qtbase-opensource-src (5.4.1+dfsg-3) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
-  * Update debian/README.source for new upstream code location
-    and branching schemes.
+  * Update debian/README.source for new upstream code location and branching
+    schemes.
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Enable parallel building while bootstraping qmake.
-  * Add libpcre3-dev as build dependency in order to use the new pcre16 library
+  * Add libpcre3-dev as build-dependency in order to use the new pcre16 library
     instead of the embedded one.
   * Expose documentation in /usr/share/doc (Closes: #751084).
-  * Clear up the list in Uploaders removing people who hasn't commited to the
-    repo in more than a year. They can re add themselves whenever they want
+  * Clean up the list in Uploaders, removing people who haven't committed to
+    the repo in more than a year. They can re-add themselves whenever they want
     (and we really hope to see you back really soon!).
   * Split the GTK2 platform theme plugin into a separate package
     (Closes: #781148). Thanks Riku Voipio for the patch.
