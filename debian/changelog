@@ -21,6 +21,10 @@ qtbase-opensource-src (5.4.1+dfsg-3) UNRELEASED; urgency=medium
     - xcb_delay_showing_tray_icon_window_until_it_is_embedded.patch
       (Closes: #775398)
     - qtsystemtrayicon_handle_submenus_correctly.patch
+  * Fix applications crashing when built with GCC5 by backporting upstream
+    patches (Closes: #783127):
+    - make_qglobal_h_complain_if_you_use_fpie.patch
+    - require_fpic_instead_of_fpie.patch
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 05 Mar 2015 10:26:29 +0300
 

@@ -5,6 +5,8 @@ gnukfreebsd.diff
 cve-2015-0295.diff
 qtsystemtrayicon_handle_submenus_correctly.patch
 xcb_delay_showing_tray_icon_window_until_it_is_embedded.patch
+require_fpic_instead_of_fpie.patch
+make_qglobal_h_complain_if_you_use_fpie.patch
 
 # Debian specific.
 revert_upstream_bsymbolic_change.patch
