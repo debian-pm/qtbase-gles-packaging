@@ -17,6 +17,10 @@ qtbase-opensource-src (5.4.1+dfsg-3) UNRELEASED; urgency=medium
   * Use pkgkde-mark-private-symbols instead of mark_private_symbols.sh.
     - Remove the previous script from the package.
     - Depend on pkg-kde-tools >= 0.15.17.
+  * Fix system tray's bugs with:
+    - xcb_delay_showing_tray_icon_window_until_it_is_embedded.patch
+      (Closes: #775398)
+    - qtsystemtrayicon_handle_submenus_correctly.patch
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 05 Mar 2015 10:26:29 +0300
 

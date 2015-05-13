@@ -1,7 +1,10 @@
+# Backported stuff
 upstream_small-improvements-to-the-hurd-g-mkspec.patch
 upstream_Complete-MIPS-atomic-support-on-pre-MIPS32-architect.patch
 gnukfreebsd.diff
 cve-2015-0295.diff
+qtsystemtrayicon_handle_submenus_correctly.patch
+xcb_delay_showing_tray_icon_window_until_it_is_embedded.patch
 
 # Debian specific.
 revert_upstream_bsymbolic_change.patch
