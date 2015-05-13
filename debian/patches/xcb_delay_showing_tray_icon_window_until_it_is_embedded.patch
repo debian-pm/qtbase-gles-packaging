@@ -17,14 +17,12 @@ Task-number: QTBUG-32811
 Change-Id: Id324b0bfded0f8258ff1686a223cb2c069827d42
 Reviewed-by: Laszlo Agocs <laszlo.agocs@theqtcompany.com>
 ---
- src/plugins/platforms/xcb/qxcbwindow.cpp | 6 ++++++
+ src/plugins/platforms/xcb/qxcbwindow.cpp |    6 ++++++
  1 file changed, 6 insertions(+)
 
-diff --git a/src/plugins/platforms/xcb/qxcbwindow.cpp b/src/plugins/platforms/xcb/qxcbwindow.cpp
-index 4fd71f1..96c5663 100644
 --- a/src/plugins/platforms/xcb/qxcbwindow.cpp
 +++ b/src/plugins/platforms/xcb/qxcbwindow.cpp
-@@ -755,6 +755,9 @@ void QXcbWindow::show()
+@@ -767,6 +767,9 @@ void QXcbWindow::show()
      if (connection()->time() != XCB_TIME_CURRENT_TIME)
          updateNetWmUserTime(connection()->time());
  
@@ -34,7 +32,7 @@ index 4fd71f1..96c5663 100644
      Q_XCB_CALL(xcb_map_window(xcb_connection(), m_window));
  
      if (QGuiApplication::modalWindow() == window())
-@@ -2338,7 +2341,10 @@ void QXcbWindow::handleXEmbedMessage(const xcb_client_message_event_t *event)
+@@ -2350,7 +2353,10 @@ void QXcbWindow::handleXEmbedMessage(con
      switch (event->data.data32[1]) {
      case XEMBED_WINDOW_ACTIVATE:
      case XEMBED_WINDOW_DEACTIVATE:
@@ -45,6 +43,3 @@ index 4fd71f1..96c5663 100644
          break;
      case XEMBED_FOCUS_IN:
          Qt::FocusReason reason;
--- 
-2.1.4
-
