@@ -1,4 +1,4 @@
-qtbase-opensource-src (5.4.1+dfsg-3) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.4.1+dfsg-3) experimental; urgency=medium
 
   [ Dmitry Shachnev ]
   * Update debian/README.source for new upstream code location and branching
@@ -33,7 +33,7 @@ qtbase-opensource-src (5.4.1+dfsg-3) UNRELEASED; urgency=medium
   * Backport tst_QNetworkDiskCache-Stop-using-actual-web-servers.patch to solve
     tests wanting to access network services (Closes: #785207).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 05 Mar 2015 10:26:29 +0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 13 May 2015 14:14:35 -0300
 
 qtbase-opensource-src (5.4.1+dfsg-2) experimental; urgency=medium
 
