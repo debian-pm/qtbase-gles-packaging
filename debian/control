@@ -86,11 +86,25 @@ Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: fontconfig, ${misc:Depends}, ${shlibs:Depends}
+Recommends: libqt5libqgtk2
 Description: Qt 5 GUI module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
  The QtGui module extends QtCore with GUI functionality.
+
+Package: libqt5libqgtk2
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}, libqt5gui5 (= ${binary:Version}),
+Breaks: libqt5gui5 (<< 5.4.1+dfsg-3~)
+Replaces: libqt5gui5 (<< 5.4.1+dfsg-3~)
+Description: Qt 5 GTK2 platform theme
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The libqgtk2 module provides GTK2 theme compatability
 
 Package: libqt5network5
 Architecture: any

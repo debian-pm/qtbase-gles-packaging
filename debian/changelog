@@ -12,6 +12,8 @@ qtbase-opensource-src (5.4.1+dfsg-3) UNRELEASED; urgency=medium
   * Clear up the list in Uploaders removing people who hasn't commited to the
     repo in more than a year. They can re add themselves whenever they want
     (and we really hope to see you back really soon!).
+  * Split the GTK2 platform theme plugin into a separate package
+    (Closes: #781148). Thanks Riku Voipio for the patch.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 05 Mar 2015 10:26:29 +0300
 
