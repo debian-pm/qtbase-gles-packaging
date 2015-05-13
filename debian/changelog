@@ -15,7 +15,8 @@ qtbase-opensource-src (5.4.1+dfsg-3) UNRELEASED; urgency=medium
   * Split the GTK2 platform theme plugin into a separate package
     (Closes: #781148). Thanks Riku Voipio for the patch.
   * Use pkgkde-mark-private-symbols instead of mark_private_symbols.sh.
-    - Remove the previous script from the package.
+    - Remove the previous script from the package and it's entry in
+      debian/copyright.
     - Depend on pkg-kde-tools >= 0.15.17.
   * Fix system tray's bugs with:
     - xcb_delay_showing_tray_icon_window_until_it_is_embedded.patch
