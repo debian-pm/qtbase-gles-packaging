@@ -9,6 +9,7 @@ require_fpic_instead_of_fpie.patch
 make_qglobal_h_complain_if_you_use_fpie.patch
 fixes_crash_in_bmp_and_ico_image_decoders.patch
 fixes_crash_in_gif_image_decoder.patch
+tst_QNetworkDiskCache-Stop-using-actual-web-servers.patch
 
 # Debian specific.
 revert_upstream_bsymbolic_change.patch
