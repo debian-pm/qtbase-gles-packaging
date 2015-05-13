@@ -18,19 +18,17 @@ Change-Id: I0d4913955e3745b69672ffff13db5df7377398c5
 Reviewed-by: Simon Hausmann <simon.hausmann@theqtcompany.com>
 Reviewed-by: Oswald Buddenhagen <oswald.buddenhagen@theqtcompany.com>
 ---
- mkspecs/common/gcc-base.conf             | 2 +-
- mkspecs/common/qcc-base.conf             | 2 +-
- mkspecs/linux-icc/qmake.conf             | 2 +-
- src/corelib/Qt5CoreConfigExtras.cmake.in | 2 +-
- src/corelib/global/qglobal.h             | 4 ++--
- tests/auto/tools/moc/tst_moc.cpp         | 6 +++---
+ mkspecs/common/gcc-base.conf             |    2 +-
+ mkspecs/common/qcc-base.conf             |    2 +-
+ mkspecs/linux-icc/qmake.conf             |    2 +-
+ src/corelib/Qt5CoreConfigExtras.cmake.in |    2 +-
+ src/corelib/global/qglobal.h             |    4 ++--
+ tests/auto/tools/moc/tst_moc.cpp         |    6 +++---
  6 files changed, 9 insertions(+), 9 deletions(-)
 
-diff --git a/mkspecs/common/gcc-base.conf b/mkspecs/common/gcc-base.conf
-index a149f4d..e4ccbd7 100644
 --- a/mkspecs/common/gcc-base.conf
 +++ b/mkspecs/common/gcc-base.conf
-@@ -42,7 +42,7 @@ QMAKE_CFLAGS_RELEASE       += $$QMAKE_CFLAGS_OPTIMIZE
+@@ -42,7 +42,7 @@ QMAKE_CFLAGS_RELEASE       += $$QMAKE_CF
  QMAKE_CFLAGS_DEBUG         += -g
  QMAKE_CFLAGS_SHLIB         += -fPIC
  QMAKE_CFLAGS_STATIC_LIB    += -fPIC
@@ -39,11 +37,9 @@ index a149f4d..e4ccbd7 100644
  QMAKE_CFLAGS_ISYSTEM        = -isystem
  QMAKE_CFLAGS_YACC          += -Wno-unused -Wno-parentheses
  QMAKE_CFLAGS_HIDESYMS      += -fvisibility=hidden
-diff --git a/mkspecs/common/qcc-base.conf b/mkspecs/common/qcc-base.conf
-index f529d7f..8276316 100644
 --- a/mkspecs/common/qcc-base.conf
 +++ b/mkspecs/common/qcc-base.conf
-@@ -23,7 +23,7 @@ QMAKE_CFLAGS_RELEASE_WITH_DEBUGINFO += $$QMAKE_CFLAGS_OPTIMIZE -g
+@@ -23,7 +23,7 @@ QMAKE_CFLAGS_RELEASE_WITH_DEBUGINFO += $
  QMAKE_CFLAGS_DEBUG     += -g
  QMAKE_CFLAGS_SHLIB     += -fPIC -shared
  QMAKE_CFLAGS_STATIC_LIB += -fPIC
@@ -52,8 +48,6 @@ index f529d7f..8276316 100644
  QMAKE_CFLAGS_YACC      += -Wno-unused -Wno-parentheses
  QMAKE_CFLAGS_HIDESYMS  += -fvisibility=hidden
  QMAKE_CFLAGS_SSE2      += -msse2
-diff --git a/mkspecs/linux-icc/qmake.conf b/mkspecs/linux-icc/qmake.conf
-index 8119c8a..9190aa9 100644
 --- a/mkspecs/linux-icc/qmake.conf
 +++ b/mkspecs/linux-icc/qmake.conf
 @@ -12,7 +12,7 @@ QMAKE_LEXFLAGS          =
@@ -65,24 +59,9 @@ index 8119c8a..9190aa9 100644
  QMAKE_CFLAGS_DEPS       = -M
  QMAKE_CFLAGS_WARN_ON    = -w1 -Wall -Wcheck -wd1572,873,2259,2261
  QMAKE_CFLAGS_WARN_OFF   = -w
-diff --git a/src/corelib/Qt5CoreConfigExtras.cmake.in b/src/corelib/Qt5CoreConfigExtras.cmake.in
-index 7213a84..48d5f21 100644
---- a/src/corelib/Qt5CoreConfigExtras.cmake.in
-+++ b/src/corelib/Qt5CoreConfigExtras.cmake.in
-@@ -71,7 +71,7 @@ set(_qt5_corelib_extra_includes)
- # macro to add it.
- set(Qt5_POSITION_INDEPENDENT_CODE True)
- set_property(TARGET Qt5::Core PROPERTY INTERFACE_POSITION_INDEPENDENT_CODE \"ON\")
--set(Qt5Core_EXECUTABLE_COMPILE_FLAGS \"-fPIE\")
-+set(Qt5Core_EXECUTABLE_COMPILE_FLAGS \"-fPIC\")
- 
- !!IF !isEmpty(QT_NAMESPACE)
- list(APPEND Qt5Core_DEFINITIONS -DQT_NAMESPACE=$$QT_NAMESPACE)
-diff --git a/src/corelib/global/qglobal.h b/src/corelib/global/qglobal.h
-index 455582e..ef84662 100644
 --- a/src/corelib/global/qglobal.h
 +++ b/src/corelib/global/qglobal.h
-@@ -1047,9 +1047,9 @@ Q_CORE_EXPORT int qrand();
+@@ -1046,9 +1046,9 @@ Q_CORE_EXPORT int qrand();
  #  define QT_NO_SHAREDMEMORY
  #endif
  
@@ -94,8 +73,6 @@ index 455582e..ef84662 100644
  #endif
  
  namespace QtPrivate {
-diff --git a/tests/auto/tools/moc/tst_moc.cpp b/tests/auto/tools/moc/tst_moc.cpp
-index edb6488..748cb82 100644
 --- a/tests/auto/tools/moc/tst_moc.cpp
 +++ b/tests/auto/tools/moc/tst_moc.cpp
 @@ -662,7 +662,7 @@ void tst_Moc::oldStyleCasts()
@@ -107,7 +84,7 @@ index edb6488..748cb82 100644
      proc.start("gcc", args);
      QVERIFY(proc.waitForStarted());
      proc.write(mocOut);
-@@ -732,7 +732,7 @@ void tst_Moc::inputFileNameWithDotsButNoExtension()
+@@ -732,7 +732,7 @@ void tst_Moc::inputFileNameWithDotsButNo
  
      QStringList args;
      args << "-c" << "-x" << "c++" << "-I" << ".."
@@ -125,6 +102,14 @@ index edb6488..748cb82 100644
      proc.start("gcc", gccArgs);
      QVERIFY(proc.waitForStarted());
      proc.write(mocOut);
--- 
-2.1.4
-
+--- a/src/corelib/Qt5CoreConfigExtras.cmake.in
++++ b/src/corelib/Qt5CoreConfigExtras.cmake.in
+@@ -72,7 +72,7 @@ set(_qt5_corelib_extra_includes)
+ # macro to add it.
+ set(Qt5_POSITION_INDEPENDENT_CODE True)
+ set_property(TARGET Qt5::Core PROPERTY INTERFACE_POSITION_INDEPENDENT_CODE \"ON\")
+-set(Qt5Core_EXECUTABLE_COMPILE_FLAGS \"-fPIE\")
++set(Qt5Core_EXECUTABLE_COMPILE_FLAGS \"-fPIC\")
+ !!ENDIF
+ 
+ !!IF !isEmpty(QT_NAMESPACE)
