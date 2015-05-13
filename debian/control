@@ -97,7 +97,7 @@ Package: libqt5libqgtk2
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
-Depends: ${misc:Depends}, ${shlibs:Depends}, libqt5gui5 (= ${binary:Version}),
+Depends: libqt5gui5 (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
 Breaks: libqt5gui5 (<< 5.4.1+dfsg-3~)
 Replaces: libqt5gui5 (<< 5.4.1+dfsg-3~)
 Description: Qt 5 GTK2 platform theme
