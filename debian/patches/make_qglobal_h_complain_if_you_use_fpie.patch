@@ -20,33 +20,12 @@ Change-Id: I66a35ce5f88941f29aa6ffff13dd210e0aa2728f
 Reviewed-by: Dmitry Shachnev <mitya57@gmail.com>
 Reviewed-by: Simon Hausmann <simon.hausmann@theqtcompany.com>
 ---
- dist/changes-5.4.2           | 7 +++++++
- src/corelib/global/qglobal.h | 4 ++--
- 2 files changed, 9 insertions(+), 2 deletions(-)
+ src/corelib/global/qglobal.h |    4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
 
-diff --git a/dist/changes-5.4.2 b/dist/changes-5.4.2
-index e1ad9b6..5827187 100644
---- a/dist/changes-5.4.2
-+++ b/dist/changes-5.4.2
-@@ -34,6 +34,13 @@ information about a particular change.
-   common EXIF-format (big-endian) was not working until 5.4.1. 5.4.2 restores the
-   behavior of 5.4.0 and earlier for most EXIF-tagged JPEGs.
-   EXIF orientation will be an opt-in starting with Qt 5.5.
-+- On x86 and x86-64 systems with ELF binaries (especially Linux), due to
-+  a new optimization in GCC 5.x in combination with a recent version of
-+  GNU binutils, compiling Qt applications with -fPIE is no longer
-+  enough. Applications now need to be compiled with the -fPIC option if
-+  Qt's option "reduce relocations" is active. Note that Clang is known
-+  to generate incompatible code even with -fPIC if the -flto option is
-+  active.
- 
- ****************************************************************************
- *                               Library                                    *
-diff --git a/src/corelib/global/qglobal.h b/src/corelib/global/qglobal.h
-index ef84662..4547877 100644
 --- a/src/corelib/global/qglobal.h
 +++ b/src/corelib/global/qglobal.h
-@@ -1047,9 +1047,9 @@ Q_CORE_EXPORT int qrand();
+@@ -1046,9 +1046,9 @@ Q_CORE_EXPORT int qrand();
  #  define QT_NO_SHAREDMEMORY
  #endif
  
@@ -58,6 +37,3 @@ index ef84662..4547877 100644
  #endif
  
  namespace QtPrivate {
--- 
-2.1.4
-
