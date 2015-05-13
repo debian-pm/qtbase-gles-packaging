@@ -25,6 +25,10 @@ qtbase-opensource-src (5.4.1+dfsg-3) UNRELEASED; urgency=medium
     patches (Closes: #783127):
     - make_qglobal_h_complain_if_you_use_fpie.patch
     - require_fpic_instead_of_fpie.patch
+  * Fix CVE-2015-1858, CVE-2015-1859 and CVE 2015-1860 by backporting patches
+    (Closes: #783134):
+    - fixes_crash_in_bmp_and_ico_image_decoders.patch
+    - fixes_crash_in_gif_image_decoder.patch
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 05 Mar 2015 10:26:29 +0300
 

@@ -7,6 +7,8 @@ qtsystemtrayicon_handle_submenus_correctly.patch
 xcb_delay_showing_tray_icon_window_until_it_is_embedded.patch
 require_fpic_instead_of_fpie.patch
 make_qglobal_h_complain_if_you_use_fpie.patch
+fixes_crash_in_bmp_and_ico_image_decoders.patch
+fixes_crash_in_gif_image_decoder.patch
 
 # Debian specific.
 revert_upstream_bsymbolic_change.patch
