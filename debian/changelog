@@ -14,6 +14,9 @@ qtbase-opensource-src (5.4.1+dfsg-3) UNRELEASED; urgency=medium
     (and we really hope to see you back really soon!).
   * Split the GTK2 platform theme plugin into a separate package
     (Closes: #781148). Thanks Riku Voipio for the patch.
+  * Use pkgkde-mark-private-symbols instead of mark_private_symbols.sh.
+    - Remove the previous script from the package.
+    - Depend on pkg-kde-tools >= 0.15.17.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 05 Mar 2015 10:26:29 +0300
 
