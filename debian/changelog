@@ -1,5 +1,9 @@
 qtbase-opensource-src (5.4.1+dfsg-4) UNRELEASED; urgency=medium
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Add try_to_ensure_that_fpic_is_used_in_cmake_builds.patch, it seems
+    that apps using CMake files as provided by Qt5 are FTBFS.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 14 May 2015 13:05:04 -0300
 
 qtbase-opensource-src (5.4.1+dfsg-3) experimental; urgency=medium
