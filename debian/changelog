@@ -1,5 +1,8 @@
 qtbase-opensource-src (5.4.1+dfsg-5) UNRELEASED; urgency=medium
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * libqt5gui5: demote libqt5libqgtk2 to a suggestion.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 18 May 2015 18:35:01 -0300
 
 qtbase-opensource-src (5.4.1+dfsg-4) experimental; urgency=medium
