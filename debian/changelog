@@ -1,3 +1,7 @@
+qtbase-opensource-src (5.4.1+dfsg-5) UNRELEASED; urgency=medium
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 18 May 2015 18:35:01 -0300
+
 qtbase-opensource-src (5.4.1+dfsg-4) experimental; urgency=medium
 
   * Add try_to_ensure_that_fpic_is_used_in_cmake_builds.patch, it seems
