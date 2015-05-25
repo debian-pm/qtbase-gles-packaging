@@ -10,6 +10,7 @@ qtbase-opensource-src (5.4.1+dfsg-5) UNRELEASED; urgency=medium
     - qtsystemtrayicon_handle_submenus_correctly.patch
     - xcb_delay_showing_tray_icon_window_until_it_is_embedded.patch
     - require_fpic_instead_of_fpie.patch
+    - try_to_ensure_that_fpic_is_used_in_cmake_builds.patch
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 18 May 2015 18:35:01 -0300
 
