@@ -4,6 +4,7 @@ qtbase-opensource-src (5.4.1+dfsg-5) UNRELEASED; urgency=medium
   * libqt5gui5: demote libqt5libqgtk2 to a suggestion.
   * Update symbols files with buildds' logs.
   * Bump qtbase-abi to 5-4-2.
+  * Refresh gnukfreebsd.diff.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 18 May 2015 18:35:01 -0300
 
