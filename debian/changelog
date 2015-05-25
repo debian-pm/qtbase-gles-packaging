@@ -5,6 +5,8 @@ qtbase-opensource-src (5.4.1+dfsg-5) UNRELEASED; urgency=medium
   * Update symbols files with buildds' logs.
   * Bump qtbase-abi to 5-4-2.
   * Refresh gnukfreebsd.diff.
+  * Delete patches backported from upstream already present in this release:
+    - qtsystemtrayicon_handle_submenus_correctly.patch
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 18 May 2015 18:35:01 -0300
 
