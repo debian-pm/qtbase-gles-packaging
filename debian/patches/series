@@ -2,7 +2,6 @@
 upstream_small-improvements-to-the-hurd-g-mkspec.patch
 upstream_Complete-MIPS-atomic-support-on-pre-MIPS32-architect.patch
 gnukfreebsd.diff
-tst_QNetworkDiskCache-Stop-using-actual-web-servers.patch
 
 # Debian specific.
 revert_upstream_bsymbolic_change.patch

@@ -14,6 +14,7 @@ qtbase-opensource-src (5.4.1+dfsg-5) UNRELEASED; urgency=medium
     - make_qglobal_h_complain_if_you_use_fpie.patch
     - fixes_crash_in_bmp_and_ico_image_decoders.patch
     - fixes_crash_in_gif_image_decoder.patch
+    - tst_QNetworkDiskCache-Stop-using-actual-web-servers.patch
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 18 May 2015 18:35:01 -0300
 
