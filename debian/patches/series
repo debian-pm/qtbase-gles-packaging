@@ -2,7 +2,6 @@
 upstream_small-improvements-to-the-hurd-g-mkspec.patch
 upstream_Complete-MIPS-atomic-support-on-pre-MIPS32-architect.patch
 gnukfreebsd.diff
-fixes_crash_in_gif_image_decoder.patch
 tst_QNetworkDiskCache-Stop-using-actual-web-servers.patch
 
 # Debian specific.

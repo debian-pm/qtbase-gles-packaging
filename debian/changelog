@@ -13,6 +13,7 @@ qtbase-opensource-src (5.4.1+dfsg-5) UNRELEASED; urgency=medium
     - try_to_ensure_that_fpic_is_used_in_cmake_builds.patch
     - make_qglobal_h_complain_if_you_use_fpie.patch
     - fixes_crash_in_bmp_and_ico_image_decoders.patch
+    - fixes_crash_in_gif_image_decoder.patch
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 18 May 2015 18:35:01 -0300
 
