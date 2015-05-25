@@ -8,6 +8,7 @@ qtbase-opensource-src (5.4.1+dfsg-5) UNRELEASED; urgency=medium
   * Delete patches backported from upstream already present in this release:
     - cve-2015-0295.diff
     - qtsystemtrayicon_handle_submenus_correctly.patch
+    - xcb_delay_showing_tray_icon_window_until_it_is_embedded.patch
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 18 May 2015 18:35:01 -0300
 
