@@ -1,4 +1,4 @@
-qtbase-opensource-src (5.4.1+dfsg-5) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.4.2~prepackaging0+dfsg-1) UNRELEASED; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * libqt5gui5: demote libqt5libqgtk2 to a suggestion.
