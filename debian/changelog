@@ -1,6 +1,5 @@
-qtbase-opensource-src (5.4.2+dfsg-1) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.4.2+dfsg-1) experimental; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
   * libqt5gui5: demote libqt5libqgtk2 to a suggestion.
   * Update symbols files with buildds' logs.
@@ -19,7 +18,7 @@ qtbase-opensource-src (5.4.2+dfsg-1) UNRELEASED; urgency=medium
   * Update install file for qtbase5-dev.
   * Update symbols files with current build log.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 18 May 2015 18:35:01 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Tue, 02 Jun 2015 13:27:56 -0300
 
 qtbase-opensource-src (5.4.1+dfsg-4) experimental; urgency=medium
 
