@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.4.1 amd64 hppa hurd-i386 i386 kfreebsd-i386
+# SymbolsHelper-Confirmed: 5.4.2 amd64
 libQt5Gui.so.5 libqt5gui5 #MINVER#
 | libqt5gui5 #MINVER#, qtbase-abi-5-4-2
  _Z11qDrawBorderP8QPainterRK5QRectPKN4QCss11BorderStyleEPKiPK6QBrushPK5QSize@Base 5.0.2
@@ -1766,7 +1766,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN16QConicalGradientC2ERK7QPointFd@Base 5.2.0
  _ZN16QConicalGradientC2Eddd@Base 5.2.0
  _ZN16QConicalGradientC2Ev@Base 5.0.2
- (optional=gccinternal|arch=!hppa !kfreebsd-i386)_ZN16QCoreApplication20sendSpontaneousEventEP7QObjectP6QEvent@Base 5.3.0
  _ZN16QDesktopServices13setUrlHandlerERK7QStringP7QObjectPKc@Base 5.0.2
  _ZN16QDesktopServices15unsetUrlHandlerERK7QString@Base 5.0.2
  _ZN16QDesktopServices19storageLocationImplEN14QStandardPaths16StandardLocationE@Base 5.0.2
@@ -2987,10 +2986,10 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN22QGuiApplicationPrivate30reportLogicalDotsPerInchChangeEPN29QWindowSystemInterfacePrivate29ScreenLogicalDotsPerInchEventE@Base 5.0.2 1
  _ZN22QGuiApplicationPrivate31processWindowScreenChangedEventEPN29QWindowSystemInterfacePrivate24WindowScreenChangedEventE@Base 5.1.0 1
  _ZN22QGuiApplicationPrivate31updateFilteredScreenOrientationEP7QScreen@Base 5.0.2 1
- _ZN22QGuiApplicationPrivate32applyWindowGeometrySpecificationERK5QRectPK7QWindow@Base 5.2.0~alpha1 1
  _ZN22QGuiApplicationPrivate32processTabletEnterProximityEventEPN29QWindowSystemInterfacePrivate25TabletEnterProximityEventE@Base 5.0.2 1
  _ZN22QGuiApplicationPrivate32processTabletLeaveProximityEventEPN29QWindowSystemInterfacePrivate25TabletLeaveProximityEventE@Base 5.0.2 1
  _ZN22QGuiApplicationPrivate33sendQWindowEventToQPlatformWindowEP7QWindowP6QEvent@Base 5.0.2 1
+ _ZN22QGuiApplicationPrivate34applyWindowGeometrySpecificationToEP7QWindow@Base 5.4.2
  _ZN22QGuiApplicationPrivate37synthesizeMouseFromTouchEventsEnabledEv@Base 5.1.0 1
  _ZN22QGuiApplicationPrivate4initEv@Base 5.0.2 1
  _ZN22QGuiApplicationPrivate4selfE@Base 5.0.2 1

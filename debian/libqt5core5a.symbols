@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.4.1 amd64 hppa hurd-i386 i386 kfreebsd-i386
+# SymbolsHelper-Confirmed: 5.4.2 amd64
 libQt5Core.so.5 libqt5core5a #MINVER#
 | libqt5core5a #MINVER#, qtbase-abi-5-4-2
  _Z10forcepointR11QTextStream@Base 5.0.2
@@ -65,6 +65,7 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _Z24qGlobalPostedEventsCountv@Base 5.0.2
  _Z24qcoreStateMachineHandlerv@Base 5.0.2
  (arch=!hurd-i386 !kfreebsd-amd64 !kfreebsd-i386)_Z24qt_linux_find_symbol_sysPKc@Base 5.0.2
+ _Z24qt_subtract_from_timeoutii@Base 5.4.2
  _Z25qEnvironmentVariableIsSetPKc@Base 5.0.2
  _Z27qEnvironmentVariableIsEmptyPKc@Base 5.0.2
  _Z29qRegisterStaticPluginFunction13QStaticPlugin@Base 5.0.2

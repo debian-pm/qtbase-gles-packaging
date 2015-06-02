@@ -17,6 +17,7 @@ qtbase-opensource-src (5.4.2+dfsg-1) UNRELEASED; urgency=medium
     - fixes_crash_in_gif_image_decoder.patch
     - tst_QNetworkDiskCache-Stop-using-actual-web-servers.patch
   * Update install file for qtbase5-dev.
+  * Update symbols files with current build log.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 18 May 2015 18:35:01 -0300
 
