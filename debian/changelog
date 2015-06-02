@@ -1,6 +1,7 @@
-qtbase-opensource-src (5.4.2~prepackaging0+dfsg-1) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.4.2+dfsg-1) UNRELEASED; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
+  * New upstream release.
   * libqt5gui5: demote libqt5libqgtk2 to a suggestion.
   * Update symbols files with buildds' logs.
   * Bump qtbase-abi to 5-4-2.
