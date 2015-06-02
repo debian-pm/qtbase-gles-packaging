@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.4.1 amd64
+# SymbolsHelper-Confirmed: 5.4.2 amd64
 libQt5Widgets.so.5 libqt5widgets5 #MINVER#
 | libqt5widgets5 #MINVER#, qtbase-abi-5-4-2
  _Z11qFadeEffectP7QWidgeti@Base 5.0.2
@@ -3236,7 +3236,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN19QApplicationPrivate24tryCloseAllWidgetWindowsEP5QListIP7QWindowE@Base 5.3.0 1
  _ZN19QApplicationPrivate25focusNextPrevChild_helperEP7QWidgetbPb@Base 5.1.0 1
  _ZN19QApplicationPrivate26updateTouchPointsForWidgetEP7QWidgetP11QTouchEvent@Base 5.0.2 1
- _ZN19QApplicationPrivate27findClosestTouchPointTargetEP12QTouchDeviceRK7QPointF@Base 5.0.2 1
+ _ZN19QApplicationPrivate27findClosestTouchPointTargetEP12QTouchDeviceRKN11QTouchEvent10TouchPointE@Base 5.4.2
  _ZN19QApplicationPrivate27initializeWidgetPaletteHashEv@Base 5.0.2 1
  _ZN19QApplicationPrivate27notifyLayoutDirectionChangeEv@Base 5.0.2 1
  _ZN19QApplicationPrivate31giveFocusAccordingToFocusPolicyEP7QWidgetP6QEvent6QPoint@Base 5.2.0~alpha1 1
