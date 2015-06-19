@@ -1,6 +1,6 @@
-# SymbolsHelper-Confirmed: 5.4.1 amd64 hurd-i386 i386 kfreebsd-i386
+# SymbolsHelper-Confirmed: 5.4.2 amd64 hppa
 libQt5Core.so.5 libqt5core5a #MINVER#
-| libqt5core5a #MINVER#, qtbase-abi-5-4-1
+| libqt5core5a #MINVER#, qtbase-abi-5-4-2
  _Z10forcepointR11QTextStream@Base 5.0.2
  _Z10noshowbaseR11QTextStream@Base 5.0.2
  _Z10qAllocMoreii@Base 5.0.2
@@ -65,6 +65,7 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _Z24qGlobalPostedEventsCountv@Base 5.0.2
  _Z24qcoreStateMachineHandlerv@Base 5.0.2
  (arch=!hurd-i386 !kfreebsd-amd64 !kfreebsd-i386)_Z24qt_linux_find_symbol_sysPKc@Base 5.0.2
+ _Z24qt_subtract_from_timeoutii@Base 5.4.2
  _Z25qEnvironmentVariableIsSetPKc@Base 5.0.2
  _Z27qEnvironmentVariableIsEmptyPKc@Base 5.0.2
  _Z29qRegisterStaticPluginFunction13QStaticPlugin@Base 5.0.2
@@ -4920,7 +4921,7 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  (optional=templinst)_ZNSt17_Temporary_bufferIP21QPersistentModelIndexS0_ED2Ev@Base 5.0.2
  (optional=templinst|arch=powerpcspe)_ZNSt17_Temporary_bufferIP5QPairI21QPersistentModelIndexjES2_ED1Ev@Base 5.0.2
  (optional=templinst|arch=powerpcspe)_ZNSt17_Temporary_bufferIP5QPairI21QPersistentModelIndexjES2_ED2Ev@Base 5.0.2
- (optional=templinst|arch=!hurd-i386 !i386 !kfreebsd-i386)_ZNSt20__copy_move_backwardILb1ELb1ESt26random_access_iterator_tagE13__copy_move_bIiEEPT_PKS3_S6_S4_@Base 5.0.2
+ (optional=templinst)_ZNSt20__copy_move_backwardILb1ELb1ESt26random_access_iterator_tagE13__copy_move_bIiEEPT_PKS3_S6_S4_@Base 5.0.2
  (optional=templinst|subst)_ZSt17__rotate_adaptiveIP21QPersistentModelIndexS1_{ssize_t}ET_S2_S2_S2_T1_S3_T0_S3_@Base 5.0.2
  (optional=templinst|subst)_ZSt17__rotate_adaptiveIPiS0_{ssize_t}ET_S1_S1_S1_T1_S2_T0_S2_@Base 5.0.2
  (optional=templinst|arch=mips mips64el mipsel powerpc ppc64 ppc64el s390x)_ZSt8__rotateIP21QPersistentModelIndexEvT_S2_S2_St26random_access_iterator_tag@Base 5.3.1

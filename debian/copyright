@@ -26,11 +26,6 @@ Files: examples/* doc/src/snippets/* src/*/doc/snippets/* tests/manual/qlocale/*
 Copyright: 2012 Digia Plc and/or its subsidiary(-ies)
 License: BSD-3-clause
 
-Files: debian/mark_private_symbols.sh
-Copyright: 2013 Sune Vuorela <sune@debian.org>
-           2014 Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
-License: Expat
-
 Files: debian/*
 Copyright: 2007-2013 Fathi Boudra <fabo@debian.org>
            2007-2013 Sune Vuorela <debian@pusling.com>

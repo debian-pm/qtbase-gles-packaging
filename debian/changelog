@@ -1,19 +1,82 @@
-qtbase-opensource-src (5.4.1+dfsg-3) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.4.2+dfsg-3) UNRELEASED; urgency=medium
+
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Update symbols files with buildd's logs.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 06 Jun 2015 10:27:36 -0300
+
+qtbase-opensource-src (5.4.2+dfsg-2) experimental; urgency=medium
+
+  * Update symbols files with buildds' logs.
+  * Mark private symbols as such.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 03 Jun 2015 19:56:52 -0300
+
+qtbase-opensource-src (5.4.2+dfsg-1) experimental; urgency=medium
+
+  * New upstream release.
+  * libqt5gui5: demote libqt5libqgtk2 to a suggestion.
+  * Update symbols files with buildds' logs.
+  * Bump qtbase-abi to 5-4-2.
+  * Refresh gnukfreebsd.diff.
+  * Delete patches backported from upstream already present in this release:
+    - cve-2015-0295.diff
+    - qtsystemtrayicon_handle_submenus_correctly.patch
+    - xcb_delay_showing_tray_icon_window_until_it_is_embedded.patch
+    - require_fpic_instead_of_fpie.patch
+    - try_to_ensure_that_fpic_is_used_in_cmake_builds.patch
+    - make_qglobal_h_complain_if_you_use_fpie.patch
+    - fixes_crash_in_bmp_and_ico_image_decoders.patch
+    - fixes_crash_in_gif_image_decoder.patch
+    - tst_QNetworkDiskCache-Stop-using-actual-web-servers.patch
+  * Update install file for qtbase5-dev.
+  * Update symbols files with current build log.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Tue, 02 Jun 2015 13:27:56 -0300
+
+qtbase-opensource-src (5.4.1+dfsg-4) experimental; urgency=medium
+
+  * Add try_to_ensure_that_fpic_is_used_in_cmake_builds.patch, it seems
+    that apps using CMake files as provided by Qt5 are FTBFS.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Fri, 15 May 2015 11:30:41 -0300
+
+qtbase-opensource-src (5.4.1+dfsg-3) experimental; urgency=medium
 
   [ Dmitry Shachnev ]
-  * Update debian/README.source for new upstream code location
-    and branching schemes.
+  * Update debian/README.source for new upstream code location and branching
+    schemes.
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Enable parallel building while bootstraping qmake.
-  * Add libpcre3-dev as build dependency in order to use the new pcre16 library
+  * Add libpcre3-dev as build-dependency in order to use the new pcre16 library
     instead of the embedded one.
+  * Expose documentation in /usr/share/doc (Closes: #751084).
+  * Clean up the list in Uploaders, removing people who haven't committed to
+    the repo in more than a year. They can re-add themselves whenever they want
+    (and we really hope to see you back really soon!).
+  * Split the GTK2 platform theme plugin into a separate package
+    (Closes: #781148). Thanks Riku Voipio for the patch.
+  * Use pkgkde-mark-private-symbols instead of mark_private_symbols.sh.
+    - Remove the previous script from the package and it's entry in
+      debian/copyright.
+    - Depend on pkg-kde-tools >= 0.15.17.
+  * Fix system tray's bugs with:
+    - xcb_delay_showing_tray_icon_window_until_it_is_embedded.patch
+      (Closes: #775398)
+    - qtsystemtrayicon_handle_submenus_correctly.patch
+  * Fix applications crashing when built with GCC5 by backporting upstream
+    patches (Closes: #783127):
+    - make_qglobal_h_complain_if_you_use_fpie.patch
+    - require_fpic_instead_of_fpie.patch
+  * Fix CVE-2015-1858, CVE-2015-1859 and CVE 2015-1860 by backporting patches
+    (Closes: #783134):
+    - fixes_crash_in_bmp_and_ico_image_decoders.patch
+    - fixes_crash_in_gif_image_decoder.patch
+  * Backport tst_QNetworkDiskCache-Stop-using-actual-web-servers.patch to solve
+    tests wanting to access network services (Closes: #785207).
 
-  [ Rohan Garg ]
-  * Remove cve-2015-0295.diff, not required for git build
-  * Update install files
-
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 26 Mar 2015 17:56:12 +0100
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 13 May 2015 14:14:35 -0300
 
 qtbase-opensource-src (5.4.1+dfsg-2) experimental; urgency=medium
 

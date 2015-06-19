@@ -205,7 +205,7 @@ override_dh_auto_clean:
 	| cut -d ':' -f 1 | xargs rm -f
 
 	# Generated on build
-	rm -f debian/stamp-makefile-build-tools
+	rm -vf debian/stamp-makefile-build-tools
 
 	# more leftovers
 	rm -f .device.vars .qmake.vars
@@ -320,7 +320,7 @@ override_dh_makeshlibs:
 	dh_makeshlibs -V
 
 	# Check for private symbols not marked as such. Be verbose.
-	DEBUG=1 debian/mark_private_symbols.sh
+	pkgkde-mark-private-symbols debian/qtbase5-private-dev/usr/include
 
 override_dh_clean:
 	dh_clean
