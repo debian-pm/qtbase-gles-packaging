@@ -1,9 +1,8 @@
-qtbase-opensource-src (5.4.2+dfsg-3) unstable; urgency=medium
+qtbase-opensource-src (5.4.2+dfsg-3) experimental; urgency=medium
 
   * Update symbols files with buildd's logs.
-  * Upload to unstable.
 
- -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 22 Jun 2015 10:13:40 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 22 Jun 2015 09:59:21 -0300
 
 qtbase-opensource-src (5.4.2+dfsg-2) experimental; urgency=medium
 
