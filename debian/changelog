@@ -1,5 +1,7 @@
 qtbase-opensource-src (5.4.2+dfsg-4) UNRELEASED; urgency=medium
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Update symbols files with buildds' logs.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 22 Jun 2015 21:57:47 -0300
 
