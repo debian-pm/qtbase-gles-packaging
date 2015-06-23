@@ -211,7 +211,7 @@ Integrating original source into local repository
        $ git clean -xdff
 
        # Extract upstream source code into packaging branch working tree
-       $ tar zxvf ../qt4-x11_4.5.2.orig.tar.gz --strip=1
+       $ tar zxvf ../qtbase-opensource-src_5.4.2.orig.tar.gz --strip=1
 
        # Do packaging, committing, finally push...
 
@@ -237,19 +237,19 @@ Integrating original source into local repository
           $ git rm -r '*'
 
           # Extract tarball into the repository
-          $ tar zxvf ../qt4-x11_4.5.2.orig.tar.gz --strip=1
+          $ tar zxvf ../qtbase-opensource-src_5.4.2.orig.tar.gz --strip=1
 
           # Add all files to the index and commit the result
           $ git add -A
-          $ git commit -m "Import upstream 4.5.2 release."
+          $ git commit -m "Import upstream 5.4.2 release."
 
      b) Original source can be fetched from the remote upstream repository.
         For example, let's define a new remote 'qt' for original Qt sources.
 
-          $ git remote add qt git://gitorious.org/qt/qt.git
+          $ git remote add qt git://code.qt.io/qt/qtbase.git
           $ git remote update
           # Wait ...
-          $ git branch upstream qt/master # optional
+          $ git branch upstream qt/dev # optional
 
      Finally, read upstream tree to the packaging branch working tree, do:
 

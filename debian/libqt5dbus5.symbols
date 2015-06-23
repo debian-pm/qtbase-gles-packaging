@@ -1,6 +1,6 @@
-# SymbolsHelper-Confirmed: 5.3.1 sparc
+# SymbolsHelper-Confirmed: 5.4.1 amd64
 libQt5DBus.so.5 libqt5dbus5 #MINVER#
-| libqt5dbus5 #MINVER#, qtbase-abi-5-3-2
+| libqt5dbus5 #MINVER#, qtbase-abi-5-4-2
  _Z14qDBusReplyFillRK12QDBusMessageR10QDBusErrorR8QVariant@Base 5.0.2
  _Z15qDBusAddSpyHookPFvRK12QDBusMessageE@Base 5.0.2
  _Z18qDBusCheckAsyncTagPKc@Base 5.1.0
@@ -252,9 +252,9 @@ libQt5DBus.so.5 libqt5dbus5 #MINVER#
  _ZN26QDBusAbstractInterfaceBase11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN26QDBusAbstractInterfaceBaseC1ER29QDBusAbstractInterfacePrivateP7QObject@Base 5.0.2
  _ZN26QDBusAbstractInterfaceBaseC2ER29QDBusAbstractInterfacePrivateP7QObject@Base 5.0.2
- _ZN26QDBusAbstractInterfaceBaseD0Ev@Base 5.0.2
- _ZN26QDBusAbstractInterfaceBaseD1Ev@Base 5.0.2
- _ZN26QDBusAbstractInterfaceBaseD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN26QDBusAbstractInterfaceBaseD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN26QDBusAbstractInterfaceBaseD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN26QDBusAbstractInterfaceBaseD2Ev@Base 5.0.2
  _ZN9QDBusUtil14isValidBusNameERK7QString@Base 5.0.2
  _ZN9QDBusUtil16argumentToStringERK8QVariant@Base 5.0.2
  _ZN9QDBusUtil16isValidBasicTypeEi@Base 5.0.2

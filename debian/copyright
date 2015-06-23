@@ -1,20 +1,30 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: qtbase-opensource-src
-Source: http://releases.qt-project.org/qt5/*/submodules/
+Source: https://download.qt.io/official_releases/qt/*/submodules/
+Files-Excluded: src/3rdparty/zlib/doc/rfc*.txt
+                tests/auto/corelib/tools/qbytearray/rfc3252.txt
+                tests/auto/corelib/io/qtextstream/rfc3261.txt
+                tests/auto/network/access/qftp/rfc3252.txt
+                tests/auto/network/access/qnetworkreply/rfc3252.txt
+                tests/manual/network_stresstest/qtest/bigfile
+                tests/auto/network/access/qnetworkreply/bigfile
+                tests/auto/network/access/qnetworkreply/resource
+                lib/fonts/l*t.pfa
+                lib/fonts/UT*.pfa
+                examples/xml/htmlinfo
+# Removed non-free files:
+# * RFCs (see QTBUG-30544 and QTBUG-30545)
+# * Luxi and Adobe Utopia fonts
+# * htmlinfo example which contains non-free websites snapshots
 
 Files: *
-Copyright: 2012 Digia Plc and/or its subsidiary(-ies)
-License: LGPL-2.1 with Digia-1.1 exception or GPL-3
+Copyright: 2012-2015 Digia Plc and/or its subsidiary(-ies)
+License: LGPL-2.1-or-3 with Digia-1.1 exception
 
 Files: examples/* doc/src/snippets/* src/*/doc/snippets/* tests/manual/qlocale/*
        src/winmain/qtmain_win.cpp src/tools/qdoc/doc/examples/componentset/*
 Copyright: 2012 Digia Plc and/or its subsidiary(-ies)
 License: BSD-3-clause
-
-Files: debian/mark_private_symbols.sh
-Copyright: 2013 Sune Vuorela <sune@debian.org>
-           2014 Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
-License: Expat
 
 Files: debian/*
 Copyright: 2007-2013 Fathi Boudra <fabo@debian.org>
@@ -24,34 +34,91 @@ Copyright: 2007-2013 Fathi Boudra <fabo@debian.org>
            2005-2007 Brian Nelson <pyro@debian.org>
            2012-2013 Zoltán Balogh <zoltan.balogh@canonical.com>
            2012-2013 Timo Jyrinki <timo.jyrinki@canonical.com>
-License: LGPL-2.1 with Digia-1.1 exception
+           2013-2015 Dmitry Shachnev <mitya57@debian.org>
+License: LGPL-2.1-or-3 with Digia-1.1 exception
 
 Files: src/testlib/3rdparty/callgrind_p.h
        src/testlib/3rdparty/valgrind_p.h
-       tests/auto/other/exceptionsafety_objects/3rdparty/memcheck.h
-       tests/auto/other/exceptionsafety_objects/3rdparty/valgrind.h
 Copyright: 2003-2007 Josef Weidendorfer
            2000-2008 Julian Seward
 License: Hybrid-BSD
 
-Files: tests/auto/cmake/* src/gui/kernel/qplatformmenu.h src/gui/kernel/qplatformsystemtrayicon.h src/gui/kernel/qplatformsystemtrayicon_qpa.cpp src/corelib/global/qtypetraits.h src/corelib/itemmodels/qidentityproxymodel.cpp src/corelib/itemmodels/qidentityproxymodel.h src/corelib/doc/snippets/code/src_gui_itemviews_qidentityproxymodel.cpp tests/manual/qmetatype/declare_metatype_noninline.h tests/manual/qmetatype/tst_qmetatype.cpp tests/manual/qmetatype/declare_metatype_noninline.cpp tests/auto/widgets/kernel/qwidgetmetatype/tst_qwidgetmetatype.cpp tests/auto/tools/moc/cxx11-explicit-override-control.h tests/auto/tools/moc/cxx11-final-classes.h tests/auto/tools/qdbuscpp2xml/test1.h tests/auto/tools/qdbuscpp2xml/tst_qdbuscpp2xml.cpp tests/auto/corelib/tools/qpair/tst_qpair.cpp tests/auto/corelib/itemmodels/qidentityproxymodel/tst_qidentityproxymodel.cpp
+Files: tests/auto/cmake/*
+       src/gui/kernel/qplatformmenu.h
+       src/gui/kernel/qplatformsystemtrayicon.h
+       src/gui/kernel/qplatformsystemtrayicon.cpp
+       src/corelib/global/qtypetraits.h
+       src/corelib/itemmodels/qidentityproxymodel.cpp
+       src/corelib/itemmodels/qidentityproxymodel.h
+       src/corelib/doc/snippets/code/src_gui_itemviews_qidentityproxymodel.cpp
+       tests/manual/qmetatype/declare_metatype_noninline.h
+       tests/manual/qmetatype/tst_qmetatype.cpp
+       tests/manual/qmetatype/declare_metatype_noninline.cpp
+       tests/auto/widgets/kernel/qwidgetmetatype/tst_qwidgetmetatype.cpp
+       tests/auto/tools/moc/cxx11-explicit-override-control.h
+       tests/auto/tools/moc/cxx11-final-classes.h
+       tests/auto/tools/qdbuscpp2xml/test1.h
+       tests/auto/tools/qdbuscpp2xml/tst_qdbuscpp2xml.cpp
+       tests/auto/corelib/tools/qpair/tst_qpair.cpp
+       tests/auto/corelib/itemmodels/qidentityproxymodel/tst_qidentityproxymodel.cpp
 Copyright: 2011 Klarälvdalens Datakonsult AB, a KDAB Group company
-License: LGPL-2.1 with Digia-1.1 exception
+License: LGPL-2.1-or-3 with Digia-1.1 exception
 
-Files: tests/manual/cocoa/menus/main.cpp src/plugins/platforms/cocoa/qcocoamenubar.mm src/plugins/platforms/cocoa/qcocoamenuitem.mm src/plugins/platforms/cocoa/qcocoamenu.h src/plugins/platforms/cocoa/qcocoasystemtrayicon.mm src/plugins/platforms/cocoa/qcocoasystemtrayicon.h src/plugins/platforms/cocoa/qcocoamenubar.h src/plugins/platforms/cocoa/qcocoamenuitem.h src/plugins/platforms/cocoa/qcocoamenu.mm
+Files: tests/manual/cocoa/menus/main.cpp
+       src/plugins/platforms/cocoa/qcocoamenubar.mm
+       src/plugins/platforms/cocoa/qcocoamenuitem.mm
+       src/plugins/platforms/cocoa/qcocoamenu.h
+       src/plugins/platforms/cocoa/qcocoasystemtrayicon.mm
+       src/plugins/platforms/cocoa/qcocoasystemtrayicon.h
+       src/plugins/platforms/cocoa/qcocoamenubar.h
+       src/plugins/platforms/cocoa/qcocoamenuitem.h
+       src/plugins/platforms/cocoa/qcocoamenu.mm
 Copyright: 2011 Klarälvdalens Datakonsult AB, a KDAB Group company
            2007-2008 Apple, Inc.
-License: LGPL-2.1 with Digia-1.1 exception
+License: LGPL-2.1-or-3 with Digia-1.1 exception
 
-Files: src/plugins/platforms/qnx/* src/plugins/bearer/blackberry/* config.tests/unix/slog2/slog2.cpp mkspecs/blackberry-x86-qcc/qplatformdefs.h mkspecs/qnx-x86-qcc/qplatformdefs.h mkspecs/blackberry-armv7le-qcc/qplatformdefs.h mkspecs/qnx-armv7le-qcc/qplatformdefs.h src/corelib/io/qstandardpaths_blackberry.cpp rc/corelib/io/qurl.cpp src/corelib/kernel/qeventdispatcher_blackberry.cpp src/corelib/kernel/qeventdispatcher_blackberry_p.h tests/auto/corelib/io/qurl/tst_qurl.cpp
+Files: src/plugins/platforms/qnx/*
+       src/plugins/bearer/blackberry/*
+       config.tests/unix/slog2/slog2.cpp
+       mkspecs/blackberry-x86-qcc/qplatformdefs.h
+       mkspecs/qnx-x86-qcc/qplatformdefs.h
+       mkspecs/blackberry-armv7le-qcc/qplatformdefs.h
+       mkspecs/qnx-armv7le-qcc/qplatformdefs.h
+       src/corelib/io/qstandardpaths_blackberry.cpp
+       src/corelib/io/qurl.cpp
+       src/corelib/kernel/qeventdispatcher_blackberry.cpp
+       src/corelib/kernel/qeventdispatcher_blackberry_p.h
+       tests/auto/corelib/io/qurl/tst_qurl.cpp
 Copyright: 2009-2012 Research In Motion
-License: LGPL-2.1 with Digia-1.1 exception
+License: LGPL-2.1-or-3 with Digia-1.1 exception
 
-Files: config.tests/unix/pcre/pcre.cpp src/3rdparty/pcre/import_from_pcre_tarball.sh src/corelib/tools/qregularexpression.cpp src/corelib/tools/qhash.cpp src/corelib/tools/qregularexpression.h src/corelib/doc/snippets/code/src_corelib_tools_qregularexpression.cpp tests/auto/tools/rcc/tst_rcc.cpp tests/auto/corelib/tools/qregularexpression/tst_qregularexpression.h tests/auto/corelib/tools/qregularexpression/tst_qregularexpression.cpp tests/auto/corelib/tools/qregularexpression/defaultoptimize/tst_qregularexpression_defaultoptimize.cpp tests/auto/corelib/tools/qregularexpression/alwaysoptimize/tst_qregularexpression_alwaysoptimize.cpp
+Files: config.tests/unix/pcre/pcre.cpp
+       src/3rdparty/pcre/import_from_pcre_tarball.sh
+       src/corelib/tools/qregularexpression.cpp
+       src/corelib/tools/qhash.cpp
+       src/corelib/tools/qregularexpression.h
+       src/corelib/doc/snippets/code/src_corelib_tools_qregularexpression.cpp
+       tests/auto/tools/rcc/tst_rcc.cpp
+       tests/auto/corelib/tools/qregularexpression/tst_qregularexpression.h
+       tests/auto/corelib/tools/qregularexpression/tst_qregularexpression.cpp
+       tests/auto/corelib/tools/qregularexpression/defaultoptimize/tst_qregularexpression_defaultoptimize.cpp
+       tests/auto/corelib/tools/qregularexpression/alwaysoptimize/tst_qregularexpression_alwaysoptimize.cpp
 Copyright: 2012 Giuseppe D'Angelo
-License: LGPL-2.1 with Digia-1.1 exception or GPL-3
+License: LGPL-2.1-or-3 with Digia-1.1 exception
 
-Files: src/3rdparty/xcb/xcb-util-keysyms/keysyms.c src/3rdparty/xcb/xcb-util/xcb_aux.c src/3rdparty/xcb/include/xcb/xcb_renderutil.h src/3rdparty/xcb/xcb-util-renderutil/util.c src/3rdparty/xcb/xcb-util/xcb_aux.c src/3rdparty/xcb/include/xcb/xcb_bitops.h src/3rdparty/xcb/include/xcb/xcb_image.h src/3rdparty/xcb/include/xcb/xcb_pixel.h src/3rdparty/xcb/xcb-util-image/xcb_image.c src/3rdparty/xcb/xcb-util/event.c src/3rdparty/xcb/include/xcb/xcb_event.h src/3rdparty/xcb/include/xcb/xcb_icccm.h src/3rdparty/xcb/xcb-util-wm/icccm.c
+Files: src/3rdparty/xcb/xcb-util-keysyms/keysyms.c
+       src/3rdparty/xcb/xcb-util/xcb_aux.c
+       src/3rdparty/xcb/include/xcb/xcb_renderutil.h
+       src/3rdparty/xcb/xcb-util-renderutil/util.c
+       src/3rdparty/xcb/xcb-util/xcb_aux.c
+       src/3rdparty/xcb/include/xcb/xcb_bitops.h
+       src/3rdparty/xcb/include/xcb/xcb_image.h
+       src/3rdparty/xcb/include/xcb/xcb_pixel.h
+       src/3rdparty/xcb/xcb-util-image/xcb_image.c
+       src/3rdparty/xcb/xcb-util/event.c
+       src/3rdparty/xcb/include/xcb/xcb_event.h
+       src/3rdparty/xcb/include/xcb/xcb_icccm.h
+       src/3rdparty/xcb/xcb-util-wm/icccm.c
 Copyright: 2006-2008 Jamey Sharp
            2008 Josh Triplett
            2007 Bart Massey
@@ -61,21 +128,32 @@ Copyright: 2006-2008 Jamey Sharp
            2007-2008 Vincent Torri
 License: MIT
 
-Files: src/network/kernel/qdnslookup_p.h src/network/kernel/qdnslookup_unix.cpp src/network/kernel/qdnslookup.h src/network/kernel/qdnslookup_win.cpp src/network/kernel/qdnslookup.cpp tests/auto/network/kernel/qdnslookup_appless/tst_qdnslookup_appless.cpp tests/auto/network/kernel/qdnslookup/tst_qdnslookup.cpp
+Files: src/network/kernel/qdnslookup_p.h
+       src/network/kernel/qdnslookup_unix.cpp
+       src/network/kernel/qdnslookup.h
+       src/network/kernel/qdnslookup_win.cpp
+       src/network/kernel/qdnslookup.cpp
+       tests/auto/network/kernel/qdnslookup_appless/tst_qdnslookup_appless.cpp
+       tests/auto/network/kernel/qdnslookup/tst_qdnslookup.cpp
 Copyright: 2012 Jeremy Lain
-License: LGPL-2.1 with Digia-1.1 exception or GPL-3
+License: LGPL-2.1-or-3 with Digia-1.1 exception
 
-Files: src/network/doc/snippets/code/src_network_kernel_qdnslookup.cpp examples/network/dnslookup/dnslookup.cpp examples/network/dnslookup/dnslookup.h
+Files: src/network/doc/snippets/code/src_network_kernel_qdnslookup.cpp
+       examples/network/dnslookup/dnslookup.cpp
+       examples/network/dnslookup/dnslookup.h
 Copyright: 2012 Jeremy Lain
 License: BSD-3-clause
 
 Files: tests/auto/corelib/xml/qxmlstream/XML-Test-Suite/*
-Copyright: 1994-2002 World Wide Web Consortium (Massachusetts Institute of Technology, Institut National de Recherche en Informatique et en Automatique, Keio University)
+Copyright: 1994-2002 World Wide Web Consortium
+                     (Massachusetts Institute of Technology,
+                     Institut National de Recherche en Informatique et en Automatique,
+                     Keio University)
            1998 Sun Microsystems, Inc.
            1999-2001 OASIS
            1997 Fuji Xerox Information Systems Co.,Ltd.
            2000-2003 IBM Corp.
-License: W3C Software License (19980720)
+License: W3C
  Copyright 1994-2002 World Wide Web Consortium, (Massachusetts
  Institute of Technology, Institut National de Recherche en
  Informatique et en Automatique, Keio University). All Rights
@@ -126,33 +204,82 @@ License: W3C Software License (19980720)
  associated documentation will at all times remain with copyright
  holders.
 
-Files: config.tests/qpa/directfb/directfb.cpp config.tests/arch/arch.cpp config.tests/common/avx2/avx2.cpp src/printsupport/kernel/qtprintsupportglobal.h src/xml/qtxmlglobal.h src/gui/image/qimage_avx.cpp src/gui/painting/qdrawhelper_avx.cpp src/corelib/thread/qmutex.cpp src/corelib/thread/qmutex_linux.cpp src/corelib/thread/qmutex_p.h src/corelib/global/qglobal.h src/corelib/global/qcompilerdetection.h src/corelib/tools/qsimd.cpp src/corelib/io/qipaddress_p.h src/corelib/io/qurlquery.cpp src/corelib/io/qurl.h src/corelib/io/qurl_p.h src/corelib/io/qipaddress.cpp src/corelib/io/qurlrecode.cpp src/corelib/io/qurlquery.h src/corelib/io/qurl.cpp src/opengl/qtopenglglobal.h tests/auto/tools/qdbusxml2cpp/tst_qdbusxml2cpp.cpp tests/auto/tools/moc/forward-declared-param.h tests/auto/network/kernel/qhostaddress/tst_qhostaddress.cpp tests/auto/corelib/tools/qsharedpointer/tst_qsharedpointer.cpp tests/auto/corelib/tools/qsharedpointer/nontracked.h tests/auto/corelib/tools/qsharedpointer/forwarddeclared.h tests/auto/corelib/tools/qsharedpointer/nontracked.cpp tests/auto/corelib/tools/qsharedpointer/forwarddeclared.cpp tests/auto/corelib/io/qurlquery/tst_qurlquery.cpp tests/auto/corelib/io/qurl/tst_qurl.cpp tests/auto/corelib/io/qprocess-noapplication/tst_qprocessnoapplication.cpp tests/auto/corelib/io/qurlinternal/tst_qurlinternal.cpp tests/auto/corelib/io/qipaddress/tst_qipaddress.cpp
+Files: config.tests/qpa/directfb/directfb.cpp
+       config.tests/arch/arch.cpp
+       config.tests/common/avx2/avx2.cpp
+       src/printsupport/kernel/qtprintsupportglobal.h
+       src/xml/qtxmlglobal.h
+       src/corelib/thread/qmutex.cpp
+       src/corelib/thread/qmutex_linux.cpp
+       src/corelib/thread/qmutex_p.h
+       src/corelib/global/qglobal.h
+       src/corelib/global/qcompilerdetection.h
+       src/corelib/tools/qsimd.cpp
+       src/corelib/io/qipaddress_p.h
+       src/corelib/io/qurlquery.cpp
+       src/corelib/io/qurl.h
+       src/corelib/io/qurl_p.h
+       src/corelib/io/qipaddress.cpp
+       src/corelib/io/qurlrecode.cpp
+       src/corelib/io/qurlquery.h
+       src/corelib/io/qurl.cpp
+       src/opengl/qtopenglglobal.h
+       tests/auto/tools/qdbusxml2cpp/tst_qdbusxml2cpp.cpp
+       tests/auto/tools/moc/forward-declared-param.h
+       tests/auto/network/kernel/qhostaddress/tst_qhostaddress.cpp
+       tests/auto/corelib/tools/qsharedpointer/tst_qsharedpointer.cpp
+       tests/auto/corelib/tools/qsharedpointer/nontracked.h
+       tests/auto/corelib/tools/qsharedpointer/forwarddeclared.h
+       tests/auto/corelib/tools/qsharedpointer/nontracked.cpp
+       tests/auto/corelib/tools/qsharedpointer/forwarddeclared.cpp
+       tests/auto/corelib/io/qurlquery/tst_qurlquery.cpp
+       tests/auto/corelib/io/qurl/tst_qurl.cpp
+       tests/auto/corelib/io/qprocess-noapplication/tst_qprocessnoapplication.cpp
+       tests/auto/corelib/io/qurlinternal/tst_qurlinternal.cpp
+       tests/auto/corelib/io/qipaddress/tst_qipaddress.cpp
 Copyright: 2012-2013 Intel Corporation
-License: LGPL-2.1 with Digia-1.1 exception or GPL-3
+License: LGPL-2.1-or-3 with Digia-1.1 exception
 
-Files: mkspecs/common/android/qplatformdefs.h mkspecs/unsupported/linux-android-armeabi-v7a-g++/qplatformdefs.h mkspecs/unsupported/linux-android-armeabi-g++/qplatformdefs.h mkspecs/unsupported/linux-android-x86-g++/qplatformdefs.h src/network/kernel/qdnslookup_android.cpp src/corelib/kernel/qsharedmemory_android.cpp src/corelib/kernel/qsystemsemaphore_android.cpp
+Files: mkspecs/common/android/qplatformdefs.h
+       src/network/kernel/qdnslookup_android.cpp
+       src/corelib/kernel/qsharedmemory_android.cpp
+       src/corelib/kernel/qsystemsemaphore_android.cpp
 Copyright: 2012 Collabora Ltd
-License: LGPL-2.1 with Digia-1.1 exception or GPL-3
+License: LGPL-2.1-or-3 with Digia-1.1 exception
 
-Files: src/gui/painting/qt_mips_asm_dsp_p.h src/gui/painting/qdrawhelper_mips_dsp_p.h src/gui/painting/qdrawhelper_mips_dsp.cpp src/gui/painting/qdrawhelper_mips_dsp_asm.S src/gui/painting/qdrawhelper_mips_dspr2_asm.S
+Files: src/gui/painting/qt_mips_asm_dsp_p.h
+       src/gui/painting/qdrawhelper_mips_dsp_p.h
+       src/gui/painting/qdrawhelper_mips_dsp.cpp
+       src/gui/painting/qdrawhelper_mips_dsp_asm.S
+       src/gui/painting/qdrawhelper_mips_dspr2_asm.S
 Copyright: 2012 MIPS Technologies
-License: LGPL-2.1 with Digia-1.1 exception or GPL-3
+License: LGPL-2.1-or-3 with Digia-1.1 exception
 
 Files: src/corelib/thread/qmutex.cpp src/corelib/thread/qmutex_p.h tests/auto/tools/moc/cxx11-enums.h
 Copyright: 2011-2012 Olivier Goffart
-License: LGPL-2.1 with Digia-1.1 exception or GPL-3
+License: LGPL-2.1-or-3 with Digia-1.1 exception
 
-Files: src/network/ssl/qsslcertificateextension_p.h src/network/ssl/qsslcertificateextension.cpp src/network/ssl/qsslcertificateextension.h
+Files: src/network/ssl/qsslcertificateextension_p.h
+       src/network/ssl/qsslcertificateextension.cpp
+       src/network/ssl/qsslcertificateextension.h
 Copyright: 2011 Richard J. Moore
-License: LGPL-2.1 with Digia-1.1 exception or GPL-3
+License: LGPL-2.1-or-3 with Digia-1.1 exception
 
-Files: tests/benchmarks/corelib/tools/qalgorithms/tst_qalgorithms.cpp tests/benchmarks/corelib/kernel/qcoreapplication/main.cpp
+Files: tests/benchmarks/corelib/tools/qalgorithms/tst_qalgorithms.cpp
+       tests/benchmarks/corelib/kernel/qcoreapplication/main.cpp
 Copyright: 2011-2012 Robin Burchell
-License: LGPL-2.1 with Digia-1.1 exception or GPL-3
+License: LGPL-2.1-or-3 with Digia-1.1 exception
 
-Files: src/corelib/codecs/qjpunicode.cpp src/corelib/codecs/qjpunicode.cpp src/corelib/codecs/qsjiscodec_p.h src/corelib/codecs/qsjiscodec_p.h src/corelib/codecs/qjiscodec_p.h src/corelib/codecs/qjiscodec_p.h src/corelib/codecs/qsjiscodec.cpp src/corelib/codecs/qeucjpcodec.cpp src/corelib/codecs/qeucjpcodec.cpp src/corelib/codecs/qjpunicode_p.h src/corelib/codecs/qjpunicode_p.h src/corelib/codecs/qeucjpcodec_p.h src/corelib/codecs/qeucjpcodec_p.h src/corelib/codecs/qjiscodec.cpp
+Files: src/corelib/codecs/qjpunicode.cpp
+       src/corelib/codecs/qsjiscodec_p.h
+       src/corelib/codecs/qjiscodec_p.h
+       src/corelib/codecs/qsjiscodec.cpp
+       src/corelib/codecs/qeucjpcodec.cpp
+       src/corelib/codecs/qjpunicode_p.h
+       src/corelib/codecs/qeucjpcodec_p.h
+       src/corelib/codecs/qjiscodec.cpp
 Copyright: 1999 Serika Kurusugawa
-License: LGPL-2.1 with Digia-1.1 exception or GPL-3
+License: LGPL-2.1-or-3 with Digia-1.1 exception
 
 Files: src/3rdparty/angle/*
 Copyright: 2002-2010 The ANGLE Project Authors.
@@ -167,7 +294,7 @@ License: BSD-3-clause
 Files: lib/fonts/helvetica*
 Copyright: 1984-1989, 1994 Adobe Systems Incorporated.
            1988, 1994 Digital Equipment Corporation.
-License:
+License: Adobe
  Adobe is a trademark of Adobe Systems Incorporated which may be
  registered in certain jurisdictions.
  Permission to use these trademarks is hereby granted only in
@@ -187,7 +314,7 @@ License:
 
 Files: lib/fonts/c0*
 Copyright: 1989-1992 Bitstream Inc., Cambridge, MA.
-License: Bitstream license
+License: Bitstream
  You are hereby granted permission under all Bitstream propriety rights
  to use, copy, modify, sublicense, sell, and redistribute the 4 Bitstream
  Charter (r) Type 1 outline fonts and the 4 Courier Type 1 outline fonts
@@ -198,10 +325,10 @@ License: Bitstream license
  .
  BITSTREAM CHARTER is a registered trademark of Bitstream Inc.
 
-Files: lib/fonts/DejaVu* lib/fonts/dejavu/* lib/fonts/Vera*
+Files: lib/fonts/DejaVu* lib/fonts/Vera*
 Copyright: 2003 Bitstream, Inc.
            2006 Tavmjong Bah
-License:
+License: Bitstream-Vera
  Bitstream Vera Fonts Copyright
  Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved. Bitstream Vera is
  a trademark of Bitstream, Inc.
@@ -298,7 +425,7 @@ License: MIT
 
 Files: lib/fonts/cour.pfa lib/fonts/courb.pfa lib/fonts/courbi.pfa lib/fonts/couri.pfa
 Copyright: 1990-1991 IBM Corporation
-License:
+License: Courier
  You are hereby granted permission under the terms of the IBM/MIT X Consortium
  Courier Typefont agreement to execute, reproduce, distribute, display, market,
  sell and otherwise transfer copies of the IBM Courier font to third parties.
@@ -309,12 +436,12 @@ License:
 
 Files: lib/fonts/micro_40_50.qpf lib/fonts/japanese_230_50.qpf lib/fonts/fixed_120_50.qpf lib/fonts/fixed_70_50.qpf
 Copyright: -
-License: Public Domain
+License: public-domain
  A public domain font. Share and enjoy. http://www.X.org
 
 Files: lib/fonts/unifont_160_50.qpf
 Copyright: Roman Czyborra
-License:
+License: Unifont
  The Unifont font was originally obtained from http://www.czyborra.com/ under
  the following license:
  .
@@ -323,17 +450,23 @@ License:
  and have given a quick thought about whether Roman might perhaps be interested
  to read what you did with his stuff. Horizontal rules don't apply.
 
-Files: tests/manual/widgets/itemviews/delegate/example.cpp tests/manual/widgets/itemviews/qheaderview/qheaderviewtest1.cpp tests/manual/widgets/qgraphicsview/rubberband/rubberbandtest.cpp tests/benchmarks/gui/itemviews/qheaderview/qheaderviewbench.cpp tests/auto/widgets/itemviews/qheaderview/tst_qheaderview.cpp
+Files: tests/manual/widgets/itemviews/delegate/example.cpp
+       tests/manual/widgets/itemviews/qheaderview/qheaderviewtest1.cpp
+       tests/manual/widgets/qgraphicsview/rubberband/rubberbandtest.cpp
+       tests/benchmarks/gui/itemviews/qheaderview/qheaderviewbench.cpp
+       tests/auto/widgets/itemviews/qheaderview/tst_qheaderview.cpp
 Copyright: 2012 Thorbjørn Lund Martsum
-License: LGPL-2.1 with Digia-1.1 exception or GPL-3
+License: LGPL-2.1-or-3 with Digia-1.1 exception
 
 Files: src/3rdparty/freetype/src/pcf/pcfutil.c
 Copyright: 1990-1998 The Open Group
 License: MIT
 
-Files: tests/auto/corelib/tools/qchar/data/NormalizationTest.txt tests/auto/corelib/tools/qtextboundaryfinder/data/LineBreakTest.txt tests/auto/corelib/tools/qtextboundaryfinder/data/WordBreakTest.txt tests/auto/corelib/tools/qtextboundaryfinder/data/GraphemeBreakTest.txt tests/auto/corelib/tools/qtextboundaryfinder/data/SentenceBreakTest.txt util/unicode/data/ArabicShaping.txt util/unicode/data/SentenceBreakProperty.txt util/unicode/data/BidiMirroring.txt util/unicode/data/Scripts.txt util/unicode/data/GraphemeBreakProperty.txt util/unicode/data/CaseFolding.txt util/unicode/data/NormalizationCorrections.txt util/unicode/data/LineBreak.txt util/unicode/data/SpecialCasing.txt util/unicode/data/WordBreakProperty.txt util/unicode/data/DerivedAge.txt util/unicode/data/DerivedNormalizationProps.txt util/unicode/data/Blocks.txt
+Files: tests/auto/corelib/tools/qchar/data/NormalizationTest.txt
+       tests/auto/corelib/tools/qtextboundaryfinder/data/*.txt
+       util/unicode/data/*.txt
 Copyright: 1991-2012 Unicode, Inc.
-License: Unicode, Inc. License Agreement
+License: Unicode
  COPYRIGHT AND PERMISSION NOTICE
  .
  Copyright © 1991-2012 Unicode, Inc. All rights reserved.
@@ -368,15 +501,14 @@ License: Unicode, Inc. License Agreement
  use or other dealings in these Data Files or Software without prior
  written authorization of the copyright holder.
 
-Files: src/gui/text/qharfbuzz_copy_p.h
-       src/3rdparty/harfbuzz/*
+Files: src/3rdparty/harfbuzz/*
 Copyright: 1998-2005 David Turner
            1998-2004 Werner Lemberg
            2000-2007 Red Hat, Inc
            2006 Behdad Esfahbod
            2008-2012 Nokia Corporation and/or its subsidiary(-ies)
            2012-2013 Digia Plc and/or its subsidiary(-ies)
-License:
+License: Harfbuzz
  Permission is hereby granted, without written agreement and without
  license or royalty fees, to use, copy, modify, and distribute this
  software and its documentation for any purpose, provided that the
@@ -395,14 +527,15 @@ License:
  ON AN "AS IS" BASIS, AND THE COPYRIGHT HOLDER HAS NO OBLIGATION TO
  PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
+Files: src/gui/text/qharfbuzzng.cpp
+       src/gui/text/qharfbuzzng_p.h
+Copyright: 2013 Konstantin Ritt
+License: LGPL-2.1-or-3 with Digia-1.1 exception
+
 Files: src/testlib/3rdparty/cycle_p.h
 Copyright: 2003, 2006 Matteo Frigo
            2003, 2006 Massachusetts Institute of Technology
 License: Expat
-
-Files: src/3rdparty/ce-compat/*
-Copyright: 2002 Michael Ringgaard
-License: BSD-3-clause
 
 Files: src/3rdparty/des/des.cpp
 Copyright: 1997-2005 Simon Tatham
@@ -454,7 +587,7 @@ License: MIT
 Files: src/3rdparty/libjpeg/*
 Copyright: 1991-2011, Thomas G. Lane
            1991-2011, Guido Vollbeding
-License:
+License: libjpeg
  In plain English:
  .
  1. We don't promise that this software works.  (But if you find any bugs,
@@ -536,7 +669,7 @@ Copyright: 2004, 2006-2012 Glenn Randers-Pehrson
            Guy Eric Schalnat
            Paul Schmidt
            Tim Wegner
-License:
+License: libpng
  The PNG Reference Library is supplied "AS IS".  The Contributing Authors
  and Group 42, Inc. disclaim all warranties, expressed or implied,
  including, without limitation, the warranties of merchantability and of
@@ -589,7 +722,7 @@ License: public-domain
 
 Files: src/3rdparty/wintab/*
 Copyright: 1991-1998 by LCS/Telegraphics
-License:
+License: wintab
  The text and information contained in this file may be freely used,
  copied, or distributed without compensation or licensing restrictions.
 
@@ -613,21 +746,23 @@ License: Zlib
     misrepresented as being the original software.
  3. This notice may not be removed or altered from any source distribution.
 
-License: LGPL-2.1 with Digia-1.1 exception
- GNU Lesser General Public License version 2.1:
+License: LGPL-2.1-or-3 with Digia-1.1 exception
+ GNU Lesser General Public License:
  This file may be used under the terms of the GNU Lesser General Public
- License version 2.1 as published by the Free Software Foundation and
- appearing in the file LICENSE.LGPL included in the packaging of this
- file. Please review the following information to ensure the GNU Lesser
- General Public License version 2.1 requirements will be met:
- http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html.
+ License version 2.1 or version 3 as published by the Free Software
+ Foundation and appearing in the file LICENSE.LGPLv21 and LICENSE.LGPLv3
+ included in the packaging of this file. Please review the following
+ information to ensure the GNU Lesser General Public License requirements
+ will be met: https://www.gnu.org/licenses/lgpl.html.
  .
  In addition, as a special exception, Digia gives you certain additional
  rights. These rights are described in the Digia Qt LGPL Exception
  version 1.1, included in the file LGPL_EXCEPTION.txt in this package.
  .
- On Debian systems, the complete text of the GNU Lesser General Public License
- can be found in `/usr/share/common-licenses/LGPL-2.1`.
+ On Debian systems, the complete text of the GNU Lesser General Public
+ License version 2.1 can be found in `/usr/share/common-licenses/LGPL-2.1`.
+ The complete text of the GNU Lesser General Public License version 3 can be
+ found in `/usr/share/common-licenses/LGPL-3`.
  .
  Digia Qt LGPL Exception version 1.1:
  As an additional permission to the GNU Lesser General Public License version
@@ -650,17 +785,6 @@ License: LGPL-2.1 with Digia-1.1 exception
  .
  Furthermore, you are not required to apply this additional permission to a
  modified version of the Library.
-
-License: GPL-3
- Alternatively, this file may be used under the terms of the GNU General
- Public License version 3.0 as published by the Free Software Foundation
- and appearing in the file LICENSE.GPL included in the packaging of this
- file. Please review the following information to ensure the GNU General
- Public License version 3.0 requirements will be met:
- http://www.gnu.org/copyleft/gpl.html.
- .
- On Debian systems, the complete text of the GNU Public Licenses can be found
- in `/usr/share/common-licenses/GPL-3`.
 
 License: BSD-3-clause
  You may use this file under the terms of the BSD license as follows:

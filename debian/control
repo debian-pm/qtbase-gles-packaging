@@ -2,9 +2,7 @@ Source: qtbase-opensource-src
 Section: libs
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Fathi Boudra <fabo@debian.org>,
-           Modestas Vainius <modax@debian.org>,
-           Sune Vuorela <debian@pusling.com>,
+Uploaders: Sune Vuorela <debian@pusling.com>,
            Pino Toscano <pino@debian.org>,
            Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
            Timo Jyrinki <timo@debian.org>,
@@ -28,9 +26,11 @@ Build-Depends: debhelper (>= 9),
                libgtk2.0-dev,
                libharfbuzz-dev,
                libicu-dev,
+               libinput-dev [linux-any],
                libjpeg-dev,
                libmtdev-dev [linux-any],
                libmysqlclient-dev,
+               libpcre3-dev,
                libpng-dev,
                libpq-dev,
                libpulse-dev,
@@ -56,11 +56,11 @@ Build-Depends: debhelper (>= 9),
                libxkbcommon-dev,
                libxkbcommon-x11-dev,
                libxrender-dev,
-               pkg-kde-tools (>= 0.14.2),
+               pkg-kde-tools (>= 0.15.17),
                unixodbc-dev,
                zlib1g-dev
 Build-Conflicts: libmariadbclient-dev
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 Homepage: http://qt-project.org/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/qt/qtbase.git
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/qt/qtbase.git
@@ -69,7 +69,7 @@ Package: libqt5core5a
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
-Provides: qtbase-abi-5-3-2
+Provides: qtbase-abi-5-4-2
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: qttranslations5-l10n
 Suggests: libthai0
@@ -86,11 +86,25 @@ Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: fontconfig, ${misc:Depends}, ${shlibs:Depends}
+Suggests: libqt5libqgtk2
 Description: Qt 5 GUI module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
  The QtGui module extends QtCore with GUI functionality.
+
+Package: libqt5libqgtk2
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: libqt5gui5 (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
+Breaks: libqt5gui5 (<< 5.4.1+dfsg-3~)
+Replaces: libqt5gui5 (<< 5.4.1+dfsg-3~)
+Description: Qt 5 GTK2 platform theme
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The libqgtk2 module provides GTK2 theme compatibility
 
 Package: libqt5network5
 Architecture: any
@@ -299,14 +313,17 @@ Description: Qt 5 base development files
  .
  This package contains the header development files used for building Qt 5
  applications.
+ .
+ If you are interested in packaging Qt 5 stuff please take a look at
+ http://pkg-kde.alioth.debian.org/packagingqtstuff.html
 
 Package: qtbase5-private-dev
 Architecture: any
 Multi-Arch: same
 Section: libdevel
 Depends: qtbase5-dev (= ${binary:Version}), ${misc:Depends}
-Breaks: qtbase5-dev (<< 5.3.2+dfsg-4~)
-Replaces: qtbase5-dev (<< 5.3.2+dfsg-4~)
+Breaks: qtbase5-dev (<< 5.4.0+dfsg-6~)
+Replaces: qtbase5-dev (<< 5.4.0+dfsg-6~)
 Description: Qt 5 base private development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -323,6 +340,8 @@ Section: libdevel
 Depends: libqt5opengl5 (= ${binary:Version}),
          qtbase5-dev (= ${binary:Version}),
          ${misc:Depends}
+Breaks: qtbase5-dev (<< 5.4.0+dfsg-6~)
+Replaces: qtbase5-dev (<< 5.4.0+dfsg-6~)
 Description: Qt 5 OpenGL library development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -426,6 +445,10 @@ Description: Qt 5 development defaults package
  using development binaries like qmake. It provides a default
  configuration for qtchooser, but does not prevent alternative Qt
  installations from being used.
+ .
+ This package should not be used for building Debian packages. Take a
+ look at http://pkg-kde.alioth.debian.org/packagingqtstuff.html for
+ more information.
 
 Package: qtbase5-doc-html
 Priority: extra

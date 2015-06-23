@@ -1,14 +1,9 @@
-remove_icon_from_example.patch
-hurd_opengl_incldir.diff
-mips_more_pre-mips32.diff
+# Backported stuff
+upstream_small-improvements-to-the-hurd-g-mkspec.patch
+upstream_Complete-MIPS-atomic-support-on-pre-MIPS32-architect.patch
 gnukfreebsd.diff
-fix_bug_in_internal_comparison_operator.patch
-fix_imagehandlers_cves.diff
-fix_upload_corruptions.diff
-
-# Patches that need to be upstreamed
-fix_sparc_atomics.patch
 
 # Debian specific.
-remove_google_adsense.patch
 revert_upstream_bsymbolic_change.patch
+no_htmlinfo_example.diff
+remove_privacy_breachs.diff

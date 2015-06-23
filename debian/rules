@@ -14,14 +14,8 @@ export CFLAGS := $(shell dpkg-buildflags --get CFLAGS) $(shell dpkg-buildflags -
 export CXXFLAGS := $(shell dpkg-buildflags --get CXXFLAGS) $(shell dpkg-buildflags --get CPPFLAGS)
 export LDFLAGS := $(shell dpkg-buildflags --get LDFLAGS) -Wl,--as-needed
 
-# Library package list for override_dh_makeshlibs, excludes -dev -dbg
-pkgs_lib := $(filter-out %-dev %-dbg,$(filter lib%,$(shell dh_listpackages)))
 # Upstream changelog
-upstream_changes := dist/changes-$(shell dpkg-parsechangelog | sed -n 's/^Version: //p' | cut -f1 -d '-' | sed -e 's/+dfsg//')
-# Current debian version (e.g.: 4:4.5.2-1)
-current_version := $(shell dpkg-parsechangelog | sed -n 's/^Version: //p')
-# Specific shlibs version (e.g.: 4:4.5.2)
-shlibs_version := $(shell dpkg-parsechangelog | sed -n 's/^Version: //p' | cut -f1 -d '-')
+upstream_changes := dist/changes-$(shell dpkg-parsechangelog | sed -n 's/^Version: //p' | cut -f1 -d '-' | sed -e 's/+dfsg//' | sed -e 's/+git.*//')
 # Distribution vendor
 vendor := $(shell dpkg-vendor --query Vendor)
 
@@ -88,11 +82,18 @@ else
 	$(error Unknown qmake mkspec for $(DEB_HOST_ARCH_OS))
 endif
 
+ifneq (,$(filter parallel=%,$(DEB_BUILD_OPTIONS)))
+	NUMJOBS = $(patsubst parallel=%,%,$(filter parallel=%,$(DEB_BUILD_OPTIONS)))
+else
+	NUMJOBS = 1
+endif
+
 %:
 	dh $@ --parallel --with pkgkde_symbolshelper
 
 override_dh_auto_configure:
-	./configure -confirm-license \
+	MAKEFLAGS="-j$(NUMJOBS)" ./configure \
+	            -confirm-license \
 	            -prefix "/usr" \
 	            -bindir "/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/bin" \
 	            -libdir "/usr/lib/$(DEB_HOST_MULTIARCH)" \
@@ -204,8 +205,7 @@ override_dh_auto_clean:
 	| cut -d ':' -f 1 | xargs rm -f
 
 	# Generated on build
-	rm -f debian/shlibs.local
-	rm -f debian/stamp-makefile-build-tools
+	rm -vf debian/stamp-makefile-build-tools
 
 	# more leftovers
 	rm -f .device.vars .qmake.vars
@@ -268,14 +268,23 @@ endif
 	# are via CMake, so don't install them.
 	rm -fv debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/cmake/Qt5*/Q*Plugin.cmake
 
+	# There is also no need to install libQtBootstrap. As it's name indicates it's
+	# only used to bootstrap qt.
+	rm -fv debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/libQt5Bootstrap*
+	rm -fv debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/pkgconfig/Qt5Bootstrap.pc
+
 	# Remove bogus exec bits from some data files in mkspecs, docs, examples
 	find debian/tmp/usr/share/qt5/ debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/ \
+	     debian/tmp/usr/share/qt5/doc/ \
 		-perm /u+x,g+x,o+x -type f \
 		-regex '.*\.\(app\|conf\|cpp\|h\|js\|php\|png\|pro\|xml\|xsl\)$$' \
 		-exec chmod a-x {} \;
 
 override_dh_auto_install-indep:
 	make INSTALL_ROOT=$(CURDIR)/debian/tmp install_html_docs
+	# Docs are shipping empty directories, most probably for scripts only present
+	# when building online-html. See QTBUG-44655.
+	find $(CURDIR)/debian/tmp/usr/share/qt5/doc/ -type d -empty -delete -print
 
 override_dh_install:
 	# Now flush all the .install-* files as .install files.
@@ -308,17 +317,10 @@ override_dh_strip:
 	dh_strip --remaining-packages --dbg-package=qtbase5-dbg
 
 override_dh_makeshlibs:
-	# Specific shlibs version (e.g.: 4:4.5.2)
-	$(foreach pkg,$(pkgs_lib),dh_makeshlibs -p$(pkg) -V '$(pkg) (>= $(shlibs_version))' -- -c0;)
-	# Generate shlibs local files
-	for pkg in $(pkgs_lib); do \
-		if test -e debian/$${pkg}/DEBIAN/shlibs ; then \
-			sed 's/>=[^)]*/= $(current_version)/' debian/$${pkg}/DEBIAN/shlibs >> debian/shlibs.local ;\
-		fi \
-	done
+	dh_makeshlibs -V
 
 	# Check for private symbols not marked as such. Be verbose.
-	DEBUG=1 debian/mark_private_symbols.sh
+	pkgkde-mark-private-symbols debian/qtbase5-private-dev/usr/include
 
 override_dh_clean:
 	dh_clean
@@ -335,17 +337,3 @@ override_dh_clean:
 	for pkg in $(pkgs_with_os); do \
 		rm -f debian/$$pkg.install ; \
 	done
-
-# See upstream bugs
-# https://bugreports.qt-project.org/browse/QTBUG-30544
-# https://bugreports.qt-project.org/browse/QTBUG-30545
-prune-nonfree:
-	# Delete zlib's RFCs.
-	find \( -name rfc????.txt \) -print -delete
-	rm -fv tests/manual/network_stresstest/qtest/bigfile
-	rm -fv tests/auto/network/access/qnetworkreply/bigfile
-	rm -fv tests/auto/network/access/qnetworkreply/resource
-	# Delete Luxi-font licensed fonts, they are not DFSG compatible.
-	rm -fv lib/fonts/l*
-	# Delete Adobe's Utopia fonts. They do not seem to allow modification.
-	rm -fv lib/fonts/U*

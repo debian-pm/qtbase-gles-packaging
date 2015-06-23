@@ -1,6 +1,6 @@
-# SymbolsHelper-Confirmed: 5.3.2 amd64
+# SymbolsHelper-Confirmed: 5.4.2 alpha amd64 arm64 armel hppa hurd-i386 i386 mips mipsel powerpc ppc64 ppc64el s390x x32
 libQt5Gui.so.5 libqt5gui5 #MINVER#
-| libqt5gui5 #MINVER#, qtbase-abi-5-3-2
+| libqt5gui5 #MINVER#, qtbase-abi-5-4-2
  _Z11qDrawBorderP8QPainterRK5QRectPKN4QCss11BorderStyleEPKiPK6QBrushPK5QSize@Base 5.0.2
  _Z12qTriangulatePKdijRK10QTransform@Base 5.2.0
  _Z12qTriangulateRK11QVectorPathRK10QTransformd@Base 5.2.0 1
@@ -52,15 +52,19 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _Z24qt_region_strictContainsRK7QRegionRK5QRect@Base 5.0.2
  _Z25hb_qt_face_get_for_engineP11QFontEngine@Base 5.2.0 1
  _Z25hb_qt_font_get_for_engineP11QFontEngine@Base 5.2.0 1
+ _Z26qt_gl_global_share_contextv@Base 5.4.0
  _Z27qt_isExtendedRadialGradientRK6QBrush@Base 5.0.2
  _Z28qt_painterPathFromVectorPathRK11QVectorPath@Base 5.0.2 1
  _Z28qt_script_for_writing_systemN13QFontDatabase13WritingSystemE@Base 5.3.0
  _Z29qt_draw_decoration_for_glyphsP8QPainterPKjPK11QFixedPointiP11QFontEngineRK5QFontRK15QTextCharFormat@Base 5.0.2 1
  _Z29qt_set_sequence_auto_mnemonicb@Base 5.0.2
+ _Z30qt_gl_set_global_share_contextP14QOpenGLContext@Base 5.4.0
  _Z32qGamma_correct_back_to_linear_csP6QImage@Base 5.0.2
  (optional=gccinternal|arch=amd64 kfreebsd-amd64 powerpcspe x32)_Z32qt_convert_rgb888_to_rgb32_ssse3PjPKhi@Base 5.0.2
  _Z33hb_qt_font_get_use_design_metricsP9hb_font_t@Base 5.2.0
  _Z33hb_qt_font_set_use_design_metricsP9hb_font_tj@Base 5.2.0
+ _Z35qtInitializeVertexArrayObjectHelperP30QOpenGLVertexArrayObjectHelperP14QOpenGLContext@Base 5.4.0
+ _Z37qAccessibleLocalizedActionDescriptionRK7QString@Base 5.4.0
  _Z5qHashRK5QFontj@Base 5.3.0
  _Z5qHashRKN22QGuiApplicationPrivate20ActiveTouchPointsKeyE@Base 5.0.2 1
  _Z9qPolylineRK12QPainterPathRK10QTransformd@Base 5.2.0
@@ -156,6 +160,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN10QMatrix4x46rotateEffff@Base 5.0.2
  _ZN10QMatrix4x47frustumEffffff@Base 5.0.2
  _ZN10QMatrix4x48optimizeEv@Base 5.0.2
+ _ZN10QMatrix4x48viewportEffffff@Base 5.4.0
  _ZN10QMatrix4x49translateERK9QVector3D@Base 5.0.2
  _ZN10QMatrix4x49translateEff@Base 5.0.2
  _ZN10QMatrix4x49translateEfff@Base 5.0.2
@@ -368,12 +373,15 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN11QAccessible20installUpdateHandlerEPFvP16QAccessibleEventE@Base 5.0.2
  _ZN11QAccessible24installRootObjectHandlerEPFvP7QObjectE@Base 5.0.2
  _ZN11QAccessible24queryAccessibleInterfaceEP7QObject@Base 5.0.2
+ _ZN11QAccessible24removeActivationObserverEPNS_18ActivationObserverE@Base 5.4.0
  _ZN11QAccessible25deleteAccessibleInterfaceEj@Base 5.1.0
+ _ZN11QAccessible25installActivationObserverEPNS_18ActivationObserverE@Base 5.4.0
  _ZN11QAccessible27registerAccessibleInterfaceEP20QAccessibleInterface@Base 5.1.0
  _ZN11QAccessible29qAccessibleTextBoundaryHelperERK11QTextCursorNS_16TextBoundaryTypeE@Base 5.1.0
  _ZN11QAccessible7cleanupEv@Base 5.0.2
  _ZN11QAccessible8isActiveEv@Base 5.0.2
  _ZN11QAccessible8uniqueIdEP20QAccessibleInterface@Base 5.1.0
+ _ZN11QAccessible9setActiveEb@Base 5.4.0
  _ZN11QCloseEventC1Ev@Base 5.0.2
  _ZN11QCloseEventC2Ev@Base 5.0.2
  _ZN11QCloseEventD0Ev@Base 5.0.2
@@ -447,9 +455,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN11QIconLoader8instanceEv@Base 5.0.2 1
  _ZN11QIconLoaderC1Ev@Base 5.0.2 1
  _ZN11QIconLoaderC2Ev@Base 5.0.2 1
- _ZN11QIconLoaderD0Ev@Base 5.0.2 1
- _ZN11QIconLoaderD1Ev@Base 5.0.2 1
- _ZN11QIconLoaderD2Ev@Base 5.0.2 1
  _ZN11QInputEventC1EN6QEvent4TypeE6QFlagsIN2Qt16KeyboardModifierEE@Base 5.0.2
  _ZN11QInputEventC2EN6QEvent4TypeE6QFlagsIN2Qt16KeyboardModifierEE@Base 5.0.2
  _ZN11QInputEventD0Ev@Base 5.0.2
@@ -502,9 +507,9 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN11QSimpleDrag9startDragEv@Base 5.1.0 1
  _ZN11QSimpleDragC1Ev@Base 5.1.0 1
  _ZN11QSimpleDragC2Ev@Base 5.1.0 1
- _ZN11QSimpleDragD0Ev@Base 5.1.0 1
- _ZN11QSimpleDragD1Ev@Base 5.1.0 1
- _ZN11QSimpleDragD2Ev@Base 5.1.0 1
+ (optional=gccinternal)_ZN11QSimpleDragD0Ev@Base 5.1.0 1
+ (optional=gccinternal)_ZN11QSimpleDragD1Ev@Base 5.1.0 1
+ (optional=gccinternal)_ZN11QSimpleDragD2Ev@Base 5.1.0 1
  _ZN11QStaticText12setTextWidthEd@Base 5.2.0
  _ZN11QStaticText13setTextFormatEN2Qt10TextFormatE@Base 5.0.2
  _ZN11QStaticText13setTextOptionERK11QTextOption@Base 5.0.2
@@ -541,9 +546,9 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN11QStyleHints27setMouseDoubleClickIntervalEi@Base 5.3.0
  _ZN11QStyleHintsC1Ev@Base 5.0.2
  _ZN11QStyleHintsC2Ev@Base 5.0.2
- _ZN11QStyleHintsD0Ev@Base 5.0.2
- _ZN11QStyleHintsD1Ev@Base 5.0.2
- _ZN11QStyleHintsD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN11QStyleHintsD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN11QStyleHintsD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN11QStyleHintsD2Ev@Base 5.0.2
  _ZN11QTextCursor10createListEN15QTextListFormat5StyleE@Base 5.0.2
  _ZN11QTextCursor10createListERK15QTextListFormat@Base 5.0.2
  _ZN11QTextCursor10deleteCharEv@Base 5.0.2
@@ -607,10 +612,12 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN11QTextEngine10LayoutDataD2Ev@Base 5.0.2 1
  _ZN11QTextEngine10freeMemoryEv@Base 5.0.2 1
  _ZN11QTextEngine10invalidateEv@Base 5.0.2 1
+ _ZN11QTextEngine10setFormatsERK5QListIN11QTextLayout11FormatRangeEE@Base 5.4.0 1
  _ZN11QTextEngine11addOverlineEP8QPainterRK6QLineF@Base 5.0.2 1
  _ZN11QTextEngine11bidiReorderEiPKhPi@Base 5.0.2 1
  _ZN11QTextEngine12addStrikeOutEP8QPainterRK6QLineF@Base 5.0.2 1
  _ZN11QTextEngine12addUnderlineEP8QPainterRK6QLineF@Base 5.0.2 1
+ _ZN11QTextEngine12indexFormatsEv@Base 5.4.0 1
  _ZN11QTextEngine13clearLineDataEv@Base 5.0.2 1
  _ZN11QTextEngine14setPreeditAreaEiRK7QString@Base 5.1.0 1
  _ZN11QTextEngine15FontEngineCacheC1Ev@Base 5.0.2 1
@@ -626,9 +633,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN11QTextEngine17leadingSpaceWidthERK11QScriptLine@Base 5.0.2 1
  _ZN11QTextEngine18positionInLigatureEPK11QScriptItemi6QFixedS3_ib@Base 5.0.2 1
  _ZN11QTextEngine20resetFontEngineCacheEv@Base 5.0.2 1
- _ZN11QTextEngine20setAdditionalFormatsERK5QListIN11QTextLayout11FormatRangeEE@Base 5.1.0 1
  _ZN11QTextEngine22drawItemDecorationListEP8QPainterRK5QListINS_14ItemDecorationEE@Base 5.0.2 1
- _ZN11QTextEngine22indexAdditionalFormatsEv@Base 5.0.2 1
  _ZN11QTextEngine22insertionPointsForLineEiR7QVectorIiE@Base 5.0.2 1
  _ZN11QTextEngine25lineNumberForTextPositionEi@Base 5.0.2 1
  _ZN11QTextEngine27positionAfterVisualMovementEiN11QTextCursor13MoveOperationE@Base 5.0.2 1
@@ -825,6 +830,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN12QImageReaderD1Ev@Base 5.0.2
  _ZN12QImageReaderD2Ev@Base 5.0.2
  _ZN12QImageWriter10setQualityEi@Base 5.0.2
+ _ZN12QImageWriter10setSubTypeERK10QByteArray@Base 5.4.0
  _ZN12QImageWriter11setFileNameERK7QString@Base 5.0.2
  _ZN12QImageWriter14setCompressionEi@Base 5.0.2
  _ZN12QImageWriter14setDescriptionERK7QString@Base 5.0.2
@@ -1025,8 +1031,11 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN12QShortcutMapC2Ev@Base 5.0.2 1
  _ZN12QShortcutMapD1Ev@Base 5.0.2 1
  _ZN12QShortcutMapD2Ev@Base 5.0.2 1
+ _ZN12QTabletEvent16staticMetaObjectE@Base 5.4.0
  _ZN12QTabletEventC1EN6QEvent4TypeERK7QPointFS4_iidiiddi6QFlagsIN2Qt16KeyboardModifierEEx@Base 5.2.0
+ _ZN12QTabletEventC1EN6QEvent4TypeERK7QPointFS4_iidiiddi6QFlagsIN2Qt16KeyboardModifierEExNS6_11MouseButtonES5_IS9_E@Base 5.4.0
  _ZN12QTabletEventC2EN6QEvent4TypeERK7QPointFS4_iidiiddi6QFlagsIN2Qt16KeyboardModifierEEx@Base 5.2.0
+ _ZN12QTabletEventC2EN6QEvent4TypeERK7QPointFS4_iidiiddi6QFlagsIN2Qt16KeyboardModifierEExNS6_11MouseButtonES5_IS9_E@Base 5.4.0
  _ZN12QTabletEventD0Ev@Base 5.0.2
  _ZN12QTabletEventD1Ev@Base 5.0.2
  _ZN12QTabletEventD2Ev@Base 5.0.2
@@ -1069,7 +1078,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN13QFontDatabase26addApplicationFontFromDataERK10QByteArray@Base 5.0.2
  _ZN13QFontDatabase29supportsThreadedFontRenderingEv@Base 5.2.0~beta1
  _ZN13QFontDatabase4loadEPK12QFontPrivatei@Base 5.0.2 1
- _ZN13QFontDatabase8findFontEiPK12QFontPrivateRK8QFontDefbb@Base 5.3.2 1
+ _ZN13QFontDatabase8findFontEiPK12QFontPrivateRK8QFontDefb@Base 5.4.0 1
  _ZN13QFontDatabaseC1Ev@Base 5.0.2
  _ZN13QFontDatabaseC2Ev@Base 5.0.2
  _ZN13QFontMetricsFC1ERK12QFontMetrics@Base 5.0.2
@@ -1111,6 +1120,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN13QOpenGLBuffer7releaseENS_4TypeE@Base 5.0.2
  _ZN13QOpenGLBuffer7releaseEv@Base 5.0.2
  _ZN13QOpenGLBuffer8allocateEPKvi@Base 5.0.2
+ _ZN13QOpenGLBuffer8mapRangeEii6QFlagsINS_15RangeAccessFlagEE@Base 5.4.0
  _ZN13QOpenGLBufferC1ENS_4TypeE@Base 5.0.2
  _ZN13QOpenGLBufferC1ERKS_@Base 5.0.2
  _ZN13QOpenGLBufferC1Ev@Base 5.0.2
@@ -1133,6 +1143,25 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN13QOpenGLShaderD0Ev@Base 5.0.2
  _ZN13QOpenGLShaderD1Ev@Base 5.0.2
  _ZN13QOpenGLShaderD2Ev@Base 5.0.2
+ _ZN13QOpenGLWindow10paintEventEP11QPaintEvent@Base 5.4.0
+ _ZN13QOpenGLWindow11doneCurrentEv@Base 5.4.0
+ _ZN13QOpenGLWindow11makeCurrentEv@Base 5.4.0
+ _ZN13QOpenGLWindow11paintOverGLEv@Base 5.4.0
+ _ZN13QOpenGLWindow11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.4.0
+ _ZN13QOpenGLWindow11qt_metacastEPKc@Base 5.4.0
+ _ZN13QOpenGLWindow11resizeEventEP12QResizeEvent@Base 5.4.0
+ _ZN13QOpenGLWindow12frameSwappedEv@Base 5.4.0
+ _ZN13QOpenGLWindow12initializeGLEv@Base 5.4.0
+ _ZN13QOpenGLWindow12paintUnderGLEv@Base 5.4.0
+ _ZN13QOpenGLWindow15grabFramebufferEv@Base 5.4.0
+ _ZN13QOpenGLWindow16staticMetaObjectE@Base 5.4.0
+ _ZN13QOpenGLWindow7paintGLEv@Base 5.4.0
+ _ZN13QOpenGLWindow8resizeGLEii@Base 5.4.0
+ _ZN13QOpenGLWindowC1ENS_14UpdateBehaviorEP7QWindow@Base 5.4.0
+ _ZN13QOpenGLWindowC2ENS_14UpdateBehaviorEP7QWindow@Base 5.4.0
+ (optional=gccinternal)_ZN13QOpenGLWindowD0Ev@Base 5.4.0
+ (optional=gccinternal)_ZN13QOpenGLWindowD1Ev@Base 5.4.0
+ (optional=gccinternal)_ZN13QOpenGLWindowD2Ev@Base 5.4.0
  _ZN13QPainterState4initEP8QPainter@Base 5.0.2 1
  _ZN13QPainterStateC1EPKS_@Base 5.0.2 1
  _ZN13QPainterStateC1Ev@Base 5.0.2 1
@@ -1153,6 +1182,14 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN13QPlatformMenu11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
  _ZN13QPlatformMenu11qt_metacastEPKc@Base 5.0.2 1
  _ZN13QPlatformMenu16staticMetaObjectE@Base 5.0.2 1
+ _ZN13QRasterWindow11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.4.0
+ _ZN13QRasterWindow11qt_metacastEPKc@Base 5.4.0
+ _ZN13QRasterWindow16staticMetaObjectE@Base 5.4.0
+ _ZN13QRasterWindowC1EP7QWindow@Base 5.4.0
+ _ZN13QRasterWindowC2EP7QWindow@Base 5.4.0
+ (optional=gccinternal)_ZN13QRasterWindowD0Ev@Base 5.4.0
+ (optional=gccinternal)_ZN13QRasterWindowD1Ev@Base 5.4.0
+ (optional=gccinternal)_ZN13QRasterWindowD2Ev@Base 5.4.0
  _ZN13QStandardItem10insertRowsEiRK5QListIPS_E@Base 5.0.2
  _ZN13QStandardItem10insertRowsEii@Base 5.0.2
  _ZN13QStandardItem10removeRowsEii@Base 5.0.2
@@ -1276,17 +1313,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN14QFileOpenEventD0Ev@Base 5.0.2
  _ZN14QFileOpenEventD1Ev@Base 5.0.2
  _ZN14QFileOpenEventD2Ev@Base 5.0.2
- _ZN14QFontEngineQPA11boundingBoxERK12QGlyphLayout@Base 5.0.2 1
- _ZN14QFontEngineQPA11boundingBoxEj@Base 5.0.2 1
- _ZN14QFontEngineQPA12verifyHeaderEPKhi@Base 5.0.2 1
- _ZN14QFontEngineQPA16addOutlineToPathEddRK12QGlyphLayoutP12QPainterPath6QFlagsIN9QTextItem10RenderFlagEE@Base 5.2.0 1
- _ZN14QFontEngineQPA16alphaMapForGlyphEj@Base 5.0.2 1
- _ZN14QFontEngineQPA18extractHeaderFieldEPKhNS_9HeaderTagE@Base 5.0.2 1
- _ZN14QFontEngineQPAC1ERK8QFontDefRK10QByteArray@Base 5.0.2 1
- _ZN14QFontEngineQPAC2ERK8QFontDefRK10QByteArray@Base 5.0.2 1
- _ZN14QFontEngineQPAD0Ev@Base 5.0.2 1
- _ZN14QFontEngineQPAD1Ev@Base 5.0.2 1
- _ZN14QFontEngineQPAD2Ev@Base 5.0.2 1
  _ZN14QGenericPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN14QGenericPlugin11qt_metacastEPKc@Base 5.0.2
  _ZN14QGenericPlugin16staticMetaObjectE@Base 5.0.2
@@ -1318,6 +1344,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN14QOpenGLContext11qt_metacastEPKc@Base 5.0.2
  _ZN14QOpenGLContext11swapBuffersEP8QSurface@Base 5.0.2
  _ZN14QOpenGLContext14currentContextEv@Base 5.0.2
+ _ZN14QOpenGLContext15setNativeHandleERK8QVariant@Base 5.4.0
  _ZN14QOpenGLContext15setShareContextEPS_@Base 5.0.2
  _ZN14QOpenGLContext16deleteQGLContextEv@Base 5.0.2
  _ZN14QOpenGLContext16openGLModuleTypeEv@Base 5.3.0
@@ -1338,6 +1365,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN14QOpenGLContextD1Ev@Base 5.0.2
  _ZN14QOpenGLContextD2Ev@Base 5.0.2
  _ZN14QOpenGLTexture10hasFeatureENS_7FeatureE@Base 5.2.0~alpha1
+ _ZN14QOpenGLTexture10setSamplesEi@Base 5.4.0
  _ZN14QOpenGLTexture11setWrapModeENS_19CoordinateDirectionENS_8WrapModeE@Base 5.2.0~alpha1
  _ZN14QOpenGLTexture11setWrapModeENS_8WrapModeE@Base 5.2.0~alpha1
  _ZN14QOpenGLTexture12setMipLevelsEi@Base 5.2.0~alpha1
@@ -1370,6 +1398,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN14QOpenGLTexture21setLevelOfDetailRangeEff@Base 5.2.0~alpha1
  _ZN14QOpenGLTexture21setMinificationFilterENS_6FilterE@Base 5.2.0~alpha1
  _ZN14QOpenGLTexture22setMagnificationFilterENS_6FilterE@Base 5.2.0~alpha1
+ _ZN14QOpenGLTexture23setFixedSamplePositionsEb@Base 5.4.0
  _ZN14QOpenGLTexture23setMaximumLevelOfDetailEf@Base 5.2.0~alpha1
  _ZN14QOpenGLTexture23setMinimumLevelOfDetailEf@Base 5.2.0~alpha1
  _ZN14QOpenGLTexture30setAutoMipMapGenerationEnabledEb@Base 5.2.0~alpha1
@@ -1446,10 +1475,12 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN14QSurfaceFormat10setProfileENS_20OpenGLContextProfileE@Base 5.0.2
  _ZN14QSurfaceFormat10setSamplesEi@Base 5.0.2
  _ZN14QSurfaceFormat10setVersionEii@Base 5.1.0
+ _ZN14QSurfaceFormat13defaultFormatEv@Base 5.4.0
  _ZN14QSurfaceFormat15setMajorVersionEi@Base 5.0.2
  _ZN14QSurfaceFormat15setMinorVersionEi@Base 5.0.2
  _ZN14QSurfaceFormat15setSwapBehaviorENS_12SwapBehaviorE@Base 5.0.2
  _ZN14QSurfaceFormat15setSwapIntervalEi@Base 5.3.0
+ _ZN14QSurfaceFormat16setDefaultFormatERKS_@Base 5.4.0
  _ZN14QSurfaceFormat16setRedBufferSizeEi@Base 5.0.2
  _ZN14QSurfaceFormat17setBlueBufferSizeEi@Base 5.0.2
  _ZN14QSurfaceFormat17setRenderableTypeENS_14RenderableTypeE@Base 5.0.2
@@ -1473,13 +1504,15 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN14QTextTableCell9setFormatERK15QTextCharFormat@Base 5.0.2
  _ZN14QWindowPrivate11applyCursorEv@Base 5.0.2 1
  _ZN14QWindowPrivate13_q_clearAlertEv@Base 5.1.0 1
+ _ZN14QWindowPrivate15connectToScreenEP7QScreen@Base 5.4.0 1
  _ZN14QWindowPrivate16clearFocusObjectEv@Base 5.2.0~rc1 1
  _ZN14QWindowPrivate16updateVisibilityEv@Base 5.1.0 1
+ _ZN14QWindowPrivate17setTopLevelScreenEP7QScreenb@Base 5.4.0 1
+ _ZN14QWindowPrivate26emitScreenChangedRecursionEP7QScreen@Base 5.4.0 1
  _ZN14QWindowPrivate27maybeQuitOnLastWindowClosedEv@Base 5.0.2 1
  _ZN14QWindowPrivate4initEv@Base 5.3.0 1
  _ZN14QWindowPrivate6createEb@Base 5.3.2 1
  _ZN14QWindowPrivate9setCursorEPK7QCursor@Base 5.1.0 1
- _ZN14QWindowPrivate9setScreenEP7QScreenb@Base 5.1.0 1
  _ZN15QDragEnterEventC1ERK6QPoint6QFlagsIN2Qt10DropActionEEPK9QMimeDataS3_INS4_11MouseButtonEES3_INS4_16KeyboardModifierEE@Base 5.0.2
  _ZN15QDragEnterEventC2ERK6QPoint6QFlagsIN2Qt10DropActionEEPK9QMimeDataS3_INS4_11MouseButtonEES3_INS4_16KeyboardModifierEE@Base 5.0.2
  _ZN15QDragEnterEventD0Ev@Base 5.0.2
@@ -1490,6 +1523,17 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN15QDragLeaveEventD0Ev@Base 5.0.2
  _ZN15QDragLeaveEventD1Ev@Base 5.0.2
  _ZN15QDragLeaveEventD2Ev@Base 5.0.2
+ _ZN15QFontEngineQPF211boundingBoxERK12QGlyphLayout@Base 5.4.0 1
+ _ZN15QFontEngineQPF211boundingBoxEj@Base 5.4.0 1
+ _ZN15QFontEngineQPF212verifyHeaderEPKhi@Base 5.4.0 1
+ _ZN15QFontEngineQPF216addOutlineToPathEddRK12QGlyphLayoutP12QPainterPath6QFlagsIN9QTextItem10RenderFlagEE@Base 5.4.0 1
+ _ZN15QFontEngineQPF216alphaMapForGlyphEj@Base 5.4.0 1
+ _ZN15QFontEngineQPF218extractHeaderFieldEPKhNS_9HeaderTagE@Base 5.4.0 1
+ _ZN15QFontEngineQPF2C1ERK8QFontDefRK10QByteArray@Base 5.4.0 1
+ _ZN15QFontEngineQPF2C2ERK8QFontDefRK10QByteArray@Base 5.4.0 1
+ _ZN15QFontEngineQPF2D0Ev@Base 5.4.0 1
+ _ZN15QFontEngineQPF2D1Ev@Base 5.4.0 1
+ _ZN15QFontEngineQPF2D2Ev@Base 5.4.0 1
  _ZN15QGridLayoutItem10setRowSpanEiN2Qt11OrientationE@Base 5.3.0 1
  _ZN15QGridLayoutItem11setFirstRowEiN2Qt11OrientationE@Base 5.3.0 1
  _ZN15QGridLayoutItem16setStretchFactorEiN2Qt11OrientationE@Base 5.3.0 1
@@ -1513,12 +1557,15 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN15QGuiApplication12platformNameEv@Base 5.0.2
  _ZN15QGuiApplication13compressEventEP6QEventP7QObjectP14QPostEventList@Base 5.0.2
  _ZN15QGuiApplication13primaryScreenEv@Base 5.0.2
+ _ZN15QGuiApplication13screenRemovedEP7QScreen@Base 5.4.0
  _ZN15QGuiApplication13setWindowIconERK5QIcon@Base 5.3.0
  _ZN15QGuiApplication14overrideCursorEv@Base 5.0.2
+ _ZN15QGuiApplication14paletteChangedERK8QPalette@Base 5.4.0
  _ZN15QGuiApplication15layoutDirectionEv@Base 5.0.2
  _ZN15QGuiApplication15topLevelWindowsEv@Base 5.0.2
  _ZN15QGuiApplication16applicationStateEv@Base 5.2.0~alpha1
  _ZN15QGuiApplication16lastWindowClosedEv@Base 5.0.2
+ _ZN15QGuiApplication16platformFunctionERK10QByteArray@Base 5.4.0
  _ZN15QGuiApplication16saveStateRequestER15QSessionManager@Base 5.0.2
  _ZN15QGuiApplication16staticMetaObjectE@Base 5.0.2
  _ZN15QGuiApplication17commitDataRequestER15QSessionManager@Base 5.0.2
@@ -1532,6 +1579,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN15QGuiApplication20desktopSettingsAwareEv@Base 5.0.2
  _ZN15QGuiApplication21restoreOverrideCursorEv@Base 5.0.2
  _ZN15QGuiApplication22applicationDisplayNameEv@Base 5.0.2
+ _ZN15QGuiApplication22layoutDirectionChangedEN2Qt15LayoutDirectionE@Base 5.4.0
  _ZN15QGuiApplication22queryKeyboardModifiersEv@Base 5.0.2
  _ZN15QGuiApplication22quitOnLastWindowClosedEv@Base 5.0.2
  _ZN15QGuiApplication23applicationStateChangedEN2Qt16ApplicationStateE@Base 5.2.0~alpha1
@@ -1650,9 +1698,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN15QRadialGradientC2Eddddd@Base 5.2.0
  _ZN15QRadialGradientC2Edddddd@Base 5.2.0
  _ZN15QRadialGradientC2Ev@Base 5.0.2
- _ZN15QRawFontPrivate15platformCleanUpEv@Base 5.0.2 1
- _ZN15QRawFontPrivate20platformLoadFromDataERK10QByteArraydN5QFont17HintingPreferenceE@Base 5.2.0 1
- _ZN15QRawFontPrivate7cleanUpEv@Base 5.0.2 1
+ _ZN15QRawFontPrivate12loadFromDataERK10QByteArraydN5QFont17HintingPreferenceE@Base 5.4.0 1
  _ZN15QSessionManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN15QSessionManager11qt_metacastEPKc@Base 5.0.2
  _ZN15QSessionManager13requestPhase2Ev@Base 5.0.2
@@ -1709,9 +1755,9 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN16QAccessibleCache15objectDestroyedEP7QObject@Base 5.3.0 1
  _ZN16QAccessibleCache16staticMetaObjectE@Base 5.3.0 1
  _ZN16QAccessibleCache8instanceEv@Base 5.3.0 1
- _ZN16QAccessibleCacheD0Ev@Base 5.3.0 1
- _ZN16QAccessibleCacheD1Ev@Base 5.3.0 1
- _ZN16QAccessibleCacheD2Ev@Base 5.3.0 1
+ (optional=gccinternal)_ZN16QAccessibleCacheD0Ev@Base 5.3.0 1
+ (optional=gccinternal)_ZN16QAccessibleCacheD1Ev@Base 5.3.0 1
+ (optional=gccinternal)_ZN16QAccessibleCacheD2Ev@Base 5.3.0 1
  _ZN16QConicalGradient8setAngleEd@Base 5.2.0
  _ZN16QConicalGradient9setCenterERK7QPointF@Base 5.0.2
  _ZN16QConicalGradientC1ERK7QPointFd@Base 5.2.0
@@ -1720,7 +1766,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN16QConicalGradientC2ERK7QPointFd@Base 5.2.0
  _ZN16QConicalGradientC2Eddd@Base 5.2.0
  _ZN16QConicalGradientC2Ev@Base 5.0.2
- (optional=gccinternal)_ZN16QCoreApplication20sendSpontaneousEventEP7QObjectP6QEvent@Base 5.3.0
+ (optional=internal|arch=!amd64 !hurd-i386 !i386 !x32)_ZN16QCoreApplication20sendSpontaneousEventEP7QObjectP6QEvent@Base 5.4.2
  _ZN16QDesktopServices13setUrlHandlerERK7QStringP7QObjectPKc@Base 5.0.2
  _ZN16QDesktopServices15unsetUrlHandlerERK7QString@Base 5.0.2
  _ZN16QDesktopServices19storageLocationImplEN14QStandardPaths16StandardLocationE@Base 5.0.2
@@ -1862,9 +1908,9 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN17QInputMethodEventC2ERK7QStringRK5QListINS_9AttributeEE@Base 5.0.2
  _ZN17QInputMethodEventC2ERKS_@Base 5.0.2
  _ZN17QInputMethodEventC2Ev@Base 5.0.2
- _ZN17QInputMethodEventD0Ev@Base 5.0.2
- _ZN17QInputMethodEventD1Ev@Base 5.0.2
- _ZN17QInputMethodEventD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN17QInputMethodEventD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN17QInputMethodEventD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN17QInputMethodEventD2Ev@Base 5.0.2
  _ZN17QInternalMimeData11canReadDataERK7QString@Base 5.0.2 1
  _ZN17QInternalMimeData11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
  _ZN17QInternalMimeData11qt_metacastEPKc@Base 5.0.2 1
@@ -1891,6 +1937,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN17QOffscreenSurfaceD0Ev@Base 5.1.0
  _ZN17QOffscreenSurfaceD1Ev@Base 5.1.0
  _ZN17QOffscreenSurfaceD2Ev@Base 5.1.0
+ _ZN17QOpenGLExtensions11gles3HelperEv@Base 5.4.1 1
  _ZN17QOpenGLExtensions16openGLExtensionsEv@Base 5.0.2 1
  _ZN17QOpenGLExtensionsC1EP14QOpenGLContext@Base 5.0.2 1
  _ZN17QOpenGLExtensionsC1Ev@Base 5.0.2 1
@@ -1956,6 +2003,8 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN17QPlatformMenuItem9activatedEv@Base 5.0.2 1
  _ZN17QPlatformServices12openDocumentERK4QUrl@Base 5.0.2 1
  _ZN17QPlatformServices7openUrlERK4QUrl@Base 5.0.2 1
+ _ZN17QPlatformServicesC1Ev@Base 5.4.1 1
+ _ZN17QPlatformServicesC2Ev@Base 5.4.1 1
  _ZN17QTextImageHandler10drawObjectEP8QPainterRK6QRectFP13QTextDocumentiRK11QTextFormat@Base 5.0.2 1
  _ZN17QTextImageHandler11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
  _ZN17QTextImageHandler11qt_metacastEPKc@Base 5.0.2 1
@@ -1964,9 +2013,9 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN17QTextImageHandler5imageEP13QTextDocumentRK16QTextImageFormat@Base 5.0.2 1
  _ZN17QTextImageHandlerC1EP7QObject@Base 5.0.2 1
  _ZN17QTextImageHandlerC2EP7QObject@Base 5.0.2 1
- _ZN17QTextImageHandlerD0Ev@Base 5.0.2 1
- _ZN17QTextImageHandlerD1Ev@Base 5.0.2 1
- _ZN17QTextImageHandlerD2Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN17QTextImageHandlerD0Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN17QTextImageHandlerD1Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN17QTextImageHandlerD2Ev@Base 5.0.2 1
  _ZN17QTextInlineObject10setDescentEd@Base 5.2.0
  _ZN17QTextInlineObject8setWidthEd@Base 5.2.0
  _ZN17QTextInlineObject9setAscentEd@Base 5.2.0
@@ -2035,9 +2084,11 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN18QOpenGLPaintDevice18ensureActiveTargetEv@Base 5.0.2
  _ZN18QOpenGLPaintDevice19setDevicePixelRatioEd@Base 5.2.0
  _ZN18QOpenGLPaintDevice7setSizeERK5QSize@Base 5.0.2
+ _ZN18QOpenGLPaintDeviceC1ER25QOpenGLPaintDevicePrivate@Base 5.4.0 1
  _ZN18QOpenGLPaintDeviceC1ERK5QSize@Base 5.0.2
  _ZN18QOpenGLPaintDeviceC1Eii@Base 5.0.2
  _ZN18QOpenGLPaintDeviceC1Ev@Base 5.0.2
+ _ZN18QOpenGLPaintDeviceC2ER25QOpenGLPaintDevicePrivate@Base 5.4.0 1
  _ZN18QOpenGLPaintDeviceC2ERK5QSize@Base 5.0.2
  _ZN18QOpenGLPaintDeviceC2Eii@Base 5.0.2
  _ZN18QOpenGLPaintDeviceC2Ev@Base 5.0.2
@@ -2057,6 +2108,20 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  (arch=!armel !armhf)_ZN18QOpenGLTimeMonitorD0Ev@Base 5.1.0
  (arch=!armel !armhf)_ZN18QOpenGLTimeMonitorD1Ev@Base 5.1.0
  (arch=!armel !armhf)_ZN18QOpenGLTimeMonitorD2Ev@Base 5.1.0
+ _ZN18QPaintDeviceWindow10paintEventEP11QPaintEvent@Base 5.4.0
+ _ZN18QPaintDeviceWindow11exposeEventEP12QExposeEvent@Base 5.4.0
+ _ZN18QPaintDeviceWindow11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.4.0
+ _ZN18QPaintDeviceWindow11qt_metacastEPKc@Base 5.4.0
+ _ZN18QPaintDeviceWindow16staticMetaObjectE@Base 5.4.0
+ _ZN18QPaintDeviceWindow5eventEP6QEvent@Base 5.4.0
+ _ZN18QPaintDeviceWindow6updateERK5QRect@Base 5.4.0
+ _ZN18QPaintDeviceWindow6updateERK7QRegion@Base 5.4.0
+ _ZN18QPaintDeviceWindow6updateEv@Base 5.4.0
+ _ZN18QPaintDeviceWindowC1ER25QPaintDeviceWindowPrivateP7QWindow@Base 5.4.0 1
+ _ZN18QPaintDeviceWindowC2ER25QPaintDeviceWindowPrivateP7QWindow@Base 5.4.0 1
+ (optional=gccinternal)_ZN18QPaintDeviceWindowD0Ev@Base 5.4.0
+ (optional=gccinternal)_ZN18QPaintDeviceWindowD1Ev@Base 5.4.0
+ (optional=gccinternal)_ZN18QPaintDeviceWindowD2Ev@Base 5.4.0
  _ZN18QPlatformClipboard11emitChangedEN10QClipboard4ModeE@Base 5.0.2 1
  _ZN18QPlatformClipboard11setMimeDataEP9QMimeDataN10QClipboard4ModeE@Base 5.0.2 1
  _ZN18QPlatformClipboard8mimeDataEN10QClipboard4ModeE@Base 5.0.2 1
@@ -2215,6 +2280,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN19QBlitterPaintEngine12drawTextItemERK7QPointFRK9QTextItem@Base 5.0.2 1
  _ZN19QBlitterPaintEngine14opacityChangedEv@Base 5.0.2 1
  _ZN19QBlitterPaintEngine15drawTiledPixmapERK6QRectFRK7QPixmapRK7QPointF@Base 5.0.2 1
+ _ZN19QBlitterPaintEngine16drawCachedGlyphsEiPKjPK11QFixedPointP11QFontEngine@Base 5.4.0 1
  _ZN19QBlitterPaintEngine16transformChangedEv@Base 5.0.2 1
  _ZN19QBlitterPaintEngine18clipEnabledChangedEv@Base 5.0.2 1
  _ZN19QBlitterPaintEngine18drawStaticTextItemEP15QStaticTextItem@Base 5.0.2 1
@@ -2234,9 +2300,9 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN19QBlitterPaintEngine9drawRectsEPK6QRectFi@Base 5.0.2 1
  _ZN19QBlitterPaintEngineC1EP24QBlittablePlatformPixmap@Base 5.0.2 1
  _ZN19QBlitterPaintEngineC2EP24QBlittablePlatformPixmap@Base 5.0.2 1
- _ZN19QBlitterPaintEngineD0Ev@Base 5.0.2 1
- _ZN19QBlitterPaintEngineD1Ev@Base 5.0.2 1
- _ZN19QBlitterPaintEngineD2Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN19QBlitterPaintEngineD0Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN19QBlitterPaintEngineD1Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN19QBlitterPaintEngineD2Ev@Base 5.0.2 1
  _ZN19QColorDialogOptions10setOptionsE6QFlagsINS_17ColorDialogOptionEE@Base 5.0.2 1
  _ZN19QColorDialogOptions11customColorEi@Base 5.0.2 1
  _ZN19QColorDialogOptions12customColorsEv@Base 5.0.2 1
@@ -2254,23 +2320,11 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN19QColorDialogOptionsD1Ev@Base 5.0.2 1
  _ZN19QColorDialogOptionsD2Ev@Base 5.0.2 1
  _ZN19QColorDialogOptionsaSERKS_@Base 5.0.2 1
- _ZN19QFontEngineMultiQPA10loadEngineEi@Base 5.0.2 1
- _ZN19QFontEngineMultiQPA21createMultiFontEngineEP11QFontEnginei@Base 5.0.2 1
- _ZN19QFontEngineMultiQPA23setFallbackFamiliesListERK11QStringList@Base 5.0.2 1
- _ZN19QFontEngineMultiQPA29ensureFallbackFamiliesQueriedEv@Base 5.0.2 1
- _ZN19QFontEngineMultiQPA4initEP11QFontEngine@Base 5.0.2 1
- _ZN19QFontEngineMultiQPAC1EP11QFontEnginei@Base 5.0.2 1
- _ZN19QFontEngineMultiQPAC1EP11QFontEngineiRK11QStringList@Base 5.0.2 1
- _ZN19QFontEngineMultiQPAC2EP11QFontEnginei@Base 5.0.2 1
- _ZN19QFontEngineMultiQPAC2EP11QFontEngineiRK11QStringList@Base 5.0.2 1
- _ZN19QFontEngineMultiQPAD0Ev@Base 5.0.2 1
- _ZN19QFontEngineMultiQPAD1Ev@Base 5.0.2 1
- _ZN19QFontEngineMultiQPAD2Ev@Base 5.0.2 1
  _ZN19QNativeGestureEventC1EN2Qt17NativeGestureTypeERK7QPointFS4_S4_dmy@Base 5.2.0~beta1
  _ZN19QNativeGestureEventC2EN2Qt17NativeGestureTypeERK7QPointFS4_S4_dmy@Base 5.2.0~beta1
- _ZN19QNativeGestureEventD0Ev@Base 5.2.0~beta1
- _ZN19QNativeGestureEventD1Ev@Base 5.2.0~beta1
- _ZN19QNativeGestureEventD2Ev@Base 5.2.0~beta1
+ (optional=gccinternal)_ZN19QNativeGestureEventD0Ev@Base 5.2.0~beta1
+ (optional=gccinternal)_ZN19QNativeGestureEventD1Ev@Base 5.2.0~beta1
+ (optional=gccinternal)_ZN19QNativeGestureEventD2Ev@Base 5.2.0~beta1
  _ZN19QOpenGLContextGroup11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN19QOpenGLContextGroup11qt_metacastEPKc@Base 5.0.2
  _ZN19QOpenGLContextGroup16staticMetaObjectE@Base 5.0.2
@@ -2290,9 +2344,9 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN19QOpenGLDebugMessageD2Ev@Base 5.1.0
  _ZN19QOpenGLDebugMessageaSERKS_@Base 5.1.0
  _ZN19QOpenGLTextureCache10invalidateEx@Base 5.0.2 1
- _ZN19QOpenGLTextureCache11bindTextureEP14QOpenGLContextRK6QImage@Base 5.0.2 1
- _ZN19QOpenGLTextureCache11bindTextureEP14QOpenGLContextRK7QPixmap@Base 5.0.2 1
- _ZN19QOpenGLTextureCache11bindTextureEP14QOpenGLContextxRK6QImage@Base 5.0.2 1
+ _ZN19QOpenGLTextureCache11bindTextureEP14QOpenGLContextRK6QImage6QFlagsINS_10BindOptionEE@Base 5.4.0 1
+ _ZN19QOpenGLTextureCache11bindTextureEP14QOpenGLContextRK7QPixmap6QFlagsINS_10BindOptionEE@Base 5.4.0 1
+ _ZN19QOpenGLTextureCache11bindTextureEP14QOpenGLContextxRK6QImage6QFlagsINS_10BindOptionEE@Base 5.4.0 1
  _ZN19QOpenGLTextureCache12freeResourceEP14QOpenGLContext@Base 5.0.2 1
  _ZN19QOpenGLTextureCache15cacheForContextEP14QOpenGLContext@Base 5.0.2 1
  _ZN19QOpenGLTextureCache18invalidateResourceEv@Base 5.0.2 1
@@ -2341,9 +2395,9 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN19QTextDocumentLayout8doLayoutEiii@Base 5.0.2 1
  _ZN19QTextDocumentLayoutC1EP13QTextDocument@Base 5.0.2 1
  _ZN19QTextDocumentLayoutC2EP13QTextDocument@Base 5.0.2 1
- _ZN19QTextDocumentLayoutD0Ev@Base 5.0.2 1
- _ZN19QTextDocumentLayoutD1Ev@Base 5.0.2 1
- _ZN19QTextDocumentLayoutD2Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN19QTextDocumentLayoutD0Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN19QTextDocumentLayoutD1Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN19QTextDocumentLayoutD2Ev@Base 5.0.2 1
  _ZN19QTextDocumentWriter11setFileNameERK7QString@Base 5.0.2
  _ZN19QTextDocumentWriter24supportedDocumentFormatsEv@Base 5.0.2
  _ZN19QTextDocumentWriter5writeEPK13QTextDocument@Base 5.0.2
@@ -2622,11 +2676,12 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN20QPlatformIntegration4syncEv@Base 5.2.0~rc1 1
  _ZN20QPlatformTextureList11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.3.0 1
  _ZN20QPlatformTextureList11qt_metacastEPKc@Base 5.3.0 1
- _ZN20QPlatformTextureList13appendTextureEjRK5QRect@Base 5.3.0 1
+ _ZN20QPlatformTextureList13appendTextureEP7QWidgetjRK5QRect6QFlagsINS_4FlagEE@Base 5.4.1 1
  _ZN20QPlatformTextureList16staticMetaObjectE@Base 5.3.0 1
  _ZN20QPlatformTextureList4lockEb@Base 5.3.0 1
  _ZN20QPlatformTextureList5clearEv@Base 5.3.0 1
  _ZN20QPlatformTextureList6lockedEb@Base 5.3.0 1
+ _ZN20QPlatformTextureList6widgetEi@Base 5.4.1 1
  _ZN20QPlatformTextureListC1EP7QObject@Base 5.3.0 1
  _ZN20QPlatformTextureListC2EP7QObject@Base 5.3.0 1
  _ZN20QPlatformTextureListD0Ev@Base 5.3.0 1
@@ -2693,14 +2748,13 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN21QOpenGL2PaintEngineExD2Ev@Base 5.0.2 1
  _ZN21QOpenGLContextPrivate14maxTextureSizeEv@Base 5.0.2 1
  _ZN21QOpenGLContextPrivate17setCurrentContextEP14QOpenGLContext@Base 5.0.2 1
- _ZN21QOpenGLContextPrivate18globalShareContextEv@Base 5.3.0 1
- _ZN21QOpenGLContextPrivate21setGlobalShareContextEP14QOpenGLContext@Base 5.3.0 1
  _ZN21QOpenGLSharedResource4freeEv@Base 5.0.2 1
  _ZN21QOpenGLSharedResourceC1EP19QOpenGLContextGroup@Base 5.0.2 1
  _ZN21QOpenGLSharedResourceC2EP19QOpenGLContextGroup@Base 5.0.2 1
  _ZN21QOpenGLSharedResourceD0Ev@Base 5.0.2 1
  _ZN21QOpenGLSharedResourceD1Ev@Base 5.0.2 1
  _ZN21QOpenGLSharedResourceD2Ev@Base 5.0.2 1
+ _ZN21QOpenGLTextureBlitter10setOpacityEf@Base 5.4.0 1
  _ZN21QOpenGLTextureBlitter12setSwizzleRBEb@Base 5.3.0 1
  _ZN21QOpenGLTextureBlitter15sourceTransformERK6QRectFRK5QSizeNS_6OriginE@Base 5.3.0 1
  _ZN21QOpenGLTextureBlitter15targetTransformERK6QRectFRK5QRect@Base 5.3.0 1
@@ -2732,7 +2786,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN21QPaintEngineExPrivateD1Ev@Base 5.0.2 1
  _ZN21QPaintEngineExPrivateD2Ev@Base 5.0.2 1
  _ZN21QPlatformBackingStore10beginPaintERK7QRegion@Base 5.0.2 1
- _ZN21QPlatformBackingStore15composeAndFlushEP7QWindowRK7QRegionRK6QPointP20QPlatformTextureListP14QOpenGLContext@Base 5.3.0 1
+ _ZN21QPlatformBackingStore15composeAndFlushEP7QWindowRK7QRegionRK6QPointP20QPlatformTextureListP14QOpenGLContextb@Base 5.4.0 1
  _ZN21QPlatformBackingStore6scrollERK7QRegionii@Base 5.0.2 1
  _ZN21QPlatformBackingStore8endPaintEv@Base 5.0.2 1
  _ZN21QPlatformBackingStoreC1EP7QWindow@Base 5.0.2 1
@@ -2790,13 +2844,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN21QPlatformInputContextD0Ev@Base 5.0.2 1
  _ZN21QPlatformInputContextD1Ev@Base 5.0.2 1
  _ZN21QPlatformInputContextD2Ev@Base 5.0.2 1
- _ZN21QPlatformScreenBuffer18aboutToBeDisplayedEv@Base 5.0.2 1
- _ZN21QPlatformScreenBuffer9displayedEv@Base 5.0.2 1
- _ZN21QPlatformScreenBufferC1Ev@Base 5.0.2 1
- _ZN21QPlatformScreenBufferC2Ev@Base 5.0.2 1
- _ZN21QPlatformScreenBufferD0Ev@Base 5.0.2 1
- _ZN21QPlatformScreenBufferD1Ev@Base 5.0.2 1
- _ZN21QPlatformScreenBufferD2Ev@Base 5.0.2 1
  _ZN21QPlatformThemePrivate11keyBindingsE@Base 5.2.0~alpha1 1
  _ZN21QPlatformThemePrivate19currentKeyPlatformsEv@Base 5.2.0~alpha1 1
  _ZN21QPlatformThemePrivate19numberOfKeyBindingsE@Base 5.2.0~alpha1 1
@@ -2854,9 +2901,9 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN21QTriangulatingStroker9arcPointsEffffffR15QVarLengthArrayIfLi256EE@Base 5.0.2 1
  _ZN22QAccessibleApplicationC1Ev@Base 5.0.2
  _ZN22QAccessibleApplicationC2Ev@Base 5.0.2
- _ZN22QAccessibleApplicationD0Ev@Base 5.0.2
- _ZN22QAccessibleApplicationD1Ev@Base 5.0.2
- _ZN22QAccessibleApplicationD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN22QAccessibleApplicationD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN22QAccessibleApplicationD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN22QAccessibleApplicationD2Ev@Base 5.0.2
  _ZN22QDashedStrokeProcessor7processERK11QVectorPathRK4QPenRK6QRectF6QFlagsIN8QPainter10RenderHintEE@Base 5.0.2 1
  _ZN22QDashedStrokeProcessorC1Ev@Base 5.0.2 1
  _ZN22QDashedStrokeProcessorC2Ev@Base 5.0.2 1
@@ -2909,7 +2956,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN22QGuiApplicationPrivate19generic_plugin_listE@Base 5.0.2 1
  _ZN22QGuiApplicationPrivate19processGestureEventEPN29QWindowSystemInterfacePrivate12GestureEventE@Base 5.2.0~beta1 1
  _ZN22QGuiApplicationPrivate19processThemeChangedEPN29QWindowSystemInterfacePrivate16ThemeChangeEventE@Base 5.0.2 1
- _ZN22QGuiApplicationPrivate19setApplicationStateEN2Qt16ApplicationStateE@Base 5.2.0~alpha1 1
+ _ZN22QGuiApplicationPrivate19setApplicationStateEN2Qt16ApplicationStateEb@Base 5.4.0 1
  _ZN22QGuiApplicationPrivate19setMouseEventSourceEP11QMouseEventN2Qt16MouseEventSourceE@Base 5.3.0 1
  _ZN22QGuiApplicationPrivate19updateBlockedStatusEP7QWindow@Base 5.0.2 1
  _ZN22QGuiApplicationPrivate20_q_updateFocusObjectEP7QObject@Base 5.0.2 1
@@ -2934,21 +2981,19 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN22QGuiApplicationPrivate27mouse_double_click_distanceE@Base 5.0.2 1
  _ZN22QGuiApplicationPrivate27notifyLayoutDirectionChangeEv@Base 5.0.2 1
  _ZN22QGuiApplicationPrivate28setMouseEventCapsAndVelocityEP11QMouseEventiRK9QVector2D@Base 5.0.2 1
- _ZN22QGuiApplicationPrivate29reportAvailableGeometryChangeEPN29QWindowSystemInterfacePrivate28ScreenAvailableGeometryEventE@Base 5.0.2 1
  _ZN22QGuiApplicationPrivate29reportScreenOrientationChangeEP7QScreen@Base 5.0.2 1
  _ZN22QGuiApplicationPrivate29reportScreenOrientationChangeEPN29QWindowSystemInterfacePrivate22ScreenOrientationEventE@Base 5.0.2 1
  _ZN22QGuiApplicationPrivate30processWindowStateChangedEventEPN29QWindowSystemInterfacePrivate23WindowStateChangedEventE@Base 5.0.2 1
  _ZN22QGuiApplicationPrivate30reportLogicalDotsPerInchChangeEPN29QWindowSystemInterfacePrivate29ScreenLogicalDotsPerInchEventE@Base 5.0.2 1
  _ZN22QGuiApplicationPrivate31processWindowScreenChangedEventEPN29QWindowSystemInterfacePrivate24WindowScreenChangedEventE@Base 5.1.0 1
  _ZN22QGuiApplicationPrivate31updateFilteredScreenOrientationEP7QScreen@Base 5.0.2 1
- _ZN22QGuiApplicationPrivate32applyWindowGeometrySpecificationERK5QRectPK7QWindow@Base 5.2.0~alpha1 1
  _ZN22QGuiApplicationPrivate32processTabletEnterProximityEventEPN29QWindowSystemInterfacePrivate25TabletEnterProximityEventE@Base 5.0.2 1
  _ZN22QGuiApplicationPrivate32processTabletLeaveProximityEventEPN29QWindowSystemInterfacePrivate25TabletLeaveProximityEventE@Base 5.0.2 1
  _ZN22QGuiApplicationPrivate33sendQWindowEventToQPlatformWindowEP7QWindowP6QEvent@Base 5.0.2 1
+ _ZN22QGuiApplicationPrivate34applyWindowGeometrySpecificationToEP7QWindow@Base 5.4.2 1
  _ZN22QGuiApplicationPrivate37synthesizeMouseFromTouchEventsEnabledEv@Base 5.1.0 1
  _ZN22QGuiApplicationPrivate4initEv@Base 5.0.2 1
  _ZN22QGuiApplicationPrivate4selfE@Base 5.0.2 1
- _ZN22QGuiApplicationPrivate6noGrabE@Base 5.0.2 1
  _ZN22QGuiApplicationPrivate7app_palE@Base 5.0.2 1
  _ZN22QGuiApplicationPrivate7buttonsE@Base 5.0.2 1
  _ZN22QGuiApplicationPrivate8app_fontE@Base 5.0.2 1
@@ -2966,13 +3011,14 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN22QInputMethodQueryEventD1Ev@Base 5.0.2
  _ZN22QInputMethodQueryEventD2Ev@Base 5.0.2
  _ZN22QPaintEngineExReplayer7processERK19QPaintBufferCommand@Base 5.0.2 1
- _ZN22QPaintEngineExReplayerD0Ev@Base 5.0.2 1
- _ZN22QPaintEngineExReplayerD1Ev@Base 5.0.2 1
- _ZN22QPaintEngineExReplayerD2Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN22QPaintEngineExReplayerD0Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN22QPaintEngineExReplayerD1Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN22QPaintEngineExReplayerD2Ev@Base 5.0.2 1
  _ZN22QPlatformAccessibility10initializeEv@Base 5.0.2 1
  _ZN22QPlatformAccessibility13setRootObjectEP7QObject@Base 5.0.2 1
  _ZN22QPlatformAccessibility25notifyAccessibilityUpdateEP16QAccessibleEvent@Base 5.0.2 1
  _ZN22QPlatformAccessibility7cleanupEv@Base 5.0.2 1
+ _ZN22QPlatformAccessibility9setActiveEb@Base 5.4.0 1
  _ZN22QPlatformAccessibilityC1Ev@Base 5.0.2 1
  _ZN22QPlatformAccessibilityC2Ev@Base 5.0.2 1
  _ZN22QPlatformAccessibilityD0Ev@Base 5.0.2 1
@@ -3008,7 +3054,9 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN22QWindowSystemInterface16handleWheelEventEP7QWindowmRK7QPointFS4_iN2Qt11OrientationE6QFlagsINS5_16KeyboardModifierEE@Base 5.0.2 1
  _ZN22QWindowSystemInterface17handleExposeEventEP7QWindowRK7QRegion@Base 5.0.2 1
  _ZN22QWindowSystemInterface17handleNativeEventEP7QWindowRK10QByteArrayPvPl@Base 5.0.2 1
+ _ZN22QWindowSystemInterface17handleTabletEventEP7QWindowRK7QPointFS4_ii6QFlagsIN2Qt11MouseButtonEEdiiddixS5_INS6_16KeyboardModifierEE@Base 5.4.0 1
  _ZN22QWindowSystemInterface17handleTabletEventEP7QWindowbRK7QPointFS4_iidiiddix6QFlagsIN2Qt16KeyboardModifierEE@Base 5.2.0 1
+ _ZN22QWindowSystemInterface17handleTabletEventEP7QWindowmRK7QPointFS4_ii6QFlagsIN2Qt11MouseButtonEEdiiddixS5_INS6_16KeyboardModifierEE@Base 5.4.0 1
  _ZN22QWindowSystemInterface17handleTabletEventEP7QWindowmbRK7QPointFS4_iidiiddix6QFlagsIN2Qt16KeyboardModifierEE@Base 5.2.0 1
  _ZN22QWindowSystemInterface17handleThemeChangeEP7QWindow@Base 5.0.2 1
  _ZN22QWindowSystemInterface18handleGestureEventEP7QWindowmN2Qt17NativeGestureTypeER7QPointFS5_@Base 5.2.0~beta1 1
@@ -3026,7 +3074,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN22QWindowSystemInterface22sendWindowSystemEventsE6QFlagsIN10QEventLoop17ProcessEventsFlagEE@Base 5.0.2 1
  _ZN22QWindowSystemInterface22tryHandleShortcutEventEP7QWindowi6QFlagsIN2Qt16KeyboardModifierEERK7QStringbt@Base 5.0.2 1
  _ZN22QWindowSystemInterface22tryHandleShortcutEventEP7QWindowmi6QFlagsIN2Qt16KeyboardModifierEERK7QStringbt@Base 5.0.2 1
- _ZN22QWindowSystemInterface23flushWindowSystemEventsEv@Base 5.0.2 1
+ _ZN22QWindowSystemInterface23flushWindowSystemEventsE6QFlagsIN10QEventLoop17ProcessEventsFlagEE@Base 5.4.0 1
  _ZN22QWindowSystemInterface24handlePlatformPanelEventEP7QWindow@Base 5.0.2 1
  _ZN22QWindowSystemInterface24handleWindowStateChangedEP7QWindowN2Qt11WindowStateE@Base 5.0.2 1
  _ZN22QWindowSystemInterface24windowSystemEventsQueuedEv@Base 5.0.2 1
@@ -3034,20 +3082,19 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN22QWindowSystemInterface25handleWindowScreenChangedEP7QWindowP7QScreen@Base 5.1.0 1
  _ZN22QWindowSystemInterface26handleFrameStrutMouseEventEP7QWindowRK7QPointFS4_6QFlagsIN2Qt11MouseButtonEES5_INS6_16KeyboardModifierEENS6_16MouseEventSourceE@Base 5.3.0 1
  _ZN22QWindowSystemInterface26handleFrameStrutMouseEventEP7QWindowmRK7QPointFS4_6QFlagsIN2Qt11MouseButtonEES5_INS6_16KeyboardModifierEENS6_16MouseEventSourceE@Base 5.3.0 1
- _ZN22QWindowSystemInterface26handleScreenGeometryChangeEP7QScreenRK5QRect@Base 5.0.2 1
- _ZN22QWindowSystemInterface29handleApplicationStateChangedEN2Qt16ApplicationStateE@Base 5.1.0 1
+ _ZN22QWindowSystemInterface26handleScreenGeometryChangeEP7QScreenRK5QRectS4_@Base 5.4.0 1
+ _ZN22QWindowSystemInterface29handleApplicationStateChangedEN2Qt16ApplicationStateEb@Base 5.4.0 1
  _ZN22QWindowSystemInterface29handleScreenOrientationChangeEP7QScreenN2Qt17ScreenOrientationE@Base 5.0.2 1
  _ZN22QWindowSystemInterface29handleScreenRefreshRateChangeEP7QScreend@Base 5.2.0 1
  _ZN22QWindowSystemInterface30tryHandleExtendedShortcutEventEP7QWindowi6QFlagsIN2Qt16KeyboardModifierEEjjjRK7QStringbt@Base 5.0.2 1
  _ZN22QWindowSystemInterface30tryHandleExtendedShortcutEventEP7QWindowmi6QFlagsIN2Qt16KeyboardModifierEEjjjRK7QStringbt@Base 5.0.2 1
- _ZN22QWindowSystemInterface31deferredFlushWindowSystemEventsEv@Base 5.1.0 1
+ _ZN22QWindowSystemInterface31deferredFlushWindowSystemEventsE6QFlagsIN10QEventLoop17ProcessEventsFlagEE@Base 5.4.0 1
  _ZN22QWindowSystemInterface31handleGestureEventWithRealValueEP7QWindowmN2Qt17NativeGestureTypeEdR7QPointFS5_@Base 5.2.0~beta1 1
  _ZN22QWindowSystemInterface31handleTabletEnterProximityEventEiix@Base 5.0.2 1
  _ZN22QWindowSystemInterface31handleTabletEnterProximityEventEmiix@Base 5.0.2 1
  _ZN22QWindowSystemInterface31handleTabletLeaveProximityEventEiix@Base 5.0.2 1
  _ZN22QWindowSystemInterface31handleTabletLeaveProximityEventEmiix@Base 5.0.2 1
  _ZN22QWindowSystemInterface33setSynchronousWindowsSystemEventsEb@Base 5.0.2 1
- _ZN22QWindowSystemInterface35handleScreenAvailableGeometryChangeEP7QScreenRK5QRect@Base 5.0.2 1
  _ZN22QWindowSystemInterface36handleScreenLogicalDotsPerInchChangeEP7QScreendd@Base 5.2.0 1
  _ZN22QWindowSystemInterface40handleGestureEventWithSequenceIdAndValueEP7QWindowmN2Qt17NativeGestureTypeEmyR7QPointFS5_@Base 5.2.0~beta1 1
  _ZN23QAccessibleBridgePlugin11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
@@ -3061,9 +3108,9 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN23QImageTextureGlyphCache11fillTextureERKN18QTextureGlyphCache5CoordEj6QFixed@Base 5.0.2 1
  _ZN23QImageTextureGlyphCache17createTextureDataEii@Base 5.0.2 1
  _ZN23QImageTextureGlyphCache17resizeTextureDataEii@Base 5.0.2 1
- _ZN23QImageTextureGlyphCacheD0Ev@Base 5.0.2 1
- _ZN23QImageTextureGlyphCacheD1Ev@Base 5.0.2 1
- _ZN23QImageTextureGlyphCacheD2Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN23QImageTextureGlyphCacheD0Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN23QImageTextureGlyphCacheD1Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN23QImageTextureGlyphCacheD2Ev@Base 5.0.2 1
  _ZN23QOpenGLExtensionMatcherC1Ev@Base 5.1.0 1
  _ZN23QOpenGLExtensionMatcherC2Ev@Base 5.1.0 1
  _ZN23QPlatformDragQtResponseC1EbN2Qt10DropActionE5QRect@Base 5.0.2 1
@@ -3201,9 +3248,9 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN24QPlatformNativeInterface32nativeResourceFunctionForContextERK10QByteArray@Base 5.0.2 1
  _ZN24QPlatformNativeInterface36nativeResourceFunctionForIntegrationERK10QByteArray@Base 5.0.2 1
  _ZN24QPlatformNativeInterface37nativeResourceFunctionForBackingStoreERK10QByteArray@Base 5.0.2 1
- _ZN24QPlatformNativeInterfaceD0Ev@Base 5.0.2 1
- _ZN24QPlatformNativeInterfaceD1Ev@Base 5.0.2 1
- _ZN24QPlatformNativeInterfaceD2Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN24QPlatformNativeInterfaceD0Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN24QPlatformNativeInterfaceD1Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN24QPlatformNativeInterfaceD2Ev@Base 5.0.2 1
  _ZN24QSupportedWritingSystems12setSupportedEN13QFontDatabase13WritingSystemEb@Base 5.0.2 1
  _ZN24QSupportedWritingSystems6detachEv@Base 5.0.2 1
  _ZN24QSupportedWritingSystemsC1ERKS_@Base 5.0.2 1
@@ -3213,9 +3260,21 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN24QSupportedWritingSystemsD1Ev@Base 5.0.2 1
  _ZN24QSupportedWritingSystemsD2Ev@Base 5.0.2 1
  _ZN24QSupportedWritingSystemsaSERKS_@Base 5.0.2 1
- _ZN25QAbstractItemModelPrivateD0Ev@Base 5.0.2 1
- _ZN25QAbstractItemModelPrivateD1Ev@Base 5.0.2 1
- _ZN25QAbstractItemModelPrivateD2Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN25QAbstractItemModelPrivateD0Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN25QAbstractItemModelPrivateD1Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN25QAbstractItemModelPrivateD2Ev@Base 5.0.2 1
+ _ZN25QFontEngineMultiBasicImpl10loadEngineEi@Base 5.4.0 1
+ _ZN25QFontEngineMultiBasicImpl21createMultiFontEngineEP11QFontEnginei@Base 5.4.0 1
+ _ZN25QFontEngineMultiBasicImpl23setFallbackFamiliesListERK11QStringList@Base 5.4.0 1
+ _ZN25QFontEngineMultiBasicImpl29ensureFallbackFamiliesQueriedEv@Base 5.4.0 1
+ _ZN25QFontEngineMultiBasicImpl4initEP11QFontEngine@Base 5.4.0 1
+ _ZN25QFontEngineMultiBasicImplC1EP11QFontEnginei@Base 5.4.0 1
+ _ZN25QFontEngineMultiBasicImplC1EP11QFontEngineiRK11QStringList@Base 5.4.0 1
+ _ZN25QFontEngineMultiBasicImplC2EP11QFontEnginei@Base 5.4.0 1
+ _ZN25QFontEngineMultiBasicImplC2EP11QFontEngineiRK11QStringList@Base 5.4.0 1
+ (optional=gccinternal)_ZN25QFontEngineMultiBasicImplD0Ev@Base 5.4.0 1
+ (optional=gccinternal)_ZN25QFontEngineMultiBasicImplD1Ev@Base 5.4.0 1
+ (optional=gccinternal)_ZN25QFontEngineMultiBasicImplD2Ev@Base 5.4.0 1
  (arch=!armel !armhf)_ZN25QOpenGLFunctions_3_2_Core14versionProfileEv@Base 5.1.0
  (arch=!armel !armhf)_ZN25QOpenGLFunctions_3_2_Core19isContextCompatibleEP14QOpenGLContext@Base 5.1.0
  (arch=!armel !armhf)_ZN25QOpenGLFunctions_3_2_Core25initializeOpenGLFunctionsEv@Base 5.1.0
@@ -3264,6 +3323,11 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  (arch=!armel !armhf)_ZN25QOpenGLFunctions_4_3_CoreD0Ev@Base 5.1.0
  (arch=!armel !armhf)_ZN25QOpenGLFunctions_4_3_CoreD1Ev@Base 5.1.0
  (arch=!armel !armhf)_ZN25QOpenGLFunctions_4_3_CoreD2Ev@Base 5.1.0
+ _ZN25QOpenGLPaintDevicePrivateC1ERK5QSize@Base 5.4.0 1
+ _ZN25QOpenGLPaintDevicePrivateC2ERK5QSize@Base 5.4.0 1
+ (optional=gccinternal)_ZN25QPaintDeviceWindowPrivateD0Ev@Base 5.4.0 1
+ (optional=gccinternal)_ZN25QPaintDeviceWindowPrivateD1Ev@Base 5.4.0 1
+ (optional=gccinternal)_ZN25QPaintDeviceWindowPrivateD2Ev@Base 5.4.0 1
  _ZN25QPlatformFileDialogHelper10setOptionsERK14QSharedPointerI18QFileDialogOptionsE@Base 5.0.2 1
  _ZN25QPlatformFileDialogHelper11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
  _ZN25QPlatformFileDialogHelper11qt_metacastEPKc@Base 5.0.2 1
@@ -3281,11 +3345,11 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN25QPlatformFontDialogHelper12fontSelectedERK5QFont@Base 5.0.2 1
  _ZN25QPlatformFontDialogHelper16staticMetaObjectE@Base 5.0.2 1
  _ZN25QPlatformFontDialogHelper18currentFontChangedERK5QFont@Base 5.0.2 1
- _ZN25QPlatformOffscreenSurfaceC1EP17QOffscreenSurface@Base 5.1.0
- _ZN25QPlatformOffscreenSurfaceC2EP17QOffscreenSurface@Base 5.1.0
- _ZN25QPlatformOffscreenSurfaceD0Ev@Base 5.1.0
- _ZN25QPlatformOffscreenSurfaceD1Ev@Base 5.1.0
- _ZN25QPlatformOffscreenSurfaceD2Ev@Base 5.1.0
+ _ZN25QPlatformOffscreenSurfaceC1EP17QOffscreenSurface@Base 5.1.0 1
+ _ZN25QPlatformOffscreenSurfaceC2EP17QOffscreenSurface@Base 5.1.0 1
+ _ZN25QPlatformOffscreenSurfaceD0Ev@Base 5.1.0 1
+ _ZN25QPlatformOffscreenSurfaceD1Ev@Base 5.1.0 1
+ _ZN25QPlatformOffscreenSurfaceD2Ev@Base 5.1.0 1
  _ZN26QAccessibleActionInterface11pressActionEv@Base 5.0.2
  _ZN26QAccessibleActionInterface12toggleActionEv@Base 5.0.2
  _ZN26QAccessibleActionInterface14decreaseActionEv@Base 5.0.2
@@ -3296,9 +3360,9 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN26QOpenGLContextGroupPrivate13removeContextEP14QOpenGLContext@Base 5.0.2 1
  _ZN26QOpenGLContextGroupPrivate22deletePendingResourcesEP14QOpenGLContext@Base 5.0.2 1
  _ZN26QOpenGLContextGroupPrivate7cleanupEv@Base 5.0.2 1
- _ZN26QOpenGLContextGroupPrivateD0Ev@Base 5.0.2 1
- _ZN26QOpenGLContextGroupPrivateD1Ev@Base 5.0.2 1
- _ZN26QOpenGLContextGroupPrivateD2Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN26QOpenGLContextGroupPrivateD0Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN26QOpenGLContextGroupPrivateD1Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN26QOpenGLContextGroupPrivateD2Ev@Base 5.0.2 1
  _ZN26QOpenGLEngineShaderManager11blitProgramEv@Base 5.0.2 1
  _ZN26QOpenGLEngineShaderManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
  _ZN26QOpenGLEngineShaderManager11qt_metacastEPKc@Base 5.0.2 1
@@ -3333,9 +3397,9 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN26QOpenGLEngineSharedShadersD1Ev@Base 5.0.2 1
  _ZN26QOpenGLEngineSharedShadersD2Ev@Base 5.0.2 1
  _ZN26QOpenGLSharedResourceGuard12freeResourceEP14QOpenGLContext@Base 5.0.2 1
- _ZN26QOpenGLSharedResourceGuardD0Ev@Base 5.0.2 1
- _ZN26QOpenGLSharedResourceGuardD1Ev@Base 5.0.2 1
- _ZN26QOpenGLSharedResourceGuardD2Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN26QOpenGLSharedResourceGuardD0Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN26QOpenGLSharedResourceGuardD1Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN26QOpenGLSharedResourceGuardD2Ev@Base 5.0.2 1
  _ZN26QPlatformColorDialogHelper10setOptionsERK14QSharedPointerI19QColorDialogOptionsE@Base 5.0.2 1
  _ZN26QPlatformColorDialogHelper11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
  _ZN26QPlatformColorDialogHelper11qt_metacastEPKc@Base 5.0.2 1
@@ -3352,13 +3416,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN26QPlatformIntegrationPluginD0Ev@Base 5.0.2 1
  _ZN26QPlatformIntegrationPluginD1Ev@Base 5.0.2 1
  _ZN26QPlatformIntegrationPluginD2Ev@Base 5.0.2 1
- _ZN26QPlatformScreenPageFlipper11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
- _ZN26QPlatformScreenPageFlipper11qt_metacastEPKc@Base 5.0.2 1
- _ZN26QPlatformScreenPageFlipper14bufferReleasedEP21QPlatformScreenBuffer@Base 5.0.2 1
- _ZN26QPlatformScreenPageFlipper15bufferDisplayedEP21QPlatformScreenBuffer@Base 5.0.2 1
- _ZN26QPlatformScreenPageFlipper16staticMetaObjectE@Base 5.0.2 1
- _ZN26QPlatformScreenPageFlipperC1EP7QObject@Base 5.0.2 1
- _ZN26QPlatformScreenPageFlipperC2EP7QObject@Base 5.0.2 1
  _ZN27QAbstractTextDocumentLayout11formatIndexEi@Base 5.0.2
  _ZN27QAbstractTextDocumentLayout11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN27QAbstractTextDocumentLayout11qt_metacastEPKc@Base 5.0.2
@@ -3381,9 +3438,9 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN27QAbstractTextDocumentLayoutD0Ev@Base 5.0.2
  _ZN27QAbstractTextDocumentLayoutD1Ev@Base 5.0.2
  _ZN27QAbstractTextDocumentLayoutD2Ev@Base 5.0.2
- _ZN27QAccessibleStateChangeEventD0Ev@Base 5.0.2
- _ZN27QAccessibleStateChangeEventD1Ev@Base 5.0.2
- _ZN27QAccessibleStateChangeEventD2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN27QAccessibleStateChangeEventD0Ev@Base 5.0.2
+ (optional=gccinternal)_ZN27QAccessibleStateChangeEventD1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN27QAccessibleStateChangeEventD2Ev@Base 5.0.2
  _ZN27QOpenGLPixelTransferOptions11setSkipRowsEi@Base 5.2.0~alpha1
  _ZN27QOpenGLPixelTransferOptions12setAlignmentEi@Base 5.2.0~alpha1
  _ZN27QOpenGLPixelTransferOptions12setRowLengthEi@Base 5.2.0~alpha1
@@ -3423,9 +3480,9 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN27QRegularExpressionValidatorD2Ev@Base 5.1.0
  _ZN28QApplicationStateChangeEventC1EN2Qt16ApplicationStateE@Base 5.1.0
  _ZN28QApplicationStateChangeEventC2EN2Qt16ApplicationStateE@Base 5.1.0
- _ZN28QApplicationStateChangeEventD0Ev@Base 5.1.0
- _ZN28QApplicationStateChangeEventD1Ev@Base 5.1.0
- _ZN28QApplicationStateChangeEventD2Ev@Base 5.1.0
+ (optional=gccinternal)_ZN28QApplicationStateChangeEventD0Ev@Base 5.1.0
+ (optional=gccinternal)_ZN28QApplicationStateChangeEventD1Ev@Base 5.1.0
+ (optional=gccinternal)_ZN28QApplicationStateChangeEventD2Ev@Base 5.1.0
  _ZN28QPlatformInputContextFactory4keysEv@Base 5.0.2 1
  _ZN28QPlatformInputContextFactory6createERK7QString@Base 5.0.2 1
  _ZN28QPlatformInputContextFactory6createEv@Base 5.0.2 1
@@ -3446,106 +3503,103 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN29QScreenOrientationChangeEventD0Ev@Base 5.0.2
  _ZN29QScreenOrientationChangeEventD1Ev@Base 5.0.2
  _ZN29QScreenOrientationChangeEventD2Ev@Base 5.0.2
- _ZN29QWindowSystemInterfacePrivate10CloseEventD0Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate10CloseEventD1Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate10CloseEventD2Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate10EnterEventD0Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate10EnterEventD1Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate10EnterEventD2Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate10InputEventD0Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate10InputEventD1Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate10InputEventD2Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate10LeaveEventD0Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate10LeaveEventD1Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate10LeaveEventD2Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate10MouseEventD0Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate10MouseEventD1Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate10MouseEventD2Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate10TouchEventD0Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate10TouchEventD1Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate10TouchEventD2Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate10WheelEventD0Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate10WheelEventD1Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate10WheelEventD2Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate10CloseEventD0Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate10CloseEventD1Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate10CloseEventD2Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate10EnterEventD0Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate10EnterEventD1Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate10EnterEventD2Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate10InputEventD0Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate10InputEventD1Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate10InputEventD2Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate10LeaveEventD0Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate10LeaveEventD1Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate10LeaveEventD2Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate10MouseEventD0Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate10MouseEventD1Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate10MouseEventD2Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate10TouchEventD0Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate10TouchEventD1Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate10TouchEventD2Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate10WheelEventD0Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate10WheelEventD1Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate10WheelEventD2Ev@Base 5.0.2 1
  _ZN29QWindowSystemInterfacePrivate11ExposeEventC1EP7QWindowRK7QRegion@Base 5.0.2 1
  _ZN29QWindowSystemInterfacePrivate11ExposeEventC2EP7QWindowRK7QRegion@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate11ExposeEventD0Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate11ExposeEventD1Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate11ExposeEventD2Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate11TabletEventD0Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate11TabletEventD1Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate11TabletEventD2Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate12GestureEventD0Ev@Base 5.2.0~beta1 1
- _ZN29QWindowSystemInterfacePrivate12GestureEventD1Ev@Base 5.2.0~beta1 1
- _ZN29QWindowSystemInterfacePrivate12GestureEventD2Ev@Base 5.2.0~beta1 1
- _ZN29QWindowSystemInterfacePrivate13FileOpenEventD0Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate13FileOpenEventD1Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate13FileOpenEventD2Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate11ExposeEventD0Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate11ExposeEventD1Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate11ExposeEventD2Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate11TabletEventD0Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate11TabletEventD1Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate11TabletEventD2Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate12GestureEventD0Ev@Base 5.2.0~beta1 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate12GestureEventD1Ev@Base 5.2.0~beta1 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate12GestureEventD2Ev@Base 5.2.0~beta1 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate13FileOpenEventD0Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate13FileOpenEventD1Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate13FileOpenEventD2Ev@Base 5.0.2 1
  _ZN29QWindowSystemInterfacePrivate13eventsFlushedE@Base 5.1.0 1
  _ZN29QWindowSystemInterfacePrivate15flushEventMutexE@Base 5.1.0 1
- _ZN29QWindowSystemInterfacePrivate16ContextMenuEventD0Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate16ContextMenuEventD1Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate16ContextMenuEventD2Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate16FlushEventsEventD0Ev@Base 5.1.0 1
- _ZN29QWindowSystemInterfacePrivate16FlushEventsEventD1Ev@Base 5.1.0 1
- _ZN29QWindowSystemInterfacePrivate16FlushEventsEventD2Ev@Base 5.1.0 1
- _ZN29QWindowSystemInterfacePrivate16ThemeChangeEventD0Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate16ThemeChangeEventD1Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate16ThemeChangeEventD2Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate18PlatformPanelEventD0Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate18PlatformPanelEventD1Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate18PlatformPanelEventD2Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate16ContextMenuEventD0Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate16ContextMenuEventD1Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate16ContextMenuEventD2Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate16FlushEventsEventD0Ev@Base 5.1.0 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate16FlushEventsEventD1Ev@Base 5.1.0 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate16FlushEventsEventD2Ev@Base 5.1.0 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate16ThemeChangeEventD0Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate16ThemeChangeEventD1Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate16ThemeChangeEventD2Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate18PlatformPanelEventD0Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate18PlatformPanelEventD1Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate18PlatformPanelEventD2Ev@Base 5.0.2 1
  _ZN29QWindowSystemInterfacePrivate18convertTouchPointsERK5QListIN22QWindowSystemInterface10TouchPointEEPN6QEvent4TypeE@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate19GeometryChangeEventD0Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate19GeometryChangeEventD1Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate19GeometryChangeEventD2Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate19ScreenGeometryEventD0Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate19ScreenGeometryEventD1Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate19ScreenGeometryEventD2Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate20ActivatedWindowEventD0Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate20ActivatedWindowEventD1Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate20ActivatedWindowEventD2Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate19GeometryChangeEventD0Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate19GeometryChangeEventD1Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate19GeometryChangeEventD2Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate19ScreenGeometryEventD0Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate19ScreenGeometryEventD1Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate19ScreenGeometryEventD2Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate20ActivatedWindowEventD0Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate20ActivatedWindowEventD1Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate20ActivatedWindowEventD2Ev@Base 5.0.2 1
  _ZN29QWindowSystemInterfacePrivate20getWindowSystemEventEv@Base 5.0.2 1
  _ZN29QWindowSystemInterfacePrivate21peekWindowSystemEventENS_9EventTypeE@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate22ScreenOrientationEventD0Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate22ScreenOrientationEventD1Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate22ScreenOrientationEventD2Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate22ScreenRefreshRateEventD0Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate22ScreenRefreshRateEventD1Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate22ScreenRefreshRateEventD2Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate22ScreenOrientationEventD0Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate22ScreenOrientationEventD1Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate22ScreenOrientationEventD2Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate22ScreenRefreshRateEventD0Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate22ScreenRefreshRateEventD1Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate22ScreenRefreshRateEventD2Ev@Base 5.0.2 1
  _ZN29QWindowSystemInterfacePrivate22windowSystemEventQueueE@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate23WindowStateChangedEventD0Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate23WindowStateChangedEventD1Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate23WindowStateChangedEventD2Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate23WindowStateChangedEventD0Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate23WindowStateChangedEventD1Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate23WindowStateChangedEventD2Ev@Base 5.0.2 1
  _ZN29QWindowSystemInterfacePrivate23handleWindowSystemEventEPNS_17WindowSystemEventE@Base 5.0.2 1
  _ZN29QWindowSystemInterfacePrivate23removeWindowSystemEventEPNS_17WindowSystemEventE@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate24WindowScreenChangedEventD0Ev@Base 5.1.0 1
- _ZN29QWindowSystemInterfacePrivate24WindowScreenChangedEventD1Ev@Base 5.1.0 1
- _ZN29QWindowSystemInterfacePrivate24WindowScreenChangedEventD2Ev@Base 5.1.0 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate24WindowScreenChangedEventD0Ev@Base 5.1.0 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate24WindowScreenChangedEventD1Ev@Base 5.1.0 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate24WindowScreenChangedEventD2Ev@Base 5.1.0 1
  _ZN29QWindowSystemInterfacePrivate24windowSystemEventsQueuedEv@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate25TabletEnterProximityEventD0Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate25TabletEnterProximityEventD1Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate25TabletEnterProximityEventD2Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate25TabletLeaveProximityEventD0Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate25TabletLeaveProximityEventD1Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate25TabletLeaveProximityEventD2Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate28ApplicationStateChangedEventD0Ev@Base 5.1.0 1
- _ZN29QWindowSystemInterfacePrivate28ApplicationStateChangedEventD1Ev@Base 5.1.0 1
- _ZN29QWindowSystemInterfacePrivate28ApplicationStateChangedEventD2Ev@Base 5.1.0 1
- _ZN29QWindowSystemInterfacePrivate28ScreenAvailableGeometryEventD0Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate28ScreenAvailableGeometryEventD1Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate28ScreenAvailableGeometryEventD2Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate29ScreenLogicalDotsPerInchEventD0Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate29ScreenLogicalDotsPerInchEventD1Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate29ScreenLogicalDotsPerInchEventD2Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate25TabletEnterProximityEventD0Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate25TabletEnterProximityEventD1Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate25TabletEnterProximityEventD2Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate25TabletLeaveProximityEventD0Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate25TabletLeaveProximityEventD1Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate25TabletLeaveProximityEventD2Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate28ApplicationStateChangedEventD0Ev@Base 5.1.0 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate28ApplicationStateChangedEventD1Ev@Base 5.1.0 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate28ApplicationStateChangedEventD2Ev@Base 5.1.0 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate29ScreenLogicalDotsPerInchEventD0Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate29ScreenLogicalDotsPerInchEventD1Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate29ScreenLogicalDotsPerInchEventD2Ev@Base 5.0.2 1
  _ZN29QWindowSystemInterfacePrivate30synchronousWindowsSystemEventsE@Base 5.0.2 1
  _ZN29QWindowSystemInterfacePrivate32getNonUserInputWindowSystemEventEv@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate8KeyEventD0Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate8KeyEventD1Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate8KeyEventD2Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate9UserEventD0Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate9UserEventD1Ev@Base 5.0.2 1
- _ZN29QWindowSystemInterfacePrivate9UserEventD2Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate8KeyEventD0Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate8KeyEventD1Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate8KeyEventD2Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate9UserEventD0Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate9UserEventD1Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate9UserEventD2Ev@Base 5.0.2 1
  _ZN29QWindowSystemInterfacePrivate9eventTimeE@Base 5.0.2 1
  _ZN2Qt12codecForHtmlERK10QByteArray@Base 5.0.2
  _ZN2Qt15mightBeRichTextERK7QString@Base 5.0.2
@@ -3619,11 +3673,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  (arch=!armel !armhf)_ZN34QOpenGLFunctions_4_3_CompatibilityD1Ev@Base 5.1.0
  (arch=!armel !armhf)_ZN34QOpenGLFunctions_4_3_CompatibilityD2Ev@Base 5.1.0
  _ZN4QCss10StyleSheet12buildIndexesEN2Qt15CaseSensitivityE@Base 5.0.2
- _ZN4QCss10StyleSheetC1ERKS0_@Base 5.0.2
- _ZN4QCss10StyleSheetC2ERKS0_@Base 5.0.2
- _ZN4QCss10StyleSheetD1Ev@Base 5.0.2
- _ZN4QCss10StyleSheetD2Ev@Base 5.0.2
- _ZN4QCss10StyleSheetaSERKS0_@Base 5.0.2
  _ZN4QCss13StyleSelector15selectorMatchesERKNS_8SelectorENS0_7NodePtrE@Base 5.0.2 1
  _ZN4QCss13StyleSelector17styleRulesForNodeENS0_7NodePtrE@Base 5.0.2 1
  _ZN4QCss13StyleSelector19declarationsForNodeENS0_7NodePtrEPKc@Base 5.0.2 1
@@ -3882,6 +3931,8 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN6QImage12loadFromDataEPKhiPKc@Base 5.0.2
  _ZN6QImage13setColorCountEi@Base 5.0.2
  _ZN6QImage13setColorTableE7QVectorIjE@Base 5.0.2
+ _ZN6QImage13toImageFormatE12QPixelFormat@Base 5.4.0
+ _ZN6QImage13toPixelFormatENS_6FormatE@Base 5.4.0
  _ZN6QImage15setAlphaChannelERKS_@Base 5.0.2
  _ZN6QImage16mirrored_inplaceEbb@Base 5.3.0
  _ZN6QImage16setDotsPerMeterXEi@Base 5.0.2
@@ -4083,6 +4134,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN7QScreen18refreshRateChangedEd@Base 5.2.0
  _ZN7QScreen19physicalSizeChangedERK6QSizeF@Base 5.0.2
  _ZN7QScreen22virtualGeometryChangedERK5QRect@Base 5.0.2
+ _ZN7QScreen24availableGeometryChangedERK5QRect@Base 5.4.0
  _ZN7QScreen24setOrientationUpdateMaskE6QFlagsIN2Qt17ScreenOrientationEE@Base 5.0.2
  _ZN7QScreen25logicalDotsPerInchChangedEd@Base 5.2.0
  _ZN7QScreen25primaryOrientationChangedEN2Qt17ScreenOrientationE@Base 5.0.2
@@ -4502,6 +4554,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN9QVector4DC2ERK9QVector2Dff@Base 5.0.2
  _ZN9QVector4DC2ERK9QVector3D@Base 5.0.2
  _ZN9QVector4DC2ERK9QVector3Df@Base 5.0.2
+ _ZN9QtPrivate22QPixelFormat_createYUVEN12QPixelFormat9YUVLayoutEhNS0_10AlphaUsageENS0_13AlphaPositionENS0_18AlphaPremultipliedENS0_18TypeInterpretationENS0_9ByteOrderE@Base 5.4.0
  _ZNK10QBlittable12capabilitiesEv@Base 5.0.2 1
  _ZNK10QBlittable4sizeEv@Base 5.0.2 1
  _ZNK10QBlittable8isLockedEv@Base 5.0.2 1
@@ -4757,6 +4810,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK11QTextEngine11formatIndexEPK11QScriptItem@Base 5.0.2 1
  _ZNK11QTextEngine11setBoundaryEi@Base 5.0.2 1
  _ZNK11QTextEngine13isRightToLeftEv@Base 5.0.2 1
+ _ZNK11QTextEngine14resolveFormatsEv@Base 5.4.0 1
  _ZNK11QTextEngine15atWordSeparatorEi@Base 5.0.2 1
  _ZNK11QTextEngine16tightBoundingBoxEii@Base 5.0.2 1
  _ZNK11QTextEngine17calculateTabWidthEi6QFixed@Base 5.0.2 1
@@ -4765,7 +4819,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK11QTextEngine21shapeTextWithHarfbuzzERK11QScriptItemPKtiP11QFontEngineRK7QVectorIjEb@Base 5.2.0~alpha1 1
  _ZNK11QTextEngine23previousLogicalPositionEi@Base 5.0.2 1
  _ZNK11QTextEngine23shapeTextWithHarfbuzzNGERK11QScriptItemPKtiP11QFontEngineRK7QVectorIjEb@Base 5.2.0 1
- _ZNK11QTextEngine24resolveAdditionalFormatsEv@Base 5.0.2 1
  _ZNK11QTextEngine4fontERK11QScriptItem@Base 5.0.2 1
  _ZNK11QTextEngine5shapeEi@Base 5.0.2 1
  _ZNK11QTextEngine5widthEii@Base 5.0.2 1
@@ -4775,7 +4828,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK11QTextEngine8findItemEi@Base 5.0.2 1
  _ZNK11QTextEngine8validateEv@Base 5.0.2 1
  _ZNK11QTextEngine9shapeTextEi@Base 5.0.2 1
- _ZNK11QTextEngine9splitItemEii@Base 5.0.2 1
  _ZNK11QTextFormat10propertiesEv@Base 5.0.2
  _ZNK11QTextFormat11hasPropertyEi@Base 5.0.2
  _ZNK11QTextFormat11intPropertyEi@Base 5.0.2
@@ -4900,6 +4952,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK12QImageReader14supportsOptionEN15QImageIOHandler11ImageOptionE@Base 5.0.2
  _ZNK12QImageReader15backgroundColorEv@Base 5.0.2
  _ZNK12QImageReader16currentImageRectEv@Base 5.0.2
+ _ZNK12QImageReader17supportedSubTypesEv@Base 5.4.0
  _ZNK12QImageReader17supportsAnimationEv@Base 5.0.2
  _ZNK12QImageReader18currentImageNumberEv@Base 5.0.2
  _ZNK12QImageReader21autoDetectImageFormatEv@Base 5.0.2
@@ -4911,6 +4964,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK12QImageReader6formatEv@Base 5.0.2
  _ZNK12QImageReader7canReadEv@Base 5.0.2
  _ZNK12QImageReader7qualityEv@Base 5.0.2
+ _ZNK12QImageReader7subTypeEv@Base 5.4.0
  _ZNK12QImageReader8clipRectEv@Base 5.0.2
  _ZNK12QImageReader8fileNameEv@Base 5.0.2
  _ZNK12QImageReader8textKeysEv@Base 5.0.2
@@ -4919,11 +4973,13 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK12QImageWriter11descriptionEv@Base 5.0.2
  _ZNK12QImageWriter11errorStringEv@Base 5.0.2
  _ZNK12QImageWriter14supportsOptionEN15QImageIOHandler11ImageOptionE@Base 5.0.2
+ _ZNK12QImageWriter17supportedSubTypesEv@Base 5.4.0
  _ZNK12QImageWriter5errorEv@Base 5.0.2
  _ZNK12QImageWriter5gammaEv@Base 5.0.2
  _ZNK12QImageWriter6deviceEv@Base 5.0.2
  _ZNK12QImageWriter6formatEv@Base 5.0.2
  _ZNK12QImageWriter7qualityEv@Base 5.0.2
+ _ZNK12QImageWriter7subTypeEv@Base 5.4.0
  _ZNK12QImageWriter8canWriteEv@Base 5.0.2
  _ZNK12QImageWriter8fileNameEv@Base 5.0.2
  _ZNK12QInputMethod10metaObjectEv@Base 5.0.2
@@ -5010,6 +5066,8 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK12QShortcutMap25hasShortcutForKeySequenceERK12QKeySequence@Base 5.0.2 1
  _ZNK12QShortcutMap7matchesERK12QKeySequenceS2_@Base 5.0.2 1
  _ZNK12QShortcutMap7matchesEv@Base 5.0.2 1
+ _ZNK12QTabletEvent6buttonEv@Base 5.4.0
+ _ZNK12QTabletEvent7buttonsEv@Base 5.4.0
  _ZNK12QTouchDevice12capabilitiesEv@Base 5.0.2
  _ZNK12QTouchDevice18maximumTouchPointsEv@Base 5.2.0~alpha1
  _ZNK12QTouchDevice4nameEv@Base 5.0.2
@@ -5074,10 +5132,21 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK13QOpenGLShader10sourceCodeEv@Base 5.0.2
  _ZNK13QOpenGLShader3logEv@Base 5.0.2
  _ZNK13QOpenGLShader8shaderIdEv@Base 5.0.2
+ _ZNK13QOpenGLWindow10metaObjectEv@Base 5.4.0
+ _ZNK13QOpenGLWindow10redirectedEP6QPoint@Base 5.4.0
+ _ZNK13QOpenGLWindow14updateBehaviorEv@Base 5.4.0
+ _ZNK13QOpenGLWindow24defaultFramebufferObjectEv@Base 5.4.0
+ _ZNK13QOpenGLWindow6metricEN12QPaintDevice17PaintDeviceMetricE@Base 5.4.0
+ _ZNK13QOpenGLWindow7contextEv@Base 5.4.0
+ _ZNK13QOpenGLWindow7isValidEv@Base 5.4.0
  _ZNK13QPlatformDrag11currentDragEv@Base 5.0.2 1
  _ZNK13QPlatformDrag13defaultActionE6QFlagsIN2Qt10DropActionEES0_INS1_16KeyboardModifierEE@Base 5.0.2 1
+ _ZNK13QPlatformDrag14ownsDragObjectEv@Base 5.4.1 1
  _ZNK13QPlatformMenu10metaObjectEv@Base 5.0.2 1
  _ZNK13QPlatformMenu14createMenuItemEv@Base 5.3.0 1
+ _ZNK13QRasterWindow10metaObjectEv@Base 5.4.0
+ _ZNK13QRasterWindow10redirectedEP6QPoint@Base 5.4.0
+ _ZNK13QRasterWindow6metricEN12QPaintDevice17PaintDeviceMetricE@Base 5.4.0
  _ZNK13QStandardItem11columnCountEv@Base 5.0.2
  _ZNK13QStandardItem11hasChildrenEv@Base 5.0.2
  _ZNK13QStandardItem3rowEv@Base 5.0.2
@@ -5162,20 +5231,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK14QDistanceField8scanLineEi@Base 5.2.0~alpha1 1
  _ZNK14QDistanceField9constBitsEv@Base 5.2.0~alpha1 1
  _ZNK14QFileOpenEvent8openFileER5QFile6QFlagsIN9QIODevice12OpenModeFlagEE@Base 5.0.2
- _ZNK14QFontEngineQPA10glyphIndexEj@Base 5.3.0 1
- _ZNK14QFontEngineQPA12maxCharWidthEv@Base 5.0.2 1
- _ZNK14QFontEngineQPA12stringToCMapEPK5QChariP12QGlyphLayoutPi6QFlagsIN11QFontEngine10ShaperFlagEE@Base 5.0.2 1
- _ZNK14QFontEngineQPA13lineThicknessEv@Base 5.0.2 1
- _ZNK14QFontEngineQPA14minLeftBearingEv@Base 5.0.2 1
- _ZNK14QFontEngineQPA14recalcAdvancesEP12QGlyphLayout6QFlagsIN11QFontEngine10ShaperFlagEE@Base 5.0.2 1
- _ZNK14QFontEngineQPA15minRightBearingEv@Base 5.0.2 1
- _ZNK14QFontEngineQPA16getSfntTableDataEjPhPj@Base 5.0.2 1
- _ZNK14QFontEngineQPA17underlinePositionEv@Base 5.0.2 1
- _ZNK14QFontEngineQPA6ascentEv@Base 5.0.2 1
- _ZNK14QFontEngineQPA7descentEv@Base 5.0.2 1
- _ZNK14QFontEngineQPA7isValidEv@Base 5.0.2 1
- _ZNK14QFontEngineQPA7leadingEv@Base 5.0.2 1
- _ZNK14QFontEngineQPA9findGlyphEj@Base 5.0.2 1
  _ZNK14QGenericPlugin10metaObjectEv@Base 5.0.2
  _ZNK14QImageIOPlugin10metaObjectEv@Base 5.0.2
  _ZNK14QOpenGLContext10extensionsEv@Base 5.0.2
@@ -5184,6 +5239,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK14QOpenGLContext10shareGroupEv@Base 5.0.2
  _ZNK14QOpenGLContext11shareHandleEv@Base 5.0.2
  _ZNK14QOpenGLContext12hasExtensionERK10QByteArray@Base 5.0.2
+ _ZNK14QOpenGLContext12nativeHandleEv@Base 5.4.0
  _ZNK14QOpenGLContext12shareContextEv@Base 5.0.2
  _ZNK14QOpenGLContext14getProcAddressERK10QByteArray@Base 5.0.2
  _ZNK14QOpenGLContext16functionsBackendERK20QOpenGLVersionStatus@Base 5.1.0
@@ -5218,6 +5274,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK14QOpenGLTexture19magnificationFilterEv@Base 5.2.0~alpha1
  _ZNK14QOpenGLTexture20maximumLevelOfDetailEv@Base 5.2.0~alpha1
  _ZNK14QOpenGLTexture20minimumLevelOfDetailEv@Base 5.2.0~alpha1
+ _ZNK14QOpenGLTexture22isFixedSamplePositionsEv@Base 5.4.0
  _ZNK14QOpenGLTexture29isAutoMipMapGenerationEnabledEv@Base 5.2.0~alpha1
  _ZNK14QOpenGLTexture5depthEv@Base 5.2.0~alpha1
  _ZNK14QOpenGLTexture5facesEv@Base 5.2.0~alpha1
@@ -5225,7 +5282,9 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK14QOpenGLTexture6formatEv@Base 5.2.0~alpha1
  _ZNK14QOpenGLTexture6heightEv@Base 5.2.0~alpha1
  _ZNK14QOpenGLTexture6layersEv@Base 5.2.0~alpha1
+ _ZNK14QOpenGLTexture6targetEv@Base 5.4.0
  _ZNK14QOpenGLTexture7isBoundEv@Base 5.2.0~alpha1
+ _ZNK14QOpenGLTexture7samplesEv@Base 5.4.0
  _ZNK14QOpenGLTexture8wrapModeENS_19CoordinateDirectionE@Base 5.2.0~alpha1
  _ZNK14QOpenGLTexture9isCreatedEv@Base 5.2.0~alpha1
  _ZNK14QOpenGLTexture9mipLevelsEv@Base 5.2.0~alpha1
@@ -5278,6 +5337,21 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK14QTextTableCell6formatEv@Base 5.0.2
  _ZNK14QTextTableCell7rowSpanEv@Base 5.0.2
  _ZNK14QWindowPrivate14topLevelWindowEv@Base 5.3.0 1
+ _ZNK14QWindowPrivate25closestAcceptableGeometryERK6QRectF@Base 5.4.1 1
+ _ZNK15QFontEngineQPF210glyphIndexEj@Base 5.4.0 1
+ _ZNK15QFontEngineQPF212maxCharWidthEv@Base 5.4.0 1
+ _ZNK15QFontEngineQPF212stringToCMapEPK5QChariP12QGlyphLayoutPi6QFlagsIN11QFontEngine10ShaperFlagEE@Base 5.4.0 1
+ _ZNK15QFontEngineQPF213lineThicknessEv@Base 5.4.0 1
+ _ZNK15QFontEngineQPF214minLeftBearingEv@Base 5.4.0 1
+ _ZNK15QFontEngineQPF214recalcAdvancesEP12QGlyphLayout6QFlagsIN11QFontEngine10ShaperFlagEE@Base 5.4.0 1
+ _ZNK15QFontEngineQPF215minRightBearingEv@Base 5.4.0 1
+ _ZNK15QFontEngineQPF216getSfntTableDataEjPhPj@Base 5.4.0 1
+ _ZNK15QFontEngineQPF217underlinePositionEv@Base 5.4.0 1
+ _ZNK15QFontEngineQPF26ascentEv@Base 5.4.0 1
+ _ZNK15QFontEngineQPF27descentEv@Base 5.4.0 1
+ _ZNK15QFontEngineQPF27isValidEv@Base 5.4.0 1
+ _ZNK15QFontEngineQPF27leadingEv@Base 5.4.0 1
+ _ZNK15QFontEngineQPF29findGlyphEj@Base 5.4.0 1
  _ZNK15QGridLayoutItem10columnSpanEN2Qt11OrientationE@Base 5.3.0 1
  _ZNK15QGridLayoutItem10lastColumnEN2Qt11OrientationE@Base 5.3.0 1
  _ZNK15QGridLayoutItem11firstColumnEN2Qt11OrientationE@Base 5.3.0 1
@@ -5316,7 +5390,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK15QPlatformScreen10logicalDpiEv@Base 5.0.2 1
  _ZNK15QPlatformScreen10topLevelAtERK6QPoint@Base 5.0.2 1
  _ZNK15QPlatformScreen11orientationEv@Base 5.0.2 1
- _ZNK15QPlatformScreen11pageFlipperEv@Base 5.0.2 1
  _ZNK15QPlatformScreen11refreshRateEv@Base 5.0.2 1
  _ZNK15QPlatformScreen12physicalSizeEv@Base 5.0.2 1
  _ZNK15QPlatformScreen15virtualSiblingsEv@Base 5.0.2 1
@@ -5331,6 +5404,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK15QPlatformWindow13mapFromGlobalERK6QPoint@Base 5.0.2 1
  _ZNK15QPlatformWindow14normalGeometryEv@Base 5.3.0 1
  _ZNK15QPlatformWindow16devicePixelRatioEv@Base 5.0.2 1
+ _ZNK15QPlatformWindow17screenForGeometryERK5QRect@Base 5.4.0 1
  _ZNK15QPlatformWindow23frameStrutEventsEnabledEv@Base 5.0.2 1
  _ZNK15QPlatformWindow5winIdEv@Base 5.0.2 1
  _ZNK15QPlatformWindow6formatEv@Base 5.0.2 1
@@ -5521,6 +5595,9 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  (arch=!armel !armhf)_ZNK18QOpenGLTimeMonitor17isResultAvailableEv@Base 5.1.0
  (arch=!armel !armhf)_ZNK18QOpenGLTimeMonitor9isCreatedEv@Base 5.1.0
  (arch=!armel !armhf)_ZNK18QOpenGLTimeMonitor9objectIdsEv@Base 5.1.0
+ _ZNK18QPaintDeviceWindow10metaObjectEv@Base 5.4.0
+ _ZNK18QPaintDeviceWindow11paintEngineEv@Base 5.4.0
+ _ZNK18QPaintDeviceWindow6metricEN12QPaintDevice17PaintDeviceMetricE@Base 5.4.0
  _ZNK18QPlatformClipboard12supportsModeEN10QClipboard4ModeE@Base 5.0.2 1
  _ZNK18QPlatformClipboard8ownsModeEN10QClipboard4ModeE@Base 5.0.2 1
  _ZNK18QRasterPaintEngine11createStateEP13QPainterState@Base 5.0.2 1
@@ -5650,6 +5727,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK20QPlatformIntegration9styleHintENS_9StyleHintE@Base 5.0.2 1
  _ZNK20QPlatformTextureList10metaObjectEv@Base 5.3.0 1
  _ZNK20QPlatformTextureList5countEv@Base 5.3.0 1
+ _ZNK20QPlatformTextureList5flagsEi@Base 5.4.1 1
  _ZNK20QPlatformTextureList8geometryEi@Base 5.3.0 1
  _ZNK20QPlatformTextureList8isLockedEv@Base 5.3.0 1
  _ZNK20QPlatformTextureList9textureIdEi@Base 5.3.0 1
@@ -5672,7 +5750,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK21QPaintEngineExPrivate17hasClipOperationsEv@Base 5.0.2 1
  _ZNK21QPlatformBackingStore6windowEv@Base 5.0.2 1
  _ZNK21QPlatformBackingStore7toImageEv@Base 5.3.0 1
- _ZNK21QPlatformBackingStore9toTextureERK7QRegionP5QSize@Base 5.3.0 1
+ _ZNK21QPlatformBackingStore9toTextureERK7QRegionP5QSizePb@Base 5.4.0 1
  _ZNK21QPlatformDialogHelper10metaObjectEv@Base 5.0.2 1
  _ZNK21QPlatformDialogHelper9styleHintENS_9StyleHintE@Base 5.0.2 1
  _ZNK21QPlatformFontDatabase11defaultFontEv@Base 5.0.2 1
@@ -5685,13 +5763,12 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK21QPlatformInputContext10metaObjectEv@Base 5.0.2 1
  _ZNK21QPlatformInputContext11isAnimatingEv@Base 5.0.2 1
  _ZNK21QPlatformInputContext12keyboardRectEv@Base 5.0.2 1
+ _ZNK21QPlatformInputContext13hasCapabilityENS_10CapabilityE@Base 5.4.1 1
  _ZNK21QPlatformInputContext14inputDirectionEv@Base 5.0.2 1
  _ZNK21QPlatformInputContext19inputMethodAcceptedEv@Base 5.0.2 1
  _ZNK21QPlatformInputContext19isInputPanelVisibleEv@Base 5.0.2 1
  _ZNK21QPlatformInputContext6localeEv@Base 5.0.2 1
  _ZNK21QPlatformInputContext7isValidEv@Base 5.0.2 1
- _ZNK21QPlatformScreenBuffer11isDestroyedEv@Base 5.0.2 1
- _ZNK21QPlatformScreenBuffer7isReadyEv@Base 5.0.2 1
  _ZNK21QRasterPlatformPixmap11paintEngineEv@Base 5.0.2 1
  _ZNK21QRasterPlatformPixmap15hasAlphaChannelEv@Base 5.0.2 1
  _ZNK21QRasterPlatformPixmap16devicePixelRatioEv@Base 5.0.2 1
@@ -5749,6 +5826,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK24QOpenGLFramebufferObject7isBoundEv@Base 5.0.2
  _ZNK24QOpenGLFramebufferObject7isValidEv@Base 5.0.2
  _ZNK24QOpenGLFramebufferObject7textureEv@Base 5.0.2
+ _ZNK24QOpenGLFramebufferObject7toImageEb@Base 5.4.0
  _ZNK24QOpenGLFramebufferObject7toImageEv@Base 5.0.2
  _ZNK24QOpenGLTextureGlyphCache12glyphPaddingEv@Base 5.0.2 1
  _ZNK24QOpenGLTextureGlyphCache15maxTextureWidthEv@Base 5.0.2 1
@@ -5759,6 +5837,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK24QPlatformNativeInterface10metaObjectEv@Base 5.0.2 1
  _ZNK24QPlatformNativeInterface14windowPropertyEP15QPlatformWindowRK7QString@Base 5.0.2 1
  _ZNK24QPlatformNativeInterface14windowPropertyEP15QPlatformWindowRK7QStringRK8QVariant@Base 5.0.2 1
+ _ZNK24QPlatformNativeInterface16platformFunctionERK10QByteArray@Base 5.4.0 1
  _ZNK24QPlatformNativeInterface16windowPropertiesEP15QPlatformWindow@Base 5.0.2 1
  _ZNK24QSupportedWritingSystems9supportedEN13QFontDatabase13WritingSystemE@Base 5.0.2 1
  _ZNK25QPlatformFileDialogHelper10metaObjectEv@Base 5.0.2 1
@@ -5766,17 +5845,16 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK25QPlatformFileDialogHelper7optionsEv@Base 5.0.2 1
  _ZNK25QPlatformFontDialogHelper10metaObjectEv@Base 5.0.2 1
  _ZNK25QPlatformFontDialogHelper7optionsEv@Base 5.0.2 1
- _ZNK25QPlatformOffscreenSurface16offscreenSurfaceEv@Base 5.1.0
- _ZNK25QPlatformOffscreenSurface6formatEv@Base 5.1.0
- _ZNK25QPlatformOffscreenSurface6screenEv@Base 5.1.0
- _ZNK25QPlatformOffscreenSurface7isValidEv@Base 5.1.0
+ _ZNK25QPlatformOffscreenSurface16offscreenSurfaceEv@Base 5.1.0 1
+ _ZNK25QPlatformOffscreenSurface6formatEv@Base 5.1.0 1
+ _ZNK25QPlatformOffscreenSurface6screenEv@Base 5.1.0 1
+ _ZNK25QPlatformOffscreenSurface7isValidEv@Base 5.1.0 1
  _ZNK26QAccessibleActionInterface19localizedActionNameERK7QString@Base 5.0.2
  _ZNK26QAccessibleActionInterface26localizedActionDescriptionERK7QString@Base 5.0.2
  _ZNK26QOpenGLEngineShaderManager10metaObjectEv@Base 5.0.2 1
  _ZNK26QPlatformColorDialogHelper10metaObjectEv@Base 5.0.2 1
  _ZNK26QPlatformColorDialogHelper7optionsEv@Base 5.0.2 1
  _ZNK26QPlatformIntegrationPlugin10metaObjectEv@Base 5.0.2 1
- _ZNK26QPlatformScreenPageFlipper10metaObjectEv@Base 5.0.2 1
  _ZNK27QAbstractTextDocumentLayout10metaObjectEv@Base 5.0.2
  _ZNK27QAbstractTextDocumentLayout11paintDeviceEv@Base 5.0.2
  _ZNK27QAbstractTextDocumentLayout16handlerForObjectEi@Base 5.0.2
@@ -5968,6 +6046,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK6QImage10rgbSwappedEv@Base 5.0.2
  _ZNK6QImage11isGrayscaleEv@Base 5.0.2
  _ZNK6QImage11paintEngineEv@Base 5.0.2
+ _ZNK6QImage11pixelFormatEv@Base 5.4.0
  _ZNK6QImage11transformedERK10QTransformN2Qt18TransformationModeE@Base 5.0.2
  _ZNK6QImage11transformedERK7QMatrixN2Qt18TransformationModeE@Base 5.0.2
  _ZNK6QImage12alphaChannelEv@Base 5.0.2
@@ -6418,7 +6497,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTI11QFontEngine@Base 5.0.2 1
  _ZTI11QHoverEvent@Base 5.0.2
  _ZTI11QIconEngine@Base 5.0.2
- _ZTI11QIconLoader@Base 5.0.2 1
  _ZTI11QInputEvent@Base 5.0.2
  _ZTI11QMouseEvent@Base 5.0.2
  _ZTI11QPaintEvent@Base 5.0.2
@@ -6442,14 +6520,15 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTI12QTabletEvent@Base 5.0.2
  _ZTI13QIntValidator@Base 5.0.2
  _ZTI13QOpenGLShader@Base 5.0.2
+ _ZTI13QOpenGLWindow@Base 5.4.0
  _ZTI13QPainterState@Base 5.0.2 1
  _ZTI13QPlatformDrag@Base 5.0.2 1
  _ZTI13QPlatformMenu@Base 5.0.2 1
+ _ZTI13QRasterWindow@Base 5.4.0
  _ZTI13QStandardItem@Base 5.0.2
  _ZTI13QTextDocument@Base 5.0.2
  _ZTI14QDragMoveEvent@Base 5.0.2
  _ZTI14QFileOpenEvent@Base 5.0.2
- _ZTI14QFontEngineQPA@Base 5.0.2 1
  _ZTI14QGenericPlugin@Base 5.0.2
  _ZTI14QIconDragEvent@Base 5.0.2
  _ZTI14QImageIOPlugin@Base 5.0.2
@@ -6460,6 +6539,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTI14QWindowPrivate@Base 5.0.2 1
  _ZTI15QDragEnterEvent@Base 5.0.2
  _ZTI15QDragLeaveEvent@Base 5.0.2
+ _ZTI15QFontEngineQPF2@Base 5.4.0 1
  _ZTI15QGridLayoutItem@Base 5.3.0 1
  _ZTI15QGuiApplication@Base 5.0.2
  _ZTI15QImageIOHandler@Base 5.0.2
@@ -6495,6 +6575,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTI18QOpenGLDebugLogger@Base 5.1.0
  _ZTI18QOpenGLPaintDevice@Base 5.0.2
  (arch=!armel !armhf)_ZTI18QOpenGLTimeMonitor@Base 5.1.0
+ _ZTI18QPaintDeviceWindow@Base 5.4.0
  _ZTI18QPlatformClipboard@Base 5.0.2 1
  _ZTI18QRasterPaintEngine@Base 5.0.2 1
  _ZTI18QStandardItemModel@Base 5.0.2
@@ -6502,7 +6583,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTI18QTextBlockUserData@Base 5.0.2
  _ZTI18QTextureGlyphCache@Base 5.0.2 1
  _ZTI19QBlitterPaintEngine@Base 5.0.2 1
- _ZTI19QFontEngineMultiQPA@Base 5.0.2 1
  _ZTI19QNativeGestureEvent@Base 5.2.0~beta1
  _ZTI19QOpenGLContextGroup@Base 5.0.2
  _ZTI19QOpenGLTextureCache@Base 5.0.2 1
@@ -6537,7 +6617,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTI21QPlatformDialogHelper@Base 5.0.2 1
  _ZTI21QPlatformFontDatabase@Base 5.0.2 1
  _ZTI21QPlatformInputContext@Base 5.0.2 1
- _ZTI21QPlatformScreenBuffer@Base 5.0.2 1
  _ZTI21QPlatformThemePrivate@Base 5.1.0 1
  _ZTI21QRasterPlatformPixmap@Base 5.0.2 1
  _ZTI22QAccessibleApplication@Base 5.0.2
@@ -6562,22 +6641,24 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTI24QPagedPaintDevicePrivate@Base 5.3.0 1
  _ZTI24QPlatformNativeInterface@Base 5.0.2 1
  _ZTI25QAbstractItemModelPrivate@Base 5.0.2 1
+ _ZTI25QFontEngineMultiBasicImpl@Base 5.4.0 1
  (arch=!armel !armhf)_ZTI25QOpenGLFunctions_3_2_Core@Base 5.1.0
  (arch=!armel !armhf)_ZTI25QOpenGLFunctions_3_3_Core@Base 5.1.0
  (arch=!armel !armhf)_ZTI25QOpenGLFunctions_4_0_Core@Base 5.1.0
  (arch=!armel !armhf)_ZTI25QOpenGLFunctions_4_1_Core@Base 5.1.0
  (arch=!armel !armhf)_ZTI25QOpenGLFunctions_4_2_Core@Base 5.1.0
  (arch=!armel !armhf)_ZTI25QOpenGLFunctions_4_3_Core@Base 5.1.0
+ _ZTI25QOpenGLPaintDevicePrivate@Base 5.4.0 1
+ _ZTI25QPaintDeviceWindowPrivate@Base 5.4.0 1
  _ZTI25QPlatformFileDialogHelper@Base 5.0.2 1
  _ZTI25QPlatformFontDialogHelper@Base 5.0.2 1
- _ZTI25QPlatformOffscreenSurface@Base 5.1.0
+ _ZTI25QPlatformOffscreenSurface@Base 5.1.0 1
  _ZTI26QAccessibleActionInterface@Base 5.0.2
  _ZTI26QOpenGLContextGroupPrivate@Base 5.0.2 1
  _ZTI26QOpenGLEngineShaderManager@Base 5.0.2 1
  _ZTI26QOpenGLSharedResourceGuard@Base 5.0.2 1
  _ZTI26QPlatformColorDialogHelper@Base 5.0.2 1
  _ZTI26QPlatformIntegrationPlugin@Base 5.0.2 1
- _ZTI26QPlatformScreenPageFlipper@Base 5.0.2 1
  _ZTI27QAbstractTextDocumentLayout@Base 5.0.2
  _ZTI27QAccessibleStateChangeEvent@Base 5.0.2
  _ZTI27QPlatformInputContextPlugin@Base 5.0.2 1
@@ -6630,7 +6711,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTIN29QWindowSystemInterfacePrivate25TabletEnterProximityEventE@Base 5.0.2 1
  _ZTIN29QWindowSystemInterfacePrivate25TabletLeaveProximityEventE@Base 5.0.2 1
  _ZTIN29QWindowSystemInterfacePrivate28ApplicationStateChangedEventE@Base 5.1.0 1
- _ZTIN29QWindowSystemInterfacePrivate28ScreenAvailableGeometryEventE@Base 5.0.2 1
  _ZTIN29QWindowSystemInterfacePrivate29ScreenLogicalDotsPerInchEventE@Base 5.0.2 1
  _ZTIN29QWindowSystemInterfacePrivate8KeyEventE@Base 5.0.2 1
  _ZTIN29QWindowSystemInterfacePrivate9UserEventE@Base 5.0.2 1
@@ -6655,7 +6735,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTS11QFontEngine@Base 5.0.2 1
  _ZTS11QHoverEvent@Base 5.0.2
  _ZTS11QIconEngine@Base 5.0.2
- _ZTS11QIconLoader@Base 5.0.2 1
  _ZTS11QInputEvent@Base 5.0.2
  _ZTS11QMouseEvent@Base 5.0.2
  _ZTS11QPaintEvent@Base 5.0.2
@@ -6679,14 +6758,15 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTS12QTabletEvent@Base 5.0.2
  _ZTS13QIntValidator@Base 5.0.2
  _ZTS13QOpenGLShader@Base 5.0.2
+ _ZTS13QOpenGLWindow@Base 5.4.0
  _ZTS13QPainterState@Base 5.0.2 1
  _ZTS13QPlatformDrag@Base 5.0.2 1
  _ZTS13QPlatformMenu@Base 5.0.2 1
+ _ZTS13QRasterWindow@Base 5.4.0
  _ZTS13QStandardItem@Base 5.0.2
  _ZTS13QTextDocument@Base 5.0.2
  _ZTS14QDragMoveEvent@Base 5.0.2
  _ZTS14QFileOpenEvent@Base 5.0.2
- _ZTS14QFontEngineQPA@Base 5.0.2 1
  _ZTS14QGenericPlugin@Base 5.0.2
  _ZTS14QIconDragEvent@Base 5.0.2
  _ZTS14QImageIOPlugin@Base 5.0.2
@@ -6697,6 +6777,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTS14QWindowPrivate@Base 5.0.2 1
  _ZTS15QDragEnterEvent@Base 5.0.2
  _ZTS15QDragLeaveEvent@Base 5.0.2
+ _ZTS15QFontEngineQPF2@Base 5.4.0 1
  _ZTS15QGridLayoutItem@Base 5.3.0 1
  _ZTS15QGuiApplication@Base 5.0.2
  _ZTS15QImageIOHandler@Base 5.0.2
@@ -6732,6 +6813,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTS18QOpenGLDebugLogger@Base 5.1.0
  _ZTS18QOpenGLPaintDevice@Base 5.0.2
  (arch=!armel !armhf)_ZTS18QOpenGLTimeMonitor@Base 5.1.0
+ _ZTS18QPaintDeviceWindow@Base 5.4.0
  _ZTS18QPlatformClipboard@Base 5.0.2 1
  _ZTS18QRasterPaintEngine@Base 5.0.2 1
  _ZTS18QStandardItemModel@Base 5.0.2
@@ -6739,7 +6821,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTS18QTextBlockUserData@Base 5.0.2
  _ZTS18QTextureGlyphCache@Base 5.0.2 1
  _ZTS19QBlitterPaintEngine@Base 5.0.2 1
- _ZTS19QFontEngineMultiQPA@Base 5.0.2 1
  _ZTS19QNativeGestureEvent@Base 5.2.0~beta1
  _ZTS19QOpenGLContextGroup@Base 5.0.2
  _ZTS19QOpenGLTextureCache@Base 5.0.2 1
@@ -6774,7 +6855,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTS21QPlatformDialogHelper@Base 5.0.2 1
  _ZTS21QPlatformFontDatabase@Base 5.0.2 1
  _ZTS21QPlatformInputContext@Base 5.0.2 1
- _ZTS21QPlatformScreenBuffer@Base 5.0.2 1
  _ZTS21QPlatformThemePrivate@Base 5.1.0 1
  _ZTS21QRasterPlatformPixmap@Base 5.0.2 1
  _ZTS22QAccessibleApplication@Base 5.0.2
@@ -6799,22 +6879,24 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTS24QPagedPaintDevicePrivate@Base 5.3.0 1
  _ZTS24QPlatformNativeInterface@Base 5.0.2 1
  _ZTS25QAbstractItemModelPrivate@Base 5.0.2 1
+ _ZTS25QFontEngineMultiBasicImpl@Base 5.4.0 1
  (arch=!armel !armhf)_ZTS25QOpenGLFunctions_3_2_Core@Base 5.1.0
  (arch=!armel !armhf)_ZTS25QOpenGLFunctions_3_3_Core@Base 5.1.0
  (arch=!armel !armhf)_ZTS25QOpenGLFunctions_4_0_Core@Base 5.1.0
  (arch=!armel !armhf)_ZTS25QOpenGLFunctions_4_1_Core@Base 5.1.0
  (arch=!armel !armhf)_ZTS25QOpenGLFunctions_4_2_Core@Base 5.1.0
  (arch=!armel !armhf)_ZTS25QOpenGLFunctions_4_3_Core@Base 5.1.0
+ _ZTS25QOpenGLPaintDevicePrivate@Base 5.4.0 1
+ _ZTS25QPaintDeviceWindowPrivate@Base 5.4.0 1
  _ZTS25QPlatformFileDialogHelper@Base 5.0.2 1
  _ZTS25QPlatformFontDialogHelper@Base 5.0.2 1
- _ZTS25QPlatformOffscreenSurface@Base 5.1.0
+ _ZTS25QPlatformOffscreenSurface@Base 5.1.0 1
  _ZTS26QAccessibleActionInterface@Base 5.0.2
  _ZTS26QOpenGLContextGroupPrivate@Base 5.0.2 1
  _ZTS26QOpenGLEngineShaderManager@Base 5.0.2 1
  _ZTS26QOpenGLSharedResourceGuard@Base 5.0.2 1
  _ZTS26QPlatformColorDialogHelper@Base 5.0.2 1
  _ZTS26QPlatformIntegrationPlugin@Base 5.0.2 1
- _ZTS26QPlatformScreenPageFlipper@Base 5.0.2 1
  _ZTS27QAbstractTextDocumentLayout@Base 5.0.2
  _ZTS27QAccessibleStateChangeEvent@Base 5.0.2
  _ZTS27QPlatformInputContextPlugin@Base 5.0.2 1
@@ -6867,7 +6949,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTSN29QWindowSystemInterfacePrivate25TabletEnterProximityEventE@Base 5.0.2 1
  _ZTSN29QWindowSystemInterfacePrivate25TabletLeaveProximityEventE@Base 5.0.2 1
  _ZTSN29QWindowSystemInterfacePrivate28ApplicationStateChangedEventE@Base 5.1.0 1
- _ZTSN29QWindowSystemInterfacePrivate28ScreenAvailableGeometryEventE@Base 5.0.2 1
  _ZTSN29QWindowSystemInterfacePrivate29ScreenLogicalDotsPerInchEventE@Base 5.0.2 1
  _ZTSN29QWindowSystemInterfacePrivate8KeyEventE@Base 5.0.2 1
  _ZTSN29QWindowSystemInterfacePrivate9UserEventE@Base 5.0.2 1
@@ -6892,7 +6973,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTV11QFontEngine@Base 5.0.2 1
  _ZTV11QHoverEvent@Base 5.0.2
  _ZTV11QIconEngine@Base 5.0.2
- _ZTV11QIconLoader@Base 5.0.2 1
  _ZTV11QInputEvent@Base 5.0.2
  _ZTV11QMouseEvent@Base 5.0.2
  _ZTV11QPaintEvent@Base 5.0.2
@@ -6915,14 +6995,15 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTV12QTabletEvent@Base 5.0.2
  _ZTV13QIntValidator@Base 5.0.2
  _ZTV13QOpenGLShader@Base 5.0.2
+ _ZTV13QOpenGLWindow@Base 5.4.0
  _ZTV13QPainterState@Base 5.0.2 1
  _ZTV13QPlatformDrag@Base 5.0.2 1
  _ZTV13QPlatformMenu@Base 5.0.2 1
+ _ZTV13QRasterWindow@Base 5.4.0
  _ZTV13QStandardItem@Base 5.0.2
  _ZTV13QTextDocument@Base 5.0.2
  _ZTV14QDragMoveEvent@Base 5.0.2
  _ZTV14QFileOpenEvent@Base 5.0.2
- _ZTV14QFontEngineQPA@Base 5.0.2 1
  _ZTV14QGenericPlugin@Base 5.0.2
  _ZTV14QIconDragEvent@Base 5.0.2
  _ZTV14QImageIOPlugin@Base 5.0.2
@@ -6933,6 +7014,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTV14QWindowPrivate@Base 5.0.2 1
  _ZTV15QDragEnterEvent@Base 5.0.2
  _ZTV15QDragLeaveEvent@Base 5.0.2
+ _ZTV15QFontEngineQPF2@Base 5.4.0 1
  _ZTV15QGridLayoutItem@Base 5.3.0 1
  _ZTV15QGuiApplication@Base 5.0.2
  _ZTV15QImageIOHandler@Base 5.0.2
@@ -6967,6 +7049,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTV18QOpenGLDebugLogger@Base 5.1.0
  _ZTV18QOpenGLPaintDevice@Base 5.0.2
  (arch=!armel !armhf)_ZTV18QOpenGLTimeMonitor@Base 5.1.0
+ _ZTV18QPaintDeviceWindow@Base 5.4.0
  _ZTV18QPlatformClipboard@Base 5.0.2 1
  _ZTV18QRasterPaintEngine@Base 5.0.2 1
  _ZTV18QStandardItemModel@Base 5.0.2
@@ -6974,7 +7057,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTV18QTextBlockUserData@Base 5.0.2
  _ZTV18QTextureGlyphCache@Base 5.0.2 1
  _ZTV19QBlitterPaintEngine@Base 5.0.2 1
- _ZTV19QFontEngineMultiQPA@Base 5.0.2 1
  _ZTV19QNativeGestureEvent@Base 5.2.0~beta1
  _ZTV19QOpenGLContextGroup@Base 5.0.2
  _ZTV19QOpenGLTextureCache@Base 5.0.2 1
@@ -7000,7 +7082,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTV20QPlatformTextureList@Base 5.3.0 1
  _ZTV20QPlatformThemePlugin@Base 5.0.2 1
  _ZTV20QTextFrameLayoutData@Base 5.0.2
- _ZTV20QTextObjectInterface@Base 5.0.2
+ (optional=gccinternal)_ZTV20QTextObjectInterface@Base 5.4.1
  _ZTV21QOpenGL2PaintEngineEx@Base 5.0.2 1
  _ZTV21QOpenGLContextPrivate@Base 5.0.2 1
  _ZTV21QOpenGLSharedResource@Base 5.0.2 1
@@ -7009,7 +7091,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTV21QPlatformDialogHelper@Base 5.0.2 1
  _ZTV21QPlatformFontDatabase@Base 5.0.2 1
  _ZTV21QPlatformInputContext@Base 5.0.2 1
- _ZTV21QPlatformScreenBuffer@Base 5.0.2 1
  _ZTV21QPlatformThemePrivate@Base 5.1.0 1
  _ZTV21QRasterPlatformPixmap@Base 5.0.2 1
  _ZTV22QAccessibleApplication@Base 5.0.2
@@ -7034,22 +7115,24 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTV24QPagedPaintDevicePrivate@Base 5.3.0 1
  _ZTV24QPlatformNativeInterface@Base 5.0.2 1
  _ZTV25QAbstractItemModelPrivate@Base 5.0.2 1
+ _ZTV25QFontEngineMultiBasicImpl@Base 5.4.0 1
  (arch=!armel !armhf)_ZTV25QOpenGLFunctions_3_2_Core@Base 5.1.0
  (arch=!armel !armhf)_ZTV25QOpenGLFunctions_3_3_Core@Base 5.1.0
  (arch=!armel !armhf)_ZTV25QOpenGLFunctions_4_0_Core@Base 5.1.0
  (arch=!armel !armhf)_ZTV25QOpenGLFunctions_4_1_Core@Base 5.1.0
  (arch=!armel !armhf)_ZTV25QOpenGLFunctions_4_2_Core@Base 5.1.0
  (arch=!armel !armhf)_ZTV25QOpenGLFunctions_4_3_Core@Base 5.1.0
+ _ZTV25QOpenGLPaintDevicePrivate@Base 5.4.0 1
+ _ZTV25QPaintDeviceWindowPrivate@Base 5.4.0 1
  _ZTV25QPlatformFileDialogHelper@Base 5.0.2 1
  _ZTV25QPlatformFontDialogHelper@Base 5.0.2 1
- _ZTV25QPlatformOffscreenSurface@Base 5.1.0
+ _ZTV25QPlatformOffscreenSurface@Base 5.1.0 1
  _ZTV26QAccessibleActionInterface@Base 5.0.2
  _ZTV26QOpenGLContextGroupPrivate@Base 5.0.2 1
  _ZTV26QOpenGLEngineShaderManager@Base 5.0.2 1
  _ZTV26QOpenGLSharedResourceGuard@Base 5.0.2 1
  _ZTV26QPlatformColorDialogHelper@Base 5.0.2 1
  _ZTV26QPlatformIntegrationPlugin@Base 5.0.2 1
- _ZTV26QPlatformScreenPageFlipper@Base 5.0.2 1
  _ZTV27QAbstractTextDocumentLayout@Base 5.0.2
  _ZTV27QAccessibleStateChangeEvent@Base 5.0.2
  _ZTV27QPlatformInputContextPlugin@Base 5.0.2 1
@@ -7078,7 +7161,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTV9QTextList@Base 5.0.2
  _ZTVN29QWindowSystemInterfacePrivate10CloseEventE@Base 5.0.2 1
  _ZTVN29QWindowSystemInterfacePrivate10EnterEventE@Base 5.0.2 1
- _ZTVN29QWindowSystemInterfacePrivate10InputEventE@Base 5.0.2 1
+ (optional=gccinternal)_ZTVN29QWindowSystemInterfacePrivate10InputEventE@Base 5.4.1 1
  _ZTVN29QWindowSystemInterfacePrivate10LeaveEventE@Base 5.0.2 1
  _ZTVN29QWindowSystemInterfacePrivate10MouseEventE@Base 5.0.2 1
  _ZTVN29QWindowSystemInterfacePrivate10TouchEventE@Base 5.0.2 1
@@ -7102,7 +7185,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTVN29QWindowSystemInterfacePrivate25TabletEnterProximityEventE@Base 5.0.2 1
  _ZTVN29QWindowSystemInterfacePrivate25TabletLeaveProximityEventE@Base 5.0.2 1
  _ZTVN29QWindowSystemInterfacePrivate28ApplicationStateChangedEventE@Base 5.1.0 1
- _ZTVN29QWindowSystemInterfacePrivate28ScreenAvailableGeometryEventE@Base 5.0.2 1
  _ZTVN29QWindowSystemInterfacePrivate29ScreenLogicalDotsPerInchEventE@Base 5.0.2 1
  _ZTVN29QWindowSystemInterfacePrivate8KeyEventE@Base 5.0.2 1
  _ZTVN29QWindowSystemInterfacePrivate9UserEventE@Base 5.0.2 1
@@ -7146,6 +7228,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _Zls6QDebugRK9QVector2D@Base 5.0.2
  _Zls6QDebugRK9QVector3D@Base 5.0.2
  _Zls6QDebugRK9QVector4D@Base 5.0.2
+ _Zls6QDebugRKN11QTouchEvent10TouchPointE@Base 5.4.0
  _Zls6QDebugRKN22QWindowSystemInterface10TouchPointE@Base 5.1.0 1
  _ZlsR11QDataStreamRK10QMatrix4x4@Base 5.0.2
  _ZlsR11QDataStreamRK10QTransform@Base 5.0.2
@@ -7209,6 +7292,12 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  (c++)"non-virtual thunk to QOffscreenSurface::surfaceHandle() const@Base" 5.1.0
  (c++)"non-virtual thunk to QOffscreenSurface::surfaceType() const@Base" 5.1.0
  (c++)"non-virtual thunk to QOffscreenSurface::~QOffscreenSurface()@Base" 5.1.0
+ (c++)"non-virtual thunk to QOpenGLWindow::metric(QPaintDevice::PaintDeviceMetric) const@Base" 5.4.0
+ (c++)"non-virtual thunk to QOpenGLWindow::redirected(QPoint*) const@Base" 5.4.0
+ (optional=gccinternal|c++)"non-virtual thunk to QOpenGLWindow::~QOpenGLWindow()@Base" 5.4.0
+ (c++)"non-virtual thunk to QPaintDeviceWindow::metric(QPaintDevice::PaintDeviceMetric) const@Base" 5.4.0
+ (c++)"non-virtual thunk to QPaintDeviceWindow::paintEngine() const@Base" 5.4.0
+ (optional=gccinternal|c++)"non-virtual thunk to QPaintDeviceWindow::~QPaintDeviceWindow()@Base" 5.4.0
  (c++)"non-virtual thunk to QPdfWriter::metric(QPaintDevice::PaintDeviceMetric) const@Base" 5.0.2
  (c++)"non-virtual thunk to QPdfWriter::newPage()@Base" 5.0.2
  (c++)"non-virtual thunk to QPdfWriter::paintEngine() const@Base" 5.0.2
@@ -7216,10 +7305,13 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  (c++)"non-virtual thunk to QPdfWriter::setPageSize(QPagedPaintDevice::PageSize)@Base" 5.0.2
  (c++)"non-virtual thunk to QPdfWriter::setPageSizeMM(QSizeF const&)@Base" 5.0.2
  (c++)"non-virtual thunk to QPdfWriter::~QPdfWriter()@Base" 5.0.2
- (c++)"non-virtual thunk to QSimpleDrag::~QSimpleDrag()@Base" 5.1.0
+ (c++)"non-virtual thunk to QRasterWindow::metric(QPaintDevice::PaintDeviceMetric) const@Base" 5.4.0
+ (c++)"non-virtual thunk to QRasterWindow::redirected(QPoint*) const@Base" 5.4.0
+ (optional=gccinternal|c++)"non-virtual thunk to QRasterWindow::~QRasterWindow()@Base" 5.4.0
+ (optional=gccinternal|c++)"non-virtual thunk to QSimpleDrag::~QSimpleDrag()@Base" 5.1.0
  (c++)"non-virtual thunk to QTextImageHandler::drawObject(QPainter*, QRectF const&, QTextDocument*, int, QTextFormat const&)@Base" 5.0.2
  (c++)"non-virtual thunk to QTextImageHandler::intrinsicSize(QTextDocument*, int, QTextFormat const&)@Base" 5.0.2
- (c++)"non-virtual thunk to QTextImageHandler::~QTextImageHandler()@Base" 5.0.2
+ (optional=gccinternal|c++)"non-virtual thunk to QTextImageHandler::~QTextImageHandler()@Base" 5.0.2
  (c++)"non-virtual thunk to QWindow::format() const@Base" 5.0.2
  (c++)"non-virtual thunk to QWindow::surfaceHandle() const@Base" 5.0.2
  (c++)"non-virtual thunk to QWindow::surfaceType() const@Base" 5.0.2

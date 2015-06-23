@@ -1,6 +1,6 @@
-# SymbolsHelper-Confirmed: 5.3.0 amd64
+# SymbolsHelper-Confirmed: 5.4.1 amd64
 libQt5PrintSupport.so.5 libqt5printsupport5 #MINVER#
-| libqt5printsupport5 #MINVER#, qtbase-abi-5-3-2
+| libqt5printsupport5 #MINVER#, qtbase-abi-5-4-2
  _Z19qt_printerPaperSizeN8QPrinter11OrientationEN17QPagedPaintDevice8PageSizeENS_4UnitEi@Base 5.0.2
  _Z20qt_multiplierForUnitN8QPrinter4UnitEi@Base 5.0.2
  _ZN12QCUPSSupport10setJobHoldEP8QPrinterNS_12JobHoldUntilERK5QTime@Base 5.2.0~alpha1 1
@@ -280,8 +280,10 @@ libQt5PrintSupport.so.5 libqt5printsupport5 #MINVER#
  _ZNK12QPrinterInfo11printerNameEv@Base 5.0.2
  _ZNK12QPrinterInfo12makeAndModelEv@Base 5.0.2
  _ZNK12QPrinterInfo15defaultPageSizeEv@Base 5.3.0
+ _ZNK12QPrinterInfo17defaultDuplexModeEv@Base 5.4.0
  _ZNK12QPrinterInfo18supportedPageSizesEv@Base 5.3.0
  _ZNK12QPrinterInfo19supportedPaperSizesEv@Base 5.0.2
+ _ZNK12QPrinterInfo20supportedDuplexModesEv@Base 5.4.0
  _ZNK12QPrinterInfo20supportedResolutionsEv@Base 5.3.0
  _ZNK12QPrinterInfo23maximumPhysicalPageSizeEv@Base 5.3.0
  _ZNK12QPrinterInfo23minimumPhysicalPageSizeEv@Base 5.3.0

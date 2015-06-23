@@ -1,6 +1,6 @@
-# SymbolsHelper-Confirmed: 5.3.0 amd64
+# SymbolsHelper-Confirmed: 5.4.1 amd64
 libQt5OpenGL.so.5 libqt5opengl5 #MINVER#
-| libqt5opengl5 #MINVER#, qtbase-abi-5-3-2
+| libqt5opengl5 #MINVER#, qtbase-abi-5-4-2
  _Z19qt_qgl_paint_enginev@Base 5.0.2
  _ZN10QGLContext10areSharingEPKS_S1_@Base 5.0.2
  _ZN10QGLContext10currentCtxE@Base 5.0.2
@@ -86,9 +86,9 @@ libQt5OpenGL.so.5 libqt5opengl5 #MINVER#
  _ZN14QGLSignalProxy16staticMetaObjectE@Base 5.0.2 1
  _ZN14QGLSignalProxy21aboutToDestroyContextEPK10QGLContext@Base 5.0.2 1
  _ZN14QGLSignalProxy8instanceEv@Base 5.0.2 1
- _ZN14QGLSignalProxyD0Ev@Base 5.0.2 1
- _ZN14QGLSignalProxyD1Ev@Base 5.0.2 1
- _ZN14QGLSignalProxyD2Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN14QGLSignalProxyD0Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN14QGLSignalProxyD1Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN14QGLSignalProxyD2Ev@Base 5.0.2 1
  _ZN16QGLShaderProgram11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN16QGLShaderProgram11qt_metacastEPKc@Base 5.0.2
  _ZN16QGLShaderProgram12removeShaderEP9QGLShader@Base 5.0.2
@@ -362,12 +362,12 @@ libQt5OpenGL.so.5 libqt5opengl5 #MINVER#
  _ZN22QGLWidgetGLPaintDevice9setWidgetEP9QGLWidget@Base 5.0.2 1
  _ZN22QGLWidgetGLPaintDeviceC1Ev@Base 5.0.2 1
  _ZN22QGLWidgetGLPaintDeviceC2Ev@Base 5.0.2 1
- _ZN22QGLWidgetGLPaintDeviceD0Ev@Base 5.0.2 1
- _ZN22QGLWidgetGLPaintDeviceD1Ev@Base 5.0.2 1
- _ZN22QGLWidgetGLPaintDeviceD2Ev@Base 5.0.2 1
- _ZN22QGraphicsEffectPrivateD0Ev@Base 5.0.2 1
- _ZN22QGraphicsEffectPrivateD1Ev@Base 5.0.2 1
- _ZN22QGraphicsEffectPrivateD2Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN22QGLWidgetGLPaintDeviceD0Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN22QGLWidgetGLPaintDeviceD1Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN22QGLWidgetGLPaintDeviceD2Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN22QGraphicsEffectPrivateD0Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN22QGraphicsEffectPrivateD1Ev@Base 5.0.2 1
+ (optional=gccinternal)_ZN22QGraphicsEffectPrivateD2Ev@Base 5.0.2 1
  _ZN26QGLFramebufferObjectFormat10setSamplesEi@Base 5.0.2
  _ZN26QGLFramebufferObjectFormat13setAttachmentEN20QGLFramebufferObject10AttachmentE@Base 5.0.2
  _ZN26QGLFramebufferObjectFormat16setTextureTargetEj@Base 5.0.2
@@ -632,7 +632,9 @@ libQt5OpenGL.so.5 libqt5opengl5 #MINVER#
  _ZTI14QGLSignalProxy@Base 5.0.2 1
  _ZTI16QGLShaderProgram@Base 5.0.2
  _ZTI16QGLWidgetPrivate@Base 5.0.2 1
+ _ZTI16QOpenGLFunctions@Base 5.4.0
  _ZTI17QGL2PaintEngineEx@Base 5.0.2 1
+ _ZTI17QOpenGLExtensions@Base 5.4.0 1
  _ZTI18QTextureGlyphCache@Base 5.0.2 1
  _ZTI20QGLCustomShaderStage@Base 5.0.2 1
  _ZTI20QGLFramebufferObject@Base 5.0.2
@@ -651,7 +653,9 @@ libQt5OpenGL.so.5 libqt5opengl5 #MINVER#
  _ZTS14QGLSignalProxy@Base 5.0.2 1
  _ZTS16QGLShaderProgram@Base 5.0.2
  _ZTS16QGLWidgetPrivate@Base 5.0.2 1
+ _ZTS16QOpenGLFunctions@Base 5.4.0
  _ZTS17QGL2PaintEngineEx@Base 5.0.2 1
+ _ZTS17QOpenGLExtensions@Base 5.4.0 1
  _ZTS18QTextureGlyphCache@Base 5.0.2 1
  _ZTS20QGLCustomShaderStage@Base 5.0.2 1
  _ZTS20QGLFramebufferObject@Base 5.0.2
