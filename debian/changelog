@@ -1,3 +1,8 @@
+qtbase-opensource-src (5.4.2+dfsg-4) UNRELEASED; urgency=medium
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 22 Jun 2015 21:57:47 -0300
+
 qtbase-opensource-src (5.4.2+dfsg-3) experimental; urgency=medium
 
   * Update symbols files with buildd's logs.
