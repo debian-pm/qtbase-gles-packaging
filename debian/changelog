@@ -1,9 +1,9 @@
-qtbase-opensource-src (5.4.2+dfsg-4) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.4.2+dfsg-4) unstable; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Upload to unstable.
   * Update symbols files with buildds' logs.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 22 Jun 2015 21:57:47 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 22 Jun 2015 23:29:30 -0300
 
 qtbase-opensource-src (5.4.2+dfsg-3) experimental; urgency=medium
 
