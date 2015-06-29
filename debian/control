@@ -434,6 +434,7 @@ Description: Qt 5 base examples debugging symbols
 
 Package: qt5-default
 Architecture: any
+Multi-Arch: same
 Depends: qtbase5-dev, qtchooser, ${misc:Depends}
 Conflicts: qt4-default
 Suggests: qt5-qmake, qtbase5-dev-tools
