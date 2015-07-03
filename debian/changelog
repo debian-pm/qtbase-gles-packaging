@@ -7,6 +7,7 @@ qtbase-opensource-src (5.5.0+dfsg-1) UNRELEASED; urgency=medium
     - upstream_Complete-MIPS-atomic-support-on-pre-MIPS32-architect.patch
     - upstream_small-improvements-to-the-hurd-g-mkspec.patch
   * Refresh gnukfreebsd.diff.
+  * Update install files for already present packages.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 29 Jun 2015 14:41:08 +0300
 

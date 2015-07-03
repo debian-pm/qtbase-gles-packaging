@@ -697,6 +697,10 @@ usr/include/*/qt5/QtGui/QOpenGLFunctions_4_2_Compatibility
 usr/include/*/qt5/QtGui/QOpenGLFunctions_4_2_Core
 usr/include/*/qt5/QtGui/QOpenGLFunctions_4_3_Compatibility
 usr/include/*/qt5/QtGui/QOpenGLFunctions_4_3_Core
+usr/include/*/qt5/QtGui/QOpenGLFunctions_4_4_Compatibility
+usr/include/*/qt5/QtGui/QOpenGLFunctions_4_4_Core
+usr/include/*/qt5/QtGui/QOpenGLFunctions_4_5_Compatibility
+usr/include/*/qt5/QtGui/QOpenGLFunctions_4_5_Core
 usr/include/*/qt5/QtGui/QOpenGLFunctions_ES2
 usr/include/*/qt5/QtGui/QOpenGLPaintDevice
 usr/include/*/qt5/QtGui/QOpenGLPixelTransferOptions
@@ -729,6 +733,7 @@ usr/include/*/qt5/QtGui/QPictureIO
 usr/include/*/qt5/QtGui/QPixelFormat
 usr/include/*/qt5/QtGui/QPixmap
 usr/include/*/qt5/QtGui/QPixmapCache
+usr/include/*/qt5/QtGui/QPlatformSurfaceEvent
 usr/include/*/qt5/QtGui/QPolygon
 usr/include/*/qt5/QtGui/QPolygonF
 usr/include/*/qt5/QtGui/QQuaternion
@@ -871,6 +876,10 @@ usr/include/*/qt5/QtGui/qopenglfunctions_4_2_compatibility.h
 usr/include/*/qt5/QtGui/qopenglfunctions_4_2_core.h
 usr/include/*/qt5/QtGui/qopenglfunctions_4_3_compatibility.h
 usr/include/*/qt5/QtGui/qopenglfunctions_4_3_core.h
+usr/include/*/qt5/QtGui/qopenglfunctions_4_4_compatibility.h
+usr/include/*/qt5/QtGui/qopenglfunctions_4_4_core.h
+usr/include/*/qt5/QtGui/qopenglfunctions_4_5_compatibility.h
+usr/include/*/qt5/QtGui/qopenglfunctions_4_5_core.h
 usr/include/*/qt5/QtGui/qopenglfunctions_es2.h
 usr/include/*/qt5/QtGui/qopenglpaintdevice.h
 usr/include/*/qt5/QtGui/qopenglpixeltransferoptions.h
@@ -966,8 +975,10 @@ usr/include/*/qt5/QtNetwork/QSslCertificate
 usr/include/*/qt5/QtNetwork/QSslCertificateExtension
 usr/include/*/qt5/QtNetwork/QSslCipher
 usr/include/*/qt5/QtNetwork/QSslConfiguration
+usr/include/*/qt5/QtNetwork/QSslEllipticCurve
 usr/include/*/qt5/QtNetwork/QSslError
 usr/include/*/qt5/QtNetwork/QSslKey
+usr/include/*/qt5/QtNetwork/QSslPreSharedKeyAuthenticator
 usr/include/*/qt5/QtNetwork/QSslSocket
 usr/include/*/qt5/QtNetwork/QTcpServer
 usr/include/*/qt5/QtNetwork/QTcpSocket
@@ -1002,8 +1013,10 @@ usr/include/*/qt5/QtNetwork/qsslcertificate.h
 usr/include/*/qt5/QtNetwork/qsslcertificateextension.h
 usr/include/*/qt5/QtNetwork/qsslcipher.h
 usr/include/*/qt5/QtNetwork/qsslconfiguration.h
+usr/include/*/qt5/QtNetwork/qsslellipticcurve.h
 usr/include/*/qt5/QtNetwork/qsslerror.h
 usr/include/*/qt5/QtNetwork/qsslkey.h
+usr/include/*/qt5/QtNetwork/qsslpresharedkeyauthenticator.h
 usr/include/*/qt5/QtNetwork/qsslsocket.h
 usr/include/*/qt5/QtNetwork/qtcpserver.h
 usr/include/*/qt5/QtNetwork/qtcpsocket.h
@@ -1020,6 +1033,7 @@ usr/include/*/qt5/QtPlatformHeaders/QEGLNativeContext
 usr/include/*/qt5/QtPlatformHeaders/QEglFSFunctions
 usr/include/*/qt5/QtPlatformHeaders/QGLXNativeContext
 usr/include/*/qt5/QtPlatformHeaders/QWGLNativeContext
+usr/include/*/qt5/QtPlatformHeaders/QWindowsWindowFunctions
 usr/include/*/qt5/QtPlatformHeaders/QXcbWindowFunctions
 usr/include/*/qt5/QtPlatformHeaders/QtPlatformHeaders
 usr/include/*/qt5/QtPlatformHeaders/QtPlatformHeadersDepends
@@ -1030,6 +1044,7 @@ usr/include/*/qt5/QtPlatformHeaders/qeglnativecontext.h
 usr/include/*/qt5/QtPlatformHeaders/qglxnativecontext.h
 usr/include/*/qt5/QtPlatformHeaders/qtplatformheadersversion.h
 usr/include/*/qt5/QtPlatformHeaders/qwglnativecontext.h
+usr/include/*/qt5/QtPlatformHeaders/qwindowswindowfunctions.h
 usr/include/*/qt5/QtPlatformHeaders/qxcbwindowfunctions.h
 usr/include/*/qt5/QtPrintSupport/QAbstractPrintDialog
 usr/include/*/qt5/QtPrintSupport/QPageSetupDialog
@@ -1596,6 +1611,8 @@ usr/lib/*/libQt5Core.prl
 usr/lib/*/libQt5Core.so
 usr/lib/*/libQt5DBus.prl
 usr/lib/*/libQt5DBus.so
+usr/lib/*/libQt5EglDeviceIntegration.prl
+usr/lib/*/libQt5EglDeviceIntegration.so
 usr/lib/*/libQt5Gui.prl
 usr/lib/*/libQt5Gui.so
 usr/lib/*/libQt5Network.prl
@@ -1610,11 +1627,14 @@ usr/lib/*/libQt5Test.prl
 usr/lib/*/libQt5Test.so
 usr/lib/*/libQt5Widgets.prl
 usr/lib/*/libQt5Widgets.so
+usr/lib/*/libQt5XcbQpa.prl
+usr/lib/*/libQt5XcbQpa.so
 usr/lib/*/libQt5Xml.prl
 usr/lib/*/libQt5Xml.so
 usr/lib/*/pkgconfig/Qt5Concurrent.pc
 usr/lib/*/pkgconfig/Qt5Core.pc
 usr/lib/*/pkgconfig/Qt5DBus.pc
+usr/lib/*/pkgconfig/Qt5EglDeviceIntegration.pc
 usr/lib/*/pkgconfig/Qt5Gui.pc
 usr/lib/*/pkgconfig/Qt5Network.pc
 usr/lib/*/pkgconfig/Qt5OpenGLExtensions.pc
@@ -1622,6 +1642,7 @@ usr/lib/*/pkgconfig/Qt5PrintSupport.pc
 usr/lib/*/pkgconfig/Qt5Sql.pc
 usr/lib/*/pkgconfig/Qt5Test.pc
 usr/lib/*/pkgconfig/Qt5Widgets.pc
+usr/lib/*/pkgconfig/Qt5XcbQpa.pc
 usr/lib/*/pkgconfig/Qt5Xml.pc
 usr/share/qt5/doc/global/compat.qdocconf
 usr/share/qt5/doc/global/config.qdocconf
