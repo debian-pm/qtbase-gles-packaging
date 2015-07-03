@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.4.2 amd64 hppa
+# SymbolsHelper-Confirmed: 5.4.2 amd64 hppa m68k
 libQt5Core.so.5 libqt5core5a #MINVER#
 | libqt5core5a #MINVER#, qtbase-abi-5-4-2
  _Z10forcepointR11QTextStream@Base 5.0.2
@@ -7,7 +7,7 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _Z10qHBNewFacePvPF8HB_ErrorS_jPhPjE@Base 5.0.2
  _Z10qShapeItemP14HB_ShaperItem_@Base 5.0.2
  _Z10qTerminatev@Base 5.0.2
- (arch=hppa mips mipsel sparc)_Z10qvsnprintfPcjPKcPv@Base 5.3.1
+ (arch=hppa m68k mips mipsel sparc)_Z10qvsnprintfPcjPKcPv@Base 5.4.2
  (arch=hurd-i386 i386 kfreebsd-i386)_Z10qvsnprintfPcjPKcS_@Base 5.2.0
  (arch=armel armhf)_Z10qvsnprintfPcjPKcSt9__va_list@Base 5.2.0
  (arch=alpha)_Z10qvsnprintfPcmPKc13__va_list_tag@Base 5.1.0
@@ -2722,7 +2722,7 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  (arch=alpha)_ZN7QString8vsprintfEPKc13__va_list_tag@Base 5.1.0
  (arch=amd64 kfreebsd-amd64 powerpc powerpcspe s390x x32)_ZN7QString8vsprintfEPKcP13__va_list_tag@Base 5.3.1
  (arch=hurd-i386 i386 kfreebsd-i386 ppc64 ppc64el)_ZN7QString8vsprintfEPKcPc@Base 5.3.1
- (arch=hppa mips mips64el mipsel sparc sparc64)_ZN7QString8vsprintfEPKcPv@Base 5.3.1
+ (arch=hppa m68k mips mips64el mipsel sparc sparc64)_ZN7QString8vsprintfEPKcPv@Base 5.4.2
  (arch=arm64 armel armhf)_ZN7QString8vsprintfEPKcSt9__va_list@Base 5.3.0
  _ZN7QString9fromUtf16EPKti@Base 5.0.2
  _ZN7QStringC1E5QChar@Base 5.0.2
@@ -4924,8 +4924,8 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  (optional=templinst)_ZNSt20__copy_move_backwardILb1ELb1ESt26random_access_iterator_tagE13__copy_move_bIiEEPT_PKS3_S6_S4_@Base 5.0.2
  (optional=templinst|subst)_ZSt17__rotate_adaptiveIP21QPersistentModelIndexS1_{ssize_t}ET_S2_S2_S2_T1_S3_T0_S3_@Base 5.0.2
  (optional=templinst|subst)_ZSt17__rotate_adaptiveIPiS0_{ssize_t}ET_S1_S1_S1_T1_S2_T0_S2_@Base 5.0.2
- (optional=templinst|arch=mips mips64el mipsel powerpc ppc64 ppc64el s390x)_ZSt8__rotateIP21QPersistentModelIndexEvT_S2_S2_St26random_access_iterator_tag@Base 5.3.1
- (optional=templinst|arch=mips mips64el mipsel powerpc ppc64 ppc64el s390x)_ZSt8__rotateIPiEvT_S1_S1_St26random_access_iterator_tag@Base 5.3.1
+ (optional=templinst|arch=m68k mips mips64el mipsel powerpc ppc64 ppc64el s390x)_ZSt8__rotateIP21QPersistentModelIndexEvT_S2_S2_St26random_access_iterator_tag@Base 5.3.1
+ (optional=templinst|arch=m68k mips mips64el mipsel powerpc ppc64 ppc64el s390x)_ZSt8__rotateIPiEvT_S1_S1_St26random_access_iterator_tag@Base 5.3.1
  _ZTI10QEventLoop@Base 5.0.2
  _ZTI10QException@Base 5.0.2
  _ZTI10QTextCodec@Base 5.0.2
