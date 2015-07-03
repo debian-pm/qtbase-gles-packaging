@@ -1,6 +1,4 @@
 # Backported stuff
-upstream_small-improvements-to-the-hurd-g-mkspec.patch
-upstream_Complete-MIPS-atomic-support-on-pre-MIPS32-architect.patch
 gnukfreebsd.diff
 
 # Debian specific.
