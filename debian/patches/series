@@ -1,7 +1,7 @@
 # Backported stuff
-gnukfreebsd.diff
 
 # Debian specific.
+gnukfreebsd.diff
 revert_upstream_bsymbolic_change.patch
 no_htmlinfo_example.diff
 remove_privacy_breachs.diff
