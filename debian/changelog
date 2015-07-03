@@ -6,6 +6,7 @@ qtbase-opensource-src (5.5.0+dfsg-1) UNRELEASED; urgency=medium
   * Remove backported patches already present in this release:
     - upstream_Complete-MIPS-atomic-support-on-pre-MIPS32-architect.patch
     - upstream_small-improvements-to-the-hurd-g-mkspec.patch
+  * Refresh gnukfreebsd.diff.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 29 Jun 2015 14:41:08 +0300
 
