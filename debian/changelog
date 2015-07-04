@@ -9,6 +9,8 @@ qtbase-opensource-src (5.5.0+dfsg-1) UNRELEASED; urgency=medium
   * Refresh gnukfreebsd.diff.
   * Update install files for already present packages.
   * Add the new libqt5xcbqpa5 and libqt5egldeviceintegration5 libraries.
+  * Add two new plugins based on libinput. This are only installed on linux
+    due to libinput not being available on other OSs yet.
 
   [ Pino Toscano ]
   * Fix build on Hurd, by temporarly disabling waitid() in forkfd code;
