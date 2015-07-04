@@ -278,7 +278,7 @@ Description: Qt 5 print support module
  portable.
 
 Package: libqt5egldeviceintegration5
-Architecture: any
+Architecture: linux-any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
