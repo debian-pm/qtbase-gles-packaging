@@ -1611,8 +1611,6 @@ usr/lib/*/libQt5Core.prl
 usr/lib/*/libQt5Core.so
 usr/lib/*/libQt5DBus.prl
 usr/lib/*/libQt5DBus.so
-usr/lib/*/libQt5EglDeviceIntegration.prl
-usr/lib/*/libQt5EglDeviceIntegration.so
 usr/lib/*/libQt5Gui.prl
 usr/lib/*/libQt5Gui.so
 usr/lib/*/libQt5Network.prl
@@ -1634,7 +1632,6 @@ usr/lib/*/libQt5Xml.so
 usr/lib/*/pkgconfig/Qt5Concurrent.pc
 usr/lib/*/pkgconfig/Qt5Core.pc
 usr/lib/*/pkgconfig/Qt5DBus.pc
-usr/lib/*/pkgconfig/Qt5EglDeviceIntegration.pc
 usr/lib/*/pkgconfig/Qt5Gui.pc
 usr/lib/*/pkgconfig/Qt5Network.pc
 usr/lib/*/pkgconfig/Qt5OpenGLExtensions.pc
