@@ -1,4 +1,5 @@
 usr/lib/*/libQt5Gui.so.*
+usr/lib/*/qt5/plugins/generic/libqtuiotouchplugin.so
 usr/lib/*/qt5/plugins/imageformats/libqgif.so
 usr/lib/*/qt5/plugins/imageformats/libqico.so
 usr/lib/*/qt5/plugins/imageformats/libqjpeg.so
