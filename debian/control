@@ -277,6 +277,29 @@ Description: Qt 5 print support module
  The QtPrintSupport module provides classes to make printing easier and
  portable.
 
+Package: libqt5egldeviceintegration5
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 5 EGL device integration
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This module provides integration with different EGL devices through
+ specific plugins for kms, x11, etc.
+
+Package: libqt5xcbqpa5
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 5 XCB platform module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This module provides XCB integration used on regular desktop Linux platforms.
+
 Package: qtbase5-dev
 Architecture: any
 Multi-Arch: same

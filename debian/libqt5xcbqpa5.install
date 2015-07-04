@@ -1,0 +1,2 @@
+usr/lib/*/libQt5XcbQpa.so.*
+usr/lib/*/qt5/plugins/xcbglintegrations/*
