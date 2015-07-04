@@ -1,0 +1,22 @@
+Author: Pino Toscano <toscano.pino@tiscali.it>
+Description: Disable use of waitid() on Hurd
+ The forkfd implementation with waitid uses flags not yet available on the
+ Hurd; thus temporarly disable that, as the forkfd implementation works fine
+ without too.
+ .
+ Most probably not upstreamable.
+Forwarded: no (possibly not needed)
+Last-Update: 2015-07-04
+
+--- a/src/3rdparty/forkfd/forkfd.c
++++ b/src/3rdparty/forkfd/forkfd.c
+@@ -53,6 +53,9 @@
+ #if _POSIX_VERSION-0 >= 200809L || _XOPEN_VERSION-0 >= 500
+ #  define HAVE_WAITID   1
+ #endif
++#ifdef __GNU__
++#  undef HAVE_WAITID
++#endif
+ 
+ #if defined(__APPLE__)
+ /* Up until OS X 10.7, waitid(P_ALL, ...) will return success, but will not
