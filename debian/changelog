@@ -2,6 +2,7 @@ qtbase-opensource-src (5.5.0+dfsg-1) UNRELEASED; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
+    - Bump qtbase-abi to 5-5-0.
   * Update symbols files with buildd's logs.
   * Remove backported patches already present in this release:
     - upstream_Complete-MIPS-atomic-support-on-pre-MIPS32-architect.patch
