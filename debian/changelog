@@ -20,6 +20,9 @@ qtbase-opensource-src (5.5.0+dfsg-1) UNRELEASED; urgency=medium
   * Fix build on Hurd, by temporarly disabling waitid() in forkfd code;
     patch hurd-forkfd.diff.
 
+  [ Timo Jyrinki ]
+  * Build depend on GStreamer 1.0 and add a configure option for it.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 29 Jun 2015 14:41:08 +0300
 
 qtbase-opensource-src (5.4.2+dfsg-4) unstable; urgency=medium
