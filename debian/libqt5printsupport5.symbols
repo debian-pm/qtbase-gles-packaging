@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.4.1 amd64
+# SymbolsHelper-Confirmed: 5.5.0 amd64
 libQt5PrintSupport.so.5 libqt5printsupport5 #MINVER#
 | libqt5printsupport5 #MINVER#, qtbase-abi-5-5-0
  _Z19qt_printerPaperSizeN8QPrinter11OrientationEN17QPagedPaintDevice8PageSizeENS_4UnitEi@Base 5.0.2
@@ -268,6 +268,7 @@ libQt5PrintSupport.so.5 libqt5printsupport5 #MINVER#
  _ZNK12QPrintDevice2idEv@Base 5.3.0 1
  _ZNK12QPrintDevice4nameEv@Base 5.3.0 1
  _ZNK12QPrintDevice5stateEv@Base 5.3.0 1
+ _ZNK12QPrintDevice6formatE6QDebug@Base 5.5.0
  _ZNK12QPrintDevice7isValidEv@Base 5.3.0 1
  _ZNK12QPrintDevice8isRemoteEv@Base 5.3.0 1
  _ZNK12QPrintDevice8locationEv@Base 5.3.0 1
@@ -358,7 +359,6 @@ libQt5PrintSupport.so.5 libqt5printsupport5 #MINVER#
  _ZNK20QPlatformPrintDevice8isRemoteEv@Base 5.3.0 1
  _ZNK20QPlatformPrintDevice8locationEv@Base 5.3.0 1
  _ZNK20QPlatformPrintDevice9isDefaultEv@Base 5.3.0 1
- _ZNK20QPlatformPrintDeviceeqERKS_@Base 5.3.0 1
  _ZNK23QPlatformPrinterSupport20defaultPrintDeviceIdEv@Base 5.3.0 1
  _ZNK23QPlatformPrinterSupport23availablePrintDeviceIdsEv@Base 5.3.0 1
  _ZNK29QPlatformPrinterSupportPlugin10metaObjectEv@Base 5.0.2 1
@@ -403,7 +403,6 @@ libQt5PrintSupport.so.5 libqt5printsupport5 #MINVER#
  _ZNK8QPrinter9paperRectEv@Base 5.0.2
  _ZNK8QPrinter9paperSizeENS_4UnitE@Base 5.0.2
  _ZNK8QPrinter9paperSizeEv@Base 5.0.2
- _ZTI11QSharedData@Base 5.3.0
  _ZTI12QPrintDialog@Base 5.0.2
  _ZTI12QPrintEngine@Base 5.0.2
  _ZTI15QPdfPrintEngine@Base 5.0.2 1
@@ -419,7 +418,6 @@ libQt5PrintSupport.so.5 libqt5printsupport5 #MINVER#
  _ZTI24QPagedPaintDevicePrivate@Base 5.3.0 1
  _ZTI29QPlatformPrinterSupportPlugin@Base 5.0.2 1
  _ZTI8QPrinter@Base 5.0.2
- _ZTS11QSharedData@Base 5.3.0
  _ZTS12QPrintDialog@Base 5.0.2
  _ZTS12QPrintEngine@Base 5.0.2
  _ZTS15QPdfPrintEngine@Base 5.0.2 1
@@ -450,6 +448,8 @@ libQt5PrintSupport.so.5 libqt5printsupport5 #MINVER#
  _ZTV24QPagedPaintDevicePrivate@Base 5.3.0 1
  _ZTV29QPlatformPrinterSupportPlugin@Base 5.0.2 1
  _ZTV8QPrinter@Base 5.0.2
+ _Zls6QDebugRK12QPrintDevice@Base 5.5.0
+ _Zls6QDebugRK12QPrinterInfo@Base 5.5.0
  (c++)"non-virtual thunk to QAbstractPrintDialog::~QAbstractPrintDialog()@Base" 5.0.2
  (c++)"non-virtual thunk to QPageSetupDialog::~QPageSetupDialog()@Base" 5.0.2
  (c++)"non-virtual thunk to QPdfPrintEngine::metric(QPaintDevice::PaintDeviceMetric) const@Base" 5.0.2
