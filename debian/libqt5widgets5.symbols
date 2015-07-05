@@ -2059,7 +2059,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN14QWidgetPrivate20setWindowOpacity_sysEd@Base 5.2.0 1
  _ZN14QWidgetPrivate21setMaximumSize_helperERiS0_@Base 5.0.2 1
  _ZN14QWidgetPrivate21setMinimumSize_helperERiS0_@Base 5.0.2 1
- _ZN14QWidgetPrivate21setWidgetParentHelperEP7QObjectS1_@Base 5.5.0
+ _ZN14QWidgetPrivate21setWidgetParentHelperEP7QObjectS1_@Base 5.5.0 1
  _ZN14QWidgetPrivate21setWindowFilePath_sysERK7QString@Base 5.0.2 1
  _ZN14QWidgetPrivate21setWindowIconText_sysERK7QString@Base 5.0.2 1
  _ZN14QWidgetPrivate21setWindowTitle_helperERK7QString@Base 5.0.2 1
@@ -2922,12 +2922,12 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN18QFileDialogPrivate10_q_goToUrlERK4QUrl@Base 5.0.2 1
  _ZN18QFileDialogPrivate10helperDoneEN7QDialog10DialogCodeEP21QPlatformDialogHelper@Base 5.0.2 1
  _ZN18QFileDialogPrivate10initHelperEP21QPlatformDialogHelper@Base 5.0.2 1
- _ZN18QFileDialogPrivate12saveSettingsEv@Base 5.5.0
+ _ZN18QFileDialogPrivate12saveSettingsEv@Base 5.5.0 1
  _ZN18QFileDialogPrivate13_q_showHeaderEP7QAction@Base 5.0.2 1
  _ZN18QFileDialogPrivate13_q_showHiddenEv@Base 5.0.2 1
  _ZN18QFileDialogPrivate13createWidgetsEv@Base 5.0.2 1
  _ZN18QFileDialogPrivate13maxNameLengthERK7QString@Base 5.0.2 1
- _ZN18QFileDialogPrivate14_q_fileRenamedERK7QStringS2_S2_@Base 5.5.0
+ _ZN18QFileDialogPrivate14_q_fileRenamedERK7QStringS2_S2_@Base 5.5.0 1
  _ZN18QFileDialogPrivate14_q_pathChangedERK7QString@Base 5.0.2 1
  _ZN18QFileDialogPrivate15_q_rowsInsertedERK11QModelIndex@Base 5.0.2 1
  _ZN18QFileDialogPrivate15_q_showListViewEv@Base 5.0.2 1
@@ -2950,14 +2950,14 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN18QFileDialogPrivate18_q_navigateForwardEv@Base 5.0.2 1
  _ZN18QFileDialogPrivate18_q_showContextMenuERK6QPoint@Base 5.0.2 1
  _ZN18QFileDialogPrivate18_q_showDetailsViewEv@Base 5.0.2 1
- _ZN18QFileDialogPrivate18restoreWidgetStateER11QStringListi@Base 5.5.0
+ _ZN18QFileDialogPrivate18restoreWidgetStateER11QStringListi@Base 5.5.0 1
  _ZN18QFileDialogPrivate18retranslateStringsEv@Base 5.0.2 1
  _ZN18QFileDialogPrivate18updateOkButtonTextEb@Base 5.0.2 1
  _ZN18QFileDialogPrivate19_q_emitUrlsSelectedERK5QListI4QUrlE@Base 5.4.0 1
  _ZN18QFileDialogPrivate19_q_navigateBackwardEv@Base 5.0.2 1
  _ZN18QFileDialogPrivate19_q_navigateToParentEv@Base 5.0.2 1
  _ZN18QFileDialogPrivate19_q_selectionChangedEv@Base 5.0.2 1
- _ZN18QFileDialogPrivate19restoreFromSettingsEv@Base 5.5.0
+ _ZN18QFileDialogPrivate19restoreFromSettingsEv@Base 5.5.0 1
  _ZN18QFileDialogPrivate19setLabelTextControlEN11QFileDialog11DialogLabelERK7QString@Base 5.0.2 1
  _ZN18QFileDialogPrivate21itemViewKeyboardEventEP9QKeyEvent@Base 5.0.2 1
  _ZN18QFileDialogPrivate22getEnvironmentVariableERK7QString@Base 5.0.2 1
@@ -6599,7 +6599,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK18QFileDialogPrivate17canBeNativeDialogEv@Base 5.2.0~rc1 1
  _ZNK18QFileDialogPrivate17userSelectedFilesEv@Base 5.0.2 1
  _ZNK18QFileDialogPrivate22addDefaultSuffixToUrlsERK5QListI4QUrlE@Base 5.2.0~alpha1 1
- _ZNK18QFileDialogPrivate23addDefaultSuffixToFilesERK11QStringList@Base 5.5.0
+ _ZNK18QFileDialogPrivate23addDefaultSuffixToFilesERK11QStringList@Base 5.5.0 1
  _ZNK18QFileDialogPrivate8lineEditEv@Base 5.0.2 1
  _ZNK18QGraphicsItemGroup10opaqueAreaEv@Base 5.0.2
  _ZNK18QGraphicsItemGroup12boundingRectEv@Base 5.0.2

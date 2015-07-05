@@ -1142,11 +1142,11 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN13QOpenGLBufferD1Ev@Base 5.0.2
  _ZN13QOpenGLBufferD2Ev@Base 5.0.2
  _ZN13QOpenGLBufferaSERKS_@Base 5.0.2
- _ZN13QOpenGLConfig11gpuFeaturesERKNS_3GpuERK13QJsonDocument@Base 5.5.0
- _ZN13QOpenGLConfig11gpuFeaturesERKNS_3GpuERK7QString@Base 5.5.0
- _ZN13QOpenGLConfig11gpuFeaturesERKNS_3GpuERK7QStringRK14QVersionNumberRK13QJsonDocument@Base 5.5.0
- _ZN13QOpenGLConfig11gpuFeaturesERKNS_3GpuERK7QStringRK14QVersionNumberS5_@Base 5.5.0
- _ZN13QOpenGLConfig3Gpu11fromContextEv@Base 5.5.0
+ _ZN13QOpenGLConfig11gpuFeaturesERKNS_3GpuERK13QJsonDocument@Base 5.5.0 1
+ _ZN13QOpenGLConfig11gpuFeaturesERKNS_3GpuERK7QString@Base 5.5.0 1
+ _ZN13QOpenGLConfig11gpuFeaturesERKNS_3GpuERK7QStringRK14QVersionNumberRK13QJsonDocument@Base 5.5.0 1
+ _ZN13QOpenGLConfig11gpuFeaturesERKNS_3GpuERK7QStringRK14QVersionNumberS5_@Base 5.5.0 1
+ _ZN13QOpenGLConfig3Gpu11fromContextEv@Base 5.5.0 1
  _ZN13QOpenGLShader11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN13QOpenGLShader11qt_metacastEPKc@Base 5.0.2
  _ZN13QOpenGLShader16hasOpenGLShadersE6QFlagsINS_13ShaderTypeBitEEP14QOpenGLContext@Base 5.0.2
@@ -1310,14 +1310,14 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN14QDistanceField8setGlyphERK8QRawFontjb@Base 5.2.0~alpha1 1
  _ZN14QDistanceFieldC1EP11QFontEnginejb@Base 5.2.0~alpha1 1
  _ZN14QDistanceFieldC1EP18QDistanceFieldData@Base 5.2.0~alpha1 1
- _ZN14QDistanceFieldC1ERK12QPainterPathjb@Base 5.5.0
+ _ZN14QDistanceFieldC1ERK12QPainterPathjb@Base 5.5.0 1
  _ZN14QDistanceFieldC1ERK8QRawFontjb@Base 5.2.0~alpha1 1
  _ZN14QDistanceFieldC1ERKS_@Base 5.2.0~alpha1 1
  _ZN14QDistanceFieldC1Eii@Base 5.2.0~alpha1 1
  _ZN14QDistanceFieldC1Ev@Base 5.2.0~alpha1 1
  _ZN14QDistanceFieldC2EP11QFontEnginejb@Base 5.2.0~alpha1 1
  _ZN14QDistanceFieldC2EP18QDistanceFieldData@Base 5.2.0~alpha1 1
- _ZN14QDistanceFieldC2ERK12QPainterPathjb@Base 5.5.0
+ _ZN14QDistanceFieldC2ERK12QPainterPathjb@Base 5.5.0 1
  _ZN14QDistanceFieldC2ERK8QRawFontjb@Base 5.2.0~alpha1 1
  _ZN14QDistanceFieldC2ERKS_@Base 5.2.0~alpha1 1
  _ZN14QDistanceFieldC2Eii@Base 5.2.0~alpha1 1
@@ -1536,7 +1536,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN14QWindowPrivate16clearFocusObjectEv@Base 5.2.0~rc1 1
  _ZN14QWindowPrivate16updateVisibilityEv@Base 5.1.0 1
  _ZN14QWindowPrivate17setTopLevelScreenEP7QScreenb@Base 5.4.0 1
- _ZN14QWindowPrivate20deliverUpdateRequestEv@Base 5.5.0
+ _ZN14QWindowPrivate20deliverUpdateRequestEv@Base 5.5.0 1
  _ZN14QWindowPrivate26emitScreenChangedRecursionEP7QScreen@Base 5.4.0 1
  _ZN14QWindowPrivate27maybeQuitOnLastWindowClosedEv@Base 5.0.2 1
  _ZN14QWindowPrivate4initEv@Base 5.3.0 1
@@ -1670,9 +1670,9 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN15QPlatformPixmapD0Ev@Base 5.0.2 1
  _ZN15QPlatformPixmapD1Ev@Base 5.0.2 1
  _ZN15QPlatformPixmapD2Ev@Base 5.0.2 1
- _ZN15QPlatformScreen10mapBetweenEN2Qt17ScreenOrientationES1_RK5QRect@Base 5.5.0
- _ZN15QPlatformScreen12angleBetweenEN2Qt17ScreenOrientationES1_@Base 5.5.0
- _ZN15QPlatformScreen16transformBetweenEN2Qt17ScreenOrientationES1_RK5QRect@Base 5.5.0
+ _ZN15QPlatformScreen10mapBetweenEN2Qt17ScreenOrientationES1_RK5QRect@Base 5.5.0 1
+ _ZN15QPlatformScreen12angleBetweenEN2Qt17ScreenOrientationES1_@Base 5.5.0 1
+ _ZN15QPlatformScreen16transformBetweenEN2Qt17ScreenOrientationES1_RK5QRect@Base 5.5.0 1
  _ZN15QPlatformScreen22resizeMaximizedWindowsEv@Base 5.0.2 1
  _ZN15QPlatformScreen23platformScreenForWindowEPK7QWindow@Base 5.0.2 1
  _ZN15QPlatformScreen24setOrientationUpdateMaskE6QFlagsIN2Qt17ScreenOrientationEE@Base 5.0.2 1
@@ -1685,7 +1685,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN15QPlatformWindow10setVisibleEb@Base 5.0.2 1
  _ZN15QPlatformWindow11setGeometryERK5QRect@Base 5.0.2 1
  _ZN15QPlatformWindow11windowEventEP6QEvent@Base 5.0.2 1
- _ZN15QPlatformWindow13requestUpdateEv@Base 5.5.0
+ _ZN15QPlatformWindow13requestUpdateEv@Base 5.5.0 1
  _ZN15QPlatformWindow13setAlertStateEb@Base 5.1.0 1
  _ZN15QPlatformWindow13setWindowIconERK5QIcon@Base 5.0.2 1
  _ZN15QPlatformWindow14setWindowFlagsE6QFlagsIN2Qt10WindowTypeEE@Base 5.0.2 1
@@ -1823,10 +1823,10 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN16QDoubleValidatorD0Ev@Base 5.0.2
  _ZN16QDoubleValidatorD1Ev@Base 5.0.2
  _ZN16QDoubleValidatorD2Ev@Base 5.0.2
- _ZN16QFontEngineMulti10loadEngineEi@Base 5.5.0
+ _ZN16QFontEngineMulti10loadEngineEi@Base 5.5.0 1
  _ZN16QFontEngineMulti11boundingBoxERK12QGlyphLayout@Base 5.0.2 1
  _ZN16QFontEngineMulti11boundingBoxEj@Base 5.0.2 1
- _ZN16QFontEngineMulti14ensureEngineAtEi@Base 5.5.0
+ _ZN16QFontEngineMulti14ensureEngineAtEi@Base 5.5.0 1
  _ZN16QFontEngineMulti16addOutlineToPathEddRK12QGlyphLayoutP12QPainterPath6QFlagsIN9QTextItem10RenderFlagEE@Base 5.2.0 1
  _ZN16QFontEngineMulti16alphaMapForGlyphEj6QFixed@Base 5.0.2 1
  _ZN16QFontEngineMulti16alphaMapForGlyphEj6QFixedRK10QTransform@Base 5.0.2 1
@@ -1834,11 +1834,11 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN16QFontEngineMulti16alphaMapForGlyphEjRK10QTransform@Base 5.0.2 1
  _ZN16QFontEngineMulti16getGlyphBearingsEjPdS0_@Base 5.2.0 1
  _ZN16QFontEngineMulti19alphaRGBMapForGlyphEj6QFixedRK10QTransform@Base 5.0.2 1
- _ZN16QFontEngineMulti21createMultiFontEngineEP11QFontEnginei@Base 5.5.0
- _ZN16QFontEngineMulti23setFallbackFamiliesListERK11QStringList@Base 5.5.0
- _ZN16QFontEngineMulti29ensureFallbackFamiliesQueriedEv@Base 5.5.0
- _ZN16QFontEngineMultiC1EP11QFontEngineiRK11QStringList@Base 5.5.0
- _ZN16QFontEngineMultiC2EP11QFontEngineiRK11QStringList@Base 5.5.0
+ _ZN16QFontEngineMulti21createMultiFontEngineEP11QFontEnginei@Base 5.5.0 1
+ _ZN16QFontEngineMulti23setFallbackFamiliesListERK11QStringList@Base 5.5.0 1
+ _ZN16QFontEngineMulti29ensureFallbackFamiliesQueriedEv@Base 5.5.0 1
+ _ZN16QFontEngineMultiC1EP11QFontEngineiRK11QStringList@Base 5.5.0 1
+ _ZN16QFontEngineMultiC2EP11QFontEngineiRK11QStringList@Base 5.5.0 1
  _ZN16QFontEngineMultiD0Ev@Base 5.0.2 1
  _ZN16QFontEngineMultiD1Ev@Base 5.0.2 1
  _ZN16QFontEngineMultiD2Ev@Base 5.0.2 1
@@ -1926,8 +1926,8 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN17QGridLayoutEngine7addItemEP15QGridLayoutItem@Base 5.3.0 1
  _ZN17QGridLayoutEngine9setItemAtEiiP15QGridLayoutItem@Base 5.3.0 1
  _ZN17QGridLayoutEngine9transposeEv@Base 5.3.0 1
- _ZN17QGridLayoutEngineC1E6QFlagsIN2Qt13AlignmentFlagEEb@Base 5.5.0
- _ZN17QGridLayoutEngineC2E6QFlagsIN2Qt13AlignmentFlagEEb@Base 5.5.0
+ _ZN17QGridLayoutEngineC1E6QFlagsIN2Qt13AlignmentFlagEEb@Base 5.5.0 1
+ _ZN17QGridLayoutEngineC2E6QFlagsIN2Qt13AlignmentFlagEEb@Base 5.5.0 1
  _ZN17QIconEnginePlugin11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN17QIconEnginePlugin11qt_metacastEPKc@Base 5.0.2
  _ZN17QIconEnginePlugin16staticMetaObjectE@Base 5.0.2
@@ -1972,7 +1972,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN17QOffscreenSurfaceD0Ev@Base 5.1.0
  _ZN17QOffscreenSurfaceD1Ev@Base 5.1.0
  _ZN17QOffscreenSurfaceD2Ev@Base 5.1.0
- _ZN17QOpenGLExtensions11flushSharedEv@Base 5.5.0
+ _ZN17QOpenGLExtensions11flushSharedEv@Base 5.5.0 1
  _ZN17QOpenGLExtensions11gles3HelperEv@Base 5.4.1 1
  _ZN17QOpenGLExtensions16openGLExtensionsEv@Base 5.0.2 1
  _ZN17QOpenGLExtensionsC1EP14QOpenGLContext@Base 5.0.2 1
@@ -2015,16 +2015,16 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN17QPdfEnginePrivate11writeHeaderEv@Base 5.0.2 1
  _ZN17QPdfEnginePrivate12addXrefEntryEib@Base 5.0.2 1
  _ZN17QPdfEnginePrivate12drawTextItemERK7QPointFRK12QTextItemInt@Base 5.0.2 1
- _ZN17QPdfEnginePrivate13gradientBrushERK6QBrushRK10QTransformPi@Base 5.5.0
+ _ZN17QPdfEnginePrivate13gradientBrushERK6QBrushRK10QTransformPi@Base 5.5.0 1
  _ZN17QPdfEnginePrivate13writePageRootEv@Base 5.0.2 1
  _ZN17QPdfEnginePrivate15addBrushPatternERK10QTransformPbPi@Base 5.0.2 1
  _ZN17QPdfEnginePrivate15writeCompressedEP9QIODevice@Base 5.0.2 1
  _ZN17QPdfEnginePrivate15writeCompressedEPKci@Base 5.0.2 1
- _ZN17QPdfEnginePrivate21createShadingFunctionEPK9QGradientiibb@Base 5.5.0
+ _ZN17QPdfEnginePrivate21createShadingFunctionEPK9QGradientiibb@Base 5.5.0 1
  _ZN17QPdfEnginePrivate22addConstantAlphaObjectEii@Base 5.0.2 1
- _ZN17QPdfEnginePrivate22generateGradientShaderEPK9QGradientRK10QTransformb@Base 5.5.0
- _ZN17QPdfEnginePrivate28generateLinearGradientShaderEPK15QLinearGradientRK10QTransformb@Base 5.5.0
- _ZN17QPdfEnginePrivate28generateRadialGradientShaderEPK15QRadialGradientRK10QTransformb@Base 5.5.0
+ _ZN17QPdfEnginePrivate22generateGradientShaderEPK9QGradientRK10QTransformb@Base 5.5.0 1
+ _ZN17QPdfEnginePrivate28generateLinearGradientShaderEPK15QLinearGradientRK10QTransformb@Base 5.5.0 1
+ _ZN17QPdfEnginePrivate28generateRadialGradientShaderEPK15QRadialGradientRK10QTransformb@Base 5.5.0 1
  _ZN17QPdfEnginePrivate7newPageEv@Base 5.0.2 1
  _ZN17QPdfEnginePrivate7xprintfEPKcz@Base 5.0.2 1
  _ZN17QPdfEnginePrivate8addImageERK6QImagePbx@Base 5.0.2 1
@@ -2037,22 +2037,22 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN17QPdfEnginePrivateD0Ev@Base 5.0.2 1
  _ZN17QPdfEnginePrivateD1Ev@Base 5.0.2 1
  _ZN17QPdfEnginePrivateD2Ev@Base 5.0.2 1
- _ZN17QPixmapIconEngine10actualSizeERK5QSizeN5QIcon4ModeENS3_5StateE@Base 5.5.0
- _ZN17QPixmapIconEngine12virtual_hookEiPv@Base 5.5.0
- _ZN17QPixmapIconEngine4readER11QDataStream@Base 5.5.0
- _ZN17QPixmapIconEngine5paintEP8QPainterRK5QRectN5QIcon4ModeENS5_5StateE@Base 5.5.0
- _ZN17QPixmapIconEngine6pixmapERK5QSizeN5QIcon4ModeENS3_5StateE@Base 5.5.0
- _ZN17QPixmapIconEngine7addFileERK7QStringRK5QSizeN5QIcon4ModeENS6_5StateE@Base 5.5.0
- _ZN17QPixmapIconEngine8tryMatchERK5QSizeN5QIcon4ModeENS3_5StateE@Base 5.5.0
- _ZN17QPixmapIconEngine9addPixmapERK7QPixmapN5QIcon4ModeENS3_5StateE@Base 5.5.0
- _ZN17QPixmapIconEngine9bestMatchERK5QSizeN5QIcon4ModeENS3_5StateEb@Base 5.5.0
- _ZN17QPixmapIconEngineC1ERKS_@Base 5.5.0
- _ZN17QPixmapIconEngineC1Ev@Base 5.5.0
- _ZN17QPixmapIconEngineC2ERKS_@Base 5.5.0
- _ZN17QPixmapIconEngineC2Ev@Base 5.5.0
- _ZN17QPixmapIconEngineD0Ev@Base 5.5.0
- _ZN17QPixmapIconEngineD1Ev@Base 5.5.0
- _ZN17QPixmapIconEngineD2Ev@Base 5.5.0
+ _ZN17QPixmapIconEngine10actualSizeERK5QSizeN5QIcon4ModeENS3_5StateE@Base 5.5.0 1
+ _ZN17QPixmapIconEngine12virtual_hookEiPv@Base 5.5.0 1
+ _ZN17QPixmapIconEngine4readER11QDataStream@Base 5.5.0 1
+ _ZN17QPixmapIconEngine5paintEP8QPainterRK5QRectN5QIcon4ModeENS5_5StateE@Base 5.5.0 1
+ _ZN17QPixmapIconEngine6pixmapERK5QSizeN5QIcon4ModeENS3_5StateE@Base 5.5.0 1
+ _ZN17QPixmapIconEngine7addFileERK7QStringRK5QSizeN5QIcon4ModeENS6_5StateE@Base 5.5.0 1
+ _ZN17QPixmapIconEngine8tryMatchERK5QSizeN5QIcon4ModeENS3_5StateE@Base 5.5.0 1
+ _ZN17QPixmapIconEngine9addPixmapERK7QPixmapN5QIcon4ModeENS3_5StateE@Base 5.5.0 1
+ _ZN17QPixmapIconEngine9bestMatchERK5QSizeN5QIcon4ModeENS3_5StateEb@Base 5.5.0 1
+ _ZN17QPixmapIconEngineC1ERKS_@Base 5.5.0 1
+ _ZN17QPixmapIconEngineC1Ev@Base 5.5.0 1
+ _ZN17QPixmapIconEngineC2ERKS_@Base 5.5.0 1
+ _ZN17QPixmapIconEngineC2Ev@Base 5.5.0 1
+ _ZN17QPixmapIconEngineD0Ev@Base 5.5.0 1
+ _ZN17QPixmapIconEngineD1Ev@Base 5.5.0 1
+ _ZN17QPixmapIconEngineD2Ev@Base 5.5.0 1
  _ZN17QPlatformMenuItem11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
  _ZN17QPlatformMenuItem11qt_metacastEPKc@Base 5.0.2 1
  _ZN17QPlatformMenuItem16staticMetaObjectE@Base 5.0.2 1
@@ -2377,17 +2377,17 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN19QColorDialogOptionsD1Ev@Base 5.0.2 1
  _ZN19QColorDialogOptionsD2Ev@Base 5.0.2 1
  _ZN19QColorDialogOptionsaSERKS_@Base 5.0.2 1
- _ZN19QInputDeviceManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
- _ZN19QInputDeviceManager11qt_metacastEPKc@Base 5.5.0
- _ZN19QInputDeviceManager12setCursorPosERK6QPoint@Base 5.5.0
- _ZN19QInputDeviceManager16staticMetaObjectE@Base 5.5.0
- _ZN19QInputDeviceManager17deviceListChangedENS_10DeviceTypeE@Base 5.5.0
- _ZN19QInputDeviceManager29cursorPositionChangeRequestedERK6QPoint@Base 5.5.0
- _ZN19QInputDeviceManagerC1EP7QObject@Base 5.5.0
- _ZN19QInputDeviceManagerC2EP7QObject@Base 5.5.0
- _ZN19QInputDeviceManagerD0Ev@Base 5.5.0
- _ZN19QInputDeviceManagerD1Ev@Base 5.5.0
- _ZN19QInputDeviceManagerD2Ev@Base 5.5.0
+ _ZN19QInputDeviceManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0 1
+ _ZN19QInputDeviceManager11qt_metacastEPKc@Base 5.5.0 1
+ _ZN19QInputDeviceManager12setCursorPosERK6QPoint@Base 5.5.0 1
+ _ZN19QInputDeviceManager16staticMetaObjectE@Base 5.5.0 1
+ _ZN19QInputDeviceManager17deviceListChangedENS_10DeviceTypeE@Base 5.5.0 1
+ _ZN19QInputDeviceManager29cursorPositionChangeRequestedERK6QPoint@Base 5.5.0 1
+ _ZN19QInputDeviceManagerC1EP7QObject@Base 5.5.0 1
+ _ZN19QInputDeviceManagerC2EP7QObject@Base 5.5.0 1
+ _ZN19QInputDeviceManagerD0Ev@Base 5.5.0 1
+ _ZN19QInputDeviceManagerD1Ev@Base 5.5.0 1
+ _ZN19QInputDeviceManagerD2Ev@Base 5.5.0 1
  _ZN19QNativeGestureEventC1EN2Qt17NativeGestureTypeERK7QPointFS4_S4_dmy@Base 5.2.0~beta1
  _ZN19QNativeGestureEventC2EN2Qt17NativeGestureTypeERK7QPointFS4_S4_dmy@Base 5.2.0~beta1
  (optional=gccinternal)_ZN19QNativeGestureEventD0Ev@Base 5.2.0~beta1
@@ -2739,19 +2739,19 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN20QPlatformCursorImage3setEPKhS1_iiii@Base 5.0.2 1
  _ZN20QPlatformCursorImage3setERK6QImageii@Base 5.0.2 1
  _ZN20QPlatformIntegration10initializeEv@Base 5.2.0~beta1 1
- _ZN20QPlatformIntegration11screenAddedEP15QPlatformScreenb@Base 5.5.0
- _ZN20QPlatformIntegration13destroyScreenEP15QPlatformScreen@Base 5.5.0
+ _ZN20QPlatformIntegration11screenAddedEP15QPlatformScreenb@Base 5.5.0 1
+ _ZN20QPlatformIntegration13destroyScreenEP15QPlatformScreen@Base 5.5.0 1
  _ZN20QPlatformIntegration16openGLModuleTypeEv@Base 5.3.0 1
  _ZN20QPlatformIntegration4syncEv@Base 5.2.0~rc1 1
- _ZN20QPlatformIntegration7destroyEv@Base 5.5.0
+ _ZN20QPlatformIntegration7destroyEv@Base 5.5.0 1
  _ZN20QPlatformTextureList11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.3.0 1
  _ZN20QPlatformTextureList11qt_metacastEPKc@Base 5.3.0 1
- _ZN20QPlatformTextureList13appendTextureEPvjRK5QRectS3_6QFlagsINS_4FlagEE@Base 5.5.0
+ _ZN20QPlatformTextureList13appendTextureEPvjRK5QRectS3_6QFlagsINS_4FlagEE@Base 5.5.0 1
  _ZN20QPlatformTextureList16staticMetaObjectE@Base 5.3.0 1
  _ZN20QPlatformTextureList4lockEb@Base 5.3.0 1
  _ZN20QPlatformTextureList5clearEv@Base 5.3.0 1
  _ZN20QPlatformTextureList6lockedEb@Base 5.3.0 1
- _ZN20QPlatformTextureList6sourceEi@Base 5.5.0
+ _ZN20QPlatformTextureList6sourceEi@Base 5.5.0 1
  _ZN20QPlatformTextureListC1EP7QObject@Base 5.3.0 1
  _ZN20QPlatformTextureListC2EP7QObject@Base 5.3.0 1
  _ZN20QPlatformTextureListD0Ev@Base 5.3.0 1
@@ -2885,7 +2885,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN21QPlatformFontDatabase14populateFamilyERK7QString@Base 5.3.0 1
  _ZN21QPlatformFontDatabase15fontEngineMultiEP11QFontEngineN5QChar6ScriptE@Base 5.1.0 1
  _ZN21QPlatformFontDatabase16registerQPF2FontERK10QByteArrayPv@Base 5.0.2 1
- _ZN21QPlatformFontDatabase17weightFromIntegerEi@Base 5.5.0
+ _ZN21QPlatformFontDatabase17weightFromIntegerEi@Base 5.5.0 1
  _ZN21QPlatformFontDatabase18addApplicationFontERK10QByteArrayRK7QString@Base 5.0.2 1
  _ZN21QPlatformFontDatabase18registerFontFamilyERK7QString@Base 5.3.0 1
  _ZN21QPlatformFontDatabase20populateFontDatabaseEv@Base 5.0.2 1
@@ -2985,7 +2985,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN22QDashedStrokeProcessorC2Ev@Base 5.0.2 1
  _ZN22QGuiApplicationPrivate10commitDataEv@Base 5.2.0~alpha1 1
  _ZN22QGuiApplicationPrivate10shouldQuitEv@Base 5.0.2 1
- _ZN22QGuiApplicationPrivate10styleHintsE@Base 5.5.0
+ _ZN22QGuiApplicationPrivate10styleHintsE@Base 5.5.0 1
  _ZN22QGuiApplicationPrivate11displayNameE@Base 5.0.2 1
  _ZN22QGuiApplicationPrivate11gammaTablesEv@Base 5.0.2 1
  _ZN22QGuiApplicationPrivate11mousePressXE@Base 5.0.2 1
@@ -3021,7 +3021,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN22QGuiApplicationPrivate17processWheelEventEPN29QWindowSystemInterfacePrivate10WheelEventE@Base 5.0.2 1
  _ZN22QGuiApplicationPrivate17tabletPressTargetE@Base 5.0.2 1
  _ZN22QGuiApplicationPrivate18currentMouseWindowE@Base 5.0.2 1
- _ZN22QGuiApplicationPrivate18inputDeviceManagerEv@Base 5.5.0
+ _ZN22QGuiApplicationPrivate18inputDeviceManagerEv@Base 5.5.0 1
  _ZN22QGuiApplicationPrivate18lastCursorPositionE@Base 5.0.2 1
  _ZN22QGuiApplicationPrivate18mouseEventVelocityEP11QMouseEvent@Base 5.0.2 1
  _ZN22QGuiApplicationPrivate18notifyThemeChangedEv@Base 5.0.2 1
@@ -3040,14 +3040,14 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN22QGuiApplicationPrivate20_q_updateFocusObjectEP7QObject@Base 5.0.2 1
  _ZN22QGuiApplicationPrivate20emitLastWindowClosedEv@Base 5.0.2 1
  _ZN22QGuiApplicationPrivate20eventDispatcherReadyEv@Base 5.2.0~beta1 1
- _ZN22QGuiApplicationPrivate20m_inputDeviceManagerE@Base 5.5.0
+ _ZN22QGuiApplicationPrivate20m_inputDeviceManagerE@Base 5.5.0 1
  _ZN22QGuiApplicationPrivate20platform_integrationE@Base 5.0.2 1
  _ZN22QGuiApplicationPrivate20processFileOpenEventEPN29QWindowSystemInterfacePrivate13FileOpenEventE@Base 5.0.2 1
  _ZN22QGuiApplicationPrivate20reportGeometryChangeEPN29QWindowSystemInterfacePrivate19ScreenGeometryEventE@Base 5.0.2 1
  _ZN22QGuiApplicationPrivate21createEventDispatcherEv@Base 5.0.2 1
  _ZN22QGuiApplicationPrivate21obey_desktop_settingsE@Base 5.0.2 1
  _ZN22QGuiApplicationPrivate21processActivatedEventEPN29QWindowSystemInterfacePrivate20ActivatedWindowEventE@Base 5.0.2 1
- _ZN22QGuiApplicationPrivate23currentMousePressWindowE@Base 5.5.0
+ _ZN22QGuiApplicationPrivate23currentMousePressWindowE@Base 5.5.0 1
  _ZN22QGuiApplicationPrivate23notifyWindowIconChangedEv@Base 5.3.0 1
  _ZN22QGuiApplicationPrivate23processContextMenuEventEPN29QWindowSystemInterfacePrivate16ContextMenuEventE@Base 5.0.2 1
  _ZN22QGuiApplicationPrivate23reportRefreshRateChangeEPN29QWindowSystemInterfacePrivate22ScreenRefreshRateEventE@Base 5.0.2 1
@@ -3100,7 +3100,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN22QPlatformAccessibilityD1Ev@Base 5.0.2 1
  _ZN22QPlatformAccessibilityD2Ev@Base 5.0.2 1
  _ZN22QPlatformCursorPrivate12getInstancesEv@Base 5.0.2 1
- _ZN22QPlatformOpenGLContext10initializeEv@Base 5.5.0
+ _ZN22QPlatformOpenGLContext10initializeEv@Base 5.5.0 1
  _ZN22QPlatformOpenGLContext10setContextEP14QOpenGLContext@Base 5.0.2 1
  _ZN22QPlatformOpenGLContext18parseOpenGLVersionERK10QByteArrayRiS3_@Base 5.0.2 1
  _ZN22QPlatformOpenGLContextC1Ev@Base 5.0.2 1
@@ -3124,9 +3124,9 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN22QWindowSystemInterface16handleMouseEventEP7QWindowmRK7QPointFS4_6QFlagsIN2Qt11MouseButtonEES5_INS6_16KeyboardModifierEENS6_16MouseEventSourceE@Base 5.3.0 1
  _ZN22QWindowSystemInterface16handleTouchEventEP7QWindowP12QTouchDeviceRK5QListINS_10TouchPointEE6QFlagsIN2Qt16KeyboardModifierEE@Base 5.0.2 1
  _ZN22QWindowSystemInterface16handleTouchEventEP7QWindowmP12QTouchDeviceRK5QListINS_10TouchPointEE6QFlagsIN2Qt16KeyboardModifierEE@Base 5.0.2 1
- _ZN22QWindowSystemInterface16handleWheelEventEP7QWindowRK7QPointFS4_6QPointS5_6QFlagsIN2Qt16KeyboardModifierEENS7_11ScrollPhaseENS7_16MouseEventSourceE@Base 5.5.0
+ _ZN22QWindowSystemInterface16handleWheelEventEP7QWindowRK7QPointFS4_6QPointS5_6QFlagsIN2Qt16KeyboardModifierEENS7_11ScrollPhaseENS7_16MouseEventSourceE@Base 5.5.0 1
  _ZN22QWindowSystemInterface16handleWheelEventEP7QWindowRK7QPointFS4_iN2Qt11OrientationE6QFlagsINS5_16KeyboardModifierEE@Base 5.0.2 1
- _ZN22QWindowSystemInterface16handleWheelEventEP7QWindowmRK7QPointFS4_6QPointS5_6QFlagsIN2Qt16KeyboardModifierEENS7_11ScrollPhaseENS7_16MouseEventSourceE@Base 5.5.0
+ _ZN22QWindowSystemInterface16handleWheelEventEP7QWindowmRK7QPointFS4_6QPointS5_6QFlagsIN2Qt16KeyboardModifierEENS7_11ScrollPhaseENS7_16MouseEventSourceE@Base 5.5.0 1
  _ZN22QWindowSystemInterface16handleWheelEventEP7QWindowmRK7QPointFS4_iN2Qt11OrientationE6QFlagsINS5_16KeyboardModifierEE@Base 5.0.2 1
  _ZN22QWindowSystemInterface17handleExposeEventEP7QWindowRK7QRegion@Base 5.0.2 1
  _ZN22QWindowSystemInterface17handleNativeEventEP7QWindowRK10QByteArrayPvPl@Base 5.0.2 1
@@ -3144,7 +3144,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN22QWindowSystemInterface21handleWindowActivatedEP7QWindowN2Qt11FocusReasonE@Base 5.1.0 1
  _ZN22QWindowSystemInterface22handleContextMenuEventEP7QWindowbRK6QPointS4_6QFlagsIN2Qt16KeyboardModifierEE@Base 5.0.2 1
  _ZN22QWindowSystemInterface22handleExtendedKeyEventEP7QWindowN6QEvent4TypeEi6QFlagsIN2Qt16KeyboardModifierEEjjjRK7QStringbt@Base 5.0.2 1
- _ZN22QWindowSystemInterface22handleExtendedKeyEventEP7QWindowmN6QEvent4TypeEi6QFlagsIN2Qt16KeyboardModifierEEjjjRK7QStringbtb@Base 5.5.0
+ _ZN22QWindowSystemInterface22handleExtendedKeyEventEP7QWindowmN6QEvent4TypeEi6QFlagsIN2Qt16KeyboardModifierEEjjjRK7QStringbtb@Base 5.5.0 1
  _ZN22QWindowSystemInterface22handleTouchCancelEventEP7QWindowP12QTouchDevice6QFlagsIN2Qt16KeyboardModifierEE@Base 5.0.2 1
  _ZN22QWindowSystemInterface22handleTouchCancelEventEP7QWindowmP12QTouchDevice6QFlagsIN2Qt16KeyboardModifierEE@Base 5.0.2 1
  _ZN22QWindowSystemInterface22sendWindowSystemEventsE6QFlagsIN10QEventLoop17ProcessEventsFlagEE@Base 5.0.2 1
@@ -3164,7 +3164,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN22QWindowSystemInterface29handleScreenRefreshRateChangeEP7QScreend@Base 5.2.0 1
  _ZN22QWindowSystemInterface30tryHandleExtendedShortcutEventEP7QWindowi6QFlagsIN2Qt16KeyboardModifierEEjjjRK7QStringbt@Base 5.0.2 1
  _ZN22QWindowSystemInterface30tryHandleExtendedShortcutEventEP7QWindowmi6QFlagsIN2Qt16KeyboardModifierEEjjjRK7QStringbt@Base 5.0.2 1
- _ZN22QWindowSystemInterface30tryHandleShortcutEventToObjectEP7QObjectmi6QFlagsIN2Qt16KeyboardModifierEERK7QStringbt@Base 5.5.0
+ _ZN22QWindowSystemInterface30tryHandleShortcutEventToObjectEP7QObjectmi6QFlagsIN2Qt16KeyboardModifierEERK7QStringbt@Base 5.5.0 1
  _ZN22QWindowSystemInterface31deferredFlushWindowSystemEventsE6QFlagsIN10QEventLoop17ProcessEventsFlagEE@Base 5.4.0 1
  _ZN22QWindowSystemInterface31handleGestureEventWithRealValueEP7QWindowmN2Qt17NativeGestureTypeEdR7QPointFS5_@Base 5.2.0~beta1 1
  _ZN22QWindowSystemInterface31handleTabletEnterProximityEventEiix@Base 5.0.2 1
@@ -3194,18 +3194,18 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN23QPlatformDragQtResponseC2EbN2Qt10DropActionE5QRect@Base 5.0.2 1
  _ZN23QPlatformDropQtResponseC1EbN2Qt10DropActionE@Base 5.0.2 1
  _ZN23QPlatformDropQtResponseC2EbN2Qt10DropActionE@Base 5.0.2 1
- _ZN23QPlatformGraphicsBuffer11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
- _ZN23QPlatformGraphicsBuffer11qt_metacastEPKc@Base 5.5.0
- _ZN23QPlatformGraphicsBuffer16staticMetaObjectE@Base 5.5.0
- _ZN23QPlatformGraphicsBuffer4dataEv@Base 5.5.0
- _ZN23QPlatformGraphicsBuffer4lockE6QFlagsINS_10AccessTypeEERK5QRect@Base 5.5.0
- _ZN23QPlatformGraphicsBuffer6unlockEv@Base 5.5.0
- _ZN23QPlatformGraphicsBuffer8unlockedE6QFlagsINS_10AccessTypeEE@Base 5.5.0
- _ZN23QPlatformGraphicsBufferC1ERK5QSizeRK12QPixelFormat@Base 5.5.0
- _ZN23QPlatformGraphicsBufferC2ERK5QSizeRK12QPixelFormat@Base 5.5.0
- _ZN23QPlatformGraphicsBufferD0Ev@Base 5.5.0
- _ZN23QPlatformGraphicsBufferD1Ev@Base 5.5.0
- _ZN23QPlatformGraphicsBufferD2Ev@Base 5.5.0
+ _ZN23QPlatformGraphicsBuffer11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0 1
+ _ZN23QPlatformGraphicsBuffer11qt_metacastEPKc@Base 5.5.0 1
+ _ZN23QPlatformGraphicsBuffer16staticMetaObjectE@Base 5.5.0 1
+ _ZN23QPlatformGraphicsBuffer4dataEv@Base 5.5.0 1
+ _ZN23QPlatformGraphicsBuffer4lockE6QFlagsINS_10AccessTypeEERK5QRect@Base 5.5.0 1
+ _ZN23QPlatformGraphicsBuffer6unlockEv@Base 5.5.0 1
+ _ZN23QPlatformGraphicsBuffer8unlockedE6QFlagsINS_10AccessTypeEE@Base 5.5.0 1
+ _ZN23QPlatformGraphicsBufferC1ERK5QSizeRK12QPixelFormat@Base 5.5.0 1
+ _ZN23QPlatformGraphicsBufferC2ERK5QSizeRK12QPixelFormat@Base 5.5.0 1
+ _ZN23QPlatformGraphicsBufferD0Ev@Base 5.5.0 1
+ _ZN23QPlatformGraphicsBufferD1Ev@Base 5.5.0 1
+ _ZN23QPlatformGraphicsBufferD2Ev@Base 5.5.0 1
  _ZN23QPlatformSessionManager12appSaveStateEv@Base 5.2.0~alpha1 1
  _ZN23QPlatformSessionManager13appCommitDataEv@Base 5.2.0~alpha1 1
  _ZN23QPlatformSessionManager13requestPhase2Ev@Base 5.2.0~alpha1 1
@@ -3462,10 +3462,10 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN26QAccessibleActionInterface16scrollLeftActionEv@Base 5.5.0
  _ZN26QAccessibleActionInterface17scrollRightActionEv@Base 5.5.0
  _ZN26QAccessibleActionInterface18previousPageActionEv@Base 5.5.0
- _ZN26QInputDeviceManagerPrivate14setDeviceCountEN19QInputDeviceManager10DeviceTypeEi@Base 5.5.0
- _ZN26QInputDeviceManagerPrivateD0Ev@Base 5.5.0
- _ZN26QInputDeviceManagerPrivateD1Ev@Base 5.5.0
- _ZN26QInputDeviceManagerPrivateD2Ev@Base 5.5.0
+ _ZN26QInputDeviceManagerPrivate14setDeviceCountEN19QInputDeviceManager10DeviceTypeEi@Base 5.5.0 1
+ _ZN26QInputDeviceManagerPrivateD0Ev@Base 5.5.0 1
+ _ZN26QInputDeviceManagerPrivateD1Ev@Base 5.5.0 1
+ _ZN26QInputDeviceManagerPrivateD2Ev@Base 5.5.0 1
  _ZN26QOpenGLContextGroupPrivate10addContextEP14QOpenGLContext@Base 5.0.2 1
  _ZN26QOpenGLContextGroupPrivate13removeContextEP14QOpenGLContext@Base 5.0.2 1
  _ZN26QOpenGLContextGroupPrivate22deletePendingResourcesEP14QOpenGLContext@Base 5.0.2 1
@@ -5270,7 +5270,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK13QPlatformDrag13defaultActionE6QFlagsIN2Qt10DropActionEES0_INS1_16KeyboardModifierEE@Base 5.0.2 1
  _ZNK13QPlatformDrag14ownsDragObjectEv@Base 5.4.1 1
  _ZNK13QPlatformMenu10metaObjectEv@Base 5.0.2 1
- _ZNK13QPlatformMenu13createSubMenuEv@Base 5.5.0
+ _ZNK13QPlatformMenu13createSubMenuEv@Base 5.5.0 1
  _ZNK13QPlatformMenu14createMenuItemEv@Base 5.3.0 1
  _ZNK13QRasterWindow10metaObjectEv@Base 5.4.0
  _ZNK13QRasterWindow10redirectedEP6QPoint@Base 5.4.0
@@ -5527,7 +5527,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK15QPlatformScreen15virtualSiblingsEv@Base 5.0.2 1
  _ZNK15QPlatformScreen16devicePixelRatioEv@Base 5.0.2 1
  _ZNK15QPlatformScreen17nativeOrientationEv@Base 5.0.2 1
- _ZNK15QPlatformScreen28subpixelAntialiasingTypeHintEv@Base 5.5.0
+ _ZNK15QPlatformScreen28subpixelAntialiasingTypeHintEv@Base 5.5.0 1
  _ZNK15QPlatformScreen6cursorEv@Base 5.0.2 1
  _ZNK15QPlatformScreen6screenEv@Base 5.0.2 1
  _ZNK15QPlatformWindow10isEmbeddedEPKS_@Base 5.0.2 1
@@ -5678,9 +5678,9 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK17QPaintEngineState8clipPathEv@Base 5.0.2
  _ZNK17QPaintEngineState9transformEv@Base 5.0.2
  _ZNK17QPdfEnginePrivate10pageMatrixEv@Base 5.0.2 1
- _ZNK17QPixmapIconEngine3keyEv@Base 5.5.0
- _ZNK17QPixmapIconEngine5cloneEv@Base 5.5.0
- _ZNK17QPixmapIconEngine5writeER11QDataStream@Base 5.5.0
+ _ZNK17QPixmapIconEngine3keyEv@Base 5.5.0 1
+ _ZNK17QPixmapIconEngine5cloneEv@Base 5.5.0 1
+ _ZNK17QPixmapIconEngine5writeER11QDataStream@Base 5.5.0 1
  _ZNK17QPlatformMenuItem10metaObjectEv@Base 5.0.2 1
  _ZNK17QPlatformServices18desktopEnvironmentEv@Base 5.0.2 1
  _ZNK17QTextImageHandler10metaObjectEv@Base 5.0.2 1
@@ -5782,8 +5782,8 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK19QColorDialogOptions10testOptionENS_17ColorDialogOptionE@Base 5.0.2 1
  _ZNK19QColorDialogOptions11windowTitleEv@Base 5.0.2 1
  _ZNK19QColorDialogOptions7optionsEv@Base 5.0.2 1
- _ZNK19QInputDeviceManager10metaObjectEv@Base 5.5.0
- _ZNK19QInputDeviceManager11deviceCountENS_10DeviceTypeE@Base 5.5.0
+ _ZNK19QInputDeviceManager10metaObjectEv@Base 5.5.0 1
+ _ZNK19QInputDeviceManager11deviceCountENS_10DeviceTypeE@Base 5.5.0 1
  _ZNK19QOpenGLContextGroup10metaObjectEv@Base 5.0.2
  _ZNK19QOpenGLContextGroup6sharesEv@Base 5.0.2
  _ZNK19QOpenGLDebugMessage2idEv@Base 5.1.0
@@ -5851,7 +5851,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK20QPlatformIntegration13hasCapabilityENS_10CapabilityE@Base 5.0.2 1
  _ZNK20QPlatformIntegration15nativeInterfaceEv@Base 5.0.2 1
  _ZNK20QPlatformIntegration18defaultWindowStateE6QFlagsIN2Qt10WindowTypeEE@Base 5.2.0~rc1 1
- _ZNK20QPlatformIntegration18setApplicationIconERK5QIcon@Base 5.5.0
+ _ZNK20QPlatformIntegration18setApplicationIconERK5QIcon@Base 5.5.0 1
  _ZNK20QPlatformIntegration19createPlatformThemeERK7QString@Base 5.0.2 1
  _ZNK20QPlatformIntegration20createPlatformPixmapEN15QPlatformPixmap9PixelTypeE@Base 5.0.2 1
  _ZNK20QPlatformIntegration22createImagePaintEngineEP12QPaintDevice@Base 5.0.2 1
@@ -5867,7 +5867,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK20QPlatformTextureList10metaObjectEv@Base 5.3.0 1
  _ZNK20QPlatformTextureList5countEv@Base 5.3.0 1
  _ZNK20QPlatformTextureList5flagsEi@Base 5.4.1 1
- _ZNK20QPlatformTextureList8clipRectEi@Base 5.5.0
+ _ZNK20QPlatformTextureList8clipRectEi@Base 5.5.0 1
  _ZNK20QPlatformTextureList8geometryEi@Base 5.3.0 1
  _ZNK20QPlatformTextureList8isLockedEv@Base 5.3.0 1
  _ZNK20QPlatformTextureList9textureIdEi@Base 5.3.0 1
@@ -5888,10 +5888,10 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK21QOpenGLVersionProfile7profileEv@Base 5.1.0
  _ZNK21QOpenGLVersionProfile7versionEv@Base 5.1.0
  _ZNK21QPaintEngineExPrivate17hasClipOperationsEv@Base 5.0.2 1
- _ZNK21QPlatformBackingStore14graphicsBufferEv@Base 5.5.0
+ _ZNK21QPlatformBackingStore14graphicsBufferEv@Base 5.5.0 1
  _ZNK21QPlatformBackingStore6windowEv@Base 5.0.2 1
  _ZNK21QPlatformBackingStore7toImageEv@Base 5.3.0 1
- _ZNK21QPlatformBackingStore9toTextureERK7QRegionP5QSizeP6QFlagsINS_11TextureFlagEE@Base 5.5.0
+ _ZNK21QPlatformBackingStore9toTextureERK7QRegionP5QSizeP6QFlagsINS_11TextureFlagEE@Base 5.5.0 1
  _ZNK21QPlatformDialogHelper10metaObjectEv@Base 5.0.2 1
  _ZNK21QPlatformDialogHelper9styleHintENS_9StyleHintE@Base 5.0.2 1
  _ZNK21QPlatformFontDatabase11defaultFontEv@Base 5.0.2 1
@@ -5900,7 +5900,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK21QPlatformFontDatabase19fontsAlwaysScalableEv@Base 5.0.2 1
  _ZNK21QPlatformFontDatabase19isPrivateFontFamilyERK7QString@Base 5.3.2 1
  _ZNK21QPlatformFontDatabase22resolveFontFamilyAliasERK7QString@Base 5.0.2 1
- _ZNK21QPlatformFontDatabase28subpixelAntialiasingTypeHintEv@Base 5.5.0
+ _ZNK21QPlatformFontDatabase28subpixelAntialiasingTypeHintEv@Base 5.5.0 1
  _ZNK21QPlatformFontDatabase7fontDirEv@Base 5.0.2 1
  _ZNK21QPlatformInputContext10metaObjectEv@Base 5.0.2 1
  _ZNK21QPlatformInputContext11isAnimatingEv@Base 5.0.2 1
@@ -5941,12 +5941,12 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK23QPlatformDragQtResponse10answerRectEv@Base 5.0.2 1
  _ZNK23QPlatformDropQtResponse10isAcceptedEv@Base 5.0.2 1
  _ZNK23QPlatformDropQtResponse14acceptedActionEv@Base 5.0.2 1
- _ZNK23QPlatformGraphicsBuffer10metaObjectEv@Base 5.5.0
- _ZNK23QPlatformGraphicsBuffer12bytesPerLineEv@Base 5.5.0
- _ZNK23QPlatformGraphicsBuffer13bindToTextureERK5QRect@Base 5.5.0
- _ZNK23QPlatformGraphicsBuffer4dataEv@Base 5.5.0
- _ZNK23QPlatformGraphicsBuffer6originEv@Base 5.5.0
- _ZNK23QPlatformGraphicsBuffer9byteCountEv@Base 5.5.0
+ _ZNK23QPlatformGraphicsBuffer10metaObjectEv@Base 5.5.0 1
+ _ZNK23QPlatformGraphicsBuffer12bytesPerLineEv@Base 5.5.0 1
+ _ZNK23QPlatformGraphicsBuffer13bindToTextureERK5QRect@Base 5.5.0 1
+ _ZNK23QPlatformGraphicsBuffer4dataEv@Base 5.5.0 1
+ _ZNK23QPlatformGraphicsBuffer6originEv@Base 5.5.0 1
+ _ZNK23QPlatformGraphicsBuffer9byteCountEv@Base 5.5.0 1
  _ZNK23QPlatformSessionManager10sessionKeyEv@Base 5.2.0~alpha1 1
  _ZNK23QPlatformSessionManager11restartHintEv@Base 5.2.0~alpha1 1
  _ZNK23QPlatformSessionManager14discardCommandEv@Base 5.2.0~alpha1 1
@@ -6000,7 +6000,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK25QPlatformOffscreenSurface7isValidEv@Base 5.1.0 1
  _ZNK26QAccessibleActionInterface19localizedActionNameERK7QString@Base 5.0.2
  _ZNK26QAccessibleActionInterface26localizedActionDescriptionERK7QString@Base 5.0.2
- _ZNK26QInputDeviceManagerPrivate11deviceCountEN19QInputDeviceManager10DeviceTypeE@Base 5.5.0
+ _ZNK26QInputDeviceManagerPrivate11deviceCountEN19QInputDeviceManager10DeviceTypeE@Base 5.5.0 1
  _ZNK26QOpenGLEngineShaderManager10metaObjectEv@Base 5.0.2 1
  _ZNK26QPlatformColorDialogHelper10metaObjectEv@Base 5.0.2 1
  _ZNK26QPlatformColorDialogHelper7optionsEv@Base 5.0.2 1
@@ -6720,7 +6720,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTI17QPagedPaintDevice@Base 5.0.2
  _ZTI17QPaintEngineState@Base 5.0.2
  _ZTI17QPdfEnginePrivate@Base 5.0.2 1
- _ZTI17QPixmapIconEngine@Base 5.5.0
+ _ZTI17QPixmapIconEngine@Base 5.5.0 1
  _ZTI17QPlatformMenuItem@Base 5.0.2 1
  _ZTI17QPlatformServices@Base 5.0.2 1
  _ZTI17QTextImageHandler@Base 5.0.2 1
@@ -6735,7 +6735,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTI18QTextBlockUserData@Base 5.0.2
  _ZTI18QTextureGlyphCache@Base 5.0.2 1
  _ZTI19QBlitterPaintEngine@Base 5.0.2 1
- _ZTI19QInputDeviceManager@Base 5.5.0
+ _ZTI19QInputDeviceManager@Base 5.5.0 1
  _ZTI19QNativeGestureEvent@Base 5.2.0~beta1
  _ZTI19QOpenGLContextGroup@Base 5.0.2
  _ZTI19QOpenGLTextureCache@Base 5.0.2 1
@@ -6781,7 +6781,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTI22QWhatsThisClickedEvent@Base 5.0.2
  _ZTI23QAccessibleBridgePlugin@Base 5.0.2
  _ZTI23QImageTextureGlyphCache@Base 5.0.2 1
- _ZTI23QPlatformGraphicsBuffer@Base 5.5.0
+ _ZTI23QPlatformGraphicsBuffer@Base 5.5.0 1
  _ZTI23QPlatformSessionManager@Base 5.2.0~alpha1 1
  _ZTI23QPlatformSystemTrayIcon@Base 5.0.2 1
  _ZTI23QWindowStateChangeEvent@Base 5.0.2
@@ -6810,7 +6810,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTI25QPlatformFontDialogHelper@Base 5.0.2 1
  _ZTI25QPlatformOffscreenSurface@Base 5.1.0 1
  _ZTI26QAccessibleActionInterface@Base 5.0.2
- _ZTI26QInputDeviceManagerPrivate@Base 5.5.0
+ _ZTI26QInputDeviceManagerPrivate@Base 5.5.0 1
  _ZTI26QOpenGLContextGroupPrivate@Base 5.0.2 1
  _ZTI26QOpenGLEngineShaderManager@Base 5.0.2 1
  _ZTI26QOpenGLSharedResourceGuard@Base 5.0.2 1
@@ -6964,7 +6964,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTS17QPagedPaintDevice@Base 5.0.2
  _ZTS17QPaintEngineState@Base 5.0.2
  _ZTS17QPdfEnginePrivate@Base 5.0.2 1
- _ZTS17QPixmapIconEngine@Base 5.5.0
+ _ZTS17QPixmapIconEngine@Base 5.5.0 1
  _ZTS17QPlatformMenuItem@Base 5.0.2 1
  _ZTS17QPlatformServices@Base 5.0.2 1
  _ZTS17QTextImageHandler@Base 5.0.2 1
@@ -6979,7 +6979,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTS18QTextBlockUserData@Base 5.0.2
  _ZTS18QTextureGlyphCache@Base 5.0.2 1
  _ZTS19QBlitterPaintEngine@Base 5.0.2 1
- _ZTS19QInputDeviceManager@Base 5.5.0
+ _ZTS19QInputDeviceManager@Base 5.5.0 1
  _ZTS19QNativeGestureEvent@Base 5.2.0~beta1
  _ZTS19QOpenGLContextGroup@Base 5.0.2
  _ZTS19QOpenGLTextureCache@Base 5.0.2 1
@@ -7025,7 +7025,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTS22QWhatsThisClickedEvent@Base 5.0.2
  _ZTS23QAccessibleBridgePlugin@Base 5.0.2
  _ZTS23QImageTextureGlyphCache@Base 5.0.2 1
- _ZTS23QPlatformGraphicsBuffer@Base 5.5.0
+ _ZTS23QPlatformGraphicsBuffer@Base 5.5.0 1
  _ZTS23QPlatformSessionManager@Base 5.2.0~alpha1 1
  _ZTS23QPlatformSystemTrayIcon@Base 5.0.2 1
  _ZTS23QWindowStateChangeEvent@Base 5.0.2
@@ -7054,7 +7054,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTS25QPlatformFontDialogHelper@Base 5.0.2 1
  _ZTS25QPlatformOffscreenSurface@Base 5.1.0 1
  _ZTS26QAccessibleActionInterface@Base 5.0.2
- _ZTS26QInputDeviceManagerPrivate@Base 5.5.0
+ _ZTS26QInputDeviceManagerPrivate@Base 5.5.0 1
  _ZTS26QOpenGLContextGroupPrivate@Base 5.0.2 1
  _ZTS26QOpenGLEngineShaderManager@Base 5.0.2 1
  _ZTS26QOpenGLSharedResourceGuard@Base 5.0.2 1
@@ -7206,7 +7206,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  (arch=!armel !armhf)_ZTV17QOpenGLTimerQuery@Base 5.1.0
  _ZTV17QPagedPaintDevice@Base 5.0.2
  _ZTV17QPdfEnginePrivate@Base 5.0.2 1
- _ZTV17QPixmapIconEngine@Base 5.5.0
+ _ZTV17QPixmapIconEngine@Base 5.5.0 1
  _ZTV17QPlatformMenuItem@Base 5.0.2 1
  _ZTV17QPlatformServices@Base 5.0.2 1
  _ZTV17QTextImageHandler@Base 5.0.2 1
@@ -7221,7 +7221,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTV18QTextBlockUserData@Base 5.0.2
  _ZTV18QTextureGlyphCache@Base 5.0.2 1
  _ZTV19QBlitterPaintEngine@Base 5.0.2 1
- _ZTV19QInputDeviceManager@Base 5.5.0
+ _ZTV19QInputDeviceManager@Base 5.5.0 1
  _ZTV19QNativeGestureEvent@Base 5.2.0~beta1
  _ZTV19QOpenGLContextGroup@Base 5.0.2
  _ZTV19QOpenGLTextureCache@Base 5.0.2 1
@@ -7267,7 +7267,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTV22QWhatsThisClickedEvent@Base 5.0.2
  _ZTV23QAccessibleBridgePlugin@Base 5.0.2
  _ZTV23QImageTextureGlyphCache@Base 5.0.2 1
- _ZTV23QPlatformGraphicsBuffer@Base 5.5.0
+ _ZTV23QPlatformGraphicsBuffer@Base 5.5.0 1
  _ZTV23QPlatformSessionManager@Base 5.2.0~alpha1 1
  _ZTV23QPlatformSystemTrayIcon@Base 5.0.2 1
  _ZTV23QWindowStateChangeEvent@Base 5.0.2
@@ -7296,7 +7296,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTV25QPlatformFontDialogHelper@Base 5.0.2 1
  _ZTV25QPlatformOffscreenSurface@Base 5.1.0 1
  _ZTV26QAccessibleActionInterface@Base 5.0.2
- _ZTV26QInputDeviceManagerPrivate@Base 5.5.0
+ _ZTV26QInputDeviceManagerPrivate@Base 5.5.0 1
  _ZTV26QOpenGLContextGroupPrivate@Base 5.0.2 1
  _ZTV26QOpenGLEngineShaderManager@Base 5.0.2 1
  _ZTV26QOpenGLSharedResourceGuard@Base 5.0.2 1

@@ -13,6 +13,7 @@ qtbase-opensource-src (5.5.0+dfsg-1) UNRELEASED; urgency=medium
   * Add two new plugins based on libinput. This are only installed on linux
     due to libinput not being available on other OSs yet.
   * Update symbols files with current build log.
+  * Mark/unmark private symbols.
 
   [ Pino Toscano ]
   * Fix build on Hurd, by temporarly disabling waitid() in forkfd code;
