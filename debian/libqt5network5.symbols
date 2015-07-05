@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.4.1 amd64
+# SymbolsHelper-Confirmed: 5.5.0 amd64
 libQt5Network.so.5 libqt5network5 #MINVER#
 | libqt5network5 #MINVER#, qtbase-abi-5-5-0
  _Z19qt_qhostinfo_lookupRK7QStringP7QObjectPKcPbPi@Base 5.0.2
@@ -91,6 +91,7 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZN10QSslSocket24setLocalCertificateChainERK5QListI15QSslCertificateE@Base 5.1.0
  _ZN10QSslSocket28sslLibraryBuildVersionNumberEv@Base 5.4.0
  _ZN10QSslSocket28sslLibraryBuildVersionStringEv@Base 5.4.0
+ _ZN10QSslSocket34preSharedKeyAuthenticationRequiredEP29QSslPreSharedKeyAuthenticator@Base 5.5.0
  _ZN10QSslSocket5abortEv@Base 5.0.2
  _ZN10QSslSocket5closeEv@Base 5.0.2
  _ZN10QSslSocket5flushEv@Base 5.0.2
@@ -121,7 +122,9 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZN10QTcpServer6listenERK12QHostAddresst@Base 5.0.2
  _ZN10QTcpServer8setProxyERK13QNetworkProxy@Base 5.0.2
  _ZN10QTcpServerC1EP7QObject@Base 5.0.2
+ _ZN10QTcpServerC1ER17QTcpServerPrivateP7QObject@Base 5.5.0
  _ZN10QTcpServerC2EP7QObject@Base 5.0.2
+ _ZN10QTcpServerC2ER17QTcpServerPrivateP7QObject@Base 5.5.0
  _ZN10QTcpServerD0Ev@Base 5.0.2
  _ZN10QTcpServerD1Ev@Base 5.0.2
  _ZN10QTcpServerD2Ev@Base 5.0.2
@@ -151,6 +154,7 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZN10QUdpSocketD1Ev@Base 5.0.2
  _ZN10QUdpSocketD2Ev@Base 5.0.2
  _ZN12QHostAddress10setAddressEPK8sockaddr@Base 5.0.2
+ _ZN12QHostAddress10setAddressEPKh@Base 5.5.0
  _ZN12QHostAddress10setAddressEPh@Base 5.0.2
  _ZN12QHostAddress10setAddressERK12QIPv6Address@Base 5.0.2
  _ZN12QHostAddress10setAddressERK7QString@Base 5.0.2
@@ -160,6 +164,7 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZN12QHostAddress5clearEv@Base 5.0.2
  _ZN12QHostAddressC1ENS_14SpecialAddressE@Base 5.0.2
  _ZN12QHostAddressC1EPK8sockaddr@Base 5.0.2
+ _ZN12QHostAddressC1EPKh@Base 5.5.0
  _ZN12QHostAddressC1EPh@Base 5.0.2
  _ZN12QHostAddressC1ERK12QIPv6Address@Base 5.0.2
  _ZN12QHostAddressC1ERK7QString@Base 5.0.2
@@ -168,6 +173,7 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZN12QHostAddressC1Ev@Base 5.0.2
  _ZN12QHostAddressC2ENS_14SpecialAddressE@Base 5.0.2
  _ZN12QHostAddressC2EPK8sockaddr@Base 5.0.2
+ _ZN12QHostAddressC2EPKh@Base 5.5.0
  _ZN12QHostAddressC2EPh@Base 5.0.2
  _ZN12QHostAddressC2ERK12QIPv6Address@Base 5.0.2
  _ZN12QHostAddressC2ERK7QString@Base 5.0.2
@@ -272,6 +278,7 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZN13QNetworkReply19setSslConfigurationERK17QSslConfiguration@Base 5.0.2
  _ZN13QNetworkReply29ignoreSslErrorsImplementationERK5QListI9QSslErrorE@Base 5.0.2
  _ZN13QNetworkReply33setSslConfigurationImplementationERK17QSslConfiguration@Base 5.0.2
+ _ZN13QNetworkReply34preSharedKeyAuthenticationRequiredEP29QSslPreSharedKeyAuthenticator@Base 5.5.0
  _ZN13QNetworkReply5closeEv@Base 5.0.2
  _ZN13QNetworkReply5errorENS_12NetworkErrorE@Base 5.0.2
  _ZN13QNetworkReply6setUrlERK4QUrl@Base 5.0.2
@@ -490,15 +497,19 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZN17QSslConfiguration12setSslOptionEN4QSsl9SslOptionEb@Base 5.0.2
  _ZN17QSslConfiguration13setPrivateKeyERK7QSslKey@Base 5.0.2
  _ZN17QSslConfiguration16setSessionTicketERK10QByteArray@Base 5.2.0~rc1
+ _ZN17QSslConfiguration16supportedCiphersEv@Base 5.5.0
  _ZN17QSslConfiguration17setCaCertificatesERK5QListI15QSslCertificateE@Base 5.0.2
+ _ZN17QSslConfiguration17setEllipticCurvesERK7QVectorI17QSslEllipticCurveE@Base 5.5.0
  _ZN17QSslConfiguration17setPeerVerifyModeEN10QSslSocket14PeerVerifyModeE@Base 5.0.2
  _ZN17QSslConfiguration18setPeerVerifyDepthEi@Base 5.0.2
  _ZN17QSslConfiguration19NextProtocolHttp1_1E@Base 5.3.0
  _ZN17QSslConfiguration19NextProtocolSpdy3_0E@Base 5.3.0
  _ZN17QSslConfiguration19setLocalCertificateERK15QSslCertificate@Base 5.0.2
  _ZN17QSslConfiguration20defaultConfigurationEv@Base 5.0.2
+ _ZN17QSslConfiguration20systemCaCertificatesEv@Base 5.5.0
  _ZN17QSslConfiguration23setAllowedNextProtocolsE5QListI10QByteArrayE@Base 5.3.0
  _ZN17QSslConfiguration23setDefaultConfigurationERKS_@Base 5.0.2
+ _ZN17QSslConfiguration23supportedEllipticCurvesEv@Base 5.5.0
  _ZN17QSslConfiguration24setLocalCertificateChainERK5QListI15QSslCertificateE@Base 5.1.0
  _ZN17QSslConfigurationC1ERKS_@Base 5.0.2
  _ZN17QSslConfigurationC1Ev@Base 5.0.2
@@ -507,6 +518,8 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZN17QSslConfigurationD1Ev@Base 5.0.2
  _ZN17QSslConfigurationD2Ev@Base 5.0.2
  _ZN17QSslConfigurationaSERKS_@Base 5.0.2
+ _ZN17QSslEllipticCurve12fromLongNameERK7QString@Base 5.5.0
+ _ZN17QSslEllipticCurve13fromShortNameERK7QString@Base 5.5.0
  _ZN18QNetworkProxyQuery11setPeerPortEi@Base 5.0.2
  _ZN18QNetworkProxyQuery12setLocalPortEi@Base 5.0.2
  _ZN18QNetworkProxyQuery12setQueryTypeENS_9QueryTypeE@Base 5.0.2
@@ -602,6 +615,7 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZN21QNetworkAccessManager23networkSessionConnectedEv@Base 5.0.2
  _ZN21QNetworkAccessManager24networkAccessibleChangedENS_20NetworkAccessibilityE@Base 5.0.2
  _ZN21QNetworkAccessManager27proxyAuthenticationRequiredERK13QNetworkProxyP14QAuthenticator@Base 5.0.2
+ _ZN21QNetworkAccessManager34preSharedKeyAuthenticationRequiredEP13QNetworkReplyP29QSslPreSharedKeyAuthenticator@Base 5.5.0
  _ZN21QNetworkAccessManager3getERK15QNetworkRequest@Base 5.0.2
  _ZN21QNetworkAccessManager3putERK15QNetworkRequestP14QHttpMultiPart@Base 5.0.2
  _ZN21QNetworkAccessManager3putERK15QNetworkRequestP9QIODevice@Base 5.0.2
@@ -679,6 +693,15 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZN28QNetworkConfigurationManagerD0Ev@Base 5.0.2
  _ZN28QNetworkConfigurationManagerD1Ev@Base 5.0.2
  _ZN28QNetworkConfigurationManagerD2Ev@Base 5.0.2
+ _ZN29QSslPreSharedKeyAuthenticator11setIdentityERK10QByteArray@Base 5.5.0
+ _ZN29QSslPreSharedKeyAuthenticator15setPreSharedKeyERK10QByteArray@Base 5.5.0
+ _ZN29QSslPreSharedKeyAuthenticatorC1ERKS_@Base 5.5.0
+ _ZN29QSslPreSharedKeyAuthenticatorC1Ev@Base 5.5.0
+ _ZN29QSslPreSharedKeyAuthenticatorC2ERKS_@Base 5.5.0
+ _ZN29QSslPreSharedKeyAuthenticatorC2Ev@Base 5.5.0
+ _ZN29QSslPreSharedKeyAuthenticatorD1Ev@Base 5.5.0
+ _ZN29QSslPreSharedKeyAuthenticatorD2Ev@Base 5.5.0
+ _ZN29QSslPreSharedKeyAuthenticatoraSERKS_@Base 5.5.0
  _ZN35QNetworkConfigurationManagerPrivate10initializeEv@Base 5.0.2 1
  _ZN35QNetworkConfigurationManagerPrivate11pollEnginesEv@Base 5.0.2 1
  _ZN35QNetworkConfigurationManagerPrivate11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
@@ -850,6 +873,7 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZNK12QHostAddress10isInSubnetERK5QPairIS_iE@Base 5.0.2
  _ZNK12QHostAddress10isInSubnetERKS_i@Base 5.0.2
  _ZNK12QHostAddress10isLoopbackEv@Base 5.0.2
+ _ZNK12QHostAddress13toIPv4AddressEPb@Base 5.5.0
  _ZNK12QHostAddress13toIPv4AddressEv@Base 5.0.2
  _ZNK12QHostAddress13toIPv6AddressEv@Base 5.0.2
  _ZNK12QHostAddress6isNullEv@Base 5.0.2
@@ -1026,6 +1050,7 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZNK17QSslConfiguration13sessionTicketEv@Base 5.2.0~rc1
  _ZNK17QSslConfiguration13testSslOptionEN4QSsl9SslOptionE@Base 5.0.2
  _ZNK17QSslConfiguration14caCertificatesEv@Base 5.0.2
+ _ZNK17QSslConfiguration14ellipticCurvesEv@Base 5.5.0
  _ZNK17QSslConfiguration14peerVerifyModeEv@Base 5.0.2
  _ZNK17QSslConfiguration15peerCertificateEv@Base 5.0.2
  _ZNK17QSslConfiguration15peerVerifyDepthEv@Base 5.0.2
@@ -1041,6 +1066,9 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZNK17QSslConfiguration7ciphersEv@Base 5.0.2
  _ZNK17QSslConfiguration8protocolEv@Base 5.0.2
  _ZNK17QSslConfigurationeqERKS_@Base 5.0.2
+ _ZNK17QSslEllipticCurve15isTlsNamedCurveEv@Base 5.5.0
+ _ZNK17QSslEllipticCurve8longNameEv@Base 5.5.0
+ _ZNK17QSslEllipticCurve9shortNameEv@Base 5.5.0
  _ZNK18QNetworkProxyQuery11protocolTagEv@Base 5.0.2
  _ZNK18QNetworkProxyQuery12peerHostNameEv@Base 5.0.2
  _ZNK18QNetworkProxyQuery20networkConfigurationEv@Base 5.0.2
@@ -1108,6 +1136,11 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZNK28QNetworkConfigurationManager20defaultConfigurationEv@Base 5.0.2
  _ZNK28QNetworkConfigurationManager27configurationFromIdentifierERK7QString@Base 5.0.2
  _ZNK28QNetworkConfigurationManager8isOnlineEv@Base 5.0.2
+ _ZNK29QSslPreSharedKeyAuthenticator12identityHintEv@Base 5.5.0
+ _ZNK29QSslPreSharedKeyAuthenticator12preSharedKeyEv@Base 5.5.0
+ _ZNK29QSslPreSharedKeyAuthenticator21maximumIdentityLengthEv@Base 5.5.0
+ _ZNK29QSslPreSharedKeyAuthenticator25maximumPreSharedKeyLengthEv@Base 5.5.0
+ _ZNK29QSslPreSharedKeyAuthenticator8identityEv@Base 5.5.0
  _ZNK35QNetworkConfigurationManagerPrivate10metaObjectEv@Base 5.0.2 1
  _ZNK35QNetworkConfigurationManagerPrivate12capabilitiesEv@Base 5.0.2 1
  _ZNK35QNetworkConfigurationManagerPrivate17allConfigurationsE6QFlagsIN21QNetworkConfiguration9StateFlagEE@Base 5.0.2 1
@@ -1216,6 +1249,8 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZTV28QNetworkConfigurationManager@Base 5.0.2
  _ZTV35QNetworkConfigurationManagerPrivate@Base 5.0.2 1
  _ZTV8QUrlInfo@Base 5.0.2 1
+ _ZeqRK29QSslPreSharedKeyAuthenticatorS1_@Base 5.5.0
+ _Zls6QDebug17QSslEllipticCurve@Base 5.5.0
  _Zls6QDebugN12QLocalSocket16LocalSocketErrorE@Base 5.0.2
  _Zls6QDebugN12QLocalSocket16LocalSocketStateE@Base 5.0.2
  _Zls6QDebugN15QAbstractSocket11SocketErrorE@Base 5.0.2
