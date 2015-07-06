@@ -15,6 +15,7 @@ qtbase-opensource-src (5.5.0+dfsg-1) UNRELEASED; urgency=medium
     due to libinput not being available on other OSs yet.
   * Update symbols files with current build log.
   * Mark/unmark private symbols.
+  * Update debian/copyright.
 
   [ Pino Toscano ]
   * Fix build on Hurd, by temporarly disabling waitid() in forkfd code;
