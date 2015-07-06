@@ -77,46 +77,46 @@ libQt5XcbQpa.so.5 libqt5xcbqpa5 #MINVER#
  _ZN10QXcbWindow8toWindowEv@Base 5.5.0
  _ZN10QXcbWindow9doFocusInEv@Base 5.5.0
  _ZN10QXcbWindow9setCursorEj@Base 5.5.0
- _ZN10QXcbWindow9setParentEPK15QPlatformWindow@Base 5.5.0
+ _ZN10QXcbWindow9setParentEPK15QPlatformWindow@Base 5.5.0 1
  _ZN10QXcbWindowC1EP7QWindow@Base 5.5.0
  _ZN10QXcbWindowC2EP7QWindow@Base 5.5.0
  _ZN10QXcbWindowD0Ev@Base 5.5.0
  _ZN10QXcbWindowD1Ev@Base 5.5.0
  _ZN10QXcbWindowD2Ev@Base 5.5.0
- _ZN13QFontEngineFT11boundingBoxERK12QGlyphLayout@Base 5.5.0
- _ZN13QFontEngineFT11boundingBoxEj@Base 5.5.0
- _ZN13QFontEngineFT11boundingBoxEjRK10QTransform@Base 5.5.0
- _ZN13QFontEngineFT12loadGlyphForEj6QFixedN11QFontEngine11GlyphFormatERK10QTransformb@Base 5.5.0
- _ZN13QFontEngineFT12loadGlyphSetERK10QTransform@Base 5.5.0
- _ZN13QFontEngineFT15addGlyphsToPathEPjP11QFixedPointiP12QPainterPath6QFlagsIN9QTextItem10RenderFlagEE@Base 5.5.0
- _ZN13QFontEngineFT16addOutlineToPathEddRK12QGlyphLayoutP12QPainterPath6QFlagsIN9QTextItem10RenderFlagEE@Base 5.5.0
- _ZN13QFontEngineFT16alphaMapForGlyphEj6QFixed@Base 5.5.0
- _ZN13QFontEngineFT16alphaMapForGlyphEj6QFixedRK10QTransform@Base 5.5.0
- _ZN13QFontEngineFT16getUnscaledGlyphEjP12QPainterPathP15glyph_metrics_t@Base 5.5.0
- _ZN13QFontEngineFT17getPointInOutlineEjijP6QFixedS1_Pj@Base 5.5.0
- _ZN13QFontEngineFT18initFromFontEngineEPKS_@Base 5.5.0
- _ZN13QFontEngineFT19alphaMapBoundingBoxEj6QFixedRK10QTransformN11QFontEngine11GlyphFormatE@Base 5.5.0
- _ZN13QFontEngineFT19alphaRGBMapForGlyphEj6QFixedRK10QTransform@Base 5.5.0
- _ZN13QFontEngineFT19setDefaultHintStyleEN11QFontEngine9HintStyleE@Base 5.5.0
- _ZN13QFontEngineFT20removeGlyphFromCacheEj@Base 5.5.0
- _ZN13QFontEngineFT22lockedAlphaMapForGlyphEj6QFixedN11QFontEngine11GlyphFormatERK10QTransformP6QPoint@Base 5.5.0
- _ZN13QFontEngineFT22unlockAlphaMapForGlyphEv@Base 5.5.0
- _ZN13QFontEngineFT4initEN11QFontEngine6FaceIdEbNS0_11GlyphFormatEP13QFreetypeFace@Base 5.5.0
- _ZN13QFontEngineFT4initEN11QFontEngine6FaceIdEbNS0_11GlyphFormatERK10QByteArray@Base 5.5.0
- _ZN13QFontEngineFT5GlyphD1Ev@Base 5.5.0
- _ZN13QFontEngineFT5GlyphD2Ev@Base 5.5.0
- _ZN13QFontEngineFT9QGlyphSet20removeGlyphFromCacheEj6QFixed@Base 5.5.0
- _ZN13QFontEngineFT9QGlyphSet5clearEv@Base 5.5.0
- _ZN13QFontEngineFT9QGlyphSet8setGlyphEj6QFixedPNS_5GlyphE@Base 5.5.0
- _ZN13QFontEngineFT9QGlyphSetC1Ev@Base 5.5.0
- _ZN13QFontEngineFT9QGlyphSetC2Ev@Base 5.5.0
- _ZN13QFontEngineFT9QGlyphSetD1Ev@Base 5.5.0
- _ZN13QFontEngineFT9QGlyphSetD2Ev@Base 5.5.0
- _ZN13QFontEngineFTC1ERK8QFontDef@Base 5.5.0
- _ZN13QFontEngineFTC2ERK8QFontDef@Base 5.5.0
- _ZN13QFontEngineFTD0Ev@Base 5.5.0
- _ZN13QFontEngineFTD1Ev@Base 5.5.0
- _ZN13QFontEngineFTD2Ev@Base 5.5.0
+ _ZN13QFontEngineFT11boundingBoxERK12QGlyphLayout@Base 5.5.0 1
+ _ZN13QFontEngineFT11boundingBoxEj@Base 5.5.0 1
+ _ZN13QFontEngineFT11boundingBoxEjRK10QTransform@Base 5.5.0 1
+ _ZN13QFontEngineFT12loadGlyphForEj6QFixedN11QFontEngine11GlyphFormatERK10QTransformb@Base 5.5.0 1
+ _ZN13QFontEngineFT12loadGlyphSetERK10QTransform@Base 5.5.0 1
+ _ZN13QFontEngineFT15addGlyphsToPathEPjP11QFixedPointiP12QPainterPath6QFlagsIN9QTextItem10RenderFlagEE@Base 5.5.0 1
+ _ZN13QFontEngineFT16addOutlineToPathEddRK12QGlyphLayoutP12QPainterPath6QFlagsIN9QTextItem10RenderFlagEE@Base 5.5.0 1
+ _ZN13QFontEngineFT16alphaMapForGlyphEj6QFixed@Base 5.5.0 1
+ _ZN13QFontEngineFT16alphaMapForGlyphEj6QFixedRK10QTransform@Base 5.5.0 1
+ _ZN13QFontEngineFT16getUnscaledGlyphEjP12QPainterPathP15glyph_metrics_t@Base 5.5.0 1
+ _ZN13QFontEngineFT17getPointInOutlineEjijP6QFixedS1_Pj@Base 5.5.0 1
+ _ZN13QFontEngineFT18initFromFontEngineEPKS_@Base 5.5.0 1
+ _ZN13QFontEngineFT19alphaMapBoundingBoxEj6QFixedRK10QTransformN11QFontEngine11GlyphFormatE@Base 5.5.0 1
+ _ZN13QFontEngineFT19alphaRGBMapForGlyphEj6QFixedRK10QTransform@Base 5.5.0 1
+ _ZN13QFontEngineFT19setDefaultHintStyleEN11QFontEngine9HintStyleE@Base 5.5.0 1
+ _ZN13QFontEngineFT20removeGlyphFromCacheEj@Base 5.5.0 1
+ _ZN13QFontEngineFT22lockedAlphaMapForGlyphEj6QFixedN11QFontEngine11GlyphFormatERK10QTransformP6QPoint@Base 5.5.0 1
+ _ZN13QFontEngineFT22unlockAlphaMapForGlyphEv@Base 5.5.0 1
+ _ZN13QFontEngineFT4initEN11QFontEngine6FaceIdEbNS0_11GlyphFormatEP13QFreetypeFace@Base 5.5.0 1
+ _ZN13QFontEngineFT4initEN11QFontEngine6FaceIdEbNS0_11GlyphFormatERK10QByteArray@Base 5.5.0 1
+ _ZN13QFontEngineFT5GlyphD1Ev@Base 5.5.0 1
+ _ZN13QFontEngineFT5GlyphD2Ev@Base 5.5.0 1
+ _ZN13QFontEngineFT9QGlyphSet20removeGlyphFromCacheEj6QFixed@Base 5.5.0 1
+ _ZN13QFontEngineFT9QGlyphSet5clearEv@Base 5.5.0 1
+ _ZN13QFontEngineFT9QGlyphSet8setGlyphEj6QFixedPNS_5GlyphE@Base 5.5.0 1
+ _ZN13QFontEngineFT9QGlyphSetC1Ev@Base 5.5.0 1
+ _ZN13QFontEngineFT9QGlyphSetC2Ev@Base 5.5.0 1
+ _ZN13QFontEngineFT9QGlyphSetD1Ev@Base 5.5.0 1
+ _ZN13QFontEngineFT9QGlyphSetD2Ev@Base 5.5.0 1
+ _ZN13QFontEngineFTC1ERK8QFontDef@Base 5.5.0 1
+ _ZN13QFontEngineFTC2ERK8QFontDef@Base 5.5.0 1
+ _ZN13QFontEngineFTD0Ev@Base 5.5.0 1
+ _ZN13QFontEngineFTD1Ev@Base 5.5.0 1
+ _ZN13QFontEngineFTD2Ev@Base 5.5.0 1
  _ZN14QXcbConnection10checkEventEi@Base 5.5.0
  _ZN14QXcbConnection10grabServerEv@Base 5.5.0
  _ZN14QXcbConnection10internAtomEPKc@Base 5.5.0
@@ -243,12 +243,12 @@ libQt5XcbQpa.so.5 libqt5xcbqpa5 #MINVER#
  _ZN26QXcbNativeInterfaceHandlerD0Ev@Base 5.5.0
  _ZN26QXcbNativeInterfaceHandlerD1Ev@Base 5.5.0
  _ZN26QXcbNativeInterfaceHandlerD2Ev@Base 5.5.0
- _ZN27QEventDispatcherGlibPrivateD0Ev@Base 5.5.0
- _ZN27QEventDispatcherGlibPrivateD1Ev@Base 5.5.0
- _ZN27QEventDispatcherGlibPrivateD2Ev@Base 5.5.0
- _ZN31QAbstractEventDispatcherPrivateD0Ev@Base 5.5.0
- _ZN31QAbstractEventDispatcherPrivateD1Ev@Base 5.5.0
- _ZN31QAbstractEventDispatcherPrivateD2Ev@Base 5.5.0
+ _ZN27QEventDispatcherGlibPrivateD0Ev@Base 5.5.0 1
+ _ZN27QEventDispatcherGlibPrivateD1Ev@Base 5.5.0 1
+ _ZN27QEventDispatcherGlibPrivateD2Ev@Base 5.5.0 1
+ _ZN31QAbstractEventDispatcherPrivateD0Ev@Base 5.5.0 1
+ _ZN31QAbstractEventDispatcherPrivateD1Ev@Base 5.5.0 1
+ _ZN31QAbstractEventDispatcherPrivateD2Ev@Base 5.5.0 1
  _ZNK10QXcbScreen10grabWindowEyiiii@Base 5.5.0
  _ZNK10QXcbScreen10logicalDpiEv@Base 5.5.0
  _ZNK10QXcbScreen10topLevelAtERK6QPoint@Base 5.5.0
@@ -264,7 +264,7 @@ libQt5XcbQpa.so.5 libqt5xcbqpa5 #MINVER#
  _ZNK10QXcbScreen6cursorEv@Base 5.5.0
  _ZNK10QXcbScreen6formatEv@Base 5.5.0
  _ZNK10QXcbScreen9xSettingsEv@Base 5.5.0
- _ZNK10QXcbWindow10isEmbeddedEPK15QPlatformWindow@Base 5.5.0
+ _ZNK10QXcbWindow10isEmbeddedEPK15QPlatformWindow@Base 5.5.0 1
  _ZNK10QXcbWindow11mapToGlobalERK6QPoint@Base 5.5.0
  _ZNK10QXcbWindow11mapToNativeERK5QRectPK10QXcbScreen@Base 5.5.0
  _ZNK10QXcbWindow11mapToNativeERK6QPointPK10QXcbScreen@Base 5.5.0
@@ -283,34 +283,34 @@ libQt5XcbQpa.so.5 libqt5xcbqpa5 #MINVER#
  _ZNK10QXcbWindow9isExposedEv@Base 5.5.0
  _ZNK10QXcbWindow9needsSyncEv@Base 5.5.0
  _ZNK10QXcbWindow9xcbScreenEv@Base 5.5.0
- _ZNK13QFontEngineFT10glyphCountEv@Base 5.5.0
- _ZNK13QFontEngineFT10glyphIndexEj@Base 5.5.0
- _ZNK13QFontEngineFT10propertiesEv@Base 5.5.0
- _ZNK13QFontEngineFT10unlockFaceEv@Base 5.5.0
- _ZNK13QFontEngineFT11synthesizedEv@Base 5.5.0
- _ZNK13QFontEngineFT12emSquareSizeEv@Base 5.5.0
- _ZNK13QFontEngineFT12maxCharWidthEv@Base 5.5.0
- _ZNK13QFontEngineFT12stringToCMapEPK5QChariP12QGlyphLayoutPi6QFlagsIN11QFontEngine10ShaperFlagEE@Base 5.5.0
- _ZNK13QFontEngineFT13cloneWithSizeEd@Base 5.5.0
- _ZNK13QFontEngineFT13lineThicknessEv@Base 5.5.0
- _ZNK13QFontEngineFT14minLeftBearingEv@Base 5.5.0
- _ZNK13QFontEngineFT14recalcAdvancesEP12QGlyphLayout6QFlagsIN11QFontEngine10ShaperFlagEE@Base 5.5.0
- _ZNK13QFontEngineFT15minRightBearingEv@Base 5.5.0
- _ZNK13QFontEngineFT15non_locked_faceEv@Base 5.5.0
- _ZNK13QFontEngineFT16averageCharWidthEv@Base 5.5.0
- _ZNK13QFontEngineFT16getSfntTableDataEjPhPj@Base 5.5.0
- _ZNK13QFontEngineFT17underlinePositionEv@Base 5.5.0
- _ZNK13QFontEngineFT22shouldUseDesignMetricsE6QFlagsIN11QFontEngine10ShaperFlagEE@Base 5.5.0
- _ZNK13QFontEngineFT22supportsTransformationERK10QTransform@Base 5.5.0
- _ZNK13QFontEngineFT6ascentEv@Base 5.5.0
- _ZNK13QFontEngineFT6faceIdEv@Base 5.5.0
- _ZNK13QFontEngineFT7descentEv@Base 5.5.0
- _ZNK13QFontEngineFT7leadingEv@Base 5.5.0
- _ZNK13QFontEngineFT7xHeightEv@Base 5.5.0
- _ZNK13QFontEngineFT8lockFaceENS_7ScalingE@Base 5.5.0
- _ZNK13QFontEngineFT9doKerningEP12QGlyphLayout6QFlagsIN11QFontEngine10ShaperFlagEE@Base 5.5.0
- _ZNK13QFontEngineFT9loadFlagsEPNS_9QGlyphSetEN11QFontEngine11GlyphFormatEiRbRi@Base 5.5.0
- _ZNK13QFontEngineFT9loadGlyphEPNS_9QGlyphSetEj6QFixedN11QFontEngine11GlyphFormatEb@Base 5.5.0
+ _ZNK13QFontEngineFT10glyphCountEv@Base 5.5.0 1
+ _ZNK13QFontEngineFT10glyphIndexEj@Base 5.5.0 1
+ _ZNK13QFontEngineFT10propertiesEv@Base 5.5.0 1
+ _ZNK13QFontEngineFT10unlockFaceEv@Base 5.5.0 1
+ _ZNK13QFontEngineFT11synthesizedEv@Base 5.5.0 1
+ _ZNK13QFontEngineFT12emSquareSizeEv@Base 5.5.0 1
+ _ZNK13QFontEngineFT12maxCharWidthEv@Base 5.5.0 1
+ _ZNK13QFontEngineFT12stringToCMapEPK5QChariP12QGlyphLayoutPi6QFlagsIN11QFontEngine10ShaperFlagEE@Base 5.5.0 1
+ _ZNK13QFontEngineFT13cloneWithSizeEd@Base 5.5.0 1
+ _ZNK13QFontEngineFT13lineThicknessEv@Base 5.5.0 1
+ _ZNK13QFontEngineFT14minLeftBearingEv@Base 5.5.0 1
+ _ZNK13QFontEngineFT14recalcAdvancesEP12QGlyphLayout6QFlagsIN11QFontEngine10ShaperFlagEE@Base 5.5.0 1
+ _ZNK13QFontEngineFT15minRightBearingEv@Base 5.5.0 1
+ _ZNK13QFontEngineFT15non_locked_faceEv@Base 5.5.0 1
+ _ZNK13QFontEngineFT16averageCharWidthEv@Base 5.5.0 1
+ _ZNK13QFontEngineFT16getSfntTableDataEjPhPj@Base 5.5.0 1
+ _ZNK13QFontEngineFT17underlinePositionEv@Base 5.5.0 1
+ _ZNK13QFontEngineFT22shouldUseDesignMetricsE6QFlagsIN11QFontEngine10ShaperFlagEE@Base 5.5.0 1
+ _ZNK13QFontEngineFT22supportsTransformationERK10QTransform@Base 5.5.0 1
+ _ZNK13QFontEngineFT6ascentEv@Base 5.5.0 1
+ _ZNK13QFontEngineFT6faceIdEv@Base 5.5.0 1
+ _ZNK13QFontEngineFT7descentEv@Base 5.5.0 1
+ _ZNK13QFontEngineFT7leadingEv@Base 5.5.0 1
+ _ZNK13QFontEngineFT7xHeightEv@Base 5.5.0 1
+ _ZNK13QFontEngineFT8lockFaceENS_7ScalingE@Base 5.5.0 1
+ _ZNK13QFontEngineFT9doKerningEP12QGlyphLayout6QFlagsIN11QFontEngine10ShaperFlagEE@Base 5.5.0 1
+ _ZNK13QFontEngineFT9loadFlagsEPNS_9QGlyphSetEN11QFontEngine11GlyphFormatEiRbRi@Base 5.5.0 1
+ _ZNK13QFontEngineFT9loadGlyphEPNS_9QGlyphSetEj6QFixedN11QFontEngine11GlyphFormatEb@Base 5.5.0 1
  _ZNK14QXcbConnection10metaObjectEv@Base 5.5.0
  _ZNK14QXcbConnection12xlib_displayEv@Base 5.5.0
  _ZNK14QXcbConnection13primaryScreenEv@Base 5.5.0
@@ -323,7 +323,7 @@ libQt5XcbQpa.so.5 libqt5xcbqpa5 #MINVER#
  _ZNK15QXcbIntegration12inputContextEv@Base 5.5.0
  _ZNK15QXcbIntegration12possibleKeysEPK9QKeyEvent@Base 5.5.0
  _ZNK15QXcbIntegration13accessibilityEv@Base 5.5.0
- _ZNK15QXcbIntegration13hasCapabilityEN20QPlatformIntegration10CapabilityE@Base 5.5.0
+ _ZNK15QXcbIntegration13hasCapabilityEN20QPlatformIntegration10CapabilityE@Base 5.5.0 1
  _ZNK15QXcbIntegration15nativeInterfaceEv@Base 5.5.0
  _ZNK15QXcbIntegration19createPlatformThemeERK7QString@Base 5.5.0
  _ZNK15QXcbIntegration20createPlatformWindowEP7QWindow@Base 5.5.0
@@ -337,7 +337,7 @@ libQt5XcbQpa.so.5 libqt5xcbqpa5 #MINVER#
  _ZNK15QXcbIntegration7wmClassEv@Base 5.5.0
  _ZNK15QXcbIntegration8servicesEv@Base 5.5.0
  _ZNK15QXcbIntegration9clipboardEv@Base 5.5.0
- _ZNK15QXcbIntegration9styleHintEN20QPlatformIntegration9StyleHintE@Base 5.5.0
+ _ZNK15QXcbIntegration9styleHintEN20QPlatformIntegration9StyleHintE@Base 5.5.0 1
  _ZNK19QXcbNativeInterface10metaObjectEv@Base 5.5.0
  _ZNK19QXcbNativeInterface16platformFunctionERK10QByteArray@Base 5.5.0
  _ZNK19QXcbNativeInterface19systemTrayAvailableEPK7QScreen@Base 5.5.0
@@ -361,37 +361,37 @@ libQt5XcbQpa.so.5 libqt5xcbqpa5 #MINVER#
  _ZNK26QXcbNativeInterfaceHandler37nativeResourceFunctionForBackingStoreERK10QByteArray@Base 5.5.0
  _ZTI10QXcbScreen@Base 5.5.0
  _ZTI10QXcbWindow@Base 5.5.0
- _ZTI13QFontEngineFT@Base 5.5.0
+ _ZTI13QFontEngineFT@Base 5.5.0 1
  _ZTI14QXcbConnection@Base 5.5.0
  _ZTI15QXcbIntegration@Base 5.5.0
  _ZTI17QXcbGlIntegration@Base 5.5.0
  _ZTI19QXcbNativeInterface@Base 5.5.0
  _ZTI23QXcbGlIntegrationPlugin@Base 5.5.0
  _ZTI26QXcbNativeInterfaceHandler@Base 5.5.0
- _ZTI27QEventDispatcherGlibPrivate@Base 5.5.0
- _ZTI31QAbstractEventDispatcherPrivate@Base 5.5.0
+ _ZTI27QEventDispatcherGlibPrivate@Base 5.5.0 1
+ _ZTI31QAbstractEventDispatcherPrivate@Base 5.5.0 1
  _ZTS10QXcbScreen@Base 5.5.0
  _ZTS10QXcbWindow@Base 5.5.0
- _ZTS13QFontEngineFT@Base 5.5.0
+ _ZTS13QFontEngineFT@Base 5.5.0 1
  _ZTS14QXcbConnection@Base 5.5.0
  _ZTS15QXcbIntegration@Base 5.5.0
  _ZTS17QXcbGlIntegration@Base 5.5.0
  _ZTS19QXcbNativeInterface@Base 5.5.0
  _ZTS23QXcbGlIntegrationPlugin@Base 5.5.0
  _ZTS26QXcbNativeInterfaceHandler@Base 5.5.0
- _ZTS27QEventDispatcherGlibPrivate@Base 5.5.0
- _ZTS31QAbstractEventDispatcherPrivate@Base 5.5.0
+ _ZTS27QEventDispatcherGlibPrivate@Base 5.5.0 1
+ _ZTS31QAbstractEventDispatcherPrivate@Base 5.5.0 1
  _ZTV10QXcbScreen@Base 5.5.0
  _ZTV10QXcbWindow@Base 5.5.0
- _ZTV13QFontEngineFT@Base 5.5.0
+ _ZTV13QFontEngineFT@Base 5.5.0 1
  _ZTV14QXcbConnection@Base 5.5.0
  _ZTV15QXcbIntegration@Base 5.5.0
  _ZTV17QXcbGlIntegration@Base 5.5.0
  _ZTV19QXcbNativeInterface@Base 5.5.0
  _ZTV23QXcbGlIntegrationPlugin@Base 5.5.0
  _ZTV26QXcbNativeInterfaceHandler@Base 5.5.0
- _ZTV27QEventDispatcherGlibPrivate@Base 5.5.0
- _ZTV31QAbstractEventDispatcherPrivate@Base 5.5.0
+ _ZTV27QEventDispatcherGlibPrivate@Base 5.5.0 1
+ _ZTV31QAbstractEventDispatcherPrivate@Base 5.5.0 1
  _Zls6QDebugPK10QXcbScreen@Base 5.5.0
  (c++)"non-virtual thunk to QXcbWindow::devicePixelRatio() const@Base" 5.5.0
  (c++)"non-virtual thunk to QXcbWindow::format() const@Base" 5.5.0
