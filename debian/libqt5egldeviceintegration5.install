@@ -1,2 +1,3 @@
 usr/lib/*/libQt5EglDeviceIntegration.so.*
 usr/lib/*/qt5/plugins/egldeviceintegrations/*
+usr/lib/*/qt5/plugins/platforms/libqeglfs.so

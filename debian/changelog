@@ -17,6 +17,11 @@ qtbase-opensource-src (5.5.0+dfsg-1) UNRELEASED; urgency=medium
   * Mark/unmark private symbols.
   * Update debian/copyright.
   * Add libproxy as build dependency. We now have support for it.
+  * Move adding proper Break+Replaces:
+    - libqxcb plugin from libqt5gui5 to libqt5xcbqpa5,
+    - libqeglfs plugin from libqt5gui5 to libqt5egldeviceintegration5,
+    as they now depend on the aforementioned libraries. This solves an
+    uneeded circular dependency.
 
   [ Pino Toscano ]
   * Fix build on Hurd, by temporarly disabling waitid() in forkfd code;

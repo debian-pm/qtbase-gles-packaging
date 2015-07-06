@@ -285,6 +285,8 @@ Architecture: linux-any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: libqt5gui5 (<< 5.5.0+dfsg-1~)
+Replaces: libqt5gui5 (<< 5.5.0+dfsg-1~)
 Description: Qt 5 EGL device integration
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -297,6 +299,8 @@ Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: libqt5gui5 (<< 5.5.0+dfsg-1~)
+Replaces: libqt5gui5 (<< 5.5.0+dfsg-1~)
 Description: Qt 5 XCB platform module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
