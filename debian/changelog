@@ -11,6 +11,7 @@ qtbase-opensource-src (5.5.0+dfsg-1) UNRELEASED; urgency=medium
   * Update install files for already present packages.
   * Add the new libqt5xcbqpa5 and libqt5egldeviceintegration5 libraries.
     - Also add symbols files for them.
+    - Add lintian overrides for them depending on qtbase-abi, that's expected.
   * Add two new plugins based on libinput. This are only installed on linux
     due to libinput not being available on other OSs yet.
   * Update symbols files with current build log.
