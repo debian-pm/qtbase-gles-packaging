@@ -1,5 +1,4 @@
 # Backported stuff
-Fix_QImage_format_after_inplace_conversion.patch
 
 # Debian specific.
 gnukfreebsd.diff

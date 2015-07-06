@@ -17,8 +17,6 @@ qtbase-opensource-src (5.5.0+dfsg-1) UNRELEASED; urgency=medium
   * Mark/unmark private symbols.
   * Update debian/copyright.
   * Add libproxy as build dependency. We now have support for it.
-  * Backport Fix_QImage_format_after_inplace_conversion.patch which solves
-    a FTBFS on powerpc. Thanks Timo for the pointer and Dmitry for the link.
 
   [ Pino Toscano ]
   * Fix build on Hurd, by temporarly disabling waitid() in forkfd code;
