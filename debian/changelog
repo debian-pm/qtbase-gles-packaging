@@ -1,4 +1,4 @@
-qtbase-opensource-src (5.5.0+dfsg-1) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.5.0+dfsg-1) experimental; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
@@ -33,7 +33,7 @@ qtbase-opensource-src (5.5.0+dfsg-1) UNRELEASED; urgency=medium
   * debian/patches/Fix-compile-error-on-big-endian.patch:
     - Fix FTBFS on powerpc.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 29 Jun 2015 14:41:08 +0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 06 Jul 2015 18:37:23 -0300
 
 qtbase-opensource-src (5.4.2+dfsg-4) unstable; urgency=medium
 
