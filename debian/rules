@@ -221,6 +221,17 @@ override_dh_auto_build-indep:
 	cd $(CURDIR)/src/xml; ../../bin/qmake
 	dh_auto_build -Smakefile -- html_docs
 
+override_dh_auto_build-arch:
+	# Bootstrap corelibs in order to be able to build the helper tools to
+	# regenerate some upstream-provided files.
+	cd $(CURDIR)/src; ../bin/qmake; make sub-corelib
+	# Add here the code to generate the helpers and then the headers.
+	sh debian/generateTLDs.sh
+	# Clean up the compiled code and start again.
+	cd $(CURDIR)/src; make distclean
+	make clean
+	dh_auto_build
+
 override_dh_auto_install-arch:
 	dh_auto_install -Smakefile -- INSTALL_ROOT=$(CURDIR)/debian/tmp/
 
