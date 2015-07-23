@@ -126,7 +126,6 @@ override_dh_auto_configure:
 	            -verbose \
 	            -optimized-qmake \
 	            -dbus-linked \
-	            -reduce-relocations \
 		    -no-strip \
 	            -no-separate-debug-info \
 	            -qpa xcb \
