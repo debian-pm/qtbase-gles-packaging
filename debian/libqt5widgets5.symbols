@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.4.2 alpha amd64 armel hppa i386 mips powerpc ppc64 ppc64el x32
+# SymbolsHelper-Confirmed: 5.4.2 alpha amd64 armel hppa hurd-i386 i386 kfreebsd-i386 mips powerpc ppc64 ppc64el x32
 libQt5Widgets.so.5 libqt5widgets5 #MINVER#
 | libqt5widgets5 #MINVER#, qtbase-abi-5-4-2
  _Z11qFadeEffectP7QWidgeti@Base 5.0.2
@@ -2510,7 +2510,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN16QAbstractSpinBoxD0Ev@Base 5.0.2
  _ZN16QAbstractSpinBoxD1Ev@Base 5.0.2
  _ZN16QAbstractSpinBoxD2Ev@Base 5.0.2
- (optional=inline|arch=!i386 !x32)_ZN16QCoreApplication9sendEventEP7QObjectP6QEvent@Base 5.3.1
+ (optional=inline|arch=!hurd-i386 !i386 !kfreebsd-i386 !x32)_ZN16QCoreApplication9sendEventEP7QObjectP6QEvent@Base 5.3.1
  _ZN16QDialogButtonBox11changeEventEP6QEvent@Base 5.0.2
  _ZN16QDialogButtonBox11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN16QDialogButtonBox11qt_metacastEPKc@Base 5.0.2

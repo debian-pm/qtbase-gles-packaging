@@ -1,9 +1,20 @@
-qtbase-opensource-src (5.4.2+dfsg-3) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.4.2+dfsg-5) UNRELEASED; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 29 Jun 2015 14:41:08 +0300
+
+qtbase-opensource-src (5.4.2+dfsg-4) unstable; urgency=medium
+
+  * Upload to unstable.
+  * Update symbols files with buildds' logs.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 22 Jun 2015 23:29:30 -0300
+
+qtbase-opensource-src (5.4.2+dfsg-3) experimental; urgency=medium
+
   * Update symbols files with buildd's logs.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 06 Jun 2015 10:27:36 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 22 Jun 2015 09:59:21 -0300
 
 qtbase-opensource-src (5.4.2+dfsg-2) experimental; urgency=medium
 
@@ -220,6 +231,28 @@ qtbase-opensource-src (5.4.0+dfsg-1) experimental; urgency=medium
   * Bump ABI also in the lintian overrides.
 
  -- Dmitry Shachnev <mitya57@debian.org>  Mon, 15 Dec 2014 16:45:50 +0300
+
+qtbase-opensource-src (5.3.2+dfsg-5) unstable; urgency=medium
+
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Remove libopenvg1-mesa-dev as a build dependency because mesa does not
+    build it anymore (Closes: #777341).
+    Thanks Andreas Beckmann for the report.
+
+  [ Dmitry Shachnev ]
+  * Fix several DoS vulnerabilities in the image handlers.
+    - CVE-2015-0295, CVE-2015-1858, CVE-2015-1859, CVE-2015-1860.
+    - Closes: #779580.
+  * Fix HTTP upload corruptions when server closes connection.
+  * Use the latest version of debian/mark_private_symbols.sh:
+    - Strip trailing colon from symbols names.
+    - Unmark private symbols before processing them.
+  * Symbols files:
+    - Remove references to ia64 and s390 from the symbols files.
+      Build logs for these architectures are no longer available.
+    - Update for the mark_private_symbols.sh change.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Mon, 27 Apr 2015 11:54:20 +0300
 
 qtbase-opensource-src (5.3.2+dfsg-4) unstable; urgency=medium
 
