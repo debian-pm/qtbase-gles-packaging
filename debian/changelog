@@ -1,9 +1,9 @@
 qtbase-opensource-src (5.4.2+dfsg-5) UNRELEASED; urgency=medium
 
-
   [ Rohan Garg ]
-  * Drop revert_upstream_bsymbolic_change.patch, still broken on armhf (QTBUG-47350)
-  * Let configure work out if reduce-relocations is supported
+  * Drop revert_upstream_bsymbolic_change.patch, still broken on armhf
+    (QTBUG-47350).
+  * Let configure work out if reduce-relocations is supported.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 29 Jun 2015 14:41:08 +0300
 
