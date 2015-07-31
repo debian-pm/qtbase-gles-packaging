@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.4.1 amd64
+# SymbolsHelper-Confirmed: 5.4.2 amd64
 libQt5Sql.so.5 libqt5sql5 #MINVER#
 | libqt5sql5 #MINVER#, qtbase-abi-5-4-2
  _ZN10QSqlDriver11cancelQueryEv@Base 5.0.2
@@ -220,9 +220,6 @@ libQt5Sql.so.5 libqt5sql5 #MINVER#
  _ZN24QSqlRelationalTableModelD0Ev@Base 5.0.2
  _ZN24QSqlRelationalTableModelD1Ev@Base 5.0.2
  _ZN24QSqlRelationalTableModelD2Ev@Base 5.0.2
- (optional=gccinternal)_ZN25QAbstractItemModelPrivateD0Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN25QAbstractItemModelPrivateD1Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN25QAbstractItemModelPrivateD2Ev@Base 5.0.2 1
  _ZN9QSqlError13setDriverTextERK7QString@Base 5.0.2
  _ZN9QSqlError15setDatabaseTextERK7QString@Base 5.0.2
  _ZN9QSqlError7setTypeENS_9ErrorTypeE@Base 5.0.2

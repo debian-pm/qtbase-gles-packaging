@@ -507,9 +507,9 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN11QSimpleDrag9startDragEv@Base 5.1.0 1
  _ZN11QSimpleDragC1Ev@Base 5.1.0 1
  _ZN11QSimpleDragC2Ev@Base 5.1.0 1
- (optional=gccinternal)_ZN11QSimpleDragD0Ev@Base 5.1.0 1
- (optional=gccinternal)_ZN11QSimpleDragD1Ev@Base 5.1.0 1
- (optional=gccinternal)_ZN11QSimpleDragD2Ev@Base 5.1.0 1
+ (optional=gccinternal|arch=!amd64)_ZN11QSimpleDragD0Ev@Base 5.1.0 1
+ (optional=gccinternal|arch=!amd64)_ZN11QSimpleDragD1Ev@Base 5.1.0 1
+ (optional=gccinternal|arch=!amd64)_ZN11QSimpleDragD2Ev@Base 5.1.0 1
  _ZN11QStaticText12setTextWidthEd@Base 5.2.0
  _ZN11QStaticText13setTextFormatEN2Qt10TextFormatE@Base 5.0.2
  _ZN11QStaticText13setTextOptionERK11QTextOption@Base 5.0.2
@@ -546,9 +546,9 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN11QStyleHints27setMouseDoubleClickIntervalEi@Base 5.3.0
  _ZN11QStyleHintsC1Ev@Base 5.0.2
  _ZN11QStyleHintsC2Ev@Base 5.0.2
- (optional=gccinternal)_ZN11QStyleHintsD0Ev@Base 5.0.2
- (optional=gccinternal)_ZN11QStyleHintsD1Ev@Base 5.0.2
- (optional=gccinternal)_ZN11QStyleHintsD2Ev@Base 5.0.2
+ (optional=gccinternal|arch=!amd64)_ZN11QStyleHintsD0Ev@Base 5.0.2
+ (optional=gccinternal|arch=!amd64)_ZN11QStyleHintsD1Ev@Base 5.0.2
+ (optional=gccinternal|arch=!amd64)_ZN11QStyleHintsD2Ev@Base 5.0.2
  _ZN11QTextCursor10createListEN15QTextListFormat5StyleE@Base 5.0.2
  _ZN11QTextCursor10createListERK15QTextListFormat@Base 5.0.2
  _ZN11QTextCursor10deleteCharEv@Base 5.0.2
@@ -1159,9 +1159,9 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN13QOpenGLWindow8resizeGLEii@Base 5.4.0
  _ZN13QOpenGLWindowC1ENS_14UpdateBehaviorEP7QWindow@Base 5.4.0
  _ZN13QOpenGLWindowC2ENS_14UpdateBehaviorEP7QWindow@Base 5.4.0
- (optional=gccinternal)_ZN13QOpenGLWindowD0Ev@Base 5.4.0
- (optional=gccinternal)_ZN13QOpenGLWindowD1Ev@Base 5.4.0
- (optional=gccinternal)_ZN13QOpenGLWindowD2Ev@Base 5.4.0
+ (optional=gccinternal|arch=!amd64)_ZN13QOpenGLWindowD0Ev@Base 5.4.0
+ (optional=gccinternal|arch=!amd64)_ZN13QOpenGLWindowD1Ev@Base 5.4.0
+ (optional=gccinternal|arch=!amd64)_ZN13QOpenGLWindowD2Ev@Base 5.4.0
  _ZN13QPainterState4initEP8QPainter@Base 5.0.2 1
  _ZN13QPainterStateC1EPKS_@Base 5.0.2 1
  _ZN13QPainterStateC1Ev@Base 5.0.2 1
@@ -1187,9 +1187,9 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN13QRasterWindow16staticMetaObjectE@Base 5.4.0
  _ZN13QRasterWindowC1EP7QWindow@Base 5.4.0
  _ZN13QRasterWindowC2EP7QWindow@Base 5.4.0
- (optional=gccinternal)_ZN13QRasterWindowD0Ev@Base 5.4.0
- (optional=gccinternal)_ZN13QRasterWindowD1Ev@Base 5.4.0
- (optional=gccinternal)_ZN13QRasterWindowD2Ev@Base 5.4.0
+ (optional=gccinternal|arch=!amd64)_ZN13QRasterWindowD0Ev@Base 5.4.0
+ (optional=gccinternal|arch=!amd64)_ZN13QRasterWindowD1Ev@Base 5.4.0
+ (optional=gccinternal|arch=!amd64)_ZN13QRasterWindowD2Ev@Base 5.4.0
  _ZN13QStandardItem10insertRowsEiRK5QListIPS_E@Base 5.0.2
  _ZN13QStandardItem10insertRowsEii@Base 5.0.2
  _ZN13QStandardItem10removeRowsEii@Base 5.0.2
@@ -1755,9 +1755,9 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN16QAccessibleCache15objectDestroyedEP7QObject@Base 5.3.0 1
  _ZN16QAccessibleCache16staticMetaObjectE@Base 5.3.0 1
  _ZN16QAccessibleCache8instanceEv@Base 5.3.0 1
- (optional=gccinternal)_ZN16QAccessibleCacheD0Ev@Base 5.3.0 1
- (optional=gccinternal)_ZN16QAccessibleCacheD1Ev@Base 5.3.0 1
- (optional=gccinternal)_ZN16QAccessibleCacheD2Ev@Base 5.3.0 1
+ (optional=gccinternal|arch=!amd64)_ZN16QAccessibleCacheD0Ev@Base 5.3.0 1
+ (optional=gccinternal|arch=!amd64)_ZN16QAccessibleCacheD1Ev@Base 5.3.0 1
+ (optional=gccinternal|arch=!amd64)_ZN16QAccessibleCacheD2Ev@Base 5.3.0 1
  _ZN16QConicalGradient8setAngleEd@Base 5.2.0
  _ZN16QConicalGradient9setCenterERK7QPointF@Base 5.0.2
  _ZN16QConicalGradientC1ERK7QPointFd@Base 5.2.0
@@ -1908,9 +1908,9 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN17QInputMethodEventC2ERK7QStringRK5QListINS_9AttributeEE@Base 5.0.2
  _ZN17QInputMethodEventC2ERKS_@Base 5.0.2
  _ZN17QInputMethodEventC2Ev@Base 5.0.2
- (optional=gccinternal)_ZN17QInputMethodEventD0Ev@Base 5.0.2
- (optional=gccinternal)_ZN17QInputMethodEventD1Ev@Base 5.0.2
- (optional=gccinternal)_ZN17QInputMethodEventD2Ev@Base 5.0.2
+ (optional=gccinternal|arch=!amd64)_ZN17QInputMethodEventD0Ev@Base 5.0.2
+ (optional=gccinternal|arch=!amd64)_ZN17QInputMethodEventD1Ev@Base 5.0.2
+ (optional=gccinternal|arch=!amd64)_ZN17QInputMethodEventD2Ev@Base 5.0.2
  _ZN17QInternalMimeData11canReadDataERK7QString@Base 5.0.2 1
  _ZN17QInternalMimeData11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
  _ZN17QInternalMimeData11qt_metacastEPKc@Base 5.0.2 1
@@ -2013,9 +2013,9 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN17QTextImageHandler5imageEP13QTextDocumentRK16QTextImageFormat@Base 5.0.2 1
  _ZN17QTextImageHandlerC1EP7QObject@Base 5.0.2 1
  _ZN17QTextImageHandlerC2EP7QObject@Base 5.0.2 1
- (optional=gccinternal)_ZN17QTextImageHandlerD0Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN17QTextImageHandlerD1Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN17QTextImageHandlerD2Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN17QTextImageHandlerD0Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN17QTextImageHandlerD1Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN17QTextImageHandlerD2Ev@Base 5.0.2 1
  _ZN17QTextInlineObject10setDescentEd@Base 5.2.0
  _ZN17QTextInlineObject8setWidthEd@Base 5.2.0
  _ZN17QTextInlineObject9setAscentEd@Base 5.2.0
@@ -2119,9 +2119,9 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN18QPaintDeviceWindow6updateEv@Base 5.4.0
  _ZN18QPaintDeviceWindowC1ER25QPaintDeviceWindowPrivateP7QWindow@Base 5.4.0 1
  _ZN18QPaintDeviceWindowC2ER25QPaintDeviceWindowPrivateP7QWindow@Base 5.4.0 1
- (optional=gccinternal)_ZN18QPaintDeviceWindowD0Ev@Base 5.4.0
- (optional=gccinternal)_ZN18QPaintDeviceWindowD1Ev@Base 5.4.0
- (optional=gccinternal)_ZN18QPaintDeviceWindowD2Ev@Base 5.4.0
+ (optional=gccinternal|arch=!amd64)_ZN18QPaintDeviceWindowD0Ev@Base 5.4.0
+ (optional=gccinternal|arch=!amd64)_ZN18QPaintDeviceWindowD1Ev@Base 5.4.0
+ (optional=gccinternal|arch=!amd64)_ZN18QPaintDeviceWindowD2Ev@Base 5.4.0
  _ZN18QPlatformClipboard11emitChangedEN10QClipboard4ModeE@Base 5.0.2 1
  _ZN18QPlatformClipboard11setMimeDataEP9QMimeDataN10QClipboard4ModeE@Base 5.0.2 1
  _ZN18QPlatformClipboard8mimeDataEN10QClipboard4ModeE@Base 5.0.2 1
@@ -2300,9 +2300,9 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN19QBlitterPaintEngine9drawRectsEPK6QRectFi@Base 5.0.2 1
  _ZN19QBlitterPaintEngineC1EP24QBlittablePlatformPixmap@Base 5.0.2 1
  _ZN19QBlitterPaintEngineC2EP24QBlittablePlatformPixmap@Base 5.0.2 1
- (optional=gccinternal)_ZN19QBlitterPaintEngineD0Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN19QBlitterPaintEngineD1Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN19QBlitterPaintEngineD2Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN19QBlitterPaintEngineD0Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN19QBlitterPaintEngineD1Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN19QBlitterPaintEngineD2Ev@Base 5.0.2 1
  _ZN19QColorDialogOptions10setOptionsE6QFlagsINS_17ColorDialogOptionEE@Base 5.0.2 1
  _ZN19QColorDialogOptions11customColorEi@Base 5.0.2 1
  _ZN19QColorDialogOptions12customColorsEv@Base 5.0.2 1
@@ -2322,9 +2322,9 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN19QColorDialogOptionsaSERKS_@Base 5.0.2 1
  _ZN19QNativeGestureEventC1EN2Qt17NativeGestureTypeERK7QPointFS4_S4_dmy@Base 5.2.0~beta1
  _ZN19QNativeGestureEventC2EN2Qt17NativeGestureTypeERK7QPointFS4_S4_dmy@Base 5.2.0~beta1
- (optional=gccinternal)_ZN19QNativeGestureEventD0Ev@Base 5.2.0~beta1
- (optional=gccinternal)_ZN19QNativeGestureEventD1Ev@Base 5.2.0~beta1
- (optional=gccinternal)_ZN19QNativeGestureEventD2Ev@Base 5.2.0~beta1
+ (optional=gccinternal|arch=!amd64)_ZN19QNativeGestureEventD0Ev@Base 5.2.0~beta1
+ (optional=gccinternal|arch=!amd64)_ZN19QNativeGestureEventD1Ev@Base 5.2.0~beta1
+ (optional=gccinternal|arch=!amd64)_ZN19QNativeGestureEventD2Ev@Base 5.2.0~beta1
  _ZN19QOpenGLContextGroup11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN19QOpenGLContextGroup11qt_metacastEPKc@Base 5.0.2
  _ZN19QOpenGLContextGroup16staticMetaObjectE@Base 5.0.2
@@ -2395,9 +2395,9 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN19QTextDocumentLayout8doLayoutEiii@Base 5.0.2 1
  _ZN19QTextDocumentLayoutC1EP13QTextDocument@Base 5.0.2 1
  _ZN19QTextDocumentLayoutC2EP13QTextDocument@Base 5.0.2 1
- (optional=gccinternal)_ZN19QTextDocumentLayoutD0Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN19QTextDocumentLayoutD1Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN19QTextDocumentLayoutD2Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN19QTextDocumentLayoutD0Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN19QTextDocumentLayoutD1Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN19QTextDocumentLayoutD2Ev@Base 5.0.2 1
  _ZN19QTextDocumentWriter11setFileNameERK7QString@Base 5.0.2
  _ZN19QTextDocumentWriter24supportedDocumentFormatsEv@Base 5.0.2
  _ZN19QTextDocumentWriter5writeEPK13QTextDocument@Base 5.0.2
@@ -2901,9 +2901,9 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN21QTriangulatingStroker9arcPointsEffffffR15QVarLengthArrayIfLi256EE@Base 5.0.2 1
  _ZN22QAccessibleApplicationC1Ev@Base 5.0.2
  _ZN22QAccessibleApplicationC2Ev@Base 5.0.2
- (optional=gccinternal)_ZN22QAccessibleApplicationD0Ev@Base 5.0.2
- (optional=gccinternal)_ZN22QAccessibleApplicationD1Ev@Base 5.0.2
- (optional=gccinternal)_ZN22QAccessibleApplicationD2Ev@Base 5.0.2
+ (optional=gccinternal|arch=!amd64)_ZN22QAccessibleApplicationD0Ev@Base 5.0.2
+ (optional=gccinternal|arch=!amd64)_ZN22QAccessibleApplicationD1Ev@Base 5.0.2
+ (optional=gccinternal|arch=!amd64)_ZN22QAccessibleApplicationD2Ev@Base 5.0.2
  _ZN22QDashedStrokeProcessor7processERK11QVectorPathRK4QPenRK6QRectF6QFlagsIN8QPainter10RenderHintEE@Base 5.0.2 1
  _ZN22QDashedStrokeProcessorC1Ev@Base 5.0.2 1
  _ZN22QDashedStrokeProcessorC2Ev@Base 5.0.2 1
@@ -3011,9 +3011,9 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN22QInputMethodQueryEventD1Ev@Base 5.0.2
  _ZN22QInputMethodQueryEventD2Ev@Base 5.0.2
  _ZN22QPaintEngineExReplayer7processERK19QPaintBufferCommand@Base 5.0.2 1
- (optional=gccinternal)_ZN22QPaintEngineExReplayerD0Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN22QPaintEngineExReplayerD1Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN22QPaintEngineExReplayerD2Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN22QPaintEngineExReplayerD0Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN22QPaintEngineExReplayerD1Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN22QPaintEngineExReplayerD2Ev@Base 5.0.2 1
  _ZN22QPlatformAccessibility10initializeEv@Base 5.0.2 1
  _ZN22QPlatformAccessibility13setRootObjectEP7QObject@Base 5.0.2 1
  _ZN22QPlatformAccessibility25notifyAccessibilityUpdateEP16QAccessibleEvent@Base 5.0.2 1
@@ -3108,9 +3108,9 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN23QImageTextureGlyphCache11fillTextureERKN18QTextureGlyphCache5CoordEj6QFixed@Base 5.0.2 1
  _ZN23QImageTextureGlyphCache17createTextureDataEii@Base 5.0.2 1
  _ZN23QImageTextureGlyphCache17resizeTextureDataEii@Base 5.0.2 1
- (optional=gccinternal)_ZN23QImageTextureGlyphCacheD0Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN23QImageTextureGlyphCacheD1Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN23QImageTextureGlyphCacheD2Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN23QImageTextureGlyphCacheD0Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN23QImageTextureGlyphCacheD1Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN23QImageTextureGlyphCacheD2Ev@Base 5.0.2 1
  _ZN23QOpenGLExtensionMatcherC1Ev@Base 5.1.0 1
  _ZN23QOpenGLExtensionMatcherC2Ev@Base 5.1.0 1
  _ZN23QPlatformDragQtResponseC1EbN2Qt10DropActionE5QRect@Base 5.0.2 1
@@ -3248,9 +3248,9 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN24QPlatformNativeInterface32nativeResourceFunctionForContextERK10QByteArray@Base 5.0.2 1
  _ZN24QPlatformNativeInterface36nativeResourceFunctionForIntegrationERK10QByteArray@Base 5.0.2 1
  _ZN24QPlatformNativeInterface37nativeResourceFunctionForBackingStoreERK10QByteArray@Base 5.0.2 1
- (optional=gccinternal)_ZN24QPlatformNativeInterfaceD0Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN24QPlatformNativeInterfaceD1Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN24QPlatformNativeInterfaceD2Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN24QPlatformNativeInterfaceD0Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN24QPlatformNativeInterfaceD1Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN24QPlatformNativeInterfaceD2Ev@Base 5.0.2 1
  _ZN24QSupportedWritingSystems12setSupportedEN13QFontDatabase13WritingSystemEb@Base 5.0.2 1
  _ZN24QSupportedWritingSystems6detachEv@Base 5.0.2 1
  _ZN24QSupportedWritingSystemsC1ERKS_@Base 5.0.2 1
@@ -3260,9 +3260,9 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN24QSupportedWritingSystemsD1Ev@Base 5.0.2 1
  _ZN24QSupportedWritingSystemsD2Ev@Base 5.0.2 1
  _ZN24QSupportedWritingSystemsaSERKS_@Base 5.0.2 1
- (optional=gccinternal)_ZN25QAbstractItemModelPrivateD0Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN25QAbstractItemModelPrivateD1Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN25QAbstractItemModelPrivateD2Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN25QAbstractItemModelPrivateD0Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN25QAbstractItemModelPrivateD1Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN25QAbstractItemModelPrivateD2Ev@Base 5.0.2 1
  _ZN25QFontEngineMultiBasicImpl10loadEngineEi@Base 5.4.0 1
  _ZN25QFontEngineMultiBasicImpl21createMultiFontEngineEP11QFontEnginei@Base 5.4.0 1
  _ZN25QFontEngineMultiBasicImpl23setFallbackFamiliesListERK11QStringList@Base 5.4.0 1
@@ -3272,9 +3272,9 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN25QFontEngineMultiBasicImplC1EP11QFontEngineiRK11QStringList@Base 5.4.0 1
  _ZN25QFontEngineMultiBasicImplC2EP11QFontEnginei@Base 5.4.0 1
  _ZN25QFontEngineMultiBasicImplC2EP11QFontEngineiRK11QStringList@Base 5.4.0 1
- (optional=gccinternal)_ZN25QFontEngineMultiBasicImplD0Ev@Base 5.4.0 1
- (optional=gccinternal)_ZN25QFontEngineMultiBasicImplD1Ev@Base 5.4.0 1
- (optional=gccinternal)_ZN25QFontEngineMultiBasicImplD2Ev@Base 5.4.0 1
+ (optional=gccinternal|arch=!amd64)_ZN25QFontEngineMultiBasicImplD0Ev@Base 5.4.0 1
+ (optional=gccinternal|arch=!amd64)_ZN25QFontEngineMultiBasicImplD1Ev@Base 5.4.0 1
+ (optional=gccinternal|arch=!amd64)_ZN25QFontEngineMultiBasicImplD2Ev@Base 5.4.0 1
  (arch=!armel !armhf)_ZN25QOpenGLFunctions_3_2_Core14versionProfileEv@Base 5.1.0
  (arch=!armel !armhf)_ZN25QOpenGLFunctions_3_2_Core19isContextCompatibleEP14QOpenGLContext@Base 5.1.0
  (arch=!armel !armhf)_ZN25QOpenGLFunctions_3_2_Core25initializeOpenGLFunctionsEv@Base 5.1.0
@@ -3325,9 +3325,9 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  (arch=!armel !armhf)_ZN25QOpenGLFunctions_4_3_CoreD2Ev@Base 5.1.0
  _ZN25QOpenGLPaintDevicePrivateC1ERK5QSize@Base 5.4.0 1
  _ZN25QOpenGLPaintDevicePrivateC2ERK5QSize@Base 5.4.0 1
- (optional=gccinternal)_ZN25QPaintDeviceWindowPrivateD0Ev@Base 5.4.0 1
- (optional=gccinternal)_ZN25QPaintDeviceWindowPrivateD1Ev@Base 5.4.0 1
- (optional=gccinternal)_ZN25QPaintDeviceWindowPrivateD2Ev@Base 5.4.0 1
+ (optional=gccinternal|arch=!amd64)_ZN25QPaintDeviceWindowPrivateD0Ev@Base 5.4.0 1
+ (optional=gccinternal|arch=!amd64)_ZN25QPaintDeviceWindowPrivateD1Ev@Base 5.4.0 1
+ (optional=gccinternal|arch=!amd64)_ZN25QPaintDeviceWindowPrivateD2Ev@Base 5.4.0 1
  _ZN25QPlatformFileDialogHelper10setOptionsERK14QSharedPointerI18QFileDialogOptionsE@Base 5.0.2 1
  _ZN25QPlatformFileDialogHelper11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
  _ZN25QPlatformFileDialogHelper11qt_metacastEPKc@Base 5.0.2 1
@@ -3360,9 +3360,9 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN26QOpenGLContextGroupPrivate13removeContextEP14QOpenGLContext@Base 5.0.2 1
  _ZN26QOpenGLContextGroupPrivate22deletePendingResourcesEP14QOpenGLContext@Base 5.0.2 1
  _ZN26QOpenGLContextGroupPrivate7cleanupEv@Base 5.0.2 1
- (optional=gccinternal)_ZN26QOpenGLContextGroupPrivateD0Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN26QOpenGLContextGroupPrivateD1Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN26QOpenGLContextGroupPrivateD2Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN26QOpenGLContextGroupPrivateD0Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN26QOpenGLContextGroupPrivateD1Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN26QOpenGLContextGroupPrivateD2Ev@Base 5.0.2 1
  _ZN26QOpenGLEngineShaderManager11blitProgramEv@Base 5.0.2 1
  _ZN26QOpenGLEngineShaderManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
  _ZN26QOpenGLEngineShaderManager11qt_metacastEPKc@Base 5.0.2 1
@@ -3397,9 +3397,9 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN26QOpenGLEngineSharedShadersD1Ev@Base 5.0.2 1
  _ZN26QOpenGLEngineSharedShadersD2Ev@Base 5.0.2 1
  _ZN26QOpenGLSharedResourceGuard12freeResourceEP14QOpenGLContext@Base 5.0.2 1
- (optional=gccinternal)_ZN26QOpenGLSharedResourceGuardD0Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN26QOpenGLSharedResourceGuardD1Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN26QOpenGLSharedResourceGuardD2Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN26QOpenGLSharedResourceGuardD0Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN26QOpenGLSharedResourceGuardD1Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN26QOpenGLSharedResourceGuardD2Ev@Base 5.0.2 1
  _ZN26QPlatformColorDialogHelper10setOptionsERK14QSharedPointerI19QColorDialogOptionsE@Base 5.0.2 1
  _ZN26QPlatformColorDialogHelper11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
  _ZN26QPlatformColorDialogHelper11qt_metacastEPKc@Base 5.0.2 1
@@ -3438,9 +3438,9 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN27QAbstractTextDocumentLayoutD0Ev@Base 5.0.2
  _ZN27QAbstractTextDocumentLayoutD1Ev@Base 5.0.2
  _ZN27QAbstractTextDocumentLayoutD2Ev@Base 5.0.2
- (optional=gccinternal)_ZN27QAccessibleStateChangeEventD0Ev@Base 5.0.2
- (optional=gccinternal)_ZN27QAccessibleStateChangeEventD1Ev@Base 5.0.2
- (optional=gccinternal)_ZN27QAccessibleStateChangeEventD2Ev@Base 5.0.2
+ (optional=gccinternal|arch=!amd64)_ZN27QAccessibleStateChangeEventD0Ev@Base 5.0.2
+ (optional=gccinternal|arch=!amd64)_ZN27QAccessibleStateChangeEventD1Ev@Base 5.0.2
+ (optional=gccinternal|arch=!amd64)_ZN27QAccessibleStateChangeEventD2Ev@Base 5.0.2
  _ZN27QOpenGLPixelTransferOptions11setSkipRowsEi@Base 5.2.0~alpha1
  _ZN27QOpenGLPixelTransferOptions12setAlignmentEi@Base 5.2.0~alpha1
  _ZN27QOpenGLPixelTransferOptions12setRowLengthEi@Base 5.2.0~alpha1
@@ -3480,9 +3480,9 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN27QRegularExpressionValidatorD2Ev@Base 5.1.0
  _ZN28QApplicationStateChangeEventC1EN2Qt16ApplicationStateE@Base 5.1.0
  _ZN28QApplicationStateChangeEventC2EN2Qt16ApplicationStateE@Base 5.1.0
- (optional=gccinternal)_ZN28QApplicationStateChangeEventD0Ev@Base 5.1.0
- (optional=gccinternal)_ZN28QApplicationStateChangeEventD1Ev@Base 5.1.0
- (optional=gccinternal)_ZN28QApplicationStateChangeEventD2Ev@Base 5.1.0
+ (optional=gccinternal|arch=!amd64)_ZN28QApplicationStateChangeEventD0Ev@Base 5.1.0
+ (optional=gccinternal|arch=!amd64)_ZN28QApplicationStateChangeEventD1Ev@Base 5.1.0
+ (optional=gccinternal|arch=!amd64)_ZN28QApplicationStateChangeEventD2Ev@Base 5.1.0
  _ZN28QPlatformInputContextFactory4keysEv@Base 5.0.2 1
  _ZN28QPlatformInputContextFactory6createERK7QString@Base 5.0.2 1
  _ZN28QPlatformInputContextFactory6createEv@Base 5.0.2 1
@@ -3503,103 +3503,103 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN29QScreenOrientationChangeEventD0Ev@Base 5.0.2
  _ZN29QScreenOrientationChangeEventD1Ev@Base 5.0.2
  _ZN29QScreenOrientationChangeEventD2Ev@Base 5.0.2
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate10CloseEventD0Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate10CloseEventD1Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate10CloseEventD2Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate10EnterEventD0Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate10EnterEventD1Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate10EnterEventD2Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate10InputEventD0Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate10InputEventD1Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate10InputEventD2Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate10LeaveEventD0Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate10LeaveEventD1Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate10LeaveEventD2Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate10MouseEventD0Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate10MouseEventD1Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate10MouseEventD2Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate10TouchEventD0Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate10TouchEventD1Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate10TouchEventD2Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate10WheelEventD0Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate10WheelEventD1Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate10WheelEventD2Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate10CloseEventD0Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate10CloseEventD1Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate10CloseEventD2Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate10EnterEventD0Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate10EnterEventD1Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate10EnterEventD2Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate10InputEventD0Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate10InputEventD1Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate10InputEventD2Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate10LeaveEventD0Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate10LeaveEventD1Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate10LeaveEventD2Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate10MouseEventD0Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate10MouseEventD1Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate10MouseEventD2Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate10TouchEventD0Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate10TouchEventD1Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate10TouchEventD2Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate10WheelEventD0Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate10WheelEventD1Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate10WheelEventD2Ev@Base 5.0.2 1
  _ZN29QWindowSystemInterfacePrivate11ExposeEventC1EP7QWindowRK7QRegion@Base 5.0.2 1
  _ZN29QWindowSystemInterfacePrivate11ExposeEventC2EP7QWindowRK7QRegion@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate11ExposeEventD0Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate11ExposeEventD1Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate11ExposeEventD2Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate11TabletEventD0Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate11TabletEventD1Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate11TabletEventD2Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate12GestureEventD0Ev@Base 5.2.0~beta1 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate12GestureEventD1Ev@Base 5.2.0~beta1 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate12GestureEventD2Ev@Base 5.2.0~beta1 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate13FileOpenEventD0Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate13FileOpenEventD1Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate13FileOpenEventD2Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate11ExposeEventD0Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate11ExposeEventD1Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate11ExposeEventD2Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate11TabletEventD0Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate11TabletEventD1Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate11TabletEventD2Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate12GestureEventD0Ev@Base 5.2.0~beta1 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate12GestureEventD1Ev@Base 5.2.0~beta1 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate12GestureEventD2Ev@Base 5.2.0~beta1 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate13FileOpenEventD0Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate13FileOpenEventD1Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate13FileOpenEventD2Ev@Base 5.0.2 1
  _ZN29QWindowSystemInterfacePrivate13eventsFlushedE@Base 5.1.0 1
  _ZN29QWindowSystemInterfacePrivate15flushEventMutexE@Base 5.1.0 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate16ContextMenuEventD0Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate16ContextMenuEventD1Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate16ContextMenuEventD2Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate16FlushEventsEventD0Ev@Base 5.1.0 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate16FlushEventsEventD1Ev@Base 5.1.0 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate16FlushEventsEventD2Ev@Base 5.1.0 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate16ThemeChangeEventD0Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate16ThemeChangeEventD1Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate16ThemeChangeEventD2Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate18PlatformPanelEventD0Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate18PlatformPanelEventD1Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate18PlatformPanelEventD2Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate16ContextMenuEventD0Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate16ContextMenuEventD1Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate16ContextMenuEventD2Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate16FlushEventsEventD0Ev@Base 5.1.0 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate16FlushEventsEventD1Ev@Base 5.1.0 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate16FlushEventsEventD2Ev@Base 5.1.0 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate16ThemeChangeEventD0Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate16ThemeChangeEventD1Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate16ThemeChangeEventD2Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate18PlatformPanelEventD0Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate18PlatformPanelEventD1Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate18PlatformPanelEventD2Ev@Base 5.0.2 1
  _ZN29QWindowSystemInterfacePrivate18convertTouchPointsERK5QListIN22QWindowSystemInterface10TouchPointEEPN6QEvent4TypeE@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate19GeometryChangeEventD0Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate19GeometryChangeEventD1Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate19GeometryChangeEventD2Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate19ScreenGeometryEventD0Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate19ScreenGeometryEventD1Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate19ScreenGeometryEventD2Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate20ActivatedWindowEventD0Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate20ActivatedWindowEventD1Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate20ActivatedWindowEventD2Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate19GeometryChangeEventD0Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate19GeometryChangeEventD1Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate19GeometryChangeEventD2Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate19ScreenGeometryEventD0Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate19ScreenGeometryEventD1Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate19ScreenGeometryEventD2Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate20ActivatedWindowEventD0Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate20ActivatedWindowEventD1Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate20ActivatedWindowEventD2Ev@Base 5.0.2 1
  _ZN29QWindowSystemInterfacePrivate20getWindowSystemEventEv@Base 5.0.2 1
  _ZN29QWindowSystemInterfacePrivate21peekWindowSystemEventENS_9EventTypeE@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate22ScreenOrientationEventD0Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate22ScreenOrientationEventD1Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate22ScreenOrientationEventD2Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate22ScreenRefreshRateEventD0Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate22ScreenRefreshRateEventD1Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate22ScreenRefreshRateEventD2Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate22ScreenOrientationEventD0Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate22ScreenOrientationEventD1Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate22ScreenOrientationEventD2Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate22ScreenRefreshRateEventD0Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate22ScreenRefreshRateEventD1Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate22ScreenRefreshRateEventD2Ev@Base 5.0.2 1
  _ZN29QWindowSystemInterfacePrivate22windowSystemEventQueueE@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate23WindowStateChangedEventD0Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate23WindowStateChangedEventD1Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate23WindowStateChangedEventD2Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate23WindowStateChangedEventD0Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate23WindowStateChangedEventD1Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate23WindowStateChangedEventD2Ev@Base 5.0.2 1
  _ZN29QWindowSystemInterfacePrivate23handleWindowSystemEventEPNS_17WindowSystemEventE@Base 5.0.2 1
  _ZN29QWindowSystemInterfacePrivate23removeWindowSystemEventEPNS_17WindowSystemEventE@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate24WindowScreenChangedEventD0Ev@Base 5.1.0 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate24WindowScreenChangedEventD1Ev@Base 5.1.0 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate24WindowScreenChangedEventD2Ev@Base 5.1.0 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate24WindowScreenChangedEventD0Ev@Base 5.1.0 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate24WindowScreenChangedEventD1Ev@Base 5.1.0 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate24WindowScreenChangedEventD2Ev@Base 5.1.0 1
  _ZN29QWindowSystemInterfacePrivate24windowSystemEventsQueuedEv@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate25TabletEnterProximityEventD0Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate25TabletEnterProximityEventD1Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate25TabletEnterProximityEventD2Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate25TabletLeaveProximityEventD0Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate25TabletLeaveProximityEventD1Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate25TabletLeaveProximityEventD2Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate28ApplicationStateChangedEventD0Ev@Base 5.1.0 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate28ApplicationStateChangedEventD1Ev@Base 5.1.0 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate28ApplicationStateChangedEventD2Ev@Base 5.1.0 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate29ScreenLogicalDotsPerInchEventD0Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate29ScreenLogicalDotsPerInchEventD1Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate29ScreenLogicalDotsPerInchEventD2Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate25TabletEnterProximityEventD0Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate25TabletEnterProximityEventD1Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate25TabletEnterProximityEventD2Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate25TabletLeaveProximityEventD0Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate25TabletLeaveProximityEventD1Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate25TabletLeaveProximityEventD2Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate28ApplicationStateChangedEventD0Ev@Base 5.1.0 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate28ApplicationStateChangedEventD1Ev@Base 5.1.0 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate28ApplicationStateChangedEventD2Ev@Base 5.1.0 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate29ScreenLogicalDotsPerInchEventD0Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate29ScreenLogicalDotsPerInchEventD1Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate29ScreenLogicalDotsPerInchEventD2Ev@Base 5.0.2 1
  _ZN29QWindowSystemInterfacePrivate30synchronousWindowsSystemEventsE@Base 5.0.2 1
  _ZN29QWindowSystemInterfacePrivate32getNonUserInputWindowSystemEventEv@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate8KeyEventD0Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate8KeyEventD1Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate8KeyEventD2Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate9UserEventD0Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate9UserEventD1Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN29QWindowSystemInterfacePrivate9UserEventD2Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate8KeyEventD0Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate8KeyEventD1Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate8KeyEventD2Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate9UserEventD0Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate9UserEventD1Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN29QWindowSystemInterfacePrivate9UserEventD2Ev@Base 5.0.2 1
  _ZN29QWindowSystemInterfacePrivate9eventTimeE@Base 5.0.2 1
  _ZN2Qt12codecForHtmlERK10QByteArray@Base 5.0.2
  _ZN2Qt15mightBeRichTextERK7QString@Base 5.0.2
@@ -7082,7 +7082,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTV20QPlatformTextureList@Base 5.3.0 1
  _ZTV20QPlatformThemePlugin@Base 5.0.2 1
  _ZTV20QTextFrameLayoutData@Base 5.0.2
- (optional=gccinternal)_ZTV20QTextObjectInterface@Base 5.4.1
+ (optional=gccinternal|arch=!amd64)_ZTV20QTextObjectInterface@Base 5.4.1
  _ZTV21QOpenGL2PaintEngineEx@Base 5.0.2 1
  _ZTV21QOpenGLContextPrivate@Base 5.0.2 1
  _ZTV21QOpenGLSharedResource@Base 5.0.2 1
@@ -7161,7 +7161,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTV9QTextList@Base 5.0.2
  _ZTVN29QWindowSystemInterfacePrivate10CloseEventE@Base 5.0.2 1
  _ZTVN29QWindowSystemInterfacePrivate10EnterEventE@Base 5.0.2 1
- (optional=gccinternal)_ZTVN29QWindowSystemInterfacePrivate10InputEventE@Base 5.4.1 1
+ (optional=gccinternal|arch=!amd64)_ZTVN29QWindowSystemInterfacePrivate10InputEventE@Base 5.4.1 1
  _ZTVN29QWindowSystemInterfacePrivate10LeaveEventE@Base 5.0.2 1
  _ZTVN29QWindowSystemInterfacePrivate10MouseEventE@Base 5.0.2 1
  _ZTVN29QWindowSystemInterfacePrivate10TouchEventE@Base 5.0.2 1
@@ -7294,10 +7294,10 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  (c++)"non-virtual thunk to QOffscreenSurface::~QOffscreenSurface()@Base" 5.1.0
  (c++)"non-virtual thunk to QOpenGLWindow::metric(QPaintDevice::PaintDeviceMetric) const@Base" 5.4.0
  (c++)"non-virtual thunk to QOpenGLWindow::redirected(QPoint*) const@Base" 5.4.0
- (optional=gccinternal|c++)"non-virtual thunk to QOpenGLWindow::~QOpenGLWindow()@Base" 5.4.0
+ (optional=gccinternal|c++|arch=!amd64)"non-virtual thunk to QOpenGLWindow::~QOpenGLWindow()@Base" 5.4.0
  (c++)"non-virtual thunk to QPaintDeviceWindow::metric(QPaintDevice::PaintDeviceMetric) const@Base" 5.4.0
  (c++)"non-virtual thunk to QPaintDeviceWindow::paintEngine() const@Base" 5.4.0
- (optional=gccinternal|c++)"non-virtual thunk to QPaintDeviceWindow::~QPaintDeviceWindow()@Base" 5.4.0
+ (optional=gccinternal|c++|arch=!amd64)"non-virtual thunk to QPaintDeviceWindow::~QPaintDeviceWindow()@Base" 5.4.0
  (c++)"non-virtual thunk to QPdfWriter::metric(QPaintDevice::PaintDeviceMetric) const@Base" 5.0.2
  (c++)"non-virtual thunk to QPdfWriter::newPage()@Base" 5.0.2
  (c++)"non-virtual thunk to QPdfWriter::paintEngine() const@Base" 5.0.2
@@ -7307,11 +7307,11 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  (c++)"non-virtual thunk to QPdfWriter::~QPdfWriter()@Base" 5.0.2
  (c++)"non-virtual thunk to QRasterWindow::metric(QPaintDevice::PaintDeviceMetric) const@Base" 5.4.0
  (c++)"non-virtual thunk to QRasterWindow::redirected(QPoint*) const@Base" 5.4.0
- (optional=gccinternal|c++)"non-virtual thunk to QRasterWindow::~QRasterWindow()@Base" 5.4.0
- (optional=gccinternal|c++)"non-virtual thunk to QSimpleDrag::~QSimpleDrag()@Base" 5.1.0
+ (optional=gccinternal|c++|arch=!amd64)"non-virtual thunk to QRasterWindow::~QRasterWindow()@Base" 5.4.0
+ (optional=gccinternal|c++|arch=!amd64)"non-virtual thunk to QSimpleDrag::~QSimpleDrag()@Base" 5.1.0
  (c++)"non-virtual thunk to QTextImageHandler::drawObject(QPainter*, QRectF const&, QTextDocument*, int, QTextFormat const&)@Base" 5.0.2
  (c++)"non-virtual thunk to QTextImageHandler::intrinsicSize(QTextDocument*, int, QTextFormat const&)@Base" 5.0.2
- (optional=gccinternal|c++)"non-virtual thunk to QTextImageHandler::~QTextImageHandler()@Base" 5.0.2
+ (optional=gccinternal|c++|arch=!amd64)"non-virtual thunk to QTextImageHandler::~QTextImageHandler()@Base" 5.0.2
  (c++)"non-virtual thunk to QWindow::format() const@Base" 5.0.2
  (c++)"non-virtual thunk to QWindow::surfaceHandle() const@Base" 5.0.2
  (c++)"non-virtual thunk to QWindow::surfaceType() const@Base" 5.0.2
