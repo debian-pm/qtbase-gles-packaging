@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.5.0 amd64
+# SymbolsHelper-Confirmed: 5.5.0 amd64 arm64 armel armhf hurd-i386 i386 mips mipsel powerpc ppc64el
 libQt5Core.so.5 libqt5core5a #MINVER#
 | libqt5core5a #MINVER#, qtbase-abi-5-5-0
  _Z10forcepointR11QTextStream@Base 5.0.2
@@ -2516,9 +2516,9 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZN5QUuidC2ERK10QByteArray@Base 5.0.2
  _ZN5QUuidC2ERK7QString@Base 5.0.2
  _ZN6QDebug11resetFormatEv@Base 5.4.0
- _ZN6QDebug12putByteArrayEPKcmNS_13Latin1ContentE@Base 5.5.0
+ (subst)_ZN6QDebug12putByteArrayEPKc{size_t}NS_13Latin1ContentE@Base 5.5.0
  _ZN6QDebug7putUcs4Ej@Base 5.5.0
- _ZN6QDebug9putStringEPK5QCharm@Base 5.5.0
+ (subst)_ZN6QDebug9putStringEPK5QChar{size_t}@Base 5.5.0
  _ZN6QDebugD1Ev@Base 5.4.0
  _ZN6QDebugD2Ev@Base 5.4.0
  _ZN6QEvent16staticMetaObjectE@Base 5.0.2
@@ -2769,7 +2769,10 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  (arch=hppa m68k mips mips64el mipsel sparc sparc64)_ZN7QString8vsprintfEPKcPv@Base 5.4.2
  (arch=arm64 armel armhf)_ZN7QString8vsprintfEPKcSt9__va_list@Base 5.3.0
  _ZN7QString9fromUtf16EPKti@Base 5.0.2
- _ZN7QString9vasprintfEPKcP13__va_list_tag@Base 5.5.0
+ (arch=amd64 powerpc)_ZN7QString9vasprintfEPKcP13__va_list_tag@Base 5.5.0
+ (arch=hurd-i386 i386 ppc64el)_ZN7QString9vasprintfEPKcPc@Base 5.5.0
+ (arch=mips mipsel)_ZN7QString9vasprintfEPKcPv@Base 5.5.0
+ (arch=arm64 armel armhf)_ZN7QString9vasprintfEPKcSt9__va_list@Base 5.5.0
  _ZN7QStringC1E5QChar@Base 5.0.2
  _ZN7QStringC1EPK5QChari@Base 5.0.2
  _ZN7QStringC1Ei5QChar@Base 5.0.2
