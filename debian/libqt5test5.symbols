@@ -38,9 +38,6 @@ libQt5Test.so.5 libqt5test5 #MINVER#
  _ZN14QTestEventLoop11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN14QTestEventLoop11qt_metacastEPKc@Base 5.0.2
  _ZN14QTestEventLoop16staticMetaObjectE@Base 5.0.2
- (optional=gccinternal)_ZN14QTestEventLoopD0Ev@Base 5.0.2
- (optional=gccinternal)_ZN14QTestEventLoopD1Ev@Base 5.0.2
- (optional=gccinternal)_ZN14QTestEventLoopD2Ev@Base 5.0.2
  _ZN20QBenchmarkGlobalData14createMeasurerEv@Base 5.0.2 1
  _ZN20QBenchmarkGlobalData26adjustMedianIterationCountEv@Base 5.0.2 1
  _ZN20QBenchmarkGlobalData7currentE@Base 5.0.2 1
