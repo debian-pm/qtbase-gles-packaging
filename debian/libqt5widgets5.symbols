@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.5.0 amd64 s390x
+# SymbolsHelper-Confirmed: 5.5.0 amd64
 libQt5Widgets.so.5 libqt5widgets5 #MINVER#
 | libqt5widgets5 #MINVER#, qtbase-abi-5-5-0
  _Z11qFadeEffectP7QWidgeti@Base 5.0.2
@@ -2509,7 +2509,6 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN16QAbstractSpinBoxD0Ev@Base 5.0.2
  _ZN16QAbstractSpinBoxD1Ev@Base 5.0.2
  _ZN16QAbstractSpinBoxD2Ev@Base 5.0.2
- (optional=inline|arch=!hurd-i386 !i386 !kfreebsd-i386 !x32)_ZN16QCoreApplication9sendEventEP7QObjectP6QEvent@Base 5.3.1
  _ZN16QDialogButtonBox11changeEventEP6QEvent@Base 5.0.2
  _ZN16QDialogButtonBox11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN16QDialogButtonBox11qt_metacastEPKc@Base 5.0.2
@@ -8016,25 +8015,20 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZTV22QGraphicsItemAnimation@Base 5.0.2
  _ZTV22QGraphicsOpacityEffect@Base 5.0.2
  _ZTV22QItemEditorCreatorBase@Base 5.0.2
- _ZTV23QEventTransitionPrivate@Base 5.0.2 1
  _ZTV23QGraphicsColorizeEffect@Base 5.0.2
  _ZTV23QGraphicsSceneHelpEvent@Base 5.0.2
  _ZTV23QGraphicsSceneMoveEvent@Base 5.0.2
  _ZTV23QGraphicsSimpleTextItem@Base 5.0.2
  _ZTV23QPixmapDropShadowFilter@Base 5.0.2 1
- _ZTV24QAbstractLayoutStyleInfo@Base 5.3.0 1
  _ZTV24QGraphicsSceneHoverEvent@Base 5.0.2
  _ZTV24QGraphicsSceneMouseEvent@Base 5.0.2
  _ZTV24QGraphicsSceneWheelEvent@Base 5.0.2
  _ZTV24QPixmapConvolutionFilter@Base 5.0.2 1
  _ZTV24QPlainTextDocumentLayout@Base 5.0.2
  _ZTV25QAbstractItemModelPrivate@Base 5.0.2 1
- _ZTV25QAccessibleImageInterface@Base 5.4.0
  _ZTV25QAccessibleTableInterface@Base 5.4.0
- _ZTV25QAccessibleValueInterface@Base 5.4.0
  _ZTV25QGraphicsDropShadowEffect@Base 5.0.2
  _ZTV25QGraphicsSceneResizeEvent@Base 5.0.2
- _ZTV25QOpenGLPaintDevicePrivate@Base 5.4.0 1
  _ZTV26QAbstractGraphicsShapeItem@Base 5.0.2
  _ZTV26QAbstractScrollAreaPrivate@Base 5.0.2 1
  _ZTV26QAccessibleTextCursorEvent@Base 5.0.2
@@ -8044,10 +8038,8 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZTV27QAccessibleStateChangeEvent@Base 5.0.2
  _ZTV27QAccessibleValueChangeEvent@Base 5.0.2
  _ZTV27QGraphicsSceneDragDropEvent@Base 5.0.2
- _ZTV29QAccessibleTableCellInterface@Base 5.4.0
  _ZTV29QAccessibleTextSelectionEvent@Base 5.0.2
  _ZTV30QGraphicsSceneContextMenuEvent@Base 5.0.2
- _ZTV32QAccessibleEditableTextInterface@Base 5.4.0
  _ZTV32QAccessibleTableModelChangeEvent@Base 5.0.2
  _ZTV5QDial@Base 5.0.2
  _ZTV5QMenu@Base 5.0.2
