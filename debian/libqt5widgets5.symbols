@@ -8094,10 +8094,8 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZTV27QAccessibleStateChangeEvent@Base 5.0.2
  _ZTV27QAccessibleValueChangeEvent@Base 5.0.2
  _ZTV27QGraphicsSceneDragDropEvent@Base 5.0.2
- _ZTV29QAccessibleTableCellInterface@Base 5.4.0
  _ZTV29QAccessibleTextSelectionEvent@Base 5.0.2
  _ZTV30QGraphicsSceneContextMenuEvent@Base 5.0.2
- _ZTV32QAccessibleEditableTextInterface@Base 5.4.0
  _ZTV32QAccessibleTableModelChangeEvent@Base 5.0.2
  _ZTV5QDial@Base 5.0.2
  _ZTV5QMenu@Base 5.0.2

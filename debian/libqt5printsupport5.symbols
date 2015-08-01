@@ -436,7 +436,6 @@ libQt5PrintSupport.so.5 libqt5printsupport5 #MINVER#
  _ZTS29QPlatformPrinterSupportPlugin@Base 5.0.2 1
  _ZTS8QPrinter@Base 5.0.2
  _ZTV12QPrintDialog@Base 5.0.2
- _ZTV12QPrintEngine@Base 5.0.2
  _ZTV15QPdfPrintEngine@Base 5.0.2 1
  _ZTV16QPageSetupDialog@Base 5.0.2
  _ZTV17QAlphaPaintEngine@Base 5.0.2 1
