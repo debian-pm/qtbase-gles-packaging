@@ -455,18 +455,11 @@ libQt5Xml.so.5 libqt5xml5 #MINVER#
  _ZTS18QXmlDefaultHandler@Base 5.0.2
  _ZTS18QXmlEntityResolver@Base 5.0.2
  _ZTS18QXmlLexicalHandler@Base 5.0.2
- _ZTV10QXmlReader@Base 5.0.2
  _ZTV11QXmlLocator@Base 5.0.2
  _ZTV14QXmlAttributes@Base 5.0.2
- _ZTV14QXmlDTDHandler@Base 5.0.2
- _ZTV15QXmlDeclHandler@Base 5.0.2
  _ZTV15QXmlInputSource@Base 5.0.2
- _ZTV16QXmlErrorHandler@Base 5.0.2
  _ZTV16QXmlSimpleReader@Base 5.0.2
- _ZTV18QXmlContentHandler@Base 5.0.2
  _ZTV18QXmlDefaultHandler@Base 5.0.2
- _ZTV18QXmlEntityResolver@Base 5.0.2
- _ZTV18QXmlLexicalHandler@Base 5.0.2
  _ZlsR11QTextStreamRK8QDomNode@Base 5.0.2
  (c++)"non-virtual thunk to QXmlDefaultHandler::attributeDecl(QString const&, QString const&, QString const&, QString const&, QString const&)@Base" 5.0.2
  (c++)"non-virtual thunk to QXmlDefaultHandler::comment(QString const&)@Base" 5.0.2
