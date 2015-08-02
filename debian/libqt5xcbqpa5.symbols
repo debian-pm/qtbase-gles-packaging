@@ -232,9 +232,6 @@ libQt5XcbQpa.so.5 libqt5xcbqpa5 #MINVER#
  _ZN19QXcbNativeInterface9x11ScreenEv@Base 5.5.0
  _ZN19QXcbNativeInterfaceC1Ev@Base 5.5.0
  _ZN19QXcbNativeInterfaceC2Ev@Base 5.5.0
- _ZN19QXcbNativeInterfaceD0Ev@Base 5.5.0
- _ZN19QXcbNativeInterfaceD1Ev@Base 5.5.0
- _ZN19QXcbNativeInterfaceD2Ev@Base 5.5.0
  _ZN23QXcbGlIntegrationPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN23QXcbGlIntegrationPlugin11qt_metacastEPKc@Base 5.5.0
  _ZN23QXcbGlIntegrationPlugin16staticMetaObjectE@Base 5.5.0
@@ -243,12 +240,6 @@ libQt5XcbQpa.so.5 libqt5xcbqpa5 #MINVER#
  _ZN26QXcbNativeInterfaceHandlerD0Ev@Base 5.5.0
  _ZN26QXcbNativeInterfaceHandlerD1Ev@Base 5.5.0
  _ZN26QXcbNativeInterfaceHandlerD2Ev@Base 5.5.0
- _ZN27QEventDispatcherGlibPrivateD0Ev@Base 5.5.0 1
- _ZN27QEventDispatcherGlibPrivateD1Ev@Base 5.5.0 1
- _ZN27QEventDispatcherGlibPrivateD2Ev@Base 5.5.0 1
- _ZN31QAbstractEventDispatcherPrivateD0Ev@Base 5.5.0 1
- _ZN31QAbstractEventDispatcherPrivateD1Ev@Base 5.5.0 1
- _ZN31QAbstractEventDispatcherPrivateD2Ev@Base 5.5.0 1
  _ZNK10QXcbScreen10grabWindowEyiiii@Base 5.5.0
  _ZNK10QXcbScreen10logicalDpiEv@Base 5.5.0
  _ZNK10QXcbScreen10topLevelAtERK6QPoint@Base 5.5.0
@@ -390,7 +381,6 @@ libQt5XcbQpa.so.5 libqt5xcbqpa5 #MINVER#
  _ZTV19QXcbNativeInterface@Base 5.5.0
  _ZTV23QXcbGlIntegrationPlugin@Base 5.5.0
  _ZTV26QXcbNativeInterfaceHandler@Base 5.5.0
- _ZTV27QEventDispatcherGlibPrivate@Base 5.5.0 1
  _ZTV31QAbstractEventDispatcherPrivate@Base 5.5.0 1
  _Zls6QDebugPK10QXcbScreen@Base 5.5.0
  (c++)"non-virtual thunk to QXcbWindow::devicePixelRatio() const@Base" 5.5.0

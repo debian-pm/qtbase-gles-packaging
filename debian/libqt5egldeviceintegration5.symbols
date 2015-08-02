@@ -28,9 +28,6 @@ libQt5EglDeviceIntegration.so.5 libqt5egldeviceintegration5 #MINVER#
  _ZN13QEglFSContext32destroyTemporaryOffscreenSurfaceEPv@Base 5.5.0
  _ZN13QEglFSContextC1ERK14QSurfaceFormatP22QPlatformOpenGLContextPvPS5_RK8QVariant@Base 5.5.0 1
  _ZN13QEglFSContextC2ERK14QSurfaceFormatP22QPlatformOpenGLContextPvPS5_RK8QVariant@Base 5.5.0 1
- _ZN13QEglFSContextD0Ev@Base 5.5.0
- _ZN13QEglFSContextD1Ev@Base 5.5.0
- _ZN13QEglFSContextD2Ev@Base 5.5.0
  _ZN13QFontEngineFT11boundingBoxERK12QGlyphLayout@Base 5.5.0 1
  _ZN13QFontEngineFT11boundingBoxEj@Base 5.5.0 1
  _ZN13QFontEngineFT11boundingBoxEjRK10QTransform@Base 5.5.0 1
@@ -72,9 +69,6 @@ libQt5EglDeviceIntegration.so.5 libqt5egldeviceintegration5 #MINVER#
  _ZN17QEglFSIntegration9addScreenEP15QPlatformScreen@Base 5.5.0 1
  _ZN17QEglFSIntegrationC1Ev@Base 5.5.0
  _ZN17QEglFSIntegrationC2Ev@Base 5.5.0
- _ZN17QEglFSIntegrationD0Ev@Base 5.5.0
- _ZN17QEglFSIntegrationD1Ev@Base 5.5.0
- _ZN17QEglFSIntegrationD2Ev@Base 5.5.0
  _ZN21QEGLDeviceIntegration10screenInitEv@Base 5.5.0
  _ZN21QEGLDeviceIntegration12platformInitEv@Base 5.5.0
  _ZN21QEGLDeviceIntegration13presentBufferEP16QPlatformSurface@Base 5.5.0 1
@@ -92,14 +86,8 @@ libQt5EglDeviceIntegration.so.5 libqt5egldeviceintegration5 #MINVER#
  _ZN27QEGLDeviceIntegrationPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN27QEGLDeviceIntegrationPlugin11qt_metacastEPKc@Base 5.5.0
  _ZN27QEGLDeviceIntegrationPlugin16staticMetaObjectE@Base 5.5.0
- _ZN27QEventDispatcherGlibPrivateD0Ev@Base 5.5.0 1
- _ZN27QEventDispatcherGlibPrivateD1Ev@Base 5.5.0 1
- _ZN27QEventDispatcherGlibPrivateD2Ev@Base 5.5.0 1
  _ZN28QEGLDeviceIntegrationFactory4keysERK7QString@Base 5.5.0
  _ZN28QEGLDeviceIntegrationFactory6createERK7QStringS2_@Base 5.5.0
- _ZN31QAbstractEventDispatcherPrivateD0Ev@Base 5.5.0 1
- _ZN31QAbstractEventDispatcherPrivateD1Ev@Base 5.5.0 1
- _ZN31QAbstractEventDispatcherPrivateD2Ev@Base 5.5.0 1
  _ZNK12QEglFSScreen10logicalDpiEv@Base 5.5.0
  _ZNK12QEglFSScreen11orientationEv@Base 5.5.0
  _ZNK12QEglFSScreen11refreshRateEv@Base 5.5.0
@@ -195,6 +183,4 @@ libQt5EglDeviceIntegration.so.5 libqt5egldeviceintegration5 #MINVER#
  _ZTV21QEGLDeviceIntegration@Base 5.5.0
  _ZTV21QEglFSOffscreenWindow@Base 5.5.0
  _ZTV27QEGLDeviceIntegrationPlugin@Base 5.5.0
- _ZTV27QEventDispatcherGlibPrivate@Base 5.5.0 1
  _ZTV31QAbstractEventDispatcherPrivate@Base 5.5.0 1
- (c++)"non-virtual thunk to QEglFSIntegration::~QEglFSIntegration()@Base" 5.5.0
