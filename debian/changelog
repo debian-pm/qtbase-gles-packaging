@@ -1,4 +1,4 @@
-qtbase-opensource-src (5.5.0+dfsg-2) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.5.0+dfsg-2) experimental; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Bootstrap coreutils in order to be able to rebuild some pregenerated stuff.
@@ -12,7 +12,7 @@ qtbase-opensource-src (5.5.0+dfsg-2) UNRELEASED; urgency=medium
   * Remove symbols missing with GCC 5.
   * Drop unused outdated-autotools-helper-file Lintian overrides.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 12 Jul 2015 14:29:16 -0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Sun, 02 Aug 2015 18:33:39 +0300
 
 qtbase-opensource-src (5.5.0+dfsg-1) experimental; urgency=medium
 
