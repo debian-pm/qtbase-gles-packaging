@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.5.0 amd64
+# SymbolsHelper-Confirmed: 5.5.0 amd64 arm64 powerpc ppc64el s390x
 libQt5Widgets.so.5 libqt5widgets5 #MINVER#
 | libqt5widgets5 #MINVER#, qtbase-abi-5-5-0
  _Z11qFadeEffectP7QWidgeti@Base 5.0.2
@@ -261,8 +261,6 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN10QTableViewD0Ev@Base 5.0.2
  _ZN10QTableViewD1Ev@Base 5.0.2
  _ZN10QTableViewD2Ev@Base 5.0.2
- (optional=gccinternal|arch=armel m68k powerpc)_ZN10QTransformC1ERKS_@Base 5.4.2
- (optional=gccinternal|arch=armel m68k powerpc)_ZN10QTransformC2ERKS_@Base 5.4.2
  _ZN10QUndoGroup11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN10QUndoGroup11qt_metacastEPKc@Base 5.0.2
  _ZN10QUndoGroup11removeStackEP10QUndoStack@Base 5.0.2
@@ -2406,8 +2404,6 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN15QStyleOptionTabC1Ev@Base 5.0.2
  _ZN15QStyleOptionTabC2Ei@Base 5.0.2
  _ZN15QStyleOptionTabC2Ev@Base 5.0.2
- (arch=alpha arm64 armel hppa m68k powerpc ppc64 ppc64el s390x sparc sparc64)_ZN15QStyleOptionTabD1Ev@Base 5.4.2
- (arch=alpha arm64 armel hppa m68k powerpc ppc64 ppc64el s390x sparc sparc64)_ZN15QStyleOptionTabD2Ev@Base 5.4.2
  _ZN15QSystemTrayIcon10setToolTipERK7QString@Base 5.0.2
  _ZN15QSystemTrayIcon10setVisibleEb@Base 5.0.2
  _ZN15QSystemTrayIcon11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
@@ -3374,8 +3370,6 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN19QStyleOptionToolBoxC1Ev@Base 5.0.2
  _ZN19QStyleOptionToolBoxC2Ei@Base 5.0.2
  _ZN19QStyleOptionToolBoxC2Ev@Base 5.0.2
- (arch=alpha arm64 armel hppa m68k powerpc ppc64 ppc64el s390x sparc sparc64)_ZN19QStyleOptionToolBoxD1Ev@Base 5.4.2
- (arch=alpha arm64 armel hppa m68k powerpc ppc64 ppc64el s390x sparc sparc64)_ZN19QStyleOptionToolBoxD2Ev@Base 5.4.2
  _ZN19QStyledItemDelegate11editorEventEP6QEventP18QAbstractItemModelRK20QStyleOptionViewItemRK11QModelIndex@Base 5.0.2
  _ZN19QStyledItemDelegate11eventFilterEP7QObjectP6QEvent@Base 5.0.2
  _ZN19QStyledItemDelegate11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
@@ -3524,8 +3518,6 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN20QStyleOptionComboBoxC1Ev@Base 5.0.2
  _ZN20QStyleOptionComboBoxC2Ei@Base 5.0.2
  _ZN20QStyleOptionComboBoxC2Ev@Base 5.0.2
- (arch=alpha arm64 armel hppa m68k powerpc ppc64 ppc64el s390x sparc sparc64)_ZN20QStyleOptionComboBoxD1Ev@Base 5.4.2
- (arch=alpha arm64 armel hppa m68k powerpc ppc64 ppc64el s390x sparc sparc64)_ZN20QStyleOptionComboBoxD2Ev@Base 5.4.2
  _ZN20QStyleOptionGroupBoxC1Ei@Base 5.0.2
  _ZN20QStyleOptionGroupBoxC1Ev@Base 5.0.2
  _ZN20QStyleOptionGroupBoxC2Ei@Base 5.0.2
@@ -3836,7 +3828,6 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN24QStyleOptionGraphicsItemC1Ev@Base 5.0.2
  _ZN24QStyleOptionGraphicsItemC2Ei@Base 5.0.2
  _ZN24QStyleOptionGraphicsItemC2Ev@Base 5.0.2
- (optional=gccinternal|arch=alpha armel hppa m68k powerpc ppc64el s390x)_ZN24QStyleOptionGraphicsItemaSERKS_@Base 5.4.2
  _ZN25QGraphicsDropShadowEffect11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN25QGraphicsDropShadowEffect11qt_metacastEPKc@Base 5.0.2
  _ZN25QGraphicsDropShadowEffect12colorChangedERK6QColor@Base 5.0.2
