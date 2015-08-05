@@ -1,7 +1,7 @@
 qtbase-opensource-src (5.4.2+dfsg-6) UNRELEASED; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
-  * Udate symbols files using gcc5.
+  * Udate symbols files using gcc5 (Closes: #794518).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 31 Jul 2015 13:33:59 -0300
 
