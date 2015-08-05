@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.5.0 amd64 hurd-i386 i386 kfreebsd-i386 mips mipsel
+# SymbolsHelper-Confirmed: 5.5.0 amd64 armel hurd-i386 i386 kfreebsd-i386 mips mipsel powerpc
 libQt5XcbQpa.so.5 libqt5xcbqpa5 #MINVER#
 | libqt5xcbqpa5 #MINVER#, qtbase-abi-5-5-0
  _Z20QT_XCB_GLINTEGRATIONv@Base 5.5.0
@@ -350,6 +350,7 @@ libQt5XcbQpa.so.5 libqt5xcbqpa5 #MINVER#
  _ZNK26QXcbNativeInterfaceHandler32nativeResourceFunctionForContextERK10QByteArray@Base 5.5.0
  _ZNK26QXcbNativeInterfaceHandler36nativeResourceFunctionForIntegrationERK10QByteArray@Base 5.5.0
  _ZNK26QXcbNativeInterfaceHandler37nativeResourceFunctionForBackingStoreERK10QByteArray@Base 5.5.0
+ (optional=templinst|arch=armel powerpc)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 5.5.0
  _ZTI10QXcbScreen@Base 5.5.0
  _ZTI10QXcbWindow@Base 5.5.0
  _ZTI13QFontEngineFT@Base 5.5.0 1
