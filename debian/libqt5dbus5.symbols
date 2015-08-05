@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.4.2 amd64
+# SymbolsHelper-Confirmed: 5.4.2 amd64 i386 powerpc
 libQt5DBus.so.5 libqt5dbus5 #MINVER#
 | libqt5dbus5 #MINVER#, qtbase-abi-5-4-2
  _Z14qDBusReplyFillRK12QDBusMessageR10QDBusErrorR8QVariant@Base 5.0.2
@@ -373,6 +373,7 @@ libQt5DBus.so.5 libqt5dbus5 #MINVER#
  _ZNK24QDBusConnectionInterface12serviceOwnerERK7QString@Base 5.0.2
  _ZNK24QDBusConnectionInterface19isServiceRegisteredERK7QString@Base 5.0.2
  _ZNK24QDBusConnectionInterface22registeredServiceNamesEv@Base 5.0.2
+ (optional=templinst|arch=!amd64)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 5.4.2
  _ZTI11QDBusServer@Base 5.0.2
  _ZTI14QDBusInterface@Base 5.0.2
  _ZTI16QDBusPendingCall@Base 5.0.2
