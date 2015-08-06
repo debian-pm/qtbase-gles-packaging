@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.4.2 amd64 arm64 hppa i386 m68k powerpc ppc64el
+# SymbolsHelper-Confirmed: 5.4.2 amd64 arm64 armel armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 m68k mips mipsel powerpc ppc64 ppc64el s390x x32
 libQt5Core.so.5 libqt5core5a #MINVER#
 | libqt5core5a #MINVER#, qtbase-abi-5-4-2
  _Z10forcepointR11QTextStream@Base 5.0.2
@@ -184,7 +184,7 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZN10QByteArray7replaceEiiPKc@Base 5.0.2
  _ZN10QByteArray7replaceEiiPKci@Base 5.0.2
  _ZN10QByteArray7replaceEiiRKS_@Base 5.0.2
- (arch=amd64 arm64 i386 powerpc ppc64el)_ZN10QByteArray7reserveEi@Base 5.4.2
+ (arch=amd64 arm64 armel armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 ppc64el s390x x32)_ZN10QByteArray7reserveEi@Base 5.4.2
  _ZN10QByteArray8truncateEi@Base 5.0.2
  _ZN10QByteArrayC1EPKci@Base 5.0.2
  _ZN10QByteArrayC1EiN2Qt14InitializationE@Base 5.0.2
@@ -209,9 +209,9 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZN10QEventLoopD0Ev@Base 5.0.2
  _ZN10QEventLoopD1Ev@Base 5.0.2
  _ZN10QEventLoopD2Ev@Base 5.0.2
- (optional=gccinternal|arch=!amd64 !arm64 !i386 !powerpc !ppc64el)_ZN10QExceptionD0Ev@Base 5.0.2
- (optional=gccinternal|arch=!amd64 !arm64 !i386 !powerpc !ppc64el)_ZN10QExceptionD1Ev@Base 5.0.2
- (optional=gccinternal|arch=!amd64 !arm64 !i386 !powerpc !ppc64el)_ZN10QExceptionD2Ev@Base 5.0.2
+ (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZN10QExceptionD0Ev@Base 5.0.2
+ (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZN10QExceptionD1Ev@Base 5.0.2
+ (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZN10QExceptionD2Ev@Base 5.0.2
  _ZN10QJsonArray10initializeEv@Base 5.4.0
  _ZN10QJsonArray14fromStringListERK11QStringList@Base 5.0.2
  _ZN10QJsonArray15fromVariantListERK5QListI8QVariantE@Base 5.0.2
@@ -839,9 +839,9 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZN13QUnifiedTimer9stopTimerEv@Base 5.0.2 1
  _ZN13QUnifiedTimerC1Ev@Base 5.0.2 1
  _ZN13QUnifiedTimerC2Ev@Base 5.0.2 1
- (optional=gccinternal|arch=!amd64 !arm64 !i386 !powerpc !ppc64el)_ZN13QUnifiedTimerD0Ev@Base 5.0.2 1
- (optional=gccinternal|arch=!amd64 !arm64 !i386 !powerpc !ppc64el)_ZN13QUnifiedTimerD1Ev@Base 5.0.2 1
- (optional=gccinternal|arch=!amd64 !arm64 !i386 !powerpc !ppc64el)_ZN13QUnifiedTimerD2Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZN13QUnifiedTimerD0Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZN13QUnifiedTimerD1Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZN13QUnifiedTimerD2Ev@Base 5.0.2 1
  _ZN14QAbstractState11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN14QAbstractState11qt_metacastEPKc@Base 5.0.2
  _ZN14QAbstractState13activeChangedEb@Base 5.4.0
@@ -1204,9 +1204,9 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZN16QStringListModelC1ERK11QStringListP7QObject@Base 5.0.2
  _ZN16QStringListModelC2EP7QObject@Base 5.0.2
  _ZN16QStringListModelC2ERK11QStringListP7QObject@Base 5.0.2
- (optional=gccinternal|arch=!amd64 !arm64 !i386 !powerpc !ppc64el)_ZN16QStringListModelD0Ev@Base 5.0.2
- (optional=gccinternal|arch=!amd64 !arm64 !i386 !powerpc !ppc64el)_ZN16QStringListModelD1Ev@Base 5.0.2
- (optional=gccinternal|arch=!amd64 !arm64 !i386 !powerpc !ppc64el)_ZN16QStringListModelD2Ev@Base 5.0.2
+ (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZN16QStringListModelD0Ev@Base 5.0.2
+ (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZN16QStringListModelD1Ev@Base 5.0.2
+ (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZN16QStringListModelD2Ev@Base 5.0.2
  _ZN16QSystemSemaphore6setKeyERK7QStringiNS_10AccessModeE@Base 5.0.2
  _ZN16QSystemSemaphore7acquireEv@Base 5.0.2
  _ZN16QSystemSemaphore7releaseEi@Base 5.0.2
@@ -1623,9 +1623,9 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZN18QThreadPoolPrivate8tryStartEP9QRunnable@Base 5.0.2 1
  _ZN18QThreadPoolPrivateC1Ev@Base 5.0.2 1
  _ZN18QThreadPoolPrivateC2Ev@Base 5.0.2 1
- (optional=gccinternal|arch=!amd64 !arm64 !i386 !powerpc !ppc64el)_ZN18QThreadPoolPrivateD0Ev@Base 5.0.2 1
- (optional=gccinternal|arch=!amd64 !arm64 !i386 !powerpc !ppc64el)_ZN18QThreadPoolPrivateD1Ev@Base 5.0.2 1
- (optional=gccinternal|arch=!amd64 !arm64 !i386 !powerpc !ppc64el)_ZN18QThreadPoolPrivateD2Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZN18QThreadPoolPrivateD0Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZN18QThreadPoolPrivateD1Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZN18QThreadPoolPrivateD2Ev@Base 5.0.2 1
  _ZN18QThreadStorageData3setEPv@Base 5.0.2
  _ZN18QThreadStorageData6finishEPPv@Base 5.0.2
  _ZN18QThreadStorageDataC1EPFvPvE@Base 5.0.2
@@ -1799,9 +1799,9 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZN19QTextBoundaryFinderD1Ev@Base 5.0.2
  _ZN19QTextBoundaryFinderD2Ev@Base 5.0.2
  _ZN19QTextBoundaryFinderaSERKS_@Base 5.0.2
- (optional=gccinternal|arch=!amd64 !arm64 !i386 !powerpc !ppc64el)_ZN19QUnhandledExceptionD0Ev@Base 5.0.2
- (optional=gccinternal|arch=!amd64 !arm64 !i386 !powerpc !ppc64el)_ZN19QUnhandledExceptionD1Ev@Base 5.0.2
- (optional=gccinternal|arch=!amd64 !arm64 !i386 !powerpc !ppc64el)_ZN19QUnhandledExceptionD2Ev@Base 5.0.2
+ (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZN19QUnhandledExceptionD0Ev@Base 5.0.2
+ (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZN19QUnhandledExceptionD1Ev@Base 5.0.2
+ (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZN19QUnhandledExceptionD2Ev@Base 5.0.2
  _ZN19QXmlStreamAttributeC1ERK7QStringS2_@Base 5.0.2
  _ZN19QXmlStreamAttributeC1ERK7QStringS2_S2_@Base 5.0.2
  _ZN19QXmlStreamAttributeC1ERKS_@Base 5.0.2
@@ -1893,9 +1893,9 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZN20QFileSelectorPrivate17platformSelectorsEv@Base 5.2.0~alpha1 1
  _ZN20QFileSelectorPrivateC1Ev@Base 5.2.0~alpha1 1
  _ZN20QFileSelectorPrivateC2Ev@Base 5.2.0~alpha1 1
- (optional=gccinternal|arch=!amd64 !arm64 !i386 !powerpc !ppc64el)_ZN20QFileSelectorPrivateD0Ev@Base 5.2.0~alpha1 1
- (optional=gccinternal|arch=!amd64 !arm64 !i386 !powerpc !ppc64el)_ZN20QFileSelectorPrivateD1Ev@Base 5.2.0~alpha1 1
- (optional=gccinternal|arch=!amd64 !arm64 !i386 !powerpc !ppc64el)_ZN20QFileSelectorPrivateD2Ev@Base 5.2.0~alpha1 1
+ (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZN20QFileSelectorPrivateD0Ev@Base 5.2.0~alpha1 1
+ (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZN20QFileSelectorPrivateD1Ev@Base 5.2.0~alpha1 1
+ (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZN20QFileSelectorPrivateD2Ev@Base 5.2.0~alpha1 1
  _ZN20QFutureInterfaceBase11setRunnableEP9QRunnable@Base 5.0.2
  _ZN20QFutureInterfaceBase12setThrottledEb@Base 5.0.2
  _ZN20QFutureInterfaceBase12togglePausedEv@Base 5.0.2
@@ -2065,9 +2065,9 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZN23QAbstractAnimationTimer11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
  _ZN23QAbstractAnimationTimer11qt_metacastEPKc@Base 5.0.2 1
  _ZN23QAbstractAnimationTimer16staticMetaObjectE@Base 5.0.2 1
- (optional=gccinternal|arch=!amd64 !arm64 !i386 !powerpc !ppc64el)_ZN23QAnimationDriverPrivateD0Ev@Base 5.0.2 1
- (optional=gccinternal|arch=!amd64 !arm64 !i386 !powerpc !ppc64el)_ZN23QAnimationDriverPrivateD1Ev@Base 5.0.2 1
- (optional=gccinternal|arch=!amd64 !arm64 !i386 !powerpc !ppc64el)_ZN23QAnimationDriverPrivateD2Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZN23QAnimationDriverPrivateD0Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZN23QAnimationDriverPrivateD1Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZN23QAnimationDriverPrivateD2Ev@Base 5.0.2 1
  _ZN23QCoreApplicationPrivate10initLocaleEv@Base 5.0.2 1
  _ZN23QCoreApplicationPrivate10mainThreadEv@Base 5.0.2 1
  _ZN23QCoreApplicationPrivate13checkInstanceEPKc@Base 5.0.2 1
@@ -2105,9 +2105,9 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZN23QEventTransitionPrivate3getEP16QEventTransition@Base 5.0.2 1
  _ZN23QEventTransitionPrivateC1Ev@Base 5.0.2 1
  _ZN23QEventTransitionPrivateC2Ev@Base 5.0.2 1
- (optional=gccinternal|arch=!amd64 !arm64 !i386 !powerpc !ppc64el)_ZN23QEventTransitionPrivateD0Ev@Base 5.0.2 1
- (optional=gccinternal|arch=!amd64 !arm64 !i386 !powerpc !ppc64el)_ZN23QEventTransitionPrivateD1Ev@Base 5.0.2 1
- (optional=gccinternal|arch=!amd64 !arm64 !i386 !powerpc !ppc64el)_ZN23QEventTransitionPrivateD2Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZN23QEventTransitionPrivateD0Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZN23QEventTransitionPrivateD1Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZN23QEventTransitionPrivateD2Ev@Base 5.0.2 1
  _ZN23QParallelAnimationGroup11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN23QParallelAnimationGroup11qt_metacastEPKc@Base 5.0.2
  _ZN23QParallelAnimationGroup11updateStateEN18QAbstractAnimation5StateES1_@Base 5.0.2
@@ -2174,8 +2174,8 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZN24QXmlStreamEntityResolverD1Ev@Base 5.0.2
  _ZN24QXmlStreamEntityResolverD2Ev@Base 5.0.2
  _ZN25QAbstractItemModelPrivate10Persistent16insertMultiAtEndERK11QModelIndexP25QPersistentModelIndexData@Base 5.0.2 1
- (optional=gccinternal|arch=!amd64 !arm64 !i386 !powerpc !ppc64el)_ZN25QAbstractItemModelPrivate10PersistentD1Ev@Base 5.0.2 1
- (optional=gccinternal|arch=!amd64 !arm64 !i386 !powerpc !ppc64el)_ZN25QAbstractItemModelPrivate10PersistentD2Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZN25QAbstractItemModelPrivate10PersistentD1Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZN25QAbstractItemModelPrivate10PersistentD2Ev@Base 5.0.2 1
  _ZN25QAbstractItemModelPrivate10itemsMovedERK11QModelIndexiiS2_iN2Qt11OrientationE@Base 5.0.2 1
  _ZN25QAbstractItemModelPrivate11rowsRemovedERK11QModelIndexii@Base 5.0.2 1
  _ZN25QAbstractItemModelPrivate12rowsInsertedERK11QModelIndexii@Base 5.0.2 1
@@ -2192,9 +2192,9 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZN25QAbstractItemModelPrivate24columnsAboutToBeInsertedERK11QModelIndexii@Base 5.0.2 1
  _ZN25QAbstractItemModelPrivate25removePersistentIndexDataEP25QPersistentModelIndexData@Base 5.0.2 1
  _ZN25QAbstractItemModelPrivate9allowMoveERK11QModelIndexiiS2_iN2Qt11OrientationE@Base 5.0.2 1
- (optional=gccinternal|arch=!amd64 !arm64 !i386 !powerpc !ppc64el)_ZN25QAbstractItemModelPrivateD0Ev@Base 5.0.2 1
- (optional=gccinternal|arch=!amd64 !arm64 !i386 !powerpc !ppc64el)_ZN25QAbstractItemModelPrivateD1Ev@Base 5.0.2 1
- (optional=gccinternal|arch=!amd64 !arm64 !i386 !powerpc !ppc64el)_ZN25QAbstractItemModelPrivateD2Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZN25QAbstractItemModelPrivateD0Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZN25QAbstractItemModelPrivateD1Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZN25QAbstractItemModelPrivateD2Ev@Base 5.0.2 1
  _ZN25QSequentialAnimationGroup11insertPauseEii@Base 5.0.2
  _ZN25QSequentialAnimationGroup11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN25QSequentialAnimationGroup11qt_metacastEPKc@Base 5.0.2
@@ -2223,18 +2223,18 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZN26QAbstractNativeEventFilterD1Ev@Base 5.0.2
  _ZN26QAbstractNativeEventFilterD2Ev@Base 5.0.2
  _ZN26QAbstractProxyModelPrivate23_q_sourceModelDestroyedEv@Base 5.0.2 1
- (optional=gccinternal|arch=!amd64 !arm64 !i386 !powerpc !ppc64el)_ZN26QAbstractProxyModelPrivateD0Ev@Base 5.0.2 1
- (optional=gccinternal|arch=!amd64 !arm64 !i386 !powerpc !ppc64el)_ZN26QAbstractProxyModelPrivateD1Ev@Base 5.0.2 1
- (optional=gccinternal|arch=!amd64 !arm64 !i386 !powerpc !ppc64el)_ZN26QAbstractProxyModelPrivateD2Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZN26QAbstractProxyModelPrivateD0Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZN26QAbstractProxyModelPrivateD1Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZN26QAbstractProxyModelPrivateD2Ev@Base 5.0.2 1
  _ZN26QAbstractTransitionPrivate13callEventTestEP6QEvent@Base 5.0.2 1
  _ZN26QAbstractTransitionPrivate13emitTriggeredEv@Base 5.0.2 1
  _ZN26QAbstractTransitionPrivate16callOnTransitionEP6QEvent@Base 5.0.2 1
  _ZN26QAbstractTransitionPrivate3getEP19QAbstractTransition@Base 5.0.2 1
  _ZN26QAbstractTransitionPrivateC1Ev@Base 5.0.2 1
  _ZN26QAbstractTransitionPrivateC2Ev@Base 5.0.2 1
- (optional=gccinternal|arch=!amd64 !arm64 !i386 !powerpc !ppc64el)_ZN26QAbstractTransitionPrivateD0Ev@Base 5.0.2 1
- (optional=gccinternal|arch=!amd64 !arm64 !i386 !powerpc !ppc64el)_ZN26QAbstractTransitionPrivateD1Ev@Base 5.0.2 1
- (optional=gccinternal|arch=!amd64 !arm64 !i386 !powerpc !ppc64el)_ZN26QAbstractTransitionPrivateD2Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZN26QAbstractTransitionPrivateD0Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZN26QAbstractTransitionPrivateD1Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZN26QAbstractTransitionPrivateD2Ev@Base 5.0.2 1
  _ZN26QMessageAuthenticationCode4hashERK10QByteArrayS2_N18QCryptographicHash9AlgorithmE@Base 5.1.0
  _ZN26QMessageAuthenticationCode5resetEv@Base 5.1.0
  _ZN26QMessageAuthenticationCode6setKeyERK10QByteArray@Base 5.1.0
@@ -2259,9 +2259,9 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZN27QEventDispatcherGlibPrivate31runTimersOnceWithNormalPriorityEv@Base 5.0.2 1
  _ZN27QEventDispatcherGlibPrivateC1EP13_GMainContext@Base 5.0.2 1
  _ZN27QEventDispatcherGlibPrivateC2EP13_GMainContext@Base 5.0.2 1
- (optional=gccinternal|arch=!amd64 !arm64 !i386 !powerpc !ppc64el)_ZN27QEventDispatcherGlibPrivateD0Ev@Base 5.0.2 1
- (optional=gccinternal|arch=!amd64 !arm64 !i386 !powerpc !ppc64el)_ZN27QEventDispatcherGlibPrivateD1Ev@Base 5.0.2 1
- (optional=gccinternal|arch=!amd64 !arm64 !i386 !powerpc !ppc64el)_ZN27QEventDispatcherGlibPrivateD2Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZN27QEventDispatcherGlibPrivateD0Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZN27QEventDispatcherGlibPrivateD1Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZN27QEventDispatcherGlibPrivateD2Ev@Base 5.0.2 1
  _ZN27QEventDispatcherUNIXPrivate16initThreadWakeUpEv@Base 5.0.2 1
  _ZN27QEventDispatcherUNIXPrivate19processThreadWakeUpEi@Base 5.0.2 1
  _ZN27QEventDispatcherUNIXPrivate8doSelectE6QFlagsIN10QEventLoop17ProcessEventsFlagEEP8timespec@Base 5.1.0 1
@@ -2295,9 +2295,9 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZN30QXmlStreamNamespaceDeclarationaSERKS_@Base 5.0.2
  _ZN31QAbstractEventDispatcherPrivate14releaseTimerIdEi@Base 5.0.2 1
  _ZN31QAbstractEventDispatcherPrivate15allocateTimerIdEv@Base 5.0.2 1
- (optional=gccinternal|arch=!amd64 !arm64 !i386 !powerpc !ppc64el)_ZN31QAbstractEventDispatcherPrivateD0Ev@Base 5.0.2 1
- (optional=gccinternal|arch=!amd64 !arm64 !i386 !powerpc !ppc64el)_ZN31QAbstractEventDispatcherPrivateD1Ev@Base 5.0.2 1
- (optional=gccinternal|arch=!amd64 !arm64 !i386 !powerpc !ppc64el)_ZN31QAbstractEventDispatcherPrivateD2Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZN31QAbstractEventDispatcherPrivateD0Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZN31QAbstractEventDispatcherPrivateD1Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZN31QAbstractEventDispatcherPrivateD2Ev@Base 5.0.2 1
  _ZN31QNonContiguousByteDeviceFactory12createSharedE14QSharedPointerI11QRingBufferE@Base 5.4.0 1
  _ZN31QNonContiguousByteDeviceFactory12createSharedEP10QByteArray@Base 5.4.0 1
  _ZN31QNonContiguousByteDeviceFactory12createSharedEP9QIODevice@Base 5.4.0 1
@@ -4918,19 +4918,19 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZNK9QtPrivate18ResultIteratorBase9batchSizeEv@Base 5.0.2
  _ZNK9QtPrivate18ResultIteratorBaseeqERKS0_@Base 5.0.2
  _ZNK9QtPrivate18ResultIteratorBaseneERKS0_@Base 5.0.2
- (optional=templinst|arch=!amd64 !arm64 !i386 !powerpc !ppc64el)_ZNSt17_Temporary_bufferIP21QPersistentModelIndexS0_ED1Ev@Base 5.0.2
- (optional=templinst|arch=!amd64 !arm64 !i386 !powerpc !ppc64el)_ZNSt17_Temporary_bufferIP21QPersistentModelIndexS0_ED2Ev@Base 5.0.2
+ (optional=templinst|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZNSt17_Temporary_bufferIP21QPersistentModelIndexS0_ED1Ev@Base 5.0.2
+ (optional=templinst|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZNSt17_Temporary_bufferIP21QPersistentModelIndexS0_ED2Ev@Base 5.0.2
  (optional=templinst|arch=powerpcspe)_ZNSt17_Temporary_bufferIP5QPairI21QPersistentModelIndexjES2_ED1Ev@Base 5.0.2
  (optional=templinst|arch=powerpcspe)_ZNSt17_Temporary_bufferIP5QPairI21QPersistentModelIndexjES2_ED2Ev@Base 5.0.2
- (optional=templinst|arch=!amd64 !arm64 !i386 !powerpc !ppc64el)_ZNSt20__copy_move_backwardILb1ELb1ESt26random_access_iterator_tagE13__copy_move_bIiEEPT_PKS3_S6_S4_@Base 5.0.2
- (optional=templinst|arch=amd64 arm64 i386 powerpc ppc64el)_ZNSt3_V28__rotateIP21QPersistentModelIndexEET_S3_S3_S3_St26random_access_iterator_tag@Base 5.4.2
- (optional=templinst|arch=amd64 arm64 i386 powerpc ppc64el)_ZNSt3_V28__rotateIPiEET_S2_S2_S2_St26random_access_iterator_tag@Base 5.4.2
- (optional=templinst|arch=amd64 arm64 i386 powerpc ppc64el)_ZSt13move_backwardIPiS0_ET0_T_S2_S1_@Base 5.4.2
+ (optional=templinst|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !ppc64el !s390x !x32)_ZNSt20__copy_move_backwardILb1ELb1ESt26random_access_iterator_tagE13__copy_move_bIiEEPT_PKS3_S6_S4_@Base 5.0.2
+ (optional=templinst|arch=amd64 arm64 armel armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 ppc64el s390x x32)_ZNSt3_V28__rotateIP21QPersistentModelIndexEET_S3_S3_S3_St26random_access_iterator_tag@Base 5.4.2
+ (optional=templinst|arch=amd64 arm64 armel armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 ppc64el s390x x32)_ZNSt3_V28__rotateIPiEET_S2_S2_S2_St26random_access_iterator_tag@Base 5.4.2
+ (optional=templinst|arch=amd64 arm64 armel armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 ppc64el s390x x32)_ZSt13move_backwardIPiS0_ET0_T_S2_S1_@Base 5.4.2
  (optional=templinst|subst)_ZSt17__rotate_adaptiveIP21QPersistentModelIndexS1_{ssize_t}ET_S2_S2_S2_T1_S3_T0_S3_@Base 5.0.2
  (optional=templinst|subst)_ZSt17__rotate_adaptiveIPiS0_{ssize_t}ET_S1_S1_S1_T1_S2_T0_S2_@Base 5.0.2
- (optional=templinst|arch=i386 powerpc)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 5.4.2
- (optional=templinst|arch=m68k mips mips64el mipsel ppc64 s390x)_ZSt8__rotateIP21QPersistentModelIndexEvT_S2_S2_St26random_access_iterator_tag@Base 5.3.1
- (optional=templinst|arch=m68k mips mips64el mipsel ppc64 s390x)_ZSt8__rotateIPiEvT_S1_S1_St26random_access_iterator_tag@Base 5.3.1
+ (optional=templinst|arch=armel armhf hurd-i386 i386 kfreebsd-i386 mips mipsel powerpc)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 5.4.2
+ (optional=templinst|arch=m68k mips64el)_ZSt8__rotateIP21QPersistentModelIndexEvT_S2_S2_St26random_access_iterator_tag@Base 5.3.1
+ (optional=templinst|arch=m68k mips64el)_ZSt8__rotateIPiEvT_S1_S1_St26random_access_iterator_tag@Base 5.3.1
  _ZTI10QEventLoop@Base 5.0.2
  _ZTI10QException@Base 5.0.2
  _ZTI10QTextCodec@Base 5.0.2
