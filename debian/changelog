@@ -2,6 +2,8 @@ qtbase-opensource-src (5.5.0+dfsg-4) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * Update symbols files with buildds logs.
+  * Build firebird plugin on all Linux and kFreeBSD architectures.
+  * Resurrect libqt5sql5-ibase binary package.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 05 Aug 2015 20:18:52 +0300
 
