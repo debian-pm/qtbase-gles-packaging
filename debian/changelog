@@ -1,5 +1,7 @@
 qtbase-opensource-src (5.4.2+dfsg-9) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Update symbols files with buildds’ logs.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 31 Aug 2015 09:05:09 +0300
 
