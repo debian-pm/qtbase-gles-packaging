@@ -108,7 +108,8 @@ Description: Qt 5 GTK2 platform theme
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
- The libqgtk2 module provides GTK2 theme compatibility
+ This package provides the GTK2 platform theme, which makes Qt use
+ native icon themes, fonts, and dialogs on GTK-based environments.
 
 Package: libqt5network5
 Architecture: any
