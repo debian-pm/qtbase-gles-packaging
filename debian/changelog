@@ -2,6 +2,8 @@ qtbase-opensource-src (5.5.0+dfsg-5) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * Update debian/copyright for 5.5.0.
+  * Make libqt5gui5 recommend libqt5xcbqpa5, as it is the default
+    QPA platform.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 14 Aug 2015 19:37:52 +0300
 
