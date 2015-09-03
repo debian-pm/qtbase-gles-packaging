@@ -6,6 +6,9 @@ qtbase-opensource-src (5.5.0+dfsg-5) UNRELEASED; urgency=medium
     QPA platform.
   * Update symbols files from buildds’ logs.
   * Make libqt5libqgtk2 package description more verbose.
+  * Make qtbase5-dev depend on libqt5egldeviceintegration5 (on Linux) and
+    on libqt5xcbqpa5, as it provides unversioned .so symlinks for these
+    libraries.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 14 Aug 2015 19:37:52 +0300
 
