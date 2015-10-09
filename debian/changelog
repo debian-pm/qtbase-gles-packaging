@@ -1,4 +1,4 @@
-qtbase-opensource-src (5.5.0+dfsg-7) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.5.1+dfsg-1) UNRELEASED; urgency=medium
 
   [ Sune Vuorela ]
   * Add Suggests: qt5-image-formats-plugins to libqt5gui5 to get a
@@ -9,6 +9,9 @@ qtbase-opensource-src (5.5.0+dfsg-7) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * Make libqt5gui5 also recommend libqt5svg5, needed to support
     SVG icon themes.
+
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * New upstream release.
 
  -- Sune Vuorela <sune@debian.org>  Tue, 22 Sep 2015 08:28:30 +0200
 
