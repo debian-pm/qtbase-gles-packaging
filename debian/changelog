@@ -14,7 +14,9 @@ qtbase-opensource-src (5.5.1+dfsg-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Bump qtbase-abi to 5-5-1.
   * Remove screen_crash.patch, already present upstream.
-  * Refresh Fix-compile-error-on-big-endian.patch.
+  * Refresh pacthes:
+    - Fix-compile-error-on-big-endian.patch
+    - hurd-forkfd.diff
 
  -- Sune Vuorela <sune@debian.org>  Tue, 22 Sep 2015 08:28:30 +0200
 
