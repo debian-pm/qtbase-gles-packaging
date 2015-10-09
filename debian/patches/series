@@ -1,6 +1,5 @@
 # Backported stuff
 Fix-compile-error-on-big-endian.patch
-screen_crash.patch
 
 # Debian specific.
 gnukfreebsd.diff
