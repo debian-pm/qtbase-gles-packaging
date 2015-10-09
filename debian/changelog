@@ -17,6 +17,8 @@ qtbase-opensource-src (5.5.1+dfsg-1) UNRELEASED; urgency=medium
   * Refresh pacthes:
     - Fix-compile-error-on-big-endian.patch
     - hurd-forkfd.diff
+  * Remove gnukfreebsd_processNameByPid.diff, seems implemented with a
+    different solution.
 
  -- Sune Vuorela <sune@debian.org>  Tue, 22 Sep 2015 08:28:30 +0200
 
