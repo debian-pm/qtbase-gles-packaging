@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.5.0 amd64 armel hurd-i386 i386 kfreebsd-i386 mips mipsel powerpc
+# SymbolsHelper-Confirmed: 5.5.1 amd64
 libQt5XcbQpa.so.5 libqt5xcbqpa5 #MINVER#
 | libqt5xcbqpa5 #MINVER#, qtbase-abi-5-5-1
  _Z20QT_XCB_GLINTEGRATIONv@Base 5.5.0
@@ -29,7 +29,7 @@ libQt5XcbQpa.so.5 libqt5xcbqpa5 #MINVER#
  _ZN10QXcbWindow14setWindowStateEN2Qt11WindowStateE@Base 5.5.0
  _ZN10QXcbWindow14setWindowTitleERK7QString@Base 5.5.0
  _ZN10QXcbWindow14visualIdStaticEP7QWindow@Base 5.5.0
- _ZN10QXcbWindow15setWmWindowTypeE6QFlagsIN19QXcbWindowFunctions12WmWindowTypeEE@Base 5.5.0
+ _ZN10QXcbWindow15setWmWindowTypeE6QFlagsIN19QXcbWindowFunctions12WmWindowTypeEES0_IN2Qt10WindowTypeEE@Base 5.5.1
  _ZN10QXcbWindow16changeNetWmStateEbjj@Base 5.5.0
  _ZN10QXcbWindow16handleMouseEventEjRK6QPointS2_6QFlagsIN2Qt16KeyboardModifierEE@Base 5.5.0
  _ZN10QXcbWindow17handleExposeEventEPK18xcb_expose_event_t@Base 5.5.0
@@ -43,7 +43,6 @@ libQt5XcbQpa.so.5 libqt5xcbqpa5 #MINVER#
  _ZN10QXcbWindow19handleXEmbedMessageEPK26xcb_client_message_event_t@Base 5.5.0
  _ZN10QXcbWindow19setMotifWindowFlagsE6QFlagsIN2Qt10WindowTypeEE@Base 5.5.0
  _ZN10QXcbWindow19setMouseGrabEnabledEb@Base 5.5.0
- _ZN10QXcbWindow19setNetWmWindowFlagsE6QFlagsIN2Qt10WindowTypeEE@Base 5.5.0
  _ZN10QXcbWindow19updateNetWmUserTimeEj@Base 5.5.0
  _ZN10QXcbWindow20handleMapNotifyEventEPK22xcb_map_notify_event_t@Base 5.5.0
  _ZN10QXcbWindow21postSyncWindowRequestEv@Base 5.5.0
@@ -124,6 +123,7 @@ libQt5XcbQpa.so.5 libqt5xcbqpa5 #MINVER#
  _ZN14QXcbConnection11addPeekFuncEPFbPS_P19xcb_generic_event_tE@Base 5.5.0
  _ZN14QXcbConnection11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
  _ZN14QXcbConnection11qt_metacastEPKc@Base 5.5.0
+ _ZN14QXcbConnection12clientLeaderEv@Base 5.5.1
  _ZN14QXcbConnection12createScreenEP18QXcbVirtualDesktopjP33xcb_randr_get_output_info_reply_t@Base 5.5.0
  _ZN14QXcbConnection12getTimestampEv@Base 5.5.0
  _ZN14QXcbConnection12ungrabServerEv@Base 5.5.0
@@ -246,10 +246,12 @@ libQt5XcbQpa.so.5 libqt5xcbqpa5 #MINVER#
  _ZNK10QXcbScreen10virtualDpiEv@Base 5.5.0
  _ZNK10QXcbScreen11mapToNativeERK5QRect@Base 5.5.0
  _ZNK10QXcbScreen11mapToNativeERK6QPoint@Base 5.5.0
+ _ZNK10QXcbScreen11mapToNativeERK7QPointF@Base 5.5.1
  _ZNK10QXcbScreen11visualForIdEj@Base 5.5.0
  _ZNK10QXcbScreen13depthOfVisualEj@Base 5.5.0
  _ZNK10QXcbScreen13mapFromNativeERK5QRect@Base 5.5.0
  _ZNK10QXcbScreen13mapFromNativeERK6QPoint@Base 5.5.0
+ _ZNK10QXcbScreen13mapFromNativeERK7QPointF@Base 5.5.1
  _ZNK10QXcbScreen16devicePixelRatioEv@Base 5.5.0
  _ZNK10QXcbScreen18sendStartupMessageERK10QByteArray@Base 5.5.0
  _ZNK10QXcbScreen6cursorEv@Base 5.5.0

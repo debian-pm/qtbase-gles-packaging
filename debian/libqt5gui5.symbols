@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.5.0 amd64 arm64 armel armhf mips mipsel powerpc ppc64el s390x
+# SymbolsHelper-Confirmed: 5.5.1 amd64
 libQt5Gui.so.5 libqt5gui5 #MINVER#
 | libqt5gui5 #MINVER#, qtbase-abi-5-5-1
  _Z11qDrawBorderP8QPainterRK5QRectPKN4QCss11BorderStyleEPKiPK6QBrushPK5QSize@Base 5.0.2
@@ -429,7 +429,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN11QFontEngine19addBitmapFontToPathEddRK12QGlyphLayoutP12QPainterPath6QFlagsIN9QTextItem10RenderFlagEE@Base 5.2.0 1
  _ZN11QFontEngine19alphaRGBMapForGlyphEj6QFixedRK10QTransform@Base 5.0.2 1
  _ZN11QFontEngine20removeGlyphFromCacheEj@Base 5.0.2 1
- _ZN11QFontEngine21getTrueTypeGlyphIndexEPKhj@Base 5.0.2 1
+ _ZN11QFontEngine21getTrueTypeGlyphIndexEPKhij@Base 5.5.1
  _ZN11QFontEngine22lockedAlphaMapForGlyphEj6QFixedNS_11GlyphFormatERK10QTransformP6QPoint@Base 5.0.2 1
  _ZN11QFontEngine22unlockAlphaMapForGlyphEv@Base 5.0.2 1
  _ZN11QFontEngine33convertToPostscriptFontFamilyNameERK10QByteArray@Base 5.0.2 1
@@ -1025,11 +1025,11 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN12QShortcutMap13dispatchEventEP9QKeyEvent@Base 5.0.2 1
  _ZN12QShortcutMap14removeShortcutEiP7QObjectRK12QKeySequence@Base 5.0.2 1
  _ZN12QShortcutMap16tryShortcutEventEP7QObjectP9QKeyEvent@Base 5.0.2 1
- _ZN12QShortcutMap18createNewSequencesEP9QKeyEventR7QVectorI12QKeySequenceE@Base 5.0.2 1
+ _ZN12QShortcutMap18createNewSequencesEP9QKeyEventR7QVectorI12QKeySequenceEi@Base 5.5.1
  _ZN12QShortcutMap18setShortcutEnabledEbiP7QObjectRK12QKeySequence@Base 5.0.2 1
  _ZN12QShortcutMap18translateModifiersE6QFlagsIN2Qt16KeyboardModifierEE@Base 5.0.2 1
  _ZN12QShortcutMap21setShortcutAutoRepeatEbiP7QObjectRK12QKeySequence@Base 5.0.2 1
- _ZN12QShortcutMap4findEP9QKeyEvent@Base 5.0.2 1
+ _ZN12QShortcutMap4findEP9QKeyEventi@Base 5.5.1
  _ZN12QShortcutMap5stateEv@Base 5.0.2 1
  _ZN12QShortcutMap9nextStateEP9QKeyEvent@Base 5.0.2 1
  _ZN12QShortcutMapC1Ev@Base 5.0.2 1
@@ -3128,6 +3128,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN22QWindowSystemInterface30tryHandleExtendedShortcutEventEP7QWindowi6QFlagsIN2Qt16KeyboardModifierEEjjjRK7QStringbt@Base 5.0.2 1
  _ZN22QWindowSystemInterface30tryHandleExtendedShortcutEventEP7QWindowmi6QFlagsIN2Qt16KeyboardModifierEEjjjRK7QStringbt@Base 5.0.2 1
  _ZN22QWindowSystemInterface30tryHandleShortcutEventToObjectEP7QObjectmi6QFlagsIN2Qt16KeyboardModifierEERK7QStringbt@Base 5.5.0 1
+ _ZN22QWindowSystemInterface30tryHandleShortcutOverrideEventEP7QWindowP9QKeyEvent@Base 5.5.1
  _ZN22QWindowSystemInterface31deferredFlushWindowSystemEventsE6QFlagsIN10QEventLoop17ProcessEventsFlagEE@Base 5.4.0 1
  _ZN22QWindowSystemInterface31handleGestureEventWithRealValueEP7QWindowmN2Qt17NativeGestureTypeEdR7QPointFS5_@Base 5.2.0~beta1 1
  _ZN22QWindowSystemInterface31handleTabletEnterProximityEventEiix@Base 5.0.2 1
