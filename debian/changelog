@@ -1,4 +1,4 @@
-qtbase-opensource-src (5.5.1+dfsg-1) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.5.1+dfsg-1) experimental; urgency=medium
 
   [ Sune Vuorela ]
   * Add Suggests: qt5-image-formats-plugins to libqt5gui5 to get a
@@ -23,7 +23,7 @@ qtbase-opensource-src (5.5.1+dfsg-1) UNRELEASED; urgency=medium
   * Update symbols files with current build log. All missing symbols
     where private or not available on the public headers.
 
- -- Sune Vuorela <sune@debian.org>  Tue, 22 Sep 2015 08:28:30 +0200
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 15 Oct 2015 14:54:55 -0300
 
 qtbase-opensource-src (5.5.0+dfsg-6) experimental; urgency=medium
 
