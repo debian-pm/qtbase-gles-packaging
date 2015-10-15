@@ -1046,10 +1046,6 @@ usr/include/*/qt5/QtPlatformHeaders/qtplatformheadersversion.h
 usr/include/*/qt5/QtPlatformHeaders/qwglnativecontext.h
 usr/include/*/qt5/QtPlatformHeaders/qwindowswindowfunctions.h
 usr/include/*/qt5/QtPlatformHeaders/qxcbwindowfunctions.h
-usr/include/*/qt5/QtPlatformSupport/bus_interface.h
-usr/include/*/qt5/QtPlatformSupport/cache_adaptor.h
-usr/include/*/qt5/QtPlatformSupport/deviceeventcontroller_adaptor.h
-usr/include/*/qt5/QtPlatformSupport/socket_interface.h
 usr/include/*/qt5/QtPrintSupport/QAbstractPrintDialog
 usr/include/*/qt5/QtPrintSupport/QPageSetupDialog
 usr/include/*/qt5/QtPrintSupport/QPrintDialog
