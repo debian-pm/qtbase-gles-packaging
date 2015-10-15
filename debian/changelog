@@ -19,6 +19,7 @@ qtbase-opensource-src (5.5.1+dfsg-1) UNRELEASED; urgency=medium
     - hurd-forkfd.diff
   * Remove gnukfreebsd_processNameByPid.diff, seems implemented with a
     different solution.
+  * Update installation file listing for qtbase5-dev.install-common.
 
  -- Sune Vuorela <sune@debian.org>  Tue, 22 Sep 2015 08:28:30 +0200
 
