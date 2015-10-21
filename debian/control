@@ -2,14 +2,14 @@ Source: qtbase-opensource-src
 Section: libs
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Sune Vuorela <debian@pusling.com>,
+Uploaders: Sune Vuorela <sune@debian.org>,
            Pino Toscano <pino@debian.org>,
            Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
            Timo Jyrinki <timo@debian.org>,
            Dmitry Shachnev <mitya57@debian.org>
 Build-Depends: debhelper (>= 9),
                dpkg-dev (>= 1.16.1),
-               firebird-dev [amd64 armel i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sh4 sparc],
+               firebird-dev [kfreebsd-any linux-any],
                freetds-dev,
                gdb,
                libasound2-dev [linux-any],
@@ -23,6 +23,8 @@ Build-Depends: debhelper (>= 9),
                libgles2-mesa-dev [linux-any] | libgles2-dev [linux-any],
                libglib2.0-dev,
                libglu1-mesa-dev | libglu-dev,
+               libgstreamer-plugins-base1.0-dev,
+               libgstreamer1.0-dev,
                libgtk2.0-dev,
                libharfbuzz-dev,
                libicu-dev,
@@ -33,6 +35,7 @@ Build-Depends: debhelper (>= 9),
                libpcre3-dev,
                libpng-dev,
                libpq-dev,
+               libproxy-dev,
                libpulse-dev,
                libsqlite3-dev,
                libssl-dev,
@@ -57,6 +60,7 @@ Build-Depends: debhelper (>= 9),
                libxkbcommon-x11-dev,
                libxrender-dev,
                pkg-kde-tools (>= 0.15.17),
+               publicsuffix,
                unixodbc-dev,
                zlib1g-dev
 Build-Conflicts: libmariadbclient-dev
@@ -69,7 +73,7 @@ Package: libqt5core5a
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
-Provides: qtbase-abi-5-4-2
+Provides: qtbase-abi-5-5-1
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: qttranslations5-l10n
 Suggests: libthai0
@@ -86,7 +90,8 @@ Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: fontconfig, ${misc:Depends}, ${shlibs:Depends}
-Suggests: libqt5libqgtk2
+Recommends: libqt5svg5, libqt5xcbqpa5
+Suggests: libqt5libqgtk2, qt5-image-formats-plugins
 Description: Qt 5 GUI module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -104,7 +109,8 @@ Description: Qt 5 GTK2 platform theme
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
- The libqgtk2 module provides GTK2 theme compatibility
+ This package provides the GTK2 platform theme, which makes Qt use
+ native icon themes, fonts, and dialogs on GTK-based environments.
 
 Package: libqt5network5
 Architecture: any
@@ -138,7 +144,7 @@ Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Recommends: libqt5sql5-sqlite | libqt5sql5-mysql | libqt5sql5-odbc | libqt5sql5-psql | libqt5sql5-ibase [amd64 armel i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sh4 sparc]
+Recommends: libqt5sql5-sqlite | libqt5sql5-mysql | libqt5sql5-odbc | libqt5sql5-psql | libqt5sql5-tds | libqt5sql5-ibase [kfreebsd-any linux-any]
 Description: Qt 5 SQL module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -200,6 +206,17 @@ Description: Qt 5 FreeTDS database driver
  .
  Install it if you intend to use or write Qt programs that are to access a
  MS SQL or Sybase SQL server.
+
+Package: libqt5sql5-ibase
+Architecture: kfreebsd-any linux-any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 5 Firebird database driver
+ This package contains the Firebird plugin for Qt 5.
+ .
+ Install it if you intend to use or write Qt programs that are to access a
+ Firebird/InterBase DB.
 
 Package: libqt5xml5
 Architecture: any
@@ -277,6 +294,33 @@ Description: Qt 5 print support module
  The QtPrintSupport module provides classes to make printing easier and
  portable.
 
+Package: libqt5egldeviceintegration5
+Architecture: linux-any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: libqt5gui5 (<< 5.5.0+dfsg-1~)
+Replaces: libqt5gui5 (<< 5.5.0+dfsg-1~)
+Description: Qt 5 EGL device integration
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This module provides integration with different EGL devices through
+ specific plugins for kms, x11, etc.
+
+Package: libqt5xcbqpa5
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: libqt5gui5 (<< 5.5.0+dfsg-1~)
+Replaces: libqt5gui5 (<< 5.5.0+dfsg-1~)
+Description: Qt 5 XCB platform module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This module provides XCB integration used on regular desktop Linux platforms.
+
 Package: qtbase5-dev
 Architecture: any
 Multi-Arch: same
@@ -287,12 +331,14 @@ Depends: libgl1-mesa-dev [!armel !armhf] | libgl-dev [!armel !armhf],
          libqt5concurrent5 (= ${binary:Version}),
          libqt5core5a (= ${binary:Version}),
          libqt5dbus5 (= ${binary:Version}),
+         libqt5egldeviceintegration5 (= ${binary:Version}) [linux-any],
          libqt5gui5 (= ${binary:Version}),
          libqt5network5 (= ${binary:Version}),
          libqt5printsupport5 (= ${binary:Version}),
          libqt5sql5 (= ${binary:Version}),
          libqt5test5 (= ${binary:Version}),
          libqt5widgets5 (= ${binary:Version}),
+         libqt5xcbqpa5 (= ${binary:Version}),
          libqt5xml5 (= ${binary:Version}),
          libxext-dev,
          qt5-qmake (= ${binary:Version}),

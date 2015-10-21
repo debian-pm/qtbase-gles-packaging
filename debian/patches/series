@@ -1,8 +1,9 @@
 # Backported stuff
-upstream_small-improvements-to-the-hurd-g-mkspec.patch
-upstream_Complete-MIPS-atomic-support-on-pre-MIPS32-architect.patch
-gnukfreebsd.diff
+Fix-compile-error-on-big-endian.patch
 
 # Debian specific.
+gnukfreebsd.diff
 no_htmlinfo_example.diff
 remove_privacy_breachs.diff
+hurd-forkfd.diff
+link_fbclient.diff

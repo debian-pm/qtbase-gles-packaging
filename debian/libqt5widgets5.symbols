@@ -1,6 +1,6 @@
-# SymbolsHelper-Confirmed: 5.4.2 alpha amd64 arm64 armel armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 m68k mips mipsel powerpc ppc64 ppc64el s390x sh4 x32
+# SymbolsHelper-Confirmed: 5.5.0 amd64 arm64 powerpc ppc64el s390x
 libQt5Widgets.so.5 libqt5widgets5 #MINVER#
-| libqt5widgets5 #MINVER#, qtbase-abi-5-4-2
+| libqt5widgets5 #MINVER#, qtbase-abi-5-5-1
  _Z11qFadeEffectP7QWidgeti@Base 5.0.2
  _Z12qt_blurImageP8QPainterR6QImagedbbi@Base 5.2.0
  _Z12qt_blurImageR6QImagedbi@Base 5.2.0
@@ -585,6 +585,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN11QHeaderView21setSortIndicatorShownEb@Base 5.0.2
  _ZN11QHeaderView21setStretchLastSectionEb@Base 5.0.2
  _ZN11QHeaderView22setOffsetToLastSectionEv@Base 5.0.2
+ _ZN11QHeaderView23resetDefaultSectionSizeEv@Base 5.5.0
  _ZN11QHeaderView24sectionsAboutToBeRemovedERK11QModelIndexii@Base 5.0.2
  _ZN11QHeaderView26sectionHandleDoubleClickedEi@Base 5.0.2
  _ZN11QHeaderView26setCascadingSectionResizesEb@Base 5.0.2
@@ -1614,6 +1615,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN13QOpenGLWidget14aboutToComposeEv@Base 5.4.0
  _ZN13QOpenGLWidget15grabFramebufferEv@Base 5.4.0
  _ZN13QOpenGLWidget16staticMetaObjectE@Base 5.3.0
+ _ZN13QOpenGLWidget17setUpdateBehaviorENS_14UpdateBehaviorE@Base 5.5.0
  _ZN13QOpenGLWidget5eventEP6QEvent@Base 5.4.0
  _ZN13QOpenGLWidget7paintGLEv@Base 5.3.0
  _ZN13QOpenGLWidget7resizedEv@Base 5.4.0
@@ -1804,6 +1806,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN14QGraphicsScene16sceneRectChangedERK6QRectF@Base 5.0.2
  _ZN14QGraphicsScene16selectionChangedEv@Base 5.0.2
  _ZN14QGraphicsScene16setSelectionAreaERK12QPainterPathN2Qt17ItemSelectionModeERK10QTransform@Base 5.0.2
+ _ZN14QGraphicsScene16setSelectionAreaERK12QPainterPathN2Qt22ItemSelectionOperationENS3_17ItemSelectionModeERK10QTransform@Base 5.5.0
  _ZN14QGraphicsScene16setSelectionAreaERK12QPainterPathRK10QTransform@Base 5.0.2
  _ZN14QGraphicsScene16staticMetaObjectE@Base 5.0.2
  _ZN14QGraphicsScene17mouseReleaseEventEP24QGraphicsSceneMouseEvent@Base 5.0.2
@@ -1909,6 +1912,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN14QPlainTextEdit21mouseDoubleClickEventEP11QMouseEvent@Base 5.0.2
  _ZN14QPlainTextEdit22mergeCurrentCharFormatERK15QTextCharFormat@Base 5.0.2
  _ZN14QPlainTextEdit23setTextInteractionFlagsE6QFlagsIN2Qt19TextInteractionFlagEE@Base 5.0.2
+ _ZN14QPlainTextEdit25createStandardContextMenuERK6QPoint@Base 5.5.0
  _ZN14QPlainTextEdit25createStandardContextMenuEv@Base 5.0.2
  _ZN14QPlainTextEdit3cutEv@Base 5.0.2
  _ZN14QPlainTextEdit4copyEv@Base 5.0.2
@@ -2047,6 +2051,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN14QWidgetPrivate20setWindowOpacity_sysEd@Base 5.2.0 1
  _ZN14QWidgetPrivate21setMaximumSize_helperERiS0_@Base 5.0.2 1
  _ZN14QWidgetPrivate21setMinimumSize_helperERiS0_@Base 5.0.2 1
+ _ZN14QWidgetPrivate21setWidgetParentHelperEP7QObjectS1_@Base 5.5.0 1
  _ZN14QWidgetPrivate21setWindowFilePath_sysERK7QString@Base 5.0.2 1
  _ZN14QWidgetPrivate21setWindowIconText_sysERK7QString@Base 5.0.2 1
  _ZN14QWidgetPrivate21setWindowTitle_helperERK7QString@Base 5.0.2 1
@@ -2661,6 +2666,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN17QAbstractItemView14setIndexWidgetERK11QModelIndexP7QWidget@Base 5.0.2
  _ZN17QAbstractItemView14stopAutoScrollEv@Base 5.0.2
  _ZN17QAbstractItemView15editorDestroyedEP7QObject@Base 5.0.2
+ _ZN17QAbstractItemView15iconSizeChangedERK5QSize@Base 5.5.0
  _ZN17QAbstractItemView15mousePressEventEP11QMouseEvent@Base 5.0.2
  _ZN17QAbstractItemView15setCurrentIndexERK11QModelIndex@Base 5.0.2
  _ZN17QAbstractItemView15setDragDropModeENS_12DragDropModeE@Base 5.0.2
@@ -2902,11 +2908,12 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN18QFileDialogPrivate10_q_goToUrlERK4QUrl@Base 5.0.2 1
  _ZN18QFileDialogPrivate10helperDoneEN7QDialog10DialogCodeEP21QPlatformDialogHelper@Base 5.0.2 1
  _ZN18QFileDialogPrivate10initHelperEP21QPlatformDialogHelper@Base 5.0.2 1
+ _ZN18QFileDialogPrivate12saveSettingsEv@Base 5.5.0 1
  _ZN18QFileDialogPrivate13_q_showHeaderEP7QAction@Base 5.0.2 1
  _ZN18QFileDialogPrivate13_q_showHiddenEv@Base 5.0.2 1
  _ZN18QFileDialogPrivate13createWidgetsEv@Base 5.0.2 1
  _ZN18QFileDialogPrivate13maxNameLengthERK7QString@Base 5.0.2 1
- _ZN18QFileDialogPrivate14_q_fileRenamedERK7QStringS0_S0_@Base 5.0.2 1
+ _ZN18QFileDialogPrivate14_q_fileRenamedERK7QStringS2_S2_@Base 5.5.0 1
  _ZN18QFileDialogPrivate14_q_pathChangedERK7QString@Base 5.0.2 1
  _ZN18QFileDialogPrivate15_q_rowsInsertedERK11QModelIndex@Base 5.0.2 1
  _ZN18QFileDialogPrivate15_q_showListViewEv@Base 5.0.2 1
@@ -2929,12 +2936,14 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN18QFileDialogPrivate18_q_navigateForwardEv@Base 5.0.2 1
  _ZN18QFileDialogPrivate18_q_showContextMenuERK6QPoint@Base 5.0.2 1
  _ZN18QFileDialogPrivate18_q_showDetailsViewEv@Base 5.0.2 1
+ _ZN18QFileDialogPrivate18restoreWidgetStateER11QStringListi@Base 5.5.0 1
  _ZN18QFileDialogPrivate18retranslateStringsEv@Base 5.0.2 1
  _ZN18QFileDialogPrivate18updateOkButtonTextEb@Base 5.0.2 1
  _ZN18QFileDialogPrivate19_q_emitUrlsSelectedERK5QListI4QUrlE@Base 5.4.0 1
  _ZN18QFileDialogPrivate19_q_navigateBackwardEv@Base 5.0.2 1
  _ZN18QFileDialogPrivate19_q_navigateToParentEv@Base 5.0.2 1
  _ZN18QFileDialogPrivate19_q_selectionChangedEv@Base 5.0.2 1
+ _ZN18QFileDialogPrivate19restoreFromSettingsEv@Base 5.5.0 1
  _ZN18QFileDialogPrivate19setLabelTextControlEN11QFileDialog11DialogLabelERK7QString@Base 5.0.2 1
  _ZN18QFileDialogPrivate21itemViewKeyboardEventEP9QKeyEvent@Base 5.0.2 1
  _ZN18QFileDialogPrivate22getEnvironmentVariableERK7QString@Base 5.0.2 1
@@ -3950,7 +3959,6 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN5QMenu18focusNextPrevChildEb@Base 5.0.2
  _ZN5QMenu18setToolTipsVisibleEb@Base 5.1.0
  _ZN5QMenu20internalDelayedPopupEv@Base 5.0.2
- _ZN5QMenu23internalSetSloppyActionEv@Base 5.0.2
  _ZN5QMenu24setSeparatorsCollapsibleEb@Base 5.0.2
  _ZN5QMenu4execE5QListIP7QActionERK6QPointS2_P7QWidget@Base 5.0.2
  _ZN5QMenu4execERK6QPointP7QAction@Base 5.0.2
@@ -5984,6 +5992,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK13QOpenGLWidget10metaObjectEv@Base 5.3.0
  _ZNK13QOpenGLWidget10redirectedEP6QPoint@Base 5.4.0
  _ZNK13QOpenGLWidget11paintEngineEv@Base 5.4.0
+ _ZNK13QOpenGLWidget14updateBehaviorEv@Base 5.5.0
  _ZNK13QOpenGLWidget24defaultFramebufferObjectEv@Base 5.3.0
  _ZNK13QOpenGLWidget6formatEv@Base 5.3.0
  _ZNK13QOpenGLWidget6metricEN12QPaintDevice17PaintDeviceMetricE@Base 5.4.0
@@ -6516,7 +6525,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK18QFileDialogPrivate17canBeNativeDialogEv@Base 5.2.0~rc1 1
  _ZNK18QFileDialogPrivate17userSelectedFilesEv@Base 5.0.2 1
  _ZNK18QFileDialogPrivate22addDefaultSuffixToUrlsERK5QListI4QUrlE@Base 5.2.0~alpha1 1
- _ZNK18QFileDialogPrivate23addDefaultSuffixToFilesE11QStringList@Base 5.0.2 1
+ _ZNK18QFileDialogPrivate23addDefaultSuffixToFilesERK11QStringList@Base 5.5.0 1
  _ZNK18QFileDialogPrivate8lineEditEv@Base 5.0.2 1
  _ZNK18QGraphicsItemGroup10opaqueAreaEv@Base 5.0.2
  _ZNK18QGraphicsItemGroup12boundingRectEv@Base 5.0.2
@@ -6578,6 +6587,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK19QAbstractScrollArea10metaObjectEv@Base 5.0.2
  _ZNK19QAbstractScrollArea12cornerWidgetEv@Base 5.0.2
  _ZNK19QAbstractScrollArea15minimumSizeHintEv@Base 5.0.2
+ _ZNK19QAbstractScrollArea15viewportMarginsEv@Base 5.5.0
  _ZNK19QAbstractScrollArea16sizeAdjustPolicyEv@Base 5.2.0~alpha1
  _ZNK19QAbstractScrollArea16viewportSizeHintEv@Base 5.0.2
  _ZNK19QAbstractScrollArea17verticalScrollBarEv@Base 5.0.2
@@ -6889,6 +6899,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK6QFrame10metaObjectEv@Base 5.0.2
  _ZNK6QFrame11frameShadowEv@Base 5.0.2
  _ZNK6QFrame12midLineWidthEv@Base 5.0.2
+ _ZNK6QFrame15initStyleOptionEP17QStyleOptionFrame@Base 5.5.0
  _ZNK6QFrame8sizeHintEv@Base 5.0.2
  _ZNK6QFrame9frameRectEv@Base 5.0.2
  _ZNK6QFrame9lineWidthEv@Base 5.0.2
@@ -8062,6 +8073,8 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _Zls6QDebugN13QGraphicsItem18GraphicsItemChangeE@Base 5.0.2
  _Zls6QDebugP13QGraphicsItem@Base 5.0.2
  _Zls6QDebugP15QGraphicsObject@Base 5.0.2
+ _Zls6QDebugPK13QGestureEvent@Base 5.5.0
+ _Zls6QDebugPK8QGesture@Base 5.5.0
  _Zls6QDebugRK11QSizePolicy@Base 5.0.2
  _Zls6QDebugRK12QStyleOption@Base 5.0.2
  _Zls6QDebugRKN12QStyleOption10OptionTypeE@Base 5.0.2

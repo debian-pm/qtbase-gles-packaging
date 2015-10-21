@@ -2,7 +2,7 @@ Author: Pino Toscano <toscano.pino@tiscali.it>
 Description: Initial GNU/kFreeBSD support
  - add a gnukfreebsd-g++ qmake mkspec, mostly copied from the hurd-g++ one
  - properly use LD_LIBRARY_PATH on GNU/* systems
-Last-Update: 2014-12-31
+Last-Update: 2015-06-03
 Forwarded: no
 
 ---
@@ -157,12 +157,12 @@ Forwarded: no
 +#endif // QPLATFORMDEFS_H
 --- a/mkspecs/features/qt_functions.prf
 +++ b/mkspecs/features/qt_functions.prf
-@@ -272,6 +272,8 @@ defineTest(qtAddTargetEnv) {
+@@ -273,6 +273,8 @@ defineTest(qtAddTargetEnv) {
              deppath.name = PATH
          } else:contains(QMAKE_HOST.os, Linux|FreeBSD|OpenBSD|NetBSD|DragonFly|SunOS|HP-UX|QNX|GNU) {
              deppath.name = LD_LIBRARY_PATH
 +        } else:contains(QMAKE_HOST.os, ^GNU/.*) {
 +            deppath.name = LD_LIBRARY_PATH
+         } else:contains(QMAKE_HOST.os, Haiku) {
+             deppath.name = LIBRARY_PATH
          } else:equals(QMAKE_HOST.os, Darwin) {
-             contains(QT_CONFIG, qt_framework): \
-                 deppath.name = DYLD_FRAMEWORK_PATH

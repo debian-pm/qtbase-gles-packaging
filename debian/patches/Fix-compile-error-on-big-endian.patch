@@ -1,0 +1,23 @@
+From 1a8b161da80b93d122854c854c95bf9f7d326cdc Mon Sep 17 00:00:00 2001
+From: Allan Sandfeld Jensen <allan.jensen@theqtcompany.com>
+Date: Fri, 3 Jul 2015 14:19:02 +0200
+Subject: [PATCH] Fix compile error on big endian
+
+DestFormat is not defined here but should be Format_RGBX8888
+
+Change-Id: Ie33989a6fc31650434281a6b7b0f4806524268af
+---
+ src/gui/image/qimage_conversions.cpp |    2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+--- a/src/gui/image/qimage_conversions.cpp
++++ b/src/gui/image/qimage_conversions.cpp
+@@ -1054,7 +1054,7 @@ static bool mask_alpha_converter_inplace
+         }
+         rgb_data += pad;
+     }
+-    data->format = DestFormat;
++    data->format = QImage::Format_RGBX8888;
+     return true;
+ }
+ 

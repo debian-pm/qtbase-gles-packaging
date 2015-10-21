@@ -37,7 +37,7 @@ pkgs_with_arch = $(patsubst debian/%.install-$(DEB_HOST_ARCH),%,$(wildcard debia
 pkgs_with_os = $(patsubst debian/%.install-$(DEB_HOST_ARCH_OS),%,$(wildcard debian/*.install-$(DEB_HOST_ARCH_OS)))
 
 
-ifneq (,$(filter %-sql-ibase,$(shell dh_listpackages)))
+ifneq (,$(filter libqt5sql5-ibase,$(shell dh_listpackages)))
 	extra_configure_opts += -plugin-sql-ibase
 else
 	extra_configure_opts += -no-sql-ibase
@@ -135,6 +135,7 @@ override_dh_auto_configure:
 	            -accessibility \
 	            -compile-examples \
 	            -no-directfb \
+	            -gstreamer 1.0 \
 	            $(extra_configure_opts) \
 	            $(cpu_opt)
 
@@ -218,6 +219,17 @@ override_dh_auto_build-indep:
 	cd $(CURDIR)/src/corelib; ../../bin/qmake
 	cd $(CURDIR)/src/xml; ../../bin/qmake
 	dh_auto_build -Smakefile -- html_docs
+
+override_dh_auto_build-arch:
+	# Bootstrap corelibs in order to be able to build the helper tools to
+	# regenerate some upstream-provided files.
+	cd $(CURDIR)/src; ../bin/qmake; make sub-corelib
+	# Add here the code to generate the helpers and then the headers.
+	sh debian/generateTLDs.sh
+	# Clean up the compiled code and start again.
+	cd $(CURDIR)/src; make distclean
+	make clean
+	dh_auto_build
 
 override_dh_auto_install-arch:
 	dh_auto_install -Smakefile -- INSTALL_ROOT=$(CURDIR)/debian/tmp/

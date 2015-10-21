@@ -1,3 +1,127 @@
+qtbase-opensource-src (5.5.1+dfsg-2) unstable; urgency=medium
+
+  * Upload to unstable.
+  * Update symbols files with buildds' logs.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 21 Oct 2015 15:18:39 -0300
+
+qtbase-opensource-src (5.5.1+dfsg-1) experimental; urgency=medium
+
+  [ Sune Vuorela ]
+  * Add Suggests: qt5-image-formats-plugins to libqt5gui5 to get a
+    bit of visibility to the plugins that people using QImage might
+    need.
+  * Update my email address.
+
+  [ Dmitry Shachnev ]
+  * Make libqt5gui5 also recommend libqt5svg5, needed to support
+    SVG icon themes.
+
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * New upstream release.
+  * Bump qtbase-abi to 5-5-1.
+  * Remove screen_crash.patch, already present upstream.
+  * Refresh pacthes:
+    - Fix-compile-error-on-big-endian.patch
+    - hurd-forkfd.diff
+  * Remove gnukfreebsd_processNameByPid.diff, seems implemented with a
+    different solution.
+  * Update installation file listing for qtbase5-dev.install-common.
+  * Update symbols files with current build log. All missing symbols
+    where private or not available on the public headers.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 15 Oct 2015 14:54:55 -0300
+
+qtbase-opensource-src (5.5.0+dfsg-6) experimental; urgency=medium
+
+  [ Ralf Jung ]
+  * When a screen comes back online, the windows need to be told
+    about it (screen_crash.diff) (Closes: #787680)
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 07 Sep 2015 15:15:43 -0300
+
+qtbase-opensource-src (5.5.0+dfsg-5) experimental; urgency=medium
+
+  * Update debian/copyright for 5.5.0.
+  * Make libqt5gui5 recommend libqt5xcbqpa5, as it is the default
+    QPA platform.
+  * Update symbols files from buildds’ logs.
+  * Make libqt5libqgtk2 package description more verbose.
+  * Make qtbase5-dev depend on libqt5egldeviceintegration5 (on Linux) and
+    on libqt5xcbqpa5, as it provides unversioned .so symlinks for these
+    libraries.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Thu, 03 Sep 2015 18:33:59 +0300
+
+qtbase-opensource-src (5.5.0+dfsg-4) experimental; urgency=medium
+
+  * Update symbols files with buildds logs.
+  * Build firebird plugin on all Linux and kFreeBSD architectures.
+    - Resurrect libqt5sql5-ibase binary package.
+    - Copy patch from qt4-x11 to link ibase sql plugin against firebird
+      (link_fbclient.diff).
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 14 Aug 2015 10:37:08 +0300
+
+qtbase-opensource-src (5.5.0+dfsg-3) experimental; urgency=medium
+
+  * Update symbols files with buildds logs.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Mon, 03 Aug 2015 10:59:00 +0300
+
+qtbase-opensource-src (5.5.0+dfsg-2) experimental; urgency=medium
+
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Bootstrap coreutils in order to be able to rebuild some pregenerated stuff.
+    - Rebuild the TLD names list.
+
+  [ Dmitry Shachnev ]
+  * Update symbols files with buildds’ logs.
+  * Merge 5.4.2+dfsg-5 unstable upload.
+  * Add processNameByPid implementation for GNU/kFreeBSD
+    (gnukfreebsd_processNameByPid.diff).
+  * Remove symbols missing with GCC 5.
+  * Drop unused outdated-autotools-helper-file Lintian overrides.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Sun, 02 Aug 2015 18:33:39 +0300
+
+qtbase-opensource-src (5.5.0+dfsg-1) experimental; urgency=medium
+
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * New upstream release.
+    - Bump qtbase-abi to 5-5-0.
+  * Update symbols files with buildd's logs.
+  * Remove backported patches already present in this release:
+    - upstream_Complete-MIPS-atomic-support-on-pre-MIPS32-architect.patch
+    - upstream_small-improvements-to-the-hurd-g-mkspec.patch
+  * Refresh gnukfreebsd.diff.
+  * Update install files for already present packages.
+  * Add the new libqt5xcbqpa5 and libqt5egldeviceintegration5 libraries.
+    - Also add symbols files for them.
+    - Add lintian overrides for them depending on qtbase-abi, that's expected.
+  * Add two new plugins based on libinput. This are only installed on linux
+    due to libinput not being available on other OSs yet.
+  * Update symbols files with current build log.
+  * Mark/unmark private symbols.
+  * Update debian/copyright.
+  * Add libproxy as build dependency. We now have support for it.
+  * Move adding proper Break+Replaces:
+    - libqxcb plugin from libqt5gui5 to libqt5xcbqpa5,
+    - libqeglfs plugin from libqt5gui5 to libqt5egldeviceintegration5,
+    as they now depend on the aforementioned libraries. This solves an
+    uneeded circular dependency.
+
+  [ Pino Toscano ]
+  * Fix build on Hurd, by temporarly disabling waitid() in forkfd code;
+    patch hurd-forkfd.diff.
+
+  [ Timo Jyrinki ]
+  * Build depend on GStreamer 1.0 and add a configure option for it.
+  * debian/patches/Fix-compile-error-on-big-endian.patch:
+    - Fix FTBFS on powerpc.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 06 Jul 2015 18:37:23 -0300
+
 qtbase-opensource-src (5.4.2+dfsg-9) unstable; urgency=medium
 
   * Update symbols files with buildds’ logs.
