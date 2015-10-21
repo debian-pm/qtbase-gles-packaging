@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.5.1 amd64
+# SymbolsHelper-Confirmed: 5.5.1 amd64 mips64el
 libQt5Core.so.5 libqt5core5a #MINVER#
 | libqt5core5a #MINVER#, qtbase-abi-5-5-1
  _Z10forcepointR11QTextStream@Base 5.0.2
@@ -2732,7 +2732,7 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  (arch=alpha)_ZN7QString9vasprintfEPKc13__va_list_tag@Base 5.5.0
  (arch=amd64 kfreebsd-amd64 powerpc s390x x32)_ZN7QString9vasprintfEPKcP13__va_list_tag@Base 5.5.0
  (arch=hurd-i386 i386 kfreebsd-i386 ppc64 ppc64el)_ZN7QString9vasprintfEPKcPc@Base 5.5.0
- (arch=hppa mips mipsel)_ZN7QString9vasprintfEPKcPv@Base 5.5.0
+ (arch=hppa mips mips64el mipsel)_ZN7QString9vasprintfEPKcPv@Base 5.5.1
  (arch=arm64 armel armhf)_ZN7QString9vasprintfEPKcSt9__va_list@Base 5.5.0
  _ZN7QStringC1E5QChar@Base 5.0.2
  _ZN7QStringC1EPK5QChari@Base 5.0.2
@@ -4964,7 +4964,6 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  (optional=templinst)_ZSt13move_backwardIPiS0_ET0_T_S2_S1_@Base 5.5.0
  (optional=templinst|subst)_ZSt17__rotate_adaptiveIP21QPersistentModelIndexS1_{ssize_t}ET_S2_S2_S2_T1_S3_T0_S3_@Base 5.0.2
  (optional=templinst|subst)_ZSt17__rotate_adaptiveIPiS0_{ssize_t}ET_S1_S1_S1_T1_S2_T0_S2_@Base 5.0.2
- (optional=templinst|arch=!alpha !amd64 !arm64 !hppa !kfreebsd-amd64 !ppc64 !ppc64el !s390x !x32)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 5.5.0
  _ZTI10QEventLoop@Base 5.0.2
  _ZTI10QException@Base 5.0.2
  _ZTI10QTextCodec@Base 5.0.2
