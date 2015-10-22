@@ -5,7 +5,7 @@ qtbase-opensource-src (5.5.1+dfsg-3) UNRELEASED; urgency=medium
     (set_positionautomatic.diff; partially fixes the VLC display issues).
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
-  * Add qtwayland5 as a libqt5gui5 recommendation. We want people trying to
+  * Add qtwayland5 as a libqt5gui5 suggestion. We want people trying to
     use Wayland to have it there. This can be reconsidered later if needed.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 22 Oct 2015 16:40:42 +0300
