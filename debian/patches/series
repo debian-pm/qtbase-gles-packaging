@@ -1,5 +1,6 @@
 # Backported stuff
 Fix-compile-error-on-big-endian.patch
+set_positionautomatic.diff
 
 # Debian specific.
 gnukfreebsd.diff

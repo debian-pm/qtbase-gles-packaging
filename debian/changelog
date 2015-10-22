@@ -1,5 +1,8 @@
 qtbase-opensource-src (5.5.1+dfsg-3) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Backport upstream patch to set positionAutomatic when using setX/setY
+    (set_positionautomatic.diff; partially fixes the VLC display issues).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 22 Oct 2015 16:40:42 +0300
 
