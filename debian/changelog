@@ -164,7 +164,7 @@ qtbase-opensource-src (5.4.2+dfsg-7) unstable; urgency=medium
 
 qtbase-opensource-src (5.4.2+dfsg-6) unstable; urgency=medium
 
-  * Udate symbols files using gcc5 (Closes: #794518).
+  * Update symbols files using gcc5 (Closes: #794518).
 
  -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 05 Aug 2015 10:16:28 -0300
 
