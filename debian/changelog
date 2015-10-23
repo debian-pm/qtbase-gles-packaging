@@ -11,6 +11,7 @@ qtbase-opensource-src (5.5.1+dfsg-3) UNRELEASED; urgency=medium
   * Add a patch to undef HAVE_WAITID if needed constants are not defined
     (hurd_forkfd.diff), to fix the build failure on hurd.
   * Update symbols files from buildds’ logs.
+  * Mark four new private symbols in debian/libqt5gui5.symbols.
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Add qtwayland5 as a libqt5gui5 suggestion. We want people trying to
