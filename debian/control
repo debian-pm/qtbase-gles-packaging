@@ -89,7 +89,7 @@ Package: libqt5gui5
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
-Depends: fontconfig, ${misc:Depends}, ${shlibs:Depends}, libqt5xcbqpa5
+Depends: fontconfig, libqt5xcbqpa5, ${misc:Depends}, ${shlibs:Depends}
 Recommends: libqt5svg5
 Suggests: libqt5libqgtk2, qt5-image-formats-plugins, qtwayland5
 Description: Qt 5 GUI module
