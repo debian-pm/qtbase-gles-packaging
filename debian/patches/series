@@ -4,6 +4,7 @@ set_positionautomatic.diff
 
 # To be forwarded upstream
 bsd_volumeinfo.diff
+hurd_forkfd.diff
 
 # Debian specific.
 gnukfreebsd.diff

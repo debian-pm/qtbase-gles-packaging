@@ -8,6 +8,8 @@ qtbase-opensource-src (5.5.1+dfsg-3) UNRELEASED; urgency=medium
     library (closes: #802704).
   * Add a patch to fix QStorageInfo implementation for BSD4 systems
     (bsd_volumeinfo.diff), to fix the build failure on kfreebsd.
+  * Add a patch to undef HAVE_WAITID if needed constants are not defined
+    (hurd_forkfd.diff), to fix the build failure on hurd.
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Add qtwayland5 as a libqt5gui5 suggestion. We want people trying to

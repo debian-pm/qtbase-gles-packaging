@@ -1,0 +1,17 @@
+Description: undef HAVE_WAITID if needed constants are not defined
+Author: Dmitry Shachnev <mitya57@debian.org>
+Forwarded: not-yet
+Last-Update: 2015-10-23
+
+--- a/src/3rdparty/forkfd/forkfd.c
++++ b/src/3rdparty/forkfd/forkfd.c
+@@ -58,6 +58,9 @@
+ #if _POSIX_VERSION-0 >= 200809L || _XOPEN_VERSION-0 >= 500
+ #  define HAVE_WAITID   1
+ #endif
++#if !defined(WEXITED) || !defined(WNOWAIT)
++#  undef HAVE_WAITID
++#endif
+ 
+ #if defined(__FreeBSD__)
+ #  define HAVE_PIPE2    1
