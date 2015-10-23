@@ -367,7 +367,10 @@ Package: qtbase5-private-dev
 Architecture: any
 Multi-Arch: same
 Section: libdevel
-Depends: qtbase5-dev (= ${binary:Version}), ${misc:Depends}
+Depends: libinput-dev [linux-any],
+         libxkbcommon-dev,
+         qtbase5-dev (= ${binary:Version}),
+         ${misc:Depends}
 Breaks: qtbase5-dev (<< 5.4.0+dfsg-6~)
 Replaces: qtbase5-dev (<< 5.4.0+dfsg-6~)
 Description: Qt 5 base private development files
