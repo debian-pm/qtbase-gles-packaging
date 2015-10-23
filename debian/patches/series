@@ -2,6 +2,9 @@
 Fix-compile-error-on-big-endian.patch
 set_positionautomatic.diff
 
+# To be forwarded upstream
+bsd_volumeinfo.diff
+
 # Debian specific.
 gnukfreebsd.diff
 no_htmlinfo_example.diff

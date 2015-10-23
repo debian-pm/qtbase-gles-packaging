@@ -6,6 +6,8 @@ qtbase-opensource-src (5.5.1+dfsg-3) UNRELEASED; urgency=medium
   * Make qtbase5-private-dev depend on libinput-dev and libxkbcommon-dev,
     as these packages are needed to link to libQt5PlatformSupport.a static
     library (closes: #802704).
+  * Add a patch to fix QStorageInfo implementation for BSD4 systems
+    (bsd_volumeinfo.diff), to fix the build failure on kfreebsd.
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Add qtwayland5 as a libqt5gui5 suggestion. We want people trying to
