@@ -1,13 +1,12 @@
-qtbase-opensource-src (5.5.1+dfsg-4) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.5.1+dfsg-4) unstable; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * Move libqt5xcbqpa5 from libqt5gui5's recommends to depends. Recommendations
     do not always get installed when the user is updating the packages, and so
     most of our users had a bad experience. We can consider to push it back as
     a recommendation after Stretch maybe (Closes: #802656).
   * Update symbols files with buildds' logs.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 23 Oct 2015 12:04:24 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Fri, 23 Oct 2015 13:25:32 -0300
 
 qtbase-opensource-src (5.5.1+dfsg-3) unstable; urgency=medium
 
