@@ -4,6 +4,9 @@ qtbase-opensource-src (5.5.1+dfsg-5) UNRELEASED; urgency=medium
   * Add upstream's set_WA_OutsideWSRange_for_native_widgets.patch
     to avoid invalidating the backing store (Closes: #798661).
 
+  [ Dmitry Shachnev ]
+  * Update symbols files from buildds’ logs.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 28 Oct 2015 09:54:53 -0300
 
 qtbase-opensource-src (5.5.1+dfsg-4) unstable; urgency=medium
