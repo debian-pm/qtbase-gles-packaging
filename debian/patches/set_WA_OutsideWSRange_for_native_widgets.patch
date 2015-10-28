@@ -15,11 +15,9 @@ Change-Id: I78ef29975181ee22429c9bd4b11d96d9e68b7a9c
  src/widgets/kernel/qwidget.cpp | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)
 
-diff --git a/src/widgets/kernel/qwidget.cpp b/src/widgets/kernel/qwidget.cpp
-index 7734715..4286130 100644
 --- a/src/widgets/kernel/qwidget.cpp
 +++ b/src/widgets/kernel/qwidget.cpp
-@@ -7169,7 +7169,7 @@ void QWidgetPrivate::setGeometry_sys(int x, int y, int w, int h, bool isMove)
+@@ -7149,7 +7149,7 @@
  
      bool needsShow = false;
  
@@ -28,6 +26,3 @@ index 7734715..4286130 100644
          if (!(data.window_state & Qt::WindowFullScreen) && (w == 0 || h == 0)) {
              q->setAttribute(Qt::WA_OutsideWSRange, true);
              if (q->isVisible() && q->testAttribute(Qt::WA_Mapped))
--- 
-2.1.4
-
