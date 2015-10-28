@@ -1,3 +1,7 @@
+qtbase-opensource-src (5.5.1+dfsg-5) UNRELEASED; urgency=medium
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 28 Oct 2015 09:54:53 -0300
+
 qtbase-opensource-src (5.5.1+dfsg-4) unstable; urgency=medium
 
   * Move libqt5xcbqpa5 from libqt5gui5's recommends to depends. Recommendations
