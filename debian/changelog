@@ -1,5 +1,10 @@
 qtbase-opensource-src (5.5.1+dfsg-5) UNRELEASED; urgency=medium
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Add upstream's
+    qtwidgets_do_not-hide_show_via_WA_OutsideWSRange_for_native_widgets.patch
+    to avoid invalidating the backing store (Closes: #798661).
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 28 Oct 2015 09:54:53 -0300
 
 qtbase-opensource-src (5.5.1+dfsg-4) unstable; urgency=medium

@@ -1,6 +1,7 @@
 # Backported stuff
 Fix-compile-error-on-big-endian.patch
 set_positionautomatic.diff
+qtwidgets_do_not-hide_show_via_WA_OutsideWSRange_for_native_widgets.patch
 
 # To be forwarded upstream
 bsd_volumeinfo.diff
