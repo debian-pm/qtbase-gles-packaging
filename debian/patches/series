@@ -5,6 +5,9 @@ set_WA_OutsideWSRange_for_native_widgets.patch
 bsd_volumeinfo.diff
 hurd_forkfd.diff
 
+# Will be no longer needed with Qt 5.7
+mips_no_atomic.diff
+
 # Debian specific.
 gnukfreebsd.diff
 no_htmlinfo_example.diff

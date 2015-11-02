@@ -4,6 +4,8 @@ qtbase-opensource-src (5.5.1+dfsg-6) UNRELEASED; urgency=medium
   * Drop hurd-forkfd.diff, we do not need to have two patches for the same
     thing (the second one is hurd_forkfd.diff).
   * Mark bsd_volumeinfo.diff and hurd_forkfd.diff as applied upstream.
+  * Disable broken MIPS atomics code, let Qt fall back to C++11/GCC atomics
+    (mips_no_atomic.diff).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 Nov 2015 21:08:40 +0300
 
