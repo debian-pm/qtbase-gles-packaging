@@ -1,13 +1,12 @@
-qtbase-opensource-src (5.5.1+dfsg-6) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.5.1+dfsg-6) unstable; urgency=medium
 
-  [ Dmitry Shachnev ]
   * Drop hurd-forkfd.diff, we do not need to have two patches for the same
     thing (the second one is hurd_forkfd.diff).
   * Mark bsd_volumeinfo.diff and hurd_forkfd.diff as applied upstream.
   * Disable broken MIPS atomics code, let Qt fall back to C++11/GCC atomics
     (mips_no_atomic.diff).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 Nov 2015 21:08:40 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Mon, 02 Nov 2015 10:30:14 +0300
 
 qtbase-opensource-src (5.5.1+dfsg-5) unstable; urgency=medium
 
