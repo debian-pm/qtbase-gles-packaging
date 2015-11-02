@@ -1,7 +1,6 @@
 Description: undef HAVE_WAITID if needed constants are not defined
-Author: Dmitry Shachnev <mitya57@debian.org>
-Forwarded: not-yet
-Last-Update: 2015-10-23
+Origin: upstream, http://code.qt.io/cgit/qt/qtbase.git/commit/?id=b7c4f15d6702941b
+Last-Update: 2015-11-02
 
 --- a/src/3rdparty/forkfd/forkfd.c
 +++ b/src/3rdparty/forkfd/forkfd.c
