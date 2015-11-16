@@ -4,6 +4,9 @@ qtbase-opensource-src (5.5.1+dfsg-7) UNRELEASED; urgency=medium
   * Backport upstream change (detect_64bit_atomic.diff) to auto-detect
     whether 64-bit std::atomic really works.
   * Mark mips_no_atomic.diff as applied upstream.
+  * Drop Fix-compile-error-on-big-endian.patch. The fix was applied upstream
+    in 5.5.1, and the refreshed version of that patch changes an unrelated
+    function.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 16 Nov 2015 20:54:27 +0300
 
