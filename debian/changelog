@@ -3,6 +3,7 @@ qtbase-opensource-src (5.5.1+dfsg-7) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * Backport upstream change (detect_64bit_atomic.diff) to auto-detect
     whether 64-bit std::atomic really works.
+  * Mark mips_no_atomic.diff as applied upstream.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 16 Nov 2015 20:54:27 +0300
 

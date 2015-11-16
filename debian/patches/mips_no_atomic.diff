@@ -1,16 +1,13 @@
 Description: let Qt fall back to C++11/GCC atomics for MIPS
- MIPS assembly code for testAndSetRelaxed is currently broken, and
- Thiago Macieira suggested that we should just let Qt fall back to
- C++11/GCC atomics.
+ The "previous" value is always 1 when the compare-and-swap succeeded,
+ instead of the previous value.
  .
- In Qt 5.7, all the processor-specific atomics will be removed, so
- we will be able to drop this patch.
- .
- See https://codereview.qt-project.org/121144 for details.
-Author: Dmitry Shachnev <mitya57@debian.org>
+ Instead of fixing this, let's just remove this file a bit earlier than
+ the rest. All of them will be removed in Qt 5.7 anyway, so let's leave
+ MIPS atomics to the compiler.
+Origin: upstream, http://code.qt.io/cgit/qt/qtbase.git/commit/?id=110a8c339fa078a4
 Bug: https://bugreports.qt.io/browse/QTBUG-49168
-Forwarded: not-needed
-Last-Update: 2015-11-02
+Last-Update: 2015-11-16
 
 --- a/src/corelib/thread/qbasicatomic.h
 +++ b/src/corelib/thread/qbasicatomic.h
