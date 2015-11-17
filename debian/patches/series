@@ -5,6 +5,8 @@ bsd_volumeinfo.diff
 hurd_forkfd.diff
 mips_no_atomic.diff
 detect_64bit_atomic.diff
+qnetworkreply_abort_socket.diff
+qnetworkaccessmanager_accessibility.diff
 
 # Debian specific.
 gnukfreebsd.diff
