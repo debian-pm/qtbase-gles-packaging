@@ -1,13 +1,12 @@
-qtbase-opensource-src (5.5.1+dfsg-8) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.5.1+dfsg-8) unstable; urgency=medium
 
-  [ Dmitry Shachnev ]
   * Backport two upstream patches fix some issues with QNetworkAccessManager:
     - qnetworkaccessmanager_accessibility.diff to fix upstream QTBUG-46323.
     - qnetworkreply_abort_socket.diff to fix upstream QTBUG-47471.
     Closes: #804883. Thanks to Soeren D. Schulze for the bug report and to
     Gaudenz Steinlin for pointing me to the patches.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 17 Nov 2015 15:12:51 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Tue, 17 Nov 2015 16:18:39 +0300
 
 qtbase-opensource-src (5.5.1+dfsg-7) unstable; urgency=medium
 
