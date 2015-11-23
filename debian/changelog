@@ -1,3 +1,8 @@
+qtbase-opensource-src (5.5.1+dfsg-9) UNRELEASED; urgency=medium
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 23 Nov 2015 15:58:24 +0300
+
 qtbase-opensource-src (5.5.1+dfsg-8) unstable; urgency=medium
 
   * Backport two upstream patches fix some issues with QNetworkAccessManager:
