@@ -1,5 +1,8 @@
 qtbase-opensource-src (5.5.1+dfsg-9) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Backport upstream patch to make uic generate correct include paths for
+    QValidator-derived classes (uic_qvalidator_qtgui.diff; closes: #800375).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 23 Nov 2015 15:58:24 +0300
 
