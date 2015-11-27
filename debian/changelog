@@ -2,6 +2,12 @@ qtbase-opensource-src (5.5.1+dfsg-15) UNRELEASED; urgency=medium
 
   * Backport XCB patch related to screen disconnection handling QTBUG-42985:
     - xcb-fix-yet-another-crash-when-screens-are-disconnec.patch
+  * debian/patches/Prefer-QT_PLUGIN_PATH-over-compiled-in-paths.patch:
+    - Backport. Prefer QT_PLUGIN_PATH over compiled-in paths (LP: #1519927)
+  * Fix Chinese glyph font rendering with new backported upstream patches:
+    - debian/patches/Fix-falsely-reported-style-for-fallback-font.patch
+    - debian/patches/Remove-historical-4-padding-in-QFontEngine-alphaMapF.patch
+      (LP: #1475205)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 17 Feb 2016 10:15:48 +0000
 
