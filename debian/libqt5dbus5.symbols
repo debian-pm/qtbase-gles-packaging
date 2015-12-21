@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.5.1 alpha amd64 arm64 armel armhf hppa hurd-i386 i386 kfreebsd-i386 mips64el powerpc ppc64 ppc64el s390x x32
+# SymbolsHelper-Confirmed: 5.5.1 alpha amd64 arm64 armel armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips64el powerpc ppc64 ppc64el s390x sparc64 x32
 libQt5DBus.so.5 libqt5dbus5 #MINVER#
 | libqt5dbus5 #MINVER#, qtbase-abi-5-5-1
  _Z14qDBusReplyFillRK12QDBusMessageR10QDBusErrorR8QVariant@Base 5.0.2
@@ -374,7 +374,7 @@ libQt5DBus.so.5 libqt5dbus5 #MINVER#
  _ZNK24QDBusConnectionInterface12serviceOwnerERK7QString@Base 5.0.2
  _ZNK24QDBusConnectionInterface19isServiceRegisteredERK7QString@Base 5.0.2
  _ZNK24QDBusConnectionInterface22registeredServiceNamesEv@Base 5.0.2
- (optional=templinst|arch=!alpha !amd64 !arm64 !hppa !mips64el !ppc64 !ppc64el !s390x !x32)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 5.5.1
+ (optional=templinst|arch=!alpha !amd64 !arm64 !hppa !kfreebsd-amd64 !mips64el !ppc64 !ppc64el !s390x !sparc64 !x32)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 5.5.1
  _ZTI11QDBusServer@Base 5.0.2
  _ZTI14QDBusInterface@Base 5.0.2
  _ZTI16QDBusPendingCall@Base 5.0.2
