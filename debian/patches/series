@@ -8,6 +8,7 @@ detect_64bit_atomic.diff
 qnetworkreply_abort_socket.diff
 qnetworkaccessmanager_accessibility.diff
 uic_qvalidator_qtgui.diff
+Fix-crash-on-exit-caused-by-QStringLiterals.patch
 
 # Debian specific.
 gnukfreebsd.diff
