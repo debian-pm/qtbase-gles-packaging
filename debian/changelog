@@ -1,4 +1,4 @@
-qtbase-opensource-src (5.5.1+dfsg-9) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.5.1+dfsg-9) unstable; urgency=medium
 
   [ Dmitry Shachnev ]
   * Backport upstream patch to make uic generate correct include paths for
@@ -9,7 +9,7 @@ qtbase-opensource-src (5.5.1+dfsg-9) UNRELEASED; urgency=medium
     (Closes: #808287).
   * Update symbols files with buildds' logs.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 23 Nov 2015 15:58:24 +0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 21 Dec 2015 12:35:25 -0300
 
 qtbase-opensource-src (5.5.1+dfsg-8) unstable; urgency=medium
 
