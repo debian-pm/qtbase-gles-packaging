@@ -3,6 +3,8 @@ qtbase-opensource-src (5.5.1+dfsg-10) UNRELEASED; urgency=medium
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Demote libqt5gui5's dependency on libqt5xcbqpa5 to a recommendation,
     solving a circular dependency (Closes: #808607).
+  * Update libqt5xcbqpa5's description to suggest a dependency on this lib
+    for apps that can only run on X.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 22 Dec 2015 10:06:53 -0300
 

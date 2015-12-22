@@ -320,6 +320,8 @@ Description: Qt 5 XCB platform module
  is its rich set of widgets that provide standard GUI functionality.
  .
  This module provides XCB integration used on regular desktop Linux platforms.
+ Applications that can't work in anything but X should consider depending on
+ this lib.
 
 Package: qtbase5-dev
 Architecture: any
