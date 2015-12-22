@@ -157,7 +157,7 @@ Forwarded: no
 +#endif // QPLATFORMDEFS_H
 --- a/mkspecs/features/qt_functions.prf
 +++ b/mkspecs/features/qt_functions.prf
-@@ -273,6 +273,8 @@ defineTest(qtAddTargetEnv) {
+@@ -126,6 +126,8 @@
              deppath.name = PATH
          } else:contains(QMAKE_HOST.os, Linux|FreeBSD|OpenBSD|NetBSD|DragonFly|SunOS|HP-UX|QNX|GNU) {
              deppath.name = LD_LIBRARY_PATH

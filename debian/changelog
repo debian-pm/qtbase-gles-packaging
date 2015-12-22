@@ -4,6 +4,18 @@ qtbase-opensource-src (5.6.0~beta+dfsg-1) UNRELEASED; urgency=medium
   * New upstream beta release.
   * Update debian/watch to track experimental releases (needs to be reverted
     before uploading 5.6.0 final).
+  * Drop the following patches, all are applied upstream:
+    - set_positionautomatic.diff
+    - set_WA_OutsideWSRange_for_native_widgets.patch
+    - bsd_volumeinfo.diff
+    - hurd_forkfd.diff
+    - mips_no_atomic.diff
+    - detect_64bit_atomic.diff
+    - qnetworkreply_abort_socket.diff
+    - qnetworkaccessmanager_accessibility.diff
+    - uic_qvalidator_qtgui.diff
+    - Fix-crash-on-exit-caused-by-QStringLiterals.patch
+  * Refresh debian/patches/gnukfreebsd.diff.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 22 Dec 2015 15:58:40 +0300
 
