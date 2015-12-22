@@ -89,8 +89,8 @@ Package: libqt5gui5
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
-Depends: fontconfig, libqt5xcbqpa5, ${misc:Depends}, ${shlibs:Depends}
-Recommends: libqt5svg5
+Depends: fontconfig, ${misc:Depends}, ${shlibs:Depends}
+Recommends: libqt5svg5, libqt5xcbqpa5
 Suggests: libqt5libqgtk2, qt5-image-formats-plugins, qtwayland5
 Description: Qt 5 GUI module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -320,6 +320,8 @@ Description: Qt 5 XCB platform module
  is its rich set of widgets that provide standard GUI functionality.
  .
  This module provides XCB integration used on regular desktop Linux platforms.
+ Applications that can't work in anything but X should consider depending on
+ this lib.
 
 Package: qtbase5-dev
 Architecture: any
