@@ -19,6 +19,7 @@ qtbase-opensource-src (5.6.0~beta+dfsg-1) UNRELEASED; urgency=medium
 
   [ Diane Trout ]
   * Disable building docs.
+  * Disable tests.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 22 Dec 2015 15:58:40 +0300
 
