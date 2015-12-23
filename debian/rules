@@ -322,7 +322,9 @@ override_dh_installdocs:
 	dh_installdocs --all LGPL_EXCEPTION.txt
 
 override_dh_installchangelogs:
-	dh_installchangelogs $(upstream_changes)
+	if [ -f $(upstream_changes) ] ; then \
+		dh_installchangelogs $(upstream_changes); \
+	fi
 
 override_dh_strip:
 	dh_strip -pqtbase5-examples --dbg-package=qtbase5-examples-dbg
