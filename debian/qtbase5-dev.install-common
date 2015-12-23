@@ -164,9 +164,6 @@ usr/include/*/qt5/QtCore/QMetaMethod
 usr/include/*/qt5/QtCore/QMetaObject
 usr/include/*/qt5/QtCore/QMetaProperty
 usr/include/*/qt5/QtCore/QMetaType
-usr/include/*/qt5/QtCore/QMetaTypeId
-usr/include/*/qt5/QtCore/QMetaTypeId2
-usr/include/*/qt5/QtCore/QMetaTypeIdQObject
 usr/include/*/qt5/QtCore/QMimeData
 usr/include/*/qt5/QtCore/QMimeDatabase
 usr/include/*/qt5/QtCore/QMimeType
