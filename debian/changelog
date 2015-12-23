@@ -17,6 +17,9 @@ qtbase-opensource-src (5.6.0~beta+dfsg-1) UNRELEASED; urgency=medium
     - Fix-crash-on-exit-caused-by-QStringLiterals.patch
   * Refresh debian/patches/gnukfreebsd.diff.
 
+  [ Diane Trout ]
+  * Disable building docs.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 22 Dec 2015 15:58:40 +0300
 
 qtbase-opensource-src (5.5.1+dfsg-10) unstable; urgency=medium

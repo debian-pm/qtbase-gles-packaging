@@ -214,11 +214,11 @@ ifeq ($(vendor),Ubuntu)
 	rm -rf po
 endif
 
-override_dh_auto_build-indep:
-	cd $(CURDIR)/src; ../bin/qmake; make sub-qdoc
-	cd $(CURDIR)/src/corelib; ../../bin/qmake
-	cd $(CURDIR)/src/xml; ../../bin/qmake
-	dh_auto_build -Smakefile -- html_docs
+#override_dh_auto_build-indep:
+#	cd $(CURDIR)/src; ../bin/qmake; make sub-tools
+#	cd $(CURDIR)/src/corelib; ../../bin/qmake
+#	cd $(CURDIR)/src/xml; ../../bin/qmake
+#	dh_auto_build -Smakefile -- html_docs
 
 override_dh_auto_build-arch:
 	# Bootstrap corelibs in order to be able to build the helper tools to
@@ -291,11 +291,11 @@ endif
 		-regex '.*\.\(app\|conf\|cpp\|h\|js\|php\|png\|pro\|xml\|xsl\)$$' \
 		-exec chmod a-x {} \;
 
-override_dh_auto_install-indep:
-	make INSTALL_ROOT=$(CURDIR)/debian/tmp install_html_docs
-	# Docs are shipping empty directories, most probably for scripts only present
-	# when building online-html. See QTBUG-44655.
-	find $(CURDIR)/debian/tmp/usr/share/qt5/doc/ -type d -empty -delete -print
+#override_dh_auto_install-indep:
+#	make INSTALL_ROOT=$(CURDIR)/debian/tmp install_html_docs
+#	# Docs are shipping empty directories, most probably for scripts only present
+#	# when building online-html. See QTBUG-44655.
+#	find $(CURDIR)/debian/tmp/usr/share/qt5/doc/ -type d -empty -delete -print
 
 override_dh_install:
 	# Now flush all the .install-* files as .install files.

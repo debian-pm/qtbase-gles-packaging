@@ -501,14 +501,14 @@ Description: Qt 5 development defaults package
  look at http://pkg-kde.alioth.debian.org/packagingqtstuff.html for
  more information.
 
-Package: qtbase5-doc-html
-Priority: extra
-Architecture: all
-Section: doc
-Depends: ${misc:Depends}
-Description: Qt 5 base HTML documentation
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This package contains the HTML documentation for the Qt 5 base
- libraries.
+#Package: qtbase5-doc-html
+#Priority: extra
+#Architecture: all
+#Section: doc
+#Depends: ${misc:Depends}
+#Description: Qt 5 base HTML documentation
+# Qt is a cross-platform C++ application framework. Qt's primary feature
+# is its rich set of widgets that provide standard GUI functionality.
+# .
+# This package contains the HTML documentation for the Qt 5 base
+# libraries.
