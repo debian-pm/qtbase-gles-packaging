@@ -231,9 +231,6 @@ override_dh_auto_build-arch:
 	dbus-run-session make clean
 	dh_auto_build
 
-#override_dh_auto_test:
-#	dbus-run-session dbus_auto_test
-
 override_dh_auto_install-arch:
 	dh_auto_install -Smakefile -- INSTALL_ROOT=$(CURDIR)/debian/tmp/
 
