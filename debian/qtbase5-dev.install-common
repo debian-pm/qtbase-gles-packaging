@@ -349,7 +349,6 @@ usr/include/*/qt5/QtCore/qatomic_bootstrap.h
 usr/include/*/qt5/QtCore/qatomic_cxx11.h
 usr/include/*/qt5/QtCore/qatomic_gcc.h
 usr/include/*/qt5/QtCore/qatomic_ia64.h
-# usr/include/*/qt5/QtCore/qatomic_mips.h
 usr/include/*/qt5/QtCore/qatomic_msvc.h
 usr/include/*/qt5/QtCore/qatomic_unix.h
 usr/include/*/qt5/QtCore/qatomic_x86.h
