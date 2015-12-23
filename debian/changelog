@@ -27,6 +27,7 @@ qtbase-opensource-src (5.6.0~beta+dfsg-1) UNRELEASED; urgency=medium
   * Comment out missing pkg-config files.
   * Add new documentation resources.
   * Comment out qatomic_mips.h in case it was added by a debian patch.
+  * Remove qdoc from qtbase5-dev-tools.install as it appears to be missing.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 22 Dec 2015 15:58:40 +0300
 
