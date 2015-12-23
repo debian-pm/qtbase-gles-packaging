@@ -1627,6 +1627,7 @@ usr/share/qt5/doc/global/macros.qdocconf
 usr/share/qt5/doc/global/manifest-meta.qdocconf
 usr/share/qt5/doc/global/qt-cpp-defines.qdocconf
 usr/share/qt5/doc/global/qt-html-templates-offline.qdocconf
+usr/share/qt5/doc/global/qt-html-templates-offline-simple.qdocconf
 usr/share/qt5/doc/global/qt-html-templates-online.qdocconf
 usr/share/qt5/doc/global/qt-module-defaults-offline.qdocconf
 usr/share/qt5/doc/global/qt-module-defaults-online-commercial.qdocconf
@@ -1678,6 +1679,8 @@ usr/share/qt5/doc/global/template/style/icomoon.svg
 usr/share/qt5/doc/global/template/style/icomoon.ttf
 usr/share/qt5/doc/global/template/style/icomoon.woff
 usr/share/qt5/doc/global/template/style/list_arrow.png
+usr/share/qt5/doc/global/template/style/list_expand.png
 usr/share/qt5/doc/global/template/style/offline.css
+usr/share/qt5/doc/global/template/style/offline-simple.css
 usr/share/qt5/doc/global/template/style/online.css
 usr/share/qt5/doc/global/template/style/theqtcompany.png
