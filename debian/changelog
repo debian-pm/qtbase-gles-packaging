@@ -29,7 +29,6 @@ qtbase-opensource-src (5.6.0~beta+dfsg-1) UNRELEASED; urgency=medium
   * Comment out qatomic_mips.h in case it was added by a debian patch.
   * Remove qdoc from qtbase5-dev-tools.install as it appears to be missing.
   * Add fixqt4headers.pl to qtbase5-dev-tools.install
-    (Does it need to be shipped?)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 22 Dec 2015 15:58:40 +0300
 
