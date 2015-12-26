@@ -333,7 +333,7 @@ override_dh_makeshlibs:
 	dh_makeshlibs -V
 
 	# Check for private symbols not marked as such. Be verbose.
-	pkgkde-mark-private-symbols debian/qtbase5-private-dev/usr/include
+	./debian/scripts/mark-private-symbols.py
 
 override_dh_clean:
 	dh_clean

@@ -62,6 +62,7 @@ Build-Depends: debhelper (>= 9),
                libxrender-dev,
                pkg-kde-tools (>= 0.15.17),
                publicsuffix,
+               python3,
                unixodbc-dev,
                zlib1g-dev
 Build-Conflicts: libmariadbclient-dev
