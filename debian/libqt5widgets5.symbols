@@ -1,6 +1,15 @@
-# SymbolsHelper-Confirmed: 5.5.0 amd64 arm64 powerpc ppc64el s390x
+# SymbolsHelper-Confirmed: 5.6.0~beta amd64
 libQt5Widgets.so.5 libqt5widgets5 #MINVER#
 | libqt5widgets5 #MINVER#, qtbase-abi-5-5-1
+ Qt_5.0@Qt_5.0 5.6.0~beta
+ Qt_5.1@Qt_5.1 5.6.0~beta
+ Qt_5.2@Qt_5.2 5.6.0~beta
+ Qt_5.3@Qt_5.3 5.6.0~beta
+ Qt_5.4@Qt_5.4 5.6.0~beta
+ Qt_5.5@Qt_5.5 5.6.0~beta
+ Qt_5.6@Qt_5.6 5.6.0~beta
+ Qt_5@Qt_5 5.6.0~beta
+ Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0~beta
  _Z11qFadeEffectP7QWidgeti@Qt_5 5.0.2
  _Z12qt_blurImageP8QPainterR6QImagedbbi@Qt_5 5.2.0
  _Z12qt_blurImageR6QImagedbi@Qt_5 5.2.0
@@ -403,6 +412,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN11QFileDialog18setResolveSymlinksEb@Qt_5 5.0.2
  _ZN11QFileDialog19directoryUrlEnteredERK4QUrl@Qt_5 5.2.0~alpha1
  _ZN11QFileDialog19setConfirmOverwriteEb@Qt_5 5.0.2
+ _ZN11QFileDialog19setSupportedSchemesERK11QStringList@Qt_5 5.6.0~beta
  _ZN11QFileDialog20getExistingDirectoryEP7QWidgetRK7QStringS4_6QFlagsINS_6OptionEE@Qt_5 5.0.2
  _ZN11QFileDialog20selectMimeTypeFilterERK7QString@Qt_5 5.2.0~alpha1
  _ZN11QFileDialog23getExistingDirectoryUrlEP7QWidgetRK7QStringRK4QUrl6QFlagsINS_6OptionEERK11QStringList@Qt_5 5.2.0~alpha1
@@ -657,6 +667,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN11QMainWindow10setMenuBarEP8QMenuBar@Qt_5 5.0.2
  _ZN11QMainWindow11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.0.2
  _ZN11QMainWindow11qt_metacastEPKc@Qt_5 5.0.2
+ _ZN11QMainWindow11resizeDocksERK5QListIP11QDockWidgetERKS0_IiEN2Qt11OrientationE@Qt_5 5.6.0~beta
  _ZN11QMainWindow11setAnimatedEb@Qt_5 5.0.2
  _ZN11QMainWindow11setIconSizeERK5QSize@Qt_5 5.0.2
  _ZN11QMainWindow11setTabShapeEN10QTabWidget8TabShapeE@Qt_5 5.0.2
@@ -1384,6 +1395,13 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN13QFontComboBoxD0Ev@Qt_5 5.0.2
  _ZN13QFontComboBoxD1Ev@Qt_5 5.0.2
  _ZN13QFontComboBoxD2Ev@Qt_5 5.0.2
+ _ZN13QFramePrivate16updateFrameWidthEv@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN13QFramePrivate23updateStyledFrameWidthsEv@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN13QFramePrivateC1Ev@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN13QFramePrivateC2Ev@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN13QFramePrivateD0Ev@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN13QFramePrivateD1Ev@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN13QFramePrivateD2Ev@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN13QGestureEvent11setAcceptedEN2Qt11GestureTypeEb@Qt_5 5.0.2
  _ZN13QGestureEvent11setAcceptedEP8QGestureb@Qt_5 5.0.2
  _ZN13QGestureEvent6acceptEN2Qt11GestureTypeE@Qt_5 5.0.2
@@ -1721,6 +1739,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN14QDesktopWidget15workAreaResizedEi@Qt_5 5.0.2
  _ZN14QDesktopWidget16staticMetaObjectE@Qt_5 5.0.2
  _ZN14QDesktopWidget18screenCountChangedEi@Qt_5 5.0.2
+ _ZN14QDesktopWidget20primaryScreenChangedEv@Qt_5 5.6.0~beta
  _ZN14QDesktopWidget6screenEi@Qt_5 5.0.2
  _ZN14QDesktopWidget7resizedEi@Qt_5 5.0.2
  _ZN14QDesktopWidgetC1Ev@Qt_5 5.0.2
@@ -2770,6 +2789,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN17QDockWidgetLayout16setWidgetForRoleENS_4RoleEP7QWidget@Qt_5_PRIVATE_API 5.0.2 1
  _ZN17QDockWidgetLayout16staticMetaObjectE@Qt_5_PRIVATE_API 5.0.2 1
  _ZN17QDockWidgetLayout19setVerticalTitleBarEb@Qt_5_PRIVATE_API 5.0.2 1
+ _ZN17QDockWidgetLayout26wmSupportsNativeWindowDecoEv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN17QDockWidgetLayout6takeAtEi@Qt_5_PRIVATE_API 5.0.2 1
  _ZN17QDockWidgetLayout7addItemEP11QLayoutItem@Qt_5_PRIVATE_API 5.0.2 1
  _ZN17QDockWidgetLayoutC1EP7QWidget@Qt_5_PRIVATE_API 5.0.2 1
@@ -3192,7 +3212,6 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN19QApplicationPrivate13active_windowE@Qt_5_PRIVATE_API 5.0.2 1
  _ZN19QApplicationPrivate13notify_helperEP7QObjectP6QEvent@Qt_5_PRIVATE_API 5.0.2 1
  _ZN19QApplicationPrivate13setSystemFontERK5QFont@Qt_5_PRIVATE_API 5.0.2 1
- _ZN19QApplicationPrivate13styleOverrideE@Base 5.0.2
  _ZN19QApplicationPrivate14autoSipEnabledE@Qt_5_PRIVATE_API 5.0.2 1
  _ZN19QApplicationPrivate14sendMouseEventEP7QWidgetP11QMouseEventS1_S1_PS1_R8QPointerIS0_Eb@Qt_5_PRIVATE_API 5.0.2 1
  _ZN19QApplicationPrivate14setFocusWidgetEP7QWidgetN2Qt11FocusReasonE@Qt_5_PRIVATE_API 5.0.2 1
@@ -3510,6 +3529,9 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN20QGraphicsViewPrivate28updateInputMethodSensitivityEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZN20QGraphicsViewPrivateC1Ev@Qt_5_PRIVATE_API 5.0.2 1
  _ZN20QGraphicsViewPrivateC2Ev@Qt_5_PRIVATE_API 5.0.2 1
+ _ZN20QGraphicsViewPrivateD0Ev@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN20QGraphicsViewPrivateD1Ev@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN20QGraphicsViewPrivateD2Ev@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN20QStyleHintReturnMaskC1Ev@Qt_5 5.0.2
  _ZN20QStyleHintReturnMaskC2Ev@Qt_5 5.0.2
  _ZN20QStyleHintReturnMaskD1Ev@Qt_5 5.0.2
@@ -3636,6 +3658,9 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN21QStyleOptionFocusRectC1Ev@Qt_5 5.0.2
  _ZN21QStyleOptionFocusRectC2Ei@Qt_5 5.0.2
  _ZN21QStyleOptionFocusRectC2Ev@Qt_5 5.0.2
+ _ZN22QGraphicsEffectPrivateD0Ev@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN22QGraphicsEffectPrivateD1Ev@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN22QGraphicsEffectPrivateD2Ev@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN22QGraphicsItemAnimation10setScaleAtEddd@Qt_5 5.2.0
  _ZN22QGraphicsItemAnimation10setShearAtEddd@Qt_5 5.2.0
  _ZN22QGraphicsItemAnimation11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.0.2
@@ -3850,6 +3875,11 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN25QGraphicsSceneResizeEventD0Ev@Qt_5 5.0.2
  _ZN25QGraphicsSceneResizeEventD1Ev@Qt_5 5.0.2
  _ZN25QGraphicsSceneResizeEventD2Ev@Qt_5 5.0.2
+ _ZN25QGraphicsTransformPrivate10updateItemEP13QGraphicsItem@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN25QGraphicsTransformPrivate7setItemEP13QGraphicsItem@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN25QGraphicsTransformPrivateD0Ev@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN25QGraphicsTransformPrivateD1Ev@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN25QGraphicsTransformPrivateD2Ev@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN26QAbstractGraphicsShapeItem6setPenERK4QPen@Qt_5 5.0.2
  _ZN26QAbstractGraphicsShapeItem8setBrushERK6QBrush@Qt_5 5.0.2
  _ZN26QAbstractGraphicsShapeItemC1EP13QGraphicsItem@Qt_5 5.0.2
@@ -3870,6 +3900,9 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN26QAbstractScrollAreaPrivate9_q_vslideEi@Qt_5_PRIVATE_API 5.0.2 1
  _ZN26QAbstractScrollAreaPrivateC1Ev@Qt_5_PRIVATE_API 5.0.2 1
  _ZN26QAbstractScrollAreaPrivateC2Ev@Qt_5_PRIVATE_API 5.0.2 1
+ _ZN26QAbstractScrollAreaPrivateD0Ev@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN26QAbstractScrollAreaPrivateD1Ev@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN26QAbstractScrollAreaPrivateD2Ev@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN26QStyleOptionTabWidgetFrameC1Ei@Qt_5 5.0.2
  _ZN26QStyleOptionTabWidgetFrameC1Ev@Qt_5 5.0.2
  _ZN26QStyleOptionTabWidgetFrameC2Ei@Qt_5 5.0.2
@@ -4867,6 +4900,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN9QListView10paintEventEP11QPaintEvent@Qt_5 5.0.2
  _ZN9QListView10setSpacingEi@Qt_5 5.0.2
  _ZN9QListView10timerEventEP11QTimerEvent@Qt_5 5.0.2
+ _ZN9QListView10wheelEventEP11QWheelEvent@Qt_5 5.6.0~beta
  _ZN9QListView11dataChangedERK11QModelIndexS2_RK7QVectorIiE@Qt_5 5.0.2
  _ZN9QListView11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.0.2
  _ZN9QListView11qt_metacastEPKc@Qt_5 5.0.2
@@ -5369,6 +5403,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK11QFileDialog15mimeTypeFiltersEv@Qt_5 5.2.0~alpha1
  _ZNK11QFileDialog15resolveSymlinksEv@Qt_5 5.0.2
  _ZNK11QFileDialog16confirmOverwriteEv@Qt_5 5.0.2
+ _ZNK11QFileDialog16supportedSchemesEv@Qt_5 5.6.0~beta
  _ZNK11QFileDialog18selectedNameFilterEv@Qt_5 5.0.2
  _ZNK11QFileDialog26isNameFilterDetailsVisibleEv@Qt_5 5.0.2
  _ZNK11QFileDialog6filterEv@Qt_5 5.0.2
@@ -6335,6 +6370,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK16QFileSystemModel5isDirERK11QModelIndex@Qt_5 5.0.2
  _ZNK16QFileSystemModel6filterEv@Qt_5 5.0.2
  _ZNK16QFileSystemModel6parentERK11QModelIndex@Qt_5 5.0.2
+ _ZNK16QFileSystemModel8fileInfoERK11QModelIndex@Qt_5 5.6.0~beta
  _ZNK16QFileSystemModel8filePathERK11QModelIndex@Qt_5 5.0.2
  _ZNK16QFileSystemModel8mimeDataERK5QListI11QModelIndexE@Qt_5 5.0.2
  _ZNK16QFileSystemModel8rootPathEv@Qt_5 5.0.2
@@ -7503,6 +7539,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZTI13QErrorMessage@Qt_5 5.0.2
  _ZTI13QFlickGesture@Qt_5_PRIVATE_API 5.0.2 1
  _ZTI13QFontComboBox@Qt_5 5.0.2
+ _ZTI13QFramePrivate@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTI13QGestureEvent@Qt_5 5.0.2
  _ZTI13QGraphicsItem@Qt_5 5.0.2
  _ZTI13QGraphicsView@Qt_5 5.0.2
@@ -7592,7 +7629,6 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZTI22QGraphicsItemAnimation@Qt_5 5.0.2
  _ZTI22QGraphicsOpacityEffect@Qt_5 5.0.2
  _ZTI22QItemEditorCreatorBase@Qt_5 5.0.2
- _ZTI23QEventTransitionPrivate@Qt_5_PRIVATE_API 5.0.2 1
  _ZTI23QGraphicsColorizeEffect@Qt_5 5.0.2
  _ZTI23QGraphicsSceneHelpEvent@Qt_5 5.0.2
  _ZTI23QGraphicsSceneMoveEvent@Qt_5 5.0.2
@@ -7604,27 +7640,13 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZTI24QGraphicsSceneWheelEvent@Qt_5 5.0.2
  _ZTI24QPixmapConvolutionFilter@Qt_5_PRIVATE_API 5.0.2 1
  _ZTI24QPlainTextDocumentLayout@Qt_5 5.0.2
- _ZTI25QAbstractItemModelPrivate@Qt_5_PRIVATE_API 5.0.2 1
- _ZTI25QAccessibleImageInterface@Qt_5 5.4.0
- _ZTI25QAccessibleTableInterface@Qt_5 5.4.0
- _ZTI25QAccessibleValueInterface@Qt_5 5.4.0
  _ZTI25QGraphicsDropShadowEffect@Qt_5 5.0.2
  _ZTI25QGraphicsSceneResizeEvent@Qt_5 5.0.2
- _ZTI25QOpenGLPaintDevicePrivate@Qt_5_PRIVATE_API 5.4.0 1
+ _ZTI25QGraphicsTransformPrivate@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTI26QAbstractGraphicsShapeItem@Qt_5 5.0.2
  _ZTI26QAbstractScrollAreaPrivate@Qt_5_PRIVATE_API 5.0.2 1
- _ZTI26QAccessibleTextCursorEvent@Qt_5 5.0.2
- _ZTI26QAccessibleTextInsertEvent@Qt_5 5.0.2
- _ZTI26QAccessibleTextRemoveEvent@Qt_5 5.0.2
- _ZTI26QAccessibleTextUpdateEvent@Qt_5 5.0.2
- _ZTI27QAccessibleStateChangeEvent@Qt_5 5.0.2
- _ZTI27QAccessibleValueChangeEvent@Qt_5 5.0.2
  _ZTI27QGraphicsSceneDragDropEvent@Qt_5 5.0.2
- _ZTI29QAccessibleTableCellInterface@Qt_5 5.4.0
- _ZTI29QAccessibleTextSelectionEvent@Qt_5 5.0.2
  _ZTI30QGraphicsSceneContextMenuEvent@Qt_5 5.0.2
- _ZTI32QAccessibleEditableTextInterface@Qt_5 5.4.0
- _ZTI32QAccessibleTableModelChangeEvent@Qt_5 5.0.2
  _ZTI5QDial@Qt_5 5.0.2
  _ZTI5QMenu@Qt_5 5.0.2
  _ZTI6QFrame@Qt_5 5.0.2
@@ -7710,6 +7732,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZTS13QErrorMessage@Qt_5 5.0.2
  _ZTS13QFlickGesture@Qt_5_PRIVATE_API 5.0.2 1
  _ZTS13QFontComboBox@Qt_5 5.0.2
+ _ZTS13QFramePrivate@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTS13QGestureEvent@Qt_5 5.0.2
  _ZTS13QGraphicsItem@Qt_5 5.0.2
  _ZTS13QGraphicsView@Qt_5 5.0.2
@@ -7799,7 +7822,6 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZTS22QGraphicsItemAnimation@Qt_5 5.0.2
  _ZTS22QGraphicsOpacityEffect@Qt_5 5.0.2
  _ZTS22QItemEditorCreatorBase@Qt_5 5.0.2
- _ZTS23QEventTransitionPrivate@Qt_5_PRIVATE_API 5.0.2 1
  _ZTS23QGraphicsColorizeEffect@Qt_5 5.0.2
  _ZTS23QGraphicsSceneHelpEvent@Qt_5 5.0.2
  _ZTS23QGraphicsSceneMoveEvent@Qt_5 5.0.2
@@ -7811,27 +7833,13 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZTS24QGraphicsSceneWheelEvent@Qt_5 5.0.2
  _ZTS24QPixmapConvolutionFilter@Qt_5_PRIVATE_API 5.0.2 1
  _ZTS24QPlainTextDocumentLayout@Qt_5 5.0.2
- _ZTS25QAbstractItemModelPrivate@Qt_5_PRIVATE_API 5.0.2 1
- _ZTS25QAccessibleImageInterface@Qt_5 5.4.0
- _ZTS25QAccessibleTableInterface@Qt_5 5.4.0
- _ZTS25QAccessibleValueInterface@Qt_5 5.4.0
  _ZTS25QGraphicsDropShadowEffect@Qt_5 5.0.2
  _ZTS25QGraphicsSceneResizeEvent@Qt_5 5.0.2
- _ZTS25QOpenGLPaintDevicePrivate@Qt_5_PRIVATE_API 5.4.0 1
+ _ZTS25QGraphicsTransformPrivate@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTS26QAbstractGraphicsShapeItem@Qt_5 5.0.2
  _ZTS26QAbstractScrollAreaPrivate@Qt_5_PRIVATE_API 5.0.2 1
- _ZTS26QAccessibleTextCursorEvent@Qt_5 5.0.2
- _ZTS26QAccessibleTextInsertEvent@Qt_5 5.0.2
- _ZTS26QAccessibleTextRemoveEvent@Qt_5 5.0.2
- _ZTS26QAccessibleTextUpdateEvent@Qt_5 5.0.2
- _ZTS27QAccessibleStateChangeEvent@Qt_5 5.0.2
- _ZTS27QAccessibleValueChangeEvent@Qt_5 5.0.2
  _ZTS27QGraphicsSceneDragDropEvent@Qt_5 5.0.2
- _ZTS29QAccessibleTableCellInterface@Qt_5 5.4.0
- _ZTS29QAccessibleTextSelectionEvent@Qt_5 5.0.2
  _ZTS30QGraphicsSceneContextMenuEvent@Qt_5 5.0.2
- _ZTS32QAccessibleEditableTextInterface@Qt_5 5.4.0
- _ZTS32QAccessibleTableModelChangeEvent@Qt_5 5.0.2
  _ZTS5QDial@Qt_5 5.0.2
  _ZTS5QMenu@Qt_5 5.0.2
  _ZTS6QFrame@Qt_5 5.0.2
@@ -7917,6 +7925,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZTV13QErrorMessage@Qt_5 5.0.2
  _ZTV13QFlickGesture@Qt_5_PRIVATE_API 5.0.2 1
  _ZTV13QFontComboBox@Qt_5 5.0.2
+ _ZTV13QFramePrivate@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTV13QGestureEvent@Qt_5 5.0.2
  _ZTV13QGraphicsItem@Qt_5 5.0.2
  _ZTV13QGraphicsView@Qt_5 5.0.2
@@ -8016,22 +8025,13 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZTV24QGraphicsSceneWheelEvent@Qt_5 5.0.2
  _ZTV24QPixmapConvolutionFilter@Qt_5_PRIVATE_API 5.0.2 1
  _ZTV24QPlainTextDocumentLayout@Qt_5 5.0.2
- _ZTV25QAbstractItemModelPrivate@Qt_5_PRIVATE_API 5.0.2 1
- _ZTV25QAccessibleTableInterface@Qt_5 5.4.0
  _ZTV25QGraphicsDropShadowEffect@Qt_5 5.0.2
  _ZTV25QGraphicsSceneResizeEvent@Qt_5 5.0.2
+ _ZTV25QGraphicsTransformPrivate@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTV26QAbstractGraphicsShapeItem@Qt_5 5.0.2
  _ZTV26QAbstractScrollAreaPrivate@Qt_5_PRIVATE_API 5.0.2 1
- _ZTV26QAccessibleTextCursorEvent@Qt_5 5.0.2
- _ZTV26QAccessibleTextInsertEvent@Qt_5 5.0.2
- _ZTV26QAccessibleTextRemoveEvent@Qt_5 5.0.2
- _ZTV26QAccessibleTextUpdateEvent@Qt_5 5.0.2
- _ZTV27QAccessibleStateChangeEvent@Qt_5 5.0.2
- _ZTV27QAccessibleValueChangeEvent@Qt_5 5.0.2
  _ZTV27QGraphicsSceneDragDropEvent@Qt_5 5.0.2
- _ZTV29QAccessibleTextSelectionEvent@Qt_5 5.0.2
  _ZTV30QGraphicsSceneContextMenuEvent@Qt_5 5.0.2
- _ZTV32QAccessibleTableModelChangeEvent@Qt_5 5.0.2
  _ZTV5QDial@Qt_5 5.0.2
  _ZTV5QMenu@Qt_5 5.0.2
  _ZTV6QFrame@Qt_5 5.0.2
@@ -8074,6 +8074,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _Zls6QDebugP13QGraphicsItem@Qt_5 5.0.2
  _Zls6QDebugP15QGraphicsObject@Qt_5 5.0.2
  _Zls6QDebugPK13QGestureEvent@Qt_5 5.5.0
+ _Zls6QDebugPK7QWidget@Qt_5 5.6.0~beta
  _Zls6QDebugPK8QGesture@Qt_5 5.5.0
  _Zls6QDebugRK11QSizePolicy@Qt_5 5.0.2
  _Zls6QDebugRK12QStyleOption@Qt_5 5.0.2

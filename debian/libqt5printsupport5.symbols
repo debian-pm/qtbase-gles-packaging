@@ -1,6 +1,15 @@
-# SymbolsHelper-Confirmed: 5.5.0 amd64
+# SymbolsHelper-Confirmed: 5.6.0~beta amd64
 libQt5PrintSupport.so.5 libqt5printsupport5 #MINVER#
 | libqt5printsupport5 #MINVER#, qtbase-abi-5-5-1
+ Qt_5.0@Qt_5.0 5.6.0~beta
+ Qt_5.1@Qt_5.1 5.6.0~beta
+ Qt_5.2@Qt_5.2 5.6.0~beta
+ Qt_5.3@Qt_5.3 5.6.0~beta
+ Qt_5.4@Qt_5.4 5.6.0~beta
+ Qt_5.5@Qt_5.5 5.6.0~beta
+ Qt_5.6@Qt_5.6 5.6.0~beta
+ Qt_5@Qt_5 5.6.0~beta
+ Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0~beta
  _Z19qt_printerPaperSizeN8QPrinter11OrientationEN17QPagedPaintDevice8PageSizeENS_4UnitEi@Qt_5 5.0.2
  _Z20qt_multiplierForUnitN8QPrinter4UnitEi@Qt_5 5.0.2
  _ZN12QCUPSSupport10setJobHoldEP8QPrinterNS_12JobHoldUntilERK5QTime@Qt_5_PRIVATE_API 5.2.0~alpha1 1
@@ -11,6 +20,7 @@ libQt5PrintSupport.so.5 libqt5printsupport5 #MINVER#
  _ZN12QCUPSSupport14setBannerPagesEP8QPrinterNS_10BannerPageES2_@Qt_5_PRIVATE_API 5.2.0~alpha1 1
  _ZN12QCUPSSupport14setCupsOptionsEP8QPrinterRK11QStringList@Qt_5_PRIVATE_API 5.2.0~alpha1 1
  _ZN12QCUPSSupport14setJobPriorityEP8QPrinteri@Qt_5_PRIVATE_API 5.2.0~alpha1 1
+ _ZN12QCUPSSupport15clearCupsOptionER11QStringListRK7QString@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN12QCUPSSupport15cupsOptionsListEP8QPrinter@Qt_5_PRIVATE_API 5.2.0~alpha1 1
  _ZN12QCUPSSupport22setPagesPerSheetLayoutEP8QPrinterNS_13PagesPerSheetENS_19PagesPerSheetLayoutE@Qt_5_PRIVATE_API 5.2.0~alpha1 1
  _ZN12QPrintDeviceC1EP20QPlatformPrintDevice@Qt_5_PRIVATE_API 5.3.0 1
@@ -408,14 +418,12 @@ libQt5PrintSupport.so.5 libqt5printsupport5 #MINVER#
  _ZTI15QPdfPrintEngine@Qt_5_PRIVATE_API 5.0.2 1
  _ZTI16QPageSetupDialog@Qt_5 5.0.2
  _ZTI17QAlphaPaintEngine@Qt_5_PRIVATE_API 5.0.2 1
- _ZTI19QPaintEnginePrivate@Qt_5_PRIVATE_API 5.0.2 1
  _ZTI19QPrintPreviewDialog@Qt_5 5.0.2
  _ZTI19QPrintPreviewWidget@Qt_5 5.0.2
  _ZTI20QAbstractPrintDialog@Qt_5 5.0.2
  _ZTI20QPlatformPrintDevice@Qt_5 5.3.0
  _ZTI22QPdfPrintEnginePrivate@Qt_5_PRIVATE_API 5.0.2 1
  _ZTI23QPlatformPrinterSupport@Qt_5 5.0.2
- _ZTI24QPagedPaintDevicePrivate@Qt_5_PRIVATE_API 5.3.0 1
  _ZTI29QPlatformPrinterSupportPlugin@Qt_5 5.0.2
  _ZTI8QPrinter@Qt_5 5.0.2
  _ZTS12QPrintDialog@Qt_5 5.0.2
@@ -423,28 +431,24 @@ libQt5PrintSupport.so.5 libqt5printsupport5 #MINVER#
  _ZTS15QPdfPrintEngine@Qt_5_PRIVATE_API 5.0.2 1
  _ZTS16QPageSetupDialog@Qt_5 5.0.2
  _ZTS17QAlphaPaintEngine@Qt_5_PRIVATE_API 5.0.2 1
- _ZTS19QPaintEnginePrivate@Qt_5_PRIVATE_API 5.0.2 1
  _ZTS19QPrintPreviewDialog@Qt_5 5.0.2
  _ZTS19QPrintPreviewWidget@Qt_5 5.0.2
  _ZTS20QAbstractPrintDialog@Qt_5 5.0.2
  _ZTS20QPlatformPrintDevice@Qt_5 5.3.0
  _ZTS22QPdfPrintEnginePrivate@Qt_5_PRIVATE_API 5.0.2 1
  _ZTS23QPlatformPrinterSupport@Qt_5 5.0.2
- _ZTS24QPagedPaintDevicePrivate@Qt_5_PRIVATE_API 5.3.0 1
  _ZTS29QPlatformPrinterSupportPlugin@Qt_5 5.0.2
  _ZTS8QPrinter@Qt_5 5.0.2
  _ZTV12QPrintDialog@Qt_5 5.0.2
  _ZTV15QPdfPrintEngine@Qt_5_PRIVATE_API 5.0.2 1
  _ZTV16QPageSetupDialog@Qt_5 5.0.2
  _ZTV17QAlphaPaintEngine@Qt_5_PRIVATE_API 5.0.2 1
- _ZTV19QPaintEnginePrivate@Qt_5_PRIVATE_API 5.0.2 1
  _ZTV19QPrintPreviewDialog@Qt_5 5.0.2
  _ZTV19QPrintPreviewWidget@Qt_5 5.0.2
  _ZTV20QAbstractPrintDialog@Qt_5 5.0.2
  _ZTV20QPlatformPrintDevice@Qt_5 5.3.0
  _ZTV22QPdfPrintEnginePrivate@Qt_5_PRIVATE_API 5.0.2 1
  _ZTV23QPlatformPrinterSupport@Qt_5 5.0.2
- _ZTV24QPagedPaintDevicePrivate@Qt_5_PRIVATE_API 5.3.0 1
  _ZTV29QPlatformPrinterSupportPlugin@Qt_5 5.0.2
  _ZTV8QPrinter@Qt_5 5.0.2
  _Zls6QDebugRK12QPrintDevice@Qt_5_PRIVATE_API 5.5.0 1

@@ -1,6 +1,15 @@
-# SymbolsHelper-Confirmed: 5.4.2 amd64
+# SymbolsHelper-Confirmed: 5.6.0~beta amd64
 libQt5OpenGL.so.5 libqt5opengl5 #MINVER#
 | libqt5opengl5 #MINVER#, qtbase-abi-5-5-1
+ Qt_5.0@Qt_5.0 5.6.0~beta
+ Qt_5.1@Qt_5.1 5.6.0~beta
+ Qt_5.2@Qt_5.2 5.6.0~beta
+ Qt_5.3@Qt_5.3 5.6.0~beta
+ Qt_5.4@Qt_5.4 5.6.0~beta
+ Qt_5.5@Qt_5.5 5.6.0~beta
+ Qt_5.6@Qt_5.6 5.6.0~beta
+ Qt_5@Qt_5 5.6.0~beta
+ Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0~beta
  _Z19qt_qgl_paint_enginev@Qt_5 5.0.2
  _ZN10QGLContext10areSharingEPKS_S1_@Qt_5 5.0.2
  _ZN10QGLContext10currentCtxE@Qt_5 5.0.2
@@ -617,45 +626,41 @@ libQt5OpenGL.so.5 libqt5opengl5 #MINVER#
  _ZNK9QGLWidget8qglColorERK6QColor@Qt_5 5.0.2
  _ZNK9QGLWidget9isSharingEv@Qt_5 5.0.2
  _ZTI10QGLContext@Qt_5 5.0.2
- _ZTI11QSharedData@Qt_5 5.0.2
  _ZTI14QGLPaintDevice@Qt_5_PRIVATE_API 5.0.2 1
  _ZTI14QGLPixelBuffer@Qt_5 5.0.2
  _ZTI14QGLSignalProxy@Qt_5_PRIVATE_API 5.0.2 1
  _ZTI16QGLShaderProgram@Qt_5 5.0.2
  _ZTI16QGLWidgetPrivate@Qt_5_PRIVATE_API 5.0.2 1
- _ZTI16QOpenGLFunctions@Qt_5_PRIVATE_API 5.4.0 1
+ _ZTI16QOpenGLFunctions@Qt_5 5.6.0~beta
  _ZTI17QGL2PaintEngineEx@Qt_5_PRIVATE_API 5.0.2 1
  _ZTI17QOpenGLExtensions@Qt_5 5.4.0
- _ZTI18QTextureGlyphCache@Qt_5_PRIVATE_API 5.0.2 1
  _ZTI20QGLCustomShaderStage@Qt_5_PRIVATE_API 5.0.2 1
  _ZTI20QGLFramebufferObject@Qt_5 5.0.2
  _ZTI20QGLTextureGlyphCache@Qt_5_PRIVATE_API 5.0.2 1
  _ZTI21QGraphicsShaderEffect@Qt_5_PRIVATE_API 5.0.2 1
+ _ZTI21QOpenGLExtraFunctions@Qt_5 5.6.0~beta
  _ZTI21QOpenGLSharedResource@Qt_5 5.0.2
  _ZTI22QGLEngineShaderManager@Qt_5_PRIVATE_API 5.0.2 1
  _ZTI22QGLWidgetGLPaintDevice@Qt_5_PRIVATE_API 5.0.2 1
- _ZTI22QGraphicsEffectPrivate@Qt_5_PRIVATE_API 5.0.2 1
  _ZTI9QGLShader@Qt_5 5.0.2
  _ZTI9QGLWidget@Qt_5 5.0.2
  _ZTS10QGLContext@Qt_5 5.0.2
- _ZTS11QSharedData@Qt_5 5.0.2
  _ZTS14QGLPaintDevice@Qt_5_PRIVATE_API 5.0.2 1
  _ZTS14QGLPixelBuffer@Qt_5 5.0.2
  _ZTS14QGLSignalProxy@Qt_5_PRIVATE_API 5.0.2 1
  _ZTS16QGLShaderProgram@Qt_5 5.0.2
  _ZTS16QGLWidgetPrivate@Qt_5_PRIVATE_API 5.0.2 1
- _ZTS16QOpenGLFunctions@Qt_5_PRIVATE_API 5.4.0 1
+ _ZTS16QOpenGLFunctions@Qt_5 5.6.0~beta
  _ZTS17QGL2PaintEngineEx@Qt_5_PRIVATE_API 5.0.2 1
  _ZTS17QOpenGLExtensions@Qt_5 5.4.0
- _ZTS18QTextureGlyphCache@Qt_5_PRIVATE_API 5.0.2 1
  _ZTS20QGLCustomShaderStage@Qt_5_PRIVATE_API 5.0.2 1
  _ZTS20QGLFramebufferObject@Qt_5 5.0.2
  _ZTS20QGLTextureGlyphCache@Qt_5_PRIVATE_API 5.0.2 1
  _ZTS21QGraphicsShaderEffect@Qt_5_PRIVATE_API 5.0.2 1
+ _ZTS21QOpenGLExtraFunctions@Qt_5 5.6.0~beta
  _ZTS21QOpenGLSharedResource@Qt_5 5.0.2
  _ZTS22QGLEngineShaderManager@Qt_5_PRIVATE_API 5.0.2 1
  _ZTS22QGLWidgetGLPaintDevice@Qt_5_PRIVATE_API 5.0.2 1
- _ZTS22QGraphicsEffectPrivate@Qt_5_PRIVATE_API 5.0.2 1
  _ZTS9QGLShader@Qt_5 5.0.2
  _ZTS9QGLWidget@Qt_5 5.0.2
  _ZTV10QGLContext@Qt_5 5.0.2
@@ -665,14 +670,12 @@ libQt5OpenGL.so.5 libqt5opengl5 #MINVER#
  _ZTV16QGLShaderProgram@Qt_5 5.0.2
  _ZTV16QGLWidgetPrivate@Qt_5_PRIVATE_API 5.0.2 1
  _ZTV17QGL2PaintEngineEx@Qt_5_PRIVATE_API 5.0.2 1
- _ZTV18QTextureGlyphCache@Qt_5_PRIVATE_API 5.0.2 1
  _ZTV20QGLCustomShaderStage@Qt_5_PRIVATE_API 5.0.2 1
  _ZTV20QGLFramebufferObject@Qt_5 5.0.2
  _ZTV20QGLTextureGlyphCache@Qt_5_PRIVATE_API 5.0.2 1
  _ZTV21QGraphicsShaderEffect@Qt_5_PRIVATE_API 5.0.2 1
  _ZTV22QGLEngineShaderManager@Qt_5_PRIVATE_API 5.0.2 1
  _ZTV22QGLWidgetGLPaintDevice@Qt_5_PRIVATE_API 5.0.2 1
- _ZTV22QGraphicsEffectPrivate@Qt_5_PRIVATE_API 5.0.2 1
  _ZTV9QGLShader@Qt_5 5.0.2
  _ZTV9QGLWidget@Qt_5 5.0.2
  _ZeqRK9QGLFormatS1_@Qt_5 5.0.2

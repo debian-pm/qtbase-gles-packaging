@@ -1,16 +1,20 @@
-# SymbolsHelper-Confirmed: 5.5.1 amd64 mips mipsel
+# SymbolsHelper-Confirmed: 5.6.0~beta amd64
 libQt5XcbQpa.so.5 libqt5xcbqpa5 #MINVER#
 | libqt5xcbqpa5 #MINVER#, qtbase-abi-5-5-1
+ Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0~beta
  _Z20QT_XCB_GLINTEGRATIONv@Qt_5_PRIVATE_API 5.5.0 1
  _ZN10QXcbScreen11windowShownEP10QXcbWindow@Qt_5_PRIVATE_API 5.5.0 1
+ _ZN10QXcbScreen13getOutputNameEP33xcb_randr_get_output_info_reply_t@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN10QXcbScreen14readXResourcesEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZN10QXcbScreen14updateGeometryERK5QRecth@Qt_5_PRIVATE_API 5.5.0 1
  _ZN10QXcbScreen14updateGeometryEj@Qt_5_PRIVATE_API 5.5.0 1
  _ZN10QXcbScreen17updateRefreshRateEj@Qt_5_PRIVATE_API 5.5.0 1
  _ZN10QXcbScreen18handleScreenChangeEP38xcb_randr_screen_change_notify_event_t@Qt_5_PRIVATE_API 5.5.0 1
+ _ZN10QXcbScreen23updateAvailableGeometryEv@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN10QXcbScreen9setOutputEjP33xcb_randr_get_output_info_reply_t@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN10QXcbScreen9xResourceERK10QByteArrayS2_RS0_@Qt_5_PRIVATE_API 5.5.0 1
- _ZN10QXcbScreenC1EP14QXcbConnectionP18QXcbVirtualDesktopjP33xcb_randr_get_output_info_reply_t7QString@Base 5.5.0
- _ZN10QXcbScreenC2EP14QXcbConnectionP18QXcbVirtualDesktopjP33xcb_randr_get_output_info_reply_t7QString@Base 5.5.0
+ _ZN10QXcbScreenC1EP14QXcbConnectionP18QXcbVirtualDesktopjP33xcb_randr_get_output_info_reply_t@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN10QXcbScreenC2EP14QXcbConnectionP18QXcbVirtualDesktopjP33xcb_randr_get_output_info_reply_t@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN10QXcbScreenD0Ev@Qt_5_PRIVATE_API 5.5.0 1
  _ZN10QXcbScreenD1Ev@Qt_5_PRIVATE_API 5.5.0 1
  _ZN10QXcbScreenD2Ev@Qt_5_PRIVATE_API 5.5.0 1
@@ -23,7 +27,6 @@ libQt5XcbQpa.so.5 libqt5xcbqpa5 #MINVER#
  _ZN10QXcbWindow12parentScreenEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZN10QXcbWindow13setAlertStateEb@Qt_5_PRIVATE_API 5.5.0 1
  _ZN10QXcbWindow13setWindowIconERK5QIcon@Qt_5_PRIVATE_API 5.5.0 1
- _ZN10QXcbWindow14maybeSetScreenEP10QXcbScreen@Base 5.5.0
  _ZN10QXcbWindow14setNetWmStatesE6QFlagsINS_10NetWmStateEE@Qt_5_PRIVATE_API 5.5.0 1
  _ZN10QXcbWindow14setWindowFlagsE6QFlagsIN2Qt10WindowTypeEE@Qt_5_PRIVATE_API 5.5.0 1
  _ZN10QXcbWindow14setWindowStateEN2Qt11WindowStateE@Qt_5_PRIVATE_API 5.5.0 1
@@ -34,6 +37,7 @@ libQt5XcbQpa.so.5 libqt5xcbqpa5 #MINVER#
  _ZN10QXcbWindow16handleMouseEventEjRK6QPointS2_6QFlagsIN2Qt16KeyboardModifierEE@Qt_5_PRIVATE_API 5.5.0 1
  _ZN10QXcbWindow17handleExposeEventEPK18xcb_expose_event_t@Qt_5_PRIVATE_API 5.5.0 1
  _ZN10QXcbWindow17sendXEmbedMessageEjjjjj@Qt_5_PRIVATE_API 5.5.0 1
+ _ZN10QXcbWindow17setWindowIconTextERK7QString@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN10QXcbWindow17startSystemResizeERK6QPointN2Qt6CornerE@Qt_5_PRIVATE_API 5.5.0 1
  _ZN10QXcbWindow18handleFocusInEventEPK20xcb_focus_in_event_t@Qt_5_PRIVATE_API 5.5.0 1
  _ZN10QXcbWindow18handleGenericEventEP19xcb_generic_event_tPl@Qt_5_PRIVATE_API 5.5.0 1
@@ -56,6 +60,7 @@ libQt5XcbQpa.so.5 libqt5xcbqpa5 #MINVER#
  _ZN10QXcbWindow22setKeyboardGrabEnabledEb@Qt_5_PRIVATE_API 5.5.0 1
  _ZN10QXcbWindow23handleMotionNotifyEventEPK25xcb_motion_notify_event_t@Qt_5_PRIVATE_API 5.5.0 1
  _ZN10QXcbWindow23handleMotionNotifyEventEiiii6QFlagsIN2Qt16KeyboardModifierEEj@Qt_5_PRIVATE_API 5.5.0 1
+ _ZN10QXcbWindow23setWindowIconTextStaticEP7QWindowRK7QString@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN10QXcbWindow24handleButtonReleaseEventEPK24xcb_button_press_event_t@Qt_5_PRIVATE_API 5.5.0 1
  _ZN10QXcbWindow24handleButtonReleaseEventEiiiii6QFlagsIN2Qt16KeyboardModifierEEj@Qt_5_PRIVATE_API 5.5.0 1
  _ZN10QXcbWindow24handleClientMessageEventEPK26xcb_client_message_event_t@Qt_5_PRIVATE_API 5.5.0 1
@@ -64,8 +69,12 @@ libQt5XcbQpa.so.5 libqt5xcbqpa5 #MINVER#
  _ZN10QXcbWindow25handlePropertyNotifyEventEPK27xcb_property_notify_event_t@Qt_5_PRIVATE_API 5.5.0 1
  _ZN10QXcbWindow25updateNetWmStateBeforeMapEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZN10QXcbWindow26handleConfigureNotifyEventEPK28xcb_configure_notify_event_t@Qt_5_PRIVATE_API 5.5.0 1
+ _ZN10QXcbWindow27setParentRelativeBackPixmapEv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN10QXcbWindow27updateMotifWmHintsBeforeMapEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZN10QXcbWindow28setTransparentForMouseEventsEb@Qt_5_PRIVATE_API 5.5.0 1
+ _ZN10QXcbWindow33requestSystemTrayWindowDockStaticEPK7QWindow@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN10QXcbWindow33setParentRelativeBackPixmapStaticEP7QWindow@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN10QXcbWindow36systemTrayWindowGlobalGeometryStaticEPK7QWindow@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN10QXcbWindow4hideEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZN10QXcbWindow4showEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZN10QXcbWindow5lowerEv@Qt_5_PRIVATE_API 5.5.0 1
@@ -98,6 +107,7 @@ libQt5XcbQpa.so.5 libqt5xcbqpa5 #MINVER#
  _ZN13QFontEngineFT19alphaRGBMapForGlyphEj6QFixedRK10QTransform@Qt_5_PRIVATE_API 5.5.0 1
  _ZN13QFontEngineFT19setDefaultHintStyleEN11QFontEngine9HintStyleE@Qt_5_PRIVATE_API 5.5.0 1
  _ZN13QFontEngineFT20removeGlyphFromCacheEj@Qt_5_PRIVATE_API 5.5.0 1
+ _ZN13QFontEngineFT21setQtDefaultHintStyleEN5QFont17HintingPreferenceE@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN13QFontEngineFT22lockedAlphaMapForGlyphEj6QFixedN11QFontEngine11GlyphFormatERK10QTransformP6QPoint@Qt_5_PRIVATE_API 5.5.0 1
  _ZN13QFontEngineFT22unlockAlphaMapForGlyphEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZN13QFontEngineFT4initEN11QFontEngine6FaceIdEbNS0_11GlyphFormatEP13QFreetypeFace@Qt_5_PRIVATE_API 5.5.0 1
@@ -124,9 +134,11 @@ libQt5XcbQpa.so.5 libqt5xcbqpa5 #MINVER#
  _ZN14QXcbConnection11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.5.0 1
  _ZN14QXcbConnection11qt_metacastEPKc@Qt_5_PRIVATE_API 5.5.0 1
  _ZN14QXcbConnection12clientLeaderEv@Qt_5_PRIVATE_API 5.5.1 1
- _ZN14QXcbConnection12createScreenEP18QXcbVirtualDesktopjP33xcb_randr_get_output_info_reply_t@Base 5.5.0
+ _ZN14QXcbConnection12createScreenEP18QXcbVirtualDesktopRK25xcb_randr_output_change_tP33xcb_randr_get_output_info_reply_t@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN14QXcbConnection12getTimestampEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZN14QXcbConnection12ungrabServerEv@Qt_5_PRIVATE_API 5.5.0 1
+ _ZN14QXcbConnection12updateScreenEP10QXcbScreenRK25xcb_randr_output_change_t@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN14QXcbConnection13destroyScreenEP10QXcbScreen@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN14QXcbConnection13initializeXKBEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZN14QXcbConnection13updateScreensEPK24xcb_randr_notify_event_t@Qt_5_PRIVATE_API 5.5.0 1
  _ZN14QXcbConnection14handleXcbErrorEP19xcb_generic_error_t@Qt_5_PRIVATE_API 5.5.0 1
@@ -147,10 +159,10 @@ libQt5XcbQpa.so.5 libqt5xcbqpa5 #MINVER#
  _ZN14QXcbConnection17initializeScreensEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZN14QXcbConnection17initializeXInput2Ev@Qt_5_PRIVATE_API 5.5.0 1
  _ZN14QXcbConnection17initializeXRenderEv@Qt_5_PRIVATE_API 5.5.0 1
- _ZN14QXcbConnection17systemTrayTrackerEv@Base 5.5.0
  _ZN14QXcbConnection17xiToQtMouseButtonEj@Qt_5_PRIVATE_API 5.5.0 1
  _ZN14QXcbConnection18initializeAllAtomsEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZN14QXcbConnection19findScreenForOutputEjj@Qt_5_PRIVATE_API 5.5.0 1
+ _ZN14QXcbConnection19getQtSelectionOwnerEv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN14QXcbConnection19sendConnectionEventEN8QXcbAtom4AtomEj@Qt_5_PRIVATE_API 5.5.0 1
  _ZN14QXcbConnection20checkOutputIsPrimaryEjj@Qt_5_PRIVATE_API 5.5.0 1
  _ZN14QXcbConnection20platformWindowFromIdEj@Qt_5_PRIVATE_API 5.5.0 1
@@ -166,9 +178,11 @@ libQt5XcbQpa.so.5 libqt5xcbqpa5 #MINVER#
  _ZN14QXcbConnection24xi2GetValuatorValueIfSetEPviPd@Qt_5_PRIVATE_API 5.5.0 1
  _ZN14QXcbConnection25removeWindowEventListenerEj@Qt_5_PRIVATE_API 5.5.0 1
  _ZN14QXcbConnection25windowEventListenerFromIdEj@Qt_5_PRIVATE_API 5.5.0 1
+ _ZN14QXcbConnection25xEmbedSystemTrayAvailableEv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN14QXcbConnection27virtualDesktopForRootWindowEj@Qt_5_PRIVATE_API 5.5.0 1
  _ZN14QXcbConnection27xi2HandleDeviceChangedEventEPv@Qt_5_PRIVATE_API 5.5.0 1
- _ZN14QXcbConnection30xi2PrepareXIGenericDeviceEventEP14xcb_ge_event_ti@Base 5.5.0
+ _ZN14QXcbConnection30xi2PrepareXIGenericDeviceEventEP14xcb_ge_event_t@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN14QXcbConnection37xEmbedSystemTrayVisualHasAlphaChannelEv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN14QXcbConnection4syncEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZN14QXcbConnection5eventEP6QEvent@Qt_5_PRIVATE_API 5.5.0 1
  _ZN14QXcbConnection8atomNameEj@Qt_5_PRIVATE_API 5.5.0 1
@@ -215,7 +229,7 @@ libQt5XcbQpa.so.5 libqt5xcbqpa5 #MINVER#
  _ZN19QXcbNativeInterface24nativeResourceForContextERK10QByteArrayP14QOpenGLContext@Qt_5_PRIVATE_API 5.5.0 1
  _ZN19QXcbNativeInterface24qPlatformScreenForWindowEP7QWindow@Qt_5_PRIVATE_API 5.5.0 1
  _ZN19QXcbNativeInterface27requestSystemTrayWindowDockEPK7QWindow@Qt_5_PRIVATE_API 5.5.0 1
- _ZN19QXcbNativeInterface27setParentRelativeBackPixmapEPK7QWindow@Base 5.5.0
+ _ZN19QXcbNativeInterface27setParentRelativeBackPixmapEP7QWindow@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN19QXcbNativeInterface28nativeResourceForIntegrationERK10QByteArray@Qt_5_PRIVATE_API 5.5.0 1
  _ZN19QXcbNativeInterface28systrayVisualHasAlphaChannelEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZN19QXcbNativeInterface29nativeResourceForBackingStoreERK10QByteArrayP13QBackingStore@Qt_5_PRIVATE_API 5.5.0 1
@@ -228,6 +242,7 @@ libQt5XcbQpa.so.5 libqt5xcbqpa5 #MINVER#
  _ZN19QXcbNativeInterface4beepEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZN19QXcbNativeInterface7appTimeEPK10QXcbScreen@Qt_5_PRIVATE_API 5.5.0 1
  _ZN19QXcbNativeInterface7displayEv@Qt_5_PRIVATE_API 5.5.0 1
+ _ZN19QXcbNativeInterface8atspiBusEv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN19QXcbNativeInterface9startupIdEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZN19QXcbNativeInterface9x11ScreenEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZN19QXcbNativeInterfaceC1Ev@Qt_5_PRIVATE_API 5.5.0 1
@@ -244,32 +259,22 @@ libQt5XcbQpa.so.5 libqt5xcbqpa5 #MINVER#
  _ZNK10QXcbScreen10logicalDpiEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZNK10QXcbScreen10topLevelAtERK6QPoint@Qt_5_PRIVATE_API 5.5.0 1
  _ZNK10QXcbScreen10virtualDpiEv@Qt_5_PRIVATE_API 5.5.0 1
- _ZNK10QXcbScreen11mapToNativeERK5QRect@Base 5.5.0
- _ZNK10QXcbScreen11mapToNativeERK6QPoint@Base 5.5.0
- _ZNK10QXcbScreen11mapToNativeERK7QPointF@Base 5.5.1
  _ZNK10QXcbScreen11visualForIdEj@Qt_5_PRIVATE_API 5.5.0 1
+ _ZNK10QXcbScreen12pixelDensityEv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZNK10QXcbScreen13depthOfVisualEj@Qt_5_PRIVATE_API 5.5.0 1
- _ZNK10QXcbScreen13mapFromNativeERK5QRect@Base 5.5.0
- _ZNK10QXcbScreen13mapFromNativeERK6QPoint@Base 5.5.0
- _ZNK10QXcbScreen13mapFromNativeERK7QPointF@Base 5.5.1
- _ZNK10QXcbScreen16devicePixelRatioEv@Base 5.5.0
  _ZNK10QXcbScreen18sendStartupMessageERK10QByteArray@Qt_5_PRIVATE_API 5.5.0 1
  _ZNK10QXcbScreen6cursorEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZNK10QXcbScreen6formatEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZNK10QXcbScreen9xSettingsEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZNK10QXcbWindow10isEmbeddedEPK15QPlatformWindow@Qt_5_PRIVATE_API 5.5.0 1
  _ZNK10QXcbWindow11mapToGlobalERK6QPoint@Qt_5_PRIVATE_API 5.5.0 1
- _ZNK10QXcbWindow11mapToNativeERK5QRectPK10QXcbScreen@Base 5.5.0
- _ZNK10QXcbWindow11mapToNativeERK6QPointPK10QXcbScreen@Base 5.5.0
  _ZNK10QXcbWindow12frameMarginsEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZNK10QXcbWindow13mapFromGlobalERK6QPoint@Qt_5_PRIVATE_API 5.5.0 1
- _ZNK10QXcbWindow13mapFromNativeERK5QRectPK10QXcbScreen@Base 5.5.0
- _ZNK10QXcbWindow13mapFromNativeERK6QPointPK10QXcbScreen@Base 5.5.0
  _ZNK10QXcbWindow13wmWindowTypesEv@Qt_5_PRIVATE_API 5.5.0 1
- _ZNK10QXcbWindow16devicePixelRatioEv@Base 5.5.0
  _ZNK10QXcbWindow18windowToWmGeometryE5QRect@Qt_5_PRIVATE_API 5.5.0 1
  _ZNK10QXcbWindow23relayFocusToModalWindowEv@Qt_5_PRIVATE_API 5.5.0 1
- _ZNK10QXcbWindow23screenForNativeGeometryERK5QRect@Base 5.5.0
+ _ZNK10QXcbWindow27requestSystemTrayWindowDockEv@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZNK10QXcbWindow30systemTrayWindowGlobalGeometryEv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZNK10QXcbWindow5winIdEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZNK10QXcbWindow6formatEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZNK10QXcbWindow8visualIdEv@Qt_5_PRIVATE_API 5.5.0 1
@@ -286,9 +291,7 @@ libQt5XcbQpa.so.5 libqt5xcbqpa5 #MINVER#
  _ZNK13QFontEngineFT12stringToCMapEPK5QChariP12QGlyphLayoutPi6QFlagsIN11QFontEngine10ShaperFlagEE@Qt_5_PRIVATE_API 5.5.0 1
  _ZNK13QFontEngineFT13cloneWithSizeEd@Qt_5_PRIVATE_API 5.5.0 1
  _ZNK13QFontEngineFT13lineThicknessEv@Qt_5_PRIVATE_API 5.5.0 1
- _ZNK13QFontEngineFT14minLeftBearingEv@Base 5.5.0
  _ZNK13QFontEngineFT14recalcAdvancesEP12QGlyphLayout6QFlagsIN11QFontEngine10ShaperFlagEE@Qt_5_PRIVATE_API 5.5.0 1
- _ZNK13QFontEngineFT15minRightBearingEv@Base 5.5.0
  _ZNK13QFontEngineFT15non_locked_faceEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZNK13QFontEngineFT16averageCharWidthEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZNK13QFontEngineFT16getSfntTableDataEjPhPj@Qt_5_PRIVATE_API 5.5.0 1
@@ -306,9 +309,12 @@ libQt5XcbQpa.so.5 libqt5xcbqpa5 #MINVER#
  _ZNK13QFontEngineFT9loadGlyphEPNS_9QGlyphSetEj6QFixedN11QFontEngine11GlyphFormatEb@Qt_5_PRIVATE_API 5.5.0 1
  _ZNK14QXcbConnection10metaObjectEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZNK14QXcbConnection12xlib_displayEv@Qt_5_PRIVATE_API 5.5.0 1
+ _ZNK14QXcbConnection13compressEventEP19xcb_generic_event_tiP15QVarLengthArrayIS1_Li64EE@Qt_5_PRIVATE_API 5.6.0~beta
  _ZNK14QXcbConnection13primaryScreenEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZNK14QXcbConnection14formatForDepthEh@Qt_5_PRIVATE_API 5.5.0 1
  _ZNK14QXcbConnection14xi2MouseEventsEv@Qt_5_PRIVATE_API 5.5.0 1
+ _ZNK14QXcbConnection17getSelectionOwnerEj@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZNK14QXcbConnection17systemTrayTrackerEv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZNK14QXcbConnection34createVisualInfoForDefaultVisualIdEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZNK14QXcbConnection5qatomEj@Qt_5_PRIVATE_API 5.5.0 1
  _ZNK15QXcbIntegration10themeNamesEv@Qt_5_PRIVATE_API 5.5.0 1
@@ -386,7 +392,6 @@ libQt5XcbQpa.so.5 libqt5xcbqpa5 #MINVER#
  _ZTV26QXcbNativeInterfaceHandler@Qt_5_PRIVATE_API 5.5.0 1
  _ZTV31QAbstractEventDispatcherPrivate@Qt_5_PRIVATE_API 5.5.0 1
  _Zls6QDebugPK10QXcbScreen@Qt_5_PRIVATE_API 5.5.0 1
- (c++)"non-virtual thunk to QXcbWindow::devicePixelRatio() const@Base" 5.5.0
  (c++)"non-virtual thunk to QXcbWindow::format() const@Qt_5_PRIVATE_API" 5.5.0 1
  (c++)"non-virtual thunk to QXcbWindow::frameMargins() const@Qt_5_PRIVATE_API" 5.5.0 1
  (c++)"non-virtual thunk to QXcbWindow::isEmbedded(QPlatformWindow const*) const@Qt_5_PRIVATE_API" 5.5.0 1

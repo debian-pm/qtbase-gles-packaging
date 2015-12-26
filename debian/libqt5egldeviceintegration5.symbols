@@ -1,16 +1,41 @@
-# SymbolsHelper-Confirmed: 5.5.0 amd64
+# SymbolsHelper-Confirmed: 5.6.0~beta amd64
 libQt5EglDeviceIntegration.so.5 libqt5egldeviceintegration5 #MINVER#
 | libqt5egldeviceintegration5 #MINVER#, qtbase-abi-5-5-1
+ Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0~beta
  _Z25qt_egl_device_integrationv@Qt_5_PRIVATE_API 5.5.0 1
+ _ZN12QEglFSCursor11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN12QEglFSCursor11qt_metacastEPKc@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN12QEglFSCursor12changeCursorEP7QCursorP7QWindow@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN12QEglFSCursor12pointerEventERK11QMouseEvent@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN12QEglFSCursor13paintOnScreenEv@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN12QEglFSCursor14resetResourcesEv@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN12QEglFSCursor15initCursorAtlasEv@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN12QEglFSCursor16setCurrentCursorEP7QCursor@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN12QEglFSCursor16staticMetaObjectE@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN12QEglFSCursor17updateMouseStatusEv@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN12QEglFSCursor19createCursorTextureEPjRK6QImage@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN12QEglFSCursor20createShaderProgramsEv@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN12QEglFSCursor4drawERK6QRectF@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN12QEglFSCursor5eventEP6QEvent@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN12QEglFSCursor6setPosERK6QPoint@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN12QEglFSCursor6updateERK7QRegion@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN12QEglFSCursorC1EP15QPlatformScreen@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN12QEglFSCursorC2EP15QPlatformScreen@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN12QEglFSCursorD0Ev@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN12QEglFSCursorD1Ev@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN12QEglFSCursorD2Ev@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN12QEglFSScreen16handleCursorMoveERK6QPoint@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN12QEglFSScreen17setPrimarySurfaceEPv@Qt_5_PRIVATE_API 5.5.0 1
  _ZN12QEglFSScreenC1EPv@Qt_5_PRIVATE_API 5.5.0 1
  _ZN12QEglFSScreenC2EPv@Qt_5_PRIVATE_API 5.5.0 1
  _ZN12QEglFSScreenD0Ev@Qt_5_PRIVATE_API 5.5.0 1
  _ZN12QEglFSScreenD1Ev@Qt_5_PRIVATE_API 5.5.0 1
  _ZN12QEglFSScreenD2Ev@Qt_5_PRIVATE_API 5.5.0 1
+ _ZN12QEglFSWindow10setOpacityEd@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN12QEglFSWindow10setVisibleEb@Qt_5_PRIVATE_API 5.5.0 1
  _ZN12QEglFSWindow11setGeometryERK5QRect@Qt_5_PRIVATE_API 5.5.0 1
  _ZN12QEglFSWindow12resetSurfaceEv@Qt_5_PRIVATE_API 5.5.0 1
+ _ZN12QEglFSWindow14endCompositingEv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN12QEglFSWindow17invalidateSurfaceEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZN12QEglFSWindow21requestActivateWindowEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZN12QEglFSWindow5lowerEv@Qt_5_PRIVATE_API 5.5.0 1
@@ -44,6 +69,7 @@ libQt5EglDeviceIntegration.so.5 libqt5egldeviceintegration5 #MINVER#
  _ZN13QFontEngineFT19alphaRGBMapForGlyphEj6QFixedRK10QTransform@Qt_5_PRIVATE_API 5.5.0 1
  _ZN13QFontEngineFT19setDefaultHintStyleEN11QFontEngine9HintStyleE@Qt_5_PRIVATE_API 5.5.0 1
  _ZN13QFontEngineFT20removeGlyphFromCacheEj@Qt_5_PRIVATE_API 5.5.0 1
+ _ZN13QFontEngineFT21setQtDefaultHintStyleEN5QFont17HintingPreferenceE@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN13QFontEngineFT22lockedAlphaMapForGlyphEj6QFixedN11QFontEngine11GlyphFormatERK10QTransformP6QPoint@Qt_5_PRIVATE_API 5.5.0 1
  _ZN13QFontEngineFT22unlockAlphaMapForGlyphEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZN13QFontEngineFT4initEN11QFontEngine6FaceIdEbNS0_11GlyphFormatEP13QFreetypeFace@Qt_5_PRIVATE_API 5.5.0 1
@@ -65,12 +91,20 @@ libQt5EglDeviceIntegration.so.5 libqt5egldeviceintegration5 #MINVER#
  _ZN17QEglFSIntegration10initializeEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZN17QEglFSIntegration12chooseConfigEPvRK14QSurfaceFormat@Qt_5_PRIVATE_API 5.5.0 1
  _ZN17QEglFSIntegration12removeScreenEP15QPlatformScreen@Qt_5_PRIVATE_API 5.5.0 1
+ _ZN17QEglFSIntegration16loadKeymapStaticERK7QString@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN17QEglFSIntegration19createInputHandlersEv@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN17QEglFSIntegration23nativeResourceForScreenERK10QByteArrayP7QScreen@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN17QEglFSIntegration23nativeResourceForWindowERK10QByteArrayP7QWindow@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN17QEglFSIntegration24nativeResourceForContextERK10QByteArrayP14QOpenGLContext@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN17QEglFSIntegration28nativeResourceForIntegrationERK10QByteArray@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN17QEglFSIntegration32nativeResourceFunctionForContextERK10QByteArray@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN17QEglFSIntegration7destroyEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZN17QEglFSIntegration9addScreenEP15QPlatformScreen@Qt_5_PRIVATE_API 5.5.0 1
  _ZN17QEglFSIntegrationC1Ev@Qt_5_PRIVATE_API 5.5.0 1
  _ZN17QEglFSIntegrationC2Ev@Qt_5_PRIVATE_API 5.5.0 1
  _ZN21QEGLDeviceIntegration10screenInitEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZN21QEGLDeviceIntegration12platformInitEv@Qt_5_PRIVATE_API 5.5.0 1
+ _ZN21QEGLDeviceIntegration13createDisplayEPv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN21QEGLDeviceIntegration13presentBufferEP16QPlatformSurface@Qt_5_PRIVATE_API 5.5.0 1
  _ZN21QEGLDeviceIntegration13screenDestroyEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZN21QEGLDeviceIntegration15platformDestroyEv@Qt_5_PRIVATE_API 5.5.0 1
@@ -88,19 +122,28 @@ libQt5EglDeviceIntegration.so.5 libqt5egldeviceintegration5 #MINVER#
  _ZN27QEGLDeviceIntegrationPlugin16staticMetaObjectE@Qt_5_PRIVATE_API 5.5.0 1
  _ZN28QEGLDeviceIntegrationFactory4keysERK7QString@Qt_5_PRIVATE_API 5.5.0 1
  _ZN28QEGLDeviceIntegrationFactory6createERK7QStringS2_@Qt_5_PRIVATE_API 5.5.0 1
+ _ZNK12QEglFSCursor10cursorRectEv@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZNK12QEglFSCursor10metaObjectEv@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZNK12QEglFSCursor3posEv@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZNK12QEglFSScreen10grabWindowEyiiii@Qt_5_PRIVATE_API 5.6.0~beta
  _ZNK12QEglFSScreen10logicalDpiEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZNK12QEglFSScreen11orientationEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZNK12QEglFSScreen11refreshRateEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZNK12QEglFSScreen12physicalSizeEv@Qt_5_PRIVATE_API 5.5.0 1
+ _ZNK12QEglFSScreen12pixelDensityEv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZNK12QEglFSScreen17nativeOrientationEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZNK12QEglFSScreen5depthEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZNK12QEglFSScreen6cursorEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZNK12QEglFSScreen6formatEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZNK12QEglFSScreen8geometryEv@Qt_5_PRIVATE_API 5.5.0 1
+ _ZNK12QEglFSWindow12sourceWindowEv@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZNK12QEglFSWindow5winIdEv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZNK12QEglFSWindow6formatEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZNK12QEglFSWindow6screenEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZNK12QEglFSWindow7surfaceEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZNK12QEglFSWindow8geometryEv@Qt_5_PRIVATE_API 5.5.0 1
+ _ZNK12QEglFSWindow8isRasterEv@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZNK12QEglFSWindow8texturesEv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZNK12QEglFSWindow9eglWindowEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZNK13QFontEngineFT10glyphCountEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZNK13QFontEngineFT10glyphIndexEj@Qt_5_PRIVATE_API 5.5.0 1
@@ -112,9 +155,7 @@ libQt5EglDeviceIntegration.so.5 libqt5egldeviceintegration5 #MINVER#
  _ZNK13QFontEngineFT12stringToCMapEPK5QChariP12QGlyphLayoutPi6QFlagsIN11QFontEngine10ShaperFlagEE@Qt_5_PRIVATE_API 5.5.0 1
  _ZNK13QFontEngineFT13cloneWithSizeEd@Qt_5_PRIVATE_API 5.5.0 1
  _ZNK13QFontEngineFT13lineThicknessEv@Qt_5_PRIVATE_API 5.5.0 1
- _ZNK13QFontEngineFT14minLeftBearingEv@Base 5.5.0
  _ZNK13QFontEngineFT14recalcAdvancesEP12QGlyphLayout6QFlagsIN11QFontEngine10ShaperFlagEE@Qt_5_PRIVATE_API 5.5.0 1
- _ZNK13QFontEngineFT15minRightBearingEv@Base 5.5.0
  _ZNK13QFontEngineFT15non_locked_faceEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZNK13QFontEngineFT16averageCharWidthEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZNK13QFontEngineFT16getSfntTableDataEjPhPj@Qt_5_PRIVATE_API 5.5.0 1
@@ -130,19 +171,28 @@ libQt5EglDeviceIntegration.so.5 libqt5egldeviceintegration5 #MINVER#
  _ZNK13QFontEngineFT9doKerningEP12QGlyphLayout6QFlagsIN11QFontEngine10ShaperFlagEE@Qt_5_PRIVATE_API 5.5.0 1
  _ZNK13QFontEngineFT9loadFlagsEPNS_9QGlyphSetEN11QFontEngine11GlyphFormatEiRbRi@Qt_5_PRIVATE_API 5.5.0 1
  _ZNK13QFontEngineFT9loadGlyphEPNS_9QGlyphSetEj6QFixedN11QFontEngine11GlyphFormatEb@Qt_5_PRIVATE_API 5.5.0 1
- _ZNK17QEglFSIntegration12createWindowEP7QWindow@Base 5.5.0
- _ZNK17QEglFSIntegration13createContextERK14QSurfaceFormatP22QPlatformOpenGLContextPvP8QVariant@Base 5.5.0
+ _ZNK17QEglFSIntegration12fontDatabaseEv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZNK17QEglFSIntegration13hasCapabilityEN20QPlatformIntegration10CapabilityE@Qt_5_PRIVATE_API 5.5.0 1
  _ZNK17QEglFSIntegration13nativeDisplayEv@Qt_5_PRIVATE_API 5.5.0 1
- _ZNK17QEglFSIntegration22createOffscreenSurfaceEPvRK14QSurfaceFormatP17QOffscreenSurface@Base 5.5.0
+ _ZNK17QEglFSIntegration15nativeInterfaceEv@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZNK17QEglFSIntegration16platformFunctionERK10QByteArray@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZNK17QEglFSIntegration20createPlatformWindowEP7QWindow@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZNK17QEglFSIntegration21createEventDispatcherEv@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZNK17QEglFSIntegration26createPlatformBackingStoreEP7QWindow@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZNK17QEglFSIntegration27createPlatformOpenGLContextEP14QOpenGLContext@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZNK17QEglFSIntegration30createPlatformOffscreenSurfaceEP17QOffscreenSurface@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZNK17QEglFSIntegration8servicesEv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZNK21QEGLDeviceIntegration10logicalDpiEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZNK21QEGLDeviceIntegration10screenSizeEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZNK21QEGLDeviceIntegration11orientationEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZNK21QEGLDeviceIntegration11refreshRateEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZNK21QEGLDeviceIntegration11screenDepthEv@Qt_5_PRIVATE_API 5.5.0 1
+ _ZNK21QEGLDeviceIntegration11surfaceTypeEv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZNK21QEGLDeviceIntegration12createCursorEP15QPlatformScreen@Qt_5_PRIVATE_API 5.5.0 1
+ _ZNK21QEGLDeviceIntegration12createWindowEP7QWindow@Qt_5_PRIVATE_API 5.6.0~beta
  _ZNK21QEGLDeviceIntegration12fbDeviceNameEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZNK21QEGLDeviceIntegration12filterConfigEPvS0_@Qt_5_PRIVATE_API 5.5.0 1
+ _ZNK21QEGLDeviceIntegration12pixelDensityEv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZNK21QEGLDeviceIntegration12screenFormatEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZNK21QEGLDeviceIntegration12waitForVSyncEP16QPlatformSurface@Qt_5_PRIVATE_API 5.5.0 1
  _ZNK21QEGLDeviceIntegration13hasCapabilityEN20QPlatformIntegration10CapabilityE@Qt_5_PRIVATE_API 5.5.0 1
@@ -152,7 +202,10 @@ libQt5EglDeviceIntegration.so.5 libqt5egldeviceintegration5 #MINVER#
  _ZNK21QEGLDeviceIntegration16surfaceFormatForERK14QSurfaceFormat@Qt_5_PRIVATE_API 5.5.0 1
  _ZNK21QEGLDeviceIntegration17nativeOrientationEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZNK21QEGLDeviceIntegration18physicalScreenSizeEv@Qt_5_PRIVATE_API 5.5.0 1
+ _ZNK21QEGLDeviceIntegration27supportsSurfacelessContextsEv@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZNK21QEGLDeviceIntegration9wlDisplayEv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZNK27QEGLDeviceIntegrationPlugin10metaObjectEv@Qt_5_PRIVATE_API 5.5.0 1
+ _ZTI12QEglFSCursor@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTI12QEglFSScreen@Qt_5_PRIVATE_API 5.5.0 1
  _ZTI12QEglFSWindow@Qt_5_PRIVATE_API 5.5.0 1
  _ZTI13QEglFSContext@Qt_5_PRIVATE_API 5.5.0 1
@@ -164,6 +217,7 @@ libQt5EglDeviceIntegration.so.5 libqt5egldeviceintegration5 #MINVER#
  _ZTI27QEGLDeviceIntegrationPlugin@Qt_5_PRIVATE_API 5.5.0 1
  _ZTI27QEventDispatcherGlibPrivate@Qt_5_PRIVATE_API 5.5.0 1
  _ZTI31QAbstractEventDispatcherPrivate@Qt_5_PRIVATE_API 5.5.0 1
+ _ZTS12QEglFSCursor@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTS12QEglFSScreen@Qt_5_PRIVATE_API 5.5.0 1
  _ZTS12QEglFSWindow@Qt_5_PRIVATE_API 5.5.0 1
  _ZTS13QEglFSContext@Qt_5_PRIVATE_API 5.5.0 1
@@ -175,6 +229,7 @@ libQt5EglDeviceIntegration.so.5 libqt5egldeviceintegration5 #MINVER#
  _ZTS27QEGLDeviceIntegrationPlugin@Qt_5_PRIVATE_API 5.5.0 1
  _ZTS27QEventDispatcherGlibPrivate@Qt_5_PRIVATE_API 5.5.0 1
  _ZTS31QAbstractEventDispatcherPrivate@Qt_5_PRIVATE_API 5.5.0 1
+ _ZTV12QEglFSCursor@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTV12QEglFSScreen@Qt_5_PRIVATE_API 5.5.0 1
  _ZTV12QEglFSWindow@Qt_5_PRIVATE_API 5.5.0 1
  _ZTV13QEglFSContext@Qt_5_PRIVATE_API 5.5.0 1
@@ -184,3 +239,12 @@ libQt5EglDeviceIntegration.so.5 libqt5egldeviceintegration5 #MINVER#
  _ZTV21QEglFSOffscreenWindow@Qt_5_PRIVATE_API 5.5.0 1
  _ZTV27QEGLDeviceIntegrationPlugin@Qt_5_PRIVATE_API 5.5.0 1
  _ZTV31QAbstractEventDispatcherPrivate@Qt_5_PRIVATE_API 5.5.0 1
+ (c++)"non-virtual thunk to QEglFSIntegration::nativeResourceForContext(QByteArray const&, QOpenGLContext*)@Qt_5_PRIVATE_API" 5.6.0~beta
+ (c++)"non-virtual thunk to QEglFSIntegration::nativeResourceForIntegration(QByteArray const&)@Qt_5_PRIVATE_API" 5.6.0~beta
+ (c++)"non-virtual thunk to QEglFSIntegration::nativeResourceForScreen(QByteArray const&, QScreen*)@Qt_5_PRIVATE_API" 5.6.0~beta
+ (c++)"non-virtual thunk to QEglFSIntegration::nativeResourceForWindow(QByteArray const&, QWindow*)@Qt_5_PRIVATE_API" 5.6.0~beta
+ (c++)"non-virtual thunk to QEglFSIntegration::nativeResourceFunctionForContext(QByteArray const&)@Qt_5_PRIVATE_API" 5.6.0~beta
+ (c++)"non-virtual thunk to QEglFSIntegration::platformFunction(QByteArray const&) const@Qt_5_PRIVATE_API" 5.6.0~beta
+ (c++)"non-virtual thunk to QEglFSWindow::endCompositing()@Qt_5_PRIVATE_API" 5.6.0~beta
+ (c++)"non-virtual thunk to QEglFSWindow::sourceWindow() const@Qt_5_PRIVATE_API" 5.6.0~beta
+ (c++)"non-virtual thunk to QEglFSWindow::textures() const@Qt_5_PRIVATE_API" 5.6.0~beta
