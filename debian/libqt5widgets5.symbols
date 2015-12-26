@@ -7486,7 +7486,6 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK9QUndoView5groupEv@Qt_5 5.0.2
  _ZNK9QUndoView5stackEv@Qt_5 5.0.2
  _ZNK9QUndoView9cleanIconEv@Qt_5 5.0.2
- (optional=templinst|subst|arch=powerpcspe)_ZSt11__push_heapIN5QListI5QPairIPN23QFileSystemModelPrivate15QFileSystemNodeEiEE8iteratorE{qptrdiff}S5_22QFileSystemModelSorterEvT_T0_SA_T1_T2_@Base 5.0.2
  (optional=templinst|arch=armel armhf hurd-i386 i386 kfreebsd-i386 m68k mips mipsel powerpc)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 5.0.2
  _ZTI10QBoxLayout@Qt_5 5.0.2
  _ZTI10QCompleter@Qt_5 5.0.2
