@@ -9,7 +9,7 @@ libQt5Concurrent.so.5 libqt5concurrent5 #MINVER#
  Qt_5.5@Qt_5.5 5.6.0~beta
  Qt_5.6@Qt_5.6 5.6.0~beta
  Qt_5@Qt_5 5.6.0~beta
- Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0~beta
+ Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN12QtConcurrent16BlockSizeManager13timeAfterUserEv@Qt_5 5.0.2
  _ZN12QtConcurrent16BlockSizeManager14timeBeforeUserEv@Qt_5 5.0.2
  _ZN12QtConcurrent16BlockSizeManager9blockSizeEv@Qt_5 5.0.2

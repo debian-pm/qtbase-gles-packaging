@@ -9,7 +9,7 @@ libQt5Xml.so.5 libqt5xml5 #MINVER#
  Qt_5.5@Qt_5.5 5.6.0~beta
  Qt_5.6@Qt_5.6 5.6.0~beta
  Qt_5@Qt_5 5.6.0~beta
- Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0~beta
+ Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN10QDomEntityC1EP17QDomEntityPrivate@Qt_5 5.0.2
  _ZN10QDomEntityC1ERKS_@Qt_5 5.0.2
  _ZN10QDomEntityC1Ev@Qt_5 5.0.2

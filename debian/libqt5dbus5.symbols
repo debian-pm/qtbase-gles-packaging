@@ -9,7 +9,7 @@ libQt5DBus.so.5 libqt5dbus5 #MINVER#
  Qt_5.5@Qt_5.5 5.6.0~beta
  Qt_5.6@Qt_5.6 5.6.0~beta
  Qt_5@Qt_5 5.6.0~beta
- Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0~beta
+ Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0~beta 1
  _Z14qDBusReplyFillRK12QDBusMessageR10QDBusErrorR8QVariant@Qt_5 5.0.2
  _Z15qDBusAddSpyHookPFvRK12QDBusMessageE@Qt_5 5.0.2
  _Z18qDBusCheckAsyncTagPKc@Qt_5 5.1.0
