@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.6.0~beta amd64
+# SymbolsHelper-Confirmed: 5.6.0~beta amd64 i386
 libQt5EglDeviceIntegration.so.5 libqt5egldeviceintegration5 #MINVER#
 | libqt5egldeviceintegration5 #MINVER#, qtbase-abi-5-5-1
  Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0~beta
@@ -125,7 +125,7 @@ libQt5EglDeviceIntegration.so.5 libqt5egldeviceintegration5 #MINVER#
  _ZNK12QEglFSCursor10cursorRectEv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZNK12QEglFSCursor10metaObjectEv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZNK12QEglFSCursor3posEv@Qt_5_PRIVATE_API 5.6.0~beta
- _ZNK12QEglFSScreen10grabWindowEyiiii@Qt_5_PRIVATE_API 5.6.0~beta
+ (subst)_ZNK12QEglFSScreen10grabWindowE{quintptr}iiii@Qt_5_PRIVATE_API 5.6.0~beta
  _ZNK12QEglFSScreen10logicalDpiEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZNK12QEglFSScreen11orientationEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZNK12QEglFSScreen11refreshRateEv@Qt_5_PRIVATE_API 5.5.0 1
