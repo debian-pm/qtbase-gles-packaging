@@ -48,6 +48,10 @@ Copyright: 2007-2013 Fathi Boudra <fabo@debian.org>
            2013-2015 Dmitry Shachnev <mitya57@debian.org>
 License: LGPL-2.1-or-3 with Qt-1.1 exception
 
+Files: debian/scripts/*
+Copyright: 2015 Dmitry Shachnev <mitya57@debian.org>
+License: Expat
+
 Files: src/testlib/3rdparty/callgrind_p.h
        src/testlib/3rdparty/valgrind_p.h
 Copyright: 2003-2007 Josef Weidendorfer
