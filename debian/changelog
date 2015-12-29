@@ -21,6 +21,8 @@ qtbase-opensource-src (5.6.0~beta+dfsg-1) UNRELEASED; urgency=medium
     Qt_5_PRIVATE_API as the version part).
   * Update the symbols files using the script, and with build logs for amd64
     and i386.
+  * Use the new pkgkde-mark-qt5-private-symbols script (which takes upstream
+    version tags into account) from pkg-kde-tools ≥ 0.15.20.
 
   [ Diane Trout ]
   * Disable building docs.
