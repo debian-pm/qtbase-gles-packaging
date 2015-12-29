@@ -1,4 +1,4 @@
-qtbase-opensource-src (5.6.0~beta+dfsg-1) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.6.0~beta+dfsg-1) experimental; urgency=medium
 
   [ Dmitry Shachnev ]
   * New upstream beta release.
@@ -37,7 +37,7 @@ qtbase-opensource-src (5.6.0~beta+dfsg-1) UNRELEASED; urgency=medium
   * Remove qdoc from qtbase5-dev-tools.install as it appears to be missing.
   * Add fixqt4headers.pl to qtbase5-dev-tools.install.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 22 Dec 2015 15:58:40 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Tue, 29 Dec 2015 22:29:25 +0300
 
 qtbase-opensource-src (5.5.1+dfsg-10) unstable; urgency=medium
 
