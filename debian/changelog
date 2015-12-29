@@ -23,12 +23,12 @@ qtbase-opensource-src (5.6.0~beta+dfsg-1) UNRELEASED; urgency=medium
     and i386.
   * Use the new pkgkde-mark-qt5-private-symbols script (which takes upstream
     version tags into account) from pkg-kde-tools ≥ 0.15.20.
+  * Add a patch to remove useless check for D-Bus presense on configure time.
 
   [ Diane Trout ]
   * Disable building docs.
   * Disable tests.
   * Add guard for no new upstream changelog.
-  * Use dbus-run-session to run make, one step requires a valid dbus session.
   * Add new headers.
   * Remove MetaType headers.
   * Comment out missing pkg-config files.
