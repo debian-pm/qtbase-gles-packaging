@@ -1,4 +1,4 @@
-qtbase-opensource-src (5.6.0~beta+dfsg-2) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.6.0~beta+dfsg-2) experimental; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Add meta-information to symbols files in order to make sure that the
@@ -12,7 +12,7 @@ qtbase-opensource-src (5.6.0~beta+dfsg-2) UNRELEASED; urgency=medium
   * Add qnativesocketengine_freebsd.diff to fix the build failure on kFreeBSD.
   * Update symbols files from buildds’ logs.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 29 Dec 2015 22:02:02 -0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Wed, 30 Dec 2015 09:48:18 +0300
 
 qtbase-opensource-src (5.6.0~beta+dfsg-1) experimental; urgency=medium
 
