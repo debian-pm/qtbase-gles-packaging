@@ -5030,8 +5030,6 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZNK9QtPrivate18ResultIteratorBase9batchSizeEv@Qt_5 5.0.2
  _ZNK9QtPrivate18ResultIteratorBaseeqERKS0_@Qt_5 5.0.2
  _ZNK9QtPrivate18ResultIteratorBaseneERKS0_@Qt_5 5.0.2
- (optional=templinst|arch=powerpcspe)_ZNSt17_Temporary_bufferIP5QPairI21QPersistentModelIndexjES2_ED1Ev@Base 5.0.2
- (optional=templinst|arch=powerpcspe)_ZNSt17_Temporary_bufferIP5QPairI21QPersistentModelIndexjES2_ED2Ev@Base 5.0.2
  (optional=templinst)_ZNSt3_V28__rotateIP21QPersistentModelIndexEET_S3_S3_S3_St26random_access_iterator_tag@Qt_5 5.5.0
  (optional=templinst)_ZNSt3_V28__rotateIPiEET_S2_S2_S2_St26random_access_iterator_tag@Qt_5 5.5.0
  (optional=templinst)_ZSt13move_backwardIPiS0_ET0_T_S2_S1_@Qt_5 5.5.0
