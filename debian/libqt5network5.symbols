@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.6.0~beta amd64
+# SymbolsHelper-Confirmed: 5.6.0~beta amd64 armel armhf powerpc
 libQt5Network.so.5 libqt5network5 #MINVER#
 | libqt5network5 #MINVER#, qtbase-abi-5-6-0
 * Build-Depends-Package: qtbase5-dev
@@ -1197,6 +1197,7 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZNK9QSslError11errorStringEv@Qt_5 5.0.2
  _ZNK9QSslError5errorEv@Qt_5 5.0.2
  _ZNK9QSslErroreqERKS_@Qt_5 5.0.2
+ (optional=templinst|arch=armel armhf powerpc)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Qt_5 5.6.0~beta
  _ZTI10QDnsLookup@Qt_5 5.0.2
  _ZTI10QSslSocket@Qt_5 5.0.2
  _ZTI10QTcpServer@Qt_5 5.0.2
