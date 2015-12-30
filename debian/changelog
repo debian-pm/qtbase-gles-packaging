@@ -1,5 +1,12 @@
 qtbase-opensource-src (5.6.0~beta+dfsg-2) UNRELEASED; urgency=medium
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Add meta-information to symbols files in oder to make sure that the
+    dependency generated is at least as strict as the version of qtbase5-dev
+    used during the compilation. This should avoid parts of the Qt stack
+    (or any other app) migrating to testing before qtbase itself due to it
+    using only symbols present in older versions.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 29 Dec 2015 22:02:02 -0300
 
 qtbase-opensource-src (5.6.0~beta+dfsg-1) experimental; urgency=medium

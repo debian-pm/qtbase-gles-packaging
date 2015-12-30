@@ -1,6 +1,7 @@
 # SymbolsHelper-Confirmed: 5.6.0~beta amd64
 libQt5Test.so.5 libqt5test5 #MINVER#
 | libqt5test5 #MINVER#, qtbase-abi-5-5-1
+* Build-Depends-Package: qtbase5-dev
  Qt_5.0@Qt_5.0 5.6.0~beta
  Qt_5.1@Qt_5.1 5.6.0~beta
  Qt_5.2@Qt_5.2 5.6.0~beta
