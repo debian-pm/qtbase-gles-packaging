@@ -5,6 +5,8 @@ qtbase-opensource-src (5.6.0~beta+dfsg-3) UNRELEASED; urgency=medium
     for custom plugin paths. This change is needed to make qtimageformats
     tests success.
   * Small updates to debian/copyright.
+  * Drop debian/source/lintian-overrides, the only override there is no longer
+    needed.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 02 Jan 2016 20:19:11 +0300
 
