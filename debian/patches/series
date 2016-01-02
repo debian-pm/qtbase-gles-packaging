@@ -1,6 +1,7 @@
 # Backported from upstream
 no_dbus_dependency.diff
 qnativesocketengine_freebsd.diff
+qt_functions_missing_eval.diff
 
 # Debian specific.
 gnukfreebsd.diff
