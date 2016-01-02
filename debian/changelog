@@ -4,6 +4,7 @@ qtbase-opensource-src (5.6.0~beta+dfsg-3) UNRELEASED; urgency=medium
   * Add qt_functions_missing_eval.diff to make qmake generate proper code
     for custom plugin paths. This change is needed to make qtimageformats
     tests success.
+  * Small updates to debian/copyright.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 02 Jan 2016 20:19:11 +0300
 
