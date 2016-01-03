@@ -1,16 +1,15 @@
-qtbase-opensource-src (5.6.0~beta+dfsg-3) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.6.0~beta+dfsg-3) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
-  * Add qt_functions_missing_eval.diff to make qmake generate proper code
-    for custom plugin paths. This change is needed to make qtimageformats
-    tests success.
+  * Add qt_functions_missing_eval.diff to make qmake generate proper code for
+    custom plugin paths. This change is needed to make qtimageformats tests
+    success.
   * Small updates to debian/copyright.
   * Drop debian/source/lintian-overrides, the only override there is no longer
     needed.
   * Update the symbols files for kfreebsd-i386.
   * Remove sparc references from the symbols files, sparc is dead.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 02 Jan 2016 20:19:11 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Sun, 03 Jan 2016 21:03:01 +0300
 
 qtbase-opensource-src (5.6.0~beta+dfsg-2) experimental; urgency=medium
 
