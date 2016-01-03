@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.6.0~beta amd64 armel armhf i386 mips mipsel powerpc
+# SymbolsHelper-Confirmed: 5.6.0~beta amd64 armel armhf i386 kfreebsd-i386 mips mipsel powerpc
 libQt5XcbQpa.so.5 libqt5xcbqpa5 #MINVER#
 | libqt5xcbqpa5 #MINVER#, qtbase-abi-5-6-0
 * Build-Depends-Package: qtbase5-dev
@@ -359,7 +359,7 @@ libQt5XcbQpa.so.5 libqt5xcbqpa5 #MINVER#
  _ZNK26QXcbNativeInterfaceHandler32nativeResourceFunctionForContextERK10QByteArray@Qt_5_PRIVATE_API 5.5.0 1
  _ZNK26QXcbNativeInterfaceHandler36nativeResourceFunctionForIntegrationERK10QByteArray@Qt_5_PRIVATE_API 5.5.0 1
  _ZNK26QXcbNativeInterfaceHandler37nativeResourceFunctionForBackingStoreERK10QByteArray@Qt_5_PRIVATE_API 5.5.0 1
- (optional=templinst|arch=armel armhf i386 mips mipsel powerpc)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Qt_5_PRIVATE_API 5.6.0~beta 1
+ (optional=templinst|arch=armel armhf i386 kfreebsd-i386 mips mipsel powerpc)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZTI10QXcbScreen@Qt_5_PRIVATE_API 5.5.0 1
  _ZTI10QXcbWindow@Qt_5_PRIVATE_API 5.5.0 1
  _ZTI13QFontEngineFT@Qt_5_PRIVATE_API 5.5.0 1
