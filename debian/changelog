@@ -8,6 +8,7 @@ qtbase-opensource-src (5.6.0~beta+dfsg-3) UNRELEASED; urgency=medium
   * Drop debian/source/lintian-overrides, the only override there is no longer
     needed.
   * Update the symbols files for kfreebsd-i386.
+  * Remove sparc references from the symbols files, sparc is dead.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 02 Jan 2016 20:19:11 +0300
 
