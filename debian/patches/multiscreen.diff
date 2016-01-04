@@ -20,10 +20,10 @@ Date:   Sun Oct 25 01:11:28 2015 +0200
     Change-Id: I3d76261c0c067293d39949c4428b2d8dfd085dc7
     Reviewed-by: Shawn Rutledge <shawn.rutledge@theqtcompany.com>
 
-diff --git a/src/widgets/kernel/qdesktopwidget.cpp b/src/widgets/kernel/qdesktopwidget.cpp
-index b88b3cc..d21e601 100644
---- a/src/widgets/kernel/qdesktopwidget.cpp
-+++ b/src/widgets/kernel/qdesktopwidget.cpp
+Index: qtbase/src/widgets/kernel/qdesktopwidget.cpp
+===================================================================
+--- qtbase.orig/src/widgets/kernel/qdesktopwidget.cpp	2016-01-03 23:52:43.952944281 -0600
++++ qtbase/src/widgets/kernel/qdesktopwidget.cpp	2016-01-03 23:52:43.948944297 -0600
 @@ -36,6 +36,7 @@
  #include "qdesktopwidget_p.h"
  #include "qscreen.h"
@@ -32,7 +32,7 @@ index b88b3cc..d21e601 100644
  
  QT_BEGIN_NAMESPACE
  
-@@ -99,13 +100,18 @@ void QDesktopWidgetPrivate::_q_updateScreens()
+@@ -99,13 +100,18 @@
  
      QRegion virtualGeometry;
  
@@ -56,7 +56,7 @@ index b88b3cc..d21e601 100644
              changedScreens.push_back(i);
          }
          virtualGeometry += screenGeometry;
-@@ -191,6 +197,21 @@ int QDesktopWidget::screenNumber(const QWidget *w) const
+@@ -190,6 +196,21 @@
      if (!w)
          return 0;
  
@@ -78,11 +78,11 @@ index b88b3cc..d21e601 100644
      QRect frame = w->frameGeometry();
      if (!w->isWindow())
          frame.moveTopLeft(w->mapToGlobal(QPoint(0, 0)));
-diff --git a/src/widgets/widgets/qmenu.cpp b/src/widgets/widgets/qmenu.cpp
-index 4239e7f..ea3e4c4 100644
---- a/src/widgets/widgets/qmenu.cpp
-+++ b/src/widgets/widgets/qmenu.cpp
-@@ -2586,7 +2586,11 @@ void QMenu::mousePressEvent(QMouseEvent *e)
+Index: qtbase/src/widgets/widgets/qmenu.cpp
+===================================================================
+--- qtbase.orig/src/widgets/widgets/qmenu.cpp	2016-01-03 23:52:43.952944281 -0600
++++ qtbase/src/widgets/widgets/qmenu.cpp	2016-01-03 23:52:43.948944297 -0600
+@@ -2494,7 +2494,11 @@
      Q_D(QMenu);
      if (d->aboutToHide || d->mouseEventTaken(e))
          return;
