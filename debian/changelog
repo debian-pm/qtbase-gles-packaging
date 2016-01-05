@@ -1,3 +1,8 @@
+qtbase-opensource-src (5.6.0~beta+dfsg-4) UNRELEASED; urgency=medium
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 05 Jan 2016 21:05:06 +0300
+
 qtbase-opensource-src (5.6.0~beta+dfsg-3) experimental; urgency=medium
 
   * Add qt_functions_missing_eval.diff to make qmake generate proper code for
