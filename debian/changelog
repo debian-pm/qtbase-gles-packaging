@@ -4,9 +4,6 @@ qtbase-opensource-src (5.5.1+dfsg-11) UNRELEASED; urgency=medium
   * Backport an upstream patch to fix issue with multiple XCB
     screens, each having multiple screens. (multiscreen.diff).
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
-  * Please ignore this commit and the following one.
-
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 03 Jan 2016 23:31:05 -0600
 
 qtbase-opensource-src (5.5.1+dfsg-10) unstable; urgency=medium
