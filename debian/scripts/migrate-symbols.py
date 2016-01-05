@@ -22,6 +22,7 @@
 # TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 # SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
+import argparse
 import glob
 import re
 import subprocess
@@ -45,7 +46,7 @@ def apply_substs(symbol):
     return symbol
 
 
-def main(buildlog_path):
+def main(buildlog_path, mark_private):
     new_symbols = {}
     with open(buildlog_path) as buildlog:
         for line in buildlog:
@@ -85,7 +86,7 @@ def main(buildlog_path):
                 if not was_private and 'optional' not in options and symbol_subst not in new_symbols:
                     print('Missing symbol in %s: %s' % (symbols_file_path, symbol_subst), file=sys.stderr)
                 format_string = ' %s"%s@%s" %s' if 'c++' in options else ' %s%s@%s %s'
-                if 'PRIVATE' in abi:
+                if mark_private and 'PRIVATE' in abi:
                     format_string += ' 1'
                 new_lines.append(format_string % (options, symbol, abi, match.group(3)))
         with open(symbols_file_path, 'w') as symbols_file:
@@ -93,4 +94,8 @@ def main(buildlog_path):
                 print(line, file=symbols_file)
 
 if __name__ == '__main__':
-    main(sys.argv[1])
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--no-mark-private', help='do not mark private symbols', action='store_true')
+    parser.add_argument('buildlog', help='build log path')
+    args = parser.parse_args()
+    main(args.buildlog, not args.no_mark_private)
