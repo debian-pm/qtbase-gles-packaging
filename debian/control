@@ -410,7 +410,7 @@ Description: Qt 5 base development programs
  is its rich set of widgets that provide standard GUI functionality.
  .
  This package contains the development programs used for building Qt 5
- applications, such as moc, qdbuscpp2xml, qdbusxml2cpp, qdoc, rcc,
+ applications, such as moc, qdbuscpp2xml, qdbusxml2cpp, rcc,
  syncqt and uic.
 
 Package: qt5-qmake

@@ -14,6 +14,7 @@ qtbase-opensource-src (5.6.0~beta+dfsg-4) UNRELEASED; urgency=medium
     ship identical files for i386, hurd-i386 and kfreebsd-i386.
   * Exclude qdoc documentation from debian/qtbase5-doc-html.install (moved to
     qttools module).
+  * Remove qdoc mention from qtbase5-dev-tools package description.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 05 Jan 2016 21:05:06 +0300
 
