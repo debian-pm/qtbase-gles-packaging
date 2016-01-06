@@ -23,7 +23,7 @@ Reviewed-by: Shawn Rutledge <shawn.rutledge@theqtcompany.com>
 
 --- a/src/plugins/platforms/xcb/qxcbconnection.cpp
 +++ b/src/plugins/platforms/xcb/qxcbconnection.cpp
-@@ -488,6 +488,7 @@ QXcbConnection::QXcbConnection(QXcbNativ
+@@ -535,6 +535,7 @@
      , has_xkb(false)
      , m_buttons(0)
      , m_focusWindow(0)
@@ -31,7 +31,7 @@ Reviewed-by: Shawn Rutledge <shawn.rutledge@theqtcompany.com>
      , m_clientLeader(0)
      , m_systemTrayTracker(0)
      , m_glIntegration(Q_NULLPTR)
-@@ -1269,6 +1270,10 @@ void QXcbConnection::setFocusWindow(QXcb
+@@ -1328,6 +1329,10 @@
  {
      m_focusWindow = w;
  }
@@ -44,7 +44,7 @@ Reviewed-by: Shawn Rutledge <shawn.rutledge@theqtcompany.com>
  {
 --- a/src/plugins/platforms/xcb/qxcbconnection.h
 +++ b/src/plugins/platforms/xcb/qxcbconnection.h
-@@ -464,6 +464,8 @@ public:
+@@ -469,6 +469,8 @@
  
      QXcbWindow *focusWindow() const { return m_focusWindow; }
      void setFocusWindow(QXcbWindow *);
@@ -53,7 +53,7 @@ Reviewed-by: Shawn Rutledge <shawn.rutledge@theqtcompany.com>
  
      QByteArray startupId() const { return m_startupId; }
      void setStartupId(const QByteArray &nextId) { m_startupId = nextId; }
-@@ -637,6 +639,7 @@ private:
+@@ -647,6 +649,7 @@
      Qt::MouseButtons m_buttons;
  
      QXcbWindow *m_focusWindow;
@@ -63,9 +63,9 @@ Reviewed-by: Shawn Rutledge <shawn.rutledge@theqtcompany.com>
      QByteArray m_startupId;
 --- a/src/plugins/platforms/xcb/qxcbdrag.cpp
 +++ b/src/plugins/platforms/xcb/qxcbdrag.cpp
-@@ -186,6 +186,8 @@ void QXcbDrag::startDrag()
-                             atom(QXcbAtom::XdndTypelist),
-                             XCB_ATOM_ATOM, 32, drag_types.size(), (const void *)drag_types.constData());
+@@ -194,6 +194,8 @@
+ 
+     setUseCompositing(current_virtual_desktop->compositingActive());
      QBasicDrag::startDrag();
 +    if (connection()->mouseGrabber() == Q_NULLPTR)
 +        shapedPixmapWindow()->setMouseGrabEnabled(true);
@@ -74,7 +74,7 @@ Reviewed-by: Shawn Rutledge <shawn.rutledge@theqtcompany.com>
  void QXcbDrag::endDrag()
 --- a/src/plugins/platforms/xcb/qxcbwindow.cpp
 +++ b/src/plugins/platforms/xcb/qxcbwindow.cpp
-@@ -666,12 +666,16 @@ QXcbWindow::~QXcbWindow()
+@@ -594,12 +594,16 @@
  {
      if (window()->type() != Qt::ForeignWindow)
          destroy();
@@ -91,7 +91,7 @@ Reviewed-by: Shawn Rutledge <shawn.rutledge@theqtcompany.com>
  
      if (m_syncCounter && m_usingSyncProtocol)
          Q_XCB_CALL(xcb_sync_destroy_counter(xcb_connection(), m_syncCounter));
-@@ -922,6 +926,9 @@ void QXcbWindow::hide()
+@@ -847,6 +851,9 @@
  
      xcb_flush(xcb_connection());
  
@@ -101,7 +101,7 @@ Reviewed-by: Shawn Rutledge <shawn.rutledge@theqtcompany.com>
      m_mapped = false;
  }
  
-@@ -2399,6 +2406,8 @@ void QXcbWindow::handlePropertyNotifyEve
+@@ -2357,6 +2364,8 @@
              QWindowSystemInterface::handleWindowStateChanged(window(), newState);
              m_lastWindowStateEvent = newState;
              m_windowState = newState;
@@ -110,7 +110,7 @@ Reviewed-by: Shawn Rutledge <shawn.rutledge@theqtcompany.com>
          }
          return;
      } else if (event->atom == atom(QXcbAtom::_NET_FRAME_EXTENTS)) {
-@@ -2455,9 +2464,15 @@ bool QXcbWindow::setKeyboardGrabEnabled(
+@@ -2411,9 +2420,15 @@
  
  bool QXcbWindow::setMouseGrabEnabled(bool grab)
  {
@@ -128,7 +128,7 @@ Reviewed-by: Shawn Rutledge <shawn.rutledge@theqtcompany.com>
  #endif
      if (grab && !connection()->canGrab())
          return false;
-@@ -2476,6 +2491,8 @@ bool QXcbWindow::setMouseGrabEnabled(boo
+@@ -2432,6 +2447,8 @@
      xcb_grab_pointer_reply_t *reply = xcb_grab_pointer_reply(xcb_connection(), cookie, NULL);
      bool result = !(!reply || reply->status != XCB_GRAB_STATUS_SUCCESS);
      free(reply);

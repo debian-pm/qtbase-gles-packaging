@@ -8,6 +8,7 @@ qtbase-opensource-src (5.6.0~beta+dfsg-4) UNRELEASED; urgency=medium
     not present.
   * Use wildcards instead of hardcoded ABI versions in Lintian overrides files.
   * Merge 5.5.1+dfsg-11 and 5.5.1+dfsg-12 unstable uploads.
+    - Refresh patches.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 05 Jan 2016 21:05:06 +0300
 

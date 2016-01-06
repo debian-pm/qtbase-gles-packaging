@@ -29,7 +29,7 @@ Reviewed-by: Paul Olav Tvete <paul.tvete@theqtcompany.com>
 
 --- a/src/plugins/platforms/xcb/qxcbconnection_xi2.cpp
 +++ b/src/plugins/platforms/xcb/qxcbconnection_xi2.cpp
-@@ -268,7 +268,7 @@ void QXcbConnection::finalizeXInput2()
+@@ -274,7 +274,7 @@
  
  void QXcbConnection::xi2Select(xcb_window_t window)
  {

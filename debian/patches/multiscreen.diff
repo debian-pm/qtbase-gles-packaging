@@ -20,10 +20,8 @@ Date:   Sun Oct 25 01:11:28 2015 +0200
     Change-Id: I3d76261c0c067293d39949c4428b2d8dfd085dc7
     Reviewed-by: Shawn Rutledge <shawn.rutledge@theqtcompany.com>
 
-Index: qtbase/src/widgets/kernel/qdesktopwidget.cpp
-===================================================================
---- qtbase.orig/src/widgets/kernel/qdesktopwidget.cpp	2016-01-03 23:52:43.952944281 -0600
-+++ qtbase/src/widgets/kernel/qdesktopwidget.cpp	2016-01-03 23:52:43.948944297 -0600
+--- a/src/widgets/kernel/qdesktopwidget.cpp
++++ b/src/widgets/kernel/qdesktopwidget.cpp
 @@ -36,6 +36,7 @@
  #include "qdesktopwidget_p.h"
  #include "qscreen.h"
@@ -56,7 +54,7 @@ Index: qtbase/src/widgets/kernel/qdesktopwidget.cpp
              changedScreens.push_back(i);
          }
          virtualGeometry += screenGeometry;
-@@ -190,6 +196,21 @@
+@@ -191,6 +197,21 @@
      if (!w)
          return 0;
  
@@ -78,11 +76,9 @@ Index: qtbase/src/widgets/kernel/qdesktopwidget.cpp
      QRect frame = w->frameGeometry();
      if (!w->isWindow())
          frame.moveTopLeft(w->mapToGlobal(QPoint(0, 0)));
-Index: qtbase/src/widgets/widgets/qmenu.cpp
-===================================================================
---- qtbase.orig/src/widgets/widgets/qmenu.cpp	2016-01-03 23:52:43.952944281 -0600
-+++ qtbase/src/widgets/widgets/qmenu.cpp	2016-01-03 23:52:43.948944297 -0600
-@@ -2494,7 +2494,11 @@
+--- a/src/widgets/widgets/qmenu.cpp
++++ b/src/widgets/widgets/qmenu.cpp
+@@ -2586,7 +2586,11 @@
      Q_D(QMenu);
      if (d->aboutToHide || d->mouseEventTaken(e))
          return;
