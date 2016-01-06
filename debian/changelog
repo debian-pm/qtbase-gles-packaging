@@ -7,6 +7,7 @@ qtbase-opensource-src (5.6.0~beta+dfsg-4) UNRELEASED; urgency=medium
   * Make sure dh_installchangelogs is called even when upstream changelog is
     not present.
   * Use wildcards instead of hardcoded ABI versions in Lintian overrides files.
+  * Merge 5.5.1+dfsg-11 and 5.5.1+dfsg-12 unstable uploads.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 05 Jan 2016 21:05:06 +0300
 
@@ -79,6 +80,23 @@ qtbase-opensource-src (5.6.0~beta+dfsg-1) experimental; urgency=medium
   * Add fixqt4headers.pl to qtbase5-dev-tools.install.
 
  -- Dmitry Shachnev <mitya57@debian.org>  Tue, 29 Dec 2015 22:29:25 +0300
+
+qtbase-opensource-src (5.5.1+dfsg-12) unstable; urgency=medium
+
+  * Backport xcb_dont_select_XInput_events_on_root_window.patch
+    (Closes: #807528).
+  * Refresh patches.
+  * Backport xcb_fix_drag_and_drop_when_window_is_hidden.patch.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 06 Jan 2016 11:33:21 -0300
+
+qtbase-opensource-src (5.5.1+dfsg-11) unstable; urgency=medium
+
+  [ Adam Majer ]
+  * Backport an upstream patch to fix issue with multiple XCB
+    screens, each having multiple screens. (multiscreen.diff).
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Tue, 05 Jan 2016 14:39:24 -0300
 
 qtbase-opensource-src (5.5.1+dfsg-10) unstable; urgency=medium
 

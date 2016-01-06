@@ -2,6 +2,9 @@
 no_dbus_dependency.diff
 qnativesocketengine_freebsd.diff
 qt_functions_missing_eval.diff
+multiscreen.diff
+xcb_dont_select_XInput_events_on_root_window.patch
+xcb_fix_drag_and_drop_when_window_is_hidden.patch
 
 # Debian specific.
 gnukfreebsd.diff
