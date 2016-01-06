@@ -12,14 +12,12 @@ Reviewed-by: Albert Astals Cid <aacid@kde.org>
 Reviewed-by: Richard J. Moore <rich@kde.org>
 Reviewed-by: Frederik Gladhorn <frederik.gladhorn@theqtcompany.com>
 ---
- src/platformsupport/linuxaccessibility/dbusconnection.cpp | 9 ++++++---
+ src/platformsupport/linuxaccessibility/dbusconnection.cpp |    9 ++++++---
  1 file changed, 6 insertions(+), 3 deletions(-)
 
-diff --git a/src/platformsupport/linuxaccessibility/dbusconnection.cpp b/src/platformsupport/linuxaccessibility/dbusconnection.cpp
-index 637b065..ae1ba18 100644
 --- a/src/platformsupport/linuxaccessibility/dbusconnection.cpp
 +++ b/src/platformsupport/linuxaccessibility/dbusconnection.cpp
-@@ -47,8 +47,11 @@
+@@ -44,8 +44,11 @@
  
  QT_BEGIN_NAMESPACE
  
@@ -33,7 +31,7 @@ index 637b065..ae1ba18 100644
  
  /*!
      \class DBusConnection
-@@ -137,7 +140,7 @@ void DBusConnection::connectA11yBus(const QString &address)
+@@ -111,7 +114,7 @@ void DBusConnection::connectA11yBus(cons
          qWarning("Could not find Accessibility DBus address.");
          return;
      }
@@ -42,6 +40,3 @@ index 637b065..ae1ba18 100644
  
      if (m_enabled)
          emit enabledChanged(true);
--- 
-2.1.4
-

@@ -24,14 +24,12 @@ Change-Id: I5c160e879d93fadfce14120ef2e89a4f71d4f599
 Reviewed-by: Uli Schlachter <psychon@znc.in>
 Reviewed-by: Paul Olav Tvete <paul.tvete@theqtcompany.com>
 ---
- src/plugins/platforms/xcb/qxcbconnection_xi2.cpp | 2 +-
+ src/plugins/platforms/xcb/qxcbconnection_xi2.cpp |    2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)
 
-diff --git a/src/plugins/platforms/xcb/qxcbconnection_xi2.cpp b/src/plugins/platforms/xcb/qxcbconnection_xi2.cpp
-index 1a12370..1b84de4 100644
 --- a/src/plugins/platforms/xcb/qxcbconnection_xi2.cpp
 +++ b/src/plugins/platforms/xcb/qxcbconnection_xi2.cpp
-@@ -274,7 +274,7 @@ void QXcbConnection::finalizeXInput2()
+@@ -268,7 +268,7 @@ void QXcbConnection::finalizeXInput2()
  
  void QXcbConnection::xi2Select(xcb_window_t window)
  {
@@ -40,6 +38,3 @@ index 1a12370..1b84de4 100644
          return;
  
      Display *xDisplay = static_cast<Display *>(m_xlib_display);
--- 
-2.7.0.rc3
-
