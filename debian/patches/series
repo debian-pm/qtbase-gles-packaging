@@ -10,6 +10,7 @@ qnetworkaccessmanager_accessibility.diff
 uic_qvalidator_qtgui.diff
 Fix-crash-on-exit-caused-by-QStringLiterals.patch
 multiscreen.diff
+xcb_dont_select_XInput_events_on_root_window.patch
 
 # Debian specific.
 gnukfreebsd.diff

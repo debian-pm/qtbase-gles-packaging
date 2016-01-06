@@ -1,5 +1,9 @@
 qtbase-opensource-src (5.5.1+dfsg-12) UNRELEASED; urgency=medium
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Backport xcb_dont_select_XInput_events_on_root_window.patch
+    (Closes: #807528).
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 06 Jan 2016 11:10:50 -0300
 
 qtbase-opensource-src (5.5.1+dfsg-11) unstable; urgency=medium
