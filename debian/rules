@@ -332,9 +332,6 @@ override_dh_strip:
 override_dh_makeshlibs:
 	dh_makeshlibs -V
 
-	# Check for private symbols not marked as such.
-	pkgkde-mark-qt5-private-symbols
-
 override_dh_clean:
 	dh_clean
 

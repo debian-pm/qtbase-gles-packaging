@@ -59,7 +59,7 @@ Build-Depends: debhelper (>= 9),
                libxkbcommon-dev,
                libxkbcommon-x11-dev,
                libxrender-dev,
-               pkg-kde-tools (>= 0.15.20~),
+               pkg-kde-tools (>= 0.15.17),
                publicsuffix,
                unixodbc-dev,
                zlib1g-dev
