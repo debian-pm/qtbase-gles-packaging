@@ -4,6 +4,8 @@ qtbase-opensource-src (5.6.0~beta+dfsg-4) UNRELEASED; urgency=medium
   * Drop unused dbus build-dependency.
   * Stop running pkgkde-mark-qt5-private-symbols script during build. The new
     way is that the maintainers run it themselves after each symbols update.
+  * Make sure dh_installchangelogs is called even when upstream changelog is
+    not present.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 05 Jan 2016 21:05:06 +0300
 

@@ -321,6 +321,8 @@ override_dh_installdocs:
 override_dh_installchangelogs:
 	if [ -f $(upstream_changes) ] ; then \
 		dh_installchangelogs $(upstream_changes); \
+	else \
+		dh_installchangelogs; \
 	fi
 
 override_dh_strip:
