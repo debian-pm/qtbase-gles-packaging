@@ -289,7 +289,7 @@ endif
 		-exec chmod a-x {} \;
 
 override_dh_auto_install-indep:
-	dh_auto_build -- INSTALL_ROOT=$(CURDIR)/debian/tmp install_html_docs
+	dh_auto_build -- INSTALL_ROOT=$(CURDIR)/debian/tmp install_docs
 
 override_dh_install:
 	# Now flush all the .install-* files as .install files.
