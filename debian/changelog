@@ -19,6 +19,7 @@ qtbase-opensource-src (5.6.0~beta+dfsg-4) UNRELEASED; urgency=medium
     - Add libqt5sql5-sqlite and qttools5-dev-tools to Build-Depends-Indep.
   * README.source:
     - Update the section on marking the private symbols.
+    - Add a new section about bootstrapping the docs packages.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 05 Jan 2016 21:05:06 +0300
 
