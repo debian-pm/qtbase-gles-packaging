@@ -16,9 +16,11 @@ tests/auto/corelib/io/qtextstream/rfc3261.txt
 Marking private symbols
 -----------------------
 
-After doing a first build, run mark_private_symbols to mark private symbols
-to depend on qtbase-abi-x-y-z. Be sure to modify control, lintian-overrides and
-symbols files with current version of this ABI.
+After each symbols update, run pkgkde-mark-qt5-private symbols helper script
+from pkg-kde-tools ≥ 0.15.21.
+
+When upstream ABI breaks, update qtbase-abi-x-y-z version in debian/control
+and in the symbols files.
 
 Patches to the original source code
 -----------------------------------
