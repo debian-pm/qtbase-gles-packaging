@@ -70,7 +70,7 @@ qtbase-opensource-src (5.6.0~beta+dfsg-1) experimental; urgency=medium
     - uic_qvalidator_qtgui.diff
     - Fix-crash-on-exit-caused-by-QStringLiterals.patch
   * Refresh debian/patches/gnukfreebsd.diff.
-  * Add a new script (debian/scripts/migrate-symbols.sh) to help with migrating
+  * Add a new script (debian/scripts/migrate-symbols.py) to help with migrating
     the symbols files to a new upstream symbols versioning scheme (Qt_5 or
     Qt_5_PRIVATE_API as the version part).
   * Update the symbols files using the script, and with build logs for amd64
