@@ -46,7 +46,7 @@ def apply_substs(symbol):
     return symbol
 
 
-def main(buildlog_path, mark_private):
+def main(buildlog_path, mark_private, version):
     new_symbols = {}
     with open(buildlog_path) as buildlog:
         for line in buildlog:
@@ -88,7 +88,8 @@ def main(buildlog_path, mark_private):
                 format_string = ' %s"%s@%s" %s' if 'c++' in options else ' %s%s@%s %s'
                 if mark_private and 'PRIVATE' in abi:
                     format_string += ' 1'
-                new_lines.append(format_string % (options, symbol, abi, match.group(3)))
+                new_version = version or match.group(3)
+                new_lines.append(format_string % (options, symbol, abi, new_version))
         with open(symbols_file_path, 'w') as symbols_file:
             for line in new_lines:
                 print(line, file=symbols_file)
@@ -96,6 +97,7 @@ def main(buildlog_path, mark_private):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--no-mark-private', help='do not mark private symbols', action='store_true')
+    parser.add_argument('--version', help='version to change all symbols to')
     parser.add_argument('buildlog', help='build log path')
     args = parser.parse_args()
-    main(args.buildlog, not args.no_mark_private)
+    main(args.buildlog, not args.no_mark_private, args.version)
