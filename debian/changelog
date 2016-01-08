@@ -1,6 +1,5 @@
-qtbase-opensource-src (5.6.0~beta+dfsg-4) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.6.0~beta+dfsg-4) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * Drop unused dbus build-dependency.
   * Stop running pkgkde-mark-qt5-private-symbols script during build. The new
     way is that the maintainers run it themselves after each symbols update.
@@ -21,7 +20,7 @@ qtbase-opensource-src (5.6.0~beta+dfsg-4) UNRELEASED; urgency=medium
     - Update the section on marking the private symbols.
     - Add a new section about bootstrapping the docs packages.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 05 Jan 2016 21:05:06 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 08 Jan 2016 10:21:22 +0300
 
 qtbase-opensource-src (5.6.0~beta+dfsg-3) experimental; urgency=medium
 
