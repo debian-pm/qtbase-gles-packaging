@@ -1,3 +1,7 @@
+qtbase-opensource-src (5.6.0~beta+dfsg-5) UNRELEASED; urgency=medium
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 08 Jan 2016 12:17:40 -0300
+
 qtbase-opensource-src (5.6.0~beta+dfsg-4) experimental; urgency=medium
 
   * Drop unused dbus build-dependency.
