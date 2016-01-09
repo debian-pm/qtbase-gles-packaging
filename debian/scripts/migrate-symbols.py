@@ -46,7 +46,7 @@ def apply_substs(symbol):
     return symbol
 
 
-def main(buildlog_path, mark_private, version):
+def main(buildlog_path, mark_private, source_version):
     new_symbols = {}
     with open(buildlog_path) as buildlog:
         for line in buildlog:
@@ -88,7 +88,7 @@ def main(buildlog_path, mark_private, version):
                 format_string = ' %s"%s@%s" %s' if 'c++' in options else ' %s%s@%s %s'
                 if mark_private and 'PRIVATE' in abi:
                     format_string += ' 1'
-                new_version = version or match.group(3)
+                new_version = source_version or match.group(3)
                 new_lines.append(format_string % (options, symbol, abi, new_version))
         with open(symbols_file_path, 'w') as symbols_file:
             for line in new_lines:
