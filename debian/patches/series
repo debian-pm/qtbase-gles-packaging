@@ -3,6 +3,7 @@ set_positionautomatic.diff
 set_WA_OutsideWSRange_for_native_widgets.patch
 bsd_volumeinfo.diff
 hurd_forkfd.diff
+xcb-fix-yet-another-crash-when-screens-are-disconnec.patch
 mips_no_atomic.diff
 detect_64bit_atomic.diff
 qnetworkreply_abort_socket.diff

@@ -1,6 +1,7 @@
 qtbase-opensource-src (5.5.1+dfsg-15) UNRELEASED; urgency=medium
 
-  * 
+  * Backport XCB patch related to screen disconnection handling QTBUG-42985:
+    - xcb-fix-yet-another-crash-when-screens-are-disconnec.patch
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 17 Feb 2016 10:15:48 +0000
 
