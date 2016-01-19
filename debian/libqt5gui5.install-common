@@ -1,4 +1,5 @@
 usr/lib/*/libQt5Gui.so.*
+usr/lib/*/libQt5XcbQpa.so.*
 usr/lib/*/qt5/plugins/generic/libqtuiotouchplugin.so
 usr/lib/*/qt5/plugins/imageformats/libqgif.so
 usr/lib/*/qt5/plugins/imageformats/libqico.so
@@ -7,3 +8,5 @@ usr/lib/*/qt5/plugins/platforminputcontexts/libcomposeplatforminputcontextplugin
 usr/lib/*/qt5/plugins/platforminputcontexts/libibusplatforminputcontextplugin.so
 usr/lib/*/qt5/plugins/platforms/libqminimal.so
 usr/lib/*/qt5/plugins/platforms/libqoffscreen.so
+usr/lib/*/qt5/plugins/platforms/libqxcb.so
+usr/lib/*/qt5/plugins/xcbglintegrations/*

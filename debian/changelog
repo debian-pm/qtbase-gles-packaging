@@ -1,9 +1,11 @@
 qtbase-opensource-src (5.5.1+dfsg-13) UNRELEASED; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
-  * Merge platforms plugins back into libqt5gui5: libqt5egldeviceintegration5.
+  * Merge platforms plugins back into libqt5gui5: libqt5egldeviceintegration5
+    and libqt5xcbqpa5.
     - Avoid creating shlibs and symbols files for the private libraries they
       ship.
+    - Add proper Breaks+Replaces.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 19 Jan 2016 01:06:25 -0300
 
