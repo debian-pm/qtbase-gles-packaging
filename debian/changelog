@@ -1,3 +1,8 @@
+qtbase-opensource-src (5.5.1+dfsg-13) UNRELEASED; urgency=medium
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 19 Jan 2016 01:06:25 -0300
+
 qtbase-opensource-src (5.5.1+dfsg-12) unstable; urgency=medium
 
   * Backport xcb_dont_select_XInput_events_on_root_window.patch
