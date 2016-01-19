@@ -91,6 +91,8 @@ Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: fontconfig, ${misc:Depends}, ${shlibs:Depends}
 Recommends: libqt5svg5, libqt5xcbqpa5
+Breaks: libqt5egldeviceintegration5 (<< 5.5.1+dfsg-13~)
+Replaces: libqt5egldeviceintegration5 (<< 5.5.1+dfsg-13~)
 Suggests: libqt5libqgtk2, qt5-image-formats-plugins, qtwayland5
 Description: Qt 5 GUI module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -293,20 +295,6 @@ Description: Qt 5 print support module
  .
  The QtPrintSupport module provides classes to make printing easier and
  portable.
-
-Package: libqt5egldeviceintegration5
-Architecture: linux-any
-Multi-Arch: same
-Pre-Depends: ${misc:Pre-Depends}
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: libqt5gui5 (<< 5.5.0+dfsg-1~)
-Replaces: libqt5gui5 (<< 5.5.0+dfsg-1~)
-Description: Qt 5 EGL device integration
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This module provides integration with different EGL devices through
- specific plugins for kms, x11, etc.
 
 Package: libqt5xcbqpa5
 Architecture: any
