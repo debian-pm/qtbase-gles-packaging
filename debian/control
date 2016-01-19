@@ -102,6 +102,17 @@ Description: Qt 5 GUI module
  .
  The QtGui module extends QtCore with GUI functionality.
 
+Package: libqt5xcbqpa5
+Architecture: any
+Section: oldlibs
+Depends: libqt5gui5, ${misc:Depends}
+Description: transitional dummy package for the XCB platform plugin
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This is a transitional dummy package for the XCB platform plugin which can be
+ safely removed.
+
 Package: libqt5libqgtk2
 Architecture: any
 Multi-Arch: same

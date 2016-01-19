@@ -7,6 +7,9 @@ qtbase-opensource-src (5.5.1+dfsg-13) UNRELEASED; urgency=medium
     and libqt5xcbqpa5.
     - Add proper Breaks+Replaces.
     - Remove other mentions of them.
+    - Add a transitional dummy package for libqt5xcbqpa5 as it's the only one
+      which has rdeps. We can safely remove it after the rdeps are fixed
+      (they are manually added).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 19 Jan 2016 01:06:25 -0300
 
