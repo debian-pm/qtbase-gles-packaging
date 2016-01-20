@@ -1,6 +1,5 @@
-qtbase-opensource-src (5.5.1+dfsg-13) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.5.1+dfsg-13) unstable; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * Fix URLs pointing to our "How to package Qt based stuff" page
     (Closes: #810282). Thanks Jakob Haufe for the pointer.
   * Merge platforms plugins back into libqt5gui5: libqt5egldeviceintegration5
@@ -15,7 +14,7 @@ qtbase-opensource-src (5.5.1+dfsg-13) UNRELEASED; urgency=medium
       which has rdeps. We can safely remove it after the rdeps are fixed
       (they are manually added).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 19 Jan 2016 01:06:25 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 20 Jan 2016 12:15:03 -0300
 
 qtbase-opensource-src (5.5.1+dfsg-12) unstable; urgency=medium
 
