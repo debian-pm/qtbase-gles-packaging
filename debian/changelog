@@ -14,7 +14,7 @@ qtbase-opensource-src (5.5.1+dfsg-13) unstable; urgency=medium
       which has rdeps. We can safely remove it after the rdeps are fixed
       (they are manually added).
 
- -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 20 Jan 2016 12:15:03 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 20 Jan 2016 18:06:21 -0300
 
 qtbase-opensource-src (5.5.1+dfsg-12) unstable; urgency=medium
 
