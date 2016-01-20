@@ -7,6 +7,8 @@ qtbase-opensource-src (5.5.1+dfsg-13) UNRELEASED; urgency=medium
     and libqt5xcbqpa5.
     - Avoid creating shlibs and symbols files for the private libraries they
       ship.
+    - Add lintian overrides for the plugins's private libs. See the override's
+      description for more info.
     - Add proper Breaks+Replaces.
     - Remove other mentions of them.
     - Add a transitional dummy package for libqt5xcbqpa5 as it's the only one
