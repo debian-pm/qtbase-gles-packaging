@@ -3,6 +3,9 @@ qtbase-opensource-src (5.6.0~beta+dfsg-5) UNRELEASED; urgency=medium
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Fix URLs pointing to our "How to package Qt based stuff" page
     (Closes: #810282). Thanks Jakob Haufe for the pointer.
+  * Merge 5.5.1+dfsg-13's changes into the experimental branch.
+    - Bump libqt5gui5's Breaks+Replaces so that users who installed
+      the experimental version have a proper package update.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 08 Jan 2016 12:17:40 -0300
 
