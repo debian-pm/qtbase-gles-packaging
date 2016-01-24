@@ -20,6 +20,10 @@ qtbase-opensource-src (5.5.1+dfsg-15) UNRELEASED; urgency=medium
   * Use https URIs for Vcs fields.
   * Bump Standards-Version to 3.9.7, no changes needed.
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Remove the transitional package libqt5xcbqpa5, there are no rdeps left in
+    sid or testing.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 17 Feb 2016 10:15:48 +0000
 
 qtbase-opensource-src (5.5.1+dfsg-14) unstable; urgency=medium
