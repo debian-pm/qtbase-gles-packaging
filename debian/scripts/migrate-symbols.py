@@ -48,7 +48,7 @@ def apply_substs(symbol):
 
 def main(buildlog_path, mark_private, source_version):
     new_symbols = {}
-    with open(buildlog_path) as buildlog:
+    with open(buildlog_path, errors='replace') as buildlog:
         for line in buildlog:
             if not line.startswith('+ '):
                 continue
