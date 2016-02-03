@@ -102,4 +102,7 @@ if __name__ == '__main__':
     parser.add_argument('--version', help='version to change all symbols to')
     parser.add_argument('buildlog', help='build log path')
     args = parser.parse_args()
+    if not args.version:
+        print('Please use the --version flag to bump the symbols versions.', file=sys.stderr)
+        print('For example: --version 5.6.0~beta', file=sys.stderr)
     main(args.buildlog, not args.no_mark_private, args.version)
