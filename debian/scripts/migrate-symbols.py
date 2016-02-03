@@ -88,7 +88,9 @@ def main(buildlog_path, mark_private, source_version):
                 format_string = ' %s"%s@%s" %s' if 'c++' in options else ' %s%s@%s %s'
                 if mark_private and 'PRIVATE' in abi:
                     format_string += ' 1'
-                new_version = source_version or match.group(3)
+                new_version = match.group(3)
+                if source_version and symbol_subst in new_symbols:
+                    new_version = source_version
                 new_lines.append(format_string % (options, symbol, abi, new_version))
         with open(symbols_file_path, 'w') as symbols_file:
             for line in new_lines:
