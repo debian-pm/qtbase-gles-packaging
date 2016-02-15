@@ -1,6 +1,5 @@
-qtbase-opensource-src (5.6.0~beta+dfsg-5) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.6.0~beta+dfsg-5) experimental; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * Fix URLs pointing to our "How to package Qt based stuff" page
     (Closes: #810282). Thanks Jakob Haufe for the pointer.
   * Merge 5.5.1+dfsg-13's changes into the experimental branch.
@@ -10,7 +9,7 @@ qtbase-opensource-src (5.6.0~beta+dfsg-5) UNRELEASED; urgency=medium
     lived in sid/testing and already removed it.
   * Merge 5.5.1+dfsg-14 from master, importing fix_not_delivering_focus.patch.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 08 Jan 2016 12:17:40 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 15 Feb 2016 15:49:42 -0300
 
 qtbase-opensource-src (5.6.0~beta+dfsg-4) experimental; urgency=medium
 
