@@ -1,5 +1,7 @@
 qtbase-opensource-src (5.5.1+dfsg-14) UNRELEASED; urgency=medium
 
+  * Backport fix_not_delivering_focus.patch to fix not delivering focusIn event
+    on hide/show.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 03 Feb 2016 19:03:04 -0300
 
