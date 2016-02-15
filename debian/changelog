@@ -1,12 +1,11 @@
-qtbase-opensource-src (5.5.1+dfsg-14) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.5.1+dfsg-14) unstable; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * Backport fix_not_delivering_focus.patch to fix not delivering focusIn event
     on hide/show.
   * Backport fix_potential_division_by_zero.patch to fix potential division by
     zero (Closes: #814699).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 03 Feb 2016 19:03:04 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 15 Feb 2016 14:51:51 -0300
 
 qtbase-opensource-src (5.5.1+dfsg-13) unstable; urgency=medium
 
