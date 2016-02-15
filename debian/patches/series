@@ -5,6 +5,8 @@ qt_functions_missing_eval.diff
 multiscreen.diff
 xcb_dont_select_XInput_events_on_root_window.patch
 xcb_fix_drag_and_drop_when_window_is_hidden.patch
+fix_not_delivering_focus.patch
+fix_potential_division_by_zero.patch
 
 # Debian specific.
 gnukfreebsd.diff

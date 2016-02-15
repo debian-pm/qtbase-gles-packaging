@@ -8,6 +8,7 @@ qtbase-opensource-src (5.6.0~beta+dfsg-5) UNRELEASED; urgency=medium
       the experimental version have a proper package update.
   * Remove the transitional package libqt5xcbqpa5, their only rdeps
     lived in sid/testing and already removed it.
+  * Merge 5.5.1+dfsg-14 from master, importing the patches added there.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 08 Jan 2016 12:17:40 -0300
 
@@ -104,6 +105,15 @@ qtbase-opensource-src (5.6.0~beta+dfsg-1) experimental; urgency=medium
   * Add fixqt4headers.pl to qtbase5-dev-tools.install.
 
  -- Dmitry Shachnev <mitya57@debian.org>  Tue, 29 Dec 2015 22:29:25 +0300
+
+qtbase-opensource-src (5.5.1+dfsg-14) unstable; urgency=medium
+
+  * Backport fix_not_delivering_focus.patch to fix not delivering focusIn event
+    on hide/show.
+  * Backport fix_potential_division_by_zero.patch to fix potential division by
+    zero (Closes: #814699).
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 15 Feb 2016 14:51:51 -0300
 
 qtbase-opensource-src (5.5.1+dfsg-13) unstable; urgency=medium
 
