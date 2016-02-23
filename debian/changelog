@@ -12,6 +12,8 @@ qtbase-opensource-src (5.5.1+dfsg-15) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * Backport several upstream dbusmenu/dbustray related fixes from 5.6 branch.
+  * Correct license of japanese_230_50.qpf font in debian/copyright. Thanks to
+    Arnout Vandecappelle for the patch (closes: #815616).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 17 Feb 2016 10:15:48 +0000
 
