@@ -225,7 +225,7 @@ override_dh_auto_build-arch:
 	# regenerate some upstream-provided files.
 	cd $(CURDIR)/src; ../bin/qmake; make sub-corelib
 	# Add here the code to generate the helpers and then the headers.
-	sh debian/generateTLDs.sh
+	LC_ALL=C.UTF-8 sh debian/generateTLDs.sh
 	# Clean up the compiled code and start again.
 	cd $(CURDIR)/src; make distclean
 	make clean
