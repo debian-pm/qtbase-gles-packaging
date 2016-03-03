@@ -428,7 +428,7 @@ Files: src/3rdparty/iaccessible2/idl/*
 Copyright: 2006 IBM Corporation
 License: BSD-3-clause
 
-Files: lib/fonts/helvetica*
+Files: lib/fonts/helvetica* lib/fonts/japanese_230_50.qpf
 Copyright: 1984-1989, 1994 Adobe Systems Incorporated.
            1988, 1994 Digital Equipment Corporation.
 License: Adobe
@@ -571,7 +571,7 @@ License: Courier
  ARE GIVEN, WHETHER EXPRESS OR IMPLIED INCLUDING, BUT LIMITED TO THE IMPLIED
  WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
 
-Files: lib/fonts/micro_40_50.qpf lib/fonts/japanese_230_50.qpf lib/fonts/fixed_120_50.qpf lib/fonts/fixed_70_50.qpf
+Files: lib/fonts/micro_40_50.qpf lib/fonts/fixed_120_50.qpf lib/fonts/fixed_70_50.qpf
 Copyright: -
 License: public-domain
  A public domain font. Share and enjoy. http://www.X.org

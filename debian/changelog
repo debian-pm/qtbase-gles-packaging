@@ -105,6 +105,34 @@ qtbase-opensource-src (5.6.0~beta+dfsg-1) experimental; urgency=medium
 
  -- Dmitry Shachnev <mitya57@debian.org>  Tue, 29 Dec 2015 22:29:25 +0300
 
+qtbase-opensource-src (5.5.1+dfsg-15) unstable; urgency=medium
+
+  [ Timo Jyrinki ]
+  * Backport XCB patch related to screen disconnection handling QTBUG-42985:
+    - xcb-fix-yet-another-crash-when-screens-are-disconnec.patch
+  * debian/patches/Prefer-QT_PLUGIN_PATH-over-compiled-in-paths.patch:
+    - Backport. Prefer QT_PLUGIN_PATH over compiled-in paths (LP: #1519927)
+  * Fix Chinese glyph font rendering with new backported upstream patches:
+    - debian/patches/Fix-falsely-reported-style-for-fallback-font.patch
+    - debian/patches/Remove-historical-4-padding-in-QFontEngine-alphaMapF.patch
+      (LP: #1475205)
+
+  [ Dmitry Shachnev ]
+  * Backport several upstream dbusmenu/dbustray related fixes from 5.6 branch.
+  * Correct license of japanese_230_50.qpf font in debian/copyright. Thanks to
+    Arnout Vandecappelle for the patch (closes: #815616).
+  * debian/generateTLDs.sh: Set -e to fail when a subcommand fails.
+  * Call generateTLDs.sh with LC_ALL=C.UTF-8, to workaround a bug in grep.
+    See http://debbugs.gnu.org/cgi/bugreport.cgi?bug=22838.
+  * Use https URIs for Vcs fields.
+  * Bump Standards-Version to 3.9.7, no changes needed.
+
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Remove the transitional package libqt5xcbqpa5, there are no rdeps left in
+    sid or testing.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Thu, 03 Mar 2016 20:34:47 +0300
+
 qtbase-opensource-src (5.5.1+dfsg-14) unstable; urgency=medium
 
   * Backport fix_not_delivering_focus.patch to fix not delivering focusIn event
