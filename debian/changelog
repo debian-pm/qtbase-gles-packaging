@@ -17,6 +17,7 @@ qtbase-opensource-src (5.5.1+dfsg-15) UNRELEASED; urgency=medium
   * debian/generateTLDs.sh: Set -e to fail when a subcommand fails.
   * Call generateTLDs.sh with LC_ALL=C.UTF-8, to workaround a bug in grep.
     See http://debbugs.gnu.org/cgi/bugreport.cgi?bug=22838.
+  * Use https URIs for Vcs fields.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 17 Feb 2016 10:15:48 +0000
 

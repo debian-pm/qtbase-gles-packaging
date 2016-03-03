@@ -66,8 +66,8 @@ Build-Depends: debhelper (>= 9),
 Build-Conflicts: libmariadbclient-dev
 Standards-Version: 3.9.6
 Homepage: http://qt-project.org/
-Vcs-Git: git://anonscm.debian.org/pkg-kde/qt/qtbase.git
-Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/qt/qtbase.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-kde/qt/qtbase.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-kde/qt/qtbase.git
 
 Package: libqt5core5a
 Architecture: any
