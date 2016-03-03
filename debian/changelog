@@ -1,3 +1,10 @@
+qtbase-opensource-src (5.6.0~beta+dfsg-6) UNRELEASED; urgency=medium
+
+  [ Dmitry Shachnev ]
+  * Merge 5.5.1+dfsg-15 from master.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 03 Mar 2016 22:57:38 +0300
+
 qtbase-opensource-src (5.6.0~beta+dfsg-5) experimental; urgency=medium
 
   * Fix URLs pointing to our "How to package Qt based stuff" page
