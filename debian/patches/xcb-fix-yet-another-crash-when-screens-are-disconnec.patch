@@ -13,11 +13,9 @@ Reviewed-by: Laszlo Agocs <laszlo.agocs@theqtcompany.com>
  src/plugins/platforms/xcb/qxcbconnection.cpp | 6 ++++--
  1 file changed, 4 insertions(+), 2 deletions(-)
 
-diff --git a/src/plugins/platforms/xcb/qxcbconnection.cpp b/src/plugins/platforms/xcb/qxcbconnection.cpp
-index f65437f..c35b019 100644
 --- a/src/plugins/platforms/xcb/qxcbconnection.cpp
 +++ b/src/plugins/platforms/xcb/qxcbconnection.cpp
-@@ -1300,10 +1300,12 @@ void QXcbConnection::sendConnectionEvent(QXcbAtom::Atom a, uint id)
+@@ -1288,10 +1288,12 @@
      memset(&event, 0, sizeof(event));
  
      const xcb_window_t eventListener = xcb_generate_id(m_connection);
@@ -32,6 +30,3 @@ index f65437f..c35b019 100644
  
      event.response_type = XCB_CLIENT_MESSAGE;
      event.format = 32;
--- 
-2.7.0.rc3
-

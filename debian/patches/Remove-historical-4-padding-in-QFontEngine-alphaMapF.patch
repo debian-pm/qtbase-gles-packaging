@@ -27,11 +27,9 @@ Reviewed-by: Konstantin Ritt <ritt.ks@gmail.com>
  src/gui/text/qfontengine.cpp | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)
 
-diff --git a/src/gui/text/qfontengine.cpp b/src/gui/text/qfontengine.cpp
-index 6567859..a0eedee 100644
 --- a/src/gui/text/qfontengine.cpp
 +++ b/src/gui/text/qfontengine.cpp
-@@ -961,7 +961,7 @@ QImage QFontEngine::alphaMapForGlyph(glyph_t glyph)
+@@ -875,7 +875,7 @@
      pt.x = -glyph_x;
      pt.y = -glyph_y; // the baseline
      QPainterPath path;
@@ -40,6 +38,3 @@ index 6567859..a0eedee 100644
      im.fill(Qt::transparent);
      QPainter p(&im);
      p.setRenderHint(QPainter::Antialiasing);
--- 
-2.6.2
-

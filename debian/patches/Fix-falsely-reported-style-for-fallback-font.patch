@@ -34,11 +34,9 @@ Reviewed-by: Konstantin Ritt <ritt.ks@gmail.com>
  src/gui/text/qfontengine.cpp | 5 ++++-
  1 file changed, 4 insertions(+), 1 deletion(-)
 
-diff --git a/src/gui/text/qfontengine.cpp b/src/gui/text/qfontengine.cpp
-index 3208a19..f267b2d 100644
 --- a/src/gui/text/qfontengine.cpp
 +++ b/src/gui/text/qfontengine.cpp
-@@ -1835,7 +1835,10 @@ QFontEngine *QFontEngineMulti::loadEngine(int at)
+@@ -1752,7 +1752,10 @@
      request.family = fallbackFamilyAt(at - 1);
  
      if (QFontEngine *engine = QFontDatabase::findFont(request, m_script)) {
@@ -50,6 +48,3 @@ index 3208a19..f267b2d 100644
          return engine;
      }
  
--- 
-2.6.2
-

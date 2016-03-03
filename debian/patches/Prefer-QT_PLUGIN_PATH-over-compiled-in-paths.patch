@@ -24,11 +24,9 @@ Reviewed-by: Olivier Goffart (Woboq GmbH) <ogoffart@woboq.com>
  src/corelib/kernel/qcoreapplication.cpp | 23 ++++++++++++-----------
  1 file changed, 12 insertions(+), 11 deletions(-)
 
-diff --git a/src/corelib/kernel/qcoreapplication.cpp b/src/corelib/kernel/qcoreapplication.cpp
-index e08f709..e9fdb8c 100644
 --- a/src/corelib/kernel/qcoreapplication.cpp
 +++ b/src/corelib/kernel/qcoreapplication.cpp
-@@ -2541,17 +2541,6 @@ QStringList QCoreApplication::libraryPaths()
+@@ -2470,17 +2470,6 @@
      QMutexLocker locker(libraryPathMutex());
      if (!coreappdata()->app_libpaths) {
          QStringList *app_libpaths = coreappdata()->app_libpaths = new QStringList;
@@ -46,7 +44,7 @@ index e08f709..e9fdb8c 100644
  
          const QByteArray libPathEnv = qgetenv("QT_PLUGIN_PATH");
          if (!libPathEnv.isEmpty()) {
-@@ -2564,6 +2553,18 @@ QStringList QCoreApplication::libraryPaths()
+@@ -2498,6 +2487,18 @@
                  }
              }
          }
@@ -65,6 +63,3 @@ index e08f709..e9fdb8c 100644
      }
      return *(coreappdata()->app_libpaths);
  }
--- 
-2.6.2
-
