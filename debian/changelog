@@ -1,7 +1,18 @@
-qtbase-opensource-src (5.6.0~beta+dfsg-6) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.6.0~rc+dfsg-1) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
+  * New upstream release candidate.
   * Merge 5.5.1+dfsg-15 from master.
+  * Drop the following patches, all applied upstream:
+    - Fix-falsely-reported-style-for-fallback-font.patch
+    - Prefer-QT_PLUGIN_PATH-over-compiled-in-paths.patch
+    - Remove-historical-4-padding-in-QFontEngine-alphaMapF.patch
+    - multiscreen.diff
+    - qnativesocketengine_freebsd.diff
+    - qt_functions_missing_eval.diff
+    - xcb-fix-yet-another-crash-when-screens-are-disconnec.patch
+    - xcb_dont_select_XInput_events_on_root_window.patch
+    - xcb_fix_drag_and_drop_when_window_is_hidden.patch
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 03 Mar 2016 22:57:38 +0300
 

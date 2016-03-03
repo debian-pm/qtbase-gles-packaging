@@ -77,7 +77,7 @@ Last-Update: 2016-02-20
  }
 --- a/src/platformsupport/dbusmenu/qdbusmenuadaptor_p.h
 +++ b/src/platformsupport/dbusmenu/qdbusmenuadaptor_p.h
-@@ -129,7 +129,7 @@
+@@ -140,7 +140,7 @@
  "  </interface>\n"
          "")
  public:
@@ -86,7 +86,7 @@ Last-Update: 2016-02-20
      virtual ~QDBusMenuAdaptor();
  
  public: // PROPERTIES
-@@ -155,6 +155,9 @@
+@@ -166,6 +166,9 @@
      void ItemActivationRequested(int id, uint timestamp);
      void ItemsPropertiesUpdated(const QDBusMenuItemList &updatedProps, const QDBusMenuItemKeysList &removedProps);
      void LayoutUpdated(uint revision, int parent);
@@ -168,7 +168,7 @@ Last-Update: 2016-02-20
  QDBusMenuItemList QDBusMenuItem::items(const QList<int> &ids, const QStringList &propertyNames)
 --- a/src/platformsupport/dbusmenu/qdbusmenutypes_p.h
 +++ b/src/platformsupport/dbusmenu/qdbusmenutypes_p.h
-@@ -81,7 +81,7 @@
+@@ -94,7 +94,7 @@
  class QDBusMenuLayoutItem
  {
  public:
@@ -216,7 +216,7 @@ Last-Update: 2016-02-20
  
  QList<const QDBusPlatformMenuItem *> QDBusPlatformMenuItem::byIds(const QList<int> &ids)
 @@ -149,18 +155,13 @@
-     , m_isEnabled(false)
+     , m_isEnabled(true)
      , m_isVisible(true)
      , m_isSeparator(false)
 -    , m_dbusID(nextDBusID++)
@@ -321,7 +321,7 @@ Last-Update: 2016-02-20
      return m_items.at(position);
 --- a/src/platformsupport/dbusmenu/qdbusplatformmenu_p.h
 +++ b/src/platformsupport/dbusmenu/qdbusplatformmenu_p.h
-@@ -119,6 +119,7 @@
+@@ -130,6 +130,7 @@
      ~QDBusPlatformMenu();
      void insertMenuItem(QPlatformMenuItem *menuItem, QPlatformMenuItem *before) Q_DECL_OVERRIDE;
      void removeMenuItem(QPlatformMenuItem *menuItem) Q_DECL_OVERRIDE;
@@ -329,7 +329,7 @@ Last-Update: 2016-02-20
      void syncMenuItem(QPlatformMenuItem *menuItem) Q_DECL_OVERRIDE;
      void syncSeparatorsCollapsible(bool enable) Q_DECL_OVERRIDE { Q_UNUSED(enable); }
  
-@@ -133,8 +134,7 @@
+@@ -144,8 +145,7 @@
      void setMinimumWidth(int width) Q_DECL_OVERRIDE { Q_UNUSED(width); }
      void setFont(const QFont &font) Q_DECL_OVERRIDE { Q_UNUSED(font); }
      void setMenuType(MenuType type) Q_DECL_OVERRIDE { Q_UNUSED(type); }
@@ -339,7 +339,7 @@ Last-Update: 2016-02-20
  
      void showPopup(const QWindow *parentWindow, const QRect &targetRect, const QPlatformMenuItem *item) Q_DECL_OVERRIDE
      {
-@@ -155,9 +155,6 @@
+@@ -166,9 +166,6 @@
  
      bool operator==(const QDBusPlatformMenu& other) { return m_tag == other.m_tag; }
  
@@ -349,7 +349,7 @@ Last-Update: 2016-02-20
      uint revision() const { return m_revision; }
  
      void emitUpdated();
-@@ -173,12 +170,10 @@
+@@ -184,12 +181,10 @@
      bool m_isEnabled;
      bool m_isVisible;
      bool m_isSeparator;

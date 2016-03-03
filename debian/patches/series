@@ -1,16 +1,7 @@
 # Backported from upstream
-xcb-fix-yet-another-crash-when-screens-are-disconnec.patch
-Prefer-QT_PLUGIN_PATH-over-compiled-in-paths.patch
-Fix-falsely-reported-style-for-fallback-font.patch
-Remove-historical-4-padding-in-QFontEngine-alphaMapF.patch
 dbusmenu_fixes.diff
 dbustray_fixes.diff
 no_dbus_dependency.diff
-qnativesocketengine_freebsd.diff
-qt_functions_missing_eval.diff
-multiscreen.diff
-xcb_dont_select_XInput_events_on_root_window.patch
-xcb_fix_drag_and_drop_when_window_is_hidden.patch
 fix_not_delivering_focus.patch
 
 # Debian specific.

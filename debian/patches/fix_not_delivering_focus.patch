@@ -43,7 +43,7 @@ Change-Id: I433c8b638834c25f113cc134ee4185778c44f540
 
 --- a/src/plugins/platforms/xcb/qxcbwindow.cpp
 +++ b/src/plugins/platforms/xcb/qxcbwindow.cpp
-@@ -894,8 +894,13 @@ static bool focusInPeeker(QXcbConnection
+@@ -894,8 +894,13 @@
          return true;
      }
      uint response_type = event->response_type & ~0x80;
@@ -59,7 +59,7 @@ Change-Id: I433c8b638834c25f113cc134ee4185778c44f540
  
      /* We are also interested in XEMBED_FOCUS_IN events */
      if (response_type == XCB_CLIENT_MESSAGE) {
-@@ -2373,14 +2378,22 @@ void QXcbWindow::handlePropertyNotifyEve
+@@ -2369,14 +2374,22 @@
      }
  }
  
