@@ -1,4 +1,4 @@
-qtbase-opensource-src (5.5.1+dfsg-15) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.5.1+dfsg-15) unstable; urgency=medium
 
   [ Timo Jyrinki ]
   * Backport XCB patch related to screen disconnection handling QTBUG-42985:
@@ -24,7 +24,7 @@ qtbase-opensource-src (5.5.1+dfsg-15) UNRELEASED; urgency=medium
   * Remove the transitional package libqt5xcbqpa5, there are no rdeps left in
     sid or testing.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 17 Feb 2016 10:15:48 +0000
+ -- Dmitry Shachnev <mitya57@debian.org>  Thu, 03 Mar 2016 20:34:47 +0300
 
 qtbase-opensource-src (5.5.1+dfsg-14) unstable; urgency=medium
 
