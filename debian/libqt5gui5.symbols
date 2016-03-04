@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.6.0~beta amd64 arm64 armel armhf i386 kfreebsd-i386 mips mipsel powerpc
+# SymbolsHelper-Confirmed: 5.6.0~rc amd64
 libQt5Gui.so.5 libqt5gui5 #MINVER#
 | libqt5gui5 #MINVER#, qtbase-abi-5-6-0
 * Build-Depends-Package: qtbase5-dev
@@ -57,7 +57,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _Z22qt_find_ellipse_coordsRK6QRectFddP7QPointFS3_@Qt_5 5.2.0
  _Z22qt_fontdata_from_indexi@Qt_5 5.0.2
  _Z22qt_gl_read_framebufferRK5QSizebb@Qt_5 5.0.2
- _Z22qt_handleShortcutEventP7QObjectmi6QFlagsIN2Qt16KeyboardModifierEERK7QStringbt@Qt_5 5.6.0~beta
  _Z22qt_paint_device_metricPK12QPaintDeviceNS_17PaintDeviceMetricE@Qt_5 5.0.2
  _Z23hb_qt_get_unicode_funcsv@Qt_5 5.2.0
  _Z24hb_qt_script_from_script11hb_script_t@Qt_5 5.2.0
@@ -71,6 +70,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _Z27qt_isExtendedRadialGradientRK6QBrush@Qt_5 5.0.2
  _Z28qt_painterPathFromVectorPathRK11QVectorPath@Qt_5_PRIVATE_API 5.0.2 1
  _Z28qt_script_for_writing_systemN13QFontDatabase13WritingSystemE@Qt_5 5.3.0
+ _Z28qt_sendShortcutOverrideEventP7QObjectmi6QFlagsIN2Qt16KeyboardModifierEERK7QStringbt@Qt_5 5.6.0~rc
  _Z29qt_convert_rgb888_to_rgbx8888PjPKhi@Qt_5 5.5.0
  _Z29qt_draw_decoration_for_glyphsP8QPainterPKjPK11QFixedPointiP11QFontEngineRK5QFontRK15QTextCharFormat@Qt_5_PRIVATE_API 5.0.2 1
  _Z29qt_set_sequence_auto_mnemonicb@Qt_5 5.0.2
@@ -1630,6 +1630,8 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN15QGuiApplication23setDesktopSettingsAwareEb@Qt_5 5.0.2
  _ZN15QGuiApplication25setApplicationDisplayNameERK7QString@Qt_5 5.0.2
  _ZN15QGuiApplication25setQuitOnLastWindowClosedEb@Qt_5 5.0.2
+ _ZN15QGuiApplication34isFallbackSessionManagementEnabledEv@Qt_5 5.6.0~rc
+ _ZN15QGuiApplication35setFallbackSessionManagementEnabledEb@Qt_5 5.6.0~rc
  _ZN15QGuiApplication4execEv@Qt_5 5.0.2
  _ZN15QGuiApplication4fontEv@Qt_5 5.0.2
  _ZN15QGuiApplication4syncEv@Qt_5 5.2.0~rc1
@@ -3115,6 +3117,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN22QGuiApplicationPrivate32processTabletLeaveProximityEventEPN29QWindowSystemInterfacePrivate25TabletLeaveProximityEventE@Qt_5_PRIVATE_API 5.0.2 1
  _ZN22QGuiApplicationPrivate33sendQWindowEventToQPlatformWindowEP7QWindowP6QEvent@Qt_5_PRIVATE_API 5.0.2 1
  _ZN22QGuiApplicationPrivate34applyWindowGeometrySpecificationToEP7QWindow@Qt_5_PRIVATE_API 5.4.2 1
+ _ZN22QGuiApplicationPrivate38is_fallback_session_management_enabledE@Qt_5_PRIVATE_API 5.6.0~rc 1
  _ZN22QGuiApplicationPrivate4initEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZN22QGuiApplicationPrivate4selfE@Qt_5_PRIVATE_API 5.0.2 1
  _ZN22QGuiApplicationPrivate7app_palE@Qt_5_PRIVATE_API 5.0.2 1
