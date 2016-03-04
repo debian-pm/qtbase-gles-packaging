@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.6.0~beta amd64
+# SymbolsHelper-Confirmed: 5.6.0~rc amd64
 libQt5Concurrent.so.5 libqt5concurrent5 #MINVER#
 | libqt5concurrent5 #MINVER#, qtbase-abi-5-6-0
 * Build-Depends-Package: qtbase5-dev
@@ -36,6 +36,11 @@ libQt5Concurrent.so.5 libqt5concurrent5 #MINVER#
  _ZN12QtConcurrent16ThreadEngineBaseD0Ev@Qt_5 5.0.2
  _ZN12QtConcurrent16ThreadEngineBaseD1Ev@Qt_5 5.0.2
  _ZN12QtConcurrent16ThreadEngineBaseD2Ev@Qt_5 5.0.2
+ _ZN12QtConcurrent18BlockSizeManagerV213timeAfterUserEv@Qt_5 5.6.0~rc
+ _ZN12QtConcurrent18BlockSizeManagerV214timeBeforeUserEv@Qt_5 5.6.0~rc
+ _ZN12QtConcurrent18BlockSizeManagerV29blockSizeEv@Qt_5 5.6.0~rc
+ _ZN12QtConcurrent18BlockSizeManagerV2C1Ei@Qt_5 5.6.0~rc
+ _ZN12QtConcurrent18BlockSizeManagerV2C2Ei@Qt_5 5.6.0~rc
  _ZTIN12QtConcurrent16ThreadEngineBaseE@Qt_5 5.0.2
  _ZTSN12QtConcurrent16ThreadEngineBaseE@Qt_5 5.0.2
  _ZTVN12QtConcurrent16ThreadEngineBaseE@Qt_5 5.0.2

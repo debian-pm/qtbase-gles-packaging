@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.6.0~beta amd64 armel armhf i386 kfreebsd-i386 mips mipsel powerpc
+# SymbolsHelper-Confirmed: 5.6.0~rc amd64
 libQt5Widgets.so.5 libqt5widgets5 #MINVER#
 | libqt5widgets5 #MINVER#, qtbase-abi-5-6-0
 * Build-Depends-Package: qtbase5-dev
@@ -4943,9 +4943,9 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN9QListView9dropEventEP10QDropEvent@Qt_5 5.0.2
  _ZN9QListView9startDragE6QFlagsIN2Qt10DropActionEE@Qt_5 5.0.2
  _ZN9QListViewC1EP7QWidget@Qt_5 5.0.2
- _ZN9QListViewC1ER16QListViewPrivateP7QWidget@Qt_5 5.0.2
+ _ZN9QListViewC1ER16QListViewPrivateP7QWidget@Qt_5_PRIVATE_API 5.6.0~rc 1
  _ZN9QListViewC2EP7QWidget@Qt_5 5.0.2
- _ZN9QListViewC2ER16QListViewPrivateP7QWidget@Qt_5 5.0.2
+ _ZN9QListViewC2ER16QListViewPrivateP7QWidget@Qt_5_PRIVATE_API 5.6.0~rc 1
  _ZN9QListViewD0Ev@Qt_5 5.0.2
  _ZN9QListViewD1Ev@Qt_5 5.0.2
  _ZN9QListViewD2Ev@Qt_5 5.0.2
@@ -8074,6 +8074,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _Zls6QDebugP13QGraphicsItem@Qt_5 5.0.2
  _Zls6QDebugP15QGraphicsObject@Qt_5 5.0.2
  _Zls6QDebugPK13QGestureEvent@Qt_5 5.5.0
+ _Zls6QDebugPK7QAction@Qt_5 5.6.0~rc
  _Zls6QDebugPK7QWidget@Qt_5 5.6.0~beta
  _Zls6QDebugPK8QGesture@Qt_5 5.5.0
  _Zls6QDebugRK11QSizePolicy@Qt_5 5.0.2

@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.6.0~beta amd64 armel armhf i386 kfreebsd-i386 mips mipsel powerpc
+# SymbolsHelper-Confirmed: 5.6.0~rc amd64
 libQt5Core.so.5 libqt5core5a #MINVER#
 | libqt5core5a #MINVER#, qtbase-abi-5-6-0
 * Build-Depends-Package: qtbase5-dev
@@ -401,7 +401,9 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZN11QFinalState6onExitEP6QEvent@Qt_5 5.0.2
  _ZN11QFinalState7onEntryEP6QEvent@Qt_5 5.0.2
  _ZN11QFinalStateC1EP6QState@Qt_5 5.0.2
+ _ZN11QFinalStateC1ER18QFinalStatePrivateP6QState@Qt_5_PRIVATE_API 5.6.0~rc 1
  _ZN11QFinalStateC2EP6QState@Qt_5 5.0.2
+ _ZN11QFinalStateC2ER18QFinalStatePrivateP6QState@Qt_5_PRIVATE_API 5.6.0~rc 1
  _ZN11QFinalStateD0Ev@Qt_5 5.0.2
  _ZN11QFinalStateD1Ev@Qt_5 5.0.2
  _ZN11QFinalStateD2Ev@Qt_5 5.0.2
@@ -843,6 +845,13 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZN13QStateMachineD0Ev@Qt_5 5.0.2
  _ZN13QStateMachineD1Ev@Qt_5 5.0.2
  _ZN13QStateMachineD2Ev@Qt_5 5.0.2
+ _ZN13QStatePrivate12emitFinishedEv@Qt_5_PRIVATE_API 5.6.0~rc 1
+ _ZN13QStatePrivate22emitPropertiesAssignedEv@Qt_5_PRIVATE_API 5.6.0~rc 1
+ _ZN13QStatePrivateC1Ev@Qt_5_PRIVATE_API 5.6.0~rc 1
+ _ZN13QStatePrivateC2Ev@Qt_5_PRIVATE_API 5.6.0~rc 1
+ _ZN13QStatePrivateD0Ev@Qt_5_PRIVATE_API 5.6.0~rc 1
+ _ZN13QStatePrivateD1Ev@Qt_5_PRIVATE_API 5.6.0~rc 1
+ _ZN13QStatePrivateD2Ev@Qt_5_PRIVATE_API 5.6.0~rc 1
  _ZN13QSystemLocaleC1Eb@Qt_5_PRIVATE_API 5.2.0~alpha1 1
  _ZN13QSystemLocaleC1Ev@Qt_5_PRIVATE_API 5.2.0~alpha1 1
  _ZN13QSystemLocaleC2Eb@Qt_5_PRIVATE_API 5.2.0~alpha1 1
@@ -1555,6 +1564,11 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZN18QFileSystemWatcherD0Ev@Qt_5 5.0.2
  _ZN18QFileSystemWatcherD1Ev@Qt_5 5.0.2
  _ZN18QFileSystemWatcherD2Ev@Qt_5 5.0.2
+ _ZN18QFinalStatePrivateC1Ev@Qt_5_PRIVATE_API 5.6.0~rc 1
+ _ZN18QFinalStatePrivateC2Ev@Qt_5_PRIVATE_API 5.6.0~rc 1
+ _ZN18QFinalStatePrivateD0Ev@Qt_5_PRIVATE_API 5.6.0~rc 1
+ _ZN18QFinalStatePrivateD1Ev@Qt_5_PRIVATE_API 5.6.0~rc 1
+ _ZN18QFinalStatePrivateD2Ev@Qt_5_PRIVATE_API 5.6.0~rc 1
  _ZN18QFutureWatcherBase11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.0.2
  _ZN18QFutureWatcherBase11qt_metacastEPKc@Qt_5 5.0.2
  _ZN18QFutureWatcherBase12togglePausedEv@Qt_5 5.0.2
@@ -3803,6 +3817,9 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZNK13QStateMachine19globalRestorePolicyEv@Qt_5 5.0.2
  _ZNK13QStateMachine5errorEv@Qt_5 5.0.2
  _ZNK13QStateMachine9isRunningEv@Qt_5 5.0.2
+ _ZNK13QStatePrivate11childStatesEv@Qt_5_PRIVATE_API 5.6.0~rc 1
+ _ZNK13QStatePrivate11transitionsEv@Qt_5_PRIVATE_API 5.6.0~rc 1
+ _ZNK13QStatePrivate13historyStatesEv@Qt_5_PRIVATE_API 5.6.0~rc 1
  _ZNK13QStaticPlugin8metaDataEv@Qt_5 5.2.0~alpha1
  _ZNK13QSystemLocale16fallbackUiLocaleEv@Qt_5_PRIVATE_API 5.2.0~alpha1 1
  _ZNK13QSystemLocale5queryENS_9QueryTypeE8QVariant@Qt_5_PRIVATE_API 5.2.0~alpha1 1
@@ -5057,6 +5074,7 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZTI13QSharedMemory@Qt_5 5.0.2
  _ZTI13QSignalMapper@Qt_5 5.0.2
  _ZTI13QStateMachine@Qt_5 5.0.2
+ _ZTI13QStatePrivate@Qt_5_PRIVATE_API 5.6.0~rc 1
  _ZTI13QSystemLocale@Qt_5_PRIVATE_API 5.2.0~alpha1 1
  _ZTI13QUnifiedTimer@Qt_5_PRIVATE_API 5.0.2 1
  _ZTI14QAbstractState@Qt_5 5.0.2
@@ -5082,6 +5100,7 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZTI18QAbstractItemModel@Qt_5 5.0.2
  _ZTI18QAbstractListModel@Qt_5 5.0.2
  _ZTI18QFileSystemWatcher@Qt_5 5.0.2
+ _ZTI18QFinalStatePrivate@Qt_5_PRIVATE_API 5.6.0~rc 1
  _ZTI18QFutureWatcherBase@Qt_5 5.0.2
  _ZTI18QMetaObjectBuilder@Qt_5_PRIVATE_API 5.0.2 1
  _ZTI18QPropertyAnimation@Qt_5 5.0.2
@@ -5161,6 +5180,7 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZTS13QSharedMemory@Qt_5 5.0.2
  _ZTS13QSignalMapper@Qt_5 5.0.2
  _ZTS13QStateMachine@Qt_5 5.0.2
+ _ZTS13QStatePrivate@Qt_5_PRIVATE_API 5.6.0~rc 1
  _ZTS13QSystemLocale@Qt_5_PRIVATE_API 5.2.0~alpha1 1
  _ZTS13QUnifiedTimer@Qt_5_PRIVATE_API 5.0.2 1
  _ZTS14QAbstractState@Qt_5 5.0.2
@@ -5186,6 +5206,7 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZTS18QAbstractItemModel@Qt_5 5.0.2
  _ZTS18QAbstractListModel@Qt_5 5.0.2
  _ZTS18QFileSystemWatcher@Qt_5 5.0.2
+ _ZTS18QFinalStatePrivate@Qt_5_PRIVATE_API 5.6.0~rc 1
  _ZTS18QFutureWatcherBase@Qt_5 5.0.2
  _ZTS18QMetaObjectBuilder@Qt_5_PRIVATE_API 5.0.2 1
  _ZTS18QPropertyAnimation@Qt_5 5.0.2
@@ -5263,6 +5284,7 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZTV13QSharedMemory@Qt_5 5.0.2
  _ZTV13QSignalMapper@Qt_5 5.0.2
  _ZTV13QStateMachine@Qt_5 5.0.2
+ _ZTV13QStatePrivate@Qt_5_PRIVATE_API 5.6.0~rc 1
  _ZTV13QSystemLocale@Qt_5_PRIVATE_API 5.2.0~alpha1 1
  _ZTV13QUnifiedTimer@Qt_5_PRIVATE_API 5.0.2 1
  _ZTV14QAbstractState@Qt_5 5.0.2
@@ -5288,6 +5310,7 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZTV18QAbstractItemModel@Qt_5 5.0.2
  _ZTV18QAbstractListModel@Qt_5 5.0.2
  _ZTV18QFileSystemWatcher@Qt_5 5.0.2
+ _ZTV18QFinalStatePrivate@Qt_5_PRIVATE_API 5.6.0~rc 1
  _ZTV18QFutureWatcherBase@Qt_5 5.0.2
  _ZTV18QMetaObjectBuilder@Qt_5_PRIVATE_API 5.0.2 1
  _ZTV18QPropertyAnimation@Qt_5 5.0.2
