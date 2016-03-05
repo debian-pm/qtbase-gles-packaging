@@ -1,9 +1,8 @@
-qtbase-opensource-src (5.5.1+dfsg-16) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.5.1+dfsg-16) unstable; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * Add fix_alsa_detection.patch to workaround ALSA >= 1.1.0 detection.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 05 Mar 2016 10:12:59 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sat, 05 Mar 2016 10:24:48 -0300
 
 qtbase-opensource-src (5.5.1+dfsg-15) unstable; urgency=medium
 
