@@ -1,9 +1,7 @@
 qtbase-opensource-src (5.5.1+dfsg-16) UNRELEASED; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
-  * Add fix_alsa_detection.patch to workaround ALSA >= 1.1.0 detection. The
-    patch is a simple workaround, a proper bug has been opened upstream as
-    stated in the patch's headers.
+  * Add fix_alsa_detection.patch to workaround ALSA >= 1.1.0 detection.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 05 Mar 2016 10:12:59 -0300
 
