@@ -26,3 +26,4 @@ gnukfreebsd.diff
 no_htmlinfo_example.diff
 remove_privacy_breachs.diff
 link_fbclient.diff
+fix_alsa_detection.patch
