@@ -1,7 +1,6 @@
-Description: pseudo-fix for ALSA version detection
- The current test fails for 1.1.x with x < 10, so just bump it
- to 1.1.0.
+Description: alsatest: fix the check to treat alsalib 1.1.x as correct version
 Author: Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
+Author: Dmitry Shachnev <mitya57@debian.org>
 Bug: https://bugreports.qt.io/browse/QTBUG-51681
 Last-Update: 2016-03-05
 
@@ -16,7 +15,7 @@ Last-Update: 2016-03-05
  
  #include <alsa/asoundlib.h>
 -#if(!(SND_LIB_MAJOR == 1 && SND_LIB_MINOR == 0 && SND_LIB_SUBMINOR >= 10))
-+#if(!(SND_LIB_MAJOR == 1 && SND_LIB_MINOR >= 1 && SND_LIB_SUBMINOR >= 0))
++#if SND_LIB_VERSION < 0x1000a  // 1.0.10
  #error "Alsa version found too old, require >= 1.0.10"
  #endif
  
