@@ -130,6 +130,12 @@ qtbase-opensource-src (5.6.0~beta+dfsg-1) experimental; urgency=medium
 
  -- Dmitry Shachnev <mitya57@debian.org>  Tue, 29 Dec 2015 22:29:25 +0300
 
+qtbase-opensource-src (5.5.1+dfsg-16) unstable; urgency=medium
+
+  * Add fix_alsa_detection.patch to workaround ALSA >= 1.1.0 detection.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sat, 05 Mar 2016 10:24:48 -0300
+
 qtbase-opensource-src (5.5.1+dfsg-15) unstable; urgency=medium
 
   [ Timo Jyrinki ]
