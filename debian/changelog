@@ -1,6 +1,5 @@
-qtbase-opensource-src (5.6.0+dfsg-1) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.6.0+dfsg-1) experimental; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
     - Update debian/watch to point at official releases again.
     - Fix division by zero in xcb plugin (Closes: #814729).
@@ -9,7 +8,7 @@ qtbase-opensource-src (5.6.0+dfsg-1) UNRELEASED; urgency=medium
     software rendering in case the user does not has at least OpenGL 2
     support (Closes: #811195).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 16 Mar 2016 09:40:51 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 16 Mar 2016 13:02:52 -0300
 
 qtbase-opensource-src (5.6.0~rc+dfsg-1) experimental; urgency=medium
 
