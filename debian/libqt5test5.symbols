@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.6.0~rc amd64
+# SymbolsHelper-Confirmed: 5.6.0~rc amd64 arm64 armel armhf i386 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64el s390x
 libQt5Test.so.5 libqt5test5 #MINVER#
 | libqt5test5 #MINVER#, qtbase-abi-5-6-0
 * Build-Depends-Package: qtbase5-dev
@@ -189,6 +189,7 @@ libQt5Test.so.5 libqt5test5 #MINVER#
  _ZNK9QTestData6parentEv@Qt_5 5.0.2
  _ZNK9QTestData7dataTagEv@Qt_5 5.0.2
  _ZNK9QTestData9dataCountEv@Qt_5 5.0.2
+ (optional=templinst)_ZNSt6vectorIP9QTestDataSaIS1_EE19_M_emplace_back_auxIIRKS1_EEEvDpOT_@Qt_5 5.6.0~rc
  (optional=templinst)_ZNSt6vectorIP9QTestDataSaIS1_EE19_M_emplace_back_auxIJRKS1_EEEvDpOT_@Qt_5 5.6.0~beta
  (optional=templinst)_ZNSt8_Rb_treeI10QByteArrayS0_St9_IdentityIS0_ESt4lessIS0_ESaIS0_EE16_M_insert_uniqueIRKS0_EESt4pairISt17_Rb_tree_iteratorIS0_EbEOT_@Qt_5 5.4.0
  _ZNSt8_Rb_treeI10QByteArrayS0_St9_IdentityIS0_ESt4lessIS0_ESaIS0_EE4findERKS0_@Qt_5 5.4.0
