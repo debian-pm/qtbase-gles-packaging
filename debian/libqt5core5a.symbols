@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.6.0~rc amd64 armel armhf i386 kfreebsd-i386 mips mipsel powerpc
+# SymbolsHelper-Confirmed: 5.6.0 arm64 mips64el ppc64el s390x
 libQt5Core.so.5 libqt5core5a #MINVER#
 | libqt5core5a #MINVER#, qtbase-abi-5-6-0
 * Build-Depends-Package: qtbase5-dev
@@ -5052,7 +5052,6 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  (optional=templinst)_ZSt13move_backwardIPiS0_ET0_T_S2_S1_@Qt_5 5.5.0
  (optional=templinst|subst)_ZSt17__rotate_adaptiveIP21QPersistentModelIndexS1_{ssize_t}ET_S2_S2_S2_T1_S3_T0_S3_@Qt_5 5.0.2
  (optional=templinst|subst)_ZSt17__rotate_adaptiveIPiS0_{ssize_t}ET_S1_S1_S1_T1_S2_T0_S2_@Qt_5 5.0.2
- (optional=templinst|arch=!amd64)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Qt_5 5.6.0~rc
  _ZTI10QEventLoop@Qt_5 5.0.2
  _ZTI10QException@Qt_5 5.0.2
  _ZTI10QTextCodec@Qt_5 5.0.2
