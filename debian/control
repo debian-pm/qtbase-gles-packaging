@@ -92,7 +92,7 @@ Package: libqt5gui5
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
-Depends: fontconfig, ${misc:Depends}, ${shlibs:Depends}
+Depends: fontconfig, mesa-utils, ${misc:Depends}, ${shlibs:Depends}
 Recommends: libqt5svg5
 Breaks: libqt5egldeviceintegration5 (<< 5.6.0~beta+dfsg-5~),
         libqt5xcbqpa5 (<< 5.6.0~beta+dfsg-5~)
