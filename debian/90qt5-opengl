@@ -8,7 +8,6 @@ if [ "$(which glxinfo)" = "" ] ; then
   echo "glxinfo not found"
   echo "On Debian (based) systems, install the mesa-utils package"
   #echo "On RedHat (based) systems, install the glx-utils package"
-  exit 1
 fi
 OPENGL_VERSION=`LANG=C glxinfo | grep '^OpenGL version string: ' | head -n 1 | sed -e 's/^OpenGL version string: \([0-9]\).*$/\1/g'`
 if [ -n "$OPENGL_VERSION" ] && [ "$OPENGL_VERSION" -lt 2 ]; then
