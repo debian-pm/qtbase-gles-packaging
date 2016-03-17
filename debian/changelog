@@ -1,5 +1,8 @@
 qtbase-opensource-src (5.6.0+dfsg-3) UNRELEASED; urgency=medium
 
+  * Improve the Xsession.d script so it won't fail if mesa-utils is
+    not installed. Also log why glxinfo is needed for this script.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 17 Mar 2016 09:59:33 -0300
 
 qtbase-opensource-src (5.6.0+dfsg-2) experimental; urgency=medium
