@@ -377,7 +377,10 @@ Package: qtbase5-dev-tools
 Architecture: any
 Multi-Arch: foreign
 Section: devel
-Depends: qtchooser, ${misc:Depends}, ${perl:Depends}, ${shlibs:Depends}
+Depends: qtchooser (>= 55-gc9562a1-1~),
+         ${misc:Depends},
+         ${perl:Depends},
+         ${shlibs:Depends}
 Description: Qt 5 base development programs
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -390,7 +393,7 @@ Package: qt5-qmake
 Architecture: any
 Multi-Arch: same
 Section: devel
-Depends: qtchooser, ${misc:Depends}, ${shlibs:Depends}
+Depends: qtchooser (>= 55-gc9562a1-1~), ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 qmake Makefile generator tool
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -458,7 +461,7 @@ Description: Qt 5 base examples debugging symbols
 
 Package: qt5-default
 Architecture: any
-Depends: qtbase5-dev, qtchooser, ${misc:Depends}
+Depends: qtbase5-dev, qtchooser (>= 55-gc9562a1-1~), ${misc:Depends}
 Conflicts: qt4-default
 Suggests: qt5-qmake, qtbase5-dev-tools
 Description: Qt 5 development defaults package
