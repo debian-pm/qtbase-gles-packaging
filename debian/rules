@@ -55,7 +55,7 @@ else
 	extra_configure_opts += -opengl desktop
 endif
 
-ifneq ($(DEB_HOST_ARCH_OS),linux)
+ifneq ($(DEB_HOST_ARCH_OS),$(findstring $(DEB_HOST_ARCH_OS), linux kfreebsd))
 	extra_configure_opts += -no-eglfs
 endif
 

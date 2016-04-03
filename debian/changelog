@@ -10,6 +10,8 @@ qtbase-opensource-src (5.6.0+dfsg-3) UNRELEASED; urgency=medium
   * Fix the packages list in debian/README.source.
   * Enable some mesa build-dependencies on hurd and kfreebsd too.
     Closes: #819456, thanks Jon Boden for the patch.
+  * Enable eglfs support on kfreebsd. Thanks Steven Chamberlain for the
+    patch.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 17 Mar 2016 09:59:33 -0300
 
