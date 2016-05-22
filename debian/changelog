@@ -167,6 +167,16 @@ qtbase-opensource-src (5.6.0~beta+dfsg-1) experimental; urgency=medium
 
  -- Dmitry Shachnev <mitya57@debian.org>  Tue, 29 Dec 2015 22:29:25 +0300
 
+qtbase-opensource-src (5.5.1+dfsg-17) unstable; urgency=medium
+
+  [ Dmitry Shachnev ]
+  * Move qtchooser configuration files from libqt5core5a to qtchooser itself.
+  * Bump qtchooser dependency for qt5-qmake and qtbase5-dev-tools (closes:
+    #818536).
+  * Update symbols files from buildds’ logs (closes: #824971).
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sun, 22 May 2016 11:31:35 -0300
+
 qtbase-opensource-src (5.5.1+dfsg-16) unstable; urgency=medium
 
   * Add fix_alsa_detection.patch to workaround ALSA >= 1.1.0 detection.

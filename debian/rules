@@ -249,16 +249,8 @@ endif
 	find $(CURDIR)/debian/tmp/usr/lib/*/pkgconfig -type f -name '*.pc' \
 		-exec perl -pi -e "s, -L$(CURDIR)/?\S+,,g" {} \;
 
-	# Add a configuration for qtchooser
-	mkdir -p $(CURDIR)/debian/tmp/usr/share/qtchooser
-	echo "/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/bin" > $(CURDIR)/debian/tmp/usr/share/qtchooser/qt5-$(DEB_HOST_MULTIARCH).conf
-	echo "/usr/lib/$(DEB_HOST_MULTIARCH)" >> $(CURDIR)/debian/tmp/usr/share/qtchooser/qt5-$(DEB_HOST_MULTIARCH).conf
-
-	# Ship 5.conf and qt5.conf for this arch, and a default.conf.
-	# 5.conf makes calling qtchooser prettier.
+	# Configuration file for qt5-default package
 	mkdir -p $(CURDIR)/debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qtchooser
-	ln -s /usr/share/qtchooser/qt5-$(DEB_HOST_MULTIARCH).conf $(CURDIR)/debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qtchooser/5.conf
-	ln -s /usr/share/qtchooser/qt5-$(DEB_HOST_MULTIARCH).conf $(CURDIR)/debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qtchooser/qt5.conf
 	ln -s /usr/share/qtchooser/qt5-$(DEB_HOST_MULTIARCH).conf $(CURDIR)/debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qtchooser/default.conf
 
 	# Remove leftover directories
