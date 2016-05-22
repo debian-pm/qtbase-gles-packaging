@@ -1,4 +1,4 @@
-qtbase-opensource-src (5.5.1+dfsg-17) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.5.1+dfsg-17) unstable; urgency=medium
 
   [ Dmitry Shachnev ]
   * Move qtchooser configuration files from libqt5core5a to qtchooser itself.
@@ -6,7 +6,7 @@ qtbase-opensource-src (5.5.1+dfsg-17) UNRELEASED; urgency=medium
     #818536).
   * Update symbols files from buildds’ logs (closes: #824971).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 21 Mar 2016 21:20:52 +0100
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sun, 22 May 2016 11:31:35 -0300
 
 qtbase-opensource-src (5.5.1+dfsg-16) unstable; urgency=medium
 
