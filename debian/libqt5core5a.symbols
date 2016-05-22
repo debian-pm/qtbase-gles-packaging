@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.5.1 alpha amd64 arm64 armel armhf hppa i386 kfreebsd-amd64 mips mips64el mipsel powerpc ppc64 ppc64el s390x sparc64 x32
+# SymbolsHelper-Confirmed: 5.5.1 alpha amd64 arm64 armel armhf hppa i386 kfreebsd-amd64 mips mips64el mipsel powerpc powerpcspe ppc64 ppc64el s390x sh4 sparc64 x32
 libQt5Core.so.5 libqt5core5a #MINVER#
 | libqt5core5a #MINVER#, qtbase-abi-5-5-1
  _Z10forcepointR11QTextStream@Base 5.0.2
@@ -99,9 +99,9 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _Z5qHashRK9QBitArrayj@Base 5.0.2
  _Z5qHashRK9QDateTimej@Base 5.0.2
  _Z5qHashdj@Base 5.3.0
- (arch=!alpha !powerpc !ppc64 !ppc64el !s390x !sparc)_Z5qHashej@Base 5.3.0
+ (arch=!alpha !powerpc !powerpcspe !ppc64 !ppc64el !s390x !sparc)_Z5qHashej@Base 5.3.0
  _Z5qHashfj@Base 5.3.0
- (arch=alpha powerpc ppc64 ppc64el s390x sparc)_Z5qHashgj@Base 5.4.0
+ (arch=alpha powerpc powerpcspe ppc64 ppc64el s390x sparc)_Z5qHashgj@Base 5.5.1
  _Z5qQNaNv@Base 5.0.2
  _Z5qSNaNv@Base 5.0.2
  _Z5qdtoadiiPiS_PPcS1_@Base 5.0.2
@@ -2730,8 +2730,8 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  (arch=hppa m68k mips mips64el mipsel sparc sparc64)_ZN7QString8vsprintfEPKcPv@Base 5.4.2
  (arch=arm64 armel armhf)_ZN7QString8vsprintfEPKcSt9__va_list@Base 5.3.0
  _ZN7QString9fromUtf16EPKti@Base 5.0.2
- (arch=alpha)_ZN7QString9vasprintfEPKc13__va_list_tag@Base 5.5.0
- (arch=amd64 kfreebsd-amd64 powerpc s390x x32)_ZN7QString9vasprintfEPKcP13__va_list_tag@Base 5.5.0
+ (arch=alpha sh4)_ZN7QString9vasprintfEPKc13__va_list_tag@Base 5.5.1
+ (arch=amd64 kfreebsd-amd64 powerpc powerpcspe s390x x32)_ZN7QString9vasprintfEPKcP13__va_list_tag@Base 5.5.1
  (arch=hurd-i386 i386 kfreebsd-i386 ppc64 ppc64el)_ZN7QString9vasprintfEPKcPc@Base 5.5.0
  (arch=hppa mips mips64el mipsel sparc64)_ZN7QString9vasprintfEPKcPv@Base 5.5.1
  (arch=arm64 armel armhf)_ZN7QString9vasprintfEPKcSt9__va_list@Base 5.5.0
@@ -4958,14 +4958,12 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZNK9QtPrivate18ResultIteratorBase9batchSizeEv@Base 5.0.2
  _ZNK9QtPrivate18ResultIteratorBaseeqERKS0_@Base 5.0.2
  _ZNK9QtPrivate18ResultIteratorBaseneERKS0_@Base 5.0.2
- (optional=templinst|arch=powerpcspe)_ZNSt17_Temporary_bufferIP5QPairI21QPersistentModelIndexjES2_ED1Ev@Base 5.0.2
- (optional=templinst|arch=powerpcspe)_ZNSt17_Temporary_bufferIP5QPairI21QPersistentModelIndexjES2_ED2Ev@Base 5.0.2
  (optional=templinst)_ZNSt3_V28__rotateIP21QPersistentModelIndexEET_S3_S3_S3_St26random_access_iterator_tag@Base 5.5.0
  (optional=templinst)_ZNSt3_V28__rotateIPiEET_S2_S2_S2_St26random_access_iterator_tag@Base 5.5.0
  (optional=templinst)_ZSt13move_backwardIPiS0_ET0_T_S2_S1_@Base 5.5.0
  (optional=templinst|subst)_ZSt17__rotate_adaptiveIP21QPersistentModelIndexS1_{ssize_t}ET_S2_S2_S2_T1_S3_T0_S3_@Base 5.0.2
  (optional=templinst|subst)_ZSt17__rotate_adaptiveIPiS0_{ssize_t}ET_S1_S1_S1_T1_S2_T0_S2_@Base 5.0.2
- (optional=templinst|arch=!alpha !amd64 !arm64 !hppa !kfreebsd-amd64 !mips64el !ppc64 !ppc64el !s390x !sparc64 !x32)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 5.5.1
+ (optional=templinst|arch=!alpha !amd64 !arm64 !hppa !kfreebsd-amd64 !mips64el !ppc64 !ppc64el !s390x !sh4 !sparc64 !x32)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 5.5.1
  _ZTI10QEventLoop@Base 5.0.2
  _ZTI10QException@Base 5.0.2
  _ZTI10QTextCodec@Base 5.0.2

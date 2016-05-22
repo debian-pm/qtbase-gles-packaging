@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.5.1 amd64
+# SymbolsHelper-Confirmed: 5.5.1 amd64 powerpcspe
 libQt5Gui.so.5 libqt5gui5 #MINVER#
 | libqt5gui5 #MINVER#, qtbase-abi-5-5-1
  _Z11qDrawBorderP8QPainterRK5QRectPKN4QCss11BorderStyleEPKiPK6QBrushPK5QSize@Base 5.0.2
@@ -65,7 +65,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _Z29qt_set_sequence_auto_mnemonicb@Base 5.0.2
  _Z30qt_gl_set_global_share_contextP14QOpenGLContext@Base 5.4.0
  _Z32qGamma_correct_back_to_linear_csP6QImage@Base 5.0.2
- (optional=gccinternal|arch=amd64 kfreebsd-amd64 powerpcspe x32)_Z32qt_convert_rgb888_to_rgb32_ssse3PjPKhi@Base 5.0.2
+ (optional=gccinternal|arch=amd64 kfreebsd-amd64 x32)_Z32qt_convert_rgb888_to_rgb32_ssse3PjPKhi@Base 5.0.2
  _Z33hb_qt_font_get_use_design_metricsP9hb_font_t@Base 5.2.0
  _Z33hb_qt_font_set_use_design_metricsP9hb_font_tj@Base 5.2.0
  _Z35qtInitializeVertexArrayObjectHelperP30QOpenGLVertexArrayObjectHelperP14QOpenGLContext@Base 5.4.0
@@ -6482,7 +6482,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK9QVector4D16toVector3DAffineEv@Base 5.0.2
  _ZNK9QVector4D6lengthEv@Base 5.0.2
  _ZNK9QVector4Dcv8QVariantEv@Base 5.0.2
- (optional=templinst|arch=armel armhf hurd-i386 i386 kfreebsd-i386 m68k mips mipsel powerpc)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 5.0.2
+ (optional=templinst|arch=armel armhf hurd-i386 i386 kfreebsd-i386 m68k mips mipsel powerpc powerpcspe)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 5.0.2
  _ZTI10QBasicDrag@Base 5.1.0 1
  _ZTI10QBlittable@Base 5.0.2 1
  _ZTI10QClipboard@Base 5.0.2
