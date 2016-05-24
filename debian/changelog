@@ -13,6 +13,10 @@ qtbase-opensource-src (5.6.0+dfsg-3) UNRELEASED; urgency=medium
   * Enable eglfs support on kfreebsd. Thanks Steven Chamberlain for the
     patch.
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Merge master's 5.5.1+dfsg-17, ensuring qtchooser's configuration files
+    are not shipped anymore (Closes: 825111).
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 17 Mar 2016 09:59:33 -0300
 
 qtbase-opensource-src (5.6.0+dfsg-2) experimental; urgency=medium
