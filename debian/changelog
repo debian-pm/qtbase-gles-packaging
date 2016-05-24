@@ -1,5 +1,9 @@
 qtbase-opensource-src (5.6.0+dfsg-4) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Drop Qt5EglDeviceIntegration.pc from qtbase5-dev.install-kfreebsd.
+    It is no longer built in Qt 5.6, and removed from install-linux file
+    too when updating the packages to 5.6.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 24 May 2016 16:11:23 +0300
 
