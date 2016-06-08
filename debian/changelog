@@ -1,6 +1,13 @@
-qtbase-opensource-src (5.6.0+dfsg-4) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.6.1+dfsg-1) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
+  * New upstream release.
+  * Drop the following patches, applied upstream:
+    - dbusmenu_fixes.diff
+    - dbustray_fixes.diff
+    - fix_not_delivering_focus.patch
+    - fix_qtdbus_deadlock.diff
+    - fix_alsa_detection.patch
   * Drop Qt5EglDeviceIntegration.pc from qtbase5-dev.install-kfreebsd.
     It is no longer built in Qt 5.6, and removed from install-linux file
     too when updating the packages to 5.6.
