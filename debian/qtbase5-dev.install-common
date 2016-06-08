@@ -146,7 +146,6 @@ usr/include/*/qt5/QtCore/QListSpecialMethods
 usr/include/*/qt5/QtCore/QLocale
 usr/include/*/qt5/QtCore/QLockFile
 usr/include/*/qt5/QtCore/QLoggingCategory
-usr/include/*/qt5/QtCore/QMacAutoReleasePool
 usr/include/*/qt5/QtCore/QMap
 usr/include/*/qt5/QtCore/QMapData
 usr/include/*/qt5/QtCore/QMapDataBase
@@ -279,6 +278,7 @@ usr/include/*/qt5/QtCore/QTimerEvent
 usr/include/*/qt5/QtCore/QTranslator
 usr/include/*/qt5/QtCore/QTypeInfo
 usr/include/*/qt5/QtCore/QTypeInfoMerger
+usr/include/*/qt5/QtCore/QTypeInfoQuery
 usr/include/*/qt5/QtCore/QUnhandledException
 usr/include/*/qt5/QtCore/QUrl
 usr/include/*/qt5/QtCore/QUrlQuery
@@ -1040,16 +1040,17 @@ usr/include/*/qt5/QtPlatformHeaders/QCocoaWindowFunctions
 usr/include/*/qt5/QtPlatformHeaders/QEGLNativeContext
 usr/include/*/qt5/QtPlatformHeaders/QEglFSFunctions
 usr/include/*/qt5/QtPlatformHeaders/QGLXNativeContext
+usr/include/*/qt5/QtPlatformHeaders/QPlatformHeaderHelper
 usr/include/*/qt5/QtPlatformHeaders/QWGLNativeContext
 usr/include/*/qt5/QtPlatformHeaders/QWindowsWindowFunctions
 usr/include/*/qt5/QtPlatformHeaders/QXcbIntegrationFunctions
+usr/include/*/qt5/QtPlatformHeaders/QXcbScreenFunctions
 usr/include/*/qt5/QtPlatformHeaders/QXcbWindowFunctions
 usr/include/*/qt5/QtPlatformHeaders/QtPlatformHeaders
 usr/include/*/qt5/QtPlatformHeaders/QtPlatformHeadersDepends
-usr/include/*/qt5/QtPlatformHeaders/QPlatformHeaderHelper
 usr/include/*/qt5/QtPlatformHeaders/QtPlatformHeadersVersion
-usr/include/*/qt5/QtPlatformHeaders/qcocoawindowfunctions.h
 usr/include/*/qt5/QtPlatformHeaders/qcocoanativecontext.h
+usr/include/*/qt5/QtPlatformHeaders/qcocoawindowfunctions.h
 usr/include/*/qt5/QtPlatformHeaders/qeglfsfunctions.h
 usr/include/*/qt5/QtPlatformHeaders/qeglnativecontext.h
 usr/include/*/qt5/QtPlatformHeaders/qglxnativecontext.h
@@ -1058,6 +1059,7 @@ usr/include/*/qt5/QtPlatformHeaders/qtplatformheadersversion.h
 usr/include/*/qt5/QtPlatformHeaders/qwglnativecontext.h
 usr/include/*/qt5/QtPlatformHeaders/qwindowswindowfunctions.h
 usr/include/*/qt5/QtPlatformHeaders/qxcbintegrationfunctions.h
+usr/include/*/qt5/QtPlatformHeaders/qxcbscreenfunctions.h
 usr/include/*/qt5/QtPlatformHeaders/qxcbwindowfunctions.h
 usr/include/*/qt5/QtPrintSupport/QAbstractPrintDialog
 usr/include/*/qt5/QtPrintSupport/QPageSetupDialog
@@ -1567,6 +1569,7 @@ usr/lib/*/cmake/Qt5PrintSupport/Qt5PrintSupportConfigVersion.cmake
 usr/lib/*/cmake/Qt5Sql/Qt5SqlConfig.cmake
 usr/lib/*/cmake/Qt5Sql/Qt5SqlConfigVersion.cmake
 usr/lib/*/cmake/Qt5Test/Qt5TestConfig.cmake
+usr/lib/*/cmake/Qt5Test/Qt5TestConfigExtras.cmake
 usr/lib/*/cmake/Qt5Test/Qt5TestConfigVersion.cmake
 usr/lib/*/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake
 usr/lib/*/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake
