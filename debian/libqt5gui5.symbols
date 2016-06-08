@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.6.0 arm64 mips64el ppc64el s390x
+# SymbolsHelper-Confirmed: 5.6.1 amd64
 libQt5Gui.so.5 libqt5gui5 #MINVER#
 | libqt5gui5 #MINVER#, qtbase-abi-5-6-0
 * Build-Depends-Package: qtbase5-dev
@@ -149,7 +149,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN10QHideEventD2Ev@Qt_5 5.0.2
  _ZN10QImageData14convertInPlaceEN6QImage6FormatE6QFlagsIN2Qt19ImageConversionFlagEE@Qt_5_PRIVATE_API 5.0.2 1
  _ZN10QImageData6createEPhiiiN6QImage6FormatEbPFvPvES3_@Qt_5_PRIVATE_API 5.0.2 1
- _ZN10QImageData6createERK5QSizeN6QImage6FormatEi@Qt_5_PRIVATE_API 5.0.2 1
+ _ZN10QImageData6createERK5QSizeN6QImage6FormatE@Qt_5_PRIVATE_API 5.6.1 1
  _ZN10QImageDataC1Ev@Qt_5_PRIVATE_API 5.0.2 1
  _ZN10QImageDataC2Ev@Qt_5_PRIVATE_API 5.0.2 1
  _ZN10QImageDataD1Ev@Qt_5_PRIVATE_API 5.0.2 1
@@ -2421,6 +2421,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN19QInputDeviceManager29cursorPositionChangeRequestedERK6QPoint@Qt_5_PRIVATE_API 5.5.0 1
  _ZN19QInputDeviceManagerC1EP7QObject@Qt_5_PRIVATE_API 5.5.0 1
  _ZN19QInputDeviceManagerC2EP7QObject@Qt_5_PRIVATE_API 5.5.0 1
+ _ZN19QKeySequencePrivate7keyNameEiN12QKeySequence14SequenceFormatE@Qt_5 5.6.1
  _ZN19QNativeGestureEventC1EN2Qt17NativeGestureTypeERK7QPointFS4_S4_dmy@Qt_5 5.2.0~beta1
  _ZN19QNativeGestureEventC2EN2Qt17NativeGestureTypeERK7QPointFS4_S4_dmy@Qt_5 5.2.0~beta1
  _ZN19QOpenGLContextGroup11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.0.2
@@ -3089,6 +3090,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN22QGuiApplicationPrivate20platform_integrationE@Qt_5_PRIVATE_API 5.0.2 1
  _ZN22QGuiApplicationPrivate20processFileOpenEventEPN29QWindowSystemInterfacePrivate13FileOpenEventE@Qt_5_PRIVATE_API 5.0.2 1
  _ZN22QGuiApplicationPrivate20reportGeometryChangeEPN29QWindowSystemInterfacePrivate19ScreenGeometryEventE@Qt_5_PRIVATE_API 5.0.2 1
+ _ZN22QGuiApplicationPrivate20scrollNoPhaseAllowedE@Qt_5_PRIVATE_API 5.6.1 1
  _ZN22QGuiApplicationPrivate21createEventDispatcherEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZN22QGuiApplicationPrivate21highDpiScalingUpdatedE@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN22QGuiApplicationPrivate21obey_desktop_settingsE@Qt_5_PRIVATE_API 5.0.2 1
@@ -3687,6 +3689,8 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN29QScreenOrientationChangeEventD0Ev@Qt_5 5.0.2
  _ZN29QScreenOrientationChangeEventD1Ev@Qt_5 5.0.2
  _ZN29QScreenOrientationChangeEventD2Ev@Qt_5 5.0.2
+ _ZN29QWindowSystemInterfacePrivate10WheelEventC1EP7QWindowmRK7QPointFS5_6QPointS6_iN2Qt11OrientationE6QFlagsINS7_16KeyboardModifierEENS7_11ScrollPhaseENS7_16MouseEventSourceE@Qt_5 5.6.1
+ _ZN29QWindowSystemInterfacePrivate10WheelEventC2EP7QWindowmRK7QPointFS5_6QPointS6_iN2Qt11OrientationE6QFlagsINS7_16KeyboardModifierEENS7_11ScrollPhaseENS7_16MouseEventSourceE@Qt_5 5.6.1
  _ZN29QWindowSystemInterfacePrivate11ExposeEventC1EP7QWindowRK7QRegion@Qt_5 5.0.2
  _ZN29QWindowSystemInterfacePrivate11ExposeEventC2EP7QWindowRK7QRegion@Qt_5 5.0.2
  _ZN29QWindowSystemInterfacePrivate12eventHandlerE@Qt_5 5.6.0~beta
@@ -4848,6 +4852,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK11QFontEngine20subPixelPositionForXE6QFixed@Qt_5_PRIVATE_API 5.0.2 1
  _ZNK11QFontEngine22supportsTransformationERK10QTransform@Qt_5_PRIVATE_API 5.1.0 1
  _ZNK11QFontEngine25hasUnreliableGlyphOutlineEv@Qt_5_PRIVATE_API 5.3.1 1
+ _ZNK11QFontEngine6handleEv@Qt_5_PRIVATE_API 5.6.1 1
  _ZNK11QFontEngine7xHeightEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZNK11QFontEngine9canRenderEPK5QChari@Qt_5_PRIVATE_API 5.3.0 1
  _ZNK11QFontEngine9doKerningEP12QGlyphLayout6QFlagsINS_10ShaperFlagEE@Qt_5_PRIVATE_API 5.0.2 1
@@ -4965,7 +4970,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK11QTextEngine21addRequiredBoundariesEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZNK11QTextEngine21shapeTextWithHarfbuzzERK11QScriptItemPKtiP11QFontEngineRK7QVectorIjEb@Qt_5_PRIVATE_API 5.2.0~alpha1 1
  _ZNK11QTextEngine23previousLogicalPositionEi@Qt_5_PRIVATE_API 5.0.2 1
- _ZNK11QTextEngine23shapeTextWithHarfbuzzNGERK11QScriptItemPKtiP11QFontEngineRK7QVectorIjEb@Qt_5_PRIVATE_API 5.2.0 1
+ _ZNK11QTextEngine23shapeTextWithHarfbuzzNGERK11QScriptItemPKtiP11QFontEngineRK7QVectorIjEbb@Qt_5_PRIVATE_API 5.6.1 1
  _ZNK11QTextEngine4fontERK11QScriptItem@Qt_5_PRIVATE_API 5.0.2 1
  _ZNK11QTextEngine5shapeEi@Qt_5_PRIVATE_API 5.0.2 1
  _ZNK11QTextEngine5widthEii@Qt_5_PRIVATE_API 5.0.2 1
