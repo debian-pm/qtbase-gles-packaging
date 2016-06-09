@@ -13,6 +13,7 @@ qtbase-opensource-src (5.6.1+dfsg-1) UNRELEASED; urgency=medium
     too when updating the packages to 5.6.
   * Update debian/qtbase5-dev.install-common.
   * Update symbols files from the build log.
+  * Bump qtbase-abi version to 5-6-1.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 24 May 2016 16:11:23 +0300
 

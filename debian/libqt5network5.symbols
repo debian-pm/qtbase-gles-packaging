@@ -1,6 +1,6 @@
 # SymbolsHelper-Confirmed: 5.6.0~beta amd64 armel armhf powerpc
 libQt5Network.so.5 libqt5network5 #MINVER#
-| libqt5network5 #MINVER#, qtbase-abi-5-6-0
+| libqt5network5 #MINVER#, qtbase-abi-5-6-1
 * Build-Depends-Package: qtbase5-dev
  Qt_5.0@Qt_5.0 5.6.0~beta
  Qt_5.1@Qt_5.1 5.6.0~beta
