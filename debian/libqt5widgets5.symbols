@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.6.0 arm64 mips64el ppc64el s390x
+# SymbolsHelper-Confirmed: 5.6.1 amd64
 libQt5Widgets.so.5 libqt5widgets5 #MINVER#
 | libqt5widgets5 #MINVER#, qtbase-abi-5-6-0
 * Build-Depends-Package: qtbase5-dev
@@ -2005,7 +2005,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN14QWidgetPrivate10updateFontERK5QFont@Qt_5_PRIVATE_API 5.0.2 1
  _ZN14QWidgetPrivate11adjustFlagsER6QFlagsIN2Qt10WindowTypeEEP7QWidget@Qt_5_PRIVATE_API 5.0.2 1
  _ZN14QWidgetPrivate11createExtraEv@Qt_5_PRIVATE_API 5.0.2 1
- (subst)_ZN14QWidgetPrivate11createWinIdE{quintptr}@Qt_5_PRIVATE_API 5.2.0~beta1 1
+ _ZN14QWidgetPrivate11createWinIdEv@Qt_5_PRIVATE_API 5.6.1 1
  _ZN14QWidgetPrivate11deleteExtraEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZN14QWidgetPrivate11hide_helperEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZN14QWidgetPrivate11pointToRectERK6QPointRK5QRect@Qt_5_PRIVATE_API 5.0.2 1
@@ -3210,6 +3210,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN19QApplicationPrivate11widgetCountE@Qt_5_PRIVATE_API 5.0.2 1
  _ZN19QApplicationPrivate12focus_widgetE@Qt_5_PRIVATE_API 5.0.2 1
  _ZN19QApplicationPrivate12popupWidgetsE@Qt_5_PRIVATE_API 5.0.2 1
+ _ZN19QApplicationPrivate12wheel_widgetE@Qt_5_PRIVATE_API 5.6.1 1
  _ZN19QApplicationPrivate13active_windowE@Qt_5_PRIVATE_API 5.0.2 1
  _ZN19QApplicationPrivate13notify_helperEP7QObjectP6QEvent@Qt_5_PRIVATE_API 5.0.2 1
  _ZN19QApplicationPrivate13setSystemFontERK5QFont@Qt_5_PRIVATE_API 5.0.2 1
@@ -3245,12 +3246,14 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN19QApplicationPrivate24initializeWidgetFontHashEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZN19QApplicationPrivate24notifyActiveWindowChangeEP7QWindow@Qt_5_PRIVATE_API 5.0.2 1
  _ZN19QApplicationPrivate24tryCloseAllWidgetWindowsEP5QListIP7QWindowE@Qt_5_PRIVATE_API 5.3.0 1
+ _ZN19QApplicationPrivate25activateImplicitTouchGrabEP7QWidgetP11QTouchEvent@Qt_5_PRIVATE_API 5.6.1 1
  _ZN19QApplicationPrivate25focusNextPrevChild_helperEP7QWidgetbPb@Qt_5_PRIVATE_API 5.1.0 1
  _ZN19QApplicationPrivate26updateTouchPointsForWidgetEP7QWidgetP11QTouchEvent@Qt_5_PRIVATE_API 5.0.2 1
  _ZN19QApplicationPrivate27findClosestTouchPointTargetEP12QTouchDeviceRKN11QTouchEvent10TouchPointE@Qt_5_PRIVATE_API 5.4.2 1
  _ZN19QApplicationPrivate27initializeWidgetPaletteHashEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZN19QApplicationPrivate27notifyLayoutDirectionChangeEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZN19QApplicationPrivate31giveFocusAccordingToFocusPolicyEP7QWidgetP6QEvent6QPoint@Qt_5_PRIVATE_API 5.2.0~alpha1 1
+ _ZN19QApplicationPrivate4initEv@Qt_5_PRIVATE_API 5.6.1 1
  _ZN19QApplicationPrivate4selfE@Qt_5_PRIVATE_API 5.0.2 1
  _ZN19QApplicationPrivate7set_palE@Qt_5_PRIVATE_API 5.0.2 1
  _ZN19QApplicationPrivate7sys_palE@Qt_5_PRIVATE_API 5.0.2 1
@@ -3259,7 +3262,6 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN19QApplicationPrivate9app_cspecE@Qt_5_PRIVATE_API 5.0.2 1
  _ZN19QApplicationPrivate9app_strutE@Qt_5_PRIVATE_API 5.0.2 1
  _ZN19QApplicationPrivate9app_styleE@Qt_5_PRIVATE_API 5.0.2 1
- _ZN19QApplicationPrivate9constructEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZN19QApplicationPrivate9openPopupEP7QWidget@Qt_5_PRIVATE_API 5.0.2 1
  _ZN19QApplicationPrivateC1ERiPPci@Qt_5_PRIVATE_API 5.0.2 1
  _ZN19QApplicationPrivateC2ERiPPci@Qt_5_PRIVATE_API 5.0.2 1
