@@ -14,6 +14,8 @@ qtbase-opensource-src (5.7.0+dfsg-1) UNRELEASED; urgency=medium
   * Install libQt5EglFsKmsSupport library in libqt5gui5, the same way as
     libQt5EglDeviceIntegration.
   * Update debian/libqt5gui5.symbols from amd64 build log.
+  * Merge two dh_makeshlibs calls, so that only one build is needed to get
+    the symbols diffs.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 18 Jun 2016 11:38:32 +0300
 
