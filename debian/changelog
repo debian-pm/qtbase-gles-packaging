@@ -6,6 +6,10 @@ qtbase-opensource-src (5.7.0+dfsg-1) UNRELEASED; urgency=medium
   * Drop lib/fonts/* from excluded files, these are no longer shipped
     (since upstream commit c5ceabb9a1caf6b9).
   * Refresh patches for the new release.
+  * Update for upstream GTK+ 3 port:
+    - Build-depend on libgtk-3-dev.
+    - Rename libqt5libqgtk2 to qt5-gtk-platformtheme.
+    - Make it a recommendation of libqt5gui5 rather than a suggestion.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 18 Jun 2016 11:38:32 +0300
 
