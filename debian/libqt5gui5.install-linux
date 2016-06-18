@@ -1,4 +1,5 @@
 usr/lib/*/libQt5EglDeviceIntegration.so.*
+usr/lib/*/libQt5EglFsKmsSupport.so.*
 usr/lib/*/qt5/plugins/egldeviceintegrations/*
 usr/lib/*/qt5/plugins/generic/libqevdevkeyboardplugin.so
 usr/lib/*/qt5/plugins/generic/libqevdevmouseplugin.so

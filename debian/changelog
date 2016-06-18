@@ -11,6 +11,8 @@ qtbase-opensource-src (5.7.0+dfsg-1) UNRELEASED; urgency=medium
     - Rename libqt5libqgtk2 to qt5-gtk-platformtheme.
     - Make it a recommendation of libqt5gui5 rather than a suggestion.
   * Update debian/qtbase5-dev.install-common for the new release.
+  * Install libQt5EglFsKmsSupport library in libqt5gui5, the same way as
+    libQt5EglDeviceIntegration.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 18 Jun 2016 11:38:32 +0300
 
