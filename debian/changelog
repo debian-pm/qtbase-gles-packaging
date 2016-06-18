@@ -2,6 +2,7 @@ qtbase-opensource-src (5.7.0+dfsg-1) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * New upstream release.
+  * Drop debian/scripts/migrate-symbols.py, no longer needed.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 18 Jun 2016 11:38:32 +0300
 
