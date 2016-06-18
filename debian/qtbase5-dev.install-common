@@ -39,7 +39,6 @@ usr/include/*/qt5/QtCore/QAssociativeIterable
 usr/include/*/qt5/QtCore/QAtomicInt
 usr/include/*/qt5/QtCore/QAtomicInteger
 usr/include/*/qt5/QtCore/QAtomicPointer
-usr/include/*/qt5/QtCore/QBBSystemLocaleData
 usr/include/*/qt5/QtCore/QBasicMutex
 usr/include/*/qt5/QtCore/QBasicTimer
 usr/include/*/qt5/QtCore/QBitArray
@@ -60,6 +59,7 @@ usr/include/*/qt5/QtCore/QCollator
 usr/include/*/qt5/QtCore/QCollatorSortKey
 usr/include/*/qt5/QtCore/QCommandLineOption
 usr/include/*/qt5/QtCore/QCommandLineParser
+usr/include/*/qt5/QtCore/QConstOverload
 usr/include/*/qt5/QtCore/QContiguousCache
 usr/include/*/qt5/QtCore/QContiguousCacheData
 usr/include/*/qt5/QtCore/QContiguousCacheTypedData
@@ -182,6 +182,7 @@ usr/include/*/qt5/QtCore/QMutableVectorIterator
 usr/include/*/qt5/QtCore/QMutex
 usr/include/*/qt5/QtCore/QMutexLocker
 usr/include/*/qt5/QtCore/QNoDebug
+usr/include/*/qt5/QtCore/QNonConstOverload
 usr/include/*/qt5/QtCore/QObject
 usr/include/*/qt5/QtCore/QObjectCleanupHandler
 usr/include/*/qt5/QtCore/QObjectData
@@ -311,6 +312,8 @@ usr/include/*/qt5/QtCore/QXmlStreamReader
 usr/include/*/qt5/QtCore/QXmlStreamStringRef
 usr/include/*/qt5/QtCore/QXmlStreamWriter
 usr/include/*/qt5/QtCore/Q_PID
+usr/include/*/qt5/QtCore/Q_SECURITY_ATTRIBUTES
+usr/include/*/qt5/QtCore/Q_STARTUPINFO
 usr/include/*/qt5/QtCore/Qt
 usr/include/*/qt5/QtCore/QtAlgorithms
 usr/include/*/qt5/QtCore/QtCleanUpFunction
@@ -342,16 +345,9 @@ usr/include/*/qt5/QtCore/qarraydata.h
 usr/include/*/qt5/QtCore/qarraydataops.h
 usr/include/*/qt5/QtCore/qarraydatapointer.h
 usr/include/*/qt5/QtCore/qatomic.h
-usr/include/*/qt5/QtCore/qatomic_armv5.h
-usr/include/*/qt5/QtCore/qatomic_armv6.h
-usr/include/*/qt5/QtCore/qatomic_armv7.h
 usr/include/*/qt5/QtCore/qatomic_bootstrap.h
 usr/include/*/qt5/QtCore/qatomic_cxx11.h
-usr/include/*/qt5/QtCore/qatomic_gcc.h
-usr/include/*/qt5/QtCore/qatomic_ia64.h
 usr/include/*/qt5/QtCore/qatomic_msvc.h
-usr/include/*/qt5/QtCore/qatomic_unix.h
-usr/include/*/qt5/QtCore/qatomic_x86.h
 usr/include/*/qt5/QtCore/qbasicatomic.h
 usr/include/*/qt5/QtCore/qbasictimer.h
 usr/include/*/qt5/QtCore/qbitarray.h
@@ -426,7 +422,6 @@ usr/include/*/qt5/QtCore/qline.h
 usr/include/*/qt5/QtCore/qlinkedlist.h
 usr/include/*/qt5/QtCore/qlist.h
 usr/include/*/qt5/QtCore/qlocale.h
-usr/include/*/qt5/QtCore/qlocale_blackberry.h
 usr/include/*/qt5/QtCore/qlockfile.h
 usr/include/*/qt5/QtCore/qlogging.h
 usr/include/*/qt5/QtCore/qloggingcategory.h
@@ -1042,6 +1037,7 @@ usr/include/*/qt5/QtPlatformHeaders/QEglFSFunctions
 usr/include/*/qt5/QtPlatformHeaders/QGLXNativeContext
 usr/include/*/qt5/QtPlatformHeaders/QPlatformHeaderHelper
 usr/include/*/qt5/QtPlatformHeaders/QWGLNativeContext
+usr/include/*/qt5/QtPlatformHeaders/QWaylandWindowFunctions
 usr/include/*/qt5/QtPlatformHeaders/QWindowsWindowFunctions
 usr/include/*/qt5/QtPlatformHeaders/QXcbIntegrationFunctions
 usr/include/*/qt5/QtPlatformHeaders/QXcbScreenFunctions
@@ -1056,6 +1052,7 @@ usr/include/*/qt5/QtPlatformHeaders/qeglnativecontext.h
 usr/include/*/qt5/QtPlatformHeaders/qglxnativecontext.h
 usr/include/*/qt5/QtPlatformHeaders/qplatformheaderhelper.h
 usr/include/*/qt5/QtPlatformHeaders/qtplatformheadersversion.h
+usr/include/*/qt5/QtPlatformHeaders/qwaylandwindowfunctions.h
 usr/include/*/qt5/QtPlatformHeaders/qwglnativecontext.h
 usr/include/*/qt5/QtPlatformHeaders/qwindowswindowfunctions.h
 usr/include/*/qt5/QtPlatformHeaders/qxcbintegrationfunctions.h
