@@ -15,8 +15,18 @@ Files-Excluded: src/3rdparty/zlib/doc/rfc*.txt
 # * htmlinfo example which contains non-free websites snapshots
 
 Files: *
-Copyright: 2012-2015 The Qt Company Ltd.
-License: LGPL-2.1-or-3 with Qt-1.1 exception
+Copyright: 2016 The Qt Company Ltd.
+License: LGPL-3 or GPL-2+
+
+Files: configure
+       configure.bat
+       qmake/*
+       src/tools/*
+       tests/*
+       tools/*
+       util/*
+Copyright: 2016 The Qt Company Ltd.
+License: GPL-3 with Qt-1.0 exception
 
 Files: examples/*
        doc/src/snippets/*
@@ -24,13 +34,12 @@ Files: examples/*
        src/*/doc/snippets/*
        tests/manual/xembed*
        tests/manual/qlocale/*
+       tests/manual/qtbug-52641/main.cpp
        tests/manual/windowtransparency/*
        src/winmain/qtmain_win.cpp
        src/winmain/qtmain_winrt.cpp
-       src/platformheaders/doc/snippets/qwindowswindowfunctions/main.cpp
-       src/platformheaders/doc/snippets/qxcbwindowfunctions/main.cpp
        tests/auto/corelib/global/qglobalstatic/tst_qglobalstatic.cpp
-Copyright: 2012-2015 The Qt Company Ltd.
+Copyright: 2016 The Qt Company Ltd.
 License: BSD-3-clause
 
 Files: debian/*
@@ -41,12 +50,8 @@ Copyright: 2007-2013 Fathi Boudra <fabo@debian.org>
            2005-2007 Brian Nelson <pyro@debian.org>
            2012-2013 Zoltán Balogh <zoltan.balogh@canonical.com>
            2012-2013 Timo Jyrinki <timo.jyrinki@canonical.com>
-           2013-2015 Dmitry Shachnev <mitya57@debian.org>
-License: LGPL-2.1-or-3 with Qt-1.1 exception
-
-Files: debian/scripts/*
-Copyright: 2015 Dmitry Shachnev <mitya57@debian.org>
-License: Expat
+           2013-2016 Dmitry Shachnev <mitya57@debian.org>
+License: LGPL-3 or GPL-2+
 
 Files: src/testlib/3rdparty/callgrind_p.h
        src/testlib/3rdparty/valgrind_p.h
@@ -64,6 +69,10 @@ Files: tests/auto/cmake/*
        src/corelib/itemmodels/qidentityproxymodel.cpp
        src/corelib/itemmodels/qidentityproxymodel.h
        src/corelib/doc/snippets/code/src_gui_itemviews_qidentityproxymodel.cpp
+Copyright: 2011-2015 Klarälvdalens Datakonsult AB, a KDAB Group company
+License: LGPL-3 or GPL-2+
+
+Files: tests/manual/cocoa/menus/main.cpp
        tests/manual/qmetatype/declare_metatype_noninline.h
        tests/manual/qmetatype/tst_qmetatype.cpp
        tests/manual/qmetatype/declare_metatype_noninline.cpp
@@ -74,8 +83,8 @@ Files: tests/auto/cmake/*
        tests/auto/tools/qdbuscpp2xml/tst_qdbuscpp2xml.cpp
        tests/auto/corelib/tools/qpair/tst_qpair.cpp
        tests/auto/corelib/itemmodels/qidentityproxymodel/tst_qidentityproxymodel.cpp
-Copyright: 2011-2015 Klarälvdalens Datakonsult AB, a KDAB Group company
-License: LGPL-2.1-or-3 with Qt-1.1 exception
+Copyright: 2011-2012 Klarälvdalens Datakonsult AB, a KDAB Group company
+License: GPL-3 with Qt-1.0 exception
 
 Files: src/openglextensions/qopenglextensions.*
        util/glgen/qopenglextensions.*
@@ -83,15 +92,15 @@ Copyright: 2013 Klarälvdalens Datakonsult AB (KDAB)
 License: BSD-3-clause
 
 Files: tests/auto/corelib/global/qglobalstatic/tst_qglobalstatic.cpp
-Copyright: 2011 Thiago Macieira <thiago@kde.org>
+Copyright: 2016 Thiago Macieira <thiago@kde.org>
+           2016 Intel Corporation
 License: BSD-3-clause
 
 Files: tests/auto/cmake/test_add_binary_resources_delayed_file/main.cpp
 Copyright: 2015 André Klitzing <aklitzing@gmail.com>
-License: LGPL-2.1-or-3 with Qt-1.1 exception
+License: GPL-3 with Qt-1.0 exception
 
-Files: tests/manual/cocoa/menus/main.cpp
-       src/plugins/platforms/cocoa/qcocoamenubar.mm
+Files: src/plugins/platforms/cocoa/qcocoamenubar.mm
        src/plugins/platforms/cocoa/qcocoamenuitem.mm
        src/plugins/platforms/cocoa/qcocoamenu.h
        src/plugins/platforms/cocoa/qcocoasystemtrayicon.mm
@@ -101,7 +110,7 @@ Files: tests/manual/cocoa/menus/main.cpp
        src/plugins/platforms/cocoa/qcocoamenu.mm
 Copyright: 2011 Klarälvdalens Datakonsult AB, a KDAB Group company
            2007-2008 Apple, Inc.
-License: LGPL-2.1-or-3 with Qt-1.1 exception
+License: LGPL-3 or GPL-2+
 
 Files: src/plugins/platforms/cocoa/qcocoaeventdispatcher.h
        src/plugins/platforms/cocoa/qcocoaapplication.h
@@ -110,48 +119,49 @@ Files: src/plugins/platforms/cocoa/qcocoaeventdispatcher.h
        src/plugins/platforms/cocoa/qcocoaapplicationdelegate.h
        src/corelib/kernel/qeventdispatcher_cf_p.h
 Copyright: 2007-2008 Apple, Inc.
-           2015 The Qt Company Ltd.
+           2016 The Qt Company Ltd.
 License: BSD-3-clause
 
 Files: src/corelib/io/qstandardpaths_haiku.cpp
        src/plugins/platforms/haiku/*
 Copyright: 2015 Klarälvdalens Datakonsult AB, a KDAB Group company, info@kdab.com
-License: LGPL-2.1-or-3 with Qt-1.1 exception
+License: LGPL-3 or GPL-2+
 
 Files: src/plugins/platforms/qnx/*
-       src/plugins/bearer/blackberry/*
-       src/plugins/styles/bb10style/*
        config.tests/unix/lgmon/lgmon.cpp
        config.tests/unix/objcopy/objcopy.cpp
        config.tests/unix/pps/pps.cpp
        config.tests/unix/qqnx_imf/qqnx_imf.cpp
        config.tests/unix/slog2/slog2.cpp
-       mkspecs/blackberry-*
        mkspecs/qnx-*
-       src/corelib/io/qstandardpaths_blackberry.cpp
        src/corelib/io/qurl.cpp
-       src/corelib/kernel/qeventdispatcher_blackberry*
        src/corelib/kernel/qppsattribute*
        src/corelib/kernel/qppsobject*
        src/network/access/qabstractprotocolhandler*
        src/network/access/qhttpnetworkconnectionchannel.cpp
        src/network/access/qhttpprotocolhandler*
        src/network/access/qspdyprotocolhandler*
-       tests/auto/corelib/io/qfileselector/tst_qfileselector.cpp
+Copyright: 2009-2014 BlackBerry Limited (formerly Research In Motion)
+License: LGPL-3 or GPL-2+
+
+Files: tests/auto/corelib/io/qfileselector/tst_qfileselector.cpp
        tests/auto/corelib/io/qurl/tst_qurl.cpp
        tests/auto/network/access/spdy/tst_spdy.cpp
        tests/manual/qnetworkreply/main.cpp
        tests/manual/qsslsocket/main.cpp
 Copyright: 2009-2014 BlackBerry Limited (formerly Research In Motion)
-License: LGPL-2.1-or-3 with Qt-1.1 exception
+License: GPL-3 with Qt-1.0 exception
 
 Files: tests/auto/android/runtests_androiddeployqt.pl
-       src/plugins/platforms/android/*
+Copyright: 2012-2013 BogDan Vatra <bogdan@kde.org>
+License: GPL-3 with Qt-1.0 exception
+
+Files: src/plugins/platforms/android/*
        src/android/jar/src/org/qtproject/qt5/android/*
        src/android/java/src/*
        src/widgets/styles/qandroidstyle*
 Copyright: 2012-2014 BogDan Vatra <bogdan@kde.org>
-License: LGPL-2.1-or-3 with Qt-1.1 exception
+License: LGPL-3 or GPL-2+
 
 Files: config.tests/unix/pcre/pcre.cpp
        src/3rdparty/pcre/import_from_pcre_tarball.sh
@@ -159,13 +169,16 @@ Files: config.tests/unix/pcre/pcre.cpp
        src/corelib/tools/qhash.cpp
        src/corelib/tools/qregularexpression.h
        src/corelib/doc/snippets/code/src_corelib_tools_qregularexpression.cpp
-       tests/auto/tools/rcc/tst_rcc.cpp
+Copyright: 2012 Giuseppe D'Angelo
+License: LGPL-3 or GPL-2+
+
+Files: tests/auto/tools/rcc/tst_rcc.cpp
        tests/auto/corelib/tools/qregularexpression/tst_qregularexpression.h
        tests/auto/corelib/tools/qregularexpression/tst_qregularexpression.cpp
        tests/auto/corelib/tools/qregularexpression/defaultoptimize/tst_qregularexpression_defaultoptimize.cpp
        tests/auto/corelib/tools/qregularexpression/alwaysoptimize/tst_qregularexpression_alwaysoptimize.cpp
 Copyright: 2012 Giuseppe D'Angelo
-License: LGPL-2.1-or-3 with Qt-1.1 exception
+License: GPL-3 with Qt-1.0 exception
 
 Files: src/3rdparty/xcb/xcb-util-keysyms/keysyms.c
        src/3rdparty/xcb/xcb-util/xcb_aux.c
@@ -194,10 +207,13 @@ Files: src/network/kernel/qdnslookup_p.h
        src/network/kernel/qdnslookup.h
        src/network/kernel/qdnslookup_win.cpp
        src/network/kernel/qdnslookup.cpp
-       tests/auto/network/kernel/qdnslookup_appless/tst_qdnslookup_appless.cpp
+Copyright: 2012 Jeremy Lainé
+License: LGPL-3 or GPL-2+
+
+Files: tests/auto/network/kernel/qdnslookup_appless/tst_qdnslookup_appless.cpp
        tests/auto/network/kernel/qdnslookup/tst_qdnslookup.cpp
 Copyright: 2012 Jeremy Lainé
-License: LGPL-2.1-or-3 with Qt-1.1 exception
+License: GPL-3 with Qt-1.0 exception
 
 Files: src/network/doc/snippets/code/src_network_kernel_qdnslookup.cpp
        examples/network/dnslookup/dnslookup.cpp
@@ -287,7 +303,10 @@ Files: config.tests/qpa/directfb/directfb.cpp
        src/dbus/qdbusconnection.h
        src/dbus/qdbusutil_p.h
        src/opengl/qtopenglglobal.h
-       tests/auto/tools/qdbusxml2cpp/tst_qdbusxml2cpp.cpp
+Copyright: 2012-2015 Intel Corporation
+License: LGPL-3 or GPL-2+
+
+Files: tests/auto/tools/qdbusxml2cpp/tst_qdbusxml2cpp.cpp
        tests/auto/tools/moc/forward-declared-param.h
        tests/auto/network/kernel/qhostaddress/tst_qhostaddress.cpp
        tests/auto/network/socket/qudpsocket/tst_qudpsocket.cpp
@@ -302,14 +321,14 @@ Files: config.tests/qpa/directfb/directfb.cpp
        tests/auto/corelib/io/qurlinternal/tst_qurlinternal.cpp
        tests/auto/corelib/io/qipaddress/tst_qipaddress.cpp
 Copyright: 2012-2015 Intel Corporation
-License: LGPL-2.1-or-3 with Qt-1.1 exception
+License: GPL-3 with Qt-1.0 exception
 
 Files: mkspecs/common/android/qplatformdefs.h
        src/network/kernel/qdnslookup_android.cpp
        src/corelib/kernel/qsharedmemory_android.cpp
        src/corelib/kernel/qsystemsemaphore_android.cpp
 Copyright: 2012 Collabora Ltd
-License: LGPL-2.1-or-3 with Qt-1.1 exception
+License: LGPL-3 or GPL-2+
 
 Files: src/gui/painting/qt_mips_asm_dsp_p.h
        src/gui/painting/qdrawhelper_mips_dsp_p.h
@@ -317,7 +336,7 @@ Files: src/gui/painting/qt_mips_asm_dsp_p.h
        src/gui/painting/qdrawhelper_mips_dsp_asm.S
        src/gui/painting/qdrawhelper_mips_dspr2_asm.S
 Copyright: 2012 MIPS Technologies
-License: LGPL-2.1-or-3 with Qt-1.1 exception
+License: LGPL-3 or GPL-2+
 
 Files: src/corelib/global/qlogging.cpp
        src/corelib/kernel/qmetaobject.cpp
@@ -334,7 +353,10 @@ Files: src/corelib/global/qlogging.cpp
        src/tools/moc/generator.cpp
        src/tools/moc/preprocessor.cpp
        src/tools/moc/symbols.h
-       tests/auto/corelib/global/qlogging/tst_qlogging.cpp
+Copyright: 2011-2015 Olivier Goffart
+License: LGPL-3 or GPL-2+
+
+Files: tests/auto/corelib/global/qlogging/tst_qlogging.cpp
        tests/auto/corelib/kernel/qmetaenum/tst_qmetaenum.cpp
        tests/auto/corelib/kernel/qmetamethod/tst_qmetamethod.cpp
        tests/auto/corelib/kernel/qmetaproperty/tst_qmetaproperty.cpp
@@ -344,19 +366,19 @@ Files: src/corelib/global/qlogging.cpp
        tests/auto/tools/moc/dollars.h
        tests/auto/tools/moc/tst_moc.cpp
 Copyright: 2011-2015 Olivier Goffart
-License: LGPL-2.1-or-3 with Qt-1.1 exception
+License: GPL-3 with Qt-1.0 exception
 
 Files: src/network/ssl/qsslcertificateextension_p.h
        src/network/ssl/qsslcertificateextension.cpp
        src/network/ssl/qsslcertificateextension.h
 Copyright: 2011 Richard J. Moore
-License: LGPL-2.1-or-3 with Qt-1.1 exception
+License: LGPL-3 or GPL-2+
 
 Files: tests/benchmarks/corelib/tools/qalgorithms/tst_qalgorithms.cpp
        tests/benchmarks/corelib/tools/qstack/main.cpp
        tests/benchmarks/corelib/kernel/qcoreapplication/main.cpp
 Copyright: 2011-2015 Robin Burchell <robin.burchell@viroteck.net>
-License: LGPL-2.1-or-3 with Qt-1.1 exception
+License: GPL-3 with Qt-1.0 exception
 
 Files: src/corelib/codecs/qjpunicode.cpp
        src/corelib/codecs/qsjiscodec_p.h
@@ -367,13 +389,16 @@ Files: src/corelib/codecs/qjpunicode.cpp
        src/corelib/codecs/qeucjpcodec_p.h
        src/corelib/codecs/qjiscodec.cpp
 Copyright: 1999 Serika Kurusugawa
-License: LGPL-2.1-or-3 with Qt-1.1 exception
+License: LGPL-3 or GPL-2+
 
 Files: tests/auto/corelib/io/qstorageinfo/tst_qstorageinfo.cpp
-       src/corelib/io/qstorageinfo*
+Copyright: 2014 Ivan Komissarov <ABBAPOH@gmail.com>
+License: GPL-3 with Qt-1.0 exception
+
+Files: src/corelib/io/qstorageinfo*
        src/widgets/widgets/qkeysequenceedit*
 Copyright: 2013-2014 Ivan Komissarov <ABBAPOH@gmail.com>
-License: LGPL-2.1-or-3 with Qt-1.1 exception
+License: LGPL-3 or GPL-2+
 
 Files: src/network/ssl/qsslcontext_openssl.cpp
        src/network/ssl/qsslellipticcurve.cpp
@@ -384,10 +409,13 @@ Files: src/network/ssl/qsslcontext_openssl.cpp
        src/network/ssl/qsslpresharedkeyauthenticator.h
        src/network/ssl/qsslpresharedkeyauthenticator_p.h
        src/network/ssl/qsslsocket_openssl.cpp
-       tests/auto/network/ssl/qsslellipticcurve/tst_qsslellipticcurve.cpp
+Copyright: 2014 Governikus GmbH & Co. KG.
+License: LGPL-3 or GPL-2+
+
+Files: tests/auto/network/ssl/qsslellipticcurve/tst_qsslellipticcurve.cpp
        tests/auto/network/ssl/qsslsocket/tst_qsslsocket.cpp
 Copyright: 2014 Governikus GmbH & Co. KG.
-License: LGPL-2.1-or-3 with Qt-1.1 exception
+License: GPL-3 with Qt-1.0 exception
 
 Files: src/3rdparty/atspi2/atspi/atspi-constants.h
 Copyright: 2010-2011 Novell, Inc.
@@ -425,165 +453,6 @@ Files: src/3rdparty/iaccessible2/idl/*
 Copyright: 2006 IBM Corporation
 License: BSD-3-clause
 
-Files: lib/fonts/helvetica* lib/fonts/japanese_230_50.qpf
-Copyright: 1984-1989, 1994 Adobe Systems Incorporated.
-           1988, 1994 Digital Equipment Corporation.
-License: Adobe
- Adobe is a trademark of Adobe Systems Incorporated which may be
- registered in certain jurisdictions.
- Permission to use these trademarks is hereby granted only in
- association with the images described in this file.
- .
- Permission to use, copy, modify, distribute and sell this software
- and its documentation for any purpose and without fee is hereby
- granted, provided that the above copyright notices appear in all
- copies and that both those copyright notices and this permission
- notice appear in supporting documentation, and that the names of
- Adobe Systems and Digital Equipment Corporation not be used in
- advertising or publicity pertaining to distribution of the software
- without specific, written prior permission.  Adobe Systems and
- Digital Equipment Corporation make no representations about the
- suitability of this software for any purpose.  It is provided "as
- is" without express or implied warranty.
-
-Files: lib/fonts/c0*
-Copyright: 1989-1992 Bitstream Inc., Cambridge, MA.
-License: Bitstream
- You are hereby granted permission under all Bitstream propriety rights
- to use, copy, modify, sublicense, sell, and redistribute the 4 Bitstream
- Charter (r) Type 1 outline fonts and the 4 Courier Type 1 outline fonts
- for any purpose and without restriction; provided, that this notice is
- left intact on all copies of such fonts and that Bitstream's trademark
- is acknowledged as shown below on all unmodified copies of the 4 Charter
- Type 1 fonts.
- .
- BITSTREAM CHARTER is a registered trademark of Bitstream Inc.
-
-Files: lib/fonts/DejaVu* lib/fonts/Vera*
-Copyright: 2003 Bitstream, Inc.
-           2006 Tavmjong Bah
-License: Bitstream-Vera
- Bitstream Vera Fonts Copyright
- Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved. Bitstream Vera is
- a trademark of Bitstream, Inc.
- .
- Permission is hereby granted, free of charge, to any person obtaining a copy
- of the fonts accompanying this license ("Fonts") and associated
- documentation files (the "Font Software"), to reproduce and distribute the
- Font Software, including without limitation the rights to use, copy, merge,
- publish, distribute, and/or sell copies of the Font Software, and to permit
- persons to whom the Font Software is furnished to do so, subject to the
- following conditions:
- .
- The above copyright and trademark notices and this permission notice shall
- be included in all copies of one or more of the Font Software typefaces.
- .
- The Font Software may be modified, altered, or added to, and in particular
- the designs of glyphs or characters in the Fonts may be modified and
- additional glyphs or characters may be added to the Fonts, only if the fonts
- are renamed to names not containing either the words "Bitstream" or the word
- "Vera".
- .
- This License becomes null and void to the extent applicable to Fonts or Font
- Software that has been modified and is distributed under the "Bitstream
- Vera" names.
- .
- The Font Software may be sold as part of a larger software package but no
- copy of one or more of the Font Software typefaces may be sold by itself.
- .
- THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
- OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY,
- FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT,
- TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL BITSTREAM OR THE GNOME
- FOUNDATION BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING
- ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES,
- WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF
- THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE
- FONT SOFTWARE.
- .
- Except as contained in this notice, the names of Gnome, the Gnome
- Foundation, and Bitstream Inc., shall not be used in advertising or
- otherwise to promote the sale, use or other dealings in this Font Software
- without prior written authorization from the Gnome Foundation or Bitstream
- Inc., respectively. For further information, contact: fonts at gnome dot
- org.
- .
- Arev Fonts Copyright
- .
- Permission is hereby granted, free of charge, to any person obtaining
- a copy of the fonts accompanying this license ("Fonts") and
- associated documentation files (the "Font Software"), to reproduce
- and distribute the modifications to the Bitstream Vera Font Software,
- including without limitation the rights to use, copy, merge, publish,
- distribute, and/or sell copies of the Font Software, and to permit
- persons to whom the Font Software is furnished to do so, subject to
- the following conditions:
- .
- The above copyright and trademark notices and this permission notice
- shall be included in all copies of one or more of the Font Software
- typefaces.
- .
- The Font Software may be modified, altered, or added to, and in
- particular the designs of glyphs or characters in the Fonts may be
- modified and additional glyphs or characters may be added to the
- Fonts, only if the fonts are renamed to names not containing either
- the words "Tavmjong Bah" or the word "Arev".
- .
- This License becomes null and void to the extent applicable to Fonts
- or Font Software that has been modified and is distributed under the
- "Tavmjong Bah Arev" names.
- .
- The Font Software may be sold as part of a larger software package but
- no copy of one or more of the Font Software typefaces may be sold by
- itself.
- .
- THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
- EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF
- MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT
- OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL
- TAVMJONG BAH BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
- INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL
- DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
- FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
- OTHER DEALINGS IN THE FONT SOFTWARE.
- .
- Except as contained in this notice, the name of Tavmjong Bah shall not
- be used in advertising or otherwise to promote the sale, use or other
- dealings in this Font Software without prior written authorization
- from Tavmjong Bah. For further information, contact: tavmjong @ free
- . fr.
-
-Files: lib/fonts/cursor.pfa
-Copyright: 2000 XFree86, Inc.
-License: MIT
-
-Files: lib/fonts/cour.pfa lib/fonts/courb.pfa lib/fonts/courbi.pfa lib/fonts/couri.pfa
-Copyright: 1990-1991 IBM Corporation
-License: Courier
- You are hereby granted permission under the terms of the IBM/MIT X Consortium
- Courier Typefont agreement to execute, reproduce, distribute, display, market,
- sell and otherwise transfer copies of the IBM Courier font to third parties.
- .
- The font is provided "AS IS" without charge.  NO WARRANTIES OR INDEMNIFICATION
- ARE GIVEN, WHETHER EXPRESS OR IMPLIED INCLUDING, BUT LIMITED TO THE IMPLIED
- WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
-
-Files: lib/fonts/micro_40_50.qpf lib/fonts/fixed_120_50.qpf lib/fonts/fixed_70_50.qpf
-Copyright: -
-License: public-domain
- A public domain font. Share and enjoy. http://www.X.org
-
-Files: lib/fonts/unifont_160_50.qpf
-Copyright: Roman Czyborra
-License: Unifont
- The Unifont font was originally obtained from http://www.czyborra.com/ under
- the following license:
- .
- All of my works you find here are freeware. You may freely copy, use, quote,
- modify or redistribute them as long as you properly attribute my contribution
- and have given a quick thought about whether Roman might perhaps be interested
- to read what you did with his stuff. Horizontal rules don't apply.
-
 Files: tests/manual/widgets/itemviews/delegate/example.cpp
        tests/manual/widgets/itemviews/qheaderview/qheaderviewtest1.cpp
        tests/manual/widgets/itemviews/qtreewidget/main.cpp
@@ -602,10 +471,13 @@ Files: tests/manual/widgets/itemviews/delegate/example.cpp
        tests/benchmarks/gui/itemviews/qheaderview/qheaderviewbench.cpp
        tests/auto/widgets/itemviews/qheaderview/tst_qheaderview.cpp
 Copyright: 2012-2013 Thorbjørn Lund Martsum
-License: LGPL-2.1-or-3 with Qt-1.1 exception
+License: GPL-3 with Qt-1.0 exception
 
 Files: tests/auto/corelib/tools/qbytearray/tst_qbytearray_mac.mm
-       src/corelib/kernel/qcoreapplication_win.cpp
+Copyright: 2013-2014 Samuel Gaist <samuel.gaist@edeltech.ch>
+License: GPL-3 with Qt-1.0 exception
+
+Files: src/corelib/kernel/qcoreapplication_win.cpp
        src/corelib/io/qfilesystemengine_unix.cpp
        src/corelib/tools/qbytearray_mac.mm
        src/gui/kernel/qplatformsessionmanager.*
@@ -618,11 +490,7 @@ Files: tests/auto/corelib/tools/qbytearray/tst_qbytearray_mac.mm
        src/plugins/platforms/windows/qwindowssessionmanager.*
        src/widgets/itemviews/qlistview.cpp
 Copyright: 2013-2014 Samuel Gaist <samuel.gaist@edeltech.ch>
-License: LGPL-2.1-or-3 with Qt-1.1 exception
-
-Files: src/3rdparty/freetype/src/pcf/pcfutil.c
-Copyright: 1990-1998 The Open Group
-License: MIT
+License: LGPL-3 or GPL-2+
 
 Files: tests/auto/corelib/tools/qchar/data/NormalizationTest.txt
        tests/auto/corelib/tools/qtextboundaryfinder/data/*.txt
@@ -708,13 +576,13 @@ License: Harfbuzz
 Files: src/gui/text/qharfbuzzng.cpp
        src/gui/text/qharfbuzzng_p.h
 Copyright: 2013 Konstantin Ritt
-License: LGPL-2.1-or-3 with Qt-1.1 exception
+License: LGPL-3 or GPL-2+
 
 Files: src/corelib/kernel/qsharedmemory_posix.cpp
        src/corelib/kernel/qsystemsemaphore_posix.cpp
 Copyright: 2015 Konstantin Ritt <ritt.ks@gmail.com>
            2015 Klarälvdalens Datakonsult AB, a KDAB Group company, info@kdab.com
-License: LGPL-2.1-or-3 with Qt-1.1 exception
+License: LGPL-3 or GPL-2+
 
 Files: src/testlib/3rdparty/cycle_p.h
 Copyright: 2003, 2006 Matteo Frigo
@@ -739,6 +607,10 @@ Copyright: 1996-2012 David Turner, Robert Wilhelm, and Werner Lemberg
            2009-2011 Oran Agra, Mickey Gabel
            2010, 2012 Joel Klinghed
 License: GPL-2+ or FTL
+
+Files: src/3rdparty/freetype/src/pcf/pcfutil.c
+Copyright: 1990-1998 The Open Group
+License: MIT
 
 Files: src/3rdparty/freetype/src/bdf/*
 Copyright: 2001-2002 Francesco Zappa Nardelli
@@ -959,46 +831,52 @@ License: Zlib
     misrepresented as being the original software.
  3. This notice may not be removed or altered from any source distribution.
 
-License: LGPL-2.1-or-3 with Qt-1.1 exception
- GNU Lesser General Public License:
- This file may be used under the terms of the GNU Lesser General Public
- License version 2.1 or version 3 as published by the Free Software
- Foundation and appearing in the file LICENSE.LGPLv21 and LICENSE.LGPLv3
- included in the packaging of this file. Please review the following
- information to ensure the GNU Lesser General Public License requirements
- will be met: https://www.gnu.org/licenses/lgpl.html.
+License: LGPL-3
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License version 3
+ as published by the Free Software Foundation.
  .
- In addition, as a special exception, The Qt Company gives you certain
- additional rights. These rights are described in The Qt Company Qt LGPL
- Exception version 1.1, included in the file LGPL_EXCEPTION.txt in this
- package.
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU Lesser General Public License for more details.
  .
  On Debian systems, the complete text of the GNU Lesser General Public
- License version 2.1 can be found in `/usr/share/common-licenses/LGPL-2.1`.
- The complete text of the GNU Lesser General Public License version 3 can be
- found in `/usr/share/common-licenses/LGPL-3`.
+ License version 3 can be found in /usr/share/common-licenses/LGPL-3.
+
+License: GPL-3 with Qt-1.0 exception
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License version 3 as
+ published by the Free Software Foundation.
  .
- The Qt Company LGPL Exception version 1.1:
- As an additional permission to the GNU Lesser General Public License version
- 2.1, the object code form of a "work that uses the Library" may incorporate
- material from a header file that is part of the Library.  You may distribute
- such object code under terms of your choice, provided that:
-     (i)   the header files of the Library have not been modified; and
-     (ii)  the incorporated material is limited to numerical parameters, data
-           structure layouts, accessors, macros, inline functions and
-           templates; and
-     (iii) you comply with the terms of Section 6 of the GNU Lesser General
-           Public License version 2.1.
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
  .
- Moreover, you may apply this exception to a modified version of the Library,
- provided that such modification does not involve copying material from the
- Library into the modified Library's header files unless such material is
- limited to (i) numerical parameters; (ii) data structure layouts;
- (iii) accessors; and (iv) small macros, templates and inline functions of
- five lines or less in length.
+ On Debian systems, the complete text of the GNU General Public License
+ version 3 can be found in /usr/share/common-licenses/GPL-3.
  .
- Furthermore, you are not required to apply this additional permission to a
- modified version of the Library.
+ The Qt Company GPL Exception 1.0
+ Exception 1:
+ .
+ As a special exception you may create a larger work which contains the
+ output of this application and distribute that work under terms of your
+ choice, so long as the work is not otherwise derived from or based on
+ this application and so long as the work does not in itself generate
+ output that contains the output from this application in its original
+ or modified form.
+ .
+ Exception 2:
+ .
+ As a special exception, you have permission to combine this application
+ with Plugins licensed under the terms of your choice, to produce an
+ executable, and to copy and distribute the resulting executable under
+ the terms of your choice. However, the executable must be accompanied
+ by a prominent notice offering all users of the executable the entire
+ source code to this application, excluding the source code of the
+ independent modules, but including any changes you have made to this
+ application, under the terms of this license.
 
 License: BSD-3-clause
  You may use this file under the terms of the BSD license as follows:
