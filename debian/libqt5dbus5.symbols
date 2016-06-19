@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.6.1 alpha ppc64
+# SymbolsHelper-Confirmed: 5.7.0 amd64
 libQt5DBus.so.5 libqt5dbus5 #MINVER#
 | libqt5dbus5 #MINVER#, qtbase-abi-5-6-1
 * Build-Depends-Package: qtbase5-dev
@@ -9,6 +9,7 @@ libQt5DBus.so.5 libqt5dbus5 #MINVER#
  Qt_5.4@Qt_5.4 5.6.0~beta
  Qt_5.5@Qt_5.5 5.6.0~beta
  Qt_5.6@Qt_5.6 5.6.0~beta
+ Qt_5.7@Qt_5.7 5.7.0
  Qt_5@Qt_5 5.6.0~beta
  Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0~beta 1
  _Z14qDBusReplyFillRK12QDBusMessageR10QDBusErrorR8QVariant@Qt_5 5.0.2
@@ -271,12 +272,12 @@ libQt5DBus.so.5 libqt5dbus5 #MINVER#
  _ZN9QDBusUtil16isValidErrorNameERK7QString@Qt_5 5.0.2
  _ZN9QDBusUtil16isValidFixedTypeEi@Qt_5 5.0.2
  _ZN9QDBusUtil16isValidSignatureERK7QString@Qt_5 5.0.2
- _ZN9QDBusUtil17isValidMemberNameERK7QString@Qt_5 5.0.2
+ _ZN9QDBusUtil17isValidMemberNameERK10QStringRef@Qt_5 5.7.0
  _ZN9QDBusUtil17isValidObjectPathERK7QString@Qt_5 5.0.2
  _ZN9QDBusUtil20isValidInterfaceNameERK7QString@Qt_5 5.0.2
  _ZN9QDBusUtil22isValidSingleSignatureERK7QString@Qt_5 5.0.2
- _ZN9QDBusUtil23isValidPartOfObjectPathERK7QString@Qt_5 5.0.2
- _ZN9QDBusUtil27isValidUniqueConnectionNameERK7QString@Qt_5 5.0.2
+ _ZN9QDBusUtil23isValidPartOfObjectPathERK10QStringRef@Qt_5 5.7.0
+ _ZN9QDBusUtil27isValidUniqueConnectionNameERK10QStringRef@Qt_5 5.7.0
  _ZNK10QDBusError4nameEv@Qt_5 5.0.2
  _ZNK10QDBusError4typeEv@Qt_5 5.0.2
  _ZNK10QDBusError7isValidEv@Qt_5 5.0.2

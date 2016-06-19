@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.6.0~beta amd64
+# SymbolsHelper-Confirmed: 5.7.0 amd64
 libQt5Sql.so.5 libqt5sql5 #MINVER#
 | libqt5sql5 #MINVER#, qtbase-abi-5-6-1
 * Build-Depends-Package: qtbase5-dev
@@ -9,6 +9,7 @@ libQt5Sql.so.5 libqt5sql5 #MINVER#
  Qt_5.4@Qt_5.4 5.6.0~beta
  Qt_5.5@Qt_5.5 5.6.0~beta
  Qt_5.6@Qt_5.6 5.6.0~beta
+ Qt_5.7@Qt_5.7 5.7.0
  Qt_5@Qt_5 5.6.0~beta
  Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN10QSqlDriver11cancelQueryEv@Qt_5 5.0.2
@@ -75,9 +76,9 @@ libQt5Sql.so.5 libqt5sql5 #MINVER#
  _ZN10QSqlResult9setActiveEb@Qt_5 5.0.2
  _ZN10QSqlResult9setSelectEb@Qt_5 5.0.2
  _ZN10QSqlResultC1EPK10QSqlDriver@Qt_5 5.0.2
- _ZN10QSqlResultC1ER17QSqlResultPrivatePK10QSqlDriver@Qt_5_PRIVATE_API 5.1.0 1
+ _ZN10QSqlResultC1ER17QSqlResultPrivate@Qt_5_PRIVATE_API 5.7.0
  _ZN10QSqlResultC2EPK10QSqlDriver@Qt_5 5.0.2
- _ZN10QSqlResultC2ER17QSqlResultPrivatePK10QSqlDriver@Qt_5_PRIVATE_API 5.1.0 1
+ _ZN10QSqlResultC2ER17QSqlResultPrivate@Qt_5_PRIVATE_API 5.7.0
  _ZN10QSqlResultD0Ev@Qt_5 5.0.2
  _ZN10QSqlResultD1Ev@Qt_5 5.0.2
  _ZN10QSqlResultD2Ev@Qt_5 5.0.2
@@ -198,11 +199,8 @@ libQt5Sql.so.5 libqt5sql5 #MINVER#
  _ZN16QSqlCachedResult9cacheNextEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZN16QSqlCachedResult9fetchLastEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZN16QSqlCachedResult9fetchNextEv@Qt_5_PRIVATE_API 5.0.2 1
- _ZN16QSqlCachedResultC1EPK10QSqlDriver@Qt_5_PRIVATE_API 5.0.2 1
- _ZN16QSqlCachedResultC2EPK10QSqlDriver@Qt_5_PRIVATE_API 5.0.2 1
- _ZN16QSqlCachedResultD0Ev@Qt_5_PRIVATE_API 5.0.2 1
- _ZN16QSqlCachedResultD1Ev@Qt_5_PRIVATE_API 5.0.2 1
- _ZN16QSqlCachedResultD2Ev@Qt_5_PRIVATE_API 5.0.2 1
+ _ZN16QSqlCachedResultC1ER23QSqlCachedResultPrivate@Qt_5_PRIVATE_API 5.7.0
+ _ZN16QSqlCachedResultC2ER23QSqlCachedResultPrivate@Qt_5_PRIVATE_API 5.7.0
  _ZN16QSqlDriverPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.0.2
  _ZN16QSqlDriverPlugin11qt_metacastEPKc@Qt_5 5.0.2
  _ZN16QSqlDriverPlugin16staticMetaObjectE@Qt_5 5.0.2
@@ -212,6 +210,12 @@ libQt5Sql.so.5 libqt5sql5 #MINVER#
  _ZN16QSqlDriverPluginD1Ev@Qt_5 5.0.2
  _ZN16QSqlDriverPluginD2Ev@Qt_5 5.0.2
  _ZN17QSqlResultPrivate24namedToPositionalBindingERK7QString@Qt_5_PRIVATE_API 5.0.2 1
+ _ZN23QSqlCachedResultPrivate10revertLastEv@Qt_5_PRIVATE_API 5.7.0
+ _ZN23QSqlCachedResultPrivate4initEib@Qt_5_PRIVATE_API 5.7.0
+ _ZN23QSqlCachedResultPrivate7cleanupEv@Qt_5_PRIVATE_API 5.7.0
+ _ZN23QSqlCachedResultPrivate9nextIndexEv@Qt_5_PRIVATE_API 5.7.0
+ _ZN23QSqlCachedResultPrivateC1EP16QSqlCachedResultPK10QSqlDriver@Qt_5_PRIVATE_API 5.7.0
+ _ZN23QSqlCachedResultPrivateC2EP16QSqlCachedResultPK10QSqlDriver@Qt_5_PRIVATE_API 5.7.0
  _ZN24QSqlRelationalTableModel11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.0.2
  _ZN24QSqlRelationalTableModel11qt_metacastEPKc@Qt_5 5.0.2
  _ZN24QSqlRelationalTableModel11setJoinModeENS_8JoinModeE@Qt_5 5.0.2
@@ -409,6 +413,7 @@ libQt5Sql.so.5 libqt5sql5 #MINVER#
  _ZNK17QSqlResultPrivate11fieldSerialEi@Qt_5_PRIVATE_API 5.1.0 1
  _ZNK17QSqlResultPrivate24positionalToNamedBindingERK7QString@Qt_5_PRIVATE_API 5.1.0 1
  _ZNK17QSqlResultPrivate8holderAtEi@Qt_5_PRIVATE_API 5.0.2 1
+ _ZNK23QSqlCachedResultPrivate7canSeekEi@Qt_5_PRIVATE_API 5.7.0
  _ZNK24QSqlRelationalTableModel10metaObjectEv@Qt_5 5.0.2
  _ZNK24QSqlRelationalTableModel13orderByClauseEv@Qt_5 5.0.2
  _ZNK24QSqlRelationalTableModel13relationModelEi@Qt_5 5.0.2
@@ -468,6 +473,7 @@ libQt5Sql.so.5 libqt5sql5 #MINVER#
  _ZTI16QSqlCachedResult@Qt_5_PRIVATE_API 5.0.2 1
  _ZTI16QSqlDriverPlugin@Qt_5 5.0.2
  _ZTI17QSqlResultPrivate@Qt_5_PRIVATE_API 5.1.0 1
+ _ZTI23QSqlCachedResultPrivate@Qt_5_PRIVATE_API 5.7.0
  _ZTI24QSqlRelationalTableModel@Qt_5 5.0.2
  _ZTS10QSqlDriver@Qt_5 5.0.2
  _ZTS10QSqlResult@Qt_5 5.0.2
@@ -476,6 +482,7 @@ libQt5Sql.so.5 libqt5sql5 #MINVER#
  _ZTS16QSqlCachedResult@Qt_5_PRIVATE_API 5.0.2 1
  _ZTS16QSqlDriverPlugin@Qt_5 5.0.2
  _ZTS17QSqlResultPrivate@Qt_5_PRIVATE_API 5.1.0 1
+ _ZTS23QSqlCachedResultPrivate@Qt_5_PRIVATE_API 5.7.0
  _ZTS24QSqlRelationalTableModel@Qt_5 5.0.2
  _ZTV10QSqlDriver@Qt_5 5.0.2
  _ZTV10QSqlResult@Qt_5 5.0.2
@@ -484,6 +491,7 @@ libQt5Sql.so.5 libqt5sql5 #MINVER#
  _ZTV16QSqlCachedResult@Qt_5_PRIVATE_API 5.0.2 1
  _ZTV16QSqlDriverPlugin@Qt_5 5.0.2
  _ZTV17QSqlResultPrivate@Qt_5_PRIVATE_API 5.1.0 1
+ _ZTV23QSqlCachedResultPrivate@Qt_5_PRIVATE_API 5.7.0
  _ZTV24QSqlRelationalTableModel@Qt_5 5.0.2
  _Zls6QDebugRK10QSqlRecord@Qt_5 5.0.2
  _Zls6QDebugRK12QSqlDatabase@Qt_5 5.0.2
