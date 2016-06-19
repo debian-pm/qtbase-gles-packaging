@@ -181,13 +181,12 @@ override_dh_auto_clean:
 
 	# Leftover files and all symlinks
 	find \( -false \
-	  -o -name \*.a \
+	  -o -name lib\*.a \
 	  -o -name Makefile.Debug \
 	  -o -name Makefile.Release \
 	  -o -name \*.o \
 	  -o -name \*.prl \
-	  -o -name \*.so \
-	  -o -name \*.so.debug \
+	  -o -name lib\*.so \
 	  -o -type l \
 	\) -print0 | xargs -0 rm -rf
 

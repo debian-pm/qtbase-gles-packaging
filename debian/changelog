@@ -20,6 +20,7 @@ qtbase-opensource-src (5.7.0+dfsg-1) UNRELEASED; urgency=medium
     - Libraries code is now licensed under LGPL-3 or GPL-2+.
     - Tools and tests are now licensed under GPL-3 with exceptions.
     - Examples and documentation are still licensed under 3-clause BSD.
+  * Update clean rules to prevent deleting test data.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 18 Jun 2016 11:38:32 +0300
 
