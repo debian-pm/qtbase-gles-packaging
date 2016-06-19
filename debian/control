@@ -80,8 +80,6 @@ Provides: qtbase-abi-5-6-1
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: qttranslations5-l10n
 Suggests: libthai0
-Breaks: libqt5core5 (<< 5.2.0+dfsg~)
-Replaces: libqt5core5 (<< 5.2.0+dfsg~)
 Description: Qt 5 core module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
