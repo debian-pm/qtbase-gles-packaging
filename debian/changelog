@@ -22,6 +22,7 @@ qtbase-opensource-src (5.7.0+dfsg-1) UNRELEASED; urgency=medium
     - Examples and documentation are still licensed under 3-clause BSD.
   * Update clean rules to prevent deleting test data.
   * Drop obsolete Breaks/Replaces.
+  * Bump qtbase-abi version to 5-7-0.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 18 Jun 2016 11:38:32 +0300
 
