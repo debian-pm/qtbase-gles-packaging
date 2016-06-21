@@ -464,6 +464,7 @@ Description: Qt 5 base examples debugging symbols
 
 Package: qt5-default
 Architecture: any
+Section: libdevel
 Depends: qtbase5-dev, qtchooser (>= 55-gc9562a1-1~), ${misc:Depends}
 Conflicts: qt4-default
 Suggests: qt5-qmake, qtbase5-dev-tools

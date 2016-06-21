@@ -4,6 +4,10 @@ qtbase-opensource-src (5.6.1+dfsg-3) UNRELEASED; urgency=medium
   * Make libqtcore5a break libqt5scintilla2-12v5 (<< 2.9.2+dfsg-2~), pointed
     out by Scott Kitterman.
 
+  [ Dmitry Shachnev ]
+  * Move qt5-default into libdevel section (like qtchooser itself; closes:
+    #827659).
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 20 Jun 2016 18:05:07 -0300
 
 qtbase-opensource-src (5.6.1+dfsg-2) unstable; urgency=medium
