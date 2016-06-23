@@ -78,7 +78,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _Z30qt_gl_set_global_share_contextP14QOpenGLContext@Qt_5 5.4.0
  (arch=arm64)_Z31qt_convert_rgb888_to_rgb32_neonPjPKhi@Qt_5 5.6.0~beta
  _Z32qGamma_correct_back_to_linear_csP6QImage@Qt_5 5.0.2
- (optional=gccinternal|arch=amd64 kfreebsd-amd64 powerpcspe x32)_Z32qt_convert_rgb888_to_rgb32_ssse3PjPKhi@Qt_5 5.0.2
+ (optional=gccinternal|arch=amd64 kfreebsd-amd64 x32)_Z32qt_convert_rgb888_to_rgb32_ssse3PjPKhi@Qt_5 5.0.2
  _Z33hb_qt_font_get_use_design_metricsP9hb_font_t@Qt_5 5.2.0
  _Z33hb_qt_font_set_use_design_metricsP9hb_font_tj@Qt_5 5.2.0
  _Z35qtInitializeVertexArrayObjectHelperP30QOpenGLVertexArrayObjectHelperP14QOpenGLContext@Qt_5 5.4.0
@@ -6696,7 +6696,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK9QVector4D16toVector3DAffineEv@Qt_5 5.0.2
  _ZNK9QVector4D6lengthEv@Qt_5 5.0.2
  _ZNK9QVector4Dcv8QVariantEv@Qt_5 5.0.2
- (optional=templinst|arch=!amd64)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Qt_5 5.6.1
+ (optional=templinst|arch=!alpha !amd64 !arm64 !hppa !kfreebsd-amd64 !mips64el !ppc64 !ppc64el !s390x !sparc64 !x32)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Qt_5 5.6.1
  _ZTI10QBasicDrag@Qt_5_PRIVATE_API 5.1.0 1
  _ZTI10QBlittable@Qt_5_PRIVATE_API 5.0.2 1
  _ZTI10QClipboard@Qt_5 5.0.2
