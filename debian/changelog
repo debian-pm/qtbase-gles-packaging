@@ -8,6 +8,8 @@ qtbase-opensource-src (5.6.1+dfsg-3) UNRELEASED; urgency=medium
   * Move qt5-default into libdevel section (like qtchooser itself; closes:
     #827659).
   * Move mesa-utils from Depends to Recommends (closes: #827896).
+  * Add a (temporary) patch to fix the QProcessPrivate::createPipe issue on
+    GNU/kFreeBSD (closes: #827935).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 20 Jun 2016 18:05:07 -0300
 
