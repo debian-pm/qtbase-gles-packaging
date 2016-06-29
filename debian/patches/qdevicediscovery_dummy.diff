@@ -1,0 +1,30 @@
+Description: add a destructor to QDeviceDiscoveryDummy
+ Otherwise, the linker fails because of undefined reference to
+ 'vtable for QDeviceDiscoveryDummy'.
+Author: Dmitry Shachnev <mitya57@debian.org>
+Forwarded: not-yet
+Last-Update: 2016-06-29
+
+--- a/src/platformsupport/devicediscovery/qdevicediscovery_dummy.cpp
++++ b/src/platformsupport/devicediscovery/qdevicediscovery_dummy.cpp
+@@ -51,6 +51,10 @@
+ {
+ }
+ 
++QDeviceDiscoveryDummy::~QDeviceDiscoveryDummy()
++{
++}
++
+ QStringList QDeviceDiscoveryDummy::scanConnectedDevices()
+ {
+     return QStringList();
+--- a/src/platformsupport/devicediscovery/qdevicediscovery_dummy_p.h
++++ b/src/platformsupport/devicediscovery/qdevicediscovery_dummy_p.h
+@@ -61,6 +61,7 @@
+ 
+ public:
+     QDeviceDiscoveryDummy(QDeviceTypes types, QObject *parent = 0);
++    ~QDeviceDiscoveryDummy();
+     QStringList scanConnectedDevices() Q_DECL_OVERRIDE;
+ };
+ 
