@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.7.0 amd64 i386
+# SymbolsHelper-Confirmed: 5.7.0 amd64 arm64 i386 mips64el ppc64el s390x
 libQt5DBus.so.5 libqt5dbus5 #MINVER#
 | libqt5dbus5 #MINVER#, qtbase-abi-5-7-0
 * Build-Depends-Package: qtbase5-dev
@@ -387,7 +387,7 @@ libQt5DBus.so.5 libqt5dbus5 #MINVER#
  _ZNK24QDBusConnectionInterface12serviceOwnerERK7QString@Qt_5 5.0.2
  _ZNK24QDBusConnectionInterface19isServiceRegisteredERK7QString@Qt_5 5.0.2
  _ZNK24QDBusConnectionInterface22registeredServiceNamesEv@Qt_5 5.0.2
- (optional=templinst|arch=!alpha !ppc64)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Qt_5 5.6.1
+ (optional=templinst|arch=!alpha !arm64 !mips64el !ppc64 !ppc64el !s390x)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Qt_5 5.6.1
  _ZTI11QDBusServer@Qt_5 5.0.2
  _ZTI14QDBusInterface@Qt_5 5.0.2
  _ZTI16QDBusPendingCall@Qt_5 5.0.2
