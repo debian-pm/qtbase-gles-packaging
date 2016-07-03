@@ -1,3 +1,8 @@
+qtbase-opensource-src (5.7.0+dfsg-3) UNRELEASED; urgency=medium
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 03 Jul 2016 08:56:09 +0300
+
 qtbase-opensource-src (5.7.0+dfsg-2) experimental; urgency=medium
 
   * Add a patch (qdevicediscovery_dummy.diff) to fix a linking error on
