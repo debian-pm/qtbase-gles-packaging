@@ -939,11 +939,11 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZN14QItemSelection6selectERK11QModelIndexS2_@Qt_5 5.0.2
  _ZN14QItemSelectionC1ERK11QModelIndexS2_@Qt_5 5.0.2
  _ZN14QItemSelectionC2ERK11QModelIndexS2_@Qt_5 5.0.2
- _ZN14QLocalePrivate12codeToScriptEPK5QChari@Qt_5_PRIVATE_API 5.7.0
+ _ZN14QLocalePrivate12codeToScriptEPK5QChari@Qt_5_PRIVATE_API 5.7.0 1
  _ZN14QLocalePrivate12scriptToCodeEN7QLocale6ScriptE@Qt_5_PRIVATE_API 5.1.0 1
- _ZN14QLocalePrivate13codeToCountryEPK5QChari@Qt_5_PRIVATE_API 5.7.0
+ _ZN14QLocalePrivate13codeToCountryEPK5QChari@Qt_5_PRIVATE_API 5.7.0 1
  _ZN14QLocalePrivate13countryToCodeEN7QLocale7CountryE@Qt_5_PRIVATE_API 5.1.0 1
- _ZN14QLocalePrivate14codeToLanguageEPK5QChari@Qt_5_PRIVATE_API 5.7.0
+ _ZN14QLocalePrivate14codeToLanguageEPK5QChari@Qt_5_PRIVATE_API 5.7.0 1
  _ZN14QLocalePrivate14languageToCodeEN7QLocale8LanguageE@Qt_5_PRIVATE_API 5.1.0 1
  _ZN14QLocalePrivate17getLangAndCountryERK7QStringRN7QLocale8LanguageERNS3_6ScriptERNS3_7CountryE@Qt_5_PRIVATE_API 5.0.2 1
  _ZN14QLocalePrivate19updateSystemPrivateEv@Qt_5_PRIVATE_API 5.0.2 1
@@ -1233,10 +1233,10 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZN16QEventTransitionD0Ev@Qt_5 5.0.2
  _ZN16QEventTransitionD1Ev@Qt_5 5.0.2
  _ZN16QEventTransitionD2Ev@Qt_5 5.0.2
- _ZN16QIODevicePrivate10seekBufferEx@Qt_5_PRIVATE_API 5.7.0
+ _ZN16QIODevicePrivate10seekBufferEx@Qt_5_PRIVATE_API 5.7.0 1
  _ZN16QIODevicePrivate13putCharHelperEc@Qt_5_PRIVATE_API 5.0.2 1
- _ZN16QIODevicePrivate19setReadChannelCountEi@Qt_5_PRIVATE_API 5.7.0
- _ZN16QIODevicePrivate20setWriteChannelCountEi@Qt_5_PRIVATE_API 5.7.0
+ _ZN16QIODevicePrivate19setReadChannelCountEi@Qt_5_PRIVATE_API 5.7.0 1
+ _ZN16QIODevicePrivate20setWriteChannelCountEi@Qt_5_PRIVATE_API 5.7.0 1
  _ZN16QIODevicePrivate4peekEPcx@Qt_5_PRIVATE_API 5.0.2 1
  _ZN16QIODevicePrivate4peekEx@Qt_5_PRIVATE_API 5.0.2 1
  _ZN16QIODevicePrivateC1Ev@Qt_5_PRIVATE_API 5.0.2 1
@@ -2274,12 +2274,12 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZN25QAbstractItemModelPrivate21rowsAboutToBeInsertedERK11QModelIndexii@Qt_5_PRIVATE_API 5.0.2 1
  _ZN25QAbstractItemModelPrivate23columnsAboutToBeRemovedERK11QModelIndexii@Qt_5_PRIVATE_API 5.0.2 1
  _ZN25QAbstractItemModelPrivate24columnsAboutToBeInsertedERK11QModelIndexii@Qt_5_PRIVATE_API 5.0.2 1
- _ZN25QAbstractItemModelPrivate25invalidatePersistentIndexERK11QModelIndex@Qt_5_PRIVATE_API 5.7.0
+ _ZN25QAbstractItemModelPrivate25invalidatePersistentIndexERK11QModelIndex@Qt_5_PRIVATE_API 5.7.0 1
  _ZN25QAbstractItemModelPrivate25removePersistentIndexDataEP25QPersistentModelIndexData@Qt_5_PRIVATE_API 5.0.2 1
- _ZN25QAbstractItemModelPrivate27invalidatePersistentIndexesEv@Qt_5_PRIVATE_API 5.7.0
+ _ZN25QAbstractItemModelPrivate27invalidatePersistentIndexesEv@Qt_5_PRIVATE_API 5.7.0 1
  _ZN25QAbstractItemModelPrivate9allowMoveERK11QModelIndexiiS2_iN2Qt11OrientationE@Qt_5_PRIVATE_API 5.0.2 1
- _ZN25QAbstractItemModelPrivateC1Ev@Qt_5_PRIVATE_API 5.7.0
- _ZN25QAbstractItemModelPrivateC2Ev@Qt_5_PRIVATE_API 5.7.0
+ _ZN25QAbstractItemModelPrivateC1Ev@Qt_5_PRIVATE_API 5.7.0 1
+ _ZN25QAbstractItemModelPrivateC2Ev@Qt_5_PRIVATE_API 5.7.0 1
  _ZN25QAbstractItemModelPrivateD0Ev@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN25QAbstractItemModelPrivateD1Ev@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN25QAbstractItemModelPrivateD2Ev@Qt_5_PRIVATE_API 5.6.0~beta 1
@@ -2343,10 +2343,10 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZN27QEventDispatcherGlibPrivate31runTimersOnceWithNormalPriorityEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZN27QEventDispatcherGlibPrivateC1EP13_GMainContext@Qt_5_PRIVATE_API 5.0.2 1
  _ZN27QEventDispatcherGlibPrivateC2EP13_GMainContext@Qt_5_PRIVATE_API 5.0.2 1
- _ZN27QEventDispatcherUNIXPrivate14activateTimersEv@Qt_5_PRIVATE_API 5.7.0
- _ZN27QEventDispatcherUNIXPrivate23activateSocketNotifiersEv@Qt_5_PRIVATE_API 5.7.0
- _ZN27QEventDispatcherUNIXPrivate24setSocketNotifierPendingEP15QSocketNotifier@Qt_5_PRIVATE_API 5.7.0
- _ZN27QEventDispatcherUNIXPrivate26markPendingSocketNotifiersEv@Qt_5_PRIVATE_API 5.7.0
+ _ZN27QEventDispatcherUNIXPrivate14activateTimersEv@Qt_5_PRIVATE_API 5.7.0 1
+ _ZN27QEventDispatcherUNIXPrivate23activateSocketNotifiersEv@Qt_5_PRIVATE_API 5.7.0 1
+ _ZN27QEventDispatcherUNIXPrivate24setSocketNotifierPendingEP15QSocketNotifier@Qt_5_PRIVATE_API 5.7.0 1
+ _ZN27QEventDispatcherUNIXPrivate26markPendingSocketNotifiersEv@Qt_5_PRIVATE_API 5.7.0 1
  _ZN27QEventDispatcherUNIXPrivateC1Ev@Qt_5_PRIVATE_API 5.0.2 1
  _ZN27QEventDispatcherUNIXPrivateC2Ev@Qt_5_PRIVATE_API 5.0.2 1
  _ZN27QEventDispatcherUNIXPrivateD0Ev@Qt_5_PRIVATE_API 5.0.2 1

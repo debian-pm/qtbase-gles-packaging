@@ -3,6 +3,7 @@ qtbase-opensource-src (5.7.0+dfsg-3) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * Replace qdevicediscovery_dummy.diff with a proper patch from upstream.
   * Update debian/libqt5dbus5.symbols once again.
+  * Mark private symbols using pkgkde-mark-qt5-private-symbols.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 03 Jul 2016 08:56:09 +0300
 

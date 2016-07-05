@@ -89,7 +89,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _Z5qHashRK7QMatrixj@Qt_5 5.6.0~beta
  _Z5qHashRKN22QGuiApplicationPrivate20ActiveTouchPointsKeyE@Qt_5_PRIVATE_API 5.0.2 1
  _Z9qPolylineRK12QPainterPathRK10QTransformd@Qt_5 5.2.0
- _ZN10QBasicDrag10cancelDragEv@Qt_5_PRIVATE_API 5.7.0
+ _ZN10QBasicDrag10cancelDragEv@Qt_5_PRIVATE_API 5.7.0 1
  _ZN10QBasicDrag11eventFilterEP7QObjectP6QEvent@Qt_5_PRIVATE_API 5.1.0 1
  _ZN10QBasicDrag12updateCursorEN2Qt10DropActionE@Qt_5_PRIVATE_API 5.1.0 1
  _ZN10QBasicDrag13restoreCursorEv@Qt_5_PRIVATE_API 5.1.0 1
@@ -3059,7 +3059,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN22QGuiApplicationPrivate14mouseEventCapsEP11QMouseEvent@Qt_5_PRIVATE_API 5.0.2 1
  _ZN22QGuiApplicationPrivate14mousePressTimeE@Qt_5_PRIVATE_API 5.0.2 1
  _ZN22QGuiApplicationPrivate14platform_themeE@Qt_5_PRIVATE_API 5.0.2 1
- _ZN22QGuiApplicationPrivate15desktopFileNameE@Qt_5_PRIVATE_API 5.7.0
+ _ZN22QGuiApplicationPrivate15desktopFileNameE@Qt_5_PRIVATE_API 5.7.0 1
  _ZN22QGuiApplicationPrivate15getPixmapCursorEN2Qt11CursorShapeE@Qt_5_PRIVATE_API 5.0.2 1
  _ZN22QGuiApplicationPrivate15hideModalWindowEP7QWindow@Qt_5_PRIVATE_API 5.0.2 1
  _ZN22QGuiApplicationPrivate15mouseEventFlagsEPK11QMouseEvent@Qt_5_PRIVATE_API 5.3.0 1
@@ -3077,7 +3077,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN22QGuiApplicationPrivate17processMouseEventEPN29QWindowSystemInterfacePrivate10MouseEventE@Qt_5_PRIVATE_API 5.0.2 1
  _ZN22QGuiApplicationPrivate17processTouchEventEPN29QWindowSystemInterfacePrivate10TouchEventE@Qt_5_PRIVATE_API 5.0.2 1
  _ZN22QGuiApplicationPrivate17processWheelEventEPN29QWindowSystemInterfacePrivate10WheelEventE@Qt_5_PRIVATE_API 5.0.2 1
- _ZN22QGuiApplicationPrivate17tabletDevicePointEx@Qt_5_PRIVATE_API 5.7.0
+ _ZN22QGuiApplicationPrivate17tabletDevicePointEx@Qt_5_PRIVATE_API 5.7.0 1
  _ZN22QGuiApplicationPrivate18currentMouseWindowE@Qt_5_PRIVATE_API 5.0.2 1
  _ZN22QGuiApplicationPrivate18inputDeviceManagerEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZN22QGuiApplicationPrivate18lastCursorPositionE@Qt_5_PRIVATE_API 5.0.2 1
@@ -3088,7 +3088,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN22QGuiApplicationPrivate18processTabletEventEPN29QWindowSystemInterfacePrivate11TabletEventE@Qt_5_PRIVATE_API 5.0.2 1
  _ZN22QGuiApplicationPrivate18setMouseEventFlagsEP11QMouseEvent6QFlagsIN2Qt14MouseEventFlagEE@Qt_5_PRIVATE_API 5.3.0 1
  _ZN22QGuiApplicationPrivate18shouldQuitInternalERK5QListIP7QWindowE@Qt_5_PRIVATE_API 5.1.1 1
- _ZN22QGuiApplicationPrivate18tabletDevicePointsE@Qt_5_PRIVATE_API 5.7.0
+ _ZN22QGuiApplicationPrivate18tabletDevicePointsE@Qt_5_PRIVATE_API 5.7.0 1
  _ZN22QGuiApplicationPrivate18tryCloseAllWindowsEv@Qt_5_PRIVATE_API 5.3.0 1
  _ZN22QGuiApplicationPrivate19generic_plugin_listE@Qt_5_PRIVATE_API 5.0.2 1
  _ZN22QGuiApplicationPrivate19processGestureEventEPN29QWindowSystemInterfacePrivate12GestureEventE@Qt_5_PRIVATE_API 5.2.0~beta1 1
@@ -5535,9 +5535,9 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK15QGridLayoutItem11firstColumnEN2Qt11OrientationE@Qt_5_PRIVATE_API 5.3.0 1
  _ZNK15QGridLayoutItem12controlTypesE10LayoutSide@Qt_5_PRIVATE_API 5.3.0 1
  _ZNK15QGridLayoutItem13stretchFactorEN2Qt11OrientationE@Qt_5_PRIVATE_API 5.3.0 1
- _ZNK15QGridLayoutItem14geometryWithinEddddd6QFlagsIN2Qt13AlignmentFlagEEb@Qt_5_PRIVATE_API 5.7.0
+ _ZNK15QGridLayoutItem14geometryWithinEddddd6QFlagsIN2Qt13AlignmentFlagEEb@Qt_5_PRIVATE_API 5.7.0 1
  _ZNK15QGridLayoutItem16effectiveMaxSizeERK6QSizeF@Qt_5_PRIVATE_API 5.3.0 1
- _ZNK15QGridLayoutItem3boxEN2Qt11OrientationEbd@Qt_5_PRIVATE_API 5.7.0
+ _ZNK15QGridLayoutItem3boxEN2Qt11OrientationEbd@Qt_5_PRIVATE_API 5.7.0 1
  _ZNK15QGridLayoutItem7lastRowEN2Qt11OrientationE@Qt_5_PRIVATE_API 5.3.0 1
  _ZNK15QGridLayoutItem7rowSpanEN2Qt11OrientationE@Qt_5_PRIVATE_API 5.3.0 1
  _ZNK15QGridLayoutItem8firstRowEN2Qt11OrientationE@Qt_5_PRIVATE_API 5.3.0 1
