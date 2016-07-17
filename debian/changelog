@@ -1,5 +1,8 @@
 qtbase-opensource-src (5.7.0+dfsg-4) UNRELEASED; urgency=medium
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Require pkg-kde-tools (>= 0.15.17~) to allow using backported versions.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 16 Jul 2016 21:32:48 -0300
 
 qtbase-opensource-src (5.7.0+dfsg-3) experimental; urgency=medium
