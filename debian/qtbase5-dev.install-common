@@ -1598,6 +1598,8 @@ usr/lib/*/libQt5XcbQpa.prl
 usr/lib/*/libQt5XcbQpa.so
 usr/lib/*/libQt5Xml.prl
 usr/lib/*/libQt5Xml.so
+usr/lib/*/libqtpng.a
+usr/lib/*/libqtpng.prl
 usr/lib/*/pkgconfig/Qt5Concurrent.pc
 usr/lib/*/pkgconfig/Qt5Core.pc
 usr/lib/*/pkgconfig/Qt5DBus.pc
