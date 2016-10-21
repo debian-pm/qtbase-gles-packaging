@@ -18,7 +18,7 @@ Files-Excluded: src/3rdparty/zlib/doc/rfc*.txt
 
 Files: *
 Copyright: 2016 The Qt Company Ltd.
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: configure
        configure.bat
@@ -580,13 +580,13 @@ Files: src/plugins/platforms/android/extract.cpp
 Copyright: 2014 BogDan Vatra <bogdan@kde.org>
 License: LGPL-3
 
-## LGPL-3 or GPL-2+
+## LGPL-3 or GPL-2
 
 Files: src/corelib/tools/qcollator_macx.cpp
        src/corelib/tools/qcollator_posix.cpp
        src/corelib/tools/qcollator_win.cpp
 Copyright: 2013 Aleix Pol Gonzalez <aleixpol@kde.org>
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: src/corelib/tools/qcollator.cpp
        src/corelib/tools/qcollator.h
@@ -594,12 +594,12 @@ Files: src/corelib/tools/qcollator.cpp
        src/corelib/tools/qcollator_p.h
 Copyright: 2013 Aleix Pol Gonzalez <aleixpol@kde.org>
            2016 The Qt Company Ltd.
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: src/corelib/tools/qringbuffer.cpp
 Copyright: 2015 Alex Trotsenko <alex1973tr@gmail.com>
            2016 The Qt Company Ltd.
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: config.tests/unix/lgmon/lgmon.cpp
        config.tests/unix/objcopy/objcopy.cpp
@@ -670,25 +670,25 @@ Files: config.tests/unix/lgmon/lgmon.cpp
        src/plugins/platforms/qnx/qqnxwindow.cpp
        src/plugins/platforms/qnx/qqnxwindow.h
 Copyright: 2011-2014 BlackBerry Limited (formerly Research In Motion)
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: src/network/ssl/qsslcontext_openssl.cpp
 Copyright: 2014 BlackBerry Limited (formerly Research In Motion)
            2014 Governikus GmbH & Co. KG.
            2016 The Qt Company Ltd.
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: src/corelib/io/qfileselector.cpp
 Copyright: 2013 BlackBerry Limited (formerly Research In Motion)
            2016 Intel Corporation.
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: src/widgets/styles/qpixmapstyle.cpp
        src/widgets/styles/qpixmapstyle_p.h
 Copyright: 2014 BlackBerry Limited (formerly Research In Motion)
            2015 Klarälvdalens Datakonsult AB, a KDAB Group company
            2016 The Qt Company Ltd.
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: src/network/access/qhttpnetworkconnectionchannel.cpp
        src/network/access/qhttpprotocolhandler.cpp
@@ -703,7 +703,7 @@ Files: src/network/access/qhttpnetworkconnectionchannel.cpp
        src/network/ssl/qsslsocket_openssl_symbols_p.h
 Copyright: 2014 BlackBerry Limited (formerly Research In Motion)
            2016 The Qt Company Ltd.
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: src/android/jar/src/org/qtproject/qt5/android/ExtractStyle.java
        src/plugins/platforms/android/androidjniclipboard.cpp
@@ -740,7 +740,7 @@ Files: src/android/jar/src/org/qtproject/qt5/android/ExtractStyle.java
        src/widgets/styles/qandroidstyle.cpp
        src/widgets/styles/qandroidstyle_p.h
 Copyright: 2012-2014 BogDan Vatra <bogdan@kde.org>
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: src/android/jar/src/org/qtproject/qt5/android/QtActivityDelegate.java
        src/android/jar/src/org/qtproject/qt5/android/QtEditText.java
@@ -765,12 +765,12 @@ Files: src/android/jar/src/org/qtproject/qt5/android/QtActivityDelegate.java
        src/plugins/platforms/android/qandroidplatformwindow.h
 Copyright: 2012-2016 BogDan Vatra <bogdan@kde.org>
            2016 The Qt Company Ltd.
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: src/testlib/qteamcitylogger.cpp
        src/testlib/qteamcitylogger_p.h
 Copyright: 2016 Borgar Ovsthus
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: src/plugins/platforms/mirclient/qmirclientbackingstore.cpp
        src/plugins/platforms/mirclient/qmirclientbackingstore.h
@@ -799,85 +799,85 @@ Files: src/plugins/platforms/mirclient/qmirclientbackingstore.cpp
        src/plugins/platforms/mirclient/qmirclientwindow.cpp
        src/plugins/platforms/mirclient/qmirclientwindow.h
 Copyright: 2014-2016 Canonical, Ltd.
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: mkspecs/common/android/qplatformdefs.h
        src/corelib/kernel/qsharedmemory_android.cpp
        src/corelib/kernel/qsystemsemaphore_android.cpp
        src/network/kernel/qdnslookup_android.cpp
 Copyright: 2012 Collabora Ltd, author <robin.burchell@collabora.co.uk>
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: src/network/kernel/qnetworkproxy_p.h
 Copyright: 2009 David Faure <dfaure@kdab.net>
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: src/corelib/io/qlockfile.h
        src/corelib/io/qlockfile_p.h
 Copyright: 2013 David Faure <faure+bluesystems@kde.org>
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: src/corelib/io/qlockfile_unix.cpp
 Copyright: 2013 David Faure <faure+bluesystems@kde.org>
            2016 Intel Corporation.
            2016 The Qt Company Ltd.
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: src/corelib/io/qlockfile.cpp
        src/corelib/io/qlockfile_win.cpp
 Copyright: 2013 David Faure <faure+bluesystems@kde.org>
            2016 The Qt Company Ltd.
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: src/corelib/io/qsavefile.cpp
        src/corelib/io/qsavefile.h
        src/corelib/io/qsavefile_p.h
 Copyright: 2012-2013 David Faure <faure@kde.org>
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: src/corelib/tools/qcommandlineoption.cpp
        src/corelib/tools/qcommandlineparser.cpp
 Copyright: 2013 David Faure <faure@kde.org>
            2013 Laszlo Papp <lpapp@kde.org>
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: src/platformsupport/dbusmenu/qdbusmenubar.cpp
        src/platformsupport/dbusmenu/qdbusmenubar_p.h
        src/platformsupport/dbusmenu/qdbusmenuregistrarproxy.cpp
        src/platformsupport/dbusmenu/qdbusmenuregistrarproxy_p.h
 Copyright: 2016 Dmitry Shachnev <mitya57@gmail.com>
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: src/corelib/tools/qtimezoneprivate_android.cpp
 Copyright: 2014 Drew Parsons <dparsons@emerall.com>
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: config.tests/unix/pcre/pcre.cpp
        src/3rdparty/pcre/import_from_pcre_tarball.sh
 Copyright: 2012 Giuseppe D'Angelo <dangelog@gmail.com>.
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: src/corelib/tools/qhash.cpp
 Copyright: 2012 Giuseppe D'Angelo <dangelog@gmail.com>.
            2016 Intel Corporation.
            2016 The Qt Company Ltd.
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: src/corelib/tools/qregularexpression.h
 Copyright: 2012 Giuseppe D'Angelo <dangelog@gmail.com>.
            2012 Klarälvdalens Datakonsult AB, a KDAB Group company
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: src/corelib/tools/qregularexpression.cpp
 Copyright: 2015 Giuseppe D'Angelo <dangelog@gmail.com>.
            2015 Klarälvdalens Datakonsult AB, a KDAB Group company
            2016 The Qt Company Ltd.
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: src/network/ssl/qsslsocket_openssl.cpp
 Copyright: 2014 Governikus GmbH & Co. KG
            2016 The Qt Company Ltd.
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: src/network/ssl/qsslellipticcurve.cpp
        src/network/ssl/qsslellipticcurve.h
@@ -887,7 +887,7 @@ Files: src/network/ssl/qsslellipticcurve.cpp
        src/network/ssl/qsslpresharedkeyauthenticator.h
        src/network/ssl/qsslpresharedkeyauthenticator_p.h
 Copyright: 2014 Governikus GmbH & Co. KG.
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: src/corelib/tools/qstring_mips_dsp_asm.S
        src/gui/image/qimage_mips_dspr2.cpp
@@ -898,7 +898,7 @@ Files: src/corelib/tools/qstring_mips_dsp_asm.S
        src/gui/painting/qdrawhelper_mips_dspr2_asm.S
        src/gui/painting/qt_mips_asm_dsp_p.h
 Copyright: 2013 Imagination Technologies Limited, www.imgtec.com
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: config.tests/common/atomic64/atomic64.cpp
        config.tests/common/avx2/avx2.cpp
@@ -933,14 +933,14 @@ Files: config.tests/common/atomic64/atomic64.cpp
        src/testlib/qcsvbenchmarklogger_p.h
        src/xml/qtxmlglobal.h
 Copyright: 2016 Intel Corporation.
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: src/corelib/tools/qversionnumber.cpp
        src/corelib/tools/qversionnumber.h
 Copyright: 2016 Intel Corporation.
            2014 Keith Gardner <kreios4004@gmail.com>
            2016 The Qt Company Ltd.
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: src/corelib/global/qlogging.cpp
        src/corelib/kernel/qobject.cpp
@@ -951,7 +951,7 @@ Files: src/corelib/global/qlogging.cpp
 Copyright: 2016 Intel Corporation.
            2012-2016 Olivier Goffart <ogoffart@woboq.com>
            2016 The Qt Company Ltd.
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: bin/syncqt.pl
        config.tests/arch/arch.cpp
@@ -1066,20 +1066,20 @@ Files: bin/syncqt.pl
        src/widgets/kernel/qwidget.cpp
 Copyright: 2016 Intel Corporation.
            2016 The Qt Company Ltd.
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: src/corelib/tools/qbytearraylist.h
 Copyright: 2016 Intel Corporation.
            2016 The Qt Company Ltd.
            2014 by Southwest Research Institute (R)
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: src/corelib/arch/qatomic_cxx11.h
        src/corelib/thread/qbasicatomic.h
        src/corelib/thread/qgenericatomic.h
 Copyright: 2016 Intel Corporation.
            2011 Thiago Macieira <thiago@kde.org>
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: src/corelib/doc/snippets/code/src_corelib_io_qstorageinfo.cpp
        src/corelib/io/qstorageinfo.cpp
@@ -1090,14 +1090,14 @@ Files: src/corelib/doc/snippets/code/src_corelib_io_qstorageinfo.cpp
        src/corelib/io/qstorageinfo_unix.cpp
        src/corelib/io/qstorageinfo_win.cpp
 Copyright: 2014 Ivan Komissarov <ABBAPOH@gmail.com>
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: src/widgets/widgets/qkeysequenceedit.cpp
        src/widgets/widgets/qkeysequenceedit.h
        src/widgets/widgets/qkeysequenceedit_p.h
 Copyright: 2013 Ivan Komissarov <ABBAPOH@gmail.com>
            2016 The Qt Company Ltd.
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: src/network/kernel/qdnslookup.cpp
        src/network/kernel/qdnslookup.h
@@ -1111,7 +1111,7 @@ Files: src/network/kernel/qdnslookup.cpp
        src/network/ssl/qsslsocket_mac.cpp
        src/network/ssl/qsslsocket_mac_p.h
 Copyright: 2012-2014 Jeremy Lainé <jeremy.laine@m4x.org>
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: src/corelib/tools/qtimezone.cpp
        src/corelib/tools/qtimezone.h
@@ -1138,18 +1138,18 @@ Files: src/corelib/tools/qtimezone.cpp
        src/printsupport/kernel/qprintdevice.cpp
        src/printsupport/kernel/qprintdevice_p.h
 Copyright: 2013-2014 John Layt <jlayt@kde.org>
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: src/plugins/printsupport/cups/qcupsprintersupport.cpp
        src/plugins/printsupport/cups/qcupsprintersupport_p.h
 Copyright: 2014 John Layt <jlayt@kde.org>
            2016 The Qt Company Ltd.
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: config.tests/unix/journald/journald.c
        config.tests/unix/mtdev/mtdev.cpp
 Copyright: 2013-2014 Jolla Ltd, author: <robin.burchell@jollamobile.com>
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: mkspecs/haiku-g++/qplatformdefs.h
        src/corelib/global/qhooks.cpp
@@ -1234,14 +1234,14 @@ Files: mkspecs/haiku-g++/qplatformdefs.h
        src/plugins/platforms/haiku/qhaikuwindow.cpp
        src/plugins/platforms/haiku/qhaikuwindow.h
 Copyright: 2011-2015 Klarälvdalens Datakonsult AB, a KDAB Group company
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: src/corelib/kernel/qsharedmemory_posix.cpp
        src/corelib/kernel/qsystemsemaphore_posix.cpp
 Copyright: 2015 Klarälvdalens Datakonsult AB, a KDAB Group company
            2015 Konstantin Ritt <ritt.ks@gmail.com>
            2016 The Qt Company Ltd.
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: src/corelib/mimetypes/qmimedatabase.cpp
        src/corelib/mimetypes/qmimedatabase.h
@@ -1293,38 +1293,38 @@ Files: src/corelib/mimetypes/qmimedatabase.cpp
        src/plugins/platforms/cocoa/qcocoasystemtrayicon.mm
 Copyright: 2012-2015 Klarälvdalens Datakonsult AB, a KDAB Group company
            2016 The Qt Company Ltd.
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: src/gui/text/qharfbuzzng.cpp
        src/gui/text/qharfbuzzng_p.h
 Copyright: 2013 Konstantin Ritt
            2016 The Qt Company Ltd.
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: src/platformheaders/waylandfunctions/qwaylandwindowfunctions.h
 Copyright: 2016 LG Electronics Ltd, author: mikko.levonmaa@lge.com
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: src/corelib/tools/qcommandlineoption.h
        src/corelib/tools/qcommandlineparser.h
 Copyright: 2013 Laszlo Papp <lpapp@kde.org>
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: src/corelib/kernel/qmath.cpp
 Copyright: 2013 Laszlo Papp <lpapp@kde.org>
            2016 The Qt Company Ltd.
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: src/platformsupport/dbustray/qdbustraytypes.cpp
        src/platformsupport/dbustray/qdbustraytypes_p.h
 Copyright: 2009 Marco Martin <notmart@gmail.com>
            2016 The Qt Company Ltd.
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: src/gui/kernel/qplatformmenu.cpp
 Copyright: 2014 Martin Graesslin <mgraesslin@kde.org>
            2016 The Qt Company Ltd.
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: src/corelib/kernel/qmetaobject.cpp
        src/corelib/kernel/qmetaobject.h
@@ -1340,14 +1340,14 @@ Files: src/corelib/kernel/qmetaobject.cpp
        src/widgets/widgets/qmainwindowlayout.cpp
 Copyright: 2013-2016 Olivier Goffart <ogoffart@woboq.com>
            2016 The Qt Company Ltd.
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: src/plugins/platforms/eglfs/deviceintegration/eglfs_kms_egldevice/qeglfskmsegldevice.cpp
        src/plugins/platforms/eglfs/deviceintegration/eglfs_kms_egldevice/qeglfskmsegldevice.h
        src/plugins/platforms/eglfs/deviceintegration/eglfs_kms_egldevice/qeglfskmsegldevicescreen.cpp
        src/plugins/platforms/eglfs/deviceintegration/eglfs_kms_egldevice/qeglfskmsegldevicescreen.h
 Copyright: 2016 Pelagicore AG
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: src/plugins/platforms/eglfs/deviceintegration/eglfs_kms/qeglfskmsgbmcursor.cpp
        src/plugins/platforms/eglfs/deviceintegration/eglfs_kms/qeglfskmsgbmdevice.cpp
@@ -1365,31 +1365,31 @@ Files: src/plugins/platforms/eglfs/deviceintegration/eglfs_kms/qeglfskmsgbmcurso
 Copyright: 2016 Pelagicore AG
            2015 Pier Luigi Fiorini <pierluigi.fiorini@gmail.com>
            2016 The Qt Company Ltd.
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: src/plugins/platforms/eglfs/deviceintegration/eglfs_kms/qeglfskmsgbmmain.cpp
        src/plugins/platforms/eglfs/deviceintegration/eglfs_kms_egldevice/qeglfskmsegldeviceintegration.cpp
        src/plugins/platforms/eglfs/deviceintegration/eglfs_kms_egldevice/qeglfskmsegldeviceintegration.h
 Copyright: 2016 Pelagicore AG
            2016 The Qt Company Ltd.
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: src/corelib/tools/qdatetime_mac.mm
 Copyright: 2014 Petroules Corporation.
            2016 The Qt Company Ltd.
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: src/network/ssl/qsslcertificateextension.cpp
        src/network/ssl/qsslcertificateextension.h
        src/network/ssl/qsslcertificateextension_p.h
 Copyright: 2011 Richard J. Moore <rich@kde.org>
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: src/corelib/tools/qcryptographichash.cpp
        src/corelib/tools/qcryptographichash.h
 Copyright: 2013 Richard J. Moore <rich@kde.org>.
            2016 The Qt Company Ltd.
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: src/plugins/generic/tuiotouch/main.cpp
        src/plugins/generic/tuiotouch/qoscbundle.cpp
@@ -1402,24 +1402,24 @@ Files: src/plugins/generic/tuiotouch/main.cpp
        src/plugins/generic/tuiotouch/qtuiohandler_p.h
 Copyright: 2014 Robin Burchell <robin.burchell@viroteck.net>
            2016 The Qt Company Ltd.
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: src/corelib/tools/qmessageauthenticationcode.cpp
        src/corelib/tools/qmessageauthenticationcode.h
 Copyright: 2013 Ruslan Nigmatullin <euroelessar@yandex.ru>
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: src/widgets/itemviews/qlistview.cpp
 Copyright: 2013 Samuel Gaist <samuel.gaist@deltech.ch>
            2016 The Qt Company Ltd.
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: src/gui/kernel/qplatformsessionmanager.cpp
        src/gui/kernel/qplatformsessionmanager.h
 Copyright: 2013 Samuel Gaist <samuel.gaist@edeltech.ch>
            2013 Teo Mrnjavac <teo@kde.org>
            2016 The Qt Company Ltd.
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: src/corelib/io/qfilesystemengine_unix.cpp
        src/corelib/kernel/qcoreapplication_win.cpp
@@ -1435,36 +1435,36 @@ Files: src/corelib/io/qfilesystemengine_unix.cpp
        src/plugins/platforms/windows/qwindowssessionmanager.h
 Copyright: 2013-2014 Samuel Gaist <samuel.gaist@edeltech.ch>
            2016 The Qt Company Ltd.
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: config.tests/unix/syslog/syslog.c
 Copyright: 2015 Tasuku Suzuki <stasuku@gmail.com>
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: src/plugins/platforms/xcb/qxcbsessionmanager.cpp
        src/plugins/platforms/xcb/qxcbsessionmanager.h
 Copyright: 2013 Teo Mrnjavac <teo@kde.org>
            2016 The Qt Company Ltd.
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: src/corelib/arch/qatomic_bootstrap.h
 Copyright: 2016 The Qt Company Ltd.
            2011 Thiago Macieira <thiago@kde.org>
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: src/corelib/tools/qbytearraylist.cpp
 Copyright: 2016 The Qt Company Ltd.
            2014 by Southwest Research Institute (R)
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: src/network/ssl/qsslsocket_mac_shared.cpp
 Copyright: 2016 The Qt Company Ltd.
            2015 ownCloud Inc
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 Files: src/corelib/doc/snippets/qbytearraylist/main.cpp
 Copyright: 2014 by Southwest Research Institute (R)
-License: LGPL-3 or GPL-2+
+License: LGPL-3 or GPL-2
 
 ## END AUTO GENERATED BLOCK
 
@@ -2080,6 +2080,19 @@ License: Expat
  LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
  OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
  WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+License: GPL-2
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License version 2 as
+ published by the Free Software Foundation.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ On Debian systems, the complete text of the GNU General Public
+ License version 2 can be found in /usr/share/common-licenses/GPL-2.
 
 License: GPL-2+
  This program is free software; you can redistribute it and/or modify
