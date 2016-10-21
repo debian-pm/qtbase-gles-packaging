@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.7.0 amd64
+# SymbolsHelper-Confirmed: 5.7.1~20161021 amd64
 libQt5Gui.so.5 libqt5gui5 #MINVER#
 | libqt5gui5 #MINVER#, qtbase-abi-5-7-0
 * Build-Depends-Package: qtbase5-dev
@@ -3212,6 +3212,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN22QWindowSystemInterface22handleTouchCancelEventEP7QWindowmP12QTouchDevice6QFlagsIN2Qt16KeyboardModifierEE@Qt_5 5.0.2
  _ZN22QWindowSystemInterface22sendWindowSystemEventsE6QFlagsIN10QEventLoop17ProcessEventsFlagEE@Qt_5 5.0.2
  _ZN22QWindowSystemInterface23flushWindowSystemEventsE6QFlagsIN10QEventLoop17ProcessEventsFlagEE@Qt_5 5.4.0
+ _ZN22QWindowSystemInterface23isTouchDeviceRegisteredEPK12QTouchDevice@Qt_5 5.7.1~20161021
  _ZN22QWindowSystemInterface24handlePlatformPanelEventEP7QWindow@Qt_5 5.0.2
  _ZN22QWindowSystemInterface24handleWindowStateChangedEP7QWindowN2Qt11WindowStateE@Qt_5 5.0.2
  _ZN22QWindowSystemInterface24windowSystemEventsQueuedEv@Qt_5 5.0.2
@@ -5624,6 +5625,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK15QTextCharFormat4fontEv@Qt_5 5.0.2
  _ZNK15glyph_metrics_t11transformedERK10QTransform@Qt_5_PRIVATE_API 5.0.2 1
  _ZNK16QAccessibleCache10metaObjectEv@Qt_5_PRIVATE_API 5.3.0 1
+ _ZNK16QAccessibleCache14idForInterfaceEP20QAccessibleInterface@Qt_5_PRIVATE_API 5.7.1~20161021 1
  _ZNK16QAccessibleCache14interfaceForIdEj@Qt_5_PRIVATE_API 5.3.0 1
  _ZNK16QAccessibleCache6insertEP7QObjectP20QAccessibleInterface@Qt_5_PRIVATE_API 5.3.0 1
  _ZNK16QAccessibleCache9acquireIdEv@Qt_5_PRIVATE_API 5.3.0 1

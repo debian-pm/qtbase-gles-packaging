@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.7.0 amd64 i386
+# SymbolsHelper-Confirmed: 5.7.1~20161021 amd64
 libQt5Core.so.5 libqt5core5a #MINVER#
 | libqt5core5a #MINVER#, qtbase-abi-5-7-0
 * Build-Depends-Package: qtbase5-dev
@@ -14,7 +14,6 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0~beta 1
  _Z10forcepointR11QTextStream@Qt_5 5.0.2
  _Z10noshowbaseR11QTextStream@Qt_5 5.0.2
- _Z10qAllocMoreii@Qt_5 5.0.2
  _Z10qHBNewFacePvPF8HB_ErrorS_jPhPjE@Qt_5 5.0.2
  _Z10qShapeItemP14HB_ShaperItem_@Qt_5 5.0.2
  _Z10qTerminatev@Qt_5 5.0.2
@@ -63,6 +62,7 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _Z18qInstallMsgHandlerPFv9QtMsgTypePKcE@Qt_5 5.0.2
  _Z18qRemovePostRoutinePFvvE@Qt_5 5.0.2
  _Z18qSetMessagePatternRK7QString@Qt_5 5.0.2
+ (subst)_Z19qCalculateBlockSize{size_t}{size_t}{size_t}@Qt_5 5.7.1~20161021
  _Z19qSetGlobalQHashSeedi@Qt_5 5.6.0~beta
  _Z19qcoreVariantHandlerv@Qt_5 5.0.2
  _Z20qt_qFindChild_helperPK7QObjectRK7QStringRK11QMetaObject6QFlagsIN2Qt15FindChildOptionEE@Qt_5 5.0.2
@@ -81,6 +81,7 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  (arch=!hurd-i386 !kfreebsd-amd64 !kfreebsd-i386)_Z24qt_linux_find_symbol_sysPKc@Qt_5 5.0.2
  _Z24qt_subtract_from_timeoutii@Qt_5 5.4.2
  _Z25qEnvironmentVariableIsSetPKc@Qt_5 5.0.2
+ (subst)_Z26qCalculateGrowingBlockSize{size_t}{size_t}{size_t}@Qt_5 5.7.1~20161021
  _Z26qt_QMetaEnum_debugOperatorR6QDebugiPK11QMetaObjectPKc@Qt_5 5.5.0
  _Z27qEnvironmentVariableIsEmptyPKc@Qt_5 5.0.2
  _Z28qEnvironmentVariableIntValuePKcPb@Qt_5 5.5.0
@@ -3943,10 +3944,10 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZNK15QDateTimeParser11sectionTextEi@Qt_5_PRIVATE_API 5.0.2 1
  _ZNK15QDateTimeParser11sectionTypeEi@Qt_5_PRIVATE_API 5.0.2 1
  _ZNK15QDateTimeParser12parseSectionERK9QDateTimeiR7QStringRiiRNS_5StateEPi@Qt_5_PRIVATE_API 5.0.2 1
- _ZNK15QDateTimeParser14potentialValueERK7QStringiiiRK9QDateTimei@Qt_5_PRIVATE_API 5.0.2 1
+ _ZNK15QDateTimeParser14potentialValueERK10QStringRefiiiRK9QDateTimei@Qt_5_PRIVATE_API 5.7.1~20161021 1
  _ZNK15QDateTimeParser14sectionMaxSizeENS_7SectionEi@Qt_5_PRIVATE_API 5.0.2 1
  _ZNK15QDateTimeParser14sectionMaxSizeEi@Qt_5_PRIVATE_API 5.0.2 1
- _ZNK15QDateTimeParser17skipToNextSectionEiRK9QDateTimeRK7QString@Qt_5_PRIVATE_API 5.0.2 1
+ _ZNK15QDateTimeParser17skipToNextSectionEiRK9QDateTimeRK10QStringRef@Qt_5_PRIVATE_API 5.7.1~20161021 1
  _ZNK15QDateTimeParser5parseER7QStringRiRK9QDateTimeb@Qt_5_PRIVATE_API 5.0.2 1
  _ZNK15QDateTimeParser7findDayERK7QStringiiPS0_Pi@Qt_5_PRIVATE_API 5.0.2 1
  _ZNK15QDateTimeParser8findAmPmER7QStringiPi@Qt_5_PRIVATE_API 5.0.2 1

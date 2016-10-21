@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.7.0 amd64
+# SymbolsHelper-Confirmed: 5.7.1~20161021 amd64
 libQt5Widgets.so.5 libqt5widgets5 #MINVER#
 | libqt5widgets5 #MINVER#, qtbase-abi-5-7-0
 * Build-Depends-Package: qtbase5-dev
@@ -2087,6 +2087,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN14QWidgetPrivate18setConstraints_sysEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZN14QWidgetPrivate18setWindowTitle_sysERK7QString@Qt_5_PRIVATE_API 5.0.2 1
  _ZN14QWidgetPrivate19fixPosIncludesFrameEv@Qt_5_PRIVATE_API 5.0.2 1
+ _ZN14QWidgetPrivate19setNetWmWindowTypesEb@Qt_5_PRIVATE_API 5.7.1~20161021 1
  _ZN14QWidgetPrivate19updateIsTranslucentEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZN14QWidgetPrivate20reparentFocusWidgetsEP7QWidget@Qt_5_PRIVATE_API 5.0.2 1
  _ZN14QWidgetPrivate20setDirtyOpaqueRegionEv@Qt_5_PRIVATE_API 5.0.2 1
@@ -7567,6 +7568,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  (optional=templinst)_ZNSt17_Temporary_bufferIP5QRectS0_EC2ES1_S1_@Qt_5 5.7.0
  (optional=templinst)_ZNSt3_V28__rotateIP5QRectEET_S3_S3_S3_St26random_access_iterator_tag@Qt_5 5.7.0
  (optional=templinst)_ZNSt3_V28__rotateIPiEET_S2_S2_S2_St26random_access_iterator_tag@Qt_5 5.7.0
+ (optional=templinst)_ZNSt6vectorIN18QWidgetLineControl7CommandESaIS1_EE19_M_emplace_back_auxIJS1_EEEvDpOT_@Qt_5_PRIVATE_API 5.7.1~20161021 1
  (optional=templinst|arch=!alpha !amd64 !arm64 !hppa !kfreebsd-amd64 !mips64el !ppc64 !ppc64el !s390x !sparc64 !x32)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Qt_5 5.6.1
  _ZTI10QBoxLayout@Qt_5 5.0.2
  _ZTI10QCompleter@Qt_5 5.0.2
