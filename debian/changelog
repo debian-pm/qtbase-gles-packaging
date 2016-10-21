@@ -7,6 +7,7 @@ qtbase-opensource-src (5.7.1~20161021+dfsg-1) UNRELEASED; urgency=medium
   * Update debian/copyright.
   * Install the qtpng static library in qtbase5-dev (following upstream).
   * Update the symbols files from amd64 build log.
+  * Bump qtbase-abi version to 5-7-1.
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Require pkg-kde-tools (>= 0.15.17~) to allow using backported versions.
