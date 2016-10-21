@@ -145,7 +145,9 @@ Files: src/corelib/doc/snippets/qmessageauthenticationcode/main.cpp
 Copyright: 2016 Ruslan Nigmatullin <euroelessar@yandex.ru>
 License: BSD-3-clause
 
-Files: src/gui/doc/snippets/qfileopenevent/Info.plist
+Files: src/corelib/doc/snippets/code/src_corelib_kernel_qabstractnativeeventfilter.h
+       src/corelib/doc/snippets/code/src_corelib_kernel_qabstractnativeeventfilter.mm
+       src/gui/doc/snippets/qfileopenevent/Info.plist
        src/gui/doc/snippets/qfileopenevent/main.cpp
 Copyright: 2015-2016 Samuel Gaist <samuel.gaist@edeltech.ch>
 License: BSD-3-clause
@@ -440,13 +442,14 @@ Copyright: 2013-2015 Olivier Goffart <ogoffart@woboq.com>
 License: GPL-3 with Qt-1.0 exception
 
 Files: src/tools/moc/generator.cpp
+       src/tools/moc/moc.cpp
        src/tools/moc/symbols.h
        tests/auto/corelib/global/qlogging/tst_qlogging.cpp
        tests/auto/corelib/kernel/qmetamethod/tst_qmetamethod.cpp
        tests/auto/corelib/kernel/qmetaproperty/tst_qmetaproperty.cpp
        tests/auto/corelib/kernel/qobject/tst_qobject.cpp
        tests/auto/tools/moc/tst_moc.cpp
-Copyright: 2013-2015 Olivier Goffart <ogoffart@woboq.com>
+Copyright: 2013-2016 Olivier Goffart <ogoffart@woboq.com>
            2016 The Qt Company Ltd.
 License: GPL-3 with Qt-1.0 exception
 
@@ -544,18 +547,32 @@ Files: tests/manual/qstorageinfo/main.cpp
 Copyright: 2016 Intel Corporation
 License: LGPL-2.1-or-3 with Qt-1.1 exception
 
-Files: src/network/kernel/qnetworkdatagram_p.h
+Files: config.tests/common/atomicfptr/atomicfptr.cpp
+       src/network/kernel/qnetworkdatagram_p.h
        tests/auto/dbus/qdbusconnection_spyhook/tst_qdbusconnection_spyhook.cpp
 Copyright: 2015-2016 Intel Corporation.
+License: LGPL-2.1-or-3 with Qt-1.1 exception
+
+Files: tests/benchmarks/gui/painting/qcolor/tst_qcolor.cpp
+Copyright: 2016 Klarälvdalens Datakonsult AB, a KDAB Group company
+License: LGPL-2.1-or-3 with Qt-1.1 exception
+
+Files: mkspecs/qnx-aarch64le-qcc/qplatformdefs.h
+       mkspecs/qnx-x86-64-qcc/qplatformdefs.h
+Copyright: 2016 QNX Software Systems. All rights reserved.
 License: LGPL-2.1-or-3 with Qt-1.1 exception
 
 Files: tests/auto/cmake/test_QFINDTESTDATA/tests/main.cpp
 Copyright: 2016 Stephen Kelly <steveire@gmail,com>
 License: LGPL-2.1-or-3 with Qt-1.1 exception
 
-Files: config.tests/unix/libdl/libdl.cpp
+Files: config.tests/unix/dlopen/dlopen.cpp
+       mkspecs/android-clang/qplatformdefs.h
+       mkspecs/common/bsd/qplatformdefs.h
        mkspecs/devices/linux-rpi3-g++/qplatformdefs.h
+       mkspecs/devices/linux-rpi3-vc4-g++/qplatformdefs.h
        mkspecs/features/data/mac/objc_namespace.sh
+       mkspecs/macx-ios-clang/ios_devices.pl
        mkspecs/win32-clang-msvc2015/qplatformdefs.h
        src/corelib/statemachine/qfinalstate_p.h
        src/platformheaders/xcbfunctions/qxcbscreenfunctions.h
@@ -567,8 +584,15 @@ Files: config.tests/unix/libdl/libdl.cpp
        src/plugins/platforms/ios/qiostextinputoverlay.h
        src/plugins/platforms/ios/qiostextinputoverlay.mm
        src/plugins/platforms/windows/qwindowsthreadpoolrunner.h
+       src/testlib/qtestutil_macos.mm
+       src/testlib/qtestutil_macos_p.h
        src/widgets/widgets/qbuttongroup_p.h
        tests/auto/gui/kernel/qkeyevent/tst_qkeyevent.cpp
+       tests/manual/diaglib/logwidget.cpp
+       tests/manual/diaglib/logwidget.h
+       tests/manual/embeddedintoforeignwindow/itemwindow.cpp
+       tests/manual/embeddedintoforeignwindow/itemwindow.h
+       tests/manual/embeddedintoforeignwindow/main.cpp
        tests/manual/foreignwindows/main.cpp
        tests/manual/widgets/styles/main.cpp
 Copyright: 2015-2016 The Qt Company Ltd.
@@ -935,6 +959,11 @@ Files: config.tests/common/atomic64/atomic64.cpp
 Copyright: 2016 Intel Corporation.
 License: LGPL-3 or GPL-2
 
+Files: src/corelib/io/qstorageinfo_unix.cpp
+Copyright: 2016 Intel Corporation.
+           2014 Ivan Komissarov <ABBAPOH@gmail.com>
+License: LGPL-3 or GPL-2
+
 Files: src/corelib/tools/qversionnumber.cpp
        src/corelib/tools/qversionnumber.h
 Copyright: 2016 Intel Corporation.
@@ -1006,6 +1035,7 @@ Files: bin/syncqt.pl
        src/corelib/thread/qthread_p.h
        src/corelib/thread/qthread_unix.cpp
        src/corelib/thread/qwaitcondition_unix.cpp
+       src/corelib/tools/qarraydata.cpp
        src/corelib/tools/qbitarray.cpp
        src/corelib/tools/qbytearray.cpp
        src/corelib/tools/qbytearray.h
@@ -1087,7 +1117,6 @@ Files: src/corelib/doc/snippets/code/src_corelib_io_qstorageinfo.cpp
        src/corelib/io/qstorageinfo_mac.cpp
        src/corelib/io/qstorageinfo_p.h
        src/corelib/io/qstorageinfo_stub.cpp
-       src/corelib/io/qstorageinfo_unix.cpp
        src/corelib/io/qstorageinfo_win.cpp
 Copyright: 2014 Ivan Komissarov <ABBAPOH@gmail.com>
 License: LGPL-3 or GPL-2
@@ -1130,7 +1159,6 @@ Files: src/corelib/tools/qtimezone.cpp
        src/plugins/platforms/cocoa/qcocoaprintdevice.mm
        src/plugins/printsupport/cups/qppdprintdevice.cpp
        src/plugins/printsupport/cups/qppdprintdevice.h
-       src/plugins/printsupport/windows/qwindowsprintdevice.cpp
        src/plugins/printsupport/windows/qwindowsprintdevice.h
        src/printsupport/kernel/qplatformprintdevice.cpp
        src/printsupport/kernel/qplatformprintdevice.h
@@ -1142,6 +1170,7 @@ License: LGPL-3 or GPL-2
 
 Files: src/plugins/printsupport/cups/qcupsprintersupport.cpp
        src/plugins/printsupport/cups/qcupsprintersupport_p.h
+       src/plugins/printsupport/windows/qwindowsprintdevice.cpp
 Copyright: 2014 John Layt <jlayt@kde.org>
            2016 The Qt Company Ltd.
 License: LGPL-3 or GPL-2
@@ -1465,6 +1494,13 @@ License: LGPL-3 or GPL-2
 Files: src/corelib/doc/snippets/qbytearraylist/main.cpp
 Copyright: 2014 by Southwest Research Institute (R)
 License: LGPL-3 or GPL-2
+
+## LGPL-3 or GPL-2+
+
+Files: src/plugins/platforms/winrt/qwinrtdrag.cpp
+       src/plugins/platforms/winrt/qwinrtdrag.h
+Copyright: 2016 The Qt Company Ltd.
+License: LGPL-3 or GPL-2+
 
 ## END AUTO GENERATED BLOCK
 
