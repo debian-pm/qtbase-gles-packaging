@@ -1,3 +1,8 @@
+qtbase-opensource-src (5.6.1+dfsg-4) UNRELEASED; urgency=medium
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 28 Oct 2016 17:14:57 +0300
+
 qtbase-opensource-src (5.6.1+dfsg-3) unstable; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
