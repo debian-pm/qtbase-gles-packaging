@@ -1,5 +1,7 @@
 qtbase-opensource-src (5.6.1+dfsg-4) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Change build-dependency libmysqlclient-dev → default-libmysqlclient-dev.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 28 Oct 2016 17:14:57 +0300
 
