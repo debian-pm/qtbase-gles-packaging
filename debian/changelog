@@ -1,9 +1,9 @@
-qtbase-opensource-src (5.7.1~20161021+dfsg-3) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.7.1~20161021+dfsg-3) unstable; urgency=medium
 
-  [ Dmitry Shachnev ]
   * Change build-dependency libmysqlclient-dev → default-libmysqlclient-dev.
+  * Upload to unstable.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 28 Oct 2016 17:14:57 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Tue, 01 Nov 2016 13:47:12 +0300
 
 qtbase-opensource-src (5.7.1~20161021+dfsg-2) experimental; urgency=medium
 
