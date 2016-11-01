@@ -1,4 +1,6 @@
 # Backported from upstream
+qsettings_simplify_logic.diff
+qsettings_XDG_CONFIG_DIRS.diff
 no_dbus_dependency.diff
 
 # Debian specific.
@@ -7,3 +9,4 @@ no_htmlinfo_example.diff
 remove_privacy_breachs.diff
 link_fbclient.diff
 gnukfreebsd_cloexec.diff
+armv4.diff

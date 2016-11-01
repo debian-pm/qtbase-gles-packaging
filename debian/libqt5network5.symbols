@@ -1,6 +1,6 @@
-# SymbolsHelper-Confirmed: 5.6.1 powerpcspe
+# SymbolsHelper-Confirmed: 5.7.1~20161021 armel armhf powerpc
 libQt5Network.so.5 libqt5network5 #MINVER#
-| libqt5network5 #MINVER#, qtbase-abi-5-6-1
+| libqt5network5 #MINVER#, qtbase-abi-5-7-1
 * Build-Depends-Package: qtbase5-dev
  Qt_5.0@Qt_5.0 5.6.0~beta
  Qt_5.1@Qt_5.1 5.6.0~beta
@@ -9,6 +9,7 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  Qt_5.4@Qt_5.4 5.6.0~beta
  Qt_5.5@Qt_5.5 5.6.0~beta
  Qt_5.6@Qt_5.6 5.6.0~beta
+ Qt_5.7@Qt_5.7 5.7.0
  Qt_5@Qt_5 5.6.0~beta
  Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0~beta 1
  _Z19qt_qhostinfo_lookupRK7QStringP7QObjectPKcPbPi@Qt_5 5.0.2
@@ -499,6 +500,8 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZN17QNetworkInterface13allInterfacesEv@Qt_5 5.0.2
  _ZN17QNetworkInterface17interfaceFromNameERK7QString@Qt_5 5.0.2
  _ZN17QNetworkInterface18interfaceFromIndexEi@Qt_5 5.0.2
+ _ZN17QNetworkInterface22interfaceIndexFromNameERK7QString@Qt_5 5.7.0
+ _ZN17QNetworkInterface22interfaceNameFromIndexEi@Qt_5 5.7.0
  _ZN17QNetworkInterfaceC1ERKS_@Qt_5 5.0.2
  _ZN17QNetworkInterfaceC1Ev@Qt_5 5.0.2
  _ZN17QNetworkInterfaceC2ERKS_@Qt_5 5.0.2
@@ -1072,6 +1075,7 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZNK17QSslConfiguration15peerVerifyDepthEv@Qt_5 5.0.2
  _ZNK17QSslConfiguration15sessionProtocolEv@Qt_5 5.4.0
  _ZNK17QSslConfiguration16localCertificateEv@Qt_5 5.0.2
+ _ZNK17QSslConfiguration18ephemeralServerKeyEv@Qt_5 5.7.0
  _ZNK17QSslConfiguration20allowedNextProtocolsEv@Qt_5 5.3.0
  _ZNK17QSslConfiguration20peerCertificateChainEv@Qt_5 5.0.2
  _ZNK17QSslConfiguration21localCertificateChainEv@Qt_5 5.1.0
@@ -1197,7 +1201,7 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZNK9QSslError11errorStringEv@Qt_5 5.0.2
  _ZNK9QSslError5errorEv@Qt_5 5.0.2
  _ZNK9QSslErroreqERKS_@Qt_5 5.0.2
- (optional=templinst|arch=armel armhf powerpc powerpcspe)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Qt_5 5.6.0~beta
+ (optional=templinst|arch=armel armhf powerpc)_ZSt4swapIN8QVariant7PrivateEENSt9enable_ifIXsrSt6__and_IJSt21is_move_constructibleIT_ESt18is_move_assignableIS5_EEE5valueEvE4typeERS5_SC_@Qt_5 5.7.1~20161021
  _ZTI10QDnsLookup@Qt_5 5.0.2
  _ZTI10QSslSocket@Qt_5 5.0.2
  _ZTI10QTcpServer@Qt_5 5.0.2

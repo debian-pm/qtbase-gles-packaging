@@ -6,9 +6,9 @@ Last-Update: 2015-12-29
 
 --- a/tests/auto/auto.pro
 +++ b/tests/auto/auto.pro
-@@ -33,10 +33,6 @@
+@@ -34,10 +34,6 @@
  # Disable the QtDBus tests if we can't connect to the session bus
- qtHaveModule(dbus) {
+ !cross_compile:qtHaveModule(dbus) {
      !system("dbus-send --session --type=signal / local.AutotestCheck.Hello >/dev/null 2>&1") {
 -        contains(QT_CONFIG, dbus-linked): \
 -            error("QtDBus is enabled but session bus is not available. Please check the installation.")
@@ -16,4 +16,4 @@ Last-Update: 2015-12-29
 -            warning("QtDBus is enabled with runtime support, but session bus is not available. Skipping QtDBus tests.")
          SUBDIRS -= dbus
      }
- } else {
+ }

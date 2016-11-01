@@ -59,6 +59,11 @@ ifneq ($(DEB_HOST_ARCH_OS),$(findstring $(DEB_HOST_ARCH_OS), linux kfreebsd))
 	extra_configure_opts += -no-eglfs
 endif
 
+# https://bugs.debian.org/842304
+ifeq ($(DEB_HOST_ARCH),i386)
+	extra_configure_opts += -no-use-gold-linker
+endif
+
 # Compile without sse2 support on i386
 # Do not use pre compiled headers in order to be able to rebuild the gui
 # submodule.
@@ -181,13 +186,12 @@ override_dh_auto_clean:
 
 	# Leftover files and all symlinks
 	find \( -false \
-	  -o -name \*.a \
+	  -o -name lib\*.a \
 	  -o -name Makefile.Debug \
 	  -o -name Makefile.Release \
 	  -o -name \*.o \
 	  -o -name \*.prl \
-	  -o -name \*.so \
-	  -o -name \*.so.debug \
+	  -o -name lib\*.so \
 	  -o -type l \
 	\) -print0 | xargs -0 rm -rf
 
@@ -318,8 +322,7 @@ override_dh_strip:
 	dh_strip --remaining-packages --dbg-package=qtbase5-dbg
 
 override_dh_makeshlibs:
-	dh_makeshlibs -V -plibqt5gui5 -XlibQt5EglDeviceIntegration.so -X libQt5XcbQpa.so
-	dh_makeshlibs -V --remaining-packages
+	dh_makeshlibs -V -XlibQt5EglDeviceIntegration -XlibQt5EglFsKmsSupport -XlibQt5XcbQpa
 
 override_dh_clean:
 	dh_clean

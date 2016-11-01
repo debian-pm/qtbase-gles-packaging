@@ -26,7 +26,7 @@ Build-Depends: debhelper (>= 9),
                libglu1-mesa-dev | libglu-dev,
                libgstreamer-plugins-base1.0-dev,
                libgstreamer1.0-dev,
-               libgtk2.0-dev,
+               libgtk-3-dev,
                libharfbuzz-dev,
                libicu-dev,
                libinput-dev [linux-any],
@@ -60,7 +60,7 @@ Build-Depends: debhelper (>= 9),
                libxkbcommon-dev,
                libxkbcommon-x11-dev,
                libxrender-dev,
-               pkg-kde-tools (>= 0.15.17),
+               pkg-kde-tools (>= 0.15.17~),
                publicsuffix,
                unixodbc-dev,
                zlib1g-dev
@@ -76,12 +76,11 @@ Package: libqt5core5a
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
-Provides: qtbase-abi-5-6-1
+Provides: qtbase-abi-5-7-1
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: qttranslations5-l10n
 Suggests: libthai0
-Breaks: libqt5core5 (<< 5.2.0+dfsg~), libqt5scintilla2-12v5 (<< 2.9.2+dfsg-2~)
-Replaces: libqt5core5 (<< 5.2.0+dfsg~)
+Breaks: libqt5scintilla2-12v5 (<< 2.9.2+dfsg-2~)
 Description: Qt 5 core module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -93,30 +92,28 @@ Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: fontconfig, ${misc:Depends}, ${shlibs:Depends}
-Recommends: libqt5svg5, mesa-utils
+Recommends: libqt5svg5, mesa-utils, qt5-gtk-platformtheme
 Breaks: libqt5egldeviceintegration5 (<< 5.6.0~beta+dfsg-5~),
         libqt5xcbqpa5 (<< 5.6.0~beta+dfsg-5~)
 Replaces: libqt5egldeviceintegration5 (<< 5.6.0~beta+dfsg-5~),
           libqt5xcbqpa5 (<< 5.6.0~beta+dfsg-5~)
-Suggests: libqt5libqgtk2, qt5-image-formats-plugins, qtwayland5
+Suggests: qt5-image-formats-plugins, qtwayland5
 Description: Qt 5 GUI module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
  The QtGui module extends QtCore with GUI functionality.
 
-Package: libqt5libqgtk2
+Package: qt5-gtk-platformtheme
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: libqt5gui5 (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
-Breaks: libqt5gui5 (<< 5.4.1+dfsg-3~)
-Replaces: libqt5gui5 (<< 5.4.1+dfsg-3~)
-Description: Qt 5 GTK2 platform theme
+Description: Qt 5 GTK+ 3 platform theme
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
- This package provides the GTK2 platform theme, which makes Qt use
+ This package provides the GTK+ 3 platform theme, which makes Qt use
  native icon themes, fonts, and dialogs on GTK-based environments.
 
 Package: libqt5network5

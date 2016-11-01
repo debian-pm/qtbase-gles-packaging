@@ -1,7 +1,7 @@
 Description: catch linker warnings in cloexec test
 Author: Dmitry Shachnev <mitya57@debian.org>
 Forwarded: https://codereview.qt-project.org/163214
-Bug: https://bugs.debian.org/cgi-bin/827935
+Bug: https://bugs.debian.org/827935
 Last-Update: 2016-06-23
 
 --- a/config.tests/unix/cloexec/cloexec.pro

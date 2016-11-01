@@ -1,9 +1,81 @@
-qtbase-opensource-src (5.6.1+dfsg-4) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.7.1~20161021+dfsg-3) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * Change build-dependency libmysqlclient-dev → default-libmysqlclient-dev.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 28 Oct 2016 17:14:57 +0300
+
+qtbase-opensource-src (5.7.1~20161021+dfsg-2) experimental; urgency=medium
+
+  * Backport two patches to add proper support for XDG_CONFIG_DIRS to
+    QSettings; needed for LXQt transition (qsettings_simplify_logic.diff,
+    qsettings_XDG_CONFIG_DIRS.diff).
+  * Configure with -no-use-gold-linker on i386 to work around build failures
+    of qtscript and qtgraphicaleffects (see binutils bug #842304).
+  * Update symbols files from buildds’ logs.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 28 Oct 2016 17:04:09 +0300
+
+qtbase-opensource-src (5.7.1~20161021+dfsg-1) experimental; urgency=medium
+
+  [ Dmitry Shachnev ]
+  * New upstream snapshot.
+  * Drop debian/patches/qdevicediscovery_dummy.diff, applied upstream.
+  * Update the copyright script to use a stricter formula for GPL-2 license.
+  * Update debian/copyright.
+  * Install the qtpng static library in qtbase5-dev (following upstream).
+  * Update the symbols files from amd64 build log.
+  * Bump qtbase-abi version to 5-7-1.
+
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Require pkg-kde-tools (>= 0.15.17~) to allow using backported versions.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 21 Oct 2016 21:08:52 +0300
+
+qtbase-opensource-src (5.7.0+dfsg-3) experimental; urgency=medium
+
+  * Replace qdevicediscovery_dummy.diff with a proper patch from upstream.
+  * Update debian/libqt5dbus5.symbols once again.
+  * Mark private symbols using pkgkde-mark-qt5-private-symbols.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Tue, 05 Jul 2016 21:10:28 +0300
+
+qtbase-opensource-src (5.7.0+dfsg-2) experimental; urgency=medium
+
+  * Add a patch (qdevicediscovery_dummy.diff) to fix a linking error on
+    GNU/kFreeBSD.
+  * Add support for ARMv4 architecture, needed to get armel builds working.
+  * Update debian/libqt5dbus5.symbols from buildds’ logs.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 01 Jul 2016 19:59:52 +0300
+
+qtbase-opensource-src (5.7.0+dfsg-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Drop debian/scripts/migrate-symbols.py, no longer needed.
+  * Drop lib/fonts/* from excluded files, these are no longer shipped
+    (since upstream commit c5ceabb9a1caf6b9).
+  * Refresh patches for the new release.
+  * Update for upstream GTK+ 3 port:
+    - Build-depend on libgtk-3-dev.
+    - Rename libqt5libqgtk2 to qt5-gtk-platformtheme.
+    - Make it a recommendation of libqt5gui5 rather than a suggestion.
+  * Update debian/qtbase5-dev.install-common for the new release.
+  * Install libQt5EglFsKmsSupport library in libqt5gui5, the same way as
+    libQt5EglDeviceIntegration.
+  * Update symbols files from amd64 and i386 build logs.
+  * Merge two dh_makeshlibs calls, so that only one build is needed to get
+    the symbols diffs.
+  * Update debian/copyright:
+    - Libraries code is now licensed under LGPL-3 or GPL-2+.
+    - Tools and tests are now licensed under GPL-3 with exceptions.
+    - Examples and documentation are still licensed under 3-clause BSD.
+  * Add a script to automatically generate some copyright information.
+  * Update clean rules to prevent deleting test data.
+  * Drop obsolete Breaks/Replaces.
+  * Bump qtbase-abi version to 5-7-0.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Wed, 29 Jun 2016 09:26:08 +0300
 
 qtbase-opensource-src (5.6.1+dfsg-3) unstable; urgency=medium
 
