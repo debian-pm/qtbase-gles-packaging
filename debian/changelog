@@ -1,3 +1,8 @@
+qtbase-opensource-src (5.7.1~20161021+dfsg-6) UNRELEASED; urgency=medium
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 04 Nov 2016 20:29:15 +0300
+
 qtbase-opensource-src (5.7.1~20161021+dfsg-5) unstable; urgency=medium
 
   * Switch libssl-dev to libssl1.0-dev. We can't yet use libssl 1.1.
