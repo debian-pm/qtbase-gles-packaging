@@ -119,7 +119,7 @@ Package: libqt5network5
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: libssl1.0.2, ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 network module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
