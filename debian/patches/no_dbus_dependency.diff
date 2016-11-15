@@ -1,8 +1,11 @@
 Description: do not fail when D-Bus is not available on configure time
  According to comments in https://codereview.qt-project.org/125499, this check
  will be dropped before the final Qt 5.6 release.
+ .
+ According to comments in https://codereview.qt-project.org/174643, upstream
+ have changed their mind since then.
 Author: Dmitry Shachnev <mitya57@debian.org>
-Last-Update: 2015-12-29
+Last-Update: 2016-11-15
 
 --- a/tests/auto/auto.pro
 +++ b/tests/auto/auto.pro
