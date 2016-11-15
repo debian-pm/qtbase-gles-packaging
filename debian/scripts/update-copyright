@@ -69,6 +69,10 @@ def canonicalize_author_name(author):
         return 'Ivan Komissarov <ABBAPOH@gmail.com>'
     if 'Martsum - tmartsum[at]gmail.com' in author:
         return 'Thorbjørn Lund Martsum <tmartsum@gmail.com>'
+    if 'Olivier Goffart' in author:
+        return 'Olivier Goffart <ogoffart@woboq.com>'
+    if 'Robin Burchell' in author:
+        return 'Robin Burchell <robin.burchell@viroteck.net>'
     return author
 
 

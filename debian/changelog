@@ -4,6 +4,7 @@ qtbase-opensource-src (5.7.1~20161021+dfsg-6) UNRELEASED; urgency=medium
   * Make libqt5network5 depend on libssl1.0.2. It will crash when
     only newer libssl versions are installed.
   * Backport upstream patch to fix build on x32 (fix_build_on_x32.diff).
+  * Merge some more entries in the update-copyright script.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 04 Nov 2016 20:29:15 +0300
 

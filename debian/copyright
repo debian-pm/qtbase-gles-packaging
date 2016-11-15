@@ -433,12 +433,14 @@ Copyright: 2013 Laszlo Papp <lpapp@kde.org>
 License: GPL-3 with Qt-1.0 exception
 
 Files: tests/auto/corelib/kernel/qmetaenum/tst_qmetaenum.cpp
+       tests/auto/tools/moc/cxx11-enums.h
        tests/auto/tools/moc/dollars.h
-Copyright: 2013-2015 Olivier Goffart <ogoffart@woboq.com>
+Copyright: 2011-2015 Olivier Goffart <ogoffart@woboq.com>
 License: GPL-3 with Qt-1.0 exception
 
 Files: src/tools/moc/generator.cpp
        src/tools/moc/moc.cpp
+       src/tools/moc/preprocessor.cpp
        src/tools/moc/symbols.h
        tests/auto/corelib/global/qlogging/tst_qlogging.cpp
        tests/auto/corelib/kernel/qmetamethod/tst_qmetamethod.cpp
@@ -449,31 +451,19 @@ Copyright: 2013-2016 Olivier Goffart <ogoffart@woboq.com>
            2016 The Qt Company Ltd.
 License: GPL-3 with Qt-1.0 exception
 
-Files: src/tools/moc/preprocessor.cpp
-Copyright: 2014 Olivier Goffart <ogoffart@woboq.org>
-           2016 The Qt Company Ltd.
-License: GPL-3 with Qt-1.0 exception
-
-Files: tests/auto/tools/moc/cxx11-enums.h
-Copyright: 2011 Olivier Goffart.
-License: GPL-3 with Qt-1.0 exception
-
 Files: tests/auto/corelib/tools/qdatetime/tst_qdatetime_mac.mm
 Copyright: 2014 Petroules Corporation.
            2016 The Qt Company Ltd.
 License: GPL-3 with Qt-1.0 exception
 
 Files: tests/benchmarks/corelib/kernel/qcoreapplication/main.cpp
-Copyright: 2011 Robin Burchell <robin+qt@viroteck.net>
+       tests/benchmarks/corelib/tools/qstack/main.cpp
+Copyright: 2011-2015 Robin Burchell <robin.burchell@viroteck.net>
 License: GPL-3 with Qt-1.0 exception
 
 Files: tests/benchmarks/corelib/tools/qalgorithms/tst_qalgorithms.cpp
-Copyright: 2012 Robin Burchell <robin+qt@viroteck.net>
+Copyright: 2012 Robin Burchell <robin.burchell@viroteck.net>
            2016 The Qt Company Ltd.
-License: GPL-3 with Qt-1.0 exception
-
-Files: tests/benchmarks/corelib/tools/qstack/main.cpp
-Copyright: 2015 Robin Burchell <robin.burchell@viroteck.net>
 License: GPL-3 with Qt-1.0 exception
 
 Files: tests/auto/corelib/tools/qmessageauthenticationcode/tst_qmessageauthenticationcode.cpp
