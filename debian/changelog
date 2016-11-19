@@ -6,9 +6,6 @@ qtbase-opensource-src (5.7.1~20161021+dfsg-6) UNRELEASED; urgency=medium
   * Backport upstream patch to fix build on x32 (fix_build_on_x32.diff).
   * Merge some more entries in the update-copyright script.
 
-  [ Adam Majer ]
-  * Only look for OpenSSL 1.0.x libraries (openssl_1_0_2.diff)
-
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 04 Nov 2016 20:29:15 +0300
 
 qtbase-opensource-src (5.7.1~20161021+dfsg-5) unstable; urgency=medium
