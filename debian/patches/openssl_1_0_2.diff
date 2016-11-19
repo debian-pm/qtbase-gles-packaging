@@ -1,0 +1,26 @@
+Author: Adam Majer <adamm@zombino.com>
+Date: Sat Nov 19 16:24:29 CET 2016
+Summary: Qt5 is not yet compatible with OpenSSL 1.1.0+
+ Add an ugly hack to only find OpenSSL 1.0.* libraries
+
+--- a/src/network/ssl/qsslsocket_openssl_symbols.cpp
++++ b/src/network/ssl/qsslsocket_openssl_symbols.cpp
+@@ -565,16 +565,16 @@ static QStringList findAllLibs(QLatin1St
+     return found;
+ }
+ 
+ static QStringList findAllLibSsl()
+ {
+-    return findAllLibs(QLatin1String("libssl.*"));
++    return findAllLibs(QLatin1String("libssl.*1.0.*"));
+ }
+ 
+ static QStringList findAllLibCrypto()
+ {
+-    return findAllLibs(QLatin1String("libcrypto.*"));
++    return findAllLibs(QLatin1String("libcrypto.*1.0.*"));
+ }
+ # endif
+ 
+ #ifdef Q_OS_WIN
+ static bool tryToLoadOpenSslWin32Library(QLatin1String ssleay32LibName, QLatin1String libeay32LibName, QPair<QSystemLibrary*, QSystemLibrary*> &pair)
