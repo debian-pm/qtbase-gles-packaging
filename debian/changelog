@@ -1,4 +1,4 @@
-qtbase-opensource-src (5.7.1~20161021+dfsg-6) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.7.1~20161021+dfsg-6) unstable; urgency=medium
 
   [ Dmitry Shachnev ]
   * Make libqt5network5 depend on libssl1.0.2. It will crash when
@@ -9,7 +9,7 @@ qtbase-opensource-src (5.7.1~20161021+dfsg-6) UNRELEASED; urgency=medium
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Update symbols files with buildds' logs.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 04 Nov 2016 20:29:15 +0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sun, 20 Nov 2016 11:28:29 -0300
 
 qtbase-opensource-src (5.7.1~20161021+dfsg-5) unstable; urgency=medium
 
