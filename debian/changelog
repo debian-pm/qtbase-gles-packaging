@@ -2,6 +2,7 @@ qtbase-opensource-src (5.7.1+dfsg-1) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * New upstream final release.
+  * Build with system libdouble-conversion library (closes: #845372).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 23 Nov 2016 15:19:37 +0300
 
