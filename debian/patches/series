@@ -11,3 +11,4 @@ remove_privacy_breachs.diff
 link_fbclient.diff
 gnukfreebsd_cloexec.diff
 armv4.diff
+qpa_is_private.patch

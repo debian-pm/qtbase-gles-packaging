@@ -1,0 +1,37 @@
+Description: QPA is private, mark it's symbols as such.
+  QPA headers are still private stuff, even if lots of apps
+  needs them. This patch ensures that QPA's symbols are
+  then marked as such.
+Origin: vendor,http://lists.qt-project.org/pipermail/development/2016-December/028040.html
+
+---
+ mkspecs/features/qt_module.prf |    6 ++++--
+ 1 file changed, 4 insertions(+), 2 deletions(-)
+
+--- a/mkspecs/features/qt_module.prf
++++ b/mkspecs/features/qt_module.prf
+@@ -197,12 +197,14 @@ android: CONFIG += qt_android_deps no_li
+     verscript = $${TARGET}.version
+     QMAKE_LFLAGS += $${QMAKE_LFLAGS_VERSION_SCRIPT}$$verscript
+ 
++    private_api_headers = $$SYNCQT.PRIVATE_HEADER_FILES $$SYNCQT.QPA_HEADER_FILES
++
+     internal_module {
+         verscript_content = "Qt_$${QT_MAJOR_VERSION}_PRIVATE_API { *; };"
+     } else {
+         verscript_content = "Qt_$${QT_MAJOR_VERSION}_PRIVATE_API {" \
+                             "    qt_private_api_tag*;"
+-        for(header, SYNCQT.PRIVATE_HEADER_FILES): \
++        for(header, private_api_headers): \
+             verscript_content += "    @FILE:$${_PRO_FILE_PWD_}/$$header@"
+         verscript_content += "};"
+ 
+@@ -223,7 +225,7 @@ android: CONFIG += qt_android_deps no_li
+         verscriptprocess.name = linker version script ${QMAKE_FILE_BASE}
+         verscriptprocess.input = verscript_in
+         verscriptprocess.CONFIG += no_link target_predeps
+-        for(header, SYNCQT.PRIVATE_HEADER_FILES): \
++        for(header, private_api_headers): \
+             verscriptprocess.depends += $${_PRO_FILE_PWD_}/$$header
+         verscriptprocess.output = $$verscript
+         verscriptprocess.commands = perl $${PWD}/data/unix/findclasslist.pl < ${QMAKE_FILE_IN} > $@
