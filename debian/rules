@@ -106,7 +106,6 @@ override_dh_auto_configure:
 	            -headerdir "/usr/include/$(DEB_HOST_MULTIARCH)/qt5" \
 	            -datadir "/usr/share/qt5" \
 	            -archdatadir "/usr/lib/$(DEB_HOST_MULTIARCH)/qt5" \
-	            -hostdatadir "/usr/share/qt5" \
 	            -plugindir "/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/plugins" \
 	            -importdir "/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/imports" \
 	            -translationdir "/usr/share/qt5/translations" \
