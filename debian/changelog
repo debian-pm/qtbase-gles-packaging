@@ -1,7 +1,6 @@
-qtbase-opensource-src (5.7.1+dfsg-1) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.7.1~20161122-1) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
-  * New upstream final release.
   * Build with system libdouble-conversion library (closes: #845372).
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
