@@ -26,7 +26,7 @@ Last-Update: 2016-10-22
  typedef QVector<QConfFileCustomFormat> CustomFormatVector;
  
  Q_GLOBAL_STATIC(ConfFileHash, usedHashFunc)
-@@ -1075,22 +1086,22 @@
+@@ -1079,22 +1090,22 @@
         */
  #ifdef Q_OS_WIN
          pathHash->insert(pathHashKey(QSettings::IniFormat, QSettings::UserScope),
@@ -56,7 +56,7 @@ Last-Update: 2016-10-22
  {
      Q_ASSERT((int)QSettings::NativeFormat == 0);
      Q_ASSERT((int)QSettings::IniFormat == 1);
-@@ -1100,14 +1111,23 @@
+@@ -1104,14 +1115,23 @@
      if (pathHash->isEmpty())
          initDefaultPaths(&locker);
  
@@ -82,7 +82,7 @@ Last-Update: 2016-10-22
  QConfFileSettingsPrivate::QConfFileSettingsPrivate(QSettings::Format format,
                                                     QSettings::Scope scope,
                                                     const QString &organization,
-@@ -1127,16 +1147,44 @@
+@@ -1131,16 +1151,44 @@
      QString orgFile = org + extension;
  
      if (scope == QSettings::UserScope) {
@@ -134,7 +134,7 @@ Last-Update: 2016-10-22
  
      initAccess();
  }
-@@ -2187,9 +2235,10 @@
+@@ -2191,9 +2239,10 @@
      \list 1
      \li \c{$HOME/.config/MySoft/Star Runner.conf} (Qt for Embedded Linux: \c{$HOME/Settings/MySoft/Star Runner.conf})
      \li \c{$HOME/.config/MySoft.conf} (Qt for Embedded Linux: \c{$HOME/Settings/MySoft.conf})
@@ -147,7 +147,7 @@ Last-Update: 2016-10-22
  
      On \macos versions 10.2 and 10.3, these files are used by
      default:
-@@ -2224,9 +2273,10 @@
+@@ -2228,9 +2277,10 @@
      \list 1
      \li \c{$HOME/.config/MySoft/Star Runner.ini} (Qt for Embedded Linux: \c{$HOME/Settings/MySoft/Star Runner.ini})
      \li \c{$HOME/.config/MySoft.ini} (Qt for Embedded Linux: \c{$HOME/Settings/MySoft.ini})
@@ -160,7 +160,7 @@ Last-Update: 2016-10-22
  
      On Windows, the following files are used:
  
-@@ -3378,7 +3428,7 @@
+@@ -3382,7 +3432,7 @@
      PathHash *pathHash = pathHashFunc();
      if (pathHash->isEmpty())
          initDefaultPaths(&locker);

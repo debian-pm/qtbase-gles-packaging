@@ -29,7 +29,7 @@ Last-Update: 2016-10-22
  {
  }
  
-@@ -945,7 +945,7 @@
+@@ -949,7 +949,7 @@
  
  void QConfFileSettingsPrivate::initAccess()
  {
@@ -38,7 +38,7 @@ Last-Update: 2016-10-22
          if (format > QSettings::IniFormat) {
              if (!readFunc)
                  setStatus(QSettings::AccessError);
-@@ -1115,7 +1115,6 @@
+@@ -1119,7 +1119,6 @@
      : QSettingsPrivate(format, scope, organization, application),
        nextPosition(0x40000000) // big positive number
  {
@@ -46,7 +46,7 @@ Last-Update: 2016-10-22
      initFormat();
  
      QString org = organization;
-@@ -1130,21 +1129,14 @@
+@@ -1134,21 +1133,14 @@
      if (scope == QSettings::UserScope) {
          QString userPath = getPath(format, QSettings::UserScope);
          if (!application.isEmpty())
@@ -72,7 +72,7 @@ Last-Update: 2016-10-22
  
      initAccess();
  }
-@@ -1156,7 +1148,7 @@
+@@ -1160,7 +1152,7 @@
  {
      initFormat();
  
@@ -81,7 +81,7 @@ Last-Update: 2016-10-22
  
      initAccess();
  }
-@@ -1167,40 +1159,39 @@
+@@ -1171,40 +1163,39 @@
      ConfFileHash *usedHash = usedHashFunc();
      ConfFileCache *unusedCache = unusedCacheFunc();
  
@@ -135,7 +135,7 @@ Last-Update: 2016-10-22
      QSettingsKey theKey(key, caseSensitivity);
      QSettingsKey prefix(key + QLatin1Char('/'), caseSensitivity);
      QMutexLocker locker(&confFile->mutex);
-@@ -1224,10 +1215,12 @@
+@@ -1228,10 +1219,12 @@
  
  void QConfFileSettingsPrivate::set(const QString &key, const QVariant &value)
  {
@@ -150,7 +150,7 @@ Last-Update: 2016-10-22
      QSettingsKey theKey(key, caseSensitivity, nextPosition++);
      QMutexLocker locker(&confFile->mutex);
      confFile->removedKeys.remove(theKey);
-@@ -1240,29 +1233,27 @@
+@@ -1244,29 +1237,27 @@
      ParsedSettingsMap::const_iterator j;
      bool found = false;
  
@@ -200,7 +200,7 @@ Last-Update: 2016-10-22
      }
      return false;
  }
-@@ -1275,34 +1266,31 @@
+@@ -1279,34 +1270,31 @@
      QSettingsKey thePrefix(prefix, caseSensitivity);
      int startPos = prefix.size();
  
@@ -256,7 +256,7 @@ Last-Update: 2016-10-22
      }
      std::sort(result.begin(), result.end());
      result.erase(std::unique(result.begin(), result.end()),
-@@ -1312,10 +1300,12 @@
+@@ -1316,10 +1304,12 @@
  
  void QConfFileSettingsPrivate::clear()
  {
@@ -271,7 +271,7 @@ Last-Update: 2016-10-22
      QMutexLocker locker(&confFile->mutex);
      ensureAllSectionsParsed(confFile);
      confFile->addedKeys.clear();
-@@ -1327,12 +1317,9 @@
+@@ -1331,12 +1321,9 @@
      // people probably won't be checking the status a whole lot, so in case of
      // error we just try to go on and make the best of it
  
@@ -287,7 +287,7 @@ Last-Update: 2016-10-22
      }
  }
  
-@@ -1343,10 +1330,11 @@
+@@ -1347,10 +1334,11 @@
  
  QString QConfFileSettingsPrivate::fileName() const
  {
@@ -302,7 +302,7 @@ Last-Update: 2016-10-22
  }
  
  bool QConfFileSettingsPrivate::isWritable() const
-@@ -1354,16 +1342,14 @@
+@@ -1358,16 +1346,14 @@
      if (format > QSettings::IniFormat && !writeFunc)
          return false;
  
