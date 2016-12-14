@@ -62,7 +62,7 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _Z18qInstallMsgHandlerPFv9QtMsgTypePKcE@Qt_5 5.0.2
  _Z18qRemovePostRoutinePFvvE@Qt_5 5.0.2
  _Z18qSetMessagePatternRK7QString@Qt_5 5.0.2
- (subst)_Z19qCalculateBlockSize{size_t}{size_t}{size_t}@Qt_5 5.7.1~20161021
+ (subst)_Z19qCalculateBlockSize{size_t}{size_t}{size_t}@Qt_5 5.7.1
  _Z19qSetGlobalQHashSeedi@Qt_5 5.6.0~beta
  _Z19qcoreVariantHandlerv@Qt_5 5.0.2
  _Z20qt_qFindChild_helperPK7QObjectRK7QStringRK11QMetaObject6QFlagsIN2Qt15FindChildOptionEE@Qt_5 5.0.2
@@ -81,7 +81,7 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  (arch=!hurd-i386 !kfreebsd-amd64 !kfreebsd-i386)_Z24qt_linux_find_symbol_sysPKc@Qt_5 5.0.2
  _Z24qt_subtract_from_timeoutii@Qt_5 5.4.2
  _Z25qEnvironmentVariableIsSetPKc@Qt_5 5.0.2
- (subst)_Z26qCalculateGrowingBlockSize{size_t}{size_t}{size_t}@Qt_5 5.7.1~20161021
+ (subst)_Z26qCalculateGrowingBlockSize{size_t}{size_t}{size_t}@Qt_5 5.7.1
  _Z26qt_QMetaEnum_debugOperatorR6QDebugiPK11QMetaObjectPKc@Qt_5 5.5.0
  _Z27qEnvironmentVariableIsEmptyPKc@Qt_5 5.0.2
  _Z28qEnvironmentVariableIntValuePKcPb@Qt_5 5.5.0
@@ -3944,10 +3944,10 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZNK15QDateTimeParser11sectionTextEi@Qt_5_PRIVATE_API 5.0.2 1
  _ZNK15QDateTimeParser11sectionTypeEi@Qt_5_PRIVATE_API 5.0.2 1
  _ZNK15QDateTimeParser12parseSectionERK9QDateTimeiR7QStringRiiRNS_5StateEPi@Qt_5_PRIVATE_API 5.0.2 1
- _ZNK15QDateTimeParser14potentialValueERK10QStringRefiiiRK9QDateTimei@Qt_5_PRIVATE_API 5.7.1~20161021 1
+ _ZNK15QDateTimeParser14potentialValueERK10QStringRefiiiRK9QDateTimei@Qt_5_PRIVATE_API 5.7.1 1
  _ZNK15QDateTimeParser14sectionMaxSizeENS_7SectionEi@Qt_5_PRIVATE_API 5.0.2 1
  _ZNK15QDateTimeParser14sectionMaxSizeEi@Qt_5_PRIVATE_API 5.0.2 1
- _ZNK15QDateTimeParser17skipToNextSectionEiRK9QDateTimeRK10QStringRef@Qt_5_PRIVATE_API 5.7.1~20161021 1
+ _ZNK15QDateTimeParser17skipToNextSectionEiRK9QDateTimeRK10QStringRef@Qt_5_PRIVATE_API 5.7.1 1
  _ZNK15QDateTimeParser5parseER7QStringRiRK9QDateTimeb@Qt_5_PRIVATE_API 5.0.2 1
  _ZNK15QDateTimeParser7findDayERK7QStringiiPS0_Pi@Qt_5_PRIVATE_API 5.0.2 1
  _ZNK15QDateTimeParser8findAmPmER7QStringiPi@Qt_5_PRIVATE_API 5.0.2 1
@@ -5093,7 +5093,7 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  (optional=templinst)_ZSt13move_backwardIPiS0_ET0_T_S2_S1_@Qt_5 5.5.0
  (optional=templinst|subst)_ZSt17__rotate_adaptiveIP21QPersistentModelIndexS1_{ssize_t}ET_S2_S2_S2_T1_S3_T0_S3_@Qt_5 5.0.2
  (optional=templinst|subst)_ZSt17__rotate_adaptiveIPiS0_{ssize_t}ET_S1_S1_S1_T1_S2_T0_S2_@Qt_5 5.0.2
- (optional=templinst|arch=armel armhf hurd-i386 i386 kfreebsd-i386 mips mipsel powerpc powerpcspe)_ZSt4swapIN8QVariant7PrivateEENSt9enable_ifIXsrSt6__and_IJSt21is_move_constructibleIT_ESt18is_move_assignableIS5_EEE5valueEvE4typeERS5_SC_@Qt_5 5.7.1~20161021
+ (optional=templinst|arch=armel armhf hurd-i386 i386 kfreebsd-i386 mips mipsel powerpc powerpcspe)_ZSt4swapIN8QVariant7PrivateEENSt9enable_ifIXsrSt6__and_IJSt21is_move_constructibleIT_ESt18is_move_assignableIS5_EEE5valueEvE4typeERS5_SC_@Qt_5 5.7.1
  _ZTI10QEventLoop@Qt_5 5.0.2
  _ZTI10QException@Qt_5 5.0.2
  _ZTI10QTextCodec@Qt_5 5.0.2
