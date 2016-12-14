@@ -1,4 +1,4 @@
-qtbase-opensource-src (5.7.1+dfsg-1) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.7.1+dfsg-1) unstable; urgency=medium
 
   [ Dmitry Shachnev ]
   * New upstream final release.
@@ -14,7 +14,7 @@ qtbase-opensource-src (5.7.1+dfsg-1) UNRELEASED; urgency=medium
   * Remove a bogus double hostdatadir entry while configuring Qt. Thanks
     Nick Shaforostoff for the bug! (Closes: 847769).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 23 Nov 2016 15:19:37 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Wed, 14 Dec 2016 17:23:44 +0300
 
 qtbase-opensource-src (5.7.1~20161021+dfsg-6) unstable; urgency=medium
 
