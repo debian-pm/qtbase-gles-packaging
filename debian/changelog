@@ -4,6 +4,7 @@ qtbase-opensource-src (5.7.1+dfsg-1) UNRELEASED; urgency=medium
   * New upstream final release.
   * Build with system libdouble-conversion library (closes: #845372).
   * Convert to automatic dbgsym packages.
+  * Bump documentation build-dependencies to 5.7.1.
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Remove a bogus double hostdatadir entry while configuring Qt. Thanks
