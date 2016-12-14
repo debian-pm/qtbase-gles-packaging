@@ -3,10 +3,6 @@ qtbase-opensource-src (5.7.1+dfsg-1) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * New upstream final release.
   * Build with system libdouble-conversion library (closes: #845372).
-
-  [ Lisandro Damián Nicanor Pérez Meyer ]
-  * Mark QPA symbols as private with qpa_is_private.patch. This might get
-    solved upstream in the future (see the thread pointed in the patch).
   * Remove a bogus double hostdatadir entry while configuring Qt. Thanks
     Nick Shaforostoff for the bug! (Closes: 847769).
 
