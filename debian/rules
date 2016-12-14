@@ -316,10 +316,9 @@ override_dh_installchangelogs:
 	fi
 
 override_dh_strip:
-	dh_strip -pqtbase5-examples --dbg-package=qtbase5-examples-dbg
-	dh_strip -pqtbase5-dev-tools --dbg-package=qtbase5-dev-tools-dbg
-	dh_strip -pqt5-qmake --dbg-package=qtbase5-dev-tools-dbg
-	dh_strip --remaining-packages --dbg-package=qtbase5-dbg
+	dh_strip -pqtbase5-examples --dbgsym-migration='qtbase5-examples-dbg (<< 5.7.1+dfsg-1~)'
+	dh_strip -pqtbase5-dev-tools -pqt5-qmake --dbgsym-migration='qtbase5-dev-tools-dbg (<< 5.7.1+dfsg-1~)'
+	dh_strip --remaining-packages --dbgsym-migration='qtbase5-dbg (<< 5.7.1+dfsg-1~)'
 
 override_dh_makeshlibs:
 	dh_makeshlibs -V -XlibQt5EglDeviceIntegration -XlibQt5EglFsKmsSupport -XlibQt5XcbQpa
