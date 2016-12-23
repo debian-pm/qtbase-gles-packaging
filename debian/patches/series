@@ -2,6 +2,7 @@
 qsettings_simplify_logic.diff
 qsettings_XDG_CONFIG_DIRS.diff
 fix_build_on_x32.diff
+gcc_6.3.diff
 
 # Debian specific.
 no_dbus_dependency.diff
