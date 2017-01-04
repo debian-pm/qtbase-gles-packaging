@@ -5,6 +5,7 @@ fix_build_on_x32.diff
 gcc_6.3.diff
 fix_accessibility_crash.diff
 gtkdialogs_wayland.diff
+bearer_qfactoryloader.diff
 
 # Debian specific.
 no_dbus_dependency.diff
