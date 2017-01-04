@@ -1,5 +1,8 @@
 qtbase-opensource-src (5.7.1+dfsg-3) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Backport upstream change to fix accessibility-related crashes
+    (fix_accessibility_crash.diff; closes: #834750).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 04 Jan 2017 22:39:02 +0300
 
