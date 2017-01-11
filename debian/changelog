@@ -1,14 +1,13 @@
-qtbase-opensource-src (5.7.1+dfsg-3) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.7.1+dfsg-3) unstable; urgency=medium
 
-  [ Dmitry Shachnev ]
   * Backport upstream change to fix accessibility-related crashes
     (fix_accessibility_crash.diff; closes: #834750).
   * Backport upstream fix to make QGtk3Dialog not crash on Wayland
-    (closes: #850746).
+    (gtkdialogs_wayland.diff; closes: #850746).
   * Backport upstream change to stop unloading plugins in QPluginLoader
     and QFactoryLoader (stop_unloading_pluings.diff; closes: #845662).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 04 Jan 2017 22:39:02 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Wed, 11 Jan 2017 18:14:40 +0300
 
 qtbase-opensource-src (5.7.1+dfsg-2) unstable; urgency=medium
 
