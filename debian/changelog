@@ -5,8 +5,6 @@ qtbase-opensource-src (5.7.1+dfsg-3) UNRELEASED; urgency=medium
     (fix_accessibility_crash.diff; closes: #834750).
   * Backport upstream fix to make QGtk3Dialog not crash on Wayland
     (closes: #850746).
-  * Backport upstream change to make the bearer QFactoryLoader a member
-    variable (bearer_qfactoryloader.diff).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 04 Jan 2017 22:39:02 +0300
 
