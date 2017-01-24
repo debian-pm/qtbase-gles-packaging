@@ -2,6 +2,17 @@ qtbase-opensource-src (5.8.0+dfsg-1) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * New upstream release.
+  * Drop patches, applied upstream in 5.8.0:
+    - fix_build_on_x32.diff
+    - gcc_6.3.diff
+    - fix_accessibility_crash.diff
+    - gtkdialogs_wayland.diff
+    - stop_unloading_plugins.diff
+  * Rebase patches against upstream changes:
+    - link_fbclient.diff
+    - no_dbus_dependency.diff
+    - qsettings_simplify_logic.diff
+    - qsettings_XDG_CONFIG_DIRS.diff
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 24 Jan 2017 14:24:16 +0300
 

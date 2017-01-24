@@ -7,11 +7,11 @@ Description: qsettings: simplify confFiles logic
  actually wasn't needed anyway, as the "deref" logic was/is done manually
  in the QConfFileSettingsPrivate destructor.
 Origin: upstream, https://code.qt.io/cgit/qt/qtbase.git/commit/?id=ee35fbbf526d18d5
-Last-Update: 2016-10-22
+Last-Update: 2017-01-24
 
 --- a/src/corelib/io/qsettings.cpp
 +++ b/src/corelib/io/qsettings.cpp
-@@ -229,7 +229,7 @@
+@@ -220,7 +220,7 @@
  // QSettingsPrivate
  
  QSettingsPrivate::QSettingsPrivate(QSettings::Format format)
@@ -20,7 +20,7 @@ Last-Update: 2016-10-22
        pendingChanges(false), status(QSettings::NoError)
  {
  }
-@@ -237,7 +237,7 @@
+@@ -228,7 +228,7 @@
  QSettingsPrivate::QSettingsPrivate(QSettings::Format format, QSettings::Scope scope,
                                     const QString &organization, const QString &application)
      : format(format), scope(scope), organizationName(organization), applicationName(application),
@@ -29,7 +29,7 @@ Last-Update: 2016-10-22
  {
  }
  
-@@ -949,7 +949,7 @@
+@@ -940,7 +940,7 @@
  
  void QConfFileSettingsPrivate::initAccess()
  {
@@ -38,7 +38,7 @@ Last-Update: 2016-10-22
          if (format > QSettings::IniFormat) {
              if (!readFunc)
                  setStatus(QSettings::AccessError);
-@@ -1119,7 +1119,6 @@
+@@ -1110,7 +1110,6 @@
      : QSettingsPrivate(format, scope, organization, application),
        nextPosition(0x40000000) // big positive number
  {
@@ -46,7 +46,7 @@ Last-Update: 2016-10-22
      initFormat();
  
      QString org = organization;
-@@ -1134,21 +1133,14 @@
+@@ -1125,21 +1124,14 @@
      if (scope == QSettings::UserScope) {
          QString userPath = getPath(format, QSettings::UserScope);
          if (!application.isEmpty())
@@ -72,7 +72,7 @@ Last-Update: 2016-10-22
  
      initAccess();
  }
-@@ -1160,7 +1152,7 @@
+@@ -1151,7 +1143,7 @@
  {
      initFormat();
  
@@ -81,7 +81,7 @@ Last-Update: 2016-10-22
  
      initAccess();
  }
-@@ -1171,40 +1163,39 @@
+@@ -1162,40 +1154,39 @@
      ConfFileHash *usedHash = usedHashFunc();
      ConfFileCache *unusedCache = unusedCacheFunc();
  
@@ -135,7 +135,7 @@ Last-Update: 2016-10-22
      QSettingsKey theKey(key, caseSensitivity);
      QSettingsKey prefix(key + QLatin1Char('/'), caseSensitivity);
      QMutexLocker locker(&confFile->mutex);
-@@ -1228,10 +1219,12 @@
+@@ -1219,10 +1210,12 @@
  
  void QConfFileSettingsPrivate::set(const QString &key, const QVariant &value)
  {
@@ -150,7 +150,7 @@ Last-Update: 2016-10-22
      QSettingsKey theKey(key, caseSensitivity, nextPosition++);
      QMutexLocker locker(&confFile->mutex);
      confFile->removedKeys.remove(theKey);
-@@ -1244,29 +1237,27 @@
+@@ -1235,29 +1228,27 @@
      ParsedSettingsMap::const_iterator j;
      bool found = false;
  
@@ -200,7 +200,7 @@ Last-Update: 2016-10-22
      }
      return false;
  }
-@@ -1279,34 +1270,31 @@
+@@ -1270,34 +1261,31 @@
      QSettingsKey thePrefix(prefix, caseSensitivity);
      int startPos = prefix.size();
  
@@ -256,7 +256,7 @@ Last-Update: 2016-10-22
      }
      std::sort(result.begin(), result.end());
      result.erase(std::unique(result.begin(), result.end()),
-@@ -1316,10 +1304,12 @@
+@@ -1307,10 +1295,12 @@
  
  void QConfFileSettingsPrivate::clear()
  {
@@ -271,7 +271,7 @@ Last-Update: 2016-10-22
      QMutexLocker locker(&confFile->mutex);
      ensureAllSectionsParsed(confFile);
      confFile->addedKeys.clear();
-@@ -1331,12 +1321,9 @@
+@@ -1322,12 +1312,9 @@
      // people probably won't be checking the status a whole lot, so in case of
      // error we just try to go on and make the best of it
  
@@ -287,7 +287,7 @@ Last-Update: 2016-10-22
      }
  }
  
-@@ -1347,10 +1334,11 @@
+@@ -1338,10 +1325,11 @@
  
  QString QConfFileSettingsPrivate::fileName() const
  {
@@ -302,7 +302,7 @@ Last-Update: 2016-10-22
  }
  
  bool QConfFileSettingsPrivate::isWritable() const
-@@ -1358,16 +1346,14 @@
+@@ -1349,16 +1337,14 @@
      if (format > QSettings::IniFormat && !writeFunc)
          return false;
  
@@ -320,8 +320,8 @@ Last-Update: 2016-10-22
  {
 -    QConfFile *confFile = confFiles[confFileNo].data();
      bool readOnly = confFile->addedKeys.isEmpty() && confFile->removedKeys.isEmpty();
-     bool ok;
  
+     /*
 --- a/src/corelib/io/qsettings_p.h
 +++ b/src/corelib/io/qsettings_p.h
 @@ -236,19 +236,6 @@
@@ -360,7 +360,7 @@ Last-Update: 2016-10-22
 +    void syncConfFile(QConfFile *confFile);
      bool writeIniFile(QIODevice &device, const ParsedSettingsMap &map);
  #ifdef Q_OS_MAC
-     bool readPlistFile(const QString &fileName, ParsedSettingsMap *map) const;
+     bool readPlistFile(const QByteArray &data, ParsedSettingsMap *map) const;
 @@ -302,7 +288,7 @@
      void ensureAllSectionsParsed(QConfFile *confFile) const;
      void ensureSectionParsed(QConfFile *confFile, const QSettingsKey &key) const;
