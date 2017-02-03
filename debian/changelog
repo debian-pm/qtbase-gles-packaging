@@ -15,6 +15,9 @@ qtbase-opensource-src (5.8.0+dfsg-1) UNRELEASED; urgency=medium
     - qsettings_XDG_CONFIG_DIRS.diff
   * Drop “-gstreamer 1.0” configuration option, dropped upstream.
 
+  [ Alexander Volkov ]
+  * Remove debian/90qt5-opengl script, no longer needed (refs: #850705).
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 24 Jan 2017 14:24:16 +0300
 
 qtbase-opensource-src (5.7.1+dfsg-3) unstable; urgency=medium
