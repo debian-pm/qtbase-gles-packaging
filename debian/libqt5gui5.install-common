@@ -9,4 +9,5 @@ usr/lib/*/qt5/plugins/platforminputcontexts/libibusplatforminputcontextplugin.so
 usr/lib/*/qt5/plugins/platforms/libqminimal.so
 usr/lib/*/qt5/plugins/platforms/libqoffscreen.so
 usr/lib/*/qt5/plugins/platforms/libqxcb.so
+usr/lib/*/qt5/plugins/platforms/libqvnc.so
 usr/lib/*/qt5/plugins/xcbglintegrations/*

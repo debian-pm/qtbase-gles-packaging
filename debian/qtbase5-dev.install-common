@@ -68,6 +68,7 @@ usr/include/*/qt5/QtCore/QCryptographicHash
 usr/include/*/qt5/QtCore/QDataStream
 usr/include/*/qt5/QtCore/QDate
 usr/include/*/qt5/QtCore/QDateTime
+usr/include/*/qt5/QtCore/QDeadlineTimer
 usr/include/*/qt5/QtCore/QDebug
 usr/include/*/qt5/QtCore/QDebugStateSaver
 usr/include/*/qt5/QtCore/QDeferredDeleteEvent
@@ -361,12 +362,7 @@ usr/include/*/qt5/QtCore/qcollator.h
 usr/include/*/qt5/QtCore/qcommandlineoption.h
 usr/include/*/qt5/QtCore/qcommandlineparser.h
 usr/include/*/qt5/QtCore/qcompilerdetection.h
-usr/include/*/qt5/QtCore/qconfig-dist.h
-usr/include/*/qt5/QtCore/qconfig-large.h
-usr/include/*/qt5/QtCore/qconfig-medium.h
-usr/include/*/qt5/QtCore/qconfig-minimal.h
-usr/include/*/qt5/QtCore/qconfig-nacl.h
-usr/include/*/qt5/QtCore/qconfig-small.h
+usr/include/*/qt5/QtCore/qconfig-bootstrapped.h
 usr/include/*/qt5/QtCore/qconfig.h
 usr/include/*/qt5/QtCore/qcontainerfwd.h
 usr/include/*/qt5/QtCore/qcontiguouscache.h
@@ -375,6 +371,7 @@ usr/include/*/qt5/QtCore/qcoreevent.h
 usr/include/*/qt5/QtCore/qcryptographichash.h
 usr/include/*/qt5/QtCore/qdatastream.h
 usr/include/*/qt5/QtCore/qdatetime.h
+usr/include/*/qt5/QtCore/qdeadlinetimer.h
 usr/include/*/qt5/QtCore/qdebug.h
 usr/include/*/qt5/QtCore/qdir.h
 usr/include/*/qt5/QtCore/qdiriterator.h
@@ -385,7 +382,6 @@ usr/include/*/qt5/QtCore/qeventloop.h
 usr/include/*/qt5/QtCore/qeventtransition.h
 usr/include/*/qt5/QtCore/qexception.h
 usr/include/*/qt5/QtCore/qfactoryinterface.h
-usr/include/*/qt5/QtCore/qfeatures.h
 usr/include/*/qt5/QtCore/qfile.h
 usr/include/*/qt5/QtCore/qfiledevice.h
 usr/include/*/qt5/QtCore/qfileinfo.h
@@ -395,7 +391,6 @@ usr/include/*/qt5/QtCore/qfinalstate.h
 usr/include/*/qt5/QtCore/qflags.h
 usr/include/*/qt5/QtCore/qfunctions_nacl.h
 usr/include/*/qt5/QtCore/qfunctions_vxworks.h
-usr/include/*/qt5/QtCore/qfunctions_wince.h
 usr/include/*/qt5/QtCore/qfunctions_winrt.h
 usr/include/*/qt5/QtCore/qfuture.h
 usr/include/*/qt5/QtCore/qfutureinterface.h
@@ -491,6 +486,7 @@ usr/include/*/qt5/QtCore/qsysinfo.h
 usr/include/*/qt5/QtCore/qsystemdetection.h
 usr/include/*/qt5/QtCore/qsystemsemaphore.h
 usr/include/*/qt5/QtCore/qt_windows.h
+usr/include/*/qt5/QtCore/qtcore-config.h
 usr/include/*/qt5/QtCore/qtcoreversion.h
 usr/include/*/qt5/QtCore/qtemporarydir.h
 usr/include/*/qt5/QtCore/qtemporaryfile.h
@@ -563,6 +559,7 @@ usr/include/*/qt5/QtDBus/qdbusserver.h
 usr/include/*/qt5/QtDBus/qdbusservicewatcher.h
 usr/include/*/qt5/QtDBus/qdbusunixfiledescriptor.h
 usr/include/*/qt5/QtDBus/qdbusvirtualobject.h
+usr/include/*/qt5/QtDBus/qtdbusglobal.h
 usr/include/*/qt5/QtDBus/qtdbusversion.h
 usr/include/*/qt5/QtGui/QAbstractTextDocumentLayout
 usr/include/*/qt5/QtGui/QAbstractUndoItem
@@ -648,6 +645,7 @@ usr/include/*/qt5/QtGui/QIntValidator
 usr/include/*/qt5/QtGui/QKeyEvent
 usr/include/*/qt5/QtGui/QKeySequence
 usr/include/*/qt5/QtGui/QLinearGradient
+usr/include/*/qt5/QtGui/QList
 usr/include/*/qt5/QtGui/QMatrix
 usr/include/*/qt5/QtGui/QMatrix2x2
 usr/include/*/qt5/QtGui/QMatrix2x3
@@ -706,6 +704,7 @@ usr/include/*/qt5/QtGui/QOpenGLPixelTransferOptions
 usr/include/*/qt5/QtGui/QOpenGLShader
 usr/include/*/qt5/QtGui/QOpenGLShaderProgram
 usr/include/*/qt5/QtGui/QOpenGLTexture
+usr/include/*/qt5/QtGui/QOpenGLTextureBlitter
 usr/include/*/qt5/QtGui/QOpenGLTimeMonitor
 usr/include/*/qt5/QtGui/QOpenGLTimerQuery
 usr/include/*/qt5/QtGui/QOpenGLVersionFunctions
@@ -733,6 +732,7 @@ usr/include/*/qt5/QtGui/QPixelFormat
 usr/include/*/qt5/QtGui/QPixmap
 usr/include/*/qt5/QtGui/QPixmapCache
 usr/include/*/qt5/QtGui/QPlatformSurfaceEvent
+usr/include/*/qt5/QtGui/QPointingDeviceUniqueId
 usr/include/*/qt5/QtGui/QPolygon
 usr/include/*/qt5/QtGui/QPolygonF
 usr/include/*/qt5/QtGui/QQuaternion
@@ -886,6 +886,7 @@ usr/include/*/qt5/QtGui/qopenglpaintdevice.h
 usr/include/*/qt5/QtGui/qopenglpixeltransferoptions.h
 usr/include/*/qt5/QtGui/qopenglshaderprogram.h
 usr/include/*/qt5/QtGui/qopengltexture.h
+usr/include/*/qt5/QtGui/qopengltextureblitter.h
 usr/include/*/qt5/QtGui/qopengltimerquery.h
 usr/include/*/qt5/QtGui/qopenglversionfunctions.h
 usr/include/*/qt5/QtGui/qopenglvertexarrayobject.h
@@ -931,6 +932,8 @@ usr/include/*/qt5/QtGui/qtextlist.h
 usr/include/*/qt5/QtGui/qtextobject.h
 usr/include/*/qt5/QtGui/qtextoption.h
 usr/include/*/qt5/QtGui/qtexttable.h
+usr/include/*/qt5/QtGui/qtgui-config.h
+usr/include/*/qt5/QtGui/qtguiglobal.h
 usr/include/*/qt5/QtGui/qtguiversion.h
 usr/include/*/qt5/QtGui/qtouchdevice.h
 usr/include/*/qt5/QtGui/qtransform.h
@@ -964,6 +967,7 @@ usr/include/*/qt5/QtNetwork/QNetworkConfiguration
 usr/include/*/qt5/QtNetwork/QNetworkConfigurationManager
 usr/include/*/qt5/QtNetwork/QNetworkCookie
 usr/include/*/qt5/QtNetwork/QNetworkCookieJar
+usr/include/*/qt5/QtNetwork/QNetworkDatagram
 usr/include/*/qt5/QtNetwork/QNetworkDiskCache
 usr/include/*/qt5/QtNetwork/QNetworkInterface
 usr/include/*/qt5/QtNetwork/QNetworkProxy
@@ -972,11 +976,14 @@ usr/include/*/qt5/QtNetwork/QNetworkProxyQuery
 usr/include/*/qt5/QtNetwork/QNetworkReply
 usr/include/*/qt5/QtNetwork/QNetworkRequest
 usr/include/*/qt5/QtNetwork/QNetworkSession
+usr/include/*/qt5/QtNetwork/QSctpServer
+usr/include/*/qt5/QtNetwork/QSctpSocket
 usr/include/*/qt5/QtNetwork/QSsl
 usr/include/*/qt5/QtNetwork/QSslCertificate
 usr/include/*/qt5/QtNetwork/QSslCertificateExtension
 usr/include/*/qt5/QtNetwork/QSslCipher
 usr/include/*/qt5/QtNetwork/QSslConfiguration
+usr/include/*/qt5/QtNetwork/QSslDiffieHellmanParameters
 usr/include/*/qt5/QtNetwork/QSslEllipticCurve
 usr/include/*/qt5/QtNetwork/QSslError
 usr/include/*/qt5/QtNetwork/QSslKey
@@ -1003,18 +1010,21 @@ usr/include/*/qt5/QtNetwork/qnetworkconfigmanager.h
 usr/include/*/qt5/QtNetwork/qnetworkconfiguration.h
 usr/include/*/qt5/QtNetwork/qnetworkcookie.h
 usr/include/*/qt5/QtNetwork/qnetworkcookiejar.h
+usr/include/*/qt5/QtNetwork/qnetworkdatagram.h
 usr/include/*/qt5/QtNetwork/qnetworkdiskcache.h
-usr/include/*/qt5/QtNetwork/qnetworkfunctions_wince.h
 usr/include/*/qt5/QtNetwork/qnetworkinterface.h
 usr/include/*/qt5/QtNetwork/qnetworkproxy.h
 usr/include/*/qt5/QtNetwork/qnetworkreply.h
 usr/include/*/qt5/QtNetwork/qnetworkrequest.h
 usr/include/*/qt5/QtNetwork/qnetworksession.h
+usr/include/*/qt5/QtNetwork/qsctpserver.h
+usr/include/*/qt5/QtNetwork/qsctpsocket.h
 usr/include/*/qt5/QtNetwork/qssl.h
 usr/include/*/qt5/QtNetwork/qsslcertificate.h
 usr/include/*/qt5/QtNetwork/qsslcertificateextension.h
 usr/include/*/qt5/QtNetwork/qsslcipher.h
 usr/include/*/qt5/QtNetwork/qsslconfiguration.h
+usr/include/*/qt5/QtNetwork/qssldiffiehellmanparameters.h
 usr/include/*/qt5/QtNetwork/qsslellipticcurve.h
 usr/include/*/qt5/QtNetwork/qsslerror.h
 usr/include/*/qt5/QtNetwork/qsslkey.h
@@ -1022,6 +1032,8 @@ usr/include/*/qt5/QtNetwork/qsslpresharedkeyauthenticator.h
 usr/include/*/qt5/QtNetwork/qsslsocket.h
 usr/include/*/qt5/QtNetwork/qtcpserver.h
 usr/include/*/qt5/QtNetwork/qtcpsocket.h
+usr/include/*/qt5/QtNetwork/qtnetwork-config.h
+usr/include/*/qt5/QtNetwork/qtnetworkglobal.h
 usr/include/*/qt5/QtNetwork/qtnetworkversion.h
 usr/include/*/qt5/QtNetwork/qudpsocket.h
 usr/include/*/qt5/QtOpenGLExtensions/QOpenGLExtensions
@@ -1077,9 +1089,9 @@ usr/include/*/qt5/QtPrintSupport/qprinter.h
 usr/include/*/qt5/QtPrintSupport/qprinterinfo.h
 usr/include/*/qt5/QtPrintSupport/qprintpreviewdialog.h
 usr/include/*/qt5/QtPrintSupport/qprintpreviewwidget.h
+usr/include/*/qt5/QtPrintSupport/qtprintsupport-config.h
 usr/include/*/qt5/QtPrintSupport/qtprintsupportglobal.h
 usr/include/*/qt5/QtPrintSupport/qtprintsupportversion.h
-usr/include/*/qt5/QtSql/QSql
 usr/include/*/qt5/QtSql/QSqlDatabase
 usr/include/*/qt5/QtSql/QSqlDriver
 usr/include/*/qt5/QtSql/QSqlDriverCreator
@@ -1113,6 +1125,8 @@ usr/include/*/qt5/QtSql/qsqlrelationaldelegate.h
 usr/include/*/qt5/QtSql/qsqlrelationaltablemodel.h
 usr/include/*/qt5/QtSql/qsqlresult.h
 usr/include/*/qt5/QtSql/qsqltablemodel.h
+usr/include/*/qt5/QtSql/qtsql-config.h
+usr/include/*/qt5/QtSql/qtsqlglobal.h
 usr/include/*/qt5/QtSql/qtsqlversion.h
 usr/include/*/qt5/QtTest/QEventSizeOfChecker
 usr/include/*/qt5/QtTest/QSignalSpy
@@ -1130,6 +1144,7 @@ usr/include/*/qt5/QtTest/QTestMouseEvent
 usr/include/*/qt5/QtTest/QtTest
 usr/include/*/qt5/QtTest/QtTestDepends
 usr/include/*/qt5/QtTest/QtTestGui
+usr/include/*/qt5/QtTest/QtTestNetwork
 usr/include/*/qt5/QtTest/QtTestVersion
 usr/include/*/qt5/QtTest/QtTestWidgets
 usr/include/*/qt5/QtTest/qbenchmark.h
@@ -1138,6 +1153,7 @@ usr/include/*/qt5/QtTest/qsignalspy.h
 usr/include/*/qt5/QtTest/qtest.h
 usr/include/*/qt5/QtTest/qtest_global.h
 usr/include/*/qt5/QtTest/qtest_gui.h
+usr/include/*/qt5/QtTest/qtest_network.h
 usr/include/*/qt5/QtTest/qtest_widgets.h
 usr/include/*/qt5/QtTest/qtestaccessible.h
 usr/include/*/qt5/QtTest/qtestassert.h
@@ -1493,6 +1509,8 @@ usr/include/*/qt5/QtWidgets/qtooltip.h
 usr/include/*/qt5/QtWidgets/qtreeview.h
 usr/include/*/qt5/QtWidgets/qtreewidget.h
 usr/include/*/qt5/QtWidgets/qtreewidgetitemiterator.h
+usr/include/*/qt5/QtWidgets/qtwidgets-config.h
+usr/include/*/qt5/QtWidgets/qtwidgetsglobal.h
 usr/include/*/qt5/QtWidgets/qtwidgetsversion.h
 usr/include/*/qt5/QtWidgets/qundogroup.h
 usr/include/*/qt5/QtWidgets/qundostack.h
@@ -1500,7 +1518,6 @@ usr/include/*/qt5/QtWidgets/qundoview.h
 usr/include/*/qt5/QtWidgets/qwhatsthis.h
 usr/include/*/qt5/QtWidgets/qwidget.h
 usr/include/*/qt5/QtWidgets/qwidgetaction.h
-usr/include/*/qt5/QtWidgets/qwidgetsfunctions_wince.h
 usr/include/*/qt5/QtWidgets/qwizard.h
 usr/include/*/qt5/QtXml/QDomAttr
 usr/include/*/qt5/QtXml/QDomCDATASection
@@ -1537,11 +1554,13 @@ usr/include/*/qt5/QtXml/QtXml
 usr/include/*/qt5/QtXml/QtXmlDepends
 usr/include/*/qt5/QtXml/QtXmlVersion
 usr/include/*/qt5/QtXml/qdom.h
+usr/include/*/qt5/QtXml/qtxml-config.h
 usr/include/*/qt5/QtXml/qtxmlglobal.h
 usr/include/*/qt5/QtXml/qtxmlversion.h
 usr/include/*/qt5/QtXml/qxml.h
 usr/lib/*/cmake/Qt5/Qt5Config.cmake
 usr/lib/*/cmake/Qt5/Qt5ConfigVersion.cmake
+usr/lib/*/cmake/Qt5/Qt5ModuleLocation.cmake
 usr/lib/*/cmake/Qt5Concurrent/Qt5ConcurrentConfig.cmake
 usr/lib/*/cmake/Qt5Concurrent/Qt5ConcurrentConfigVersion.cmake
 usr/lib/*/cmake/Qt5Core/Qt5CTestMacros.cmake
@@ -1598,8 +1617,6 @@ usr/lib/*/libQt5XcbQpa.prl
 usr/lib/*/libQt5XcbQpa.so
 usr/lib/*/libQt5Xml.prl
 usr/lib/*/libQt5Xml.so
-usr/lib/*/libqtpng.a
-usr/lib/*/libqtpng.prl
 usr/lib/*/pkgconfig/Qt5Concurrent.pc
 usr/lib/*/pkgconfig/Qt5Core.pc
 usr/lib/*/pkgconfig/Qt5DBus.pc

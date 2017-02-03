@@ -1,4 +1,4 @@
-usr/lib/*/libQt5EglDeviceIntegration.so.*
+usr/lib/*/libQt5EglFSDeviceIntegration.so.*
 usr/lib/*/libQt5EglFsKmsSupport.so.*
 usr/lib/*/qt5/plugins/egldeviceintegrations/*
 usr/lib/*/qt5/plugins/platforms/libqeglfs.so
