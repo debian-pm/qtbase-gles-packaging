@@ -18,6 +18,7 @@ qtbase-opensource-src (5.8.0+dfsg-1) UNRELEASED; urgency=medium
     they will be no longer read from the environment.
   * Update symbols files from the amd64 build log.
   * Bump qtbase-abi version to 5-8-0.
+  * Update debian/copyright using debian/scripts/update-copyright.
 
   [ Alexander Volkov ]
   * Remove debian/90qt5-opengl script, no longer needed (refs: #850705).

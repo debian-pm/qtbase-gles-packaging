@@ -59,6 +59,8 @@ class CopyrightInfo():
 
 
 def canonicalize_author_name(author):
+    if 'The Qt Company.' in author:
+        return 'The Qt Company Ltd.'
     if 'KDAB' in author:
         return 'Klarälvdalens Datakonsult AB, a KDAB Group company'
     if 'BlackBerry' in author:

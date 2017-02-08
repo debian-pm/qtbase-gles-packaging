@@ -67,6 +67,31 @@ License: LGPL-3 or GPL-2+
 
 ## BSD-3-clause
 
+Files: examples/network/multistreamclient/chatconsumer.cpp
+       examples/network/multistreamclient/chatconsumer.h
+       examples/network/multistreamclient/client.cpp
+       examples/network/multistreamclient/client.h
+       examples/network/multistreamclient/consumer.h
+       examples/network/multistreamclient/main.cpp
+       examples/network/multistreamclient/movieconsumer.cpp
+       examples/network/multistreamclient/movieconsumer.h
+       examples/network/multistreamclient/timeconsumer.cpp
+       examples/network/multistreamclient/timeconsumer.h
+       examples/network/multistreamserver/chatprovider.cpp
+       examples/network/multistreamserver/chatprovider.h
+       examples/network/multistreamserver/main.cpp
+       examples/network/multistreamserver/movieprovider.cpp
+       examples/network/multistreamserver/movieprovider.h
+       examples/network/multistreamserver/provider.h
+       examples/network/multistreamserver/server.cpp
+       examples/network/multistreamserver/server.h
+       examples/network/multistreamserver/timeprovider.cpp
+       examples/network/multistreamserver/timeprovider.h
+       examples/network/shared/sctpchannels.h
+       src/network/doc/snippets/code/src_network_socket_qsctpsocket.cpp
+Copyright: 2015-2016 Alex Trotsenko <alex1973tr@gmail.com>
+License: BSD-3-clause
+
 Files: src/corelib/doc/snippets/qmetaobject-revision/main.cpp
        src/corelib/doc/snippets/qmetaobject-revision/window.cpp
        src/corelib/doc/snippets/qmetaobject-revision/window.h
@@ -229,7 +254,8 @@ Files: tests/auto/network/ssl/qsslellipticcurve/tst_qsslellipticcurve.cpp
 Copyright: 2014 Governikus GmbH & Co. KG.
 License: GPL-3 with Qt-1.0 exception
 
-Files: tests/auto/network/ssl/qsslsocket/tst_qsslsocket.cpp
+Files: tests/auto/network/access/hpack/tst_hpack.cpp
+       tests/auto/network/ssl/qsslsocket/tst_qsslsocket.cpp
 Copyright: 2014 Governikus GmbH & Co. KG.
            2016 The Qt Company Ltd.
 License: GPL-3 with Qt-1.0 exception
@@ -243,6 +269,7 @@ Files: tests/auto/corelib/io/qipaddress/tst_qipaddress.cpp
        tests/auto/corelib/io/qprocess-noapplication/tst_qprocessnoapplication.cpp
        tests/auto/corelib/io/qprocess/testProcessHang/main.cpp
        tests/auto/corelib/io/qurlquery/tst_qurlquery.cpp
+       tests/auto/corelib/kernel/qdeadlinetimer/tst_qdeadlinetimer.cpp
        tests/auto/corelib/plugin/qpluginloader/fakeplugin.cpp
        tests/auto/corelib/plugin/qpluginloader/machtest/generate-bad.pl
        tests/auto/corelib/plugin/qpluginloader/machtest/ppcconverter.pl
@@ -251,6 +278,7 @@ Files: tests/auto/corelib/io/qipaddress/tst_qipaddress.cpp
        tests/auto/corelib/tools/qsharedpointer/nontracked.h
        tests/auto/dbus/qdbusconnection_delayed/tst_qdbusconnection_delayed.cpp
        tests/auto/dbus/qdbusconnection_no_app/tst_qdbusconnection_no_app.cpp
+       tests/auto/network/kernel/qnetworkdatagram/tst_qnetworkdatagram.cpp
        tests/auto/other/compiler/othersource.cpp
        tests/auto/other/qprocess_and_guieventloop/tst_qprocess_and_guieventloop.cpp
        tests/auto/other/qprocess_and_guieventloop/write-read-write/main.cpp
@@ -277,6 +305,8 @@ Files: configure
        configure.bat
        qmake/generators/makefiledeps.cpp
        qmake/generators/unix/unixmake2.cpp
+       qmake/main.cpp
+       src/tools/moc/main.cpp
        tests/auto/corelib/codecs/qtextcodec/tst_qtextcodec.cpp
        tests/auto/corelib/codecs/utf8/tst_utf8.cpp
        tests/auto/corelib/global/qnumeric/tst_qnumeric.cpp
@@ -392,6 +422,7 @@ Files: tests/auto/cmake/test(needsquoting)dirname/mywidget.cpp
        tests/auto/corelib/tools/qlatin1string/tst_qlatin1string.cpp
        tests/auto/corelib/tools/qpair/tst_qpair.cpp
        tests/auto/corelib/tools/qregularexpression/forceoptimize/tst_qregularexpression_forceoptimize.cpp
+       tests/auto/corelib/tools/qstringapisymmetry/tst_qstringapisymmetry.cpp
        tests/auto/corelib/tools/qstringiterator/tst_qstringiterator.cpp
        tests/auto/tools/moc/cxx11-explicit-override-control.h
        tests/auto/tools/moc/cxx11-final-classes.h
@@ -435,7 +466,8 @@ License: GPL-3 with Qt-1.0 exception
 Files: tests/auto/corelib/kernel/qmetaenum/tst_qmetaenum.cpp
        tests/auto/tools/moc/cxx11-enums.h
        tests/auto/tools/moc/dollars.h
-Copyright: 2011-2015 Olivier Goffart <ogoffart@woboq.com>
+       tests/benchmarks/corelib/thread/qreadwritelock/tst_qreadwritelock.cpp
+Copyright: 2011-2016 Olivier Goffart <ogoffart@woboq.com>
 License: GPL-3 with Qt-1.0 exception
 
 Files: src/tools/moc/generator.cpp
@@ -458,7 +490,8 @@ License: GPL-3 with Qt-1.0 exception
 
 Files: tests/benchmarks/corelib/kernel/qcoreapplication/main.cpp
        tests/benchmarks/corelib/tools/qstack/main.cpp
-Copyright: 2011-2015 Robin Burchell <robin.burchell@viroteck.net>
+       tests/benchmarks/gui/text/qtextdocument/main.cpp
+Copyright: 2011-2016 Robin Burchell <robin.burchell@viroteck.net>
 License: GPL-3 with Qt-1.0 exception
 
 Files: tests/benchmarks/corelib/tools/qalgorithms/tst_qalgorithms.cpp
@@ -514,6 +547,10 @@ License: GPL-3 with Qt-1.0 exception
 
 ## LGPL-2.1-or-3 with Qt-1.1 exception
 
+Files: tests/auto/network/socket/qsctpsocket/tst_qsctpsocket.cpp
+Copyright: 2016 Alex Trotsenko <alex1973tr@gmail.com>
+License: LGPL-2.1-or-3 with Qt-1.1 exception
+
 Files: src/plugins/platforms/integrity/qintegrityhidmanager.cpp
        src/plugins/platforms/integrity/qintegrityhidmanager.h
 Copyright: 2015 Green Hills Software
@@ -532,6 +569,9 @@ Copyright: 2016 Intel Corporation
 License: LGPL-2.1-or-3 with Qt-1.1 exception
 
 Files: config.tests/common/atomicfptr/atomicfptr.cpp
+       src/corelib/global/qglobal_p.h
+       src/corelib/kernel/qdeadlinetimer.cpp
+       src/corelib/kernel/qdeadlinetimer.h
        src/network/kernel/qnetworkdatagram_p.h
        tests/auto/dbus/qdbusconnection_spyhook/tst_qdbusconnection_spyhook.cpp
 Copyright: 2015-2016 Intel Corporation.
@@ -539,6 +579,24 @@ License: LGPL-2.1-or-3 with Qt-1.1 exception
 
 Files: tests/benchmarks/gui/painting/qcolor/tst_qcolor.cpp
 Copyright: 2016 Klarälvdalens Datakonsult AB, a KDAB Group company
+License: LGPL-2.1-or-3 with Qt-1.1 exception
+
+Files: src/plugins/generic/bsdkeyboard/main.cpp
+       src/plugins/generic/bsdkeyboard/qbsdkeyboard.cpp
+       src/plugins/generic/bsdkeyboard/qbsdkeyboard.h
+       src/plugins/generic/bsdmouse/main.cpp
+       src/plugins/generic/bsdmouse/qbsdmouse.cpp
+       src/plugins/generic/bsdmouse/qbsdmouse.h
+Copyright: 2015-2016 Oleksandr Tymoshenko <gonzo@bluezbox.com>
+License: LGPL-2.1-or-3 with Qt-1.1 exception
+
+Files: src/plugins/generic/bsdkeyboard/qbsdkeyboard_defaultmap.h
+       src/plugins/platforms/bsdfb/main.cpp
+       src/plugins/platforms/bsdfb/qbsdfbintegration.cpp
+       src/plugins/platforms/bsdfb/qbsdfbscreen.cpp
+       src/plugins/platforms/bsdfb/qbsdfbscreen.h
+Copyright: 2015-2016 Oleksandr Tymoshenko <gonzo@bluezbox.com>
+           2015-2016 The Qt Company Ltd.
 License: LGPL-2.1-or-3 with Qt-1.1 exception
 
 Files: mkspecs/qnx-aarch64le-qcc/qplatformdefs.h
@@ -556,28 +614,45 @@ Files: config.tests/unix/dlopen/dlopen.cpp
        mkspecs/devices/linux-rpi3-g++/qplatformdefs.h
        mkspecs/devices/linux-rpi3-vc4-g++/qplatformdefs.h
        mkspecs/features/data/mac/objc_namespace.sh
-       mkspecs/macx-ios-clang/ios_devices.pl
+       mkspecs/features/uikit/devices.pl
+       mkspecs/macx-tvos-clang/qplatformdefs.h
+       mkspecs/macx-watchos-clang/qplatformdefs.h
        mkspecs/win32-clang-msvc2015/qplatformdefs.h
+       mkspecs/win32-msvc2017/qplatformdefs.h
        src/corelib/statemachine/qfinalstate_p.h
+       src/gui/image/qimage_darwin.mm
+       src/gui/painting/qcoregraphics.mm
+       src/gui/painting/qcoregraphics_p.h
        src/platformheaders/xcbfunctions/qxcbscreenfunctions.h
+       src/plugins/platforms/bsdfb/qbsdfbintegration.h
        src/plugins/platforms/integrity/main.cpp
        src/plugins/platforms/integrity/qintegrityfbintegration.cpp
        src/plugins/platforms/integrity/qintegrityfbintegration.h
        src/plugins/platforms/integrity/qintegrityfbscreen.cpp
        src/plugins/platforms/integrity/qintegrityfbscreen.h
+       src/plugins/platforms/ios/optional/nsphotolibrarysupport/plugin.mm
+       src/plugins/platforms/ios/optional/nsphotolibrarysupport/qiosimagepickercontroller.h
+       src/plugins/platforms/ios/optional/nsphotolibrarysupport/qiosimagepickercontroller.mm
+       src/plugins/platforms/ios/qiosoptionalplugininterface.h
        src/plugins/platforms/ios/qiostextinputoverlay.h
        src/plugins/platforms/ios/qiostextinputoverlay.mm
        src/plugins/platforms/windows/qwindowsthreadpoolrunner.h
+       src/plugins/platformthemes/gtk3/qgtk3menu.cpp
+       src/plugins/platformthemes/gtk3/qgtk3menu.h
        src/testlib/qtestutil_macos.mm
        src/testlib/qtestutil_macos_p.h
        src/widgets/widgets/qbuttongroup_p.h
        tests/auto/gui/kernel/qkeyevent/tst_qkeyevent.cpp
+       tests/auto/widgets/widgets/qmenubar/tst_qmenubar_mac.mm
        tests/manual/diaglib/logwidget.cpp
        tests/manual/diaglib/logwidget.h
        tests/manual/embeddedintoforeignwindow/itemwindow.cpp
        tests/manual/embeddedintoforeignwindow/itemwindow.h
        tests/manual/embeddedintoforeignwindow/main.cpp
        tests/manual/foreignwindows/main.cpp
+       tests/manual/qcursor/childwidget/main.cpp
+       tests/manual/qcursor/childwindow/main.cpp
+       tests/manual/qcursor/childwindowcontainer/main.cpp
        tests/manual/widgets/styles/main.cpp
 Copyright: 2015-2016 The Qt Company Ltd.
 License: LGPL-2.1-or-3 with Qt-1.1 exception
@@ -604,8 +679,19 @@ Copyright: 2013 Aleix Pol Gonzalez <aleixpol@kde.org>
            2016 The Qt Company Ltd.
 License: LGPL-3 or GPL-2
 
+Files: config.tests/unix/sctp/sctp.cpp
+       src/network/socket/qsctpserver.cpp
+       src/network/socket/qsctpserver.h
+       src/network/socket/qsctpserver_p.h
+       src/network/socket/qsctpsocket.cpp
+       src/network/socket/qsctpsocket.h
+       src/network/socket/qsctpsocket_p.h
+Copyright: 2016 Alex Trotsenko <alex1973tr@gmail.com>
+License: LGPL-3 or GPL-2
+
 Files: src/corelib/tools/qringbuffer.cpp
-Copyright: 2015 Alex Trotsenko <alex1973tr@gmail.com>
+       src/network/socket/qtcpserver_p.h
+Copyright: 2015-2016 Alex Trotsenko <alex1973tr@gmail.com>
            2016 The Qt Company Ltd.
 License: LGPL-3 or GPL-2
 
@@ -716,7 +802,6 @@ License: LGPL-3 or GPL-2
 Files: src/android/jar/src/org/qtproject/qt5/android/ExtractStyle.java
        src/plugins/platforms/android/androidjniclipboard.cpp
        src/plugins/platforms/android/androidjniclipboard.h
-       src/plugins/platforms/android/androidjniinput.cpp
        src/plugins/platforms/android/androidjniinput.h
        src/plugins/platforms/android/androidjnimenu.cpp
        src/plugins/platforms/android/androidjnimenu.h
@@ -726,7 +811,6 @@ Files: src/android/jar/src/org/qtproject/qt5/android/ExtractStyle.java
        src/plugins/platforms/android/qandroidassetsfileenginehandler.h
        src/plugins/platforms/android/qandroideventdispatcher.cpp
        src/plugins/platforms/android/qandroideventdispatcher.h
-       src/plugins/platforms/android/qandroidinputcontext.h
        src/plugins/platforms/android/qandroidplatformclipboard.cpp
        src/plugins/platforms/android/qandroidplatformclipboard.h
        src/plugins/platforms/android/qandroidplatformdialoghelpers.cpp
@@ -750,8 +834,20 @@ Files: src/android/jar/src/org/qtproject/qt5/android/ExtractStyle.java
 Copyright: 2012-2014 BogDan Vatra <bogdan@kde.org>
 License: LGPL-3 or GPL-2
 
+Files: src/plugins/platforms/android/androidjniinput.cpp
+       src/plugins/platforms/android/qandroidinputcontext.h
+Copyright: 2012 BogDan Vatra <bogdan@kde.org>
+           2016 Olivier Goffart <ogoffart@woboq.com>
+License: LGPL-3 or GPL-2
+
 Files: src/android/jar/src/org/qtproject/qt5/android/QtActivityDelegate.java
-       src/android/jar/src/org/qtproject/qt5/android/QtEditText.java
+       src/plugins/platforms/android/qandroidinputcontext.cpp
+Copyright: 2012-2014 BogDan Vatra <bogdan@kde.org>
+           2016 Olivier Goffart <ogoffart@woboq.com>
+           2016 The Qt Company Ltd.
+License: LGPL-3 or GPL-2
+
+Files: src/android/jar/src/org/qtproject/qt5/android/QtEditText.java
        src/android/jar/src/org/qtproject/qt5/android/QtInputConnection.java
        src/android/jar/src/org/qtproject/qt5/android/QtLayout.java
        src/android/jar/src/org/qtproject/qt5/android/QtNative.java
@@ -760,7 +856,6 @@ Files: src/android/jar/src/org/qtproject/qt5/android/QtActivityDelegate.java
        src/android/jar/src/org/qtproject/qt5/android/QtSurface.java
        src/plugins/platforms/android/androidjnimain.cpp
        src/plugins/platforms/android/androidjnimain.h
-       src/plugins/platforms/android/qandroidinputcontext.cpp
        src/plugins/platforms/android/qandroidplatformbackingstore.cpp
        src/plugins/platforms/android/qandroidplatformbackingstore.h
        src/plugins/platforms/android/qandroidplatformopenglcontext.cpp
@@ -816,10 +911,6 @@ Files: mkspecs/common/android/qplatformdefs.h
 Copyright: 2012 Collabora Ltd, author <robin.burchell@collabora.co.uk>
 License: LGPL-3 or GPL-2
 
-Files: src/network/kernel/qnetworkproxy_p.h
-Copyright: 2009 David Faure <dfaure@kdab.net>
-License: LGPL-3 or GPL-2
-
 Files: src/corelib/io/qlockfile.h
        src/corelib/io/qlockfile_p.h
 Copyright: 2013 David Faure <faure+bluesystems@kde.org>
@@ -849,10 +940,10 @@ Copyright: 2013 David Faure <faure@kde.org>
            2013 Laszlo Papp <lpapp@kde.org>
 License: LGPL-3 or GPL-2
 
-Files: src/platformsupport/dbusmenu/qdbusmenubar.cpp
-       src/platformsupport/dbusmenu/qdbusmenubar_p.h
-       src/platformsupport/dbusmenu/qdbusmenuregistrarproxy.cpp
-       src/platformsupport/dbusmenu/qdbusmenuregistrarproxy_p.h
+Files: src/platformsupport/themes/genericunix/dbusmenu/qdbusmenubar.cpp
+       src/platformsupport/themes/genericunix/dbusmenu/qdbusmenubar_p.h
+       src/platformsupport/themes/genericunix/dbusmenu/qdbusmenuregistrarproxy.cpp
+       src/platformsupport/themes/genericunix/dbusmenu/qdbusmenuregistrarproxy_p.h
 Copyright: 2016 Dmitry Shachnev <mitya57@gmail.com>
 License: LGPL-3 or GPL-2
 
@@ -933,6 +1024,8 @@ Files: config.tests/common/atomic64/atomic64.cpp
        src/corelib/tools/qstringalgorithms_p.h
        src/corelib/tools/qvector_msvc.cpp
        src/dbus/dbus_minimal_p.h
+       src/network/kernel/qnetworkdatagram.cpp
+       src/network/kernel/qnetworkdatagram.h
        src/opengl/qtopenglglobal.h
        src/printsupport/kernel/qtprintsupportglobal.h
        src/testlib/qbenchmarkperfevents.cpp
@@ -1004,6 +1097,7 @@ Files: bin/syncqt.pl
        src/corelib/kernel/qcore_unix_p.h
        src/corelib/kernel/qcoreapplication.cpp
        src/corelib/kernel/qcoreevent.cpp
+       src/corelib/kernel/qelapsedtimer_unix.cpp
        src/corelib/kernel/qeventdispatcher_unix.cpp
        src/corelib/kernel/qeventdispatcher_win.cpp
        src/corelib/kernel/qobjectdefs.h
@@ -1024,7 +1118,8 @@ Files: bin/syncqt.pl
        src/corelib/tools/qbytearray.cpp
        src/corelib/tools/qbytearray.h
        src/corelib/tools/qdatetime.cpp
-       src/corelib/tools/qelapsedtimer_unix.cpp
+       src/corelib/tools/qdatetime.h
+       src/corelib/tools/qdatetime_p.h
        src/corelib/tools/qlist.cpp
        src/corelib/tools/qlocale.cpp
        src/corelib/tools/qlocale_p.h
@@ -1328,8 +1423,8 @@ Copyright: 2013 Laszlo Papp <lpapp@kde.org>
            2016 The Qt Company Ltd.
 License: LGPL-3 or GPL-2
 
-Files: src/platformsupport/dbustray/qdbustraytypes.cpp
-       src/platformsupport/dbustray/qdbustraytypes_p.h
+Files: src/platformsupport/themes/genericunix/dbustray/qdbustraytypes.cpp
+       src/platformsupport/themes/genericunix/dbustray/qdbustraytypes_p.h
 Copyright: 2009 Marco Martin <notmart@gmail.com>
            2016 The Qt Company Ltd.
 License: LGPL-3 or GPL-2
@@ -1337,6 +1432,21 @@ License: LGPL-3 or GPL-2
 Files: src/gui/kernel/qplatformmenu.cpp
 Copyright: 2014 Martin Graesslin <mgraesslin@kde.org>
            2016 The Qt Company Ltd.
+License: LGPL-3 or GPL-2
+
+Files: src/network/ssl/qssldiffiehellmanparameters.cpp
+       src/network/ssl/qssldiffiehellmanparameters.h
+       src/network/ssl/qssldiffiehellmanparameters_dummy.cpp
+       src/network/ssl/qssldiffiehellmanparameters_openssl.cpp
+       src/network/ssl/qssldiffiehellmanparameters_p.h
+       tests/auto/network/ssl/qssldiffiehellmanparameters/tst_qssldiffiehellmanparameters.cpp
+Copyright: 2015 Mikkel Krautz <mikkel@krautz.dk>
+License: LGPL-3 or GPL-2
+
+Files: src/android/jar/src/org/qtproject/qt5/android/CursorHandle.java
+       src/android/jar/src/org/qtproject/qt5/android/EditMenu.java
+       src/android/jar/src/org/qtproject/qt5/android/EditPopupMenu.java
+Copyright: 2016 Olivier Goffart <ogoffart@woboq.com>
 License: LGPL-3 or GPL-2
 
 Files: src/corelib/kernel/qmetaobject.cpp
@@ -1387,8 +1497,9 @@ Copyright: 2016 Pelagicore AG
            2016 The Qt Company Ltd.
 License: LGPL-3 or GPL-2
 
-Files: src/corelib/tools/qdatetime_mac.mm
+Files: src/corelib/kernel/qcore_foundation.mm
 Copyright: 2014 Petroules Corporation.
+           2014 Samuel Gaist <samuel.gaist@edeltech.ch>
            2016 The Qt Company Ltd.
 License: LGPL-3 or GPL-2
 
@@ -1436,7 +1547,6 @@ License: LGPL-3 or GPL-2
 
 Files: src/corelib/io/qfilesystemengine_unix.cpp
        src/corelib/kernel/qcoreapplication_win.cpp
-       src/corelib/tools/qbytearray_mac.mm
        src/gui/image/qpnghandler.cpp
        src/gui/kernel/qsessionmanager_p.h
        src/platformsupport/eventdispatchers/qwindowsguieventdispatcher.cpp
@@ -1446,7 +1556,7 @@ Files: src/corelib/io/qfilesystemengine_unix.cpp
        src/plugins/platforms/windows/qwindowsintegration.h
        src/plugins/platforms/windows/qwindowssessionmanager.cpp
        src/plugins/platforms/windows/qwindowssessionmanager.h
-Copyright: 2013-2014 Samuel Gaist <samuel.gaist@edeltech.ch>
+Copyright: 2013 Samuel Gaist <samuel.gaist@edeltech.ch>
            2016 The Qt Company Ltd.
 License: LGPL-3 or GPL-2
 
@@ -1481,9 +1591,10 @@ License: LGPL-3 or GPL-2
 
 ## LGPL-3 or GPL-2+
 
-Files: src/plugins/platforms/winrt/qwinrtdrag.cpp
+Files: src/plugins/platforms/vnc/qvncintegration.cpp
+       src/plugins/platforms/winrt/qwinrtdrag.cpp
        src/plugins/platforms/winrt/qwinrtdrag.h
-Copyright: 2016 The Qt Company Ltd.
+Copyright: 2015-2016 The Qt Company Ltd.
 License: LGPL-3 or GPL-2+
 
 ## END AUTO GENERATED BLOCK
