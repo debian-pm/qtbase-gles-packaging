@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.7.0 amd64
+# SymbolsHelper-Confirmed: 5.8.0 amd64
 libQt5Sql.so.5 libqt5sql5 #MINVER#
 | libqt5sql5 #MINVER#, qtbase-abi-5-7-1
 * Build-Depends-Package: qtbase5-dev
@@ -10,6 +10,7 @@ libQt5Sql.so.5 libqt5sql5 #MINVER#
  Qt_5.5@Qt_5.5 5.6.0~beta
  Qt_5.6@Qt_5.6 5.6.0~beta
  Qt_5.7@Qt_5.7 5.7.0
+ Qt_5.8@Qt_5.8 5.8.0
  Qt_5@Qt_5 5.6.0~beta
  Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN10QSqlDriver11cancelQueryEv@Qt_5 5.0.2

@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.7.1 m68k
+# SymbolsHelper-Confirmed: 5.8.0 amd64
 libQt5Widgets.so.5 libqt5widgets5 #MINVER#
 | libqt5widgets5 #MINVER#, qtbase-abi-5-7-1
 * Build-Depends-Package: qtbase5-dev
@@ -10,6 +10,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  Qt_5.5@Qt_5.5 5.6.0~beta
  Qt_5.6@Qt_5.6 5.6.0~beta
  Qt_5.7@Qt_5.7 5.7.0
+ Qt_5.8@Qt_5.8 5.8.0
  Qt_5@Qt_5 5.6.0~beta
  Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0~beta 1
  _Z11qFadeEffectP7QWidgeti@Qt_5 5.0.2
@@ -293,6 +294,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN10QUndoGroupD1Ev@Qt_5 5.0.2
  _ZN10QUndoGroupD2Ev@Qt_5 5.0.2
  _ZN10QUndoStack10beginMacroERK7QString@Qt_5 5.0.2
+ _ZN10QUndoStack10resetCleanEv@Qt_5 5.8.0
  _ZN10QUndoStack11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.0.2
  _ZN10QUndoStack11qt_metacastEPKc@Qt_5 5.0.2
  _ZN10QUndoStack12cleanChangedEb@Qt_5 5.0.2
@@ -493,12 +495,18 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN11QFormLayout6takeAtEi@Qt_5 5.0.2
  _ZN11QFormLayout7addItemEP11QLayoutItem@Qt_5 5.0.2
  _ZN11QFormLayout7setItemEiNS_8ItemRoleEP11QLayoutItem@Qt_5 5.0.2
+ _ZN11QFormLayout7takeRowEP7QLayout@Qt_5 5.8.0
+ _ZN11QFormLayout7takeRowEP7QWidget@Qt_5 5.8.0
+ _ZN11QFormLayout7takeRowEi@Qt_5 5.8.0
  _ZN11QFormLayout9insertRowEiP7QLayout@Qt_5 5.0.2
  _ZN11QFormLayout9insertRowEiP7QWidget@Qt_5 5.0.2
  _ZN11QFormLayout9insertRowEiP7QWidgetP7QLayout@Qt_5 5.0.2
  _ZN11QFormLayout9insertRowEiP7QWidgetS1_@Qt_5 5.0.2
  _ZN11QFormLayout9insertRowEiRK7QStringP7QLayout@Qt_5 5.0.2
  _ZN11QFormLayout9insertRowEiRK7QStringP7QWidget@Qt_5 5.0.2
+ _ZN11QFormLayout9removeRowEP7QLayout@Qt_5 5.8.0
+ _ZN11QFormLayout9removeRowEP7QWidget@Qt_5 5.8.0
+ _ZN11QFormLayout9removeRowEi@Qt_5 5.8.0
  _ZN11QFormLayout9setLayoutEiNS_8ItemRoleEP7QLayout@Qt_5 5.0.2
  _ZN11QFormLayout9setWidgetEiNS_8ItemRoleEP7QWidget@Qt_5 5.0.2
  _ZN11QFormLayoutC1EP7QWidget@Qt_5 5.0.2
@@ -700,6 +708,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN11QMainWindow18setToolButtonStyleEN2Qt15ToolButtonStyleE@Qt_5 5.0.2
  _ZN11QMainWindow21setDockNestingEnabledEb@Qt_5 5.0.2
  _ZN11QMainWindow22toolButtonStyleChangedEN2Qt15ToolButtonStyleE@Qt_5 5.0.2
+ _ZN11QMainWindow27tabifiedDockWidgetActivatedEP11QDockWidget@Qt_5 5.8.0
  _ZN11QMainWindow30setUnifiedTitleAndToolBarOnMacEb@Qt_5 5.0.2
  _ZN11QMainWindow5eventEP6QEvent@Qt_5 5.0.2
  _ZN11QMainWindow9setCornerEN2Qt6CornerENS0_14DockWidgetAreaE@Qt_5 5.0.2
@@ -3127,6 +3136,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN18QWidgetTextControl11setDocumentEP13QTextDocument@Qt_5_PRIVATE_API 5.0.2 1
  _ZN18QWidgetTextControl11textChangedEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZN18QWidgetTextControl12drawContentsEP8QPainterRK6QRectFP7QWidget@Qt_5_PRIVATE_API 5.0.2 1
+ _ZN18QWidgetTextControl12isPreeditingEv@Qt_5_PRIVATE_API 5.8.0 1
  _ZN18QWidgetTextControl12loadResourceEiRK4QUrl@Qt_5_PRIVATE_API 5.0.2 1
  _ZN18QWidgetTextControl12processEventEP6QEventRK7QMatrixP7QWidget@Qt_5_PRIVATE_API 5.0.2 1
  _ZN18QWidgetTextControl12processEventEP6QEventRK7QPointFP7QWidget@Qt_5_PRIVATE_API 5.0.2 1
@@ -3287,7 +3297,6 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN19QApplicationPrivate7sys_palE@Qt_5_PRIVATE_API 5.0.2 1
  _ZN19QApplicationPrivate8set_fontE@Qt_5_PRIVATE_API 5.0.2 1
  _ZN19QApplicationPrivate8sys_fontE@Qt_5_PRIVATE_API 5.0.2 1
- _ZN19QApplicationPrivate9app_cspecE@Qt_5_PRIVATE_API 5.0.2 1
  _ZN19QApplicationPrivate9app_strutE@Qt_5_PRIVATE_API 5.0.2 1
  _ZN19QApplicationPrivate9app_styleE@Qt_5_PRIVATE_API 5.0.2 1
  _ZN19QApplicationPrivate9openPopupEP7QWidget@Qt_5_PRIVATE_API 5.0.2 1
@@ -4310,6 +4319,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN7QTabBar17mouseReleaseEventEP11QMouseEvent@Qt_5 5.0.2
  _ZN7QTabBar17tabCloseRequestedEi@Qt_5 5.0.2
  _ZN7QTabBar19tabBarDoubleClickedEi@Qt_5 5.2.0~alpha1
+ _ZN7QTabBar20setAccessibleTabNameEiRK7QString@Qt_5 5.8.0
  _ZN7QTabBar20setUsesScrollButtonsEb@Qt_5 5.0.2
  _ZN7QTabBar22setChangeCurrentOnDragEb@Qt_5 5.4.0
  _ZN7QTabBar28setSelectionBehaviorOnRemoveENS_17SelectionBehaviorE@Qt_5 5.0.2
@@ -7115,6 +7125,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK7QTabBar12tabsClosableEv@Qt_5 5.0.2
  _ZNK7QTabBar15initStyleOptionEP15QStyleOptionTabi@Qt_5 5.0.2
  _ZNK7QTabBar15minimumSizeHintEv@Qt_5 5.0.2
+ _ZNK7QTabBar17accessibleTabNameEi@Qt_5 5.8.0
  _ZNK7QTabBar17usesScrollButtonsEv@Qt_5 5.0.2
  _ZNK7QTabBar18minimumTabSizeHintEi@Qt_5 5.0.2
  _ZNK7QTabBar19changeCurrentOnDragEv@Qt_5 5.4.0

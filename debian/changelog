@@ -16,6 +16,7 @@ qtbase-opensource-src (5.8.0+dfsg-1) UNRELEASED; urgency=medium
   * Drop “-gstreamer 1.0” configuration option, dropped upstream.
   * Pass the compiler and linker flags to configure explicitly,
     they will be no longer read from the environment.
+  * Update symbols files from the amd64 build log.
 
   [ Alexander Volkov ]
   * Remove debian/90qt5-opengl script, no longer needed (refs: #850705).
