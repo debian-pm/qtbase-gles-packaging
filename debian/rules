@@ -141,7 +141,10 @@ override_dh_auto_configure:
 	            -compile-examples \
 	            -no-directfb \
 	            $(extra_configure_opts) \
-	            $(cpu_opt)
+	            $(cpu_opt) \
+	            QMAKE_CFLAGS="$(CFLAGS)" \
+	            QMAKE_CXXFLAGS="$(CXXFLAGS)" \
+	            QMAKE_LFLAGS="$(LDFLAGS)"
 
 override_dh_auto_clean:
 	[ ! -f Makefile ] || $(MAKE) confclean distclean
