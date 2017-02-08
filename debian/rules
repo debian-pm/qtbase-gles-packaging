@@ -97,7 +97,8 @@ endif
 	dh $@ --parallel --with pkgkde_symbolshelper
 
 override_dh_auto_configure:
-	MAKEFLAGS="-j$(NUMJOBS)" ./configure \
+	MAKEFLAGS="-j$(NUMJOBS) ${CXXFLAGS:%=EXTRA_CXXFLAGS+=%} ${LDFLAGS:%=EXTRA_LFLAGS+=%}" \
+	        ./configure \
 	            -confirm-license \
 	            -prefix "/usr" \
 	            -bindir "/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/bin" \
@@ -145,6 +146,9 @@ override_dh_auto_configure:
 	            QMAKE_CFLAGS="$(CFLAGS)" \
 	            QMAKE_CXXFLAGS="$(CXXFLAGS)" \
 	            QMAKE_LFLAGS="$(LDFLAGS)"
+	# qtConfOutput_qmakeArgs sets the flags inside a !host_build {...}
+	# block, but we want them to be set for tools using host_build too.
+	sed -i "s/\!host_build {/true {/" mkspecs/qmodule.pri
 
 override_dh_auto_clean:
 	[ ! -f Makefile ] || $(MAKE) confclean distclean
