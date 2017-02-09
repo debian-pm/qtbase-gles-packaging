@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.8.0 amd64
+# SymbolsHelper-Confirmed: 5.8.0 amd64 i386
 libQt5Network.so.5 libqt5network5 #MINVER#
 | libqt5network5 #MINVER#, qtbase-abi-5-8-0
 * Build-Depends-Package: qtbase5-dev
@@ -1256,20 +1256,20 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  _ZNK9QSslError11errorStringEv@Qt_5 5.0.2
  _ZNK9QSslError5errorEv@Qt_5 5.0.2
  _ZNK9QSslErroreqERKS_@Qt_5 5.0.2
- (optional=templinst)_ZNSt11_Deque_baseIjSaIjEE17_M_initialize_mapEm@Qt_5 5.8.0
+ (optional=templinst|subst)_ZNSt11_Deque_baseIjSaIjEE17_M_initialize_mapE{size_t}@Qt_5 5.8.0
  (optional=templinst)_ZNSt11_Deque_baseIjSaIjEED1Ev@Qt_5 5.8.0
  (optional=templinst)_ZNSt11_Deque_baseIjSaIjEED2Ev@Qt_5 5.8.0
- (optional=templinst)_ZNSt15_Deque_iteratorIjRjPjEpLEl@Qt_5 5.8.0
+ (optional=templinst|subst)_ZNSt15_Deque_iteratorIjRjPjEpLE{ssize_t}@Qt_5 5.8.0
  (optional=templinst)_ZNSt5dequeIjSaIjEE13_M_insert_auxIJRKjEEESt15_Deque_iteratorIjRjPjES8_DpOT_@Qt_5 5.8.0
  (optional=templinst)_ZNSt5dequeIjSaIjEE16_M_push_back_auxIJjEEEvDpOT_@Qt_5 5.8.0
  (optional=templinst)_ZNSt5dequeIjSaIjEE17_M_push_front_auxIJjEEEvDpOT_@Qt_5 5.8.0
- (optional=templinst)_ZNSt5dequeIjSaIjEE17_M_reallocate_mapEmb@Qt_5 5.8.0
+ (optional=templinst|subst)_ZNSt5dequeIjSaIjEE17_M_reallocate_mapE{size_t}b@Qt_5 5.8.0
  (optional=templinst)_ZNSt5dequeIjSaIjEE8_M_eraseESt15_Deque_iteratorIjRjPjE@Qt_5 5.8.0
  (optional=templinst)_ZNSt5dequeIjSaIjEE8_M_eraseESt15_Deque_iteratorIjRjPjES5_@Qt_5 5.8.0
  (optional=templinst)_ZNSt6vectorIhSaIhEE12emplace_backIJhEEEvDpOT_@Qt_5 5.8.0
  (optional=templinst)_ZNSt6vectorIhSaIhEE15_M_range_insertIPKcEEvN9__gnu_cxx17__normal_iteratorIPhS1_EET_S9_St20forward_iterator_tag@Qt_5 5.8.0
  (optional=templinst)_ZNSt6vectorIhSaIhEE15_M_range_insertIPKhEEvN9__gnu_cxx17__normal_iteratorIPhS1_EET_S9_St20forward_iterator_tag@Qt_5 5.8.0
- (optional=templinst)_ZNSt6vectorIhSaIhEE17_M_default_appendEm@Qt_5 5.8.0
+ (optional=templinst|subst)_ZNSt6vectorIhSaIhEE17_M_default_appendE{size_t}@Qt_5 5.8.0
  (optional=templinst)_ZNSt6vectorIjSaIjEE19_M_emplace_back_auxIJRKjEEEvDpOT_@Qt_5 5.8.0
  (optional=templinst)_ZSt13move_backwardIjESt15_Deque_iteratorIT_RS1_PS1_ES4_S4_S4_@Qt_5 5.8.0
  (optional=templinst)_ZSt4moveIjESt15_Deque_iteratorIT_RS1_PS1_ES4_S4_S4_@Qt_5 5.8.0
