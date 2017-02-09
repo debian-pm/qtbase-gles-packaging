@@ -327,7 +327,7 @@ override_dh_strip:
 	dh_strip --remaining-packages --dbgsym-migration='qtbase5-dbg (<< 5.7.1+dfsg-1~)'
 
 override_dh_makeshlibs:
-	dh_makeshlibs -V -XlibQt5EglDeviceIntegration -XlibQt5EglFsKmsSupport -XlibQt5XcbQpa
+	dh_makeshlibs -V -XlibQt5EglFSDeviceIntegration -XlibQt5EglFsKmsSupport -XlibQt5XcbQpa
 
 override_dh_clean:
 	dh_clean

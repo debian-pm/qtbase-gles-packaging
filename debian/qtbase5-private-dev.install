@@ -77,8 +77,6 @@ usr/lib/*/libQt5AccessibilitySupport.a
 usr/lib/*/libQt5AccessibilitySupport.prl
 usr/lib/*/libQt5DeviceDiscoverySupport.a
 usr/lib/*/libQt5DeviceDiscoverySupport.prl
-usr/lib/*/libQt5EglFSDeviceIntegration.prl
-usr/lib/*/libQt5EglFSDeviceIntegration.so
 usr/lib/*/libQt5EglSupport.a
 usr/lib/*/libQt5EglSupport.prl
 usr/lib/*/libQt5EventDispatcherSupport.a

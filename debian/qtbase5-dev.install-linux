@@ -1,2 +1,4 @@
+usr/lib/*/libQt5EglFSDeviceIntegration.prl
+usr/lib/*/libQt5EglFSDeviceIntegration.so
 usr/lib/*/libQt5EglFsKmsSupport.prl
 usr/lib/*/libQt5EglFsKmsSupport.so
