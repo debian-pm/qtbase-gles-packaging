@@ -440,6 +440,7 @@ Description: Qt 5 development defaults package
  more information.
 
 Package: qtbase5-doc
+Build-Profiles: <!nodoc>
 Priority: extra
 Architecture: all
 Section: doc
@@ -451,6 +452,7 @@ Description: Qt 5 base documentation
  This package contains the documentation for the Qt 5 base libraries.
 
 Package: qtbase5-doc-html
+Build-Profiles: <!nodoc>
 Priority: extra
 Architecture: all
 Section: doc

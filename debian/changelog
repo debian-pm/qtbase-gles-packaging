@@ -21,6 +21,8 @@ qtbase-opensource-src (5.8.0+dfsg-1) UNRELEASED; urgency=medium
   * Update debian/copyright using debian/scripts/update-copyright.
   * Update the dh_makeshlibs call and the Lintian overrides for
     libQt5EglDeviceIntegration → libQt5EglFSDeviceIntegration rename.
+  * Do not build the documentation packages when nodoc profile is enabled
+    (closes: #852447).
 
   [ Alexander Volkov ]
   * Remove debian/90qt5-opengl script, no longer needed (refs: #850705).
