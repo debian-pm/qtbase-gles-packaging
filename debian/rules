@@ -147,6 +147,8 @@ override_dh_auto_configure:
 	# qtConfOutput_qmakeArgs sets the flags inside a !host_build {...}
 	# block, but we want them to be set for tools using host_build too.
 	sed -i "s/\!host_build {/true {/" mkspecs/qmodule.pri
+	# Prevent Makefile from re-running qmake after the .pri was changed.
+	touch Makefile
 
 override_dh_auto_clean:
 	[ ! -f Makefile ] || $(MAKE) confclean distclean
