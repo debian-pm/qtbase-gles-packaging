@@ -16,8 +16,6 @@ export LDFLAGS := $(shell dpkg-buildflags --get LDFLAGS) -Wl,--as-needed
 
 # Upstream changelog
 upstream_changes := dist/changes-$(shell dpkg-parsechangelog | sed -n 's/^Version: //p' | cut -f1 -d '-' | sed -e 's/+dfsg//' | sed -e 's/+git.*//')
-# Distribution vendor
-vendor := $(shell dpkg-vendor --query Vendor)
 
 # To easier the files installation according to OSes and CPUs, we create three
 # kinds of install files: foo.install-common, foo.install-$DEB_HOST_ARCH_CPU and
@@ -219,10 +217,6 @@ override_dh_auto_clean:
 
 	# more leftovers
 	rm -f .device.vars .qmake.vars
-
-ifeq ($(vendor),Ubuntu)
-	rm -rf po
-endif
 
 override_dh_auto_build-indep:
 	dh_auto_build -- docs
