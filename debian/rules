@@ -227,9 +227,8 @@ override_dh_auto_build-arch:
 	cd $(CURDIR)/src; ../bin/qmake; make sub-corelib
 	# Add here the code to generate the helpers and then the headers.
 	LC_ALL=C.UTF-8 sh debian/generateTLDs.sh
-	# Clean up the compiled code and start again.
-	cd $(CURDIR)/src; make distclean
-	make clean
+	# Rebuild only the object file that used the generated header.
+	rm src/corelib/.obj/qtldurl.o
 	dh_auto_build
 
 override_dh_auto_install-arch:

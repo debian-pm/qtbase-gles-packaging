@@ -26,6 +26,8 @@ qtbase-opensource-src (5.8.0+dfsg-1) UNRELEASED; urgency=medium
   * Bump Qt build-dependencies for documentation to 5.8.0, for the new
     qtattributionsscanner tool.
   * Remove unused code which is leftover from Qt 4.
+  * After generating qurltlds_p.h, rebuild only the corresponding source
+    file, not the whole qtcore.
 
   [ Alexander Volkov ]
   * Remove debian/90qt5-opengl script, no longer needed (refs: #850705).
