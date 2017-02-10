@@ -2,6 +2,9 @@
 qsettings_simplify_logic.diff
 qsettings_XDG_CONFIG_DIRS.diff
 
+# Forwarded upstream
+qvncscreen_semicolon.diff
+
 # Debian specific.
 no_dbus_dependency.diff
 gnukfreebsd.diff
