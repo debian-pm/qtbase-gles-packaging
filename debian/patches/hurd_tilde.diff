@@ -1,0 +1,18 @@
+Description: undef TILDE to fix compilation on Hurd
+Author: Dmitry Shachnev <mitya57@debian.org>
+Forwarded: https://codereview.qt-project.org/185255
+Last-Update: 2017-02-10
+
+--- a/src/gui/text/qcssparser_p.h
++++ b/src/gui/text/qcssparser_p.h
+@@ -75,6 +75,10 @@
+ #if defined(Q_OS_INTEGRITY)
+ #  undef Value
+ #endif
++// Hurd has #define TILDE 0x00080000 from <sys/ioctl.h>
++#if defined(TILDE)
++#  undef TILDE
++#endif
+ 
+ #define QT_CSS_DECLARE_TYPEINFO(Class, Type) \
+     } /* namespace QCss */ \
