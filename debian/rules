@@ -17,24 +17,6 @@ export LDFLAGS := $(shell dpkg-buildflags --get LDFLAGS) -Wl,--as-needed
 # Upstream changelog
 upstream_changes := dist/changes-$(shell dpkg-parsechangelog | sed -n 's/^Version: //p' | cut -f1 -d '-' | sed -e 's/+dfsg//' | sed -e 's/+git.*//')
 
-# To easier the files installation according to OSes and CPUs, we create three
-# kinds of install files: foo.install-common, foo.install-$DEB_HOST_ARCH_CPU and
-# foo.install-$DEB_HOST_ARCH_OS. In this case we can fine-tune what we install.
-#
-# Note that if any foo.install-* file exists and foo.install exist too, the
-# later will get overwritten.
-#
-# I've opened a bug in debhelper to allow this:
-# http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=703201
-
-# Retrieve packages that have a .install-common file
-pkgs_with_common = $(patsubst debian/%.install-common,%,$(wildcard debian/*.install-common))
-# Retrieve packages that have a .install-$DEB_HOST_ARCH_CPU file
-pkgs_with_arch = $(patsubst debian/%.install-$(DEB_HOST_ARCH_CPU),%,$(wildcard debian/*.install-$(DEB_HOST_ARCH_CPU)))
-# Retrieve packages that have a .install-$DEB_HOST_ARCH_OS file
-pkgs_with_os = $(patsubst debian/%.install-$(DEB_HOST_ARCH_OS),%,$(wildcard debian/*.install-$(DEB_HOST_ARCH_OS)))
-
-
 ifneq (,$(filter libqt5sql5-ibase,$(shell dh_listpackages)))
 	extra_configure_opts += -plugin-sql-ibase
 else
@@ -289,21 +271,6 @@ override_dh_auto_install-indep:
 	dh_auto_build -- INSTALL_ROOT=$(CURDIR)/debian/tmp install_docs
 
 override_dh_install:
-	# Now flush all the .install-* files as .install files.
-	set -e; for pkg in $(pkgs_with_common); do \
-		cat debian/$$pkg.install-common >> debian/$$pkg.install ; \
-	done
-
-	set -e; for pkg in $(pkgs_with_arch); do \
-		cat debian/$$pkg.install-$(DEB_HOST_ARCH_CPU) >> debian/$$pkg.install ; \
-	done
-
-	set -e; for pkg in $(pkgs_with_os); do \
-		cat debian/$$pkg.install-$(DEB_HOST_ARCH_OS) >> debian/$$pkg.install ; \
-	done
-
-	# Call dh_install normally. It will process .install, .install.ARCH
-	# and/or .install.OS files.
 	dh_install --fail-missing
 
 override_dh_installdocs:
@@ -323,19 +290,3 @@ override_dh_strip:
 
 override_dh_makeshlibs:
 	dh_makeshlibs -V -XlibQt5EglFSDeviceIntegration -XlibQt5EglFsKmsSupport -XlibQt5XcbQpa
-
-override_dh_clean:
-	dh_clean
-
-	# Don't forget to remove the .install files we generated.
-	for pkg in $(pkgs_with_common); do \
-		rm -f debian/$$pkg.install ; \
-	done
-
-	for pkg in $(pkgs_with_arch); do \
-		rm -f debian/$$pkg.install ; \
-	done
-
-	for pkg in $(pkgs_with_os); do \
-		rm -f debian/$$pkg.install ; \
-	done

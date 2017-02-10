@@ -1,3 +1,8 @@
+#! /usr/bin/dh-exec
+[kfreebsd-any linux-any] usr/lib/*/libQt5EglFSDeviceIntegration.prl
+[kfreebsd-any linux-any] usr/lib/*/libQt5EglFSDeviceIntegration.so
+[kfreebsd-any linux-any] usr/lib/*/libQt5EglFsKmsSupport.prl
+[kfreebsd-any linux-any] usr/lib/*/libQt5EglFsKmsSupport.so
 usr/include/*/qt5/QtConcurrent/QtConcurrent
 usr/include/*/qt5/QtConcurrent/QtConcurrentDepends
 usr/include/*/qt5/QtConcurrent/QtConcurrentFilter

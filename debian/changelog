@@ -4,6 +4,7 @@ qtbase-opensource-src (5.8.0+dfsg-2) UNRELEASED; urgency=medium
   * Add a patch to fix compilation error on big endian systems because of
     missing semicolon (qvnc_semicolon.diff).
   * Add a patch to fix compilation error on Hurd (hurd_tilde.diff).
+  * Switch from *.install-* files to dh-exec based .install files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 10 Feb 2017 16:46:27 +0300
 

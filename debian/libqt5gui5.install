@@ -1,0 +1,26 @@
+#! /usr/bin/dh-exec
+[any-i386] usr/lib/*/sse2/libQt5Gui.so.*
+[kfreebsd-any linux-any] usr/lib/*/libQt5EglFSDeviceIntegration.so.*
+[kfreebsd-any linux-any] usr/lib/*/libQt5EglFsKmsSupport.so.*
+[kfreebsd-any linux-any] usr/lib/*/qt5/plugins/egldeviceintegrations/*
+[kfreebsd-any linux-any] usr/lib/*/qt5/plugins/platforms/libqeglfs.so
+[kfreebsd-any linux-any] usr/lib/*/qt5/plugins/platforms/libqminimalegl.so
+[linux-any] usr/lib/*/qt5/plugins/generic/libqevdevkeyboardplugin.so
+[linux-any] usr/lib/*/qt5/plugins/generic/libqevdevmouseplugin.so
+[linux-any] usr/lib/*/qt5/plugins/generic/libqevdevtabletplugin.so
+[linux-any] usr/lib/*/qt5/plugins/generic/libqevdevtouchplugin.so
+[linux-any] usr/lib/*/qt5/plugins/generic/libqlibinputplugin.so
+[linux-any] usr/lib/*/qt5/plugins/platforms/libqlinuxfb.so
+usr/lib/*/libQt5Gui.so.*
+usr/lib/*/libQt5XcbQpa.so.*
+usr/lib/*/qt5/plugins/generic/libqtuiotouchplugin.so
+usr/lib/*/qt5/plugins/imageformats/libqgif.so
+usr/lib/*/qt5/plugins/imageformats/libqico.so
+usr/lib/*/qt5/plugins/imageformats/libqjpeg.so
+usr/lib/*/qt5/plugins/platforminputcontexts/libcomposeplatforminputcontextplugin.so
+usr/lib/*/qt5/plugins/platforminputcontexts/libibusplatforminputcontextplugin.so
+usr/lib/*/qt5/plugins/platforms/libqminimal.so
+usr/lib/*/qt5/plugins/platforms/libqoffscreen.so
+usr/lib/*/qt5/plugins/platforms/libqvnc.so
+usr/lib/*/qt5/plugins/platforms/libqxcb.so
+usr/lib/*/qt5/plugins/xcbglintegrations/*
