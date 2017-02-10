@@ -1,3 +1,11 @@
+#! /usr/bin/dh-exec
+[!armel !armhf] usr/include/*/qt5/QtGlxSupport/5.*/*
+[!armel !armhf] usr/include/*/qt5/QtGlxSupport/QtGlxSupport
+[!armel !armhf] usr/include/*/qt5/QtGlxSupport/QtGlxSupportDepends
+[!armel !armhf] usr/include/*/qt5/QtGlxSupport/QtGlxSupportVersion
+[!armel !armhf] usr/include/*/qt5/QtGlxSupport/qtglxsupportversion.h
+[!armel !armhf] usr/lib/*/libQt5GlxSupport.a
+[!armel !armhf] usr/lib/*/libQt5GlxSupport.prl
 usr/include/*/qt5/QtAccessibilitySupport/5.*/*
 usr/include/*/qt5/QtAccessibilitySupport/QtAccessibilitySupport
 usr/include/*/qt5/QtAccessibilitySupport/QtAccessibilitySupportDepends
@@ -35,11 +43,6 @@ usr/include/*/qt5/QtFontDatabaseSupport/QtFontDatabaseSupport
 usr/include/*/qt5/QtFontDatabaseSupport/QtFontDatabaseSupportDepends
 usr/include/*/qt5/QtFontDatabaseSupport/QtFontDatabaseSupportVersion
 usr/include/*/qt5/QtFontDatabaseSupport/qtfontdatabasesupportversion.h
-usr/include/*/qt5/QtGlxSupport/5.*/*
-usr/include/*/qt5/QtGlxSupport/QtGlxSupport
-usr/include/*/qt5/QtGlxSupport/QtGlxSupportDepends
-usr/include/*/qt5/QtGlxSupport/QtGlxSupportVersion
-usr/include/*/qt5/QtGlxSupport/qtglxsupportversion.h
 usr/include/*/qt5/QtGui/5.*/*
 usr/include/*/qt5/QtInputSupport/5.*/*
 usr/include/*/qt5/QtInputSupport/QtInputSupport
@@ -85,8 +88,6 @@ usr/lib/*/libQt5FbSupport.a
 usr/lib/*/libQt5FbSupport.prl
 usr/lib/*/libQt5FontDatabaseSupport.a
 usr/lib/*/libQt5FontDatabaseSupport.prl
-usr/lib/*/libQt5GlxSupport.a
-usr/lib/*/libQt5GlxSupport.prl
 usr/lib/*/libQt5InputSupport.a
 usr/lib/*/libQt5InputSupport.prl
 usr/lib/*/libQt5LinuxAccessibilitySupport.a
