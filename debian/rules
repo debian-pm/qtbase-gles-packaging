@@ -273,9 +273,6 @@ override_dh_auto_install-indep:
 override_dh_install:
 	dh_install --fail-missing
 
-override_dh_installdocs:
-	dh_installdocs --all LGPL_EXCEPTION.txt
-
 override_dh_installchangelogs:
 	if [ -f $(upstream_changes) ] ; then \
 		dh_installchangelogs $(upstream_changes); \
