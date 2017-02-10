@@ -7,6 +7,7 @@ qtbase-opensource-src (5.8.0+dfsg-2) UNRELEASED; urgency=medium
   * Switch from *.install-* files to dh-exec based .install files.
   * Do not install QtGlxSupport library on armel and armhf, it is not
     built when opengles2 is in use.
+  * Mark QtInputSupport as linux-only, because it needs libinput.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 10 Feb 2017 16:46:27 +0300
 
