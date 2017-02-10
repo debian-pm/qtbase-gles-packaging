@@ -2,7 +2,7 @@ qtbase-opensource-src (5.8.0+dfsg-2) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * Add a patch to fix compilation error on big endian systems because of
-    missing semicolon (qvnc_semicolon.diff).
+    missing semicolon (qvncscreen_semicolon.diff).
   * Add a patch to fix compilation error on Hurd (hurd_tilde.diff).
   * Switch from *.install-* files to dh-exec based .install files.
   * Do not install QtGlxSupport library on armel and armhf, it is not
