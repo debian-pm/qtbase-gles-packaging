@@ -1,6 +1,5 @@
-qtbase-opensource-src (5.8.0+dfsg-2) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.8.0+dfsg-2) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * Add a patch to fix compilation error on big endian systems because of
     missing semicolon (qvncscreen_semicolon.diff).
   * Add a patch to fix compilation error on Hurd (hurd_tilde.diff).
@@ -11,7 +10,7 @@ qtbase-opensource-src (5.8.0+dfsg-2) UNRELEASED; urgency=medium
   * Do not override dh_installdocs anymore. LGPL_EXCEPTION.txt is included
     in the copyright file.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 10 Feb 2017 16:46:27 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 11 Feb 2017 12:33:12 +0300
 
 qtbase-opensource-src (5.8.0+dfsg-1) experimental; urgency=medium
 
