@@ -1,6 +1,5 @@
 Description: undef TILDE to fix compilation on Hurd
-Author: Dmitry Shachnev <mitya57@debian.org>
-Forwarded: https://codereview.qt-project.org/185255
+Origin: upstream, https://code.qt.io/cgit/qt/qtbase.git/commit/?id=a373a01ed73b29b2
 Last-Update: 2017-02-10
 
 --- a/src/gui/text/qcssparser_p.h
