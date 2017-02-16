@@ -1,3 +1,8 @@
+qtbase-opensource-src (5.8.0+dfsg-3) UNRELEASED; urgency=medium
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 16 Feb 2017 10:51:02 +0300
+
 qtbase-opensource-src (5.8.0+dfsg-2) experimental; urgency=medium
 
   * Add a patch to fix compilation error on big endian systems because of
