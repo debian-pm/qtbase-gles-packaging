@@ -7,7 +7,6 @@ hurd_tilde.diff
 vnc_big_endian.diff
 
 # Debian specific.
-no_dbus_dependency.diff
 gnukfreebsd.diff
 no_htmlinfo_example.diff
 remove_privacy_breachs.diff
