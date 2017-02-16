@@ -3,6 +3,8 @@ qtbase-opensource-src (5.8.0+dfsg-3) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * Mark the private parts of QtEglFSDeviceIntegration as non-Hurd too.
   * Mark hurd_tilde.diff as applied upstream.
+  * Replace qvncscreen_semicolon.diff with a more complete patch from
+    Shawn Rutledge (vnc_big_endian.diff).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 16 Feb 2017 10:51:02 +0300
 

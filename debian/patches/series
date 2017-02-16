@@ -4,7 +4,7 @@ qsettings_XDG_CONFIG_DIRS.diff
 hurd_tilde.diff
 
 # Forwarded upstream
-qvncscreen_semicolon.diff
+vnc_big_endian.diff
 
 # Debian specific.
 no_dbus_dependency.diff
