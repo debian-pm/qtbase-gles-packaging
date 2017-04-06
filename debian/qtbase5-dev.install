@@ -99,7 +99,7 @@ usr/include/*/qt5/QtCore/QFileSystemWatcher
 usr/include/*/qt5/QtCore/QFinalState
 usr/include/*/qt5/QtCore/QFlag
 usr/include/*/qt5/QtCore/QFlags
-usr/include/*/qt5/QtCore/QForeachContainer
+usr/include/*/qt5/QtCore/QFloat16
 usr/include/*/qt5/QtCore/QFunctionPointer
 usr/include/*/qt5/QtCore/QFuture
 usr/include/*/qt5/QtCore/QFutureInterface
@@ -194,6 +194,7 @@ usr/include/*/qt5/QtCore/QObjectCleanupHandler
 usr/include/*/qt5/QtCore/QObjectData
 usr/include/*/qt5/QtCore/QObjectList
 usr/include/*/qt5/QtCore/QObjectUserData
+usr/include/*/qt5/QtCore/QOperatingSystemVersion
 usr/include/*/qt5/QtCore/QPair
 usr/include/*/qt5/QtCore/QParallelAnimationGroup
 usr/include/*/qt5/QtCore/QPauseAnimation
@@ -250,6 +251,7 @@ usr/include/*/qt5/QtCore/QStateMachine
 usr/include/*/qt5/QtCore/QStaticArrayData
 usr/include/*/qt5/QtCore/QStaticAssertFailure
 usr/include/*/qt5/QtCore/QStaticByteArrayData
+usr/include/*/qt5/QtCore/QStaticByteArrayMatcherBase
 usr/include/*/qt5/QtCore/QStaticPlugin
 usr/include/*/qt5/QtCore/QStaticStringData
 usr/include/*/qt5/QtCore/QStorageInfo
@@ -394,6 +396,7 @@ usr/include/*/qt5/QtCore/qfileselector.h
 usr/include/*/qt5/QtCore/qfilesystemwatcher.h
 usr/include/*/qt5/QtCore/qfinalstate.h
 usr/include/*/qt5/QtCore/qflags.h
+usr/include/*/qt5/QtCore/qfloat16.h
 usr/include/*/qt5/QtCore/qfunctions_nacl.h
 usr/include/*/qt5/QtCore/qfunctions_vxworks.h
 usr/include/*/qt5/QtCore/qfunctions_winrt.h
@@ -442,6 +445,7 @@ usr/include/*/qt5/QtCore/qobject_impl.h
 usr/include/*/qt5/QtCore/qobjectcleanuphandler.h
 usr/include/*/qt5/QtCore/qobjectdefs.h
 usr/include/*/qt5/QtCore/qobjectdefs_impl.h
+usr/include/*/qt5/QtCore/qoperatingsystemversion.h
 usr/include/*/qt5/QtCore/qpair.h
 usr/include/*/qt5/QtCore/qparallelanimationgroup.h
 usr/include/*/qt5/QtCore/qpauseanimation.h
@@ -960,6 +964,7 @@ usr/include/*/qt5/QtNetwork/QDnsServiceRecord
 usr/include/*/qt5/QtNetwork/QDnsTextRecord
 usr/include/*/qt5/QtNetwork/QHostAddress
 usr/include/*/qt5/QtNetwork/QHostInfo
+usr/include/*/qt5/QtNetwork/QHstsPolicy
 usr/include/*/qt5/QtNetwork/QHttpMultiPart
 usr/include/*/qt5/QtNetwork/QHttpPart
 usr/include/*/qt5/QtNetwork/QIPv6Address
@@ -1007,6 +1012,7 @@ usr/include/*/qt5/QtNetwork/qauthenticator.h
 usr/include/*/qt5/QtNetwork/qdnslookup.h
 usr/include/*/qt5/QtNetwork/qhostaddress.h
 usr/include/*/qt5/QtNetwork/qhostinfo.h
+usr/include/*/qt5/QtNetwork/qhstspolicy.h
 usr/include/*/qt5/QtNetwork/qhttpmultipart.h
 usr/include/*/qt5/QtNetwork/qlocalserver.h
 usr/include/*/qt5/QtNetwork/qlocalsocket.h
@@ -1097,6 +1103,7 @@ usr/include/*/qt5/QtPrintSupport/qprintpreviewwidget.h
 usr/include/*/qt5/QtPrintSupport/qtprintsupport-config.h
 usr/include/*/qt5/QtPrintSupport/qtprintsupportglobal.h
 usr/include/*/qt5/QtPrintSupport/qtprintsupportversion.h
+usr/include/*/qt5/QtSql/QSql
 usr/include/*/qt5/QtSql/QSqlDatabase
 usr/include/*/qt5/QtSql/QSqlDriver
 usr/include/*/qt5/QtSql/QSqlDriverCreator

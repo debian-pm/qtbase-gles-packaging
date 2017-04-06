@@ -51,6 +51,11 @@ usr/include/*/qt5/QtFontDatabaseSupport/QtFontDatabaseSupportDepends
 usr/include/*/qt5/QtFontDatabaseSupport/QtFontDatabaseSupportVersion
 usr/include/*/qt5/QtFontDatabaseSupport/qtfontdatabasesupportversion.h
 usr/include/*/qt5/QtGui/5.*/*
+usr/include/*/qt5/QtKmsSupport/5.*/*
+usr/include/*/qt5/QtKmsSupport/QtKmsSupport
+usr/include/*/qt5/QtKmsSupport/QtKmsSupportDepends
+usr/include/*/qt5/QtKmsSupport/QtKmsSupportVersion
+usr/include/*/qt5/QtKmsSupport/qtkmssupportversion.h
 usr/include/*/qt5/QtLinuxAccessibilitySupport/5.*/*
 usr/include/*/qt5/QtLinuxAccessibilitySupport/QtLinuxAccessibilitySupport
 usr/include/*/qt5/QtLinuxAccessibilitySupport/QtLinuxAccessibilitySupportDepends
@@ -90,6 +95,8 @@ usr/lib/*/libQt5FbSupport.a
 usr/lib/*/libQt5FbSupport.prl
 usr/lib/*/libQt5FontDatabaseSupport.a
 usr/lib/*/libQt5FontDatabaseSupport.prl
+usr/lib/*/libQt5KmsSupport.a
+usr/lib/*/libQt5KmsSupport.prl
 usr/lib/*/libQt5LinuxAccessibilitySupport.a
 usr/lib/*/libQt5LinuxAccessibilitySupport.prl
 usr/lib/*/libQt5PlatformCompositorSupport.a
