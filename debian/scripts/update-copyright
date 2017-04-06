@@ -67,6 +67,8 @@ def canonicalize_author_name(author):
         return 'BlackBerry Limited (formerly Research In Motion)'
     if 'Research In Motion' in author or 'Research in Motion' in author:
         return 'BlackBerry Limited (formerly Research In Motion)'
+    if 'Green Hills Software' in author:
+        return 'Green Hills Software'
     if 'Ivan Komissarov' in author:
         return 'Ivan Komissarov <ABBAPOH@gmail.com>'
     if 'Martsum - tmartsum[at]gmail.com' in author:
