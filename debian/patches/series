@@ -1,10 +1,4 @@
 # Backported from upstream
-qsettings_simplify_logic.diff
-qsettings_XDG_CONFIG_DIRS.diff
-hurd_tilde.diff
-
-# Forwarded upstream
-vnc_big_endian.diff
 
 # Debian specific.
 gnukfreebsd.diff

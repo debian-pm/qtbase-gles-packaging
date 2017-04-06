@@ -6,7 +6,7 @@ Last-Update: 2016-01-24
 
 --- a/src/sql/configure.json
 +++ b/src/sql/configure.json
-@@ -51,7 +51,7 @@
+@@ -50,7 +50,7 @@
              "test": "unix/ibase",
              "sources": [
                  { "libs": "-lgds32_ms", "condition": "config.win32" },
