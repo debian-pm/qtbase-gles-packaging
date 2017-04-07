@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.8.0 amd64
+# SymbolsHelper-Confirmed: 5.9.0~beta amd64
 libQt5Widgets.so.5 libqt5widgets5 #MINVER#
 | libqt5widgets5 #MINVER#, qtbase-abi-5-8-0
 * Build-Depends-Package: qtbase5-dev
@@ -11,6 +11,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  Qt_5.6@Qt_5.6 5.6.0~beta
  Qt_5.7@Qt_5.7 5.7.0
  Qt_5.8@Qt_5.8 5.8.0
+ Qt_5.9@Qt_5.9 5.9.0~beta
  Qt_5@Qt_5 5.6.0~beta
  Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0~beta 1
  _Z11qFadeEffectP7QWidgeti@Qt_5 5.0.2
@@ -1329,6 +1330,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN12QTextBrowserD0Ev@Qt_5 5.0.2
  _ZN12QTextBrowserD1Ev@Qt_5 5.0.2
  _ZN12QTextBrowserD2Ev@Qt_5 5.0.2
+ _ZN12QUndoCommand11setObsoleteEb@Qt_5 5.9.0~beta
  _ZN12QUndoCommand4redoEv@Qt_5 5.0.2
  _ZN12QUndoCommand4undoEv@Qt_5 5.0.2
  _ZN12QUndoCommand7setTextERK7QString@Qt_5 5.0.2
@@ -2464,6 +2466,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN15QSystemTrayIcon11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.0.2
  _ZN15QSystemTrayIcon11qt_metacastEPKc@Qt_5 5.0.2
  _ZN15QSystemTrayIcon11showMessageERK7QStringS2_NS_11MessageIconEi@Qt_5 5.0.2
+ _ZN15QSystemTrayIcon11showMessageERK7QStringS2_RK5QIconi@Qt_5 5.9.0~beta
  _ZN15QSystemTrayIcon14messageClickedEv@Qt_5 5.0.2
  _ZN15QSystemTrayIcon14setContextMenuEP5QMenu@Qt_5 5.0.2
  _ZN15QSystemTrayIcon16staticMetaObjectE@Qt_5 5.0.2
@@ -3270,7 +3273,6 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN19QApplicationPrivate18dispatchEnterLeaveEP7QWidgetS1_RK7QPointF@Qt_5_PRIVATE_API 5.0.2 1
  _ZN19QApplicationPrivate18notifyThemeChangedEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZN19QApplicationPrivate18tryCloseAllWindowsEv@Qt_5_PRIVATE_API 5.3.0 1
- _ZN19QApplicationPrivate18wheel_scroll_linesE@Qt_5_PRIVATE_API 5.0.2 1
  _ZN19QApplicationPrivate19hidden_focus_widgetE@Qt_5_PRIVATE_API 5.0.2 1
  _ZN19QApplicationPrivate20initializeMultitouchEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZN19QApplicationPrivate20translateTouchCancelEP12QTouchDevicem@Qt_5_PRIVATE_API 5.0.2 1
@@ -4389,6 +4391,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN7QWidget13setFocusProxyEPS_@Qt_5 5.0.2
  _ZN7QWidget13setSizePolicyE11QSizePolicy@Qt_5 5.0.2
  _ZN7QWidget13setStyleSheetERK7QString@Qt_5 5.0.2
+ _ZN7QWidget13setWindowFlagEN2Qt10WindowTypeEb@Qt_5 5.9.0~beta
  _ZN7QWidget13setWindowIconERK5QIcon@Qt_5 5.0.2
  _ZN7QWidget13setWindowRoleERK7QString@Qt_5 5.0.2
  _ZN7QWidget13showMaximizedEv@Qt_5 5.0.2
@@ -5073,6 +5076,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZN9QSplitter12insertWidgetEiP7QWidget@Qt_5 5.0.2
  _ZN9QSplitter12moveSplitterEii@Qt_5 5.0.2
  _ZN9QSplitter12restoreStateERK10QByteArray@Qt_5 5.0.2
+ _ZN9QSplitter13replaceWidgetEiP7QWidget@Qt_5 5.9.0~beta
  _ZN9QSplitter13setRubberBandEi@Qt_5 5.0.2
  _ZN9QSplitter13splitterMovedEii@Qt_5 5.0.2
  _ZN9QSplitter14setCollapsibleEib@Qt_5 5.0.2
@@ -5456,6 +5460,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK11QFileDialog16confirmOverwriteEv@Qt_5 5.0.2
  _ZNK11QFileDialog16supportedSchemesEv@Qt_5 5.6.0~beta
  _ZNK11QFileDialog18selectedNameFilterEv@Qt_5 5.0.2
+ _ZNK11QFileDialog22selectedMimeTypeFilterEv@Qt_5 5.9.0~beta
  _ZNK11QFileDialog26isNameFilterDetailsVisibleEv@Qt_5 5.0.2
  _ZNK11QFileDialog6filterEv@Qt_5 5.0.2
  _ZNK11QFileDialog7historyEv@Qt_5 5.0.2
@@ -5888,6 +5893,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK12QTextBrowser9openLinksEv@Qt_5 5.0.2
  _ZNK12QUndoCommand10actionTextEv@Qt_5 5.0.2
  _ZNK12QUndoCommand10childCountEv@Qt_5 5.0.2
+ _ZNK12QUndoCommand10isObsoleteEv@Qt_5 5.9.0~beta
  _ZNK12QUndoCommand2idEv@Qt_5 5.0.2
  _ZNK12QUndoCommand4textEv@Qt_5 5.0.2
  _ZNK12QUndoCommand5childEi@Qt_5 5.0.2
@@ -6646,6 +6652,7 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK18QFileDialogPrivate17userSelectedFilesEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZNK18QFileDialogPrivate22addDefaultSuffixToUrlsERK5QListI4QUrlE@Qt_5_PRIVATE_API 5.2.0~alpha1 1
  _ZNK18QFileDialogPrivate23addDefaultSuffixToFilesERK11QStringList@Qt_5_PRIVATE_API 5.5.0 1
+ _ZNK18QFileDialogPrivate26selectedMimeTypeFilter_sysEv@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZNK18QFileDialogPrivate8lineEditEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZNK18QGraphicsItemGroup10opaqueAreaEv@Qt_5 5.0.2
  _ZNK18QGraphicsItemGroup12boundingRectEv@Qt_5 5.0.2

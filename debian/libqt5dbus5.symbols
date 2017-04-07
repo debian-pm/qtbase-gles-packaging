@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.8.0 amd64
+# SymbolsHelper-Confirmed: 5.9.0~beta amd64
 libQt5DBus.so.5 libqt5dbus5 #MINVER#
 | libqt5dbus5 #MINVER#, qtbase-abi-5-8-0
 * Build-Depends-Package: qtbase5-dev
@@ -11,6 +11,7 @@ libQt5DBus.so.5 libqt5dbus5 #MINVER#
  Qt_5.6@Qt_5.6 5.6.0~beta
  Qt_5.7@Qt_5.7 5.7.0
  Qt_5.8@Qt_5.8 5.8.0
+ Qt_5.9@Qt_5.9 5.9.0~beta
  Qt_5@Qt_5 5.6.0~beta
  Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0~beta 1
  _Z14qDBusReplyFillRK12QDBusMessageR10QDBusErrorR8QVariant@Qt_5 5.0.2
@@ -132,10 +133,10 @@ libQt5DBus.so.5 libqt5dbus5 #MINVER#
  _ZN15QDBusConnection7connectERK7QStringS2_S2_S2_RK11QStringListS2_P7QObjectPKc@Qt_5 5.0.2
  _ZN15QDBusConnection7connectERK7QStringS2_S2_S2_S2_P7QObjectPKc@Qt_5 5.0.2
  _ZN15QDBusConnection9systemBusEv@Qt_5 5.0.2
- _ZN15QDBusConnectionC1EP22QDBusConnectionPrivate@Qt_5 5.0.2
+ _ZN15QDBusConnectionC1EP22QDBusConnectionPrivate@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZN15QDBusConnectionC1ERK7QString@Qt_5 5.0.2
  _ZN15QDBusConnectionC1ERKS_@Qt_5 5.0.2
- _ZN15QDBusConnectionC2EP22QDBusConnectionPrivate@Qt_5 5.0.2
+ _ZN15QDBusConnectionC2EP22QDBusConnectionPrivate@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZN15QDBusConnectionC2ERK7QString@Qt_5 5.0.2
  _ZN15QDBusConnectionC2ERKS_@Qt_5 5.0.2
  _ZN15QDBusConnectionD1Ev@Qt_5 5.0.2

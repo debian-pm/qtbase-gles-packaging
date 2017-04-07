@@ -10,6 +10,7 @@ qtbase-opensource-src (5.9.0~beta+dfsg-1) UNRELEASED; urgency=medium
     #805399).
   * Update debian/copyright using debian/scripts/update-copyright.
   * Update install files for the new release.
+  * Update symbols files from amd64 and i386 build logs.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 16 Feb 2017 11:40:03 +0300
 
