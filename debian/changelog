@@ -1,6 +1,5 @@
-qtbase-opensource-src (5.9.0~beta+dfsg-1) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.9.0~beta+dfsg-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * Update debian/watch to track experimental releases.
   * New upstream beta release.
   * Drop all patches which were backported from upstream.
@@ -13,7 +12,7 @@ qtbase-opensource-src (5.9.0~beta+dfsg-1) UNRELEASED; urgency=medium
   * Update symbols files from amd64 and i386 build logs.
   * Bump qtbase-abi version to 5-9-0.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 16 Feb 2017 11:40:03 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Sun, 09 Apr 2017 18:45:39 +0300
 
 qtbase-opensource-src (5.8.0+dfsg-3) experimental; urgency=medium
 
