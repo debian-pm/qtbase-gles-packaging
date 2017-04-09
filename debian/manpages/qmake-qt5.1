@@ -1,4 +1,4 @@
-.TH QMAKE 1 "2005-07-23" "Nokia Corporation and/or its subsidiary(-ies)" ""
+.TH QMAKE 1 "2017-04-09" "The Qt Company Ltd."
 .SH NAME
 qmake \- cross-platform makefile generator for Qt
 
@@ -29,7 +29,7 @@ try to find a project file in your current working directory.
 .SH WARNINGS OPTIONS
 .TP
 .BI "\-Wnone"
-Turn off all warnings
+Turn off all warnings; specific ones may be re-enabled by later \-W options
 .TP
 .BI "\-Wall"
 Turn on all warnings
@@ -38,29 +38,23 @@ Turn on all warnings
 Turn on parser warnings
 .TP
 .BI "\-Wlogic"
-Turn on logic warnings
+Turn on logic warnings (on by default)
+.TP
+.BI "\-Wdeprecated"
+Turn on deprecation warnings (on by default)
 
 .SH OPTIONS
 .TP
-.BI "\-o" file
+.BI "\-o file"
 Write output to file
-.TP
-.BI "\-unix"
-Run in unix mode
-.TP
-.BI "\-win32"
-Run in win32 mode
-.TP
-.BI "\-macx"
-Run in Mac OS X mode
 .TP
 .BI "\-d"
 Increase debug level
 .TP
-.BI "\-t" templ
-Overrides TEMPLATE as templ
+.BI "\-t templ"
+Overrides TEMPLATE as \fBtempl\fR
 .TP
-.BI "\-tp" prefix
+.BI "\-tp prefix"
 Overrides TEMPLATE so that prefix is prefixed into the value
 .TP
 .BI "\-help"
@@ -81,14 +75,20 @@ Do a recursive search
 .BI "\-set <prop> <value>"
 Set persistent property
 .TP
+.BI "\-unset <prop>"
+Unset persistent property
+.TP
 .BI "\-query <prop>"
 Query persistent property. Show all if <prop> is empty.
 .TP
+.BI "\-qtconf file"
+Use \fBfile\fR instead of looking for qt.conf
+.TP
 .BI "\-cache file"
-Use file as cache [makefile mode only]
+Use \fBfile\fR as cache [makefile mode only]
 .TP
 .BI "\-spec spec"
-Use spec as QMAKESPEC [makefile mode only]
+Use \fBspec\fR as QMAKESPEC [makefile mode only]
 .TP
 .BI "\-nocache"
 Do not use a cache file [makefile mode only]
@@ -104,7 +104,7 @@ Do not look for files in pwd [project mode only]
 
 .SH SEE ALSO
 .PP
-.BR /usr/share/qt5/doc/html/qmake-manual.html,
+.BR /usr/share/qt5/doc/qmake/qmake-manual.html,
 .BR assistant (1)
 .SH AUTHOR
 This manual page was written by Brian Nelson <pyro@debian.org> based on
