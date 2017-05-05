@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.9.0~beta amd64 i386
+# SymbolsHelper-Confirmed: 5.9.0~beta amd64 arm64 i386
 libQt5Core.so.5 libqt5core5a #MINVER#
 | libqt5core5a #MINVER#, qtbase-abi-5-9-0
 * Build-Depends-Package: qtbase5-dev
@@ -3085,11 +3085,11 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZN8QVariantD1Ev@Qt_5 5.0.2
  _ZN8QVariantD2Ev@Qt_5 5.0.2
  _ZN8QVariantaSERKS_@Qt_5 5.0.2
- _ZN8qfloat1610shifttableE@Qt_5 5.9.0~beta
- _ZN8qfloat1611offsettableE@Qt_5 5.9.0~beta
- _ZN8qfloat1613exponenttableE@Qt_5 5.9.0~beta
- _ZN8qfloat1613mantissatableE@Qt_5 5.9.0~beta
- _ZN8qfloat169basetableE@Qt_5 5.9.0~beta
+ (arch=!arm64)_ZN8qfloat1610shifttableE@Qt_5 5.9.0~beta
+ (arch=!arm64)_ZN8qfloat1611offsettableE@Qt_5 5.9.0~beta
+ (arch=!arm64)_ZN8qfloat1613exponenttableE@Qt_5 5.9.0~beta
+ (arch=!arm64)_ZN8qfloat1613mantissatableE@Qt_5 5.9.0~beta
+ (arch=!arm64)_ZN8qfloat169basetableE@Qt_5 5.9.0~beta
  _ZN9QBitArray4fillEbii@Qt_5 5.0.2
  _ZN9QBitArray6resizeEi@Qt_5 5.0.2
  _ZN9QBitArrayC1Eib@Qt_5 5.0.2

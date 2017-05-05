@@ -2,6 +2,7 @@ qtbase-opensource-src (5.9.0~beta+dfsg-2) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * Update qmake-qt5 manpage (closes: #859968).
+  * Update debian/libqt5core5a.symbols for arm64.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 09 Apr 2017 21:50:40 +0300
 
