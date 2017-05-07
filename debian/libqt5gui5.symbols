@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.9.0~beta amd64 i386
+# SymbolsHelper-Confirmed: 5.9.0~beta3 amd64
 libQt5Gui.so.5 libqt5gui5 #MINVER#
 | libqt5gui5 #MINVER#, qtbase-abi-5-9-0
 * Build-Depends-Package: qtbase5-dev
@@ -1261,6 +1261,9 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN13QRasterWindow16staticMetaObjectE@Qt_5 5.4.0
  _ZN13QRasterWindowC1EP7QWindow@Qt_5 5.4.0
  _ZN13QRasterWindowC2EP7QWindow@Qt_5 5.4.0
+ _ZN13QRasterWindowD0Ev@Qt_5 5.9.0~beta3
+ _ZN13QRasterWindowD1Ev@Qt_5 5.9.0~beta3
+ _ZN13QRasterWindowD2Ev@Qt_5 5.9.0~beta3
  _ZN13QStandardItem10insertRowsEiRK5QListIPS_E@Qt_5 5.0.2
  _ZN13QStandardItem10insertRowsEii@Qt_5 5.0.2
  _ZN13QStandardItem10removeRowsEii@Qt_5 5.0.2
@@ -6124,7 +6127,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK21QPlatformFontDatabase19fontsAlwaysScalableEv@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZNK21QPlatformFontDatabase19isPrivateFontFamilyERK7QString@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZNK21QPlatformFontDatabase22resolveFontFamilyAliasERK7QString@Qt_5_PRIVATE_API 5.9.0~beta 1
- _ZNK21QPlatformFontDatabase28subpixelAntialiasingTypeHintEv@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZNK21QPlatformFontDatabase7fontDirEv@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZNK21QPlatformInputContext10metaObjectEv@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZNK21QPlatformInputContext11isAnimatingEv@Qt_5_PRIVATE_API 5.9.0~beta 1
@@ -7680,6 +7682,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _Zls6QDebugRK14QSurfaceFormat@Qt_5 5.0.2
  _Zls6QDebugRK16QAccessibleEvent@Qt_5 5.0.2
  _Zls6QDebugRK19QOpenGLDebugMessage@Qt_5 5.1.0
+ _Zls6QDebugRK24QSupportedWritingSystems@Qt_5_PRIVATE_API 5.9.0~beta3
  _Zls6QDebugRK4QPen@Qt_5 5.0.2
  _Zls6QDebugRK5QFont@Qt_5 5.0.2
  _Zls6QDebugRK5QIcon@Qt_5 5.0.2
@@ -7773,6 +7776,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  (c++)"non-virtual thunk to QPdfWriter::~QPdfWriter()@Qt_5" 5.0.2
  (c++)"non-virtual thunk to QRasterWindow::metric(QPaintDevice::PaintDeviceMetric) const@Qt_5" 5.4.0
  (c++)"non-virtual thunk to QRasterWindow::redirected(QPoint*) const@Qt_5" 5.4.0
+ (c++)"non-virtual thunk to QRasterWindow::~QRasterWindow()@Qt_5" 5.9.0~beta3
  (c++)"non-virtual thunk to QTextImageHandler::drawObject(QPainter*, QRectF const&, QTextDocument*, int, QTextFormat const&)@Qt_5_PRIVATE_API" 5.0.2 1
  (c++)"non-virtual thunk to QTextImageHandler::intrinsicSize(QTextDocument*, int, QTextFormat const&)@Qt_5_PRIVATE_API" 5.0.2 1
  (c++)"non-virtual thunk to QWindow::format() const@Qt_5" 5.0.2
