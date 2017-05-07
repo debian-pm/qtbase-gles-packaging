@@ -25,7 +25,6 @@ Files: configure
        qmake/*
        src/tools/*
        tests/*
-       tools/*
        util/*
 Copyright: 2016 The Qt Company Ltd.
 License: GPL-3 with Qt-1.0 exception
@@ -1937,10 +1936,11 @@ Files: src/3rdparty/android/extract.h
 Copyright: 2005 The Android Open Source Project
 License: Apache-2.0
 
-Files: src/3rdparty/pcre/*
-Copyright: 1997-2012 University of Cambridge
+Files: src/3rdparty/pcre2/src/*
+Copyright: 1997-2016 University of Cambridge
            2007-2012 Google Inc.
-           2010-2012 Zoltan Herczeg
+           2009-2012 Zoltan Herczeg
+           2013-2013 Tilera Corporation
 License: BSD-3-clause
 
 Files: src/3rdparty/pixman/*
