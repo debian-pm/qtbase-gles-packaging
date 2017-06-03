@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.9.0~beta amd64
+# SymbolsHelper-Confirmed: 5.9.0 amd64
 libQt5Widgets.so.5 libqt5widgets5 #MINVER#
 | libqt5widgets5 #MINVER#, qtbase-abi-5-9-0
 * Build-Depends-Package: qtbase5-dev
@@ -6652,7 +6652,6 @@ libQt5Widgets.so.5 libqt5widgets5 #MINVER#
  _ZNK18QFileDialogPrivate17userSelectedFilesEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZNK18QFileDialogPrivate22addDefaultSuffixToUrlsERK5QListI4QUrlE@Qt_5_PRIVATE_API 5.2.0~alpha1 1
  _ZNK18QFileDialogPrivate23addDefaultSuffixToFilesERK11QStringList@Qt_5_PRIVATE_API 5.5.0 1
- _ZNK18QFileDialogPrivate26selectedMimeTypeFilter_sysEv@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZNK18QFileDialogPrivate8lineEditEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZNK18QGraphicsItemGroup10opaqueAreaEv@Qt_5 5.0.2
  _ZNK18QGraphicsItemGroup12boundingRectEv@Qt_5 5.0.2

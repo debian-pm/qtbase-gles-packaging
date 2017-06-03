@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.9.0~beta3 amd64
+# SymbolsHelper-Confirmed: 5.9.0 amd64
 libQt5Gui.so.5 libqt5gui5 #MINVER#
 | libqt5gui5 #MINVER#, qtbase-abi-5-9-0
 * Build-Depends-Package: qtbase5-dev
@@ -3067,6 +3067,8 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN21QPlatformSurfaceEventD0Ev@Qt_5 5.5.0
  _ZN21QPlatformSurfaceEventD1Ev@Qt_5 5.5.0
  _ZN21QPlatformSurfaceEventD2Ev@Qt_5 5.5.0
+ _ZN21QPlatformThemeFactory4keysERK7QString@Qt_5_PRIVATE_API 5.9.0
+ _ZN21QPlatformThemeFactory6createERK7QStringS2_@Qt_5_PRIVATE_API 5.9.0
  _ZN21QPlatformThemePrivate11keyBindingsE@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZN21QPlatformThemePrivate19currentKeyPlatformsEv@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZN21QPlatformThemePrivate19numberOfKeyBindingsE@Qt_5_PRIVATE_API 5.9.0~beta 1
@@ -3329,6 +3331,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  (optional=templinst)_ZN22QWindowSystemInterface24handleWindowStateChangedINS_15DefaultDeliveryEEEvP7QWindowN2Qt11WindowStateEi@Qt_5_PRIVATE_API 5.9.0~beta 1
  (optional=templinst)_ZN22QWindowSystemInterface24handleWindowStateChangedINS_19SynchronousDeliveryEEEvP7QWindowN2Qt11WindowStateEi@Qt_5_PRIVATE_API 5.9.0~beta 1
  (optional=templinst)_ZN22QWindowSystemInterface24handleWindowStateChangedINS_20AsynchronousDeliveryEEEvP7QWindowN2Qt11WindowStateEi@Qt_5_PRIVATE_API 5.9.0~beta 1
+ _ZN22QWindowSystemInterface24nonUserInputEventsQueuedEv@Qt_5_PRIVATE_API 5.9.0
  _ZN22QWindowSystemInterface24windowSystemEventsQueuedEv@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZN22QWindowSystemInterface25handleEnterWhatsThisEventEv@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZN22QWindowSystemInterface25handleWindowScreenChangedEP7QWindowP7QScreen@Qt_5_PRIVATE_API 5.9.0~beta 1
@@ -3840,6 +3843,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  (optional=templinst)_ZN29QWindowSystemInterfacePrivate23handleWindowSystemEventIN22QWindowSystemInterface19SynchronousDeliveryEEEbPNS_17WindowSystemEventE@Qt_5_PRIVATE_API 5.9.0~beta 1
  (optional=templinst)_ZN29QWindowSystemInterfacePrivate23handleWindowSystemEventIN22QWindowSystemInterface20AsynchronousDeliveryEEEbPNS_17WindowSystemEventE@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZN29QWindowSystemInterfacePrivate23removeWindowSystemEventEPNS_17WindowSystemEventE@Qt_5_PRIVATE_API 5.9.0~beta 1
+ _ZN29QWindowSystemInterfacePrivate24nonUserInputEventsQueuedEv@Qt_5_PRIVATE_API 5.9.0
  _ZN29QWindowSystemInterfacePrivate24windowSystemEventsQueuedEv@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZN29QWindowSystemInterfacePrivate29synchronousWindowSystemEventsE@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZN29QWindowSystemInterfacePrivate30removeWindowSystemEventhandlerEP25QWindowSystemEventHandler@Qt_5_PRIVATE_API 5.9.0~beta 1
