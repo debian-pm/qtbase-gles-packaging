@@ -1,3 +1,10 @@
+qtbase-opensource-src (5.9.0+dfsg-1) UNRELEASED; urgency=medium
+
+  [ Simon Quigley ]
+  * New upstream final release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 02 Jun 2017 19:14:00 -0500
+
 qtbase-opensource-src (5.9.0~beta.3+dfsg-1) experimental; urgency=medium
 
   * New upstream beta release.
