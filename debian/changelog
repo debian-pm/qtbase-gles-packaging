@@ -5,6 +5,9 @@ qtbase-opensource-src (5.9.0+dfsg-1) UNRELEASED; urgency=medium
   * Modify debian/watch to automatically pick up new development *and* final
     releases.
 
+  [ Dmitry Shachnev ]
+  * Update symbols files from the current build logs.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 02 Jun 2017 19:14:00 -0500
 
 qtbase-opensource-src (5.9.0~beta.3+dfsg-1) experimental; urgency=medium
