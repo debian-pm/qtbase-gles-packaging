@@ -91,7 +91,7 @@ Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: fontconfig, ${misc:Depends}, ${shlibs:Depends}
-Recommends: libqt5svg5, mesa-utils, qt5-gtk-platformtheme
+Recommends: libqt5svg5, qt5-gtk-platformtheme
 Breaks: libqt5egldeviceintegration5 (<< 5.6.0~beta+dfsg-5~),
         libqt5xcbqpa5 (<< 5.6.0~beta+dfsg-5~)
 Replaces: libqt5egldeviceintegration5 (<< 5.6.0~beta+dfsg-5~),
