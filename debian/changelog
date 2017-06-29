@@ -1,3 +1,7 @@
+qtbase-opensource-src (5.7.1+dfsg-4) UNRELEASED; urgency=medium
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 29 Jun 2017 19:27:23 -0300
+
 qtbase-opensource-src (5.7.1+dfsg-3) unstable; urgency=medium
 
   * Backport upstream change to fix accessibility-related crashes
