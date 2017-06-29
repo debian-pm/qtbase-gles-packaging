@@ -1,5 +1,8 @@
 qtbase-opensource-src (5.7.1+dfsg-4) UNRELEASED; urgency=medium
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Backport patch to remove OpenGL ES 2.0 direct calls (Closes: #866506).
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 29 Jun 2017 19:27:23 -0300
 
 qtbase-opensource-src (5.7.1+dfsg-3) unstable; urgency=medium
