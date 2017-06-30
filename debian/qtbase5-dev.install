@@ -1137,7 +1137,6 @@ usr/include/*/qt5/QtSql/qsqlrelationaldelegate.h
 usr/include/*/qt5/QtSql/qsqlrelationaltablemodel.h
 usr/include/*/qt5/QtSql/qsqlresult.h
 usr/include/*/qt5/QtSql/qsqltablemodel.h
-usr/include/*/qt5/QtSql/qtsql-config.h
 usr/include/*/qt5/QtSql/qtsqlglobal.h
 usr/include/*/qt5/QtSql/qtsqlversion.h
 usr/include/*/qt5/QtTest/QEventSizeOfChecker

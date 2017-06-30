@@ -12,9 +12,11 @@
 [kfreebsd-any linux-any] usr/include/*/qt5/QtEglFSDeviceIntegration/QtEglFSDeviceIntegrationVersion
 [kfreebsd-any linux-any] usr/include/*/qt5/QtEglFSDeviceIntegration/qteglfsdeviceintegrationversion.h
 [linux-any] usr/include/*/qt5/QtInputSupport/5.*/*
+[linux-any] usr/include/*/qt5/QtInputSupport/QIntegrityHIDManager
 [linux-any] usr/include/*/qt5/QtInputSupport/QtInputSupport
 [linux-any] usr/include/*/qt5/QtInputSupport/QtInputSupportDepends
 [linux-any] usr/include/*/qt5/QtInputSupport/QtInputSupportVersion
+[linux-any] usr/include/*/qt5/QtInputSupport/qintegrityhidmanager.h
 [linux-any] usr/include/*/qt5/QtInputSupport/qtinputsupportversion.h
 [linux-any] usr/lib/*/libQt5InputSupport.a
 [linux-any] usr/lib/*/libQt5InputSupport.prl
