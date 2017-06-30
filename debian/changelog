@@ -5,6 +5,7 @@ qtbase-opensource-src (5.9.0+dfsg-2) UNRELEASED; urgency=medium
     See upstream commit 60e5a1c8effd4099.
   * Drop libqt5gui5 recommendation on mesa-utils, thanks to Alexander Volkov.
     It was needed only for 90qt5-opengl script, which we no longer ship.
+  * Update symbols files from buildds’ logs.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 Jun 2017 13:48:28 +0300
 
