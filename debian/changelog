@@ -1,6 +1,8 @@
-qtbase-opensource-src (5.9.0+dfsg-2) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.9.1+dfsg-1) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
+  * New upstream release.
+  * Refresh and rebase patches for the new release.
   * Remove unused gstreamer build-dependencies, thanks to Alexander Volkov.
     See upstream commit 60e5a1c8effd4099.
   * Drop libqt5gui5 recommendation on mesa-utils, thanks to Alexander Volkov.

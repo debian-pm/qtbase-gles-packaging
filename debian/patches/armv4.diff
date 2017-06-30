@@ -5,7 +5,7 @@ Last-Update: 2016-07-01
 
 --- a/src/corelib/global/qprocessordetection.h
 +++ b/src/corelib/global/qprocessordetection.h
-@@ -130,6 +130,8 @@
+@@ -131,6 +131,8 @@
  #  elif defined(__ARM_ARCH_5TEJ__) \
          || defined(__ARM_ARCH_5TE__)
  #    define Q_PROCESSOR_ARM 5
@@ -14,7 +14,7 @@ Last-Update: 2016-07-01
  #  else
  #    define Q_PROCESSOR_ARM 0
  #  endif
-@@ -144,6 +146,9 @@
+@@ -145,6 +147,9 @@
  #  endif
  #  if Q_PROCESSOR_ARM >= 5
  #    define Q_PROCESSOR_ARM_V5
