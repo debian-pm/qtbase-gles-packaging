@@ -1,5 +1,7 @@
 qtbase-opensource-src (5.9.1+dfsg-2) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Mark two symbols in debian/libqt5core5a.symbols as optional.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 01 Jul 2017 17:12:56 +0300
 
