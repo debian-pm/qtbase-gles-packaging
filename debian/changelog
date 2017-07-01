@@ -12,6 +12,7 @@ qtbase-opensource-src (5.9.1+dfsg-1) UNRELEASED; urgency=medium
   * Add a patch to fix ATSPI enablement condition (fix_atspi_condition.diff).
   * Update install files for the new release.
   * Bump Standards-Version to 4.0.0, no changes needed.
+  * Update debian/copyright.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 Jun 2017 13:48:28 +0300
 

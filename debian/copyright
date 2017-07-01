@@ -17,7 +17,7 @@ Files-Excluded: src/3rdparty/zlib/doc/rfc*.txt
 # Manual rules for The Qt Company copyrights
 
 Files: *
-Copyright: 2016 The Qt Company Ltd.
+Copyright: 2016-2017 The Qt Company Ltd.
 License: LGPL-3 or GPL-2
 
 Files: configure
@@ -26,7 +26,7 @@ Files: configure
        src/tools/*
        tests/*
        util/*
-Copyright: 2016 The Qt Company Ltd.
+Copyright: 2016-2017 The Qt Company Ltd.
 License: GPL-3 with Qt-1.0 exception
 
 Files: examples/*
@@ -40,11 +40,11 @@ Files: examples/*
        src/winmain/qtmain_win.cpp
        src/winmain/qtmain_winrt.cpp
        tests/auto/corelib/global/qglobalstatic/tst_qglobalstatic.cpp
-Copyright: 2016 The Qt Company Ltd.
+Copyright: 2016-2017 The Qt Company Ltd.
 License: BSD-3-clause
 
 Files: *.qdoc
-Copyright: 2016 The Qt Company Ltd.
+Copyright: 2016-2017 The Qt Company Ltd.
 License: GFDL-NIV-1.3
 
 # Debian packaging copyright
@@ -57,7 +57,7 @@ Copyright: 2007-2013 Fathi Boudra <fabo@debian.org>
            2005-2007 Brian Nelson <pyro@debian.org>
            2012-2013 Zoltán Balogh <zoltan.balogh@canonical.com>
            2012-2013 Timo Jyrinki <timo.jyrinki@canonical.com>
-           2013-2016 Dmitry Shachnev <mitya57@debian.org>
+           2013-2017 Dmitry Shachnev <mitya57@debian.org>
 License: LGPL-3 or GPL-2+
 
 # Auto-generated rules for non-3rdparty code
@@ -287,7 +287,8 @@ Files: tests/auto/corelib/io/qipaddress/tst_qipaddress.cpp
        tests/benchmarks/corelib/tools/qcryptographichash/main.cpp
        tests/manual/qdesktopservices/tst_qdesktopservices.cpp
        tests/manual/qsysinfo/main.cpp
-Copyright: 2016 Intel Corporation.
+       util/includemocs/includemocs.pl
+Copyright: 2016-2017 Intel Corporation.
 License: GPL-3 with Qt-1.0 exception
 
 Files: tests/auto/network/kernel/qdnslookup/tst_qdnslookup.cpp
@@ -748,7 +749,7 @@ License: LGPL-3 or GPL-2
 
 Files: src/android/jar/src/org/qtproject/qt5/android/QtActivityDelegate.java
        src/plugins/platforms/android/qandroidinputcontext.cpp
-Copyright: 2012-2014 BogDan Vatra <bogdan@kde.org>
+Copyright: 2012-2017 BogDan Vatra <bogdan@kde.org>
            2016 Olivier Goffart <ogoffart@woboq.com>
            2016 The Qt Company Ltd.
 License: LGPL-3 or GPL-2
@@ -901,6 +902,8 @@ Files: mkspecs/common/integrity/qplatformdefs.h
        mkspecs/integrity-armv7-imx6/qplatformdefs.h
        mkspecs/integrity-armv7/qplatformdefs.h
        mkspecs/integrity-x86/qplatformdefs.h
+       src/platformsupport/input/integrityhid/qintegrityhidmanager.cpp
+       src/platformsupport/input/integrityhid/qintegrityhidmanager.h
        src/plugins/platforms/integrity/qintegrityhidmanager.cpp
        src/plugins/platforms/integrity/qintegrityhidmanager.h
 Copyright: 2015 Green Hills Software
@@ -928,8 +931,8 @@ Files: config.tests/common/atomic64/atomic64.cpp
        config.tests/unix/eventfd/main.cpp
        mkspecs/features/data/unix/findclasslist.pl
        src/corelib/global/qglobal_p.h
-       src/corelib/global/qglobalstatic.cpp
        src/corelib/global/qglobalstatic.h
+       src/corelib/global/qglobalstatic.qdoc
        src/corelib/global/qversiontagging.cpp
        src/corelib/global/qversiontagging.h
        src/corelib/io/forkfd_qt.cpp
@@ -1103,7 +1106,7 @@ Files: bin/syncqt.pl
        src/testlib/qtestcase.cpp
        src/widgets/kernel/qwidget.cpp
 Copyright: 2016 Intel Corporation.
-           2016 The Qt Company Ltd.
+           2016-2017 The Qt Company Ltd.
 License: LGPL-3 or GPL-2
 
 Files: src/corelib/tools/qbytearraylist.h
