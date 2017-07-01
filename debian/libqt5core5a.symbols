@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.9.0 alpha amd64 arm64 armel armhf hppa i386 m68k mips mips64el mipsel powerpc powerpcspe ppc64 ppc64el s390x sparc64 x32
+# SymbolsHelper-Confirmed: 5.9.1 amd64
 libQt5Core.so.5 libqt5core5a #MINVER#
 | libqt5core5a #MINVER#, qtbase-abi-5-9-0
 * Build-Depends-Package: qtbase5-dev
@@ -2209,6 +2209,7 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZN23QOperatingSystemVersion13AndroidKitKatE@Qt_5 5.9.0~beta
  _ZN23QOperatingSystemVersion13AndroidNougatE@Qt_5 5.9.0~beta
  _ZN23QOperatingSystemVersion15AndroidLollipopE@Qt_5 5.9.0~beta
+ _ZN23QOperatingSystemVersion15MacOSHighSierraE@Qt_5 5.9.1
  _ZN23QOperatingSystemVersion16AndroidJellyBeanE@Qt_5 5.9.0~beta
  _ZN23QOperatingSystemVersion17AndroidNougat_MR1E@Qt_5 5.9.0~beta
  _ZN23QOperatingSystemVersion18AndroidMarshmallowE@Qt_5 5.9.0~beta
@@ -3129,6 +3130,8 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZN9QDateTime19fromMSecsSinceEpochExRK9QTimeZone@Qt_5 5.2.0~alpha1
  _ZN9QDateTime21currentSecsSinceEpochEv@Qt_5 5.8.0
  _ZN9QDateTime22currentMSecsSinceEpochEv@Qt_5 5.0.2
+ _ZN9QDateTime4DataC1EN2Qt8TimeSpecE@Qt_5 5.9.1
+ _ZN9QDateTime4DataC2EN2Qt8TimeSpecE@Qt_5 5.9.1
  _ZN9QDateTime4DataD1Ev@Qt_5 5.8.0
  _ZN9QDateTime4DataD2Ev@Qt_5 5.8.0
  _ZN9QDateTime7setDateERK5QDate@Qt_5 5.0.2

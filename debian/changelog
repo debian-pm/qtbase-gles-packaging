@@ -7,7 +7,7 @@ qtbase-opensource-src (5.9.1+dfsg-1) UNRELEASED; urgency=medium
     See upstream commit 60e5a1c8effd4099.
   * Drop libqt5gui5 recommendation on mesa-utils, thanks to Alexander Volkov.
     It was needed only for 90qt5-opengl script, which we no longer ship.
-  * Update symbols files from buildds’ logs.
+  * Update symbols files from buildds’ logs and the current build log.
   * Simplify debian/watch to track only stable releases.
   * Add a patch to fix ATSPI enablement condition (fix_atspi_condition.diff).
   * Update install files for the new release.
