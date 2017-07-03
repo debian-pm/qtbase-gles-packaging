@@ -1,3 +1,8 @@
+qtbase-opensource-src (5.9.1+dfsg-3) UNRELEASED; urgency=medium
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 03 Jul 2017 15:27:25 +0300
+
 qtbase-opensource-src (5.9.1+dfsg-2) experimental; urgency=medium
 
   * Mark two symbols in debian/libqt5core5a.symbols as optional.
