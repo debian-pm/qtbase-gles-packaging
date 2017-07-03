@@ -124,6 +124,12 @@ qtbase-opensource-src (5.8.0+dfsg-1) experimental; urgency=medium
 
  -- Dmitry Shachnev <mitya57@debian.org>  Fri, 10 Feb 2017 10:20:43 +0300
 
+qtbase-opensource-src (5.7.1+dfsg-4) unstable; urgency=medium
+
+  * Backport patch to remove OpenGL ES 2.0 direct calls (Closes: #866506).
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sun, 02 Jul 2017 20:07:11 -0300
+
 qtbase-opensource-src (5.7.1+dfsg-3) unstable; urgency=medium
 
   * Backport upstream change to fix accessibility-related crashes
