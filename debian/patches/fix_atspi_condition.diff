@@ -1,6 +1,5 @@
 Description: fix accessibility-atspi-bridge enablement condition
-Author: Dmitry Shachnev <mitya57@debian.org>
-Forwarded: https://codereview.qt-project.org/198987
+Origin: upstream, https://code.qt.io/cgit/qt/qtbase.git/commit/?id=386af91c57948b88
 Last-Update: 2017-06-30
 
 --- a/src/gui/configure.json
