@@ -1,6 +1,5 @@
-qtbase-opensource-src (5.9.1+dfsg-3) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.9.1+dfsg-3) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * Update headers of debian/patches/fix_atspi_condition.diff.
   * Add a patch to use UTIME_NOW only if it is defined, to fix build on
     kFreeBSD and Hurd (nonlinux_utime.diff).
@@ -8,7 +7,7 @@ qtbase-opensource-src (5.9.1+dfsg-3) UNRELEASED; urgency=medium
   * Drop the workaround to not use gold on i386, bug #842304 should be
     fixed now.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 03 Jul 2017 15:27:25 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Tue, 04 Jul 2017 14:18:26 +0300
 
 qtbase-opensource-src (5.9.1+dfsg-2) experimental; urgency=medium
 
