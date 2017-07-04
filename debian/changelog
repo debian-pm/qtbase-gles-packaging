@@ -5,6 +5,8 @@ qtbase-opensource-src (5.9.1+dfsg-3) UNRELEASED; urgency=medium
   * Add a patch to use UTIME_NOW only if it is defined, to fix build on
     kFreeBSD and Hurd (nonlinux_utime.diff).
   * Update debian/libqt5gui5.symbols from buildds’ logs.
+  * Drop the workaround to not use gold on i386, bug #842304 should be
+    fixed now.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 03 Jul 2017 15:27:25 +0300
 
