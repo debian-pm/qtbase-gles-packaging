@@ -4,6 +4,7 @@ qtbase-opensource-src (5.9.1+dfsg-3) UNRELEASED; urgency=medium
   * Update headers of debian/patches/fix_atspi_condition.diff.
   * Add a patch to use UTIME_NOW only if it is defined, to fix build on
     kFreeBSD and Hurd (nonlinux_utime.diff).
+  * Update debian/libqt5gui5.symbols from buildds’ logs.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 03 Jul 2017 15:27:25 +0300
 
