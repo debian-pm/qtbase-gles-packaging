@@ -1,0 +1,17 @@
+Description: make the utimensat check stricter to fail on kFreeBSD and Hurd
+Author: Dmitry Shachnev <mitya57@debian.org>
+Bug: https://bugreports.qt.io/browse/QTBUG-61344
+Forwarded: no
+Last-Update: 2017-07-04
+
+--- a/qmake/library/ioutils.cpp
++++ b/qmake/library/ioutils.cpp
+@@ -215,7 +215,7 @@
+         *errorString = fL1S("Cannot stat() reference file %1: %2.").arg(referenceFileName, fL1S(strerror(errno)));
+         return false;
+     }
+-#    if defined(_POSIX_VERSION) && _POSIX_VERSION >= 200809L
++#    if defined(_POSIX_VERSION) && _POSIX_VERSION >= 200809L && defined(UTIME_NOW)
+     const struct timespec times[2] = { { 0, UTIME_NOW }, st.st_mtim };
+     const bool utimeError = utimensat(AT_FDCWD, targetFileName.toLocal8Bit().constData(), times, 0) < 0;
+ #    else
