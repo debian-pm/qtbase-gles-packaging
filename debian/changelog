@@ -1,4 +1,4 @@
-qtbase-opensource-src (5.9.1+dfsg-4) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.9.1+dfsg-4) experimental; urgency=medium
 
   [ Dmitry Shachnev ]
   * Revert dropping the workaround to not use gold on i386.
@@ -8,7 +8,7 @@ qtbase-opensource-src (5.9.1+dfsg-4) UNRELEASED; urgency=medium
   * Do not install the QtKmsSupport stuff on Hurd, since it is not built
     there.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 05 Jul 2017 12:37:13 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Wed, 05 Jul 2017 18:41:19 +0300
 
 qtbase-opensource-src (5.9.1+dfsg-3) experimental; urgency=medium
 
