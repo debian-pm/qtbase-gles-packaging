@@ -1,5 +1,8 @@
 qtbase-opensource-src (5.9.1+dfsg-4) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Revert dropping the workaround to not use gold on i386.
+    See https://bugs.debian.org/842304#33.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 05 Jul 2017 12:37:13 +0300
 
