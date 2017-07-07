@@ -2,6 +2,7 @@ qtbase-opensource-src (5.9.1+dfsg-5) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * Build with large file support by adding LFS_CFLAGS to build flags.
+  * Update symbols files from buildds’ logs.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 06 Jul 2017 10:53:18 +0300
 
