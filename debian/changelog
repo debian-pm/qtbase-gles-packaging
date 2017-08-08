@@ -1,5 +1,7 @@
 qtbase-opensource-src (5.9.1+dfsg-6) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Update symbols files for GCC 7 symbols changes.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 08 Aug 2017 20:56:41 +0300
 
