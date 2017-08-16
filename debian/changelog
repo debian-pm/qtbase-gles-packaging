@@ -1,9 +1,8 @@
-qtbase-opensource-src (5.9.1+dfsg-8) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.9.1+dfsg-8) unstable; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * Update symbols files with buildds' logs.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 16 Aug 2017 09:25:47 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 16 Aug 2017 09:31:28 -0300
 
 qtbase-opensource-src (5.9.1+dfsg-7) unstable; urgency=medium
 
