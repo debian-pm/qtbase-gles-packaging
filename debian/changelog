@@ -1,4 +1,4 @@
-qtbase-opensource-src (5.9.1+dfsg-9) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.9.1+dfsg-9) unstable; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Remove missing symbol in libqt5network5.symbols. I clearly missed it while
@@ -8,7 +8,7 @@ qtbase-opensource-src (5.9.1+dfsg-9) UNRELEASED; urgency=medium
   * Stop using the gold linker on all architectures, because of bug #852035.
   * Update symbols files from buildds’ logs.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 16 Aug 2017 09:41:57 -0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Sun, 20 Aug 2017 19:13:27 +0300
 
 qtbase-opensource-src (5.9.1+dfsg-8) unstable; urgency=medium
 
