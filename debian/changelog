@@ -6,6 +6,7 @@ qtbase-opensource-src (5.9.1+dfsg-9) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * Stop using the gold linker on all architectures, because of bug #852035.
+  * Update symbols files from buildds’ logs.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 16 Aug 2017 09:41:57 -0300
 
