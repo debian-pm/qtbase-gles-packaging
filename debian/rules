@@ -39,11 +39,6 @@ ifneq ($(DEB_HOST_ARCH_OS),$(findstring $(DEB_HOST_ARCH_OS), linux kfreebsd))
 	extra_configure_opts += -no-eglfs
 endif
 
-# https://bugs.debian.org/842304
-ifeq ($(DEB_HOST_ARCH),i386)
-	extra_configure_opts += -no-use-gold-linker
-endif
-
 # Compile without sse2 support on i386
 # Do not use pre compiled headers in order to be able to rebuild the gui
 # submodule.
@@ -121,6 +116,7 @@ override_dh_auto_configure:
 	            -accessibility \
 	            -compile-examples \
 	            -no-directfb \
+	            -no-use-gold-linker \
 	            $(extra_configure_opts) \
 	            $(cpu_opt) \
 	            QMAKE_CFLAGS="$(CFLAGS)" \
