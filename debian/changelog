@@ -2,7 +2,7 @@ qtbase-opensource-src (5.9.1+dfsg-10) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * Add a maintscript to ensure that the obsolete 90qt5-opengl conffile
-    is removed on upgrade (refs: #850705).
+    is removed on upgrade (closes: #873788).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 30 Aug 2017 16:27:07 +0300
 
