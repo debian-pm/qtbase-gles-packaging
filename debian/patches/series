@@ -1,5 +1,4 @@
 # Backported from upstream.
-fix_atspi_condition.diff
 
 # Debian specific.
 gnukfreebsd.diff
