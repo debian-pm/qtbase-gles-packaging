@@ -66,7 +66,7 @@ Build-Depends: debhelper (>= 9.20160114~),
                zlib1g-dev
 Build-Depends-Indep: libqt5sql5-sqlite (>= 5.8.0+dfsg~) <!nodoc>,
                      qttools5-dev-tools (>= 5.8.0~) <!nodoc>
-Standards-Version: 4.0.0
+Standards-Version: 4.1.0
 Homepage: http://qt-project.org/
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/qt/qtbase.git
 Vcs-Browser: https://anonscm.debian.org/cgit/pkg-kde/qt/qtbase.git
@@ -440,7 +440,6 @@ Description: Qt 5 development defaults package
 
 Package: qtbase5-doc
 Build-Profiles: <!nodoc>
-Priority: extra
 Architecture: all
 Section: doc
 Depends: ${misc:Depends}
@@ -452,7 +451,6 @@ Description: Qt 5 base documentation
 
 Package: qtbase5-doc-html
 Build-Profiles: <!nodoc>
-Priority: extra
 Architecture: all
 Section: doc
 Depends: ${misc:Depends}

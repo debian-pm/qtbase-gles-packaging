@@ -3,6 +3,7 @@ qtbase-opensource-src (5.9.1+dfsg-10) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * Add a maintscript to ensure that the obsolete 90qt5-opengl conffile
     is removed on upgrade (closes: #873788).
+  * Bump Standards-Version to 4.1.0, stop using deprecated Priority: extra.
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * debian/rules: include /usr/share/dpkg/architecture.mk instead of defining
