@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.9.1 amd64 armel armhf hppa hurd-i386 i386 m68k mips mipsel powerpc powerpcspe sh4 x32
+# SymbolsHelper-Confirmed: 5.9.1 amd64 armel armhf hppa hurd-i386 i386 kfreebsd-i386 m68k mips mipsel powerpc powerpcspe sh4 x32
 libQt5Core.so.5 libqt5core5a #MINVER#
 | libqt5core5a #MINVER#, qtbase-abi-5-9-0
 * Build-Depends-Package: qtbase5-dev
@@ -5138,7 +5138,7 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  (optional=templinst)_ZNSt3_V28__rotateIPiEET_S2_S2_S2_St26random_access_iterator_tag@Qt_5 5.5.0
  (optional=templinst|subst)_ZSt17__rotate_adaptiveIP21QPersistentModelIndexS1_{ssize_t}ET_S2_S2_S2_T1_S3_T0_S3_@Qt_5 5.0.2
  (optional=templinst|subst)_ZSt17__rotate_adaptiveIPiS0_{ssize_t}ET_S1_S1_S1_T1_S2_T0_S2_@Qt_5 5.0.2
- (optional=templinst|arch=armel armhf hurd-i386 i386 m68k mips mipsel powerpc powerpcspe)_ZSt4swapIN8QVariant7PrivateEENSt9enable_ifIXsrSt6__and_IJSt6__not_ISt15__is_tuple_likeIT_EESt21is_move_constructibleIS6_ESt18is_move_assignableIS6_EEE5valueEvE4typeERS6_SG_@Qt_5 5.9.1
+ (optional=templinst|arch=armel armhf hurd-i386 i386 kfreebsd-i386 m68k mips mipsel powerpc powerpcspe)_ZSt4swapIN8QVariant7PrivateEENSt9enable_ifIXsrSt6__and_IJSt6__not_ISt15__is_tuple_likeIT_EESt21is_move_constructibleIS6_ESt18is_move_assignableIS6_EEE5valueEvE4typeERS6_SG_@Qt_5 5.9.1
  _ZTI10QEventLoop@Qt_5 5.0.2
  _ZTI10QException@Qt_5 5.0.2
  _ZTI10QTextCodec@Qt_5 5.0.2
