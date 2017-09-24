@@ -4,6 +4,8 @@ qtbase-opensource-src (5.9.2+dfsg-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Drop fix_atspi_condition.diff, it was coming from upstream.
   * Port gnukfreebsd_cloexec.diff to new upstream code.
+  * Stop excluding src/3rdparty/zlib/doc/rfc*.txt from the tarball,
+    these files are no longer shipped by upstream.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 23 Sep 2017 23:28:13 +0300
 

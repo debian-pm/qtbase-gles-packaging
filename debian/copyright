@@ -1,8 +1,7 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: qtbase-opensource-src
 Source: https://download.qt.io/official_releases/qt/*/submodules/
-Files-Excluded: src/3rdparty/zlib/doc/rfc*.txt
-                tests/auto/corelib/tools/qbytearray/rfc3252.txt
+Files-Excluded: tests/auto/corelib/tools/qbytearray/rfc3252.txt
                 tests/auto/corelib/io/qtextstream/rfc3261.txt
                 tests/auto/network/access/qftp/rfc3252.txt
                 tests/auto/network/access/qnetworkreply/rfc3252.txt
