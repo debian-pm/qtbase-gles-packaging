@@ -1,0 +1,25 @@
+Description: qglxconvenience: avoid null pointer dereference
+Origin: upstream, https://code.qt.io/cgit/qt/qtbase.git/commit/?id=3c59065d5cb5f82f
+Last-Update: 2017-09-27
+
+--- a/src/platformsupport/glxconvenience/qglxconvenience.cpp
++++ b/src/platformsupport/glxconvenience/qglxconvenience.cpp
+@@ -164,7 +164,8 @@
+ template <class T>
+ struct QXlibScopedPointerDeleter {
+     static inline void cleanup(T *pointer) {
+-        XFree(pointer);
++        if (pointer)
++            XFree(pointer);
+     }
+ };
+ 
+@@ -202,6 +203,8 @@
+             GLXFBConfig candidate = configs[i];
+ 
+             QXlibPointer<XVisualInfo> visual(glXGetVisualFromFBConfig(display, candidate));
++            if (visual.isNull())
++                continue;
+ 
+             const int actualRed = qPopulationCount(visual->red_mask);
+             const int actualGreen = qPopulationCount(visual->green_mask);
