@@ -3,6 +3,8 @@ qtbase-opensource-src (5.9.1+dfsg-11) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * Backport upstream patch to fix crash in qglx_findConfig() function
     (qglxconvenience_nullptr.diff, closes: #841951).
+  * Backport upstream patch to call mysql_library_end() only once when
+    using MariaDB (mariadb_library_end.diff).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 27 Sep 2017 23:45:09 +0300
 

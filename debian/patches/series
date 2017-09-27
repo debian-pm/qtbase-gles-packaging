@@ -1,6 +1,7 @@
 # Backported from upstream.
 fix_atspi_condition.diff
 qglxconvenience_nullptr.diff
+mariadb_library_end.diff
 
 # Debian specific.
 gnukfreebsd.diff
