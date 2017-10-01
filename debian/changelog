@@ -1,3 +1,8 @@
+qtbase-opensource-src (5.9.1+dfsg-12) UNRELEASED; urgency=medium
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 Oct 2017 18:05:54 +0300
+
 qtbase-opensource-src (5.9.1+dfsg-11) unstable; urgency=medium
 
   * Backport upstream patch to fix crash in qglx_findConfig() function
