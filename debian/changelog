@@ -1,5 +1,8 @@
 qtbase-opensource-src (5.9.1+dfsg-12) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Use the linux-g++ mkspec on all Linux architectures. We do not need
+    the -m64 compiler flag which linux-g++-64 adds.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 Oct 2017 18:05:54 +0300
 
