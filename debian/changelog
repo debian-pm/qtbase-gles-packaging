@@ -6,6 +6,7 @@ qtbase-opensource-src (5.9.1+dfsg-12) UNRELEASED; urgency=medium
   * Split qmake binary into a new binary package, qt5-qmake-bin.
     Make the new package Multi-Arch: foreign, to make sure that a proper
     version of qmake gets installed for cross builds (closes: #876861).
+  * Bump Standards-Version to 4.1.1, no changes needed.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 Oct 2017 18:05:54 +0300
 
