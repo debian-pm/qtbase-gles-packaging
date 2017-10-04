@@ -1,6 +1,5 @@
-qtbase-opensource-src (5.9.1+dfsg-12) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.9.1+dfsg-12) unstable; urgency=medium
 
-  [ Dmitry Shachnev ]
   * Use the linux-g++ mkspec on all Linux architectures. We do not need
     the -m64 compiler flag which linux-g++-64 adds.
   * Split qmake binary into a new binary package, qt5-qmake-bin.
@@ -8,7 +7,7 @@ qtbase-opensource-src (5.9.1+dfsg-12) UNRELEASED; urgency=medium
     version of qmake gets installed for cross builds (closes: #876861).
   * Bump Standards-Version to 4.1.1, no changes needed.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 Oct 2017 18:05:54 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Wed, 04 Oct 2017 11:41:29 +0700
 
 qtbase-opensource-src (5.9.1+dfsg-11) unstable; urgency=medium
 
