@@ -1,6 +1,6 @@
 # SymbolsHelper-Confirmed: 5.9.1 alpha amd64 armel armhf hurd-i386 i386 kfreebsd-i386 m68k mips mips64el mipsel powerpc powerpcspe ppc64 ppc64el s390x sparc64
 libQt5Network.so.5 libqt5network5 #MINVER#
-| libqt5network5 #MINVER#, qtbase-abi-5-9-0
+| libqt5network5 #MINVER#, qtbase-abi-5-9-2
 * Build-Depends-Package: qtbase5-dev
  Qt_5.0@Qt_5.0 5.6.0~beta
  Qt_5.1@Qt_5.1 5.6.0~beta

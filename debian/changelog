@@ -1,5 +1,10 @@
 qtbase-opensource-src (5.9.2+dfsg-2) UNRELEASED; urgency=medium
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Bump qtbase-abi to 5-9-2. We can't warrant that we catch all ABI changes
+    (specially with private stuff) and there is still the internal version
+    check, so we need to bump it even if we do not find API/ABI changes.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 10 Oct 2017 13:29:21 -0300
 
 qtbase-opensource-src (5.9.2+dfsg-1) experimental; urgency=medium
