@@ -19,6 +19,26 @@ qtbase-opensource-src (5.9.2+dfsg-1) experimental; urgency=medium
 
  -- Dmitry Shachnev <mitya57@debian.org>  Fri, 06 Oct 2017 23:10:25 +0700
 
+qtbase-opensource-src (5.9.1+dfsg-12) unstable; urgency=medium
+
+  * Use the linux-g++ mkspec on all Linux architectures. We do not need
+    the -m64 compiler flag which linux-g++-64 adds.
+  * Split qmake binary into a new binary package, qt5-qmake-bin.
+    Make the new package Multi-Arch: foreign, to make sure that a proper
+    version of qmake gets installed for cross builds (closes: #876861).
+  * Bump Standards-Version to 4.1.1, no changes needed.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Wed, 04 Oct 2017 11:41:29 +0700
+
+qtbase-opensource-src (5.9.1+dfsg-11) unstable; urgency=medium
+
+  * Backport upstream patch to fix crash in qglx_findConfig() function
+    (qglxconvenience_nullptr.diff, closes: #841951).
+  * Backport upstream patch to call mysql_library_end() only once when
+    using MariaDB (mariadb_library_end.diff).
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Thu, 28 Sep 2017 00:03:45 +0300
+
 qtbase-opensource-src (5.9.1+dfsg-10) unstable; urgency=medium
 
   [ Dmitry Shachnev ]
