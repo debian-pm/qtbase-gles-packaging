@@ -392,7 +392,7 @@ Package: qt5-qmake-bin
 Architecture: any
 Multi-Arch: foreign
 Section: devel
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Breaks: qt5-qmake (<< 5.9.1+dfsg-12~)
 Replaces: qt5-qmake (<< 5.9.1+dfsg-12~)
 Description: Qt 5 qmake Makefile generator tool — binary file
@@ -408,8 +408,7 @@ Multi-Arch: same
 Section: devel
 Depends: qt5-qmake-bin (= ${binary:Version}),
          qtchooser (>= 55-gc9562a1-1~),
-         ${misc:Depends},
-         ${shlibs:Depends}
+         ${misc:Depends}
 Description: Qt 5 qmake Makefile generator tool
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.

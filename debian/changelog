@@ -1,5 +1,7 @@
 qtbase-opensource-src (5.9.1+dfsg-13) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Move ${shlibs:Depends} from qt5-qmake to qt5-qmake-bin.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 17 Oct 2017 17:21:52 +0300
 
