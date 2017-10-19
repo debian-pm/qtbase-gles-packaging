@@ -1,3 +1,10 @@
+qtbase-opensource-src (5.9.2+dfsg-3) UNRELEASED; urgency=medium
+
+  [ Dmitry Shachnev ]
+  * Merge 5.9.1+dfsg-12 upload from unstable.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 19 Oct 2017 16:23:43 +0300
+
 qtbase-opensource-src (5.9.2+dfsg-2) experimental; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
