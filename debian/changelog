@@ -5,7 +5,7 @@ qtbase-opensource-src (5.9.2+dfsg-3) UNRELEASED; urgency=medium
   * Move all Qt binaries to a non-multiarch location, /usr/lib/qt5/bin/, for
     improved cross-build support. Provide compatibility symlinks for the old
     location.
-  * Bump qttools5-dev-tools build-dependency to 5.9.2-1, as the build system
+  * Bump qttools5-dev-tools build-dependency to 5.9.2-2, as the build system
     now looks for qdoc and qtattributionsscanner in the new location.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 19 Oct 2017 16:23:43 +0300
