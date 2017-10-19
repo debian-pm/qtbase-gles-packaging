@@ -2,6 +2,9 @@ qtbase-opensource-src (5.9.2+dfsg-3) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * Merge 5.9.1+dfsg-12 upload from unstable.
+  * Move all Qt binaries to a non-multiarch location, /usr/lib/qt5/bin/, for
+    improved cross-build support. Provide compatibility symlinks for the old
+    location.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 19 Oct 2017 16:23:43 +0300
 
