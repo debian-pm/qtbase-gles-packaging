@@ -1,6 +1,5 @@
-qtbase-opensource-src (5.9.2+dfsg-3) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.9.2+dfsg-3) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * Merge 5.9.1+dfsg-12 upload from unstable.
   * Move all Qt binaries to a non-multiarch location, /usr/lib/qt5/bin/, for
     improved cross-build support. Provide compatibility symlinks for the old
@@ -9,7 +8,7 @@ qtbase-opensource-src (5.9.2+dfsg-3) UNRELEASED; urgency=medium
     now looks for qdoc and qtattributionsscanner in the new location.
   * Use debhelper compat level 10 and dh_missing.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 19 Oct 2017 16:23:43 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Thu, 19 Oct 2017 22:47:48 +0300
 
 qtbase-opensource-src (5.9.2+dfsg-2) experimental; urgency=medium
 
