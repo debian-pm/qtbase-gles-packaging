@@ -7,6 +7,7 @@ qtbase-opensource-src (5.9.2+dfsg-3) UNRELEASED; urgency=medium
     location.
   * Bump qttools5-dev-tools build-dependency to 5.9.2-2, as the build system
     now looks for qdoc and qtattributionsscanner in the new location.
+  * Use debhelper compat level 10 and dh_missing.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 19 Oct 2017 16:23:43 +0300
 

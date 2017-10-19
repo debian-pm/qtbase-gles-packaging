@@ -60,7 +60,7 @@ else
 endif
 
 %:
-	dh $@ --parallel --with pkgkde_symbolshelper
+	dh $@ --with pkgkde_symbolshelper
 
 override_dh_auto_configure:
 	MAKEFLAGS="-j$(NUMJOBS) ${CXXFLAGS:%=EXTRA_CXXFLAGS+=%} ${LDFLAGS:%=EXTRA_LFLAGS+=%}" \
@@ -257,8 +257,8 @@ endif
 override_dh_auto_install-indep:
 	dh_auto_build -- INSTALL_ROOT=$(CURDIR)/debian/tmp install_docs
 
-override_dh_install:
-	dh_install --fail-missing
+override_dh_missing:
+	dh_missing --fail-missing
 
 override_dh_installchangelogs:
 	if [ -f $(upstream_changes) ] ; then \
