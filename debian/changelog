@@ -1,9 +1,36 @@
-qtbase-opensource-src (5.9.1+dfsg-13) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.9.2+dfsg-3) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
+  * Merge 5.9.1+dfsg-12 upload from unstable.
   * Move ${shlibs:Depends} from qt5-qmake to qt5-qmake-bin.
+  * Move all Qt binaries to a non-multiarch location, /usr/lib/qt5/bin/, for
+    improved cross-build support. Provide compatibility symlinks for the old
+    location.
+  * Bump qttools5-dev-tools build-dependency to 5.9.2-2, as the build system
+    now looks for qdoc and qtattributionsscanner in the new location.
+  * Use debhelper compat level 10 and dh_missing.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 17 Oct 2017 17:21:52 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Thu, 19 Oct 2017 22:47:48 +0300
+
+qtbase-opensource-src (5.9.2+dfsg-2) experimental; urgency=medium
+
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Bump qtbase-abi to 5-9-2. We can't warrant that we catch all ABI changes
+    (specially with private stuff) and there is still the internal version
+    check, so we need to bump it even if we do not find API/ABI changes.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 14 Oct 2017 10:23:26 +0300
+
+qtbase-opensource-src (5.9.2+dfsg-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Drop fix_atspi_condition.diff, it was coming from upstream.
+  * Port gnukfreebsd_cloexec.diff to new upstream code.
+  * Stop excluding src/3rdparty/zlib/doc/rfc*.txt from the tarball,
+    these files are no longer shipped by upstream.
+  * Update symbols files from the current build log.
+  * Update debian/copyright.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 06 Oct 2017 23:10:25 +0700
 
 qtbase-opensource-src (5.9.1+dfsg-12) unstable; urgency=medium
 

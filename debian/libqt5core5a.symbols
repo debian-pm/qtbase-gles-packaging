@@ -1,6 +1,6 @@
-# SymbolsHelper-Confirmed: 5.9.1 amd64 armel armhf hppa hurd-i386 i386 kfreebsd-i386 m68k mips mipsel powerpc powerpcspe sh4 x32
+# SymbolsHelper-Confirmed: 5.9.2 amd64
 libQt5Core.so.5 libqt5core5a #MINVER#
-| libqt5core5a #MINVER#, qtbase-abi-5-9-0
+| libqt5core5a #MINVER#, qtbase-abi-5-9-2
 * Build-Depends-Package: qtbase5-dev
  Qt_5.0@Qt_5.0 5.6.0~beta
  Qt_5.1@Qt_5.1 5.6.0~beta
@@ -655,6 +655,8 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZN12QStorageInfoD1Ev@Qt_5 5.4.0
  _ZN12QStorageInfoD2Ev@Qt_5 5.4.0
  _ZN12QStorageInfoaSERKS_@Qt_5 5.4.0
+ _ZN12QSystemError6stringENS_10ErrorScopeEi@Qt_5_PRIVATE_API 5.9.2 1
+ _ZN12QSystemError9stdStringEi@Qt_5_PRIVATE_API 5.9.2 1
  _ZN12QTextDecoder9toUnicodeEP7QStringPKci@Qt_5 5.0.2
  _ZN12QTextDecoder9toUnicodeEPKci@Qt_5 5.0.2
  _ZN12QTextDecoder9toUnicodeERK10QByteArray@Qt_5 5.0.2
@@ -1256,6 +1258,7 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZN16QEventTransitionD0Ev@Qt_5 5.0.2
  _ZN16QEventTransitionD1Ev@Qt_5 5.0.2
  _ZN16QEventTransitionD2Ev@Qt_5 5.0.2
+ _ZN16QFileSystemEntry10isRootPathERK7QString@Qt_5 5.9.2
  _ZN16QIODevicePrivate10seekBufferEx@Qt_5_PRIVATE_API 5.7.0 1
  _ZN16QIODevicePrivate13putCharHelperEc@Qt_5_PRIVATE_API 5.0.2 1
  _ZN16QIODevicePrivate19setReadChannelCountEi@Qt_5_PRIVATE_API 5.7.0 1
@@ -2202,6 +2205,7 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZN23QEventTransitionPrivateD1Ev@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN23QEventTransitionPrivateD2Ev@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN23QOperatingSystemVersion10Windows8_1E@Qt_5 5.9.0~beta
+ _ZN23QOperatingSystemVersion11AndroidOreoE@Qt_5 5.9.2
  _ZN23QOperatingSystemVersion11MacOSSierraE@Qt_5 5.9.0~beta
  _ZN23QOperatingSystemVersion11OSXYosemiteE@Qt_5 5.9.0~beta
  _ZN23QOperatingSystemVersion12OSXElCapitanE@Qt_5 5.9.0~beta
@@ -3782,7 +3786,6 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZNK12QStorageInfo9blockSizeEv@Qt_5 5.6.0~beta
  _ZNK12QStorageInfo9bytesFreeEv@Qt_5 5.4.0
  _ZNK12QStorageInfo9subvolumeEv@Qt_5 5.9.0~beta
- _ZNK12QSystemError8toStringEv@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZNK12QTextDecoder10hasFailureEv@Qt_5 5.0.2
  _ZNK12QTextEncoder10hasFailureEv@Qt_5 5.0.2
  _ZNK13QElapsedTimer10hasExpiredEx@Qt_5 5.0.2
@@ -3796,6 +3799,7 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZNK13QFSFileEngine13caseSensitiveEv@Qt_5_PRIVATE_API 5.4.0 1
  _ZNK13QFSFileEngine14isRelativePathEv@Qt_5_PRIVATE_API 5.4.0 1
  _ZNK13QFSFileEngine17supportsExtensionEN19QAbstractFileEngine9ExtensionE@Qt_5_PRIVATE_API 5.4.0 1
+ _ZNK13QFSFileEngine2idEv@Qt_5_PRIVATE_API 5.9.2 1
  _ZNK13QFSFileEngine3posEv@Qt_5_PRIVATE_API 5.4.0 1
  _ZNK13QFSFileEngine4sizeEv@Qt_5_PRIVATE_API 5.4.0 1
  _ZNK13QFSFileEngine5mkdirERK7QStringb@Qt_5_PRIVATE_API 5.4.0 1
@@ -4219,6 +4223,7 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZNK19QAbstractFileEngine13caseSensitiveEv@Qt_5_PRIVATE_API 5.1.0 1
  _ZNK19QAbstractFileEngine14isRelativePathEv@Qt_5_PRIVATE_API 5.1.0 1
  _ZNK19QAbstractFileEngine17supportsExtensionENS_9ExtensionE@Qt_5_PRIVATE_API 5.1.0 1
+ _ZNK19QAbstractFileEngine2idEv@Qt_5_PRIVATE_API 5.9.2 1
  _ZNK19QAbstractFileEngine3posEv@Qt_5_PRIVATE_API 5.1.0 1
  _ZNK19QAbstractFileEngine4sizeEv@Qt_5_PRIVATE_API 5.1.0 1
  _ZNK19QAbstractFileEngine5atEndEv@Qt_5_PRIVATE_API 5.1.0 1
