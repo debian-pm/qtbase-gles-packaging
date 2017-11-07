@@ -254,6 +254,24 @@ endif
 		-regex '.*\.\(app\|conf\|cpp\|h\|js\|php\|png\|pro\|xml\|xsl\)$$' \
 		-exec chmod a-x {} \;
 
+	# Helper files for cross-building
+	echo "[Paths]" > debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/qt.conf
+	echo "Prefix=/usr" >> debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/qt.conf
+	echo "HostData=lib/$(DEB_HOST_MULTIARCH)/qt5" >> debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/qt.conf
+	echo "HostBinaries=lib/qt5/bin" >> debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/qt.conf
+	echo "Headers=include/$(DEB_HOST_MULTIARCH)/qt5" >> debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/qt.conf
+
+	echo "#!/bin/sh" > debian/tmp/usr/bin/$(DEB_HOST_GNU_TYPE)-qmake
+	echo "exec /usr/lib/qt5/bin/qmake" \
+		"-qtconf /usr/lib/$(DEB_HOST_MULTIARCH)/qt5/qt.conf" \
+		"QMAKE_CC=$(DEB_HOST_GNU_TYPE)-gcc" \
+		"QMAKE_CXX=$(DEB_HOST_GNU_TYPE)-g++" \
+		'QMAKE_LINK="\\$$(CXX)"' \
+		"PKG_CONFIG=$(DEB_HOST_GNU_TYPE)-pkg-config" \
+		'"$$@"' \
+		>> debian/tmp/usr/bin/$(DEB_HOST_GNU_TYPE)-qmake
+	chmod +x debian/tmp/usr/bin/$(DEB_HOST_GNU_TYPE)-qmake
+
 override_dh_auto_install-indep:
 	dh_auto_build -- INSTALL_ROOT=$(CURDIR)/debian/tmp install_docs
 

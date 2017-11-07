@@ -1,5 +1,10 @@
 qtbase-opensource-src (5.9.2+dfsg-5) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Ship /usr/lib/${DEB_HOST_MULTIARCH}/qt.conf in qt5-qmake, it will be used
+    by debhelper for cross-building.
+  * Ship /usr/bin/${DEB_HOST_GNU_TYPE}-qmake wrapper script in qt5-qmake, for
+    using qmake with autoconf and AC_CHECK_TOOL.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 07 Nov 2017 13:57:18 +0300
 

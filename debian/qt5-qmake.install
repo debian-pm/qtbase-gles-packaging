@@ -1,1 +1,3 @@
+usr/bin/*-qmake
 usr/lib/*/qt5/mkspecs/
+usr/lib/*/qt5/qmake.conf
