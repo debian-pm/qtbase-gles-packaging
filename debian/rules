@@ -264,9 +264,9 @@ endif
 	echo "#!/bin/sh" > debian/tmp/usr/bin/$(DEB_HOST_GNU_TYPE)-qmake
 	echo "exec /usr/lib/qt5/bin/qmake" \
 		"-qtconf /usr/lib/$(DEB_HOST_MULTIARCH)/qt5/qt.conf" \
-		"QMAKE_CC=$(DEB_HOST_GNU_TYPE)-gcc" \
-		"QMAKE_CXX=$(DEB_HOST_GNU_TYPE)-g++" \
-		'QMAKE_LINK="\\$$(CXX)"' \
+		'QMAKE_CC=$${CC:-$(DEB_HOST_GNU_TYPE)-gcc}' \
+		'QMAKE_CXX=$${CXX:-$(DEB_HOST_GNU_TYPE)-g++}' \
+		"QMAKE_LINK='\$$(CXX)'" \
 		"PKG_CONFIG=$(DEB_HOST_GNU_TYPE)-pkg-config" \
 		'"$$@"' \
 		>> debian/tmp/usr/bin/$(DEB_HOST_GNU_TYPE)-qmake
