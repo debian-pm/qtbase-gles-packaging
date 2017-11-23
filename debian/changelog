@@ -5,6 +5,7 @@ qtbase-opensource-src (5.9.2+dfsg-5) UNRELEASED; urgency=medium
     passed to qmake as -qtconf option for cross-building.
   * Ship /usr/bin/${DEB_HOST_GNU_TYPE}-qmake wrapper script in qt5-qmake, for
     using qmake with autoconf and AC_CHECK_TOOL.
+  * Backport upstream patches for PostgreSQL 10 support (closes: #879960).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 07 Nov 2017 13:57:18 +0300
 
