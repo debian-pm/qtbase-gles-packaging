@@ -7,6 +7,11 @@ qtbase-opensource-src (5.9.2+dfsg-5) UNRELEASED; urgency=medium
     using qmake with autoconf and AC_CHECK_TOOL.
   * Backport upstream patches for PostgreSQL 10 support (closes: #879960).
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Make libqt5opengl5-dev provide libqt5opengl5-desktop-dev on !armel and !armhf.
+    In this way packages depending on Desktop OpenGL can use this package as
+    a dependency without the need to keep an arch list (Closes: #881943).
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 07 Nov 2017 13:57:18 +0300
 
 qtbase-opensource-src (5.9.2+dfsg-4) unstable; urgency=medium
