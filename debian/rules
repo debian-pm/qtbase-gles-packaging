@@ -255,11 +255,8 @@ endif
 		-exec chmod a-x {} \;
 
 	# Helper files for cross-building
-	echo "[Paths]" > debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/qt.conf
-	echo "Prefix=/usr" >> debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/qt.conf
-	echo "HostData=lib/$(DEB_HOST_MULTIARCH)/qt5" >> debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/qt.conf
-	echo "HostBinaries=lib/qt5/bin" >> debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/qt.conf
-	echo "Headers=include/$(DEB_HOST_MULTIARCH)/qt5" >> debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/qt.conf
+	sed s/DEB_HOST_MULTIARCH/$(DEB_HOST_MULTIARCH)/ debian/qt.conf.in \
+		> debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/qt.conf
 
 	echo "#!/bin/sh" > debian/tmp/usr/bin/$(DEB_HOST_GNU_TYPE)-qmake
 	echo "exec /usr/lib/qt5/bin/qmake" \
