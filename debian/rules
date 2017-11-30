@@ -93,6 +93,7 @@ override_dh_auto_configure:
 	            -system-libpng \
 	            -system-libjpeg \
 	            -system-doubleconversion \
+	            -system-pcre \
 	            -openssl \
 	            -no-rpath \
 	            -verbose \

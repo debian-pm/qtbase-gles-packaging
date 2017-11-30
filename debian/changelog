@@ -6,6 +6,8 @@ qtbase-opensource-src (5.9.2+dfsg-5) UNRELEASED; urgency=medium
   * Ship /usr/bin/${DEB_HOST_GNU_TYPE}-qmake wrapper script in qt5-qmake, for
     using qmake with autoconf and AC_CHECK_TOOL.
   * Backport upstream patches for PostgreSQL 10 support (closes: #879960).
+  * Change PCRE build-dependency to PCRE2. Qt switched to PCRE2 in 5.9.
+    Pass a configure option to make sure that the system version is used.
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Make libqt5opengl5-dev provide libqt5opengl5-desktop-dev on !armel and !armhf.
