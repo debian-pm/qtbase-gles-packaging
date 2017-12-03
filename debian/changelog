@@ -1,4 +1,4 @@
-qtbase-opensource-src (5.9.2+dfsg-5) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.9.2+dfsg-5) unstable; urgency=medium
 
   [ Dmitry Shachnev ]
   * Ship /usr/lib/${DEB_HOST_MULTIARCH}/qt.conf in qt5-qmake, which can be
@@ -17,7 +17,7 @@ qtbase-opensource-src (5.9.2+dfsg-5) UNRELEASED; urgency=medium
     In this way packages depending on Desktop OpenGL can use this package as
     a dependency without the need to keep an arch list (Closes: #881943).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 07 Nov 2017 13:57:18 +0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sun, 03 Dec 2017 10:24:03 -0300
 
 qtbase-opensource-src (5.9.2+dfsg-4) unstable; urgency=medium
 
