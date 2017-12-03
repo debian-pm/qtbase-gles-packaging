@@ -9,6 +9,8 @@ qtbase-opensource-src (5.9.2+dfsg-5) UNRELEASED; urgency=medium
   * Change PCRE build-dependency to PCRE2. Qt switched to PCRE2 in 5.9.
     Pass a configure option to make sure that the system version is used
     (closes: #883304).
+  * Backport upstream patch to fix crash in QDnsLookup when DNS response is
+    over 512 bytes (closes: #883099).
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Make libqt5opengl5-dev provide libqt5opengl5-desktop-dev on !armel and !armhf.

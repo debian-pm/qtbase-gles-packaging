@@ -1,6 +1,7 @@
 # Backported from upstream.
 qglxconvenience_nullptr.diff
 postgresql_10.diff
+qdnslookup_crash.diff
 
 # Debian specific.
 gnukfreebsd.diff
