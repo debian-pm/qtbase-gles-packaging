@@ -257,13 +257,13 @@ endif
 
 	# Helper files for cross-building
 	mkdir -p debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt5
-	sed s/DEB_HOST_MULTIARCH/$(DEB_HOST_MULTIARCH)/ debian/qmake.conf.in \
-		> debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/qmake.conf
+	sed s/DEB_HOST_MULTIARCH/$(DEB_HOST_MULTIARCH)/ debian/qt.conf.in \
+		> debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/qt.conf
 
 	mkdir -p debian/tmp/usr/bin
 	echo "#!/bin/sh" > debian/tmp/usr/bin/$(DEB_HOST_GNU_TYPE)-qmake
 	echo "exec /usr/lib/qt5/bin/qmake" \
-		"-qtconf /usr/lib/$(DEB_HOST_MULTIARCH)/qt5/qmake.conf" \
+		"-qtconf /usr/lib/$(DEB_HOST_MULTIARCH)/qt5/qt.conf" \
 		'QMAKE_CC=$${CC:-$(DEB_HOST_GNU_TYPE)-gcc}' \
 		'QMAKE_CXX=$${CXX:-$(DEB_HOST_GNU_TYPE)-g++}' \
 		'QMAKE_LINK=$${CXX:-$(DEB_HOST_GNU_TYPE)-g++}' \
