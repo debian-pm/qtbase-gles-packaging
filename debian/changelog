@@ -1,5 +1,9 @@
 qtbase-opensource-src (5.9.2+dfsg-6) UNRELEASED; urgency=medium
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Make libqt5opengl5-dev provide libqt5opengl5-desktop-dev and not
+    libqt5opengl5. Thanks Adrian Bunk for noticing.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 03 Dec 2017 21:59:03 -0300
 
 qtbase-opensource-src (5.9.2+dfsg-5) unstable; urgency=medium
