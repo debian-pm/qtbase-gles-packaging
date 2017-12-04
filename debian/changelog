@@ -1,4 +1,4 @@
-qtbase-opensource-src (5.9.2+dfsg-6) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.9.2+dfsg-6) unstable; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Make libqt5opengl5-dev provide libqt5opengl5-desktop-dev and not
@@ -7,7 +7,7 @@ qtbase-opensource-src (5.9.2+dfsg-6) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * Fix the name of installed qt.conf file (it should not be qmake.conf).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 03 Dec 2017 21:59:03 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 04 Dec 2017 09:31:27 -0300
 
 qtbase-opensource-src (5.9.2+dfsg-5) unstable; urgency=medium
 
