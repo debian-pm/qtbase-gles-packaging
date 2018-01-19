@@ -1,5 +1,8 @@
 qtbase-opensource-src (5.9.2+dfsg-7) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Remove qtlogging.ini file, the underlying issue has been fixed, and
+    it causes too many problems (closes: #886437, LP: #1744260).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 19 Jan 2018 14:43:25 +0300
 

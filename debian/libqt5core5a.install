@@ -1,4 +1,3 @@
 #! /usr/bin/dh-exec
 [any-i386] usr/lib/*/sse2/libQt5Core.so.*
-debian/qtlogging.ini etc/xdg/QtProject/
 usr/lib/*/libQt5Core.so.*
