@@ -1,6 +1,5 @@
-qtbase-opensource-src (5.9.2+dfsg-7) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.9.2+dfsg-7) unstable; urgency=medium
 
-  [ Dmitry Shachnev ]
   * Remove qtlogging.ini file, the underlying issue has been fixed, and
     it causes too many problems (closes: #886437, LP: #1744260).
   * Backport upstream patch to add missing dead key symbols (closes: #799824).
@@ -13,7 +12,7 @@ qtbase-opensource-src (5.9.2+dfsg-7) UNRELEASED; urgency=medium
   * Mark qtbase5-examples and qt5-default packages as Multi-Arch: same.
   * Bump Standards-Version to 4.1.3, no changes needed.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 19 Jan 2018 14:43:25 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 19 Jan 2018 15:19:19 +0300
 
 qtbase-opensource-src (5.9.2+dfsg-6) unstable; urgency=medium
 
