@@ -1,0 +1,16 @@
+#!/bin/sh
+
+if [ "x$1" = x-query ]; then
+	exec /usr/lib/qt5/bin/qmake "$@" -qtconf /usr/lib/@DEB_HOST_MULTIARCH@/qt5/qt.conf
+fi
+
+exec /usr/lib/qt5/bin/qmake \
+	-qtconf /usr/lib/@DEB_HOST_MULTIARCH@/qt5/qt.conf \
+	-early \
+	QMAKE_CC=${CC:-@DEB_HOST_GNU_TYPE@-gcc} \
+	QMAKE_CXX=${CXX:-@DEB_HOST_GNU_TYPE@-g++} \
+	QMAKE_LINK=${CXX:-@DEB_HOST_GNU_TYPE@-g++} \
+	QMAKE_QMAKE=/usr/bin/@DEB_HOST_GNU_TYPE@-qmake \
+	PKG_CONFIG=@DEB_HOST_GNU_TYPE@-pkg-config \
+	-before \
+	"$@"

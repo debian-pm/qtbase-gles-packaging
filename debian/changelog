@@ -4,6 +4,12 @@ qtbase-opensource-src (5.9.2+dfsg-7) UNRELEASED; urgency=medium
   * Remove qtlogging.ini file, the underlying issue has been fixed, and
     it causes too many problems (closes: #886437, LP: #1744260).
   * Backport upstream patch to add missing dead key symbols (closes: #799824).
+  * Make ${DEB_HOST_GNU_TYPE}-qmake script set QMAKE_QMAKE to itself.
+    This is needed for properly building configuration tests.
+  * Pass toolchain-related variable assignments as early flags to qmake.
+    Switch to default mode after passing them.
+  * Support <triplet>-qmake -query something (closes: #886542). Thanks to
+    Helmut Grohne.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 19 Jan 2018 14:43:25 +0300
 
