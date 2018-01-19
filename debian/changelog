@@ -11,6 +11,7 @@ qtbase-opensource-src (5.9.2+dfsg-7) UNRELEASED; urgency=medium
   * Support <triplet>-qmake -query something (closes: #886542). Thanks to
     Helmut Grohne.
   * Mark qtbase5-examples and qt5-default packages as Multi-Arch: same.
+  * Bump Standards-Version to 4.1.3, no changes needed.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 19 Jan 2018 14:43:25 +0300
 
