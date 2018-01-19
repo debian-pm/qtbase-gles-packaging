@@ -427,7 +427,7 @@ Description: Qt 5 qmake Makefile generator tool
 
 Package: qtbase5-examples
 Architecture: any
-Multi-Arch: foreign
+Multi-Arch: same
 Section: x11
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 base examples
@@ -438,6 +438,7 @@ Description: Qt 5 base examples
 
 Package: qt5-default
 Architecture: any
+Multi-Arch: same
 Section: libdevel
 Depends: qtbase5-dev, qtchooser (>= 55-gc9562a1-1~), ${misc:Depends}
 Conflicts: qt4-default
