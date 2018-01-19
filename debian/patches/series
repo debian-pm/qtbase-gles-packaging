@@ -2,6 +2,7 @@
 qglxconvenience_nullptr.diff
 postgresql_10.diff
 qdnslookup_crash.diff
+dead_key_symbols.diff
 
 # Debian specific.
 gnukfreebsd.diff

@@ -1,0 +1,301 @@
+Description: add missing dead key symbols
+Origin: upstream, https://code.qt.io/cgit/qt/qtbase.git/commit/?id=1d86e5f84abac6db
+Last-Update: 2018-01-19
+
+--- a/src/corelib/global/qnamespace.h
++++ b/src/corelib/global/qnamespace.h
+@@ -840,6 +840,36 @@
+         Key_Dead_Belowdot       = 0x01001260,
+         Key_Dead_Hook           = 0x01001261,
+         Key_Dead_Horn           = 0x01001262,
++        Key_Dead_Stroke         = 0x01001263,
++        Key_Dead_Abovecomma     = 0x01001264,
++        Key_Dead_Abovereversedcomma = 0x01001265,
++        Key_Dead_Doublegrave    = 0x01001266,
++        Key_Dead_Belowring      = 0x01001267,
++        Key_Dead_Belowmacron    = 0x01001268,
++        Key_Dead_Belowcircumflex = 0x01001269,
++        Key_Dead_Belowtilde     = 0x0100126a,
++        Key_Dead_Belowbreve     = 0x0100126b,
++        Key_Dead_Belowdiaeresis = 0x0100126c,
++        Key_Dead_Invertedbreve  = 0x0100126d,
++        Key_Dead_Belowcomma     = 0x0100126e,
++        Key_Dead_Currency       = 0x0100126f,
++        Key_Dead_a              = 0x01001280,
++        Key_Dead_A              = 0x01001281,
++        Key_Dead_e              = 0x01001282,
++        Key_Dead_E              = 0x01001283,
++        Key_Dead_i              = 0x01001284,
++        Key_Dead_I              = 0x01001285,
++        Key_Dead_o              = 0x01001286,
++        Key_Dead_O              = 0x01001287,
++        Key_Dead_u              = 0x01001288,
++        Key_Dead_U              = 0x01001289,
++        Key_Dead_Small_Schwa    = 0x0100128a,
++        Key_Dead_Capital_Schwa  = 0x0100128b,
++        Key_Dead_Greek          = 0x0100128c,
++        Key_Dead_Lowline        = 0x01001290,
++        Key_Dead_Aboveverticalline = 0x01001291,
++        Key_Dead_Belowverticalline = 0x01001292,
++        Key_Dead_Longsolidusoverlay = 0x01001293,
+ 
+         // multimedia/internet keys - ignored by default - see QKeyEvent c'tor
+         Key_Back  = 0x01000061,
+--- a/src/corelib/global/qnamespace.qdoc
++++ b/src/corelib/global/qnamespace.qdoc
+@@ -1594,6 +1594,36 @@
+     \value Key_Dead_Belowdot
+     \value Key_Dead_Hook
+     \value Key_Dead_Horn
++    \value Key_Dead_Stroke
++    \value Key_Dead_Abovecomma
++    \value Key_Dead_Abovereversedcomma
++    \value Key_Dead_Doublegrave
++    \value Key_Dead_Belowring
++    \value Key_Dead_Belowmacron
++    \value Key_Dead_Belowcircumflex
++    \value Key_Dead_Belowtilde
++    \value Key_Dead_Belowbreve
++    \value Key_Dead_Belowdiaeresis
++    \value Key_Dead_Invertedbreve
++    \value Key_Dead_Belowcomma
++    \value Key_Dead_Currency
++    \value Key_Dead_a
++    \value Key_Dead_A
++    \value Key_Dead_e
++    \value Key_Dead_E
++    \value Key_Dead_i
++    \value Key_Dead_I
++    \value Key_Dead_o
++    \value Key_Dead_O
++    \value Key_Dead_u
++    \value Key_Dead_U
++    \value Key_Dead_Small_Schwa
++    \value Key_Dead_Capital_Schwa
++    \value Key_Dead_Greek
++    \value Key_Dead_Lowline
++    \value Key_Dead_Aboveverticalline
++    \value Key_Dead_Belowverticalline
++    \value Key_Dead_Longsolidusoverlay
+     \value Key_Back
+     \value Key_Forward
+     \value Key_Stop
+--- a/src/platformsupport/input/libinput/qlibinputkeyboard.cpp
++++ b/src/platformsupport/input/libinput/qlibinputkeyboard.cpp
+@@ -281,7 +281,7 @@
+         *modifiers |= Qt::KeypadModifier;
+     } else if (text.length() == 1 && text.unicode()->unicode() > 0x1f
+                                   && text.unicode()->unicode() != 0x7f
+-                                  && !(keysym >= XKB_KEY_dead_grave && keysym <= XKB_KEY_dead_currency)) {
++                                  && !(keysym >= XKB_KEY_dead_grave && keysym <= XKB_KEY_dead_longsolidusoverlay)) {
+         code = text.unicode()->toUpper().unicode();
+     } else {
+         // any other keys
+--- a/src/plugins/platforminputcontexts/compose/qcomposeplatforminputcontext.cpp
++++ b/src/plugins/platforminputcontexts/compose/qcomposeplatforminputcontext.cpp
+@@ -82,7 +82,37 @@
+     Qt::Key_Dead_Semivoiced_Sound,
+     Qt::Key_Dead_Belowdot,
+     Qt::Key_Dead_Hook,
+-    Qt::Key_Dead_Horn
++    Qt::Key_Dead_Horn,
++    Qt::Key_Dead_Stroke,
++    Qt::Key_Dead_Abovecomma,
++    Qt::Key_Dead_Abovereversedcomma,
++    Qt::Key_Dead_Doublegrave,
++    Qt::Key_Dead_Belowring,
++    Qt::Key_Dead_Belowmacron,
++    Qt::Key_Dead_Belowcircumflex,
++    Qt::Key_Dead_Belowtilde,
++    Qt::Key_Dead_Belowbreve,
++    Qt::Key_Dead_Belowdiaeresis,
++    Qt::Key_Dead_Invertedbreve,
++    Qt::Key_Dead_Belowcomma,
++    Qt::Key_Dead_Currency,
++    Qt::Key_Dead_a,
++    Qt::Key_Dead_A,
++    Qt::Key_Dead_e,
++    Qt::Key_Dead_E,
++    Qt::Key_Dead_i,
++    Qt::Key_Dead_I,
++    Qt::Key_Dead_o,
++    Qt::Key_Dead_O,
++    Qt::Key_Dead_u,
++    Qt::Key_Dead_U,
++    Qt::Key_Dead_Small_Schwa,
++    Qt::Key_Dead_Capital_Schwa,
++    Qt::Key_Dead_Greek,
++    Qt::Key_Dead_Lowline,
++    Qt::Key_Dead_Aboveverticalline,
++    Qt::Key_Dead_Belowverticalline,
++    Qt::Key_Dead_Longsolidusoverlay
+ };
+ 
+ QComposeInputContext::QComposeInputContext()
+--- a/src/plugins/platforms/mirclient/qmirclientinput.cpp
++++ b/src/plugins/platforms/mirclient/qmirclientinput.cpp
+@@ -156,6 +156,36 @@
+     XKB_KEY_dead_belowdot,           Qt::Key_Dead_Belowdot,
+     XKB_KEY_dead_hook,               Qt::Key_Dead_Hook,
+     XKB_KEY_dead_horn,               Qt::Key_Dead_Horn,
++    XKB_KEY_dead_stroke,             Qt::Key_Dead_Stroke,
++    XKB_KEY_dead_abovecomma,         Qt::Key_Dead_Abovecomma,
++    XKB_KEY_dead_abovereversedcomma, Qt::Key_Dead_Abovereversedcomma,
++    XKB_KEY_dead_doublegrave,        Qt::Key_Dead_Doublegrave,
++    XKB_KEY_dead_belowring,          Qt::Key_Dead_Belowring,
++    XKB_KEY_dead_belowmacron,        Qt::Key_Dead_Belowmacron,
++    XKB_KEY_dead_belowcircumflex,    Qt::Key_Dead_Belowcircumflex,
++    XKB_KEY_dead_belowtilde,         Qt::Key_Dead_Belowtilde,
++    XKB_KEY_dead_belowbreve,         Qt::Key_Dead_Belowbreve,
++    XKB_KEY_dead_belowdiaeresis,     Qt::Key_Dead_Belowdiaeresis,
++    XKB_KEY_dead_invertedbreve,      Qt::Key_Dead_Invertedbreve,
++    XKB_KEY_dead_belowcomma,         Qt::Key_Dead_Belowcomma,
++    XKB_KEY_dead_currency,           Qt::Key_Dead_Currency,
++    XKB_KEY_dead_a,                  Qt::Key_Dead_a,
++    XKB_KEY_dead_A,                  Qt::Key_Dead_A,
++    XKB_KEY_dead_e,                  Qt::Key_Dead_e,
++    XKB_KEY_dead_E,                  Qt::Key_Dead_E,
++    XKB_KEY_dead_i,                  Qt::Key_Dead_i,
++    XKB_KEY_dead_I,                  Qt::Key_Dead_I,
++    XKB_KEY_dead_o,                  Qt::Key_Dead_o,
++    XKB_KEY_dead_O,                  Qt::Key_Dead_O,
++    XKB_KEY_dead_u,                  Qt::Key_Dead_u,
++    XKB_KEY_dead_U,                  Qt::Key_Dead_U,
++    XKB_KEY_dead_small_schwa,        Qt::Key_Dead_Small_Schwa,
++    XKB_KEY_dead_capital_schwa,      Qt::Key_Dead_Capital_Schwa,
++    XKB_KEY_dead_greek,              Qt::Key_Dead_Greek,
++    XKB_KEY_dead_lowline,            Qt::Key_Dead_Lowline,
++    XKB_KEY_dead_aboveverticalline,  Qt::Key_Dead_Aboveverticalline,
++    XKB_KEY_dead_belowverticalline,  Qt::Key_Dead_Belowverticalline,
++    XKB_KEY_dead_longsolidusoverlay, Qt::Key_Dead_Longsolidusoverlay,
+ 
+     XKB_KEY_Mode_switch,             Qt::Key_Mode_switch,
+     XKB_KEY_script_switch,           Qt::Key_Mode_switch,
+--- a/src/plugins/platforms/xcb/qxcbkeyboard.cpp
++++ b/src/plugins/platforms/xcb/qxcbkeyboard.cpp
+@@ -63,14 +63,75 @@
+ #define XK_ISO_Left_Tab         0xFE20
+ #endif
+ 
+-#ifndef XK_dead_hook
+-#define XK_dead_hook            0xFE61
++#ifndef XK_dead_a
++#define XK_dead_a               0xFE80
+ #endif
+ 
+-#ifndef XK_dead_horn
+-#define XK_dead_horn            0xFE62
++#ifndef XK_dead_A
++#define XK_dead_A               0xFE81
+ #endif
+ 
++#ifndef XK_dead_e
++#define XK_dead_e               0xFE82
++#endif
++
++#ifndef XK_dead_E
++#define XK_dead_E               0xFE83
++#endif
++
++#ifndef XK_dead_i
++#define XK_dead_i               0xFE84
++#endif
++
++#ifndef XK_dead_I
++#define XK_dead_I               0xFE85
++#endif
++
++#ifndef XK_dead_o
++#define XK_dead_o               0xFE86
++#endif
++
++#ifndef XK_dead_O
++#define XK_dead_O               0xFE87
++#endif
++
++#ifndef XK_dead_u
++#define XK_dead_u               0xFE88
++#endif
++
++#ifndef XK_dead_U
++#define XK_dead_U               0xFE89
++#endif
++
++#ifndef XK_dead_small_schwa
++#define XK_dead_small_schwa     0xFE8A
++#endif
++
++#ifndef XK_dead_capital_schwa
++#define XK_dead_capital_schwa   0xFE8B
++#endif
++
++#ifndef XK_dead_greek
++#define XK_dead_greek           0xFE8C
++#endif
++
++#ifndef XK_dead_lowline
++#define XK_dead_lowline         0xFE90
++#endif
++
++#ifndef XK_dead_aboveverticalline
++#define XK_dead_aboveverticalline 0xFE91
++#endif
++
++#ifndef XK_dead_belowverticalline
++#define XK_dead_belowverticalline 0xFE92
++#endif
++
++#ifndef XK_dead_longsolidusoverlay
++#define XK_dead_longsolidusoverlay 0xFE93
++#endif
++
++
+ #ifndef XK_Codeinput
+ #define XK_Codeinput            0xFF37
+ #endif
+@@ -429,6 +490,36 @@
+     XK_dead_belowdot,           Qt::Key_Dead_Belowdot,
+     XK_dead_hook,               Qt::Key_Dead_Hook,
+     XK_dead_horn,               Qt::Key_Dead_Horn,
++    XK_dead_stroke,             Qt::Key_Dead_Stroke,
++    XK_dead_abovecomma,         Qt::Key_Dead_Abovecomma,
++    XK_dead_abovereversedcomma, Qt::Key_Dead_Abovereversedcomma,
++    XK_dead_doublegrave,        Qt::Key_Dead_Doublegrave,
++    XK_dead_belowring,          Qt::Key_Dead_Belowring,
++    XK_dead_belowmacron,        Qt::Key_Dead_Belowmacron,
++    XK_dead_belowcircumflex,    Qt::Key_Dead_Belowcircumflex,
++    XK_dead_belowtilde,         Qt::Key_Dead_Belowtilde,
++    XK_dead_belowbreve,         Qt::Key_Dead_Belowbreve,
++    XK_dead_belowdiaeresis,     Qt::Key_Dead_Belowdiaeresis,
++    XK_dead_invertedbreve,      Qt::Key_Dead_Invertedbreve,
++    XK_dead_belowcomma,         Qt::Key_Dead_Belowcomma,
++    XK_dead_currency,           Qt::Key_Dead_Currency,
++    XK_dead_a,                  Qt::Key_Dead_a,
++    XK_dead_A,                  Qt::Key_Dead_A,
++    XK_dead_e,                  Qt::Key_Dead_e,
++    XK_dead_E,                  Qt::Key_Dead_E,
++    XK_dead_i,                  Qt::Key_Dead_i,
++    XK_dead_I,                  Qt::Key_Dead_I,
++    XK_dead_o,                  Qt::Key_Dead_o,
++    XK_dead_O,                  Qt::Key_Dead_O,
++    XK_dead_u,                  Qt::Key_Dead_u,
++    XK_dead_U,                  Qt::Key_Dead_U,
++    XK_dead_small_schwa,        Qt::Key_Dead_Small_Schwa,
++    XK_dead_capital_schwa,      Qt::Key_Dead_Capital_Schwa,
++    XK_dead_greek,              Qt::Key_Dead_Greek,
++    XK_dead_lowline,            Qt::Key_Dead_Lowline,
++    XK_dead_aboveverticalline,  Qt::Key_Dead_Aboveverticalline,
++    XK_dead_belowverticalline,  Qt::Key_Dead_Belowverticalline,
++    XK_dead_longsolidusoverlay, Qt::Key_Dead_Longsolidusoverlay,
+ 
+     // Special keys from X.org - This include multimedia keys,
+         // wireless/bluetooth/uwb keys, special launcher keys, etc.
+@@ -1124,7 +1215,7 @@
+         modifiers |= Qt::KeypadModifier;
+     } else if (text.length() == 1 && text.unicode()->unicode() > 0x1f
+                                   && text.unicode()->unicode() != 0x7f
+-                                  && !(keysym >= XK_dead_grave && keysym <= XK_dead_currency)) {
++                                  && !(keysym >= XK_dead_grave && keysym <= XK_dead_longsolidusoverlay)) {
+         code = text.unicode()->toUpper().unicode();
+     } else {
+         // any other keys
