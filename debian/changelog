@@ -1,3 +1,8 @@
+qtbase-opensource-src (5.9.2+dfsg-8) UNRELEASED; urgency=medium
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 31 Jan 2018 23:28:45 +0300
+
 qtbase-opensource-src (5.9.2+dfsg-7) unstable; urgency=medium
 
   * Remove qtlogging.ini file, the underlying issue has been fixed, and
