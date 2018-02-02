@@ -2,6 +2,7 @@ qtbase-opensource-src (5.9.2+dfsg-8) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * qmake-cross-wrapper: Add special handling of -makefile and -project flags.
+  * Remove empty /etc/xdg/QtProject directory on upgrades (closes: #887806).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 31 Jan 2018 23:28:45 +0300
 
