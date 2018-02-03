@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.9.2 amd64
+# SymbolsHelper-Confirmed: 5.9.2 amd64 ia64
 libQt5Core.so.5 libqt5core5a #MINVER#
 | libqt5core5a #MINVER#, qtbase-abi-5-9-2
 * Build-Depends-Package: qtbase5-dev
@@ -24,7 +24,7 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  (arch=hurd-i386 i386 kfreebsd-i386)_Z10qvsnprintfPcjPKcS_@Qt_5 5.2.0
  (arch=armel armhf)_Z10qvsnprintfPcjPKcSt9__va_list@Qt_5 5.2.0
  (arch=alpha)_Z10qvsnprintfPcmPKc13__va_list_tag@Qt_5 5.1.0
- (arch=mips64el sparc64)_Z10qvsnprintfPcmPKcPv@Qt_5 5.3.1
+ (arch=ia64 mips64el sparc64)_Z10qvsnprintfPcmPKcPv@Qt_5 5.9.2
  (arch=ppc64 ppc64el)_Z10qvsnprintfPcmPKcS_@Qt_5 5.3.1
  (arch=arm64)_Z10qvsnprintfPcmPKcSt9__va_list@Qt_5 5.3.0
  (arch=amd64 kfreebsd-amd64 powerpc powerpcspe s390x x32|subst)_Z10qvsnprintfPc{size_t}PKcP13__va_list_tag@Qt_5 5.3.1
@@ -2849,13 +2849,13 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  (arch=alpha sh4)_ZN7QString8vsprintfEPKc13__va_list_tag@Qt_5 5.4.2
  (arch=amd64 kfreebsd-amd64 powerpc powerpcspe s390x x32)_ZN7QString8vsprintfEPKcP13__va_list_tag@Qt_5 5.3.1
  (arch=hurd-i386 i386 kfreebsd-i386 ppc64 ppc64el)_ZN7QString8vsprintfEPKcPc@Qt_5 5.3.1
- (arch=hppa m68k mips mips64el mipsel sparc64)_ZN7QString8vsprintfEPKcPv@Qt_5 5.4.2
+ (arch=hppa ia64 m68k mips mips64el mipsel sparc64)_ZN7QString8vsprintfEPKcPv@Qt_5 5.9.2
  (arch=arm64 armel armhf)_ZN7QString8vsprintfEPKcSt9__va_list@Qt_5 5.3.0
  _ZN7QString9fromUtf16EPKti@Qt_5 5.0.2
  (arch=alpha sh4)_ZN7QString9vasprintfEPKc13__va_list_tag@Qt_5 5.9.1
  (arch=amd64 kfreebsd-amd64 powerpc powerpcspe s390x x32)_ZN7QString9vasprintfEPKcP13__va_list_tag@Qt_5 5.6.1
  (arch=hurd-i386 i386 kfreebsd-i386 ppc64 ppc64el)_ZN7QString9vasprintfEPKcPc@Qt_5 5.5.0
- (arch=hppa m68k mips mips64el mipsel sparc64)_ZN7QString9vasprintfEPKcPv@Qt_5 5.7.1
+ (arch=hppa ia64 m68k mips mips64el mipsel sparc64)_ZN7QString9vasprintfEPKcPv@Qt_5 5.9.2
  (arch=arm64 armel armhf)_ZN7QString9vasprintfEPKcSt9__va_list@Qt_5 5.5.0
  _ZN7QStringC1E5QChar@Qt_5 5.0.2
  _ZN7QStringC1EPK5QChari@Qt_5 5.0.2
@@ -3134,8 +3134,8 @@ libQt5Core.so.5 libqt5core5a #MINVER#
  _ZN9QDateTime19fromMSecsSinceEpochExRK9QTimeZone@Qt_5 5.2.0~alpha1
  _ZN9QDateTime21currentSecsSinceEpochEv@Qt_5 5.8.0
  _ZN9QDateTime22currentMSecsSinceEpochEv@Qt_5 5.0.2
- (optional=inline|arch=alpha amd64 arm64 kfreebsd-amd64 mips64el ppc64 ppc64el s390x sparc64)_ZN9QDateTime4DataC1EN2Qt8TimeSpecE@Qt_5 5.9.1
- (optional=inline|arch=alpha amd64 arm64 kfreebsd-amd64 mips64el ppc64 ppc64el s390x sparc64)_ZN9QDateTime4DataC2EN2Qt8TimeSpecE@Qt_5 5.9.1
+ (optional=inline|arch=alpha amd64 arm64 ia64 kfreebsd-amd64 mips64el ppc64 ppc64el s390x sparc64)_ZN9QDateTime4DataC1EN2Qt8TimeSpecE@Qt_5 5.9.1
+ (optional=inline|arch=alpha amd64 arm64 ia64 kfreebsd-amd64 mips64el ppc64 ppc64el s390x sparc64)_ZN9QDateTime4DataC2EN2Qt8TimeSpecE@Qt_5 5.9.1
  _ZN9QDateTime4DataD1Ev@Qt_5 5.8.0
  _ZN9QDateTime4DataD2Ev@Qt_5 5.8.0
  _ZN9QDateTime7setDateERK5QDate@Qt_5 5.0.2
