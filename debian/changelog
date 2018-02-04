@@ -1,3 +1,7 @@
+qtbase-opensource-src (5.9.2+dfsg-9) UNRELEASED; urgency=medium
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 03 Feb 2018 21:59:36 -0300
+
 qtbase-opensource-src (5.9.2+dfsg-8) unstable; urgency=medium
 
   * qmake-cross-wrapper: Add special handling of -makefile and -project flags.
