@@ -5,5 +5,7 @@ set -e
 #DEBHELPER#
 
 if [ "$1" = configure ]; then
-    rmdir --ignore-fail-on-non-empty /etc/xdg/QtProject
+    if [ -d /etc/xdg/QtProject ]; then
+        rmdir --ignore-fail-on-non-empty /etc/xdg/QtProject
+    fi
 fi
