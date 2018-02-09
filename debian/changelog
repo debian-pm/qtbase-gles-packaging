@@ -1,5 +1,8 @@
 qtbase-opensource-src (5.9.2+dfsg-10) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Fix processing multiple headers with the same name in HTTP/2 (closes:
+    #886395).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 09 Feb 2018 16:21:14 +0300
 

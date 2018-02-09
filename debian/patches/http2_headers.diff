@@ -1,0 +1,15 @@
+Description: HTTP/2 - fix header processing
+Origin: upstream, https://code.qt.io/cgit/qt/qtbase.git/commit/?id=7c334301bd323765
+Last-Update: 2018-02-09
+
+--- a/src/network/access/qhttp2protocolhandler.cpp
++++ b/src/network/access/qhttp2protocolhandler.cpp
+@@ -1053,7 +1053,7 @@
+             QByteArray binder(", ");
+             if (name == "set-cookie")
+                 binder = "\n";
+-            httpReply->setHeaderField(name, value.replace('\0', binder));
++            httpReplyPrivate->fields.append(qMakePair(name, value.replace('\0', binder)));
+         }
+     }
+ 
