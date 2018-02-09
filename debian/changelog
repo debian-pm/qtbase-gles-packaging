@@ -1,11 +1,11 @@
-qtbase-opensource-src (5.9.2+dfsg-10) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.9.2+dfsg-10) unstable; urgency=medium
 
   [ Dmitry Shachnev ]
   * Fix processing multiple headers with the same name in HTTP/2 (closes:
     #886395).
   * Update symbols files from hurd-i386 build logs.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 09 Feb 2018 16:21:14 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 09 Feb 2018 16:40:07 +0300
 
 qtbase-opensource-src (5.9.2+dfsg-9) unstable; urgency=medium
 
