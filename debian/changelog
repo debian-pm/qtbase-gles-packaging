@@ -1,3 +1,8 @@
+qtbase-opensource-src (5.9.2+dfsg-10) UNRELEASED; urgency=medium
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 09 Feb 2018 16:21:14 +0300
+
 qtbase-opensource-src (5.9.2+dfsg-9) unstable; urgency=medium
 
   * Check the existance of /etc/xdg/QtProject before trying to remove it
