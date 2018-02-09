@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.9.2 amd64 ia64
+# SymbolsHelper-Confirmed: 5.9.2 amd64 hurd-i386 ia64
 libQt5Network.so.5 libqt5network5 #MINVER#
 | libqt5network5 #MINVER#, qtbase-abi-5-9-2
 * Build-Depends-Package: qtbase5-dev
@@ -1290,6 +1290,7 @@ libQt5Network.so.5 libqt5network5 #MINVER#
  (optional=templinst)_ZNSt11_Deque_baseIjSaIjEED2Ev@Qt_5 5.8.0
  (optional=templinst)_ZNSt5dequeIjSaIjEE13_M_insert_auxIJRKjEEESt15_Deque_iteratorIjRjPjES8_DpOT_@Qt_5 5.8.0
  (optional=templinst)_ZNSt5dequeIjSaIjEE16_M_push_back_auxIJRKjEEEvDpOT_@Qt_5 5.9.1
+ (optional=templinst|arch=hurd-i386)_ZNSt5dequeIjSaIjEE17_M_push_front_auxIJRKjEEEvDpOT_@Qt_5 5.9.2
  (optional=templinst|subst)_ZNSt5dequeIjSaIjEE17_M_reallocate_mapE{size_t}b@Qt_5 5.8.0
  (optional=templinst)_ZNSt5dequeIjSaIjEE8_M_eraseESt15_Deque_iteratorIjRjPjE@Qt_5 5.8.0
  (optional=templinst)_ZNSt5dequeIjSaIjEE8_M_eraseESt15_Deque_iteratorIjRjPjES5_@Qt_5 5.8.0
