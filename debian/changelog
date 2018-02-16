@@ -1,5 +1,10 @@
 qtbase-opensource-src (5.9.2+dfsg-12) UNRELEASED; urgency=medium
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Add patch to extend MariaDB define checks. It seems that this codes makes
+    akonadi not fail on long time running sessions. Thanks Luigi Toscano for
+    the pointer.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 16 Feb 2018 15:23:20 -0300
 
 qtbase-opensource-src (5.9.2+dfsg-11) unstable; urgency=medium
