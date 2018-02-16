@@ -1,5 +1,9 @@
 qtbase-opensource-src (5.9.2+dfsg-11) UNRELEASED; urgency=medium
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Add Martin Briza's hidpi_scale_at_192.diff to solve wrong HiDPI scalling
+   (Closes: #884956). Thanks Fedora guys!
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 16 Feb 2018 11:32:28 -0300
 
 qtbase-opensource-src (5.9.2+dfsg-10) unstable; urgency=medium

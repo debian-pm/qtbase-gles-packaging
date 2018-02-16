@@ -13,3 +13,6 @@ link_fbclient.diff
 gnukfreebsd_cloexec.diff
 armv4.diff
 nonlinux_utime.diff
+
+# From Fedora
+hidpi_scale_at_192.diff
