@@ -4,16 +4,18 @@ Author: Martin Briza
 Bug-Fedora: https://bugzilla.redhat.com/show_bug.cgi?id=1381828
 Bug-Debian: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=884956
 
-diff --git a/src/plugins/platforms/xcb/qxcbscreen.cpp b/src/plugins/platforms/xcb/qxcbscreen.cpp
-index ec0f9ba..6d0d7a6 100644
+---
+ src/plugins/platforms/xcb/qxcbscreen.cpp |    2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
 --- a/src/plugins/platforms/xcb/qxcbscreen.cpp
 +++ b/src/plugins/platforms/xcb/qxcbscreen.cpp
-@@ -747,7 +747,7 @@ void QXcbScreen::updateGeometry(const QRect &geometry, uint8_t rotation)
-         m_sizeMillimeters = sizeInMillimeters(geometry.size(), virtualDpi());
-
-     qreal dpi = geometry.width() / physicalSize().width() * qreal(25.4);
+@@ -620,7 +620,7 @@ void QXcbScreen::updateGeometry(const QR
+         m_sizeMillimeters = sizeInMillimeters(xGeometry.size(), virtualDpi());
+ 
+     qreal dpi = xGeometry.width() / physicalSize().width() * qreal(25.4);
 -    m_pixelDensity = qMax(1, qRound(dpi/96));
 +    m_pixelDensity = qMax(1, (int) (dpi/96)); // instead of rounding at 1.5, round at 2.0 (same as GNOME)
-     m_geometry = geometry;
-     m_availableGeometry = geometry & m_virtualDesktop->workArea();
+     m_geometry = QRect(xGeometry.topLeft(), xGeometry.size());
+     m_availableGeometry = xGeometry & m_virtualDesktop->workArea();
      QWindowSystemInterface::handleScreenGeometryChange(QPlatformScreen::screen(), m_geometry, m_availableGeometry);
