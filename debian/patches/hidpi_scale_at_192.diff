@@ -3,6 +3,7 @@ Origin: https://src.fedoraproject.org/rpms/qt5-qtbase/blame/qtbase-hidpi_scale_a
 Author: Martin Briza
 Bug-Fedora: https://bugzilla.redhat.com/show_bug.cgi?id=1381828
 Bug-Debian: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=884956
+Forwarded: no
 
 ---
  src/plugins/platforms/xcb/qxcbscreen.cpp |    2 +-
