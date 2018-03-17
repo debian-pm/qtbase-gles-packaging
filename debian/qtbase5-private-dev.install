@@ -1,11 +1,4 @@
 #! /usr/bin/dh-exec
-[!armel !armhf] usr/include/*/qt5/QtGlxSupport/5.*/*
-[!armel !armhf] usr/include/*/qt5/QtGlxSupport/QtGlxSupport
-[!armel !armhf] usr/include/*/qt5/QtGlxSupport/QtGlxSupportDepends
-[!armel !armhf] usr/include/*/qt5/QtGlxSupport/QtGlxSupportVersion
-[!armel !armhf] usr/include/*/qt5/QtGlxSupport/qtglxsupportversion.h
-[!armel !armhf] usr/lib/*/libQt5GlxSupport.a
-[!armel !armhf] usr/lib/*/libQt5GlxSupport.prl
 [kfreebsd-any linux-any] usr/include/*/qt5/QtEglFSDeviceIntegration/5.*/*
 [kfreebsd-any linux-any] usr/include/*/qt5/QtEglFSDeviceIntegration/QtEglFSDeviceIntegration
 [kfreebsd-any linux-any] usr/include/*/qt5/QtEglFSDeviceIntegration/QtEglFSDeviceIntegrationDepends

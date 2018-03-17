@@ -2067,19 +2067,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN17QOpenGLExtensionsC1Ev@Qt_5_PRIVATE_API 5.0.2 1
  _ZN17QOpenGLExtensionsC2EP14QOpenGLContext@Qt_5_PRIVATE_API 5.0.2 1
  _ZN17QOpenGLExtensionsC2Ev@Qt_5_PRIVATE_API 5.0.2 1
- (arch=!armel !armhf)_ZN17QOpenGLTimerQuery11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN17QOpenGLTimerQuery11qt_metacastEPKc@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN17QOpenGLTimerQuery15recordTimestampEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN17QOpenGLTimerQuery16staticMetaObjectE@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN17QOpenGLTimerQuery3endEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN17QOpenGLTimerQuery5beginEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN17QOpenGLTimerQuery6createEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN17QOpenGLTimerQuery7destroyEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN17QOpenGLTimerQueryC1EP7QObject@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN17QOpenGLTimerQueryC2EP7QObject@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN17QOpenGLTimerQueryD0Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN17QOpenGLTimerQueryD1Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN17QOpenGLTimerQueryD2Ev@Qt_5 5.1.0
  _ZN17QPagedPaintDevice10setMarginsERKNS_7MarginsE@Qt_5 5.0.2
  _ZN17QPagedPaintDevice11setPageSizeENS_8PageSizeE@Qt_5 5.0.2
  _ZN17QPagedPaintDevice11setPageSizeERK9QPageSize@Qt_5 5.3.0
@@ -2239,19 +2226,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN18QOpenGLPaintDeviceD0Ev@Qt_5 5.0.2
  _ZN18QOpenGLPaintDeviceD1Ev@Qt_5 5.0.2
  _ZN18QOpenGLPaintDeviceD2Ev@Qt_5 5.0.2
- (arch=!armel !armhf)_ZN18QOpenGLTimeMonitor11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN18QOpenGLTimeMonitor11qt_metacastEPKc@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN18QOpenGLTimeMonitor12recordSampleEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN18QOpenGLTimeMonitor14setSampleCountEi@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN18QOpenGLTimeMonitor16staticMetaObjectE@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN18QOpenGLTimeMonitor5resetEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN18QOpenGLTimeMonitor6createEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN18QOpenGLTimeMonitor7destroyEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN18QOpenGLTimeMonitorC1EP7QObject@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN18QOpenGLTimeMonitorC2EP7QObject@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN18QOpenGLTimeMonitorD0Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN18QOpenGLTimeMonitorD1Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN18QOpenGLTimeMonitorD2Ev@Qt_5 5.1.0
  _ZN18QPaintDeviceWindow10paintEventEP11QPaintEvent@Qt_5 5.4.0
  _ZN18QPaintDeviceWindow11exposeEventEP12QExposeEvent@Qt_5 5.4.0
  _ZN18QPaintDeviceWindow11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.4.0
@@ -2571,94 +2545,14 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN20QAccessibleInterfaceD0Ev@Qt_5 5.1.0
  _ZN20QAccessibleInterfaceD1Ev@Qt_5 5.1.0
  _ZN20QAccessibleInterfaceD2Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_1_014versionProfileEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_1_019isContextCompatibleEP14QOpenGLContext@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_1_025initializeOpenGLFunctionsEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_1_0C1Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_1_0C2Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_1_0D0Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_1_0D1Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_1_0D2Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_1_114versionProfileEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_1_119isContextCompatibleEP14QOpenGLContext@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_1_125initializeOpenGLFunctionsEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_1_1C1Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_1_1C2Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_1_1D0Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_1_1D1Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_1_1D2Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_1_214versionProfileEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_1_219isContextCompatibleEP14QOpenGLContext@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_1_225initializeOpenGLFunctionsEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_1_2C1Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_1_2C2Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_1_2D0Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_1_2D1Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_1_2D2Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_1_314versionProfileEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_1_319isContextCompatibleEP14QOpenGLContext@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_1_325initializeOpenGLFunctionsEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_1_3C1Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_1_3C2Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_1_3D0Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_1_3D1Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_1_3D2Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_1_414versionProfileEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_1_419isContextCompatibleEP14QOpenGLContext@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_1_425initializeOpenGLFunctionsEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_1_4C1Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_1_4C2Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_1_4D0Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_1_4D1Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_1_4D2Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_1_514versionProfileEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_1_519isContextCompatibleEP14QOpenGLContext@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_1_525initializeOpenGLFunctionsEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_1_5C1Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_1_5C2Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_1_5D0Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_1_5D1Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_1_5D2Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_2_014versionProfileEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_2_019isContextCompatibleEP14QOpenGLContext@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_2_025initializeOpenGLFunctionsEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_2_0C1Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_2_0C2Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_2_0D0Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_2_0D1Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_2_0D2Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_2_114versionProfileEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_2_119isContextCompatibleEP14QOpenGLContext@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_2_125initializeOpenGLFunctionsEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_2_1C1Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_2_1C2Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_2_1D0Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_2_1D1Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_2_1D2Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_3_014versionProfileEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_3_019isContextCompatibleEP14QOpenGLContext@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_3_025initializeOpenGLFunctionsEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_3_0C1Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_3_0C2Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_3_0D0Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_3_0D1Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_3_0D2Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_3_114versionProfileEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_3_119isContextCompatibleEP14QOpenGLContext@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_3_125initializeOpenGLFunctionsEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_3_1C1Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_3_1C2Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_3_1D0Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_3_1D1Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN20QOpenGLFunctions_3_1D2Ev@Qt_5 5.1.0
- (arch=armel armhf)_ZN20QOpenGLFunctions_ES214versionProfileEv@Qt_5 5.2.0
- (arch=armel armhf)_ZN20QOpenGLFunctions_ES219isContextCompatibleEP14QOpenGLContext@Qt_5 5.2.0
- (arch=armel armhf)_ZN20QOpenGLFunctions_ES225initializeOpenGLFunctionsEv@Qt_5 5.2.0
- (arch=armel armhf)_ZN20QOpenGLFunctions_ES2C1Ev@Qt_5 5.2.0
- (arch=armel armhf)_ZN20QOpenGLFunctions_ES2C2Ev@Qt_5 5.2.0
- (arch=armel armhf)_ZN20QOpenGLFunctions_ES2D0Ev@Qt_5 5.2.0
- (arch=armel armhf)_ZN20QOpenGLFunctions_ES2D1Ev@Qt_5 5.2.0
- (arch=armel armhf)_ZN20QOpenGLFunctions_ES2D2Ev@Qt_5 5.2.0
+ _ZN20QOpenGLFunctions_ES214versionProfileEv@Qt_5 5.2.0
+ _ZN20QOpenGLFunctions_ES219isContextCompatibleEP14QOpenGLContext@Qt_5 5.2.0
+ _ZN20QOpenGLFunctions_ES225initializeOpenGLFunctionsEv@Qt_5 5.2.0
+ _ZN20QOpenGLFunctions_ES2C1Ev@Qt_5 5.2.0
+ _ZN20QOpenGLFunctions_ES2C2Ev@Qt_5 5.2.0
+ _ZN20QOpenGLFunctions_ES2D0Ev@Qt_5 5.2.0
+ _ZN20QOpenGLFunctions_ES2D1Ev@Qt_5 5.2.0
+ _ZN20QOpenGLFunctions_ES2D2Ev@Qt_5 5.2.0
  _ZN20QOpenGLShaderProgram11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.0.2
  _ZN20QOpenGLShaderProgram11qt_metacastEPKc@Qt_5 5.0.2
  _ZN20QOpenGLShaderProgram12removeShaderEP13QOpenGLShader@Qt_5 5.0.2
@@ -3552,70 +3446,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN25QAccessibleValueInterfaceD0Ev@Qt_5 5.6.0~beta
  _ZN25QAccessibleValueInterfaceD1Ev@Qt_5 5.6.0~beta
  _ZN25QAccessibleValueInterfaceD2Ev@Qt_5 5.6.0~beta
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_3_2_Core14versionProfileEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_3_2_Core19isContextCompatibleEP14QOpenGLContext@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_3_2_Core25initializeOpenGLFunctionsEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_3_2_CoreC1Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_3_2_CoreC2Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_3_2_CoreD0Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_3_2_CoreD1Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_3_2_CoreD2Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_3_3_Core14versionProfileEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_3_3_Core19isContextCompatibleEP14QOpenGLContext@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_3_3_Core25initializeOpenGLFunctionsEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_3_3_CoreC1Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_3_3_CoreC2Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_3_3_CoreD0Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_3_3_CoreD1Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_3_3_CoreD2Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_4_0_Core14versionProfileEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_4_0_Core19isContextCompatibleEP14QOpenGLContext@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_4_0_Core25initializeOpenGLFunctionsEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_4_0_CoreC1Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_4_0_CoreC2Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_4_0_CoreD0Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_4_0_CoreD1Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_4_0_CoreD2Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_4_1_Core14versionProfileEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_4_1_Core19isContextCompatibleEP14QOpenGLContext@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_4_1_Core25initializeOpenGLFunctionsEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_4_1_CoreC1Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_4_1_CoreC2Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_4_1_CoreD0Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_4_1_CoreD1Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_4_1_CoreD2Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_4_2_Core14versionProfileEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_4_2_Core19isContextCompatibleEP14QOpenGLContext@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_4_2_Core25initializeOpenGLFunctionsEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_4_2_CoreC1Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_4_2_CoreC2Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_4_2_CoreD0Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_4_2_CoreD1Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_4_2_CoreD2Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_4_3_Core14versionProfileEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_4_3_Core19isContextCompatibleEP14QOpenGLContext@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_4_3_Core25initializeOpenGLFunctionsEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_4_3_CoreC1Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_4_3_CoreC2Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_4_3_CoreD0Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_4_3_CoreD1Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_4_3_CoreD2Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_4_4_Core14versionProfileEv@Qt_5 5.5.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_4_4_Core19isContextCompatibleEP14QOpenGLContext@Qt_5 5.5.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_4_4_Core25initializeOpenGLFunctionsEv@Qt_5 5.5.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_4_4_CoreC1Ev@Qt_5 5.5.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_4_4_CoreC2Ev@Qt_5 5.5.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_4_4_CoreD0Ev@Qt_5 5.5.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_4_4_CoreD1Ev@Qt_5 5.5.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_4_4_CoreD2Ev@Qt_5 5.5.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_4_5_Core14versionProfileEv@Qt_5 5.5.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_4_5_Core19isContextCompatibleEP14QOpenGLContext@Qt_5 5.5.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_4_5_Core25initializeOpenGLFunctionsEv@Qt_5 5.5.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_4_5_CoreC1Ev@Qt_5 5.5.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_4_5_CoreC2Ev@Qt_5 5.5.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_4_5_CoreD0Ev@Qt_5 5.5.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_4_5_CoreD1Ev@Qt_5 5.5.0
- (arch=!armel !armhf)_ZN25QOpenGLFunctions_4_5_CoreD2Ev@Qt_5 5.5.0
  _ZN25QOpenGLPaintDevicePrivateC1ERK5QSize@Qt_5_PRIVATE_API 5.4.0 1
  _ZN25QOpenGLPaintDevicePrivateC2ERK5QSize@Qt_5_PRIVATE_API 5.4.0 1
  _ZN25QOpenGLPaintDevicePrivateD0Ev@Qt_5_PRIVATE_API 5.6.0~beta 1
@@ -3883,70 +3713,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZN34QAbstractTextDocumentLayoutPrivateD0Ev@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN34QAbstractTextDocumentLayoutPrivateD1Ev@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN34QAbstractTextDocumentLayoutPrivateD2Ev@Qt_5_PRIVATE_API 5.6.0~beta 1
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_3_2_Compatibility14versionProfileEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_3_2_Compatibility19isContextCompatibleEP14QOpenGLContext@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_3_2_Compatibility25initializeOpenGLFunctionsEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_3_2_CompatibilityC1Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_3_2_CompatibilityC2Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_3_2_CompatibilityD0Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_3_2_CompatibilityD1Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_3_2_CompatibilityD2Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_3_3_Compatibility14versionProfileEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_3_3_Compatibility19isContextCompatibleEP14QOpenGLContext@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_3_3_Compatibility25initializeOpenGLFunctionsEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_3_3_CompatibilityC1Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_3_3_CompatibilityC2Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_3_3_CompatibilityD0Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_3_3_CompatibilityD1Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_3_3_CompatibilityD2Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_4_0_Compatibility14versionProfileEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_4_0_Compatibility19isContextCompatibleEP14QOpenGLContext@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_4_0_Compatibility25initializeOpenGLFunctionsEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_4_0_CompatibilityC1Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_4_0_CompatibilityC2Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_4_0_CompatibilityD0Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_4_0_CompatibilityD1Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_4_0_CompatibilityD2Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_4_1_Compatibility14versionProfileEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_4_1_Compatibility19isContextCompatibleEP14QOpenGLContext@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_4_1_Compatibility25initializeOpenGLFunctionsEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_4_1_CompatibilityC1Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_4_1_CompatibilityC2Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_4_1_CompatibilityD0Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_4_1_CompatibilityD1Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_4_1_CompatibilityD2Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_4_2_Compatibility14versionProfileEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_4_2_Compatibility19isContextCompatibleEP14QOpenGLContext@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_4_2_Compatibility25initializeOpenGLFunctionsEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_4_2_CompatibilityC1Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_4_2_CompatibilityC2Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_4_2_CompatibilityD0Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_4_2_CompatibilityD1Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_4_2_CompatibilityD2Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_4_3_Compatibility14versionProfileEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_4_3_Compatibility19isContextCompatibleEP14QOpenGLContext@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_4_3_Compatibility25initializeOpenGLFunctionsEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_4_3_CompatibilityC1Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_4_3_CompatibilityC2Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_4_3_CompatibilityD0Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_4_3_CompatibilityD1Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_4_3_CompatibilityD2Ev@Qt_5 5.1.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_4_4_Compatibility14versionProfileEv@Qt_5 5.5.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_4_4_Compatibility19isContextCompatibleEP14QOpenGLContext@Qt_5 5.5.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_4_4_Compatibility25initializeOpenGLFunctionsEv@Qt_5 5.5.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_4_4_CompatibilityC1Ev@Qt_5 5.5.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_4_4_CompatibilityC2Ev@Qt_5 5.5.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_4_4_CompatibilityD0Ev@Qt_5 5.5.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_4_4_CompatibilityD1Ev@Qt_5 5.5.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_4_4_CompatibilityD2Ev@Qt_5 5.5.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_4_5_Compatibility14versionProfileEv@Qt_5 5.5.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_4_5_Compatibility19isContextCompatibleEP14QOpenGLContext@Qt_5 5.5.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_4_5_Compatibility25initializeOpenGLFunctionsEv@Qt_5 5.5.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_4_5_CompatibilityC1Ev@Qt_5 5.5.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_4_5_CompatibilityC2Ev@Qt_5 5.5.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_4_5_CompatibilityD0Ev@Qt_5 5.5.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_4_5_CompatibilityD1Ev@Qt_5 5.5.0
- (arch=!armel !armhf)_ZN34QOpenGLFunctions_4_5_CompatibilityD2Ev@Qt_5 5.5.0
  _ZN4QCss10StyleSheet12buildIndexesEN2Qt15CaseSensitivityE@Qt_5 5.0.2
  _ZN4QCss13StyleSelector15selectorMatchesERKNS_8SelectorENS0_7NodePtrE@Qt_5_PRIVATE_API 5.0.2 1
  _ZN4QCss13StyleSelector17styleRulesForNodeENS0_7NodePtrE@Qt_5_PRIVATE_API 5.0.2 1
@@ -5858,12 +5624,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK17QOffscreenSurface6screenEv@Qt_5 5.1.0
  _ZNK17QOffscreenSurface7isValidEv@Qt_5 5.1.0
  _ZNK17QOpenGLExtensions18hasOpenGLExtensionENS_15OpenGLExtensionE@Qt_5_PRIVATE_API 5.0.2 1
- (arch=!armel !armhf)_ZNK17QOpenGLTimerQuery10metaObjectEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZNK17QOpenGLTimerQuery13waitForResultEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZNK17QOpenGLTimerQuery16waitForTimestampEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZNK17QOpenGLTimerQuery17isResultAvailableEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZNK17QOpenGLTimerQuery8objectIdEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZNK17QOpenGLTimerQuery9isCreatedEv@Qt_5 5.1.0
  _ZNK17QPagedPaintDevice10pageLayoutEv@Qt_5 5.3.0
  _ZNK17QPagedPaintDevice10pageSizeMMEv@Qt_5 5.0.2
  _ZNK17QPagedPaintDevice16devicePageLayoutEv@Qt_5 5.3.0
@@ -5939,13 +5699,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZNK18QOpenGLPaintDevice4sizeEv@Qt_5 5.0.2
  _ZNK18QOpenGLPaintDevice6metricEN12QPaintDevice17PaintDeviceMetricE@Qt_5 5.0.2
  _ZNK18QOpenGLPaintDevice7contextEv@Qt_5 5.0.2
- (arch=!armel !armhf)_ZNK18QOpenGLTimeMonitor10metaObjectEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZNK18QOpenGLTimeMonitor11sampleCountEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZNK18QOpenGLTimeMonitor14waitForSamplesEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZNK18QOpenGLTimeMonitor16waitForIntervalsEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZNK18QOpenGLTimeMonitor17isResultAvailableEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZNK18QOpenGLTimeMonitor9isCreatedEv@Qt_5 5.1.0
- (arch=!armel !armhf)_ZNK18QOpenGLTimeMonitor9objectIdsEv@Qt_5 5.1.0
  _ZNK18QPaintDeviceWindow10metaObjectEv@Qt_5 5.4.0
  _ZNK18QPaintDeviceWindow11paintEngineEv@Qt_5 5.4.0
  _ZNK18QPaintDeviceWindow6metricEN12QPaintDevice17PaintDeviceMetricE@Qt_5 5.4.0
@@ -6964,7 +6717,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTI17QInputMethodEvent@Qt_5 5.0.2
  _ZTI17QInternalMimeData@Qt_5_PRIVATE_API 5.0.2 1
  _ZTI17QOffscreenSurface@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTI17QOpenGLTimerQuery@Qt_5 5.1.0
  _ZTI17QPagedPaintDevice@Qt_5 5.0.2
  _ZTI17QPaintEngineState@Qt_5 5.0.2
  _ZTI17QPdfEnginePrivate@Qt_5_PRIVATE_API 5.0.2 1
@@ -6974,7 +6726,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTI17QTextImageHandler@Qt_5_PRIVATE_API 5.0.2 1
  _ZTI18QOpenGLDebugLogger@Qt_5 5.1.0
  _ZTI18QOpenGLPaintDevice@Qt_5 5.0.2
- (arch=!armel !armhf)_ZTI18QOpenGLTimeMonitor@Qt_5 5.1.0
  _ZTI18QPaintDeviceWindow@Qt_5 5.4.0
  _ZTI18QPlatformClipboard@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZTI18QRasterPaintEngine@Qt_5_PRIVATE_API 5.0.2 1
@@ -6993,17 +6744,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTI19QTextDocumentLayout@Qt_5_PRIVATE_API 5.0.2 1
  _ZTI19QToolBarChangeEvent@Qt_5 5.0.2
  _ZTI20QAccessibleInterface@Qt_5 5.0.2
- (arch=!armel !armhf)_ZTI20QOpenGLFunctions_1_0@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTI20QOpenGLFunctions_1_1@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTI20QOpenGLFunctions_1_2@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTI20QOpenGLFunctions_1_3@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTI20QOpenGLFunctions_1_4@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTI20QOpenGLFunctions_1_5@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTI20QOpenGLFunctions_2_0@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTI20QOpenGLFunctions_2_1@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTI20QOpenGLFunctions_3_0@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTI20QOpenGLFunctions_3_1@Qt_5 5.1.0
- (arch=armel armhf)_ZTI20QOpenGLFunctions_ES2@Qt_5 5.2.0
+ _ZTI20QOpenGLFunctions_ES2@Qt_5 5.2.0
  _ZTI20QOpenGLShaderProgram@Qt_5 5.0.2
  _ZTI20QPictureFormatPlugin@Qt_5 5.0.2
  _ZTI20QPlatformIntegration@Qt_5_PRIVATE_API 5.9.0~beta 1
@@ -7049,14 +6790,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTI25QAccessibleImageInterface@Qt_5 5.6.0~beta
  _ZTI25QAccessibleTableInterface@Qt_5 5.6.0~beta
  _ZTI25QAccessibleValueInterface@Qt_5 5.6.0~beta
- (arch=!armel !armhf)_ZTI25QOpenGLFunctions_3_2_Core@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTI25QOpenGLFunctions_3_3_Core@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTI25QOpenGLFunctions_4_0_Core@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTI25QOpenGLFunctions_4_1_Core@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTI25QOpenGLFunctions_4_2_Core@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTI25QOpenGLFunctions_4_3_Core@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTI25QOpenGLFunctions_4_4_Core@Qt_5 5.5.0
- (arch=!armel !armhf)_ZTI25QOpenGLFunctions_4_5_Core@Qt_5 5.5.0
  _ZTI25QOpenGLPaintDevicePrivate@Qt_5_PRIVATE_API 5.4.0 1
  _ZTI25QPaintDeviceWindowPrivate@Qt_5_PRIVATE_API 5.4.0 1
  _ZTI25QPlatformFileDialogHelper@Qt_5_PRIVATE_API 5.9.0~beta 1
@@ -7088,14 +6821,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTI32QAccessibleEditableTextInterface@Qt_5 5.6.0~beta
  _ZTI32QAccessibleTableModelChangeEvent@Qt_5 5.6.0~beta
  _ZTI34QAbstractTextDocumentLayoutPrivate@Qt_5_PRIVATE_API 5.6.0~beta 1
- (arch=!armel !armhf)_ZTI34QOpenGLFunctions_3_2_Compatibility@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTI34QOpenGLFunctions_3_3_Compatibility@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTI34QOpenGLFunctions_4_0_Compatibility@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTI34QOpenGLFunctions_4_1_Compatibility@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTI34QOpenGLFunctions_4_2_Compatibility@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTI34QOpenGLFunctions_4_3_Compatibility@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTI34QOpenGLFunctions_4_4_Compatibility@Qt_5 5.5.0
- (arch=!armel !armhf)_ZTI34QOpenGLFunctions_4_5_Compatibility@Qt_5 5.5.0
  _ZTI5QDrag@Qt_5 5.0.2
  _ZTI6QImage@Qt_5 5.0.2
  _ZTI6QMovie@Qt_5 5.0.2
@@ -7226,7 +6951,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTS17QInputMethodEvent@Qt_5 5.0.2
  _ZTS17QInternalMimeData@Qt_5_PRIVATE_API 5.0.2 1
  _ZTS17QOffscreenSurface@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTS17QOpenGLTimerQuery@Qt_5 5.1.0
  _ZTS17QPagedPaintDevice@Qt_5 5.0.2
  _ZTS17QPaintEngineState@Qt_5 5.0.2
  _ZTS17QPdfEnginePrivate@Qt_5_PRIVATE_API 5.0.2 1
@@ -7236,7 +6960,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTS17QTextImageHandler@Qt_5_PRIVATE_API 5.0.2 1
  _ZTS18QOpenGLDebugLogger@Qt_5 5.1.0
  _ZTS18QOpenGLPaintDevice@Qt_5 5.0.2
- (arch=!armel !armhf)_ZTS18QOpenGLTimeMonitor@Qt_5 5.1.0
  _ZTS18QPaintDeviceWindow@Qt_5 5.4.0
  _ZTS18QPlatformClipboard@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZTS18QRasterPaintEngine@Qt_5_PRIVATE_API 5.0.2 1
@@ -7255,17 +6978,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTS19QTextDocumentLayout@Qt_5_PRIVATE_API 5.0.2 1
  _ZTS19QToolBarChangeEvent@Qt_5 5.0.2
  _ZTS20QAccessibleInterface@Qt_5 5.0.2
- (arch=!armel !armhf)_ZTS20QOpenGLFunctions_1_0@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTS20QOpenGLFunctions_1_1@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTS20QOpenGLFunctions_1_2@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTS20QOpenGLFunctions_1_3@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTS20QOpenGLFunctions_1_4@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTS20QOpenGLFunctions_1_5@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTS20QOpenGLFunctions_2_0@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTS20QOpenGLFunctions_2_1@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTS20QOpenGLFunctions_3_0@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTS20QOpenGLFunctions_3_1@Qt_5 5.1.0
- (arch=armel armhf)_ZTS20QOpenGLFunctions_ES2@Qt_5 5.2.0
+ _ZTS20QOpenGLFunctions_ES2@Qt_5 5.2.0
  _ZTS20QOpenGLShaderProgram@Qt_5 5.0.2
  _ZTS20QPictureFormatPlugin@Qt_5 5.0.2
  _ZTS20QPlatformIntegration@Qt_5_PRIVATE_API 5.9.0~beta 1
@@ -7311,14 +7024,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTS25QAccessibleImageInterface@Qt_5 5.6.0~beta
  _ZTS25QAccessibleTableInterface@Qt_5 5.6.0~beta
  _ZTS25QAccessibleValueInterface@Qt_5 5.6.0~beta
- (arch=!armel !armhf)_ZTS25QOpenGLFunctions_3_2_Core@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTS25QOpenGLFunctions_3_3_Core@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTS25QOpenGLFunctions_4_0_Core@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTS25QOpenGLFunctions_4_1_Core@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTS25QOpenGLFunctions_4_2_Core@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTS25QOpenGLFunctions_4_3_Core@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTS25QOpenGLFunctions_4_4_Core@Qt_5 5.5.0
- (arch=!armel !armhf)_ZTS25QOpenGLFunctions_4_5_Core@Qt_5 5.5.0
  _ZTS25QOpenGLPaintDevicePrivate@Qt_5_PRIVATE_API 5.4.0 1
  _ZTS25QPaintDeviceWindowPrivate@Qt_5_PRIVATE_API 5.4.0 1
  _ZTS25QPlatformFileDialogHelper@Qt_5_PRIVATE_API 5.9.0~beta 1
@@ -7350,14 +7055,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTS32QAccessibleEditableTextInterface@Qt_5 5.6.0~beta
  _ZTS32QAccessibleTableModelChangeEvent@Qt_5 5.6.0~beta
  _ZTS34QAbstractTextDocumentLayoutPrivate@Qt_5_PRIVATE_API 5.6.0~beta 1
- (arch=!armel !armhf)_ZTS34QOpenGLFunctions_3_2_Compatibility@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTS34QOpenGLFunctions_3_3_Compatibility@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTS34QOpenGLFunctions_4_0_Compatibility@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTS34QOpenGLFunctions_4_1_Compatibility@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTS34QOpenGLFunctions_4_2_Compatibility@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTS34QOpenGLFunctions_4_3_Compatibility@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTS34QOpenGLFunctions_4_4_Compatibility@Qt_5 5.5.0
- (arch=!armel !armhf)_ZTS34QOpenGLFunctions_4_5_Compatibility@Qt_5 5.5.0
  _ZTS5QDrag@Qt_5 5.0.2
  _ZTS6QImage@Qt_5 5.0.2
  _ZTS6QMovie@Qt_5 5.0.2
@@ -7487,7 +7184,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTV17QInputMethodEvent@Qt_5 5.0.2
  _ZTV17QInternalMimeData@Qt_5_PRIVATE_API 5.0.2 1
  _ZTV17QOffscreenSurface@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTV17QOpenGLTimerQuery@Qt_5 5.1.0
  _ZTV17QPagedPaintDevice@Qt_5 5.0.2
  _ZTV17QPdfEnginePrivate@Qt_5_PRIVATE_API 5.0.2 1
  _ZTV17QPixmapIconEngine@Qt_5_PRIVATE_API 5.5.0 1
@@ -7496,7 +7192,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTV17QTextImageHandler@Qt_5_PRIVATE_API 5.0.2 1
  _ZTV18QOpenGLDebugLogger@Qt_5 5.1.0
  _ZTV18QOpenGLPaintDevice@Qt_5 5.0.2
- (arch=!armel !armhf)_ZTV18QOpenGLTimeMonitor@Qt_5 5.1.0
  _ZTV18QPaintDeviceWindow@Qt_5 5.4.0
  _ZTV18QPlatformClipboard@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZTV18QRasterPaintEngine@Qt_5_PRIVATE_API 5.0.2 1
@@ -7515,17 +7210,7 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTV19QTextDocumentLayout@Qt_5_PRIVATE_API 5.0.2 1
  _ZTV19QToolBarChangeEvent@Qt_5 5.0.2
  _ZTV20QAccessibleInterface@Qt_5 5.0.2
- (arch=!armel !armhf)_ZTV20QOpenGLFunctions_1_0@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTV20QOpenGLFunctions_1_1@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTV20QOpenGLFunctions_1_2@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTV20QOpenGLFunctions_1_3@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTV20QOpenGLFunctions_1_4@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTV20QOpenGLFunctions_1_5@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTV20QOpenGLFunctions_2_0@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTV20QOpenGLFunctions_2_1@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTV20QOpenGLFunctions_3_0@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTV20QOpenGLFunctions_3_1@Qt_5 5.1.0
- (arch=armel armhf)_ZTV20QOpenGLFunctions_ES2@Qt_5 5.2.0
+ _ZTV20QOpenGLFunctions_ES2@Qt_5 5.2.0
  _ZTV20QOpenGLShaderProgram@Qt_5 5.0.2
  _ZTV20QPictureFormatPlugin@Qt_5 5.0.2
  _ZTV20QPlatformIntegration@Qt_5_PRIVATE_API 5.9.0~beta 1
@@ -7571,14 +7256,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTV25QAccessibleImageInterface@Qt_5 5.6.0~beta
  _ZTV25QAccessibleTableInterface@Qt_5 5.6.0~beta
  _ZTV25QAccessibleValueInterface@Qt_5 5.6.0~beta
- (arch=!armel !armhf)_ZTV25QOpenGLFunctions_3_2_Core@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTV25QOpenGLFunctions_3_3_Core@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTV25QOpenGLFunctions_4_0_Core@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTV25QOpenGLFunctions_4_1_Core@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTV25QOpenGLFunctions_4_2_Core@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTV25QOpenGLFunctions_4_3_Core@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTV25QOpenGLFunctions_4_4_Core@Qt_5 5.5.0
- (arch=!armel !armhf)_ZTV25QOpenGLFunctions_4_5_Core@Qt_5 5.5.0
  _ZTV25QOpenGLPaintDevicePrivate@Qt_5_PRIVATE_API 5.4.0 1
  _ZTV25QPaintDeviceWindowPrivate@Qt_5_PRIVATE_API 5.4.0 1
  _ZTV25QPlatformFileDialogHelper@Qt_5_PRIVATE_API 5.9.0~beta 1
@@ -7610,14 +7287,6 @@ libQt5Gui.so.5 libqt5gui5 #MINVER#
  _ZTV32QAccessibleEditableTextInterface@Qt_5 5.6.0~beta
  _ZTV32QAccessibleTableModelChangeEvent@Qt_5 5.6.0~beta
  _ZTV34QAbstractTextDocumentLayoutPrivate@Qt_5_PRIVATE_API 5.6.0~beta 1
- (arch=!armel !armhf)_ZTV34QOpenGLFunctions_3_2_Compatibility@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTV34QOpenGLFunctions_3_3_Compatibility@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTV34QOpenGLFunctions_4_0_Compatibility@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTV34QOpenGLFunctions_4_1_Compatibility@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTV34QOpenGLFunctions_4_2_Compatibility@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTV34QOpenGLFunctions_4_3_Compatibility@Qt_5 5.1.0
- (arch=!armel !armhf)_ZTV34QOpenGLFunctions_4_4_Compatibility@Qt_5 5.5.0
- (arch=!armel !armhf)_ZTV34QOpenGLFunctions_4_5_Compatibility@Qt_5 5.5.0
  _ZTV5QDrag@Qt_5 5.0.2
  _ZTV6QImage@Qt_5 5.0.2
  _ZTV6QMovie@Qt_5 5.0.2

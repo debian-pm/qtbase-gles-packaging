@@ -25,7 +25,7 @@ ifeq ($(DEB_HOST_ARCH),$(findstring $(DEB_HOST_ARCH), $(no_pch_architectures)))
 	extra_configure_opts += -no-pch
 endif
 
-gles2_architectures := armel armhf
+gles2_architectures := armel armhf i386
 ifeq ($(DEB_HOST_ARCH),$(findstring $(DEB_HOST_ARCH), $(gles2_architectures)))
 	extra_configure_opts += -opengl es2
 else
